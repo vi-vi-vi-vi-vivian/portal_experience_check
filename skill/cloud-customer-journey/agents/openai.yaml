@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloud Customer Journey"
+  short_description: "Analyze Huawei Cloud customer journeys"
+  default_prompt: "Use $cloud-customer-journey to audit a Huawei Cloud product URL across the full customer journey."

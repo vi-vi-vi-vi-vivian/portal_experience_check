@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# runtime outputs
+test/
+temp/
+
+# browser/login state
+**/_runtime/
+**/auth_cookie.json
+**/huaweicloud_login_profile/
+
+# local env/secrets
+.env
+*.env
+

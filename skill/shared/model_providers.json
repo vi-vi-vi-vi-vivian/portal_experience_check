@@ -1,0 +1,22 @@
+{
+  "defaults": {
+    "temperature": 0.2,
+    "max_output_tokens": 8192,
+    "timeout_seconds": 120,
+    "retries_per_model": 2,
+    "retry_sleep_seconds": 30,
+    "model_switch_sleep_seconds": 45
+  },
+  "fallback_chain": [
+    {
+      "provider": "gemini",
+      "models": ["gemini-3.5-flash", "gemini-2.5-flash"],
+      "api_key_env": "GEMINI_API_KEY"
+    }
+  ],
+  "agent_fallback": {
+    "enabled": true,
+    "mode": "current-codex-agent",
+    "note": "Local scripts cannot directly call the current Codex conversation model. If all configured Gemini models fail, continue the analysis in the active Codex session using the captured JSON and screenshots."
+  }
+}

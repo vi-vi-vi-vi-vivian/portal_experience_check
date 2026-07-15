@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mobile Cloud Customer Journey"
+  short_description: "Audit Huawei Cloud mobile pages"
+  default_prompt: "Use $mobile-cloud-customer-journey to audit a Huawei Cloud page in a mobile viewport."
