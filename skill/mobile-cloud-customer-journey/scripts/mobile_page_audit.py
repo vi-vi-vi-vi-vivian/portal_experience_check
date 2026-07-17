@@ -8,10 +8,8 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
-
 from playwright.sync_api import Page, sync_playwright
-
+from typing import Any
 
 TAP_CANDIDATE_JS = r"""() => {
   const riskyText = /删除|退订|支付|提交订单|确认订单|购买|立即购买|开通|释放|注销|Delete|Remove|Pay|Submit|Checkout/i;
@@ -582,7 +580,9 @@ def classify_tap_result(candidate: dict[str, Any], prepared: dict[str, Any], aft
 
 def audit_tap_actions(context, url: str, max_candidates: int = 12) -> dict[str, Any]:
     collector = context.new_page()
-    collector.goto(url, wait_until="domcontentloaded", timeout=60000)
+    collector.set_default_timeout(10000)
+    collector.set_default_navigation_timeout(45000)
+    collector.goto(url, wait_until="domcontentloaded", timeout=45000)
     wait_light(collector)
     candidates = collect_tap_candidates(collector)
     collector.close()
@@ -593,6 +593,8 @@ def audit_tap_actions(context, url: str, max_candidates: int = 12) -> dict[str, 
     issues: list[dict[str, Any]] = []
     for candidate in candidates[:max_candidates]:
         page = context.new_page()
+        page.set_default_timeout(10000)
+        page.set_default_navigation_timeout(45000)
         console_errors: list[str] = []
         popups: list[str] = []
 
@@ -614,7 +616,7 @@ def audit_tap_actions(context, url: str, max_candidates: int = 12) -> dict[str, 
         page.on("console", on_console)
         page.on("popup", on_popup)
         try:
-            page.goto(url, wait_until="domcontentloaded", timeout=60000)
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
             wait_light(page)
             prepared = page.evaluate(PREPARE_TAP_CANDIDATE_JS, candidate)
             if not prepared.get("found"):
@@ -622,7 +624,7 @@ def audit_tap_actions(context, url: str, max_candidates: int = 12) -> dict[str, 
                 status, possible_cause = classify_tap_result(candidate, prepared, after, popups, console_errors)
             else:
                 page.touchscreen.tap(prepared["x"], prepared["y"])
-                page.wait_for_timeout(3000)
+                page.wait_for_timeout(2200)
                 try:
                     page.wait_for_load_state("domcontentloaded", timeout=3000)
                 except Exception:
@@ -684,6 +686,8 @@ def main() -> int:
     parser.add_argument("--output-root", default="../../output/mobile")
     parser.add_argument("--run-id", default=None)
     parser.add_argument("--headed", action="store_true")
+    parser.add_argument("--tap-max-candidates", type=int, default=12, help="Maximum low-risk CTA candidates to replay-tap.")
+    parser.add_argument("--skip-tap-actions", action="store_true", help="Skip tap replay checks only when debugging capture failures.")
     args = parser.parse_args()
 
     base = safe_name(args.url)
@@ -724,7 +728,16 @@ def main() -> int:
         wait_and_scroll(page)
         page.screenshot(path=str(top_png), full_page=False)
         dom = audit_dom(page)
-        tap_actions = audit_tap_actions(context, args.url)
+        if args.skip_tap_actions:
+            tap_actions = {
+                "enabled": False,
+                "candidates": [],
+                "results": [],
+                "issues": [],
+                "reason": "Skipped by --skip-tap-actions.",
+            }
+        else:
+            tap_actions = audit_tap_actions(context, args.url, max_candidates=args.tap_max_candidates)
         after_scroll = inspect_after_scroll(page)
         page.screenshot(path=str(scroll_png), full_page=False)
         menu = inspect_menu(page)

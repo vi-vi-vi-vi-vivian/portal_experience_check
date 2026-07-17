@@ -8,12 +8,10 @@ import base64
 import html
 import json
 import re
+from PIL import Image, ImageDraw, ImageFont
 from datetime import datetime
 from pathlib import Path
 from typing import Any
-
-from PIL import Image, ImageDraw, ImageFont
-
 
 STAGES = ["感知", "下单", "支付", "使用", "续费", "变更", "退订"]
 SEVERITY_LABEL = {"p0": "阻断", "p1": "重要", "p2": "建议"}
@@ -143,8 +141,27 @@ def split_suggestion(value: Any) -> tuple[str, str]:
     for pattern in patterns:
         match = re.search(pattern, text)
         if match:
-            return summarize(match.group("before"), 120), summarize(match.group("after"), 140)
-    return summarize(text, 120), summarize(text, 140)
+            return summarize(match.group("before"), 120), clean_recommendation(match.group("after"))
+    return summarize(text, 120), clean_recommendation(text)
+
+
+def clean_recommendation(value: Any, max_len: int = 140) -> str:
+    text = compact_text(value)
+    text = re.sub(r"^(?:->|→)?\s*修改后[:：]\s*", "", text)
+    text = re.sub(r"^建议[:：]\s*", "", text)
+    return summarize(text, max_len)
+
+
+def issue_description(issue: dict[str, Any], max_len: int = 180) -> str:
+    current, _ = split_suggestion(issue.get("suggestion"))
+    evidence = summarize(issue.get("evidence"), max_len)
+    if not current:
+        return evidence
+    if not evidence:
+        return current
+    if current in evidence or evidence in current:
+        return summarize(evidence if len(evidence) >= len(current) else current, max_len)
+    return summarize(f"{evidence} 当前表现：{current}", max_len)
 
 
 def candidate_elements(page: dict[str, Any]) -> list[dict[str, Any]]:
@@ -306,18 +323,16 @@ def issue_card(stage: str, issue: dict[str, Any], index: int, has_marker: bool) 
     locate = ", ".join(issue.get("locate") or [])
     mid = marker_id(stage, index)
     marker = f"<span class='marker-ref {sev}'>#{index}</span>" if has_marker else "<span class='marker-ref missing'>未定位</span>"
-    current, recommendation = split_suggestion(issue.get("suggestion"))
+    _, recommendation = split_suggestion(issue.get("suggestion"))
     return f"""
     <article class="issue-card {sev}" id="issue-{esc(mid)}">
       <div class="issue-top">{marker}<span>{esc(SEVERITY_LABEL[sev])}</span><strong>{esc(stage)} · {esc(issue.get('title'))}</strong></div>
       <p><b>定位：</b>{esc(locate)}</p>
-      <p><b>现状：</b>{esc(current)}</p>
+      <p><b>问题说明：</b>{esc(issue_description(issue, 260))}</p>
       <p><b>建议修改：</b>{esc(recommendation)}</p>
       <details>
-        <summary>完整证据与标准</summary>
-        <p><b>证据：</b>{esc(issue.get('evidence'))}</p>
+        <summary>标准依据</summary>
         <p><b>标准：</b>{esc(issue.get('standard'))}</p>
-        <p><b>完整建议：</b>{esc(issue.get('suggestion'))}</p>
       </details>
     </article>
     """
@@ -329,7 +344,7 @@ def issue_row(issue: dict[str, Any], include_stage: str | None = None, marker: s
     marker_cell = f"<td>{esc(marker or '')}</td>" if marker is not None else ""
     title = issue.get("title") or issue.get("area") or "未命名问题"
     locate = ", ".join(issue.get("locate") or [])
-    current, recommendation = split_suggestion(issue.get("suggestion"))
+    _, recommendation = split_suggestion(issue.get("suggestion"))
     return f"""
     <tr class="{sev}">
       {stage_cell}
@@ -337,8 +352,7 @@ def issue_row(issue: dict[str, Any], include_stage: str | None = None, marker: s
       <td><span class="badge">{esc(SEVERITY_LABEL[sev])}</span></td>
       <td>{esc(title)}</td>
       <td>{esc(locate or "阶段级问题")}</td>
-      <td>{esc(summarize(issue.get('evidence'), 110))}</td>
-      <td>{esc(current)}</td>
+      <td>{esc(issue_description(issue, 150))}</td>
       <td>{esc(recommendation)}</td>
     </tr>
     """
@@ -350,7 +364,7 @@ def issue_table(rows: str, include_stage: bool = False) -> str:
         stage_head = "<th>标注</th>"
     return f"""
     <table class="issue-table">
-      <thead><tr>{stage_head}<th>级别</th><th>当前问题</th><th>定位</th><th>证据摘要</th><th>现状</th><th>建议修改</th></tr></thead>
+      <thead><tr>{stage_head}<th>级别</th><th>当前问题</th><th>定位</th><th>问题说明</th><th>建议修改</th></tr></thead>
       <tbody>{rows}</tbody>
     </table>
     """
@@ -365,7 +379,7 @@ def priority_row(stage: str, issue: dict[str, Any], marker: str) -> str:
       <td>{esc(marker)}</td>
       <td><span class="badge">{esc(SEVERITY_LABEL[sev])}</span></td>
       <td>{esc(issue.get("title") or issue.get("area") or "未命名问题")}</td>
-      <td>{esc(summarize(issue.get("evidence"), 120))}</td>
+      <td>{esc(issue_description(issue, 150))}</td>
       <td>{esc(recommendation)}</td>
     </tr>
     """
@@ -374,7 +388,7 @@ def priority_row(stage: str, issue: dict[str, Any], marker: str) -> str:
 def priority_table(rows: str) -> str:
     return f"""
     <table class="issue-table priority-table">
-      <thead><tr><th>阶段</th><th>标注</th><th>级别</th><th>当前问题</th><th>证据摘要</th><th>建议修改</th></tr></thead>
+      <thead><tr><th>阶段</th><th>标注</th><th>级别</th><th>当前问题</th><th>问题说明</th><th>建议修改</th></tr></thead>
       <tbody>{rows}</tbody>
     </table>
     """
@@ -442,10 +456,6 @@ def main() -> int:
         for idx in range(1, len(stage_issues) + 1):
             issue_markers[(stage, idx)] = idx in markers
         img = image_data_uri(annotated_path or item.get("annotated_screenshot") or item.get("screenshot_path"), root)
-        issue_rows = "".join(
-            issue_row(issue, marker=f"#{idx}" if idx in markers else "未可靠定位").replace("<tr", "<tr data-has-marker='1'", 1)
-            for idx, issue in enumerate(stage_issues, start=1)
-        )
         detail_cards = "".join(
             issue_card(stage, issue, idx, idx in markers)
             for idx, issue in enumerate(stage_issues, start=1)
@@ -462,8 +472,7 @@ def main() -> int:
           {marker_note}
           {"<figure class='screenshot'><img src='" + img + "' alt='" + esc(stage) + " annotated screenshot'><figcaption>标注截图：编号对应下方问题详情</figcaption></figure>" if img else ""}
           <div class="issues">
-            {issue_table(issue_rows) if issue_rows else "<p>无证据充分的问题。</p>"}
-            <div class="issue-details">{detail_cards}</div>
+            {f'<div class="issue-details">{detail_cards}</div>' if detail_cards else "<p>无证据充分的问题。</p>"}
           </div>
         </section>
         """)
@@ -556,7 +565,8 @@ img{{display:block;max-width:100%;border:1px solid var(--line);border-radius:6px
 .issue-table th:nth-child(2),.issue-table td:nth-child(2){{width:74px}}
 .issue-table th:nth-child(3),.issue-table td:nth-child(3){{width:112px}}
 .issue-table th:nth-child(4),.issue-table td:nth-child(4){{width:150px}}
-.issue-table th:nth-child(6),.issue-table td:nth-child(6){{width:16%}}
+.issue-table th:nth-last-child(2),.issue-table td:nth-last-child(2){{width:28%}}
+.issue-table th:last-child,.issue-table td:last-child{{width:20%}}
 .all-issues .issue-table th:nth-child(1),.all-issues .issue-table td:nth-child(1){{width:72px}}
 .all-issues .issue-table th:nth-child(2),.all-issues .issue-table td:nth-child(2){{width:88px}}
 .all-issues .issue-table th:nth-child(3),.all-issues .issue-table td:nth-child(3){{width:74px}}
@@ -622,7 +632,7 @@ tr.p0 td:first-child{{border-left:4px solid var(--red)}}tr.p1 td:first-child{{bo
           <div class="metric"><b>{counts["p2"]}</b><span>建议问题</span></div>
         </section>
         <section class="journey">
-          <div class="section-title"><h2>客户旅程总览</h2><p>点击阶段查看截图与问题表</p></div>
+          <div class="section-title"><h2>客户旅程总览</h2><p>点击阶段查看截图与问题详情</p></div>
           <div class="journey-grid">{''.join(journey_overview)}</div>
         </section>
         <section class="priority">
@@ -633,7 +643,7 @@ tr.p0 td:first-child{{border-left:4px solid var(--red)}}tr.p1 td:first-child{{bo
       <section id="stage-detail" class="content-section stage-section">
         <div class="section-header">
           <h2>阶段详细报告</h2>
-          <p>共 {len(STAGES)} 个阶段，逐阶段展示截图、页面地址和问题表。</p>
+          <p>共 {len(STAGES)} 个阶段，逐阶段展示截图、页面地址和问题详情。</p>
         </div>
         {''.join(stage_cards)}
       </section>

@@ -6,11 +6,9 @@ from __future__ import annotations
 import argparse
 import base64
 import html
+import markdown
 import re
 from pathlib import Path
-
-import markdown
-
 
 CSS = """
 :root {
@@ -142,15 +140,16 @@ def image_src(report_dir: Path, src: str, embed_images: bool) -> str | None:
     return f"data:{mime};base64,{data}"
 
 
-def build_gallery(report_dir: Path, screenshot_dir: Path, image_prefix: str, embed_images: bool) -> str:
+def build_gallery(report_dir: Path, screenshot_dir: Path, image_prefix: str, embed_images: bool, include_full: bool) -> str:
     if not screenshot_dir.is_absolute():
         screenshot_dir = (report_dir / screenshot_dir).resolve()
     shots = [
         ("首屏", screenshot_dir / f"{image_prefix}_top.png"),
         ("滚动后", screenshot_dir / f"{image_prefix}_scroll.png"),
         ("菜单展开", screenshot_dir / f"{image_prefix}_menu.png"),
-        ("全页", screenshot_dir / f"{image_prefix}_full.png"),
     ]
+    if include_full:
+        shots.append(("全页", screenshot_dir / f"{image_prefix}_full.png"))
     items = []
     for label, src in shots:
         display_src = str(src) if src.is_absolute() else src.as_posix()
@@ -173,6 +172,7 @@ def main() -> int:
     parser.add_argument("--image-prefix", default="https_skills_huaweicloud_com")
     parser.add_argument("--screenshot-dir", default="../screenshots")
     parser.add_argument("--embed-images", action="store_true")
+    parser.add_argument("--include-full-screenshot", action="store_true", help="Include the very tall full-page screenshot in the gallery.")
     args = parser.parse_args()
 
     input_path = Path(args.input).resolve()
@@ -187,7 +187,7 @@ def main() -> int:
             text,
         )
     html_body = markdown.markdown(text, extensions=["tables", "fenced_code", "sane_lists"])
-    gallery = build_gallery(output_path.parent, Path(args.screenshot_dir), args.image_prefix, args.embed_images)
+    gallery = build_gallery(output_path.parent, Path(args.screenshot_dir), args.image_prefix, args.embed_images, args.include_full_screenshot)
     title = "华为云 Skills 门户手机端体验走查报告"
     document = f"""<!doctype html>
 <html lang="zh-CN">

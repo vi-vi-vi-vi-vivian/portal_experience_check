@@ -1,0 +1,85 @@
+{
+  "stage": "下单",
+  "score": 6,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "自动续费缺少交互控件，用户无法选择或开通",
+      "area": "套餐配置区",
+      "locate": [
+        "自动续费",
+        "自动续费时系统从可用余额扣款。了解自动续费规则"
+      ],
+      "evidence": "页面上展示了“自动续费”配置项，并说明“自动续费时系统从可用余额扣款”，但右侧没有任何勾选框、开关（Switch）或下拉菜单等交互控件，用户无法进行选择或开通操作，且“抵扣规则”中又提到“开通自动续费后下一个周期会重新恢复额度”，导致功能逻辑割裂。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #3",
+      "severity": "p0",
+      "suggestion": "修改前：仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则” -> 修改后：在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。"
+    },
+    {
+      "title": "Pro和Max套餐卡片视觉上呈现置灰状态，易被误认为不可选",
+      "area": "套餐配置区",
+      "locate": [
+        "Pro",
+        "Max",
+        "¥399.00",
+        "¥799.00"
+      ],
+      "evidence": "截图中“Pro”和“Max”套餐卡片的文字（如价格“¥399.00 /月”、“¥799.00 /月”等）和图标颜色均为浅灰色，与未选中的“Standard”卡片（黑色文字）相比，视觉对比度极低，呈现出明显的“禁用/置灰”状态，但页面上并未说明这些套餐不可选的原因，容易误导用户。",
+      "standard": "Garrett: Surface Plane | Nielsen #8 | Nielsen #5",
+      "severity": "p1",
+      "suggestion": "修改前：Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式) -> 修改后：统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。"
+    },
+    {
+      "title": "“不支持退订”等关键约束风险提示不醒目，存在客诉隐患",
+      "area": "购买须知区",
+      "locate": [
+        "不支持退订",
+        "购买须知"
+      ],
+      "evidence": "购买须知中明确指出“不支持退订”，但该文本字号仅约12px，且使用普通灰色字体，夹杂在其他说明中，缺乏视觉警示（如红色高亮或感叹号图标），用户极易忽略此关键限制，购买后可能引发退款纠纷。",
+      "standard": "Nielsen #5 | ISO 9241-110",
+      "severity": "p1",
+      "suggestion": "修改前：“不支持退订”使用普通灰色无标示文本 -> 修改后：将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。"
+    },
+    {
+      "title": "支持模型列表中的标点符号混用，格式不规范",
+      "area": "套餐配置区",
+      "locate": [
+        "GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2"
+      ],
+      "evidence": "“支持模型”下方的模型列表中，中文全角逗号“，”与英文半角逗号“,”混用（例如“GLM-5.1， GLM-5”之间是全角，“GLM-5， Kimi-K2.6”之间是半角），且空格格式不统一，影响文案专业度。",
+      "standard": "Nielsen #4",
+      "severity": "p2",
+      "suggestion": "修改前：\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\" -> 修改后：统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。"
+    },
+    {
+      "title": "满意度评价弹窗在下单核心流程中弹出，干扰用户操作",
+      "area": "全局页面",
+      "locate": [
+        "诚邀您对“MaaS模型即服务”进行满意度评价"
+      ],
+      "evidence": "页面右侧弹出了“满意度评价”卡片，遮挡了部分背景，且在用户进行“下单购买”这一高专注度、高敏感度的核心交易流程中弹出，极易分散用户注意力，干扰正常的购买决策。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #8",
+      "severity": "p2",
+      "suggestion": "修改前：在下单页面主动弹出满意度评价窗口 -> 修改后：将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。"
+    }
+  ],
+  "suggestions": [
+    "在自动续费配置项右侧增加明确的交互开关，使用户能够自主选择是否开启自动续费。",
+    "统一未选中套餐卡片的视觉对比度，避免Pro和Max卡片因颜色过浅而被误认为不可用状态。",
+    "对‘不支持退订’等涉及用户资金和权益的关键约束信息进行视觉强化，使用警示色或图标突出显示。",
+    "规范页面文案中的标点符号使用，避免中英文标点混用，提升品牌专业度。",
+    "优化满意度评价弹窗的触发时机，避免在下单、支付等核心交易链路中弹出干扰性卡片。"
+  ],
+  "analysis_content": "下单页面整体布局清晰，但在核心交互和风险提示上存在明显体验缺陷。自动续费功能缺少交互控件，导致用户无法自主选择；Pro和Max套餐卡片视觉上呈现置灰状态，容易产生不可选的误导；‘不支持退订’等关键风险提示不够醒目，存在潜在的客诉风险；此外，在核心下单流程中弹出满意度评价卡片，对用户操作造成了不必要的干扰。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
+  "title": "MaaS - Console",
+  "screenshot_path": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
+}

@@ -1,0 +1,58 @@
+{
+  "stage": "变更",
+  "score": 5,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "变更页面缺乏当前已订阅套餐的状态标识，且操作按钮文案仍为“购买”",
+      "area": "定价/套餐区",
+      "locate": [
+        "Lite",
+        "Standard",
+        "购买"
+      ],
+      "evidence": "页面处于控制台的“订阅管理”中，底部文案提示“当前Token Plan 为个人版”，但四个套餐卡片（Lite、Standard、Pro、Max）中没有任何一个卡片被标记为“当前已订阅”状态，且Lite和Standard卡片的操作按钮文案依然为“购买”而非“升级”或“变更”。",
+      "standard": "Nielsen #1 | Nielsen #4",
+      "severity": "p0",
+      "suggestion": "修改前：Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识 -> 修改后：在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。"
+    },
+    {
+      "title": "关键风险提示“不支持退订”视觉权重过低，容易被忽略",
+      "area": "底部提示区",
+      "locate": [
+        "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
+      ],
+      "evidence": "底部提示文案“当前Token Plan 为个人版，订阅服务购买后不支持退订。 详见套餐概览”字号较小，且颜色为普通文本色，缺乏警示图标（如感叹号）或高亮色彩（如红色），在页面底部视觉权重极低。",
+      "standard": "Nielsen #5 | ISO 9241-110",
+      "severity": "p1",
+      "suggestion": "修改前：当前样式(color: rgb(89, 89, 89), fontSize: 12px) -> 修改后：增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。"
+    },
+    {
+      "title": "缺货置灰按钮缺乏替代操作路径",
+      "area": "定价/套餐区",
+      "locate": [
+        "7月17日10:00补货"
+      ],
+      "evidence": "Pro和Max套餐卡片的按钮因缺货显示“7月17日10:00补货”并置灰禁用，但页面未提供“到货通知”、“预约”或“联系客服”等任何替代交互路径，限制了用户在缺货场景下的自主权。",
+      "standard": "Nielsen #3 | Nielsen #10",
+      "severity": "p2",
+      "suggestion": "修改前：按钮仅显示“7月17日10:00补货”且置灰不可点击 -> 修改后：在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。"
+    }
+  ],
+  "suggestions": [
+    "在订阅管理页面中，应清晰区分‘首次购买’与‘套餐变更’的业务场景，提供当前套餐的状态标识，并将其他套餐的操作按钮文案适配为‘升级’或‘变更’。",
+    "强化‘不支持退订’等涉及用户资金和权益的关键约束信息的视觉层级，避免用户因信息漏读产生客诉。",
+    "针对缺货套餐，提供预约或到货通知功能，提升用户在异常流中的操作自主权与满意度。"
+  ],
+  "analysis_content": "变更阶段（订阅管理）页面存在严重的系统状态不透明和文案不一致问题。页面直接复用了购买页的布局与文案，未对用户当前已订阅的套餐进行任何视觉标记，且可操作按钮依然显示为‘购买’，极易让用户产生‘是否会重复扣费’或‘如何进行套餐升级’的困惑。此外，关键的‘不支持退订’风险提示视觉权重极低，缺货套餐也缺乏合理的替代路径。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
+  "title": "MaaS - Console",
+  "screenshot_path": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
+}

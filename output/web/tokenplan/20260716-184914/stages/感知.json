@@ -1,0 +1,87 @@
+{
+  "stage": "感知",
+  "score": 6,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "订阅按钮跳转目标不精准",
+      "area": "定价/套餐区",
+      "locate": [
+        "立即订阅",
+        "Lite",
+        "Standard",
+        "Pro",
+        "Max"
+      ],
+      "evidence": "DOM数据中，Lite、Standard、Pro、Max四个套餐的“立即订阅”按钮href均为'https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'，直接跳转到控制台资源管理首页，而非对应套餐的下单支付确认页，导致用户需要二次寻找和选择。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6",
+      "severity": "p0",
+      "suggestion": "修改前：href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement' -> 修改后：点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页"
+    },
+    {
+      "title": "退订政策前后矛盾",
+      "area": "底部Footer区",
+      "locate": [
+        "订阅服务购买后不支持退订",
+        "退订\n\n享无忧退订服务"
+      ],
+      "evidence": "定价区下方明确标注“订阅服务购买后不支持退订”，而页面底部的通用Footer区域却展示“退订 享无忧退订服务”并提供退订服务链接，同一页面内关于退订政策的口径前后矛盾，极易误导用户。",
+      "standard": "Nielsen #4",
+      "severity": "p0",
+      "suggestion": "修改前：正文写“不支持退订”且底部展示“享无忧退订服务” -> 修改后：在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明"
+    },
+    {
+      "title": "首屏缺少核心操作按钮(CTA)",
+      "area": "首屏主视觉区",
+      "locate": [
+        "Token Plan",
+        "专为编程与智能体场景打造"
+      ],
+      "evidence": "首屏Banner区域（y: 201, h: 78）仅包含产品名称和一句话简介，未提供任何“立即订阅”或“免费体验”等引导用户转化的核心CTA按钮，用户必须向下滚动页面才能进行操作。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6",
+      "severity": "p1",
+      "suggestion": "修改前：首屏仅展示产品名称和简介 -> 修改后：在首屏简介下方新增“立即订阅”主按钮，提升转化效率"
+    },
+    {
+      "title": "计费规则信息不完整",
+      "area": "定价/套餐区",
+      "locate": [
+        "每订阅月",
+        "5000 万 Tokens",
+        "1.3 亿 Tokens"
+      ],
+      "evidence": "套餐卡片仅标注了“每订阅月 5000 万 Tokens”和价格，但未说明 Tokens 额度在当月未使用完是否会清零或结转，也未说明超出额度后的计费标准或限制规则，信息展示不完整。",
+      "standard": "Garrett: Structure Plane | Nielsen #10",
+      "severity": "p1",
+      "suggestion": "修改前：仅展示“每订阅月 5000 万 Tokens” -> 修改后：在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”"
+    },
+    {
+      "title": "FAQ存在明显错别字",
+      "area": "FAQ/常见问题区",
+      "locate": [
+        "订阅 Token Plan 后时候需要再单独开通模型服务？"
+      ],
+      "evidence": "第三条FAQ的标题为“订阅 Token Plan 后时候需要再单独开通模型服务？”，其中“后时候”为明显错别字，应为“后是否”。",
+      "standard": "Nielsen #2 | Nielsen #4",
+      "severity": "p2",
+      "suggestion": "修改前：“订阅 Token Plan 后时候需要再单独开通模型服务？” -> 修改后：“订阅 Token Plan 后是否需要单独开通模型服务？”"
+    }
+  ],
+  "suggestions": [
+    "优化订阅按钮的跳转逻辑，实现一键直达对应套餐的购买页，缩短用户决策路径。",
+    "统一退订政策口径，避免在同一页面中出现“不支持退订”与“享无忧退订服务”的冲突文案。",
+    "在首屏Banner中增加核心CTA按钮，提升页面的首屏转化率。",
+    "修正FAQ中的错别字，提升页面的专业度与可信度。"
+  ],
+  "analysis_content": "感知阶段页面整体布局清晰，但在核心购买链路、信息一致性及文案细节上存在较多体验问题。主要表现在订阅按钮未直达具体套餐购买页、退订政策在正文与Footer中前后矛盾、首屏缺乏核心CTA按钮以及FAQ中存在错别字，需要进行针对性优化以提升用户转化率和信任度。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+  "title": "Token Plan-智果园-华为云",
+  "screenshot_path": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
+}

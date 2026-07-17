@@ -47,6 +47,8 @@ python scripts/run_audit.py --url "<URL>" --project-root "$PWD" --site cn \
   screenshots/
 ```
 
+`audit.json` 是系统集成主产物，和 mobile skill 使用同一顶层 schema：`schema_version`、`source`、`input_url`、`generated_at`、`summary`、`sections`、`issues`、`model`。系统分发问题时优先读取顶层 `issues[]`；阶段视图读取 `sections[]`。Web 额外保留 `stages/<阶段>.json` 作为中间文件。
+
 登录态、浏览器 profile 和手动单步调试输出默认也写入父级 `../../output/web/`，避免运行产物混入 skill 源码目录。可用 `--output-root` 或 `--run-id` 控制 run 目录，用 `--output` 指定最终 HTML 报告路径。
 
 ### 1. 工具与环境检查
@@ -273,6 +275,10 @@ python scripts/step3_crawl_journey.py --url "<URL>" --project-root "$PWD" --site
 
 ## 五、模型分析规则
 
+阶段分析必须遵循完整步骤4规范，详见 `references/stage4_agent_analysis_full.md`。该文件已完整纳入 AI Agent 逐阶段分析的 4a-4g 全量规则，包括视觉截图分析、DOM 数据分析、交叉验证合并、DOM 标注、使用阶段控制台可达性、感知阶段交互探索、跨阶段一致性检查，以及各类提示词、降级策略、输出格式和证据约束。
+
+`scripts/step4_analyze_stage.py` 在构造模型 prompt 时会读取 `references/stage4_agent_analysis_full.md` 并完整拼入 `<FULL_STAGE4_AGENT_ANALYSIS_RULES>`，因此不要把该引用删减为摘要。后续调整步骤4时，应优先更新该完整参考文件，再同步必要的脚本逻辑。
+
 逐阶段分析：
 
 ```bash
@@ -294,6 +300,7 @@ python scripts/step4_analyze_stage.py --stage "<阶段>" --crawl-result "../../o
 
 - 全页截图和最多 6 张 region 截图。
 - DOM 摘要：正文、结构化 HTML、按钮、链接、价格、样式、元素位置、入口阻断标记。
+- 完整步骤4分析规范：`references/stage4_agent_analysis_full.md` 的 4a-4g 全量内容。
 
 分析输出必须是 JSON，且每个问题至少包含：
 
@@ -398,4 +405,5 @@ python scripts/step5_generate_report.py --project-root "$PWD" --analysis "<RUN_D
 - `../shared/model_providers.json`：Gemini fallback 与 agent fallback 说明配置。
 - `../shared/ai_provider.py`：共享模型调用与 fallback 逻辑。
 - `references/analysis_prompts.md`：模型 prompt 摘要。
+- `references/stage4_agent_analysis_full.md`：步骤4 AI Agent 逐阶段分析全量规范，实际阶段分析 prompt 会完整拼入。
 - `references/data_contract.md`：JSON 数据契约。

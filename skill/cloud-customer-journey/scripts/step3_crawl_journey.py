@@ -10,10 +10,8 @@ import time
 import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
-
 from playwright.sync_api import Page, sync_playwright
-
+from typing import Any
 
 STAGES = ["感知", "下单", "支付", "使用", "续费", "变更", "退订"]
 LOGIN_REQUIRED_STAGES = {"支付", "使用", "续费", "变更", "退订"}
@@ -92,6 +90,7 @@ ORDER_CONFIG_PATTERNS = ["购买须知", "套餐配置", "配置费用", "自动
 ORDER_STEP_PATTERNS = ["立即订阅", "立即购买", "立即选购", "去购买", "免费试用", "购买", "Buy", "Purchase", "Subscribe", "Get Started", "Free Trial", "开通"]
 PAYMENT_URL_MARKERS = ["servicepay", "cashier", "payment"]
 PAYMENT_TEXT_MARKERS = ["支付确认", "确认支付", "在线支付", "收银台", "应付金额", "支付方式"]
+PAYMENT_CONFIRMATION_ACTIONS = ["确认付款", "立即支付", "去支付", "支付", "Confirm Payment", "Pay Now", "Pay"]
 
 
 def has_huawei_cookies(auth_state: Path) -> bool:
@@ -579,10 +578,20 @@ def page_is_payment_flow(page: Page) -> bool:
 
 
 def submit_order_to_payment(page: Page, patterns: list[str], profile: dict[str, Any] | None = None, retries: int = 3) -> bool:
+    """Create the unpaid order if needed, then stop at the cashier/payment page.
+
+    This function intentionally never clicks payment execution controls on a
+    page that already looks like a cashier/payment page. Reaching servicePay may
+    create an unpaid order, but the crawler must not confirm or fund payment.
+    """
     for _ in range(retries):
         dismiss_blocking_overlays(page)
+        if page_is_payment_flow(page):
+            return True
         check_agreements(page)
         dismiss_blocking_overlays(page)
+        if page_is_payment_flow(page):
+            return True
         if click_cta_with_fallback(page, patterns):
             dismiss_blocking_overlays(page)
             if page_is_payment_flow(page):
@@ -1252,6 +1261,13 @@ def main() -> int:
                 dismiss_blocking_overlays(page)
                 log_stage(stage, f"ready for screenshot; url={page.url}")
                 record = extract_page(page, root, stage, len(pages) + 1, screenshot_dir)
+                if stage == "支付":
+                    record["automation_safety"] = {
+                        "entered_payment_page": page_is_payment_flow(page),
+                        "stopped_before_payment_confirmation": True,
+                        "never_click_payment_actions": PAYMENT_CONFIRMATION_ACTIONS,
+                        "note": "Crawler may submit the order to reach servicePay, but stops before any payment confirmation action.",
+                    }
                 ok, reason = stage_goal_reached(record, target_url, product_keywords, product_profile)
                 if not ok:
                     record["entry_not_found"] = True

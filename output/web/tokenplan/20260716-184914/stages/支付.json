@@ -1,0 +1,70 @@
+{
+  "stage": "支付",
+  "score": 7,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "产品类型名称与实际购买产品不一致且存在冗余拼接",
+      "area": "云服务订单区",
+      "locate": [
+        "ModelArts ModelArts",
+        "购买Token Plan 个人版套餐"
+      ],
+      "evidence": "订单表格中“产品类型”列的值为 \"ModelArts ModelArts\"，而页面主标题为 \"购买Token Plan 个人版套餐\"，两者不一致，且 \"ModelArts ModelArts\" 存在名称重复拼接。",
+      "standard": "Nielsen #4 | Cooper: Conceptual Integrity",
+      "severity": "p1",
+      "suggestion": "修改前：\"ModelArts ModelArts\" -> 修改后：\"Token Plan\"（或与实际产品名一致的单次呈现）"
+    },
+    {
+      "title": "支付截止时间提示使用专业时区术语增加认知负荷",
+      "area": "顶部提示区",
+      "locate": [
+        "请于 2026/07/23 23:59:59 GMT+08:00 内完成付款"
+      ],
+      "evidence": "提示文案中包含 \"GMT+08:00\" 专业时区术语，对于普通用户而言不够直观，增加了认知负荷。",
+      "standard": "Nielsen #2 | ISO 9241-110",
+      "severity": "p2",
+      "suggestion": "修改前：\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\" -> 修改后：\"请于 2026/07/23 23:59:59（北京时间）内完成付款\""
+    },
+    {
+      "title": "在线支付渠道图标过小且缺乏文字说明",
+      "area": "支付方式区",
+      "locate": [
+        "支持",
+        "等多种在线支付方式"
+      ],
+      "evidence": "在线支付渠道仅通过极小的图标展示，缺乏文字辅助说明（如“支付宝”、“微信支付”），且图标尺寸过小，不便于辨识。",
+      "standard": "Garrett: Surface Plane | Nielsen #8",
+      "severity": "p2",
+      "suggestion": "修改前：仅显示极小图标 -> 修改后：在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸"
+    },
+    {
+      "title": "关键资金风险提示视觉警示强度不足",
+      "area": "余额支付区",
+      "locate": [
+        "若您有自动扣款的资源，如按需资源、自动续费资源等，请规划好资金，避免扣款失败影响您的使用"
+      ],
+      "evidence": "涉及服务中断风险的提示文本字号约为12px，颜色为浅灰色，与背景对比度较低，且缺乏警示图标，容易被用户忽略。",
+      "standard": "Nielsen #5",
+      "severity": "p1",
+      "suggestion": "修改前：当前浅灰色小字样式 -> 修改后：增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)"
+    }
+  ],
+  "suggestions": [
+    "统一订单页中的产品类型名称，消除重复拼接现象，确保与用户购买的实际产品一致。",
+    "优化支付截止时间的时区表述，使用更符合中国用户习惯的“北京时间”或直接省略时区。",
+    "增强在线支付渠道的视觉辨识度，增加文字标签辅助说明。",
+    "提升余额扣款风险提示的视觉层级，避免用户因忽略提示而导致按需资源欠费停机。"
+  ],
+  "analysis_content": "支付页面整体布局清晰，但在信息一致性、风险提示醒目度以及专业术语可理解性方面存在改进空间。特别是产品类型字段出现重复拼接且与实际购买产品不符，容易让用户产生混淆；资金风险提示和支付渠道标识的视觉权重较低，需要进一步优化以提升用户体验和防错能力。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
+  "title": "支付",
+  "screenshot_path": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
+}

@@ -1,0 +1,71 @@
+{
+  "stage": "使用",
+  "score": 6,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "订阅管理页面缺乏用户当前订阅状态展示，直接呈现购买卡片，角色定位模糊",
+      "area": "主内容区",
+      "locate": [
+        "订阅管理",
+        "订阅 Token Plan，开启高效开发"
+      ],
+      "evidence": "用户进入控制台的“订阅管理”页面（URL含resourcePlanManagement），页面未展示用户当前的订阅状态、剩余Token额度或历史订单，而是直接展示了4个套餐的购买卡片（Lite、Standard、Pro、Max），将“使用/管理”阶段与“购买”阶段混淆，不符合控制台管理页面的用户预期。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #1: Visibility of System Status",
+      "severity": "p1",
+      "suggestion": "修改前：进入“订阅管理”直接展示套餐购买卡片 -> 修改后：优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。"
+    },
+    {
+      "title": "关键约束信息“不支持退订”视觉权重过低，存在用户误购风险",
+      "area": "底部提示区",
+      "locate": [
+        "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
+      ],
+      "evidence": "“不支持退订”这一涉及用户资金安全和不可逆后果的关键约束信息，以12px小字放置在页面最底部，且使用蓝色提示图标（通常代表普通信息提示），而非高警示性的橙色或红色警告，极易被用户忽略。",
+      "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "severity": "p1",
+      "suggestion": "修改前：fontSize:12px, color:rgb(20, 118, 255)（蓝色提示） -> 修改后：使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。"
+    },
+    {
+      "title": "部分套餐缺货置灰按钮缺乏明确的补货机制说明或订阅通知入口",
+      "area": "定价/套餐区",
+      "locate": [
+        "7月17日10:00补货",
+        "Pro",
+        "Max"
+      ],
+      "evidence": "Pro和Max套餐卡片下的操作按钮处于禁用置灰状态，文案为“7月17日10:00补货”。页面未提供“到货通知”或“预约”等交互入口，导致有高配需求的用户在控制台内无法进行任何有效操作，链路中断。",
+      "standard": "Nielsen #3: User Control and Freedom | Nielsen #7: Flexibility and Efficiency",
+      "severity": "p2",
+      "suggestion": "修改前：置灰按钮显示\"7月17日10:00补货\"且不可点击 -> 修改后：在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。"
+    },
+    {
+      "title": "核心计费单位“每订阅月”表意模糊，缺乏标准定义",
+      "area": "定价/套餐区",
+      "locate": [
+        "每订阅月：5000 万 Tokens",
+        "每订阅月：1.3 亿 Tokens"
+      ],
+      "evidence": "套餐卡片中使用“每订阅月”作为Tokens配额的重置周期单位，该词汇并非业界通用标准术语（如“自然月”或“账单月”），用户难以准确理解Tokens是在每月1号重置，还是在购买日期的次月同日重置。",
+      "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
+      "severity": "p2",
+      "suggestion": "修改前：\"每订阅月：5000 万 Tokens\" -> 修改后：\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。"
+    }
+  ],
+  "suggestions": [
+    "在控制台‘订阅管理’页面中，重构信息架构，优先展示用户当前的Token消耗大盘和订阅状态，而非纯粹的销售导向页面。",
+    "针对‘不支持退订’等高风险条款，在购买链路中加入强交互确认弹窗，避免用户因误读产生客诉。",
+    "优化缺货套餐的交互，提供‘补货订阅通知’功能，闭环用户在控制台内的操作链路。"
+  ],
+  "analysis_content": "对华为云MaaS控制台‘订阅管理’页面进行了深度审查。发现该页面在‘使用’阶段的角色定位模糊，过度偏向‘购买’导向，缺乏对用户当前订阅状态的呈现。同时，在关键约束信息的警示度、缺货套餐的交互闭环以及计费术语的易理解性上存在明显的体验缺陷，亟需进行交互与视觉层面的优化。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
+  "title": "MaaS - Console",
+  "screenshot_path": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
+}

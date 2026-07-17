@@ -18,6 +18,7 @@ from ai_provider import call_model_with_fallback
 
 STAGES = ["感知", "下单", "支付", "使用", "续费", "变更", "退订"]
 SEVERITIES = {"p0", "p1", "p2"}
+STAGE4_FULL_PROMPT_PATH = Path(__file__).resolve().parents[1] / "references" / "stage4_agent_analysis_full.md"
 
 
 def load_json(path: Path) -> dict[str, Any]:
@@ -30,6 +31,12 @@ def find_page(crawl: dict[str, Any], stage: str) -> dict[str, Any]:
         if page.get("stage") == stage:
             return page
     raise SystemExit(f"stage not found in crawl_result.json: {stage}")
+
+
+def load_stage4_full_prompt() -> str:
+    if not STAGE4_FULL_PROMPT_PATH.exists():
+        raise SystemExit(f"missing full stage-4 prompt reference: {STAGE4_FULL_PROMPT_PATH}")
+    return STAGE4_FULL_PROMPT_PATH.read_text(encoding="utf-8")
 
 
 def collect_images(page: dict[str, Any], project_root: Path) -> list[Path]:
@@ -48,6 +55,7 @@ def collect_images(page: dict[str, Any], project_root: Path) -> list[Path]:
 
 
 def build_prompt(stage: str, page: dict[str, Any]) -> str:
+    full_stage4_prompt = load_stage4_full_prompt()
     dom_payload = {
         "stage": stage,
         "url": page.get("url"),
@@ -61,11 +69,18 @@ def build_prompt(stage: str, page: dict[str, Any]) -> str:
         "element_rects": page.get("element_rects", [])[:120],
         "entry_not_found": page.get("entry_not_found", False),
         "target_product_not_found": page.get("target_product_not_found", False),
+        "automation_safety": page.get("automation_safety"),
         "error": page.get("error"),
     }
     return f"""你是华为云产品客户旅程体验审查专家。请分析阶段：{stage}。
 
 请同时利用截图和DOM数据，输出严格JSON，不要输出Markdown。
+
+下面是必须完整遵循的 AI Agent 逐阶段分析全量规则。它来自 cloud-customer-journey 的完整步骤4规范，包含视觉分析、DOM分析、交叉验证、阶段专属探索和跨阶段一致性检查要求。即使当前脚本把视觉截图与DOM数据合并到一次模型调用中，也必须按这些全量检查项逐条覆盖，不得简化、跳过或只做摘要式检查。
+
+<FULL_STAGE4_AGENT_ANALYSIS_RULES>
+{full_stage4_prompt}
+</FULL_STAGE4_AGENT_ANALYSIS_RULES>
 
 检查维度：
 1. 视觉与布局：CTA醒目度、对比度、字号、卡片层级、组件统一性。

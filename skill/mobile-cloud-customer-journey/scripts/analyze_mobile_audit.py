@@ -16,6 +16,9 @@ if str(SHARED_DIR) not in sys.path:
 from ai_provider import call_model_with_fallback
 
 
+SEVERITIES = {"p1", "p2"}
+
+
 def load_json(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
@@ -77,6 +80,43 @@ def build_prompt(audit: dict[str, Any]) -> str:
 """
 
 
+def normalize_issue(issue: dict[str, Any], index: int, screenshot: str | None) -> dict[str, Any]:
+    severity = str(issue.get("severity", "p2")).lower()
+    if severity not in SEVERITIES:
+        severity = "p2"
+    locate = issue.get("locate")
+    if isinstance(locate, str):
+        locate = [locate]
+    elif not isinstance(locate, list):
+        locate = []
+    return {
+        "id": issue.get("id") or f"mobile-mobile-page-{index:03d}",
+        "section": "mobile-page",
+        "severity": severity,
+        "title": issue.get("title", ""),
+        "area": issue.get("area", ""),
+        "locate": locate,
+        "evidence": issue.get("evidence", ""),
+        "standard": issue.get("standard", ""),
+        "suggestion": issue.get("suggestion", ""),
+        "screenshot": issue.get("screenshot") or screenshot,
+    }
+
+
+def first_screenshot(audit: dict[str, Any]) -> str | None:
+    artifacts = audit.get("artifacts") or {}
+    return artifacts.get("top_screenshot") or artifacts.get("full_screenshot") or artifacts.get("scroll_screenshot")
+
+
+def summary(score: Any, issues: list[dict[str, Any]]) -> dict[str, Any]:
+    result = {"score": score if isinstance(score, (int, float)) else None, "issue_count": len(issues), "p0": 0, "p1": 0, "p2": 0}
+    for issue in issues:
+        severity = issue.get("severity")
+        if severity in {"p0", "p1", "p2"}:
+            result[severity] += 1
+    return result
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, help="mobile_page_audit.py output JSON.")
@@ -103,13 +143,37 @@ def main() -> int:
         retry_sleep_seconds=args.retry_sleep_seconds,
         model_switch_sleep_seconds=args.model_switch_sleep_seconds,
     )
-    analysis["provider"] = model_meta["provider"]
-    analysis["model"] = model_meta["model"]
-    analysis["model_fallback_chain"] = model_meta["fallback_chain"]
-    analysis["model_config_path"] = model_meta["config_path"]
-    analysis.setdefault("input_url", audit.get("input_url"))
+    screenshot = first_screenshot(audit)
+    issues = [normalize_issue(issue, index, screenshot) for index, issue in enumerate(analysis.get("issues") or [], start=1)]
+    section = {
+        "id": "mobile-page",
+        "name": "移动端页面",
+        "url": audit.get("input_url"),
+        "title": None,
+        "score": analysis.get("score"),
+        "is_compliant": analysis.get("is_compliant"),
+        "screenshot": screenshot,
+        "issues": issues,
+        "suggestions": analysis.get("suggestions") or [],
+        "analysis_content": analysis.get("analysis_content", ""),
+    }
+    result = {
+        "schema_version": "1.0",
+        "source": "mobile",
+        "input_url": audit.get("input_url"),
+        "generated_at": audit.get("audit_time"),
+        "summary": summary(analysis.get("score"), issues),
+        "sections": [section],
+        "issues": issues,
+        "model": {
+            "provider": model_meta["provider"],
+            "name": model_meta["model"],
+            "fallback_chain": model_meta["fallback_chain"],
+            "config_path": model_meta["config_path"],
+        },
+    }
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(json.dumps(analysis, ensure_ascii=False, indent=2), encoding="utf-8")
+    output.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
     print(output)
     return 0
 
