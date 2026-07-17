@@ -5,10 +5,10 @@
   "generated_at": "2026-07-17T02:47:45.203676+00:00",
   "summary": {
     "score": 3,
-    "issue_count": 4,
+    "issue_count": 3,
     "p0": 0,
     "p1": 1,
-    "p2": 3
+    "p2": 2
   },
   "sections": [
     {
@@ -23,128 +23,123 @@
         {
           "id": "mobile-mobile-page-001",
           "section": "mobile-page",
+          "type": "link_target",
           "severity": "p1",
-          "title": "实践案例卡片及“查看详情”按钮点击无响应",
+          "title": "核心实践卡片及查看详情按钮点击无响应",
           "area": "最佳实践列表区",
+          "page_url": "https://developer.huaweicloud.com/practicecenter.html",
           "locate": [
             "div.por-section > div.por-container > div.por-section-body > div.por-row.hide-pc > div.por-col-24 > a.por-card.has-border",
             "查看详情"
           ],
-          "evidence": "移动端点击测试中，点击“Agentic DevOps Hands-On最佳实践”、“华为云VPC从入门到精通”等卡片及“查看详情”按钮，页面均返回 'no-visible-effect'。控制台抛出 CSP 安全策略冲突及 MIME 类型不匹配错误（Refused to execute script from... because its MIME type is not executable），导致核心跳转逻辑失效。",
+          "evidence": "在交互测试中，点击“Agentic DevOps Hands-On最佳实践”等卡片及“查看详情”按钮，页面状态返回“no-visible-effect”。控制台抛出 MIME 类型不匹配错误（Refused to execute script because its MIME type is not executable）及 CSP 安全策略拦截，导致核心跳转 JS 脚本失效，用户无法进入任何实践详情页。",
           "standard": "Nielsen #4",
-          "suggestion": "修改前：点击卡片或“查看详情”按钮无任何页面跳转或弹窗反馈，控制台报错。 -> 修改后：修复前端路由与脚本加载逻辑，解决 CSP 策略冲突，确保移动端用户点击卡片能正常跳转至对应的实践详情页。",
+          "suggestion_before": "点击卡片或按钮无任何响应，控制台报错拦截脚本",
+          "suggestion_after": "修复服务器端静态资源 MIME 类型配置，调整 CSP 策略允许安全脚本执行，确保点击后能正常跳转至实践详情页。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
         },
         {
           "id": "mobile-mobile-page-002",
           "section": "mobile-page",
+          "type": "link_target",
           "severity": "p2",
-          "title": "侧边栏导航菜单项布局严重变形",
-          "area": "个人中心侧边栏",
+          "title": "核心操作按钮及链接触控热区过小",
+          "area": "全局/卡片/底部",
+          "page_url": "https://developer.huaweicloud.com/practicecenter.html",
           "locate": [
-            "ul.my-menu > li.level1 > a"
+            "a.por-btn.por-btn-md-small.por-btn-secondary",
+            "a.por-link.por-link-more"
           ],
-          "evidence": "DOM 树中“个人主页”宽度仅 16px，高度 163px；“我的博客”宽度仅 14px，高度 160px。表明菜单项在移动端发生了极端的垂直拉伸与折行，文字完全无法正常阅读。",
-          "standard": "Nielsen #8",
-          "suggestion": "修改前：菜单项宽度仅 14px-16px，文字排版严重变形。 -> 修改后：重构 `ul.my-menu` 的 CSS 布局，将 `flex-direction` 或宽度限制调整为适合移动端横向展开的样式，确保文字单行正常显示。",
+          "evidence": "“查看详情”按钮尺寸仅为 82x24px，“查看更多”链接尺寸仅为 74x16px，高度远低于移动端推荐的最小触控高度 48px，极易导致用户漏触或误触。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮和链接高度为 16px-24px",
+          "suggestion_after": "通过增加 CSS padding 或设置 min-height: 48px，扩大触控热区，提升移动端操作便利性。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
         },
         {
           "id": "mobile-mobile-page-003",
           "section": "mobile-page",
+          "type": "layout",
           "severity": "p2",
-          "title": "关键操作按钮触控热区过小",
-          "area": "全局",
-          "locate": [
-            "a.por-btn-secondary",
-            "a.por-link-more"
-          ],
-          "evidence": "“查看详情”按钮尺寸仅为 82x24px，“查看更多”链接尺寸仅为 74x16px，远低于移动端推荐的最小触控热区（48x48px），极易导致用户漏触或误触。",
-          "standard": "Nielsen #7",
-          "suggestion": "修改前：按钮高度仅 16px-24px，触控困难。 -> 修改后：通过增加 padding 或设置 min-height: 44px / min-width: 44px 扩大物理触控热区，提升移动端操作便利性。",
-          "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
-        },
-        {
-          "id": "mobile-mobile-page-004",
-          "section": "mobile-page",
-          "severity": "p2",
-          "title": "页面容器存在横向溢出",
-          "area": "实践列表及卡片容器",
+          "title": "内容容器存在横向溢出",
+          "area": "最佳实践列表区",
+          "page_url": "https://developer.huaweicloud.com/practicecenter.html",
           "locate": [
             "div#section-1 > div.pep-scenario-experience > div.por-section > div.por-container > div.por-section-body"
           ],
-          "evidence": "DOM 数据显示该容器 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出，会导致移动端页面整体产生不必要的左右微幅晃动。",
+          "evidence": "DOM textRisks 监测到该容器 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出，导致页面在移动端滑动时产生不必要的左右微幅晃动。",
           "standard": "Nielsen #8",
-          "suggestion": "修改前：容器 scrollWidth (346px) 大于 clientWidth (342px)。 -> 修改后：检查并修正该容器的左右 padding/margin，确保子元素宽度不超过 100%，消除横向滚动条。",
+          "suggestion_before": "容器 scrollWidth 溢出 4px 导致微幅左右晃动",
+          "suggestion_after": "调整容器的左右 margin/padding 或使用 box-sizing: border-box，消除微幅横向溢出，保证滑动顺畅。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
         }
       ],
       "suggestions": [
-        "优先修复移动端 JS 脚本加载与 CSP 报错，恢复核心实践卡片的跳转功能。",
-        "重构个人中心侧边栏菜单的 CSS 样式，解决文字垂直拉伸变形的严重排版问题。",
-        "全局优化移动端按钮与链接的触控热区，确保所有可点击元素的最小高度不低于 44px。",
-        "消除页面各模块的微幅横向溢出，提升滑动的平稳度。"
+        "优先修复服务器端 MIME 类型及 CSP 安全策略配置，恢复移动端核心卡片的点击跳转功能。",
+        "对全站移动端按钮（如“查看详情”、“查看更多”）进行样式重构，确保触控热区高度不低于 48px。",
+        "排查并修复页面中微幅横向溢出的容器，提升页面滑动的稳定性。"
       ],
-      "analysis_content": "华为云开发者实践中心移动端页面存在严重的可用性阻碍。核心功能（点击实践卡片查看详情）因前端脚本加载及安全策略配置错误完全失效，导致用户无法在移动端开展实践。此外，侧边栏菜单排版严重变形，部分容器存在横向溢出，且按钮触控热区普遍偏小，整体移动端适配质量亟待提升。"
+      "analysis_content": "华为云开发者 Hands-on 实践中心移动端页面存在严重的可用性问题。核心功能（点击实践卡片和查看详情按钮）因服务器端 MIME 类型配置错误及 CSP 策略拦截而完全失效，导致用户无法进入任何实践，属于 P1 级阻塞性故障。此外，页面中存在多处触控热区过小（如高度仅 16-24px）以及微幅横向溢出的体验缺陷，整体移动端适配质量亟待提升。"
     }
   ],
   "issues": [
     {
       "id": "mobile-mobile-page-001",
       "section": "mobile-page",
+      "type": "link_target",
       "severity": "p1",
-      "title": "实践案例卡片及“查看详情”按钮点击无响应",
+      "title": "核心实践卡片及查看详情按钮点击无响应",
       "area": "最佳实践列表区",
+      "page_url": "https://developer.huaweicloud.com/practicecenter.html",
       "locate": [
         "div.por-section > div.por-container > div.por-section-body > div.por-row.hide-pc > div.por-col-24 > a.por-card.has-border",
         "查看详情"
       ],
-      "evidence": "移动端点击测试中，点击“Agentic DevOps Hands-On最佳实践”、“华为云VPC从入门到精通”等卡片及“查看详情”按钮，页面均返回 'no-visible-effect'。控制台抛出 CSP 安全策略冲突及 MIME 类型不匹配错误（Refused to execute script from... because its MIME type is not executable），导致核心跳转逻辑失效。",
+      "evidence": "在交互测试中，点击“Agentic DevOps Hands-On最佳实践”等卡片及“查看详情”按钮，页面状态返回“no-visible-effect”。控制台抛出 MIME 类型不匹配错误（Refused to execute script because its MIME type is not executable）及 CSP 安全策略拦截，导致核心跳转 JS 脚本失效，用户无法进入任何实践详情页。",
       "standard": "Nielsen #4",
-      "suggestion": "修改前：点击卡片或“查看详情”按钮无任何页面跳转或弹窗反馈，控制台报错。 -> 修改后：修复前端路由与脚本加载逻辑，解决 CSP 策略冲突，确保移动端用户点击卡片能正常跳转至对应的实践详情页。",
+      "suggestion_before": "点击卡片或按钮无任何响应，控制台报错拦截脚本",
+      "suggestion_after": "修复服务器端静态资源 MIME 类型配置，调整 CSP 策略允许安全脚本执行，确保点击后能正常跳转至实践详情页。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
     },
     {
       "id": "mobile-mobile-page-002",
       "section": "mobile-page",
+      "type": "link_target",
       "severity": "p2",
-      "title": "侧边栏导航菜单项布局严重变形",
-      "area": "个人中心侧边栏",
+      "title": "核心操作按钮及链接触控热区过小",
+      "area": "全局/卡片/底部",
+      "page_url": "https://developer.huaweicloud.com/practicecenter.html",
       "locate": [
-        "ul.my-menu > li.level1 > a"
+        "a.por-btn.por-btn-md-small.por-btn-secondary",
+        "a.por-link.por-link-more"
       ],
-      "evidence": "DOM 树中“个人主页”宽度仅 16px，高度 163px；“我的博客”宽度仅 14px，高度 160px。表明菜单项在移动端发生了极端的垂直拉伸与折行，文字完全无法正常阅读。",
-      "standard": "Nielsen #8",
-      "suggestion": "修改前：菜单项宽度仅 14px-16px，文字排版严重变形。 -> 修改后：重构 `ul.my-menu` 的 CSS 布局，将 `flex-direction` 或宽度限制调整为适合移动端横向展开的样式，确保文字单行正常显示。",
+      "evidence": "“查看详情”按钮尺寸仅为 82x24px，“查看更多”链接尺寸仅为 74x16px，高度远低于移动端推荐的最小触控高度 48px，极易导致用户漏触或误触。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮和链接高度为 16px-24px",
+      "suggestion_after": "通过增加 CSS padding 或设置 min-height: 48px，扩大触控热区，提升移动端操作便利性。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
     },
     {
       "id": "mobile-mobile-page-003",
       "section": "mobile-page",
+      "type": "layout",
       "severity": "p2",
-      "title": "关键操作按钮触控热区过小",
-      "area": "全局",
-      "locate": [
-        "a.por-btn-secondary",
-        "a.por-link-more"
-      ],
-      "evidence": "“查看详情”按钮尺寸仅为 82x24px，“查看更多”链接尺寸仅为 74x16px，远低于移动端推荐的最小触控热区（48x48px），极易导致用户漏触或误触。",
-      "standard": "Nielsen #7",
-      "suggestion": "修改前：按钮高度仅 16px-24px，触控困难。 -> 修改后：通过增加 padding 或设置 min-height: 44px / min-width: 44px 扩大物理触控热区，提升移动端操作便利性。",
-      "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
-    },
-    {
-      "id": "mobile-mobile-page-004",
-      "section": "mobile-page",
-      "severity": "p2",
-      "title": "页面容器存在横向溢出",
-      "area": "实践列表及卡片容器",
+      "title": "内容容器存在横向溢出",
+      "area": "最佳实践列表区",
+      "page_url": "https://developer.huaweicloud.com/practicecenter.html",
       "locate": [
         "div#section-1 > div.pep-scenario-experience > div.por-section > div.por-container > div.por-section-body"
       ],
-      "evidence": "DOM 数据显示该容器 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出，会导致移动端页面整体产生不必要的左右微幅晃动。",
+      "evidence": "DOM textRisks 监测到该容器 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出，导致页面在移动端滑动时产生不必要的左右微幅晃动。",
       "standard": "Nielsen #8",
-      "suggestion": "修改前：容器 scrollWidth (346px) 大于 clientWidth (342px)。 -> 修改后：检查并修正该容器的左右 padding/margin，确保子元素宽度不超过 100%，消除横向滚动条。",
+      "suggestion_before": "容器 scrollWidth 溢出 4px 导致微幅左右晃动",
+      "suggestion_after": "调整容器的左右 margin/padding 或使用 box-sizing: border-box，消除微幅横向溢出，保证滑动顺畅。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/mobile/https_developer_huaweicloud_com_practicecenter_html/20260717-104124/screenshots/https_developer_huaweicloud_com_practicecenter_html_top.png"
     }
   ],

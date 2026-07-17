@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "source": "web",
   "input_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
-  "generated_at": "2026-07-16T11:05:15.046061+00:00",
+  "generated_at": "2026-07-17T06:04:33.147790+00:00",
   "summary": {
     "score": 5.7,
     "issue_count": 28,
@@ -23,9 +23,11 @@
         {
           "id": "web-感知-001",
           "section": "感知",
+          "type": "billing_risk",
           "severity": "p0",
           "title": "订阅按钮跳转目标不精准",
           "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "立即订阅",
             "Lite",
@@ -35,45 +37,57 @@
           ],
           "evidence": "DOM数据中，Lite、Standard、Pro、Max四个套餐的“立即订阅”按钮href均为'https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'，直接跳转到控制台资源管理首页，而非对应套餐的下单支付确认页，导致用户需要二次寻找和选择。",
           "standard": "Garrett: Skeleton Plane | Nielsen #6",
-          "suggestion": "修改前：href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement' -> 修改后：点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页",
+          "suggestion_before": "href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'",
+          "suggestion_after": "点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
           "id": "web-感知-002",
           "section": "感知",
+          "type": "billing_risk",
           "severity": "p0",
           "title": "退订政策前后矛盾",
           "area": "底部Footer区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "订阅服务购买后不支持退订",
             "退订\n\n享无忧退订服务"
           ],
           "evidence": "定价区下方明确标注“订阅服务购买后不支持退订”，而页面底部的通用Footer区域却展示“退订 享无忧退订服务”并提供退订服务链接，同一页面内关于退订政策的口径前后矛盾，极易误导用户。",
           "standard": "Nielsen #4",
-          "suggestion": "修改前：正文写“不支持退订”且底部展示“享无忧退订服务” -> 修改后：在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明",
+          "suggestion_before": "正文写“不支持退订”且底部展示“享无忧退订服务”",
+          "suggestion_after": "在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
           "id": "web-感知-003",
           "section": "感知",
+          "type": "interaction",
           "severity": "p1",
           "title": "首屏缺少核心操作按钮(CTA)",
           "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "Token Plan",
             "专为编程与智能体场景打造"
           ],
           "evidence": "首屏Banner区域（y: 201, h: 78）仅包含产品名称和一句话简介，未提供任何“立即订阅”或“免费体验”等引导用户转化的核心CTA按钮，用户必须向下滚动页面才能进行操作。",
           "standard": "Garrett: Skeleton Plane | Nielsen #6",
-          "suggestion": "修改前：首屏仅展示产品名称和简介 -> 修改后：在首屏简介下方新增“立即订阅”主按钮，提升转化效率",
+          "suggestion_before": "首屏仅展示产品名称和简介",
+          "suggestion_after": "在首屏简介下方新增“立即订阅”主按钮，提升转化效率",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
           "id": "web-感知-004",
           "section": "感知",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "计费规则信息不完整",
           "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "每订阅月",
             "5000 万 Tokens",
@@ -81,21 +95,27 @@
           ],
           "evidence": "套餐卡片仅标注了“每订阅月 5000 万 Tokens”和价格，但未说明 Tokens 额度在当月未使用完是否会清零或结转，也未说明超出额度后的计费标准或限制规则，信息展示不完整。",
           "standard": "Garrett: Structure Plane | Nielsen #10",
-          "suggestion": "修改前：仅展示“每订阅月 5000 万 Tokens” -> 修改后：在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”",
+          "suggestion_before": "仅展示“每订阅月 5000 万 Tokens”",
+          "suggestion_after": "在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
           "id": "web-感知-005",
           "section": "感知",
+          "type": "typo",
           "severity": "p2",
           "title": "FAQ存在明显错别字",
           "area": "FAQ/常见问题区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "订阅 Token Plan 后时候需要再单独开通模型服务？"
           ],
           "evidence": "第三条FAQ的标题为“订阅 Token Plan 后时候需要再单独开通模型服务？”，其中“后时候”为明显错别字，应为“后是否”。",
           "standard": "Nielsen #2 | Nielsen #4",
-          "suggestion": "修改前：“订阅 Token Plan 后时候需要再单独开通模型服务？” -> 修改后：“订阅 Token Plan 后是否需要单独开通模型服务？”",
+          "suggestion_before": "“订阅 Token Plan 后时候需要再单独开通模型服务？”",
+          "suggestion_after": "“订阅 Token Plan 后是否需要单独开通模型服务？”",
+          "auto_fix_eligible": true,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         }
       ],
@@ -119,24 +139,30 @@
         {
           "id": "web-下单-001",
           "section": "下单",
+          "type": "billing_risk",
           "severity": "p0",
           "title": "自动续费缺少交互控件，用户无法选择或开通",
           "area": "套餐配置区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "自动续费",
             "自动续费时系统从可用余额扣款。了解自动续费规则"
           ],
           "evidence": "页面上展示了“自动续费”配置项，并说明“自动续费时系统从可用余额扣款”，但右侧没有任何勾选框、开关（Switch）或下拉菜单等交互控件，用户无法进行选择或开通操作，且“抵扣规则”中又提到“开通自动续费后下一个周期会重新恢复额度”，导致功能逻辑割裂。",
           "standard": "Garrett: Skeleton Plane | Nielsen #3",
-          "suggestion": "修改前：仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则” -> 修改后：在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。",
+          "suggestion_before": "仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则”",
+          "suggestion_after": "在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
           "id": "web-下单-002",
           "section": "下单",
+          "type": "interaction",
           "severity": "p1",
           "title": "Pro和Max套餐卡片视觉上呈现置灰状态，易被误认为不可选",
           "area": "套餐配置区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "Pro",
             "Max",
@@ -145,50 +171,64 @@
           ],
           "evidence": "截图中“Pro”和“Max”套餐卡片的文字（如价格“¥399.00 /月”、“¥799.00 /月”等）和图标颜色均为浅灰色，与未选中的“Standard”卡片（黑色文字）相比，视觉对比度极低，呈现出明显的“禁用/置灰”状态，但页面上并未说明这些套餐不可选的原因，容易误导用户。",
           "standard": "Garrett: Surface Plane | Nielsen #8 | Nielsen #5",
-          "suggestion": "修改前：Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式) -> 修改后：统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。",
+          "suggestion_before": "Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式)",
+          "suggestion_after": "统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
           "id": "web-下单-003",
           "section": "下单",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "“不支持退订”等关键约束风险提示不醒目，存在客诉隐患",
           "area": "购买须知区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "不支持退订",
             "购买须知"
           ],
           "evidence": "购买须知中明确指出“不支持退订”，但该文本字号仅约12px，且使用普通灰色字体，夹杂在其他说明中，缺乏视觉警示（如红色高亮或感叹号图标），用户极易忽略此关键限制，购买后可能引发退款纠纷。",
           "standard": "Nielsen #5 | ISO 9241-110",
-          "suggestion": "修改前：“不支持退订”使用普通灰色无标示文本 -> 修改后：将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。",
+          "suggestion_before": "“不支持退订”使用普通灰色无标示文本",
+          "suggestion_after": "将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
           "id": "web-下单-004",
           "section": "下单",
+          "type": "copy_format",
           "severity": "p2",
           "title": "支持模型列表中的标点符号混用，格式不规范",
           "area": "套餐配置区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2"
           ],
           "evidence": "“支持模型”下方的模型列表中，中文全角逗号“，”与英文半角逗号“,”混用（例如“GLM-5.1， GLM-5”之间是全角，“GLM-5， Kimi-K2.6”之间是半角），且空格格式不统一，影响文案专业度。",
           "standard": "Nielsen #4",
-          "suggestion": "修改前：\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\" -> 修改后：统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。",
+          "suggestion_before": "\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\"",
+          "suggestion_after": "统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。",
+          "auto_fix_eligible": true,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
           "id": "web-下单-005",
           "section": "下单",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "满意度评价弹窗在下单核心流程中弹出，干扰用户操作",
           "area": "全局页面",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "诚邀您对“MaaS模型即服务”进行满意度评价"
           ],
           "evidence": "页面右侧弹出了“满意度评价”卡片，遮挡了部分背景，且在用户进行“下单购买”这一高专注度、高敏感度的核心交易流程中弹出，极易分散用户注意力，干扰正常的购买决策。",
           "standard": "Garrett: Skeleton Plane | Nielsen #8",
-          "suggestion": "修改前：在下单页面主动弹出满意度评价窗口 -> 修改后：将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。",
+          "suggestion_before": "在下单页面主动弹出满意度评价窗口",
+          "suggestion_after": "将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         }
       ],
@@ -213,59 +253,75 @@
         {
           "id": "web-支付-001",
           "section": "支付",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "产品类型名称与实际购买产品不一致且存在冗余拼接",
           "area": "云服务订单区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "ModelArts ModelArts",
             "购买Token Plan 个人版套餐"
           ],
           "evidence": "订单表格中“产品类型”列的值为 \"ModelArts ModelArts\"，而页面主标题为 \"购买Token Plan 个人版套餐\"，两者不一致，且 \"ModelArts ModelArts\" 存在名称重复拼接。",
           "standard": "Nielsen #4 | Cooper: Conceptual Integrity",
-          "suggestion": "修改前：\"ModelArts ModelArts\" -> 修改后：\"Token Plan\"（或与实际产品名一致的单次呈现）",
+          "suggestion_before": "\"ModelArts ModelArts\"",
+          "suggestion_after": "\"Token Plan\"（或与实际产品名一致的单次呈现）",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         },
         {
           "id": "web-支付-002",
           "section": "支付",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "支付截止时间提示使用专业时区术语增加认知负荷",
           "area": "顶部提示区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "请于 2026/07/23 23:59:59 GMT+08:00 内完成付款"
           ],
           "evidence": "提示文案中包含 \"GMT+08:00\" 专业时区术语，对于普通用户而言不够直观，增加了认知负荷。",
           "standard": "Nielsen #2 | ISO 9241-110",
-          "suggestion": "修改前：\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\" -> 修改后：\"请于 2026/07/23 23:59:59（北京时间）内完成付款\"",
+          "suggestion_before": "\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\"",
+          "suggestion_after": "\"请于 2026/07/23 23:59:59（北京时间）内完成付款\"",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         },
         {
           "id": "web-支付-003",
           "section": "支付",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "在线支付渠道图标过小且缺乏文字说明",
           "area": "支付方式区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "支持",
             "等多种在线支付方式"
           ],
           "evidence": "在线支付渠道仅通过极小的图标展示，缺乏文字辅助说明（如“支付宝”、“微信支付”），且图标尺寸过小，不便于辨识。",
           "standard": "Garrett: Surface Plane | Nielsen #8",
-          "suggestion": "修改前：仅显示极小图标 -> 修改后：在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸",
+          "suggestion_before": "仅显示极小图标",
+          "suggestion_after": "在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         },
         {
           "id": "web-支付-004",
           "section": "支付",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "关键资金风险提示视觉警示强度不足",
           "area": "余额支付区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "若您有自动扣款的资源，如按需资源、自动续费资源等，请规划好资金，避免扣款失败影响您的使用"
           ],
           "evidence": "涉及服务中断风险的提示文本字号约为12px，颜色为浅灰色，与背景对比度较低，且缺乏警示图标，容易被用户忽略。",
           "standard": "Nielsen #5",
-          "suggestion": "修改前：当前浅灰色小字样式 -> 修改后：增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)",
+          "suggestion_before": "当前浅灰色小字样式",
+          "suggestion_after": "增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         }
       ],
@@ -289,38 +345,48 @@
         {
           "id": "web-使用-001",
           "section": "使用",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "订阅管理页面缺乏用户当前订阅状态展示，直接呈现购买卡片，角色定位模糊",
           "area": "主内容区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "订阅管理",
             "订阅 Token Plan，开启高效开发"
           ],
           "evidence": "用户进入控制台的“订阅管理”页面（URL含resourcePlanManagement），页面未展示用户当前的订阅状态、剩余Token额度或历史订单，而是直接展示了4个套餐的购买卡片（Lite、Standard、Pro、Max），将“使用/管理”阶段与“购买”阶段混淆，不符合控制台管理页面的用户预期。",
           "standard": "Garrett: Skeleton Plane | Nielsen #1: Visibility of System Status",
-          "suggestion": "修改前：进入“订阅管理”直接展示套餐购买卡片 -> 修改后：优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。",
+          "suggestion_before": "进入“订阅管理”直接展示套餐购买卡片",
+          "suggestion_after": "优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         },
         {
           "id": "web-使用-002",
           "section": "使用",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "关键约束信息“不支持退订”视觉权重过低，存在用户误购风险",
           "area": "底部提示区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
           ],
           "evidence": "“不支持退订”这一涉及用户资金安全和不可逆后果的关键约束信息，以12px小字放置在页面最底部，且使用蓝色提示图标（通常代表普通信息提示），而非高警示性的橙色或红色警告，极易被用户忽略。",
           "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
-          "suggestion": "修改前：fontSize:12px, color:rgb(20, 118, 255)（蓝色提示） -> 修改后：使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。",
+          "suggestion_before": "fontSize:12px, color:rgb(20, 118, 255)（蓝色提示）",
+          "suggestion_after": "使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         },
         {
           "id": "web-使用-003",
           "section": "使用",
+          "type": "interaction",
           "severity": "p2",
           "title": "部分套餐缺货置灰按钮缺乏明确的补货机制说明或订阅通知入口",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "7月17日10:00补货",
             "Pro",
@@ -328,22 +394,28 @@
           ],
           "evidence": "Pro和Max套餐卡片下的操作按钮处于禁用置灰状态，文案为“7月17日10:00补货”。页面未提供“到货通知”或“预约”等交互入口，导致有高配需求的用户在控制台内无法进行任何有效操作，链路中断。",
           "standard": "Nielsen #3: User Control and Freedom | Nielsen #7: Flexibility and Efficiency",
-          "suggestion": "修改前：置灰按钮显示\"7月17日10:00补货\"且不可点击 -> 修改后：在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。",
+          "suggestion_before": "置灰按钮显示\"7月17日10:00补货\"且不可点击",
+          "suggestion_after": "在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         },
         {
           "id": "web-使用-004",
           "section": "使用",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "核心计费单位“每订阅月”表意模糊，缺乏标准定义",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "每订阅月：5000 万 Tokens",
             "每订阅月：1.3 亿 Tokens"
           ],
           "evidence": "套餐卡片中使用“每订阅月”作为Tokens配额的重置周期单位，该词汇并非业界通用标准术语（如“自然月”或“账单月”），用户难以准确理解Tokens是在每月1号重置，还是在购买日期的次月同日重置。",
           "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
-          "suggestion": "修改前：\"每订阅月：5000 万 Tokens\" -> 修改后：\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。",
+          "suggestion_before": "\"每订阅月：5000 万 Tokens\"",
+          "suggestion_after": "\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         }
       ],
@@ -366,9 +438,11 @@
         {
           "id": "web-续费-001",
           "section": "续费",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "满意度评价弹窗主动弹出并遮挡右侧核心内容",
           "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "诚邀您对“费用中心”进行满意度评价",
             "非常满意",
@@ -376,15 +450,19 @@
           ],
           "evidence": "截图右侧出现一个宽约300px的评价弹窗，在用户刚进入续费管理页面、尚未进行任何实质操作时即主动弹出，遮挡了页面右侧的帮助区域和部分操作视图，干扰了续费主流程。",
           "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #3: User Control and Freedom",
-          "suggestion": "修改前：用户进入续费管理页面时立即弹出满意度评价弹窗并遮挡右侧内容 -> 修改后：将满意度评价入口轻量化置于页面右下角，或在用户成功完成一次续费操作后再行弹出，避免主动打断和遮挡核心操作区。",
+          "suggestion_before": "用户进入续费管理页面时立即弹出满意度评价弹窗并遮挡右侧内容",
+          "suggestion_after": "将满意度评价入口轻量化置于页面右下角，或在用户成功完成一次续费操作后再行弹出，避免主动打断和遮挡核心操作区。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
           "id": "web-续费-002",
           "section": "续费",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "默认选中无数据的页签导致首屏呈现空表格",
           "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "手动续费项 (0)",
             "暂无表格数据",
@@ -392,15 +470,19 @@
           ],
           "evidence": "页面上方到期时间统计显示有3个资源（全部：3，到期不续费项：3），但页面默认选中无数据的“手动续费项 (0)”页签并展示“暂无表格数据”，未智能切换至有数据的“到期不续费项 (3)”页签，导致用户首屏看到的是空白表格，产生“无资源需要续费”的错觉。",
           "standard": "Nielsen #1: Visibility of System Status | Nielsen #6: Recognition Rather Than Recall",
-          "suggestion": "修改前：默认选中“手动续费项 (0)”并展示空表格 -> 修改后：当“手动续费项”为0且其他页签（如“到期不续费项”）有数据时，默认选中并展示有数据的页签；或者在空表格中提供明确的引导文案：“您当前有3个资源处于‘到期不续费’状态，点击查看”。",
+          "suggestion_before": "默认选中“手动续费项 (0)”并展示空表格",
+          "suggestion_after": "当“手动续费项”为0且其他页签（如“到期不续费项”）有数据时，默认选中并展示有数据的页签；或者在空表格中提供明确的引导文案：“您当前有3个资源处于‘到期不续费’状态，点击查看”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
           "id": "web-续费-003",
           "section": "续费",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "批量操作按钮置灰禁用且缺乏交互引导说明",
           "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "批量续费",
             "设为自动续费",
@@ -408,36 +490,46 @@
           ],
           "evidence": "批量操作按钮（如“批量续费”、“设为自动续费”）在未勾选资源时呈置灰状态，且鼠标悬浮时缺乏任何提示，未告知用户“请先在下方列表中勾选资源”的操作前提，对新手用户不够友好。",
           "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
-          "suggestion": "修改前：按钮置灰且无任何交互反馈 -> 修改后：鼠标悬浮在置灰按钮上时，显示轻量化气泡提示（Tooltip）：“请先在下方列表中勾选需要操作的资源”。",
+          "suggestion_before": "按钮置灰且无任何交互反馈",
+          "suggestion_after": "鼠标悬浮在置灰按钮上时，显示轻量化气泡提示（Tooltip）：“请先在下方列表中勾选需要操作的资源”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
           "id": "web-续费-004",
           "section": "续费",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "核心计费术语缺乏就近的轻量化悬浮解释",
           "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "什么是宽限期保留期？"
           ],
           "evidence": "页面提示文案中包含“什么是宽限期保留期？”链接，点击会发生页面跳转。由于“宽限期”和“保留期”是云服务特有的专业计费术语，缺乏就近的悬浮气泡解释，迫使有疑问的用户必须跳出当前续费流程去阅读复杂的帮助文档。",
           "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
-          "suggestion": "修改前：仅提供跳转链接\"什么是宽限期保留期？\" -> 修改后：在文字旁增加问号图标，悬浮时展示轻量化解释：“宽限期：到期后未续费，服务仍可正常使用的一段时间（通常为7-15天）；保留期：宽限期满后仍未续费，服务暂停但数据保留的一段时间。期满后资源将被释放。”",
+          "suggestion_before": "仅提供跳转链接\"什么是宽限期保留期？\"",
+          "suggestion_after": "在文字旁增加问号图标，悬浮时展示轻量化解释：“宽限期：到期后未续费，服务仍可正常使用的一段时间（通常为7-15天）；保留期：宽限期满后仍未续费，服务暂停但数据保留的一段时间。期满后资源将被释放。”",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
           "id": "web-续费-005",
           "section": "续费",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "页签分类维度不统一易引发认知困惑",
           "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "手动续费项",
             "到期不续费项"
           ],
           "evidence": "页签将“手动续费项”（属于操作/支付方式属性）与“到期不续费项”（属于续费策略/状态属性）并列展示，分类维度不统一，容易让用户误以为处于“到期不续费”状态的资源无法再进行手动续费操作。",
           "standard": "Nielsen #4: Consistency and Standards",
-          "suggestion": "修改前：Tab页签并列展示\"手动续费项\"、\"自动续费项\"、\"到期转按需项\"、\"到期不续费项\" -> 修改后：将Tab页签统一为续费策略维度，如“手动续费策略”、“自动续费策略”、“到期转按需策略”、“到期不续费策略”，并在各列表内均保留“手动续费”的操作按钮，统一用户认知。",
+          "suggestion_before": "Tab页签并列展示\"手动续费项\"、\"自动续费项\"、\"到期转按需项\"、\"到期不续费项\"",
+          "suggestion_after": "将Tab页签统一为续费策略维度，如“手动续费策略”、“自动续费策略”、“到期转按需策略”、“到期不续费策略”，并在各列表内均保留“手动续费”的操作按钮，统一用户认知。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         }
       ],
@@ -460,9 +552,11 @@
         {
           "id": "web-变更-001",
           "section": "变更",
+          "type": "interaction",
           "severity": "p0",
           "title": "变更页面缺乏当前已订阅套餐的状态标识，且操作按钮文案仍为“购买”",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "Lite",
             "Standard",
@@ -470,35 +564,45 @@
           ],
           "evidence": "页面处于控制台的“订阅管理”中，底部文案提示“当前Token Plan 为个人版”，但四个套餐卡片（Lite、Standard、Pro、Max）中没有任何一个卡片被标记为“当前已订阅”状态，且Lite和Standard卡片的操作按钮文案依然为“购买”而非“升级”或“变更”。",
           "standard": "Nielsen #1 | Nielsen #4",
-          "suggestion": "修改前：Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识 -> 修改后：在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。",
+          "suggestion_before": "Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识",
+          "suggestion_after": "在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
         },
         {
           "id": "web-变更-002",
           "section": "变更",
+          "type": "billing_risk",
           "severity": "p1",
           "title": "关键风险提示“不支持退订”视觉权重过低，容易被忽略",
           "area": "底部提示区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
           ],
           "evidence": "底部提示文案“当前Token Plan 为个人版，订阅服务购买后不支持退订。 详见套餐概览”字号较小，且颜色为普通文本色，缺乏警示图标（如感叹号）或高亮色彩（如红色），在页面底部视觉权重极低。",
           "standard": "Nielsen #5 | ISO 9241-110",
-          "suggestion": "修改前：当前样式(color: rgb(89, 89, 89), fontSize: 12px) -> 修改后：增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。",
+          "suggestion_before": "当前样式(color: rgb(89, 89, 89), fontSize: 12px)",
+          "suggestion_after": "增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
         },
         {
           "id": "web-变更-003",
           "section": "变更",
+          "type": "interaction",
           "severity": "p2",
           "title": "缺货置灰按钮缺乏替代操作路径",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "7月17日10:00补货"
           ],
           "evidence": "Pro和Max套餐卡片的按钮因缺货显示“7月17日10:00补货”并置灰禁用，但页面未提供“到货通知”、“预约”或“联系客服”等任何替代交互路径，限制了用户在缺货场景下的自主权。",
           "standard": "Nielsen #3 | Nielsen #10",
-          "suggestion": "修改前：按钮仅显示“7月17日10:00补货”且置灰不可点击 -> 修改后：在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。",
+          "suggestion_before": "按钮仅显示“7月17日10:00补货”且置灰不可点击",
+          "suggestion_after": "在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
         }
       ],
@@ -521,31 +625,39 @@
         {
           "id": "web-退订-001",
           "section": "退订",
+          "type": "billing_risk",
           "severity": "p0",
           "title": "退订阶段错误跳转至提现页面",
           "area": "全局",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
           "locate": [
             "提现",
             "可提现金额"
           ],
           "evidence": "当前页面URL为 `https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord`，页面标题为“费用中心-提现”，展示的是提现申请和提现记录，而非退订已购产品（如云服务、套餐包）的界面。用户在退订阶段无法在此页面找到目标产品并执行退订操作，导致核心任务中断。",
           "standard": "Nielsen #2 | Garrett: Skeleton Plane",
-          "suggestion": "修改前：退订操作跳转至“提现”页面 -> 修改后：退订操作应跳转至“费用中心-订单管理-退订与退换货”页面（或对应的资源退订页面），允许用户选择并退订具体的产品。",
+          "suggestion_before": "退订操作跳转至“提现”页面",
+          "suggestion_after": "退订操作应跳转至“费用中心-订单管理-退订与退换货”页面（或对应的资源退订页面），允许用户选择并退订具体的产品。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_7_unsubscribe.png"
         },
         {
           "id": "web-退订-002",
           "section": "退订",
+          "type": "billing_risk",
           "severity": "p2",
           "title": "可原路提现金额为0时立即提现按钮置灰但缺少就近原因提示",
           "area": "提现操作区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
           "locate": [
             "可原路提现金额",
             "立即提现"
           ],
           "evidence": "截图中“可原路提现金额 ¥0.00”右侧的“立即提现”按钮呈置灰状态，但页面上没有就近提示为什么可原路提现金额为0，或者为什么该按钮不可点击。用户需要阅读上方大段的“使用指南”才能推测原因，不符合就近解释原则。",
           "standard": "Nielsen #5 | ISO 9241-110: 自描述性",
-          "suggestion": "修改前：按钮置灰且无就近提示 -> 修改后：在置灰按钮旁或悬浮框中提供就近提示，如“当前无符合原路退款条件的充值记录，请使用银行卡提现”。",
+          "suggestion_before": "按钮置灰且无就近提示",
+          "suggestion_after": "在置灰按钮旁或悬浮框中提供就近提示，如“当前无符合原路退款条件的充值记录，请使用银行卡提现”。",
+          "auto_fix_eligible": false,
           "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_7_unsubscribe.png"
         }
       ],
@@ -560,9 +672,11 @@
     {
       "id": "web-感知-001",
       "section": "感知",
+      "type": "billing_risk",
       "severity": "p0",
       "title": "订阅按钮跳转目标不精准",
       "area": "定价/套餐区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
       "locate": [
         "立即订阅",
         "Lite",
@@ -572,45 +686,57 @@
       ],
       "evidence": "DOM数据中，Lite、Standard、Pro、Max四个套餐的“立即订阅”按钮href均为'https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'，直接跳转到控制台资源管理首页，而非对应套餐的下单支付确认页，导致用户需要二次寻找和选择。",
       "standard": "Garrett: Skeleton Plane | Nielsen #6",
-      "suggestion": "修改前：href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement' -> 修改后：点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页",
+      "suggestion_before": "href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'",
+      "suggestion_after": "点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
     },
     {
       "id": "web-感知-002",
       "section": "感知",
+      "type": "billing_risk",
       "severity": "p0",
       "title": "退订政策前后矛盾",
       "area": "底部Footer区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
       "locate": [
         "订阅服务购买后不支持退订",
         "退订\n\n享无忧退订服务"
       ],
       "evidence": "定价区下方明确标注“订阅服务购买后不支持退订”，而页面底部的通用Footer区域却展示“退订 享无忧退订服务”并提供退订服务链接，同一页面内关于退订政策的口径前后矛盾，极易误导用户。",
       "standard": "Nielsen #4",
-      "suggestion": "修改前：正文写“不支持退订”且底部展示“享无忧退订服务” -> 修改后：在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明",
+      "suggestion_before": "正文写“不支持退订”且底部展示“享无忧退订服务”",
+      "suggestion_after": "在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
     },
     {
       "id": "web-感知-003",
       "section": "感知",
+      "type": "interaction",
       "severity": "p1",
       "title": "首屏缺少核心操作按钮(CTA)",
       "area": "首屏主视觉区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
       "locate": [
         "Token Plan",
         "专为编程与智能体场景打造"
       ],
       "evidence": "首屏Banner区域（y: 201, h: 78）仅包含产品名称和一句话简介，未提供任何“立即订阅”或“免费体验”等引导用户转化的核心CTA按钮，用户必须向下滚动页面才能进行操作。",
       "standard": "Garrett: Skeleton Plane | Nielsen #6",
-      "suggestion": "修改前：首屏仅展示产品名称和简介 -> 修改后：在首屏简介下方新增“立即订阅”主按钮，提升转化效率",
+      "suggestion_before": "首屏仅展示产品名称和简介",
+      "suggestion_after": "在首屏简介下方新增“立即订阅”主按钮，提升转化效率",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
     },
     {
       "id": "web-感知-004",
       "section": "感知",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "计费规则信息不完整",
       "area": "定价/套餐区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
       "locate": [
         "每订阅月",
         "5000 万 Tokens",
@@ -618,44 +744,56 @@
       ],
       "evidence": "套餐卡片仅标注了“每订阅月 5000 万 Tokens”和价格，但未说明 Tokens 额度在当月未使用完是否会清零或结转，也未说明超出额度后的计费标准或限制规则，信息展示不完整。",
       "standard": "Garrett: Structure Plane | Nielsen #10",
-      "suggestion": "修改前：仅展示“每订阅月 5000 万 Tokens” -> 修改后：在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”",
+      "suggestion_before": "仅展示“每订阅月 5000 万 Tokens”",
+      "suggestion_after": "在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
     },
     {
       "id": "web-感知-005",
       "section": "感知",
+      "type": "typo",
       "severity": "p2",
       "title": "FAQ存在明显错别字",
       "area": "FAQ/常见问题区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
       "locate": [
         "订阅 Token Plan 后时候需要再单独开通模型服务？"
       ],
       "evidence": "第三条FAQ的标题为“订阅 Token Plan 后时候需要再单独开通模型服务？”，其中“后时候”为明显错别字，应为“后是否”。",
       "standard": "Nielsen #2 | Nielsen #4",
-      "suggestion": "修改前：“订阅 Token Plan 后时候需要再单独开通模型服务？” -> 修改后：“订阅 Token Plan 后是否需要单独开通模型服务？”",
+      "suggestion_before": "“订阅 Token Plan 后时候需要再单独开通模型服务？”",
+      "suggestion_after": "“订阅 Token Plan 后是否需要单独开通模型服务？”",
+      "auto_fix_eligible": true,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
     },
     {
       "id": "web-下单-001",
       "section": "下单",
+      "type": "billing_risk",
       "severity": "p0",
       "title": "自动续费缺少交互控件，用户无法选择或开通",
       "area": "套餐配置区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
       "locate": [
         "自动续费",
         "自动续费时系统从可用余额扣款。了解自动续费规则"
       ],
       "evidence": "页面上展示了“自动续费”配置项，并说明“自动续费时系统从可用余额扣款”，但右侧没有任何勾选框、开关（Switch）或下拉菜单等交互控件，用户无法进行选择或开通操作，且“抵扣规则”中又提到“开通自动续费后下一个周期会重新恢复额度”，导致功能逻辑割裂。",
       "standard": "Garrett: Skeleton Plane | Nielsen #3",
-      "suggestion": "修改前：仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则” -> 修改后：在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。",
+      "suggestion_before": "仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则”",
+      "suggestion_after": "在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
     },
     {
       "id": "web-下单-002",
       "section": "下单",
+      "type": "interaction",
       "severity": "p1",
       "title": "Pro和Max套餐卡片视觉上呈现置灰状态，易被误认为不可选",
       "area": "套餐配置区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
       "locate": [
         "Pro",
         "Max",
@@ -664,145 +802,185 @@
       ],
       "evidence": "截图中“Pro”和“Max”套餐卡片的文字（如价格“¥399.00 /月”、“¥799.00 /月”等）和图标颜色均为浅灰色，与未选中的“Standard”卡片（黑色文字）相比，视觉对比度极低，呈现出明显的“禁用/置灰”状态，但页面上并未说明这些套餐不可选的原因，容易误导用户。",
       "standard": "Garrett: Surface Plane | Nielsen #8 | Nielsen #5",
-      "suggestion": "修改前：Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式) -> 修改后：统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。",
+      "suggestion_before": "Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式)",
+      "suggestion_after": "统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
     },
     {
       "id": "web-下单-003",
       "section": "下单",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "“不支持退订”等关键约束风险提示不醒目，存在客诉隐患",
       "area": "购买须知区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
       "locate": [
         "不支持退订",
         "购买须知"
       ],
       "evidence": "购买须知中明确指出“不支持退订”，但该文本字号仅约12px，且使用普通灰色字体，夹杂在其他说明中，缺乏视觉警示（如红色高亮或感叹号图标），用户极易忽略此关键限制，购买后可能引发退款纠纷。",
       "standard": "Nielsen #5 | ISO 9241-110",
-      "suggestion": "修改前：“不支持退订”使用普通灰色无标示文本 -> 修改后：将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。",
+      "suggestion_before": "“不支持退订”使用普通灰色无标示文本",
+      "suggestion_after": "将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
     },
     {
       "id": "web-下单-004",
       "section": "下单",
+      "type": "copy_format",
       "severity": "p2",
       "title": "支持模型列表中的标点符号混用，格式不规范",
       "area": "套餐配置区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
       "locate": [
         "GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2"
       ],
       "evidence": "“支持模型”下方的模型列表中，中文全角逗号“，”与英文半角逗号“,”混用（例如“GLM-5.1， GLM-5”之间是全角，“GLM-5， Kimi-K2.6”之间是半角），且空格格式不统一，影响文案专业度。",
       "standard": "Nielsen #4",
-      "suggestion": "修改前：\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\" -> 修改后：统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。",
+      "suggestion_before": "\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\"",
+      "suggestion_after": "统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。",
+      "auto_fix_eligible": true,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
     },
     {
       "id": "web-下单-005",
       "section": "下单",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "满意度评价弹窗在下单核心流程中弹出，干扰用户操作",
       "area": "全局页面",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
       "locate": [
         "诚邀您对“MaaS模型即服务”进行满意度评价"
       ],
       "evidence": "页面右侧弹出了“满意度评价”卡片，遮挡了部分背景，且在用户进行“下单购买”这一高专注度、高敏感度的核心交易流程中弹出，极易分散用户注意力，干扰正常的购买决策。",
       "standard": "Garrett: Skeleton Plane | Nielsen #8",
-      "suggestion": "修改前：在下单页面主动弹出满意度评价窗口 -> 修改后：将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。",
+      "suggestion_before": "在下单页面主动弹出满意度评价窗口",
+      "suggestion_after": "将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
     },
     {
       "id": "web-支付-001",
       "section": "支付",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "产品类型名称与实际购买产品不一致且存在冗余拼接",
       "area": "云服务订单区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
       "locate": [
         "ModelArts ModelArts",
         "购买Token Plan 个人版套餐"
       ],
       "evidence": "订单表格中“产品类型”列的值为 \"ModelArts ModelArts\"，而页面主标题为 \"购买Token Plan 个人版套餐\"，两者不一致，且 \"ModelArts ModelArts\" 存在名称重复拼接。",
       "standard": "Nielsen #4 | Cooper: Conceptual Integrity",
-      "suggestion": "修改前：\"ModelArts ModelArts\" -> 修改后：\"Token Plan\"（或与实际产品名一致的单次呈现）",
+      "suggestion_before": "\"ModelArts ModelArts\"",
+      "suggestion_after": "\"Token Plan\"（或与实际产品名一致的单次呈现）",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
     },
     {
       "id": "web-支付-002",
       "section": "支付",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "支付截止时间提示使用专业时区术语增加认知负荷",
       "area": "顶部提示区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
       "locate": [
         "请于 2026/07/23 23:59:59 GMT+08:00 内完成付款"
       ],
       "evidence": "提示文案中包含 \"GMT+08:00\" 专业时区术语，对于普通用户而言不够直观，增加了认知负荷。",
       "standard": "Nielsen #2 | ISO 9241-110",
-      "suggestion": "修改前：\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\" -> 修改后：\"请于 2026/07/23 23:59:59（北京时间）内完成付款\"",
+      "suggestion_before": "\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\"",
+      "suggestion_after": "\"请于 2026/07/23 23:59:59（北京时间）内完成付款\"",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
     },
     {
       "id": "web-支付-003",
       "section": "支付",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "在线支付渠道图标过小且缺乏文字说明",
       "area": "支付方式区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
       "locate": [
         "支持",
         "等多种在线支付方式"
       ],
       "evidence": "在线支付渠道仅通过极小的图标展示，缺乏文字辅助说明（如“支付宝”、“微信支付”），且图标尺寸过小，不便于辨识。",
       "standard": "Garrett: Surface Plane | Nielsen #8",
-      "suggestion": "修改前：仅显示极小图标 -> 修改后：在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸",
+      "suggestion_before": "仅显示极小图标",
+      "suggestion_after": "在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
     },
     {
       "id": "web-支付-004",
       "section": "支付",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "关键资金风险提示视觉警示强度不足",
       "area": "余额支付区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
       "locate": [
         "若您有自动扣款的资源，如按需资源、自动续费资源等，请规划好资金，避免扣款失败影响您的使用"
       ],
       "evidence": "涉及服务中断风险的提示文本字号约为12px，颜色为浅灰色，与背景对比度较低，且缺乏警示图标，容易被用户忽略。",
       "standard": "Nielsen #5",
-      "suggestion": "修改前：当前浅灰色小字样式 -> 修改后：增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)",
+      "suggestion_before": "当前浅灰色小字样式",
+      "suggestion_after": "增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
     },
     {
       "id": "web-使用-001",
       "section": "使用",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "订阅管理页面缺乏用户当前订阅状态展示，直接呈现购买卡片，角色定位模糊",
       "area": "主内容区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "订阅管理",
         "订阅 Token Plan，开启高效开发"
       ],
       "evidence": "用户进入控制台的“订阅管理”页面（URL含resourcePlanManagement），页面未展示用户当前的订阅状态、剩余Token额度或历史订单，而是直接展示了4个套餐的购买卡片（Lite、Standard、Pro、Max），将“使用/管理”阶段与“购买”阶段混淆，不符合控制台管理页面的用户预期。",
       "standard": "Garrett: Skeleton Plane | Nielsen #1: Visibility of System Status",
-      "suggestion": "修改前：进入“订阅管理”直接展示套餐购买卡片 -> 修改后：优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。",
+      "suggestion_before": "进入“订阅管理”直接展示套餐购买卡片",
+      "suggestion_after": "优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
     },
     {
       "id": "web-使用-002",
       "section": "使用",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "关键约束信息“不支持退订”视觉权重过低，存在用户误购风险",
       "area": "底部提示区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
       ],
       "evidence": "“不支持退订”这一涉及用户资金安全和不可逆后果的关键约束信息，以12px小字放置在页面最底部，且使用蓝色提示图标（通常代表普通信息提示），而非高警示性的橙色或红色警告，极易被用户忽略。",
       "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
-      "suggestion": "修改前：fontSize:12px, color:rgb(20, 118, 255)（蓝色提示） -> 修改后：使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。",
+      "suggestion_before": "fontSize:12px, color:rgb(20, 118, 255)（蓝色提示）",
+      "suggestion_after": "使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
     },
     {
       "id": "web-使用-003",
       "section": "使用",
+      "type": "interaction",
       "severity": "p2",
       "title": "部分套餐缺货置灰按钮缺乏明确的补货机制说明或订阅通知入口",
       "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "7月17日10:00补货",
         "Pro",
@@ -810,30 +988,38 @@
       ],
       "evidence": "Pro和Max套餐卡片下的操作按钮处于禁用置灰状态，文案为“7月17日10:00补货”。页面未提供“到货通知”或“预约”等交互入口，导致有高配需求的用户在控制台内无法进行任何有效操作，链路中断。",
       "standard": "Nielsen #3: User Control and Freedom | Nielsen #7: Flexibility and Efficiency",
-      "suggestion": "修改前：置灰按钮显示\"7月17日10:00补货\"且不可点击 -> 修改后：在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。",
+      "suggestion_before": "置灰按钮显示\"7月17日10:00补货\"且不可点击",
+      "suggestion_after": "在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
     },
     {
       "id": "web-使用-004",
       "section": "使用",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "核心计费单位“每订阅月”表意模糊，缺乏标准定义",
       "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "每订阅月：5000 万 Tokens",
         "每订阅月：1.3 亿 Tokens"
       ],
       "evidence": "套餐卡片中使用“每订阅月”作为Tokens配额的重置周期单位，该词汇并非业界通用标准术语（如“自然月”或“账单月”），用户难以准确理解Tokens是在每月1号重置，还是在购买日期的次月同日重置。",
       "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
-      "suggestion": "修改前：\"每订阅月：5000 万 Tokens\" -> 修改后：\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。",
+      "suggestion_before": "\"每订阅月：5000 万 Tokens\"",
+      "suggestion_after": "\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
     },
     {
       "id": "web-续费-001",
       "section": "续费",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "满意度评价弹窗主动弹出并遮挡右侧核心内容",
       "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
       "locate": [
         "诚邀您对“费用中心”进行满意度评价",
         "非常满意",
@@ -841,15 +1027,19 @@
       ],
       "evidence": "截图右侧出现一个宽约300px的评价弹窗，在用户刚进入续费管理页面、尚未进行任何实质操作时即主动弹出，遮挡了页面右侧的帮助区域和部分操作视图，干扰了续费主流程。",
       "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #3: User Control and Freedom",
-      "suggestion": "修改前：用户进入续费管理页面时立即弹出满意度评价弹窗并遮挡右侧内容 -> 修改后：将满意度评价入口轻量化置于页面右下角，或在用户成功完成一次续费操作后再行弹出，避免主动打断和遮挡核心操作区。",
+      "suggestion_before": "用户进入续费管理页面时立即弹出满意度评价弹窗并遮挡右侧内容",
+      "suggestion_after": "将满意度评价入口轻量化置于页面右下角，或在用户成功完成一次续费操作后再行弹出，避免主动打断和遮挡核心操作区。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
     },
     {
       "id": "web-续费-002",
       "section": "续费",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "默认选中无数据的页签导致首屏呈现空表格",
       "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
       "locate": [
         "手动续费项 (0)",
         "暂无表格数据",
@@ -857,15 +1047,19 @@
       ],
       "evidence": "页面上方到期时间统计显示有3个资源（全部：3，到期不续费项：3），但页面默认选中无数据的“手动续费项 (0)”页签并展示“暂无表格数据”，未智能切换至有数据的“到期不续费项 (3)”页签，导致用户首屏看到的是空白表格，产生“无资源需要续费”的错觉。",
       "standard": "Nielsen #1: Visibility of System Status | Nielsen #6: Recognition Rather Than Recall",
-      "suggestion": "修改前：默认选中“手动续费项 (0)”并展示空表格 -> 修改后：当“手动续费项”为0且其他页签（如“到期不续费项”）有数据时，默认选中并展示有数据的页签；或者在空表格中提供明确的引导文案：“您当前有3个资源处于‘到期不续费’状态，点击查看”。",
+      "suggestion_before": "默认选中“手动续费项 (0)”并展示空表格",
+      "suggestion_after": "当“手动续费项”为0且其他页签（如“到期不续费项”）有数据时，默认选中并展示有数据的页签；或者在空表格中提供明确的引导文案：“您当前有3个资源处于‘到期不续费’状态，点击查看”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
     },
     {
       "id": "web-续费-003",
       "section": "续费",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "批量操作按钮置灰禁用且缺乏交互引导说明",
       "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
       "locate": [
         "批量续费",
         "设为自动续费",
@@ -873,44 +1067,56 @@
       ],
       "evidence": "批量操作按钮（如“批量续费”、“设为自动续费”）在未勾选资源时呈置灰状态，且鼠标悬浮时缺乏任何提示，未告知用户“请先在下方列表中勾选资源”的操作前提，对新手用户不够友好。",
       "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
-      "suggestion": "修改前：按钮置灰且无任何交互反馈 -> 修改后：鼠标悬浮在置灰按钮上时，显示轻量化气泡提示（Tooltip）：“请先在下方列表中勾选需要操作的资源”。",
+      "suggestion_before": "按钮置灰且无任何交互反馈",
+      "suggestion_after": "鼠标悬浮在置灰按钮上时，显示轻量化气泡提示（Tooltip）：“请先在下方列表中勾选需要操作的资源”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
     },
     {
       "id": "web-续费-004",
       "section": "续费",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "核心计费术语缺乏就近的轻量化悬浮解释",
       "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
       "locate": [
         "什么是宽限期保留期？"
       ],
       "evidence": "页面提示文案中包含“什么是宽限期保留期？”链接，点击会发生页面跳转。由于“宽限期”和“保留期”是云服务特有的专业计费术语，缺乏就近的悬浮气泡解释，迫使有疑问的用户必须跳出当前续费流程去阅读复杂的帮助文档。",
       "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
-      "suggestion": "修改前：仅提供跳转链接\"什么是宽限期保留期？\" -> 修改后：在文字旁增加问号图标，悬浮时展示轻量化解释：“宽限期：到期后未续费，服务仍可正常使用的一段时间（通常为7-15天）；保留期：宽限期满后仍未续费，服务暂停但数据保留的一段时间。期满后资源将被释放。”",
+      "suggestion_before": "仅提供跳转链接\"什么是宽限期保留期？\"",
+      "suggestion_after": "在文字旁增加问号图标，悬浮时展示轻量化解释：“宽限期：到期后未续费，服务仍可正常使用的一段时间（通常为7-15天）；保留期：宽限期满后仍未续费，服务暂停但数据保留的一段时间。期满后资源将被释放。”",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
     },
     {
       "id": "web-续费-005",
       "section": "续费",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "页签分类维度不统一易引发认知困惑",
       "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
       "locate": [
         "手动续费项",
         "到期不续费项"
       ],
       "evidence": "页签将“手动续费项”（属于操作/支付方式属性）与“到期不续费项”（属于续费策略/状态属性）并列展示，分类维度不统一，容易让用户误以为处于“到期不续费”状态的资源无法再进行手动续费操作。",
       "standard": "Nielsen #4: Consistency and Standards",
-      "suggestion": "修改前：Tab页签并列展示\"手动续费项\"、\"自动续费项\"、\"到期转按需项\"、\"到期不续费项\" -> 修改后：将Tab页签统一为续费策略维度，如“手动续费策略”、“自动续费策略”、“到期转按需策略”、“到期不续费策略”，并在各列表内均保留“手动续费”的操作按钮，统一用户认知。",
+      "suggestion_before": "Tab页签并列展示\"手动续费项\"、\"自动续费项\"、\"到期转按需项\"、\"到期不续费项\"",
+      "suggestion_after": "将Tab页签统一为续费策略维度，如“手动续费策略”、“自动续费策略”、“到期转按需策略”、“到期不续费策略”，并在各列表内均保留“手动续费”的操作按钮，统一用户认知。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
     },
     {
       "id": "web-变更-001",
       "section": "变更",
+      "type": "interaction",
       "severity": "p0",
       "title": "变更页面缺乏当前已订阅套餐的状态标识，且操作按钮文案仍为“购买”",
       "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "Lite",
         "Standard",
@@ -918,65 +1124,83 @@
       ],
       "evidence": "页面处于控制台的“订阅管理”中，底部文案提示“当前Token Plan 为个人版”，但四个套餐卡片（Lite、Standard、Pro、Max）中没有任何一个卡片被标记为“当前已订阅”状态，且Lite和Standard卡片的操作按钮文案依然为“购买”而非“升级”或“变更”。",
       "standard": "Nielsen #1 | Nielsen #4",
-      "suggestion": "修改前：Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识 -> 修改后：在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。",
+      "suggestion_before": "Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识",
+      "suggestion_after": "在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
     },
     {
       "id": "web-变更-002",
       "section": "变更",
+      "type": "billing_risk",
       "severity": "p1",
       "title": "关键风险提示“不支持退订”视觉权重过低，容易被忽略",
       "area": "底部提示区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
       ],
       "evidence": "底部提示文案“当前Token Plan 为个人版，订阅服务购买后不支持退订。 详见套餐概览”字号较小，且颜色为普通文本色，缺乏警示图标（如感叹号）或高亮色彩（如红色），在页面底部视觉权重极低。",
       "standard": "Nielsen #5 | ISO 9241-110",
-      "suggestion": "修改前：当前样式(color: rgb(89, 89, 89), fontSize: 12px) -> 修改后：增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。",
+      "suggestion_before": "当前样式(color: rgb(89, 89, 89), fontSize: 12px)",
+      "suggestion_after": "增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
     },
     {
       "id": "web-变更-003",
       "section": "变更",
+      "type": "interaction",
       "severity": "p2",
       "title": "缺货置灰按钮缺乏替代操作路径",
       "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
       "locate": [
         "7月17日10:00补货"
       ],
       "evidence": "Pro和Max套餐卡片的按钮因缺货显示“7月17日10:00补货”并置灰禁用，但页面未提供“到货通知”、“预约”或“联系客服”等任何替代交互路径，限制了用户在缺货场景下的自主权。",
       "standard": "Nielsen #3 | Nielsen #10",
-      "suggestion": "修改前：按钮仅显示“7月17日10:00补货”且置灰不可点击 -> 修改后：在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。",
+      "suggestion_before": "按钮仅显示“7月17日10:00补货”且置灰不可点击",
+      "suggestion_after": "在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
     },
     {
       "id": "web-退订-001",
       "section": "退订",
+      "type": "billing_risk",
       "severity": "p0",
       "title": "退订阶段错误跳转至提现页面",
       "area": "全局",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
       "locate": [
         "提现",
         "可提现金额"
       ],
       "evidence": "当前页面URL为 `https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord`，页面标题为“费用中心-提现”，展示的是提现申请和提现记录，而非退订已购产品（如云服务、套餐包）的界面。用户在退订阶段无法在此页面找到目标产品并执行退订操作，导致核心任务中断。",
       "standard": "Nielsen #2 | Garrett: Skeleton Plane",
-      "suggestion": "修改前：退订操作跳转至“提现”页面 -> 修改后：退订操作应跳转至“费用中心-订单管理-退订与退换货”页面（或对应的资源退订页面），允许用户选择并退订具体的产品。",
+      "suggestion_before": "退订操作跳转至“提现”页面",
+      "suggestion_after": "退订操作应跳转至“费用中心-订单管理-退订与退换货”页面（或对应的资源退订页面），允许用户选择并退订具体的产品。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_7_unsubscribe.png"
     },
     {
       "id": "web-退订-002",
       "section": "退订",
+      "type": "billing_risk",
       "severity": "p2",
       "title": "可原路提现金额为0时立即提现按钮置灰但缺少就近原因提示",
       "area": "提现操作区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
       "locate": [
         "可原路提现金额",
         "立即提现"
       ],
       "evidence": "截图中“可原路提现金额 ¥0.00”右侧的“立即提现”按钮呈置灰状态，但页面上没有就近提示为什么可原路提现金额为0，或者为什么该按钮不可点击。用户需要阅读上方大段的“使用指南”才能推测原因，不符合就近解释原则。",
       "standard": "Nielsen #5 | ISO 9241-110: 自描述性",
-      "suggestion": "修改前：按钮置灰且无就近提示 -> 修改后：在置灰按钮旁或悬浮框中提供就近提示，如“当前无符合原路退款条件的充值记录，请使用银行卡提现”。",
+      "suggestion_before": "按钮置灰且无就近提示",
+      "suggestion_after": "在置灰按钮旁或悬浮框中提供就近提示，如“当前无符合原路退款条件的充值记录，请使用银行卡提现”。",
+      "auto_fix_eligible": false,
       "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_7_unsubscribe.png"
     }
   ],
@@ -1007,8 +1231,13 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "billing_risk",
+          "severity": "p0",
           "title": "订阅按钮跳转目标不精准",
           "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "立即订阅",
             "Lite",
@@ -1018,36 +1247,57 @@
           ],
           "evidence": "DOM数据中，Lite、Standard、Pro、Max四个套餐的“立即订阅”按钮href均为'https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'，直接跳转到控制台资源管理首页，而非对应套餐的下单支付确认页，导致用户需要二次寻找和选择。",
           "standard": "Garrett: Skeleton Plane | Nielsen #6",
-          "severity": "p0",
-          "suggestion": "修改前：href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement' -> 修改后：点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页"
+          "suggestion_before": "href='https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement'",
+          "suggestion_after": "点击“立即订阅”直接带入对应套餐参数并跳转至该套餐的下单支付确认页",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "billing_risk",
+          "severity": "p0",
           "title": "退订政策前后矛盾",
           "area": "底部Footer区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "订阅服务购买后不支持退订",
             "退订\n\n享无忧退订服务"
           ],
           "evidence": "定价区下方明确标注“订阅服务购买后不支持退订”，而页面底部的通用Footer区域却展示“退订 享无忧退订服务”并提供退订服务链接，同一页面内关于退订政策的口径前后矛盾，极易误导用户。",
           "standard": "Nielsen #4",
-          "severity": "p0",
-          "suggestion": "修改前：正文写“不支持退订”且底部展示“享无忧退订服务” -> 修改后：在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明"
+          "suggestion_before": "正文写“不支持退订”且底部展示“享无忧退订服务”",
+          "suggestion_after": "在底部Footer的退订服务中增加排除性说明，如“*部分订阅类服务除外”，或在正文退订提示处进行更详细的特殊说明",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p1",
           "title": "首屏缺少核心操作按钮(CTA)",
           "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "Token Plan",
             "专为编程与智能体场景打造"
           ],
           "evidence": "首屏Banner区域（y: 201, h: 78）仅包含产品名称和一句话简介，未提供任何“立即订阅”或“免费体验”等引导用户转化的核心CTA按钮，用户必须向下滚动页面才能进行操作。",
           "standard": "Garrett: Skeleton Plane | Nielsen #6",
-          "severity": "p1",
-          "suggestion": "修改前：首屏仅展示产品名称和简介 -> 修改后：在首屏简介下方新增“立即订阅”主按钮，提升转化效率"
+          "suggestion_before": "首屏仅展示产品名称和简介",
+          "suggestion_after": "在首屏简介下方新增“立即订阅”主按钮，提升转化效率",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
+          "id": "web-感知-004",
+          "section": "感知",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "计费规则信息不完整",
           "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "每订阅月",
             "5000 万 Tokens",
@@ -1055,19 +1305,28 @@
           ],
           "evidence": "套餐卡片仅标注了“每订阅月 5000 万 Tokens”和价格，但未说明 Tokens 额度在当月未使用完是否会清零或结转，也未说明超出额度后的计费标准或限制规则，信息展示不完整。",
           "standard": "Garrett: Structure Plane | Nielsen #10",
-          "severity": "p1",
-          "suggestion": "修改前：仅展示“每订阅月 5000 万 Tokens” -> 修改后：在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”"
+          "suggestion_before": "仅展示“每订阅月 5000 万 Tokens”",
+          "suggestion_after": "在额度下方或通过悬浮提示说明“当月未使用完的 Tokens 将在月底清零，超出额度后将暂停服务或按按需计费，详情请参考计费说明”",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         },
         {
+          "id": "web-感知-005",
+          "section": "感知",
+          "type": "typo",
+          "severity": "p2",
           "title": "FAQ存在明显错别字",
           "area": "FAQ/常见问题区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
           "locate": [
             "订阅 Token Plan 后时候需要再单独开通模型服务？"
           ],
           "evidence": "第三条FAQ的标题为“订阅 Token Plan 后时候需要再单独开通模型服务？”，其中“后时候”为明显错别字，应为“后是否”。",
           "standard": "Nielsen #2 | Nielsen #4",
-          "severity": "p2",
-          "suggestion": "修改前：“订阅 Token Plan 后时候需要再单独开通模型服务？” -> 修改后：“订阅 Token Plan 后是否需要单独开通模型服务？”"
+          "suggestion_before": "“订阅 Token Plan 后时候需要再单独开通模型服务？”",
+          "suggestion_after": "“订阅 Token Plan 后是否需要单独开通模型服务？”",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_1_awareness.png"
         }
       ],
       "suggestions": [
@@ -1094,20 +1353,32 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p0",
           "title": "自动续费缺少交互控件，用户无法选择或开通",
           "area": "套餐配置区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "自动续费",
             "自动续费时系统从可用余额扣款。了解自动续费规则"
           ],
           "evidence": "页面上展示了“自动续费”配置项，并说明“自动续费时系统从可用余额扣款”，但右侧没有任何勾选框、开关（Switch）或下拉菜单等交互控件，用户无法进行选择或开通操作，且“抵扣规则”中又提到“开通自动续费后下一个周期会重新恢复额度”，导致功能逻辑割裂。",
           "standard": "Garrett: Skeleton Plane | Nielsen #3",
-          "severity": "p0",
-          "suggestion": "修改前：仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则” -> 修改后：在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。"
+          "suggestion_before": "仅展示文本“自动续费时系统从可用余额扣款。了解自动续费规则”",
+          "suggestion_after": "在右侧增加开关组件（Switch）或复选框，允许用户自主选择是否开启自动续费，如“ [ ] 开启自动续费（次月自动从余额扣款续订）”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
+          "id": "web-下单-002",
+          "section": "下单",
+          "type": "interaction",
+          "severity": "p1",
           "title": "Pro和Max套餐卡片视觉上呈现置灰状态，易被误认为不可选",
           "area": "套餐配置区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "Pro",
             "Max",
@@ -1116,42 +1387,65 @@
           ],
           "evidence": "截图中“Pro”和“Max”套餐卡片的文字（如价格“¥399.00 /月”、“¥799.00 /月”等）和图标颜色均为浅灰色，与未选中的“Standard”卡片（黑色文字）相比，视觉对比度极低，呈现出明显的“禁用/置灰”状态，但页面上并未说明这些套餐不可选的原因，容易误导用户。",
           "standard": "Garrett: Surface Plane | Nielsen #8 | Nielsen #5",
-          "severity": "p1",
-          "suggestion": "修改前：Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式) -> 修改后：统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。"
+          "suggestion_before": "Pro和Max卡片使用浅灰色字体(color:rgb(204,204,204)或高透明度样式)",
+          "suggestion_after": "统一未选中卡片的视觉样式，Pro和Max卡片应与Standard卡片保持一致的文本对比度(color:rgb(89,89,89))，仅在被选中时通过蓝色边框进行区分。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
+          "id": "web-下单-003",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "“不支持退订”等关键约束风险提示不醒目，存在客诉隐患",
           "area": "购买须知区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "不支持退订",
             "购买须知"
           ],
           "evidence": "购买须知中明确指出“不支持退订”，但该文本字号仅约12px，且使用普通灰色字体，夹杂在其他说明中，缺乏视觉警示（如红色高亮或感叹号图标），用户极易忽略此关键限制，购买后可能引发退款纠纷。",
           "standard": "Nielsen #5 | ISO 9241-110",
-          "severity": "p1",
-          "suggestion": "修改前：“不支持退订”使用普通灰色无标示文本 -> 修改后：将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。"
+          "suggestion_before": "“不支持退订”使用普通灰色无标示文本",
+          "suggestion_after": "将“不支持退订”文案加粗并使用警示色（如红色，color:rgb(220,38,38)），并在前方增加警示图标，如“⚠️ 不支持退订”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
+          "id": "web-下单-004",
+          "section": "下单",
+          "type": "copy_format",
+          "severity": "p2",
           "title": "支持模型列表中的标点符号混用，格式不规范",
           "area": "套餐配置区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2"
           ],
           "evidence": "“支持模型”下方的模型列表中，中文全角逗号“，”与英文半角逗号“,”混用（例如“GLM-5.1， GLM-5”之间是全角，“GLM-5， Kimi-K2.6”之间是半角），且空格格式不统一，影响文案专业度。",
           "standard": "Nielsen #4",
-          "severity": "p2",
-          "suggestion": "修改前：\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\" -> 修改后：统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。"
+          "suggestion_before": "\"GLM-5.1， GLM-5， Kimi-K2.6， DeepSeek-V4-Flash， DeepSeek-V3.2\"",
+          "suggestion_after": "统一使用英文半角逗号加空格分隔：\"GLM-5.1, GLM-5, Kimi-K2.6, DeepSeek-V4-Flash, DeepSeek-V3.2\"。",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         },
         {
+          "id": "web-下单-005",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "满意度评价弹窗在下单核心流程中弹出，干扰用户操作",
           "area": "全局页面",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement/purchase",
           "locate": [
             "诚邀您对“MaaS模型即服务”进行满意度评价"
           ],
           "evidence": "页面右侧弹出了“满意度评价”卡片，遮挡了部分背景，且在用户进行“下单购买”这一高专注度、高敏感度的核心交易流程中弹出，极易分散用户注意力，干扰正常的购买决策。",
           "standard": "Garrett: Skeleton Plane | Nielsen #8",
-          "severity": "p2",
-          "suggestion": "修改前：在下单页面主动弹出满意度评价窗口 -> 修改后：将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。"
+          "suggestion_before": "在下单页面主动弹出满意度评价窗口",
+          "suggestion_after": "将满意度评价移至用户完成支付后的“支付成功”页面，或在控制台侧边栏提供常驻的轻量化反馈入口，避免在交易进行中干扰用户。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_2_order.png"
         }
       ],
       "suggestions": [
@@ -1179,50 +1473,78 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "产品类型名称与实际购买产品不一致且存在冗余拼接",
           "area": "云服务订单区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "ModelArts ModelArts",
             "购买Token Plan 个人版套餐"
           ],
           "evidence": "订单表格中“产品类型”列的值为 \"ModelArts ModelArts\"，而页面主标题为 \"购买Token Plan 个人版套餐\"，两者不一致，且 \"ModelArts ModelArts\" 存在名称重复拼接。",
           "standard": "Nielsen #4 | Cooper: Conceptual Integrity",
-          "severity": "p1",
-          "suggestion": "修改前：\"ModelArts ModelArts\" -> 修改后：\"Token Plan\"（或与实际产品名一致的单次呈现）"
+          "suggestion_before": "\"ModelArts ModelArts\"",
+          "suggestion_after": "\"Token Plan\"（或与实际产品名一致的单次呈现）",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         },
         {
+          "id": "web-支付-002",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "支付截止时间提示使用专业时区术语增加认知负荷",
           "area": "顶部提示区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "请于 2026/07/23 23:59:59 GMT+08:00 内完成付款"
           ],
           "evidence": "提示文案中包含 \"GMT+08:00\" 专业时区术语，对于普通用户而言不够直观，增加了认知负荷。",
           "standard": "Nielsen #2 | ISO 9241-110",
-          "severity": "p2",
-          "suggestion": "修改前：\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\" -> 修改后：\"请于 2026/07/23 23:59:59（北京时间）内完成付款\""
+          "suggestion_before": "\"请于 2026/07/23 23:59:59 GMT+08:00 内完成付款\"",
+          "suggestion_after": "\"请于 2026/07/23 23:59:59（北京时间）内完成付款\"",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         },
         {
+          "id": "web-支付-003",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "在线支付渠道图标过小且缺乏文字说明",
           "area": "支付方式区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "支持",
             "等多种在线支付方式"
           ],
           "evidence": "在线支付渠道仅通过极小的图标展示，缺乏文字辅助说明（如“支付宝”、“微信支付”），且图标尺寸过小，不便于辨识。",
           "standard": "Garrett: Surface Plane | Nielsen #8",
-          "severity": "p2",
-          "suggestion": "修改前：仅显示极小图标 -> 修改后：在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸"
+          "suggestion_before": "仅显示极小图标",
+          "suggestion_after": "在图标旁增加文字说明，如 \"[图标] 支付宝\"、\"[图标] 微信支付\"，并适当放大图标尺寸",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         },
         {
+          "id": "web-支付-004",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "关键资金风险提示视觉警示强度不足",
           "area": "余额支付区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-southwest-2#/servicePay?orderId=CS2607161855QRP3V&subject=Token%20Plan%20%E4%B8%AA%E4%BA%BA%E7%89%88%E5%A5%97%E9%A4%90",
           "locate": [
             "若您有自动扣款的资源，如按需资源、自动续费资源等，请规划好资金，避免扣款失败影响您的使用"
           ],
           "evidence": "涉及服务中断风险的提示文本字号约为12px，颜色为浅灰色，与背景对比度较低，且缺乏警示图标，容易被用户忽略。",
           "standard": "Nielsen #5",
-          "severity": "p1",
-          "suggestion": "修改前：当前浅灰色小字样式 -> 修改后：增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)"
+          "suggestion_before": "当前浅灰色小字样式",
+          "suggestion_after": "增加黄色警示图标，并将文字颜色调整为更具警示性的深色或橙色，如 color: rgb(217, 119, 6)",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_3_payment.png"
         }
       ],
       "suggestions": [
@@ -1249,31 +1571,50 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "订阅管理页面缺乏用户当前订阅状态展示，直接呈现购买卡片，角色定位模糊",
           "area": "主内容区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "订阅管理",
             "订阅 Token Plan，开启高效开发"
           ],
           "evidence": "用户进入控制台的“订阅管理”页面（URL含resourcePlanManagement），页面未展示用户当前的订阅状态、剩余Token额度或历史订单，而是直接展示了4个套餐的购买卡片（Lite、Standard、Pro、Max），将“使用/管理”阶段与“购买”阶段混淆，不符合控制台管理页面的用户预期。",
           "standard": "Garrett: Skeleton Plane | Nielsen #1: Visibility of System Status",
-          "severity": "p1",
-          "suggestion": "修改前：进入“订阅管理”直接展示套餐购买卡片 -> 修改后：优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。"
+          "suggestion_before": "进入“订阅管理”直接展示套餐购买卡片",
+          "suggestion_after": "优先展示“我的订阅”状态（如：当前未订阅，或已订阅套餐的剩余额度、有效期等），并将购买/升级套餐作为次级操作或独立标签页提供。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         },
         {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "关键约束信息“不支持退订”视觉权重过低，存在用户误购风险",
           "area": "底部提示区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
           ],
           "evidence": "“不支持退订”这一涉及用户资金安全和不可逆后果的关键约束信息，以12px小字放置在页面最底部，且使用蓝色提示图标（通常代表普通信息提示），而非高警示性的橙色或红色警告，极易被用户忽略。",
           "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
-          "severity": "p1",
-          "suggestion": "修改前：fontSize:12px, color:rgb(20, 118, 255)（蓝色提示） -> 修改后：使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。"
+          "suggestion_before": "fontSize:12px, color:rgb(20, 118, 255)（蓝色提示）",
+          "suggestion_after": "使用高对比度的警示色（如橙色或红色），并在用户点击“购买”时进行二次弹窗确认，明确提示“购买后不支持退订”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         },
         {
+          "id": "web-使用-003",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p2",
           "title": "部分套餐缺货置灰按钮缺乏明确的补货机制说明或订阅通知入口",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "7月17日10:00补货",
             "Pro",
@@ -1281,20 +1622,29 @@
           ],
           "evidence": "Pro和Max套餐卡片下的操作按钮处于禁用置灰状态，文案为“7月17日10:00补货”。页面未提供“到货通知”或“预约”等交互入口，导致有高配需求的用户在控制台内无法进行任何有效操作，链路中断。",
           "standard": "Nielsen #3: User Control and Freedom | Nielsen #7: Flexibility and Efficiency",
-          "severity": "p2",
-          "suggestion": "修改前：置灰按钮显示\"7月17日10:00补货\"且不可点击 -> 修改后：在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。"
+          "suggestion_before": "置灰按钮显示\"7月17日10:00补货\"且不可点击",
+          "suggestion_after": "在置灰按钮旁或卡片内提供“到货通知”按钮，允许用户留下联系方式或一键订阅补货提醒。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         },
         {
+          "id": "web-使用-004",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "核心计费单位“每订阅月”表意模糊，缺乏标准定义",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "每订阅月：5000 万 Tokens",
             "每订阅月：1.3 亿 Tokens"
           ],
           "evidence": "套餐卡片中使用“每订阅月”作为Tokens配额的重置周期单位，该词汇并非业界通用标准术语（如“自然月”或“账单月”），用户难以准确理解Tokens是在每月1号重置，还是在购买日期的次月同日重置。",
           "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
-          "severity": "p2",
-          "suggestion": "修改前：\"每订阅月：5000 万 Tokens\" -> 修改后：\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。"
+          "suggestion_before": "\"每订阅月：5000 万 Tokens\"",
+          "suggestion_after": "\"每月重置：5000 万 Tokens（自购买之日起每满30天重置一次）\"，并在悬浮提示中给出明确解释。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_4_usage.png"
         }
       ],
       "suggestions": [
@@ -1320,8 +1670,13 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "满意度评价弹窗主动弹出并遮挡右侧核心内容",
           "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "诚邀您对“费用中心”进行满意度评价",
             "非常满意",
@@ -1329,12 +1684,19 @@
           ],
           "evidence": "截图右侧出现一个宽约300px的评价弹窗，在用户刚进入续费管理页面、尚未进行任何实质操作时即主动弹出，遮挡了页面右侧的帮助区域和部分操作视图，干扰了续费主流程。",
           "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #3: User Control and Freedom",
-          "severity": "p1",
-          "suggestion": "修改前：用户进入续费管理页面时立即弹出满意度评价弹窗并遮挡右侧内容 -> 修改后：将满意度评价入口轻量化置于页面右下角，或在用户成功完成一次续费操作后再行弹出，避免主动打断和遮挡核心操作区。"
+          "suggestion_before": "用户进入续费管理页面时立即弹出满意度评价弹窗并遮挡右侧内容",
+          "suggestion_after": "将满意度评价入口轻量化置于页面右下角，或在用户成功完成一次续费操作后再行弹出，避免主动打断和遮挡核心操作区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "默认选中无数据的页签导致首屏呈现空表格",
           "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "手动续费项 (0)",
             "暂无表格数据",
@@ -1342,12 +1704,19 @@
           ],
           "evidence": "页面上方到期时间统计显示有3个资源（全部：3，到期不续费项：3），但页面默认选中无数据的“手动续费项 (0)”页签并展示“暂无表格数据”，未智能切换至有数据的“到期不续费项 (3)”页签，导致用户首屏看到的是空白表格，产生“无资源需要续费”的错觉。",
           "standard": "Nielsen #1: Visibility of System Status | Nielsen #6: Recognition Rather Than Recall",
-          "severity": "p2",
-          "suggestion": "修改前：默认选中“手动续费项 (0)”并展示空表格 -> 修改后：当“手动续费项”为0且其他页签（如“到期不续费项”）有数据时，默认选中并展示有数据的页签；或者在空表格中提供明确的引导文案：“您当前有3个资源处于‘到期不续费’状态，点击查看”。"
+          "suggestion_before": "默认选中“手动续费项 (0)”并展示空表格",
+          "suggestion_after": "当“手动续费项”为0且其他页签（如“到期不续费项”）有数据时，默认选中并展示有数据的页签；或者在空表格中提供明确的引导文案：“您当前有3个资源处于‘到期不续费’状态，点击查看”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "批量操作按钮置灰禁用且缺乏交互引导说明",
           "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "批量续费",
             "设为自动续费",
@@ -1355,31 +1724,47 @@
           ],
           "evidence": "批量操作按钮（如“批量续费”、“设为自动续费”）在未勾选资源时呈置灰状态，且鼠标悬浮时缺乏任何提示，未告知用户“请先在下方列表中勾选资源”的操作前提，对新手用户不够友好。",
           "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
-          "severity": "p2",
-          "suggestion": "修改前：按钮置灰且无任何交互反馈 -> 修改后：鼠标悬浮在置灰按钮上时，显示轻量化气泡提示（Tooltip）：“请先在下方列表中勾选需要操作的资源”。"
+          "suggestion_before": "按钮置灰且无任何交互反馈",
+          "suggestion_after": "鼠标悬浮在置灰按钮上时，显示轻量化气泡提示（Tooltip）：“请先在下方列表中勾选需要操作的资源”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
+          "id": "web-续费-004",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "核心计费术语缺乏就近的轻量化悬浮解释",
           "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "什么是宽限期保留期？"
           ],
           "evidence": "页面提示文案中包含“什么是宽限期保留期？”链接，点击会发生页面跳转。由于“宽限期”和“保留期”是云服务特有的专业计费术语，缺乏就近的悬浮气泡解释，迫使有疑问的用户必须跳出当前续费流程去阅读复杂的帮助文档。",
           "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
-          "severity": "p2",
-          "suggestion": "修改前：仅提供跳转链接\"什么是宽限期保留期？\" -> 修改后：在文字旁增加问号图标，悬浮时展示轻量化解释：“宽限期：到期后未续费，服务仍可正常使用的一段时间（通常为7-15天）；保留期：宽限期满后仍未续费，服务暂停但数据保留的一段时间。期满后资源将被释放。”"
+          "suggestion_before": "仅提供跳转链接\"什么是宽限期保留期？\"",
+          "suggestion_after": "在文字旁增加问号图标，悬浮时展示轻量化解释：“宽限期：到期后未续费，服务仍可正常使用的一段时间（通常为7-15天）；保留期：宽限期满后仍未续费，服务暂停但数据保留的一段时间。期满后资源将被释放。”",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         },
         {
+          "id": "web-续费-005",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "页签分类维度不统一易引发认知困惑",
           "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
           "locate": [
             "手动续费项",
             "到期不续费项"
           ],
           "evidence": "页签将“手动续费项”（属于操作/支付方式属性）与“到期不续费项”（属于续费策略/状态属性）并列展示，分类维度不统一，容易让用户误以为处于“到期不续费”状态的资源无法再进行手动续费操作。",
           "standard": "Nielsen #4: Consistency and Standards",
-          "severity": "p2",
-          "suggestion": "修改前：Tab页签并列展示\"手动续费项\"、\"自动续费项\"、\"到期转按需项\"、\"到期不续费项\" -> 修改后：将Tab页签统一为续费策略维度，如“手动续费策略”、“自动续费策略”、“到期转按需策略”、“到期不续费策略”，并在各列表内均保留“手动续费”的操作按钮，统一用户认知。"
+          "suggestion_before": "Tab页签并列展示\"手动续费项\"、\"自动续费项\"、\"到期转按需项\"、\"到期不续费项\"",
+          "suggestion_after": "将Tab页签统一为续费策略维度，如“手动续费策略”、“自动续费策略”、“到期转按需策略”、“到期不续费策略”，并在各列表内均保留“手动续费”的操作按钮，统一用户认知。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_5_renewal.png"
         }
       ],
       "suggestions": [
@@ -1405,8 +1790,13 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "interaction",
+          "severity": "p0",
           "title": "变更页面缺乏当前已订阅套餐的状态标识，且操作按钮文案仍为“购买”",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "Lite",
             "Standard",
@@ -1414,30 +1804,46 @@
           ],
           "evidence": "页面处于控制台的“订阅管理”中，底部文案提示“当前Token Plan 为个人版”，但四个套餐卡片（Lite、Standard、Pro、Max）中没有任何一个卡片被标记为“当前已订阅”状态，且Lite和Standard卡片的操作按钮文案依然为“购买”而非“升级”或“变更”。",
           "standard": "Nielsen #1 | Nielsen #4",
-          "severity": "p0",
-          "suggestion": "修改前：Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识 -> 修改后：在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。"
+          "suggestion_before": "Lite和Standard卡片按钮均显示“购买”，且无当前套餐标识",
+          "suggestion_after": "在用户当前已订阅的套餐卡片上增加“当前套餐”高亮标签，并将其按钮置灰或显示为“使用中”；对于其他可变更的套餐，按钮文案修改为“升级”或“变更套餐”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
         },
         {
+          "id": "web-变更-002",
+          "section": "变更",
+          "type": "billing_risk",
+          "severity": "p1",
           "title": "关键风险提示“不支持退订”视觉权重过低，容易被忽略",
           "area": "底部提示区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "当前Token Plan 为个人版，订阅服务购买后不支持退订。"
           ],
           "evidence": "底部提示文案“当前Token Plan 为个人版，订阅服务购买后不支持退订。 详见套餐概览”字号较小，且颜色为普通文本色，缺乏警示图标（如感叹号）或高亮色彩（如红色），在页面底部视觉权重极低。",
           "standard": "Nielsen #5 | ISO 9241-110",
-          "severity": "p1",
-          "suggestion": "修改前：当前样式(color: rgb(89, 89, 89), fontSize: 12px) -> 修改后：增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。"
+          "suggestion_before": "当前样式(color: rgb(89, 89, 89), fontSize: 12px)",
+          "suggestion_after": "增加警示图标，并将“不支持退订”文案高亮显示，样式调整为(color: rgb(240, 74, 74), font-weight: 700)。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
         },
         {
+          "id": "web-变更-003",
+          "section": "变更",
+          "type": "interaction",
+          "severity": "p2",
           "title": "缺货置灰按钮缺乏替代操作路径",
           "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/resourcePlanManagement",
           "locate": [
             "7月17日10:00补货"
           ],
           "evidence": "Pro和Max套餐卡片的按钮因缺货显示“7月17日10:00补货”并置灰禁用，但页面未提供“到货通知”、“预约”或“联系客服”等任何替代交互路径，限制了用户在缺货场景下的自主权。",
           "standard": "Nielsen #3 | Nielsen #10",
-          "severity": "p2",
-          "suggestion": "修改前：按钮仅显示“7月17日10:00补货”且置灰不可点击 -> 修改后：在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。"
+          "suggestion_before": "按钮仅显示“7月17日10:00补货”且置灰不可点击",
+          "suggestion_after": "在置灰按钮旁或下方增加“到货通知”或“预约”轻量化交互按钮，允许用户订阅补货提醒。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_6_change.png"
         }
       ],
       "suggestions": [
@@ -1463,28 +1869,42 @@
       "is_compliant": false,
       "issues": [
         {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
           "title": "退订阶段错误跳转至提现页面",
           "area": "全局",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
           "locate": [
             "提现",
             "可提现金额"
           ],
           "evidence": "当前页面URL为 `https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord`，页面标题为“费用中心-提现”，展示的是提现申请和提现记录，而非退订已购产品（如云服务、套餐包）的界面。用户在退订阶段无法在此页面找到目标产品并执行退订操作，导致核心任务中断。",
           "standard": "Nielsen #2 | Garrett: Skeleton Plane",
-          "severity": "p0",
-          "suggestion": "修改前：退订操作跳转至“提现”页面 -> 修改后：退订操作应跳转至“费用中心-订单管理-退订与退换货”页面（或对应的资源退订页面），允许用户选择并退订具体的产品。"
+          "suggestion_before": "退订操作跳转至“提现”页面",
+          "suggestion_after": "退订操作应跳转至“费用中心-订单管理-退订与退换货”页面（或对应的资源退订页面），允许用户选择并退订具体的产品。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_7_unsubscribe.png"
         },
         {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p2",
           "title": "可原路提现金额为0时立即提现按钮置灰但缺少就近原因提示",
           "area": "提现操作区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
           "locate": [
             "可原路提现金额",
             "立即提现"
           ],
           "evidence": "截图中“可原路提现金额 ¥0.00”右侧的“立即提现”按钮呈置灰状态，但页面上没有就近提示为什么可原路提现金额为0，或者为什么该按钮不可点击。用户需要阅读上方大段的“使用指南”才能推测原因，不符合就近解释原则。",
           "standard": "Nielsen #5 | ISO 9241-110: 自描述性",
-          "severity": "p2",
-          "suggestion": "修改前：按钮置灰且无就近提示 -> 修改后：在置灰按钮旁或悬浮框中提供就近提示，如“当前无符合原路退款条件的充值记录，请使用银行卡提现”。"
+          "suggestion_before": "按钮置灰且无就近提示",
+          "suggestion_after": "在置灰按钮旁或悬浮框中提供就近提示，如“当前无符合原路退款条件的充值记录，请使用银行卡提现”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/tokenplan/20260716-184914/screenshots/screenshot_7_unsubscribe.png"
         }
       ],
       "suggestions": [

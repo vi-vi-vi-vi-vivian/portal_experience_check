@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -36,7 +37,55 @@ def issue_id(source: str, section: str, index: int) -> str:
     return f"{source}-{safe_section}-{index:03d}"
 
 
-def normalize_issue(issue: dict[str, Any], source: str, section: str, index: int, screenshot: str | None) -> dict[str, Any]:
+def compact_text(value: Any) -> str:
+    return re.sub(r"\s+", " ", "" if value is None else str(value)).strip()
+
+
+def split_suggestion(value: Any) -> tuple[str, str]:
+    text = compact_text(value)
+    if not text:
+        return "", ""
+    patterns = [
+        r"修改前[:：]?(?P<before>.*?)(?:->|→|修改后[:：])(?P<after>.*)",
+        r"现状[:：](?P<before>.*?)(?:建议[:：]|修改为[:：])(?P<after>.*)",
+        r"(?P<before>.+?)(?:->|→)(?P<after>.+)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            before = re.sub(r"^修改前[:：]\s*", "", compact_text(match.group("before")))
+            after = re.sub(r"^(?:->|→)?\s*修改后[:：]\s*", "", compact_text(match.group("after")))
+            after = re.sub(r"^建议[:：]\s*", "", after)
+            return before, after
+    return "", re.sub(r"^建议[:：]\s*", "", text)
+
+
+def classify_issue(issue: dict[str, Any], before: str, after: str) -> str:
+    text = compact_text(
+        " ".join(
+            str(issue.get(key) or "")
+            for key in ["title", "area", "evidence", "standard", "suggestion"]
+        )
+        + f" {before} {after}"
+    ).lower()
+    if any(token in text for token in ["错别字", "错字", "笔误", "typo", "误写", "应为", "漏字", "多字"]):
+        return "typo"
+    if any(token in text for token in ["标点", "空格", "大小写", "格式", "全角", "半角", "文案规范"]):
+        return "copy_format"
+    if any(token in text for token in ["退订", "退款", "支付", "续费", "计费", "自动续费", "扣款", "订单", "权益"]):
+        return "billing_risk"
+    if any(token in text for token in ["href", "链接", "跳转", "url", "目标不精准", "错误跳转"]):
+        return "link_target"
+    if any(token in text for token in ["点击", "按钮", "无响应", "交互", "菜单", "触控", "热区", "禁用", "置灰"]):
+        return "interaction"
+    if any(token in text for token in ["布局", "遮挡", "横向溢出", "字号", "对比度", "颜色", "视觉", "卡片", "换行"]):
+        return "layout"
+    if any(token in text for token in ["缺少", "不完整", "说明不清", "术语", "解释", "信息"]):
+        return "content_clarity"
+    return "unknown"
+
+
+def normalize_issue(issue: dict[str, Any], source: str, section: str, index: int, screenshot: str | None, page_url: str | None) -> dict[str, Any]:
     severity = str(issue.get("severity", "p2")).lower()
     if severity not in SEVERITIES:
         severity = "p2"
@@ -45,16 +94,22 @@ def normalize_issue(issue: dict[str, Any], source: str, section: str, index: int
         locate = [locate]
     elif not isinstance(locate, list):
         locate = []
+    before, after = split_suggestion(issue.get("suggestion"))
+    issue_type = classify_issue(issue, before, after)
     return {
         "id": issue.get("id") or issue_id(source, section, index),
         "section": section,
+        "type": issue_type,
         "severity": severity,
         "title": issue.get("title", ""),
         "area": issue.get("area", ""),
+        "page_url": page_url or "",
         "locate": locate,
         "evidence": issue.get("evidence", ""),
         "standard": issue.get("standard", ""),
-        "suggestion": issue.get("suggestion", ""),
+        "suggestion_before": before,
+        "suggestion_after": after,
+        "auto_fix_eligible": issue_type in {"typo", "copy_format"},
         "screenshot": issue.get("screenshot") or screenshot,
     }
 
@@ -104,13 +159,16 @@ def main() -> int:
         path = stage_analysis_path(root, analysis_dir, stage, slug)
         item = load(path)
         if item:
-            stage_analysis[stage] = item
             screenshot = item.get("screenshot_path")
+            page_url = item.get("url")
             stage_issues = []
             for index, issue in enumerate(item.get("issues") or [], start=1):
-                normalized = normalize_issue(issue, "web", stage, index, screenshot)
+                normalized = normalize_issue(issue, "web", stage, index, screenshot, page_url)
                 stage_issues.append(normalized)
                 issues.append(normalized)
+            normalized_item = dict(item)
+            normalized_item["issues"] = stage_issues
+            stage_analysis[stage] = normalized_item
             sections.append(
                 {
                     "id": stage,

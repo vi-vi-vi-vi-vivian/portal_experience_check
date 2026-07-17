@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -22,6 +23,54 @@ SEVERITIES = {"p1", "p2"}
 def load_json(path: Path) -> dict[str, Any]:
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def compact_text(value: Any) -> str:
+    return re.sub(r"\s+", " ", "" if value is None else str(value)).strip()
+
+
+def split_suggestion(value: Any) -> tuple[str, str]:
+    text = compact_text(value)
+    if not text:
+        return "", ""
+    patterns = [
+        r"修改前[:：]?(?P<before>.*?)(?:->|→|修改后[:：])(?P<after>.*)",
+        r"现状[:：](?P<before>.*?)(?:建议[:：]|修改为[:：])(?P<after>.*)",
+        r"(?P<before>.+?)(?:->|→)(?P<after>.+)",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text)
+        if match:
+            before = re.sub(r"^修改前[:：]\s*", "", compact_text(match.group("before")))
+            after = re.sub(r"^(?:->|→)?\s*修改后[:：]\s*", "", compact_text(match.group("after")))
+            after = re.sub(r"^建议[:：]\s*", "", after)
+            return before, after
+    return "", re.sub(r"^建议[:：]\s*", "", text)
+
+
+def classify_issue(issue: dict[str, Any], before: str, after: str) -> str:
+    text = compact_text(
+        " ".join(
+            str(issue.get(key) or "")
+            for key in ["title", "area", "evidence", "standard", "suggestion"]
+        )
+        + f" {before} {after}"
+    ).lower()
+    if any(token in text for token in ["错别字", "错字", "笔误", "typo", "误写", "应为", "漏字", "多字"]):
+        return "typo"
+    if any(token in text for token in ["标点", "空格", "大小写", "格式", "全角", "半角", "文案规范"]):
+        return "copy_format"
+    if any(token in text for token in ["退订", "退款", "支付", "续费", "计费", "自动续费", "扣款", "订单", "权益"]):
+        return "billing_risk"
+    if any(token in text for token in ["href", "链接", "跳转", "url", "目标不精准", "错误跳转"]):
+        return "link_target"
+    if any(token in text for token in ["点击", "按钮", "无响应", "交互", "菜单", "触控", "热区", "禁用", "置灰"]):
+        return "interaction"
+    if any(token in text for token in ["布局", "遮挡", "横向溢出", "字号", "对比度", "颜色", "视觉", "卡片", "换行"]):
+        return "layout"
+    if any(token in text for token in ["缺少", "不完整", "说明不清", "术语", "解释", "信息"]):
+        return "content_clarity"
+    return "unknown"
 
 
 def collect_images(audit: dict[str, Any], audit_path: Path) -> list[Path]:
@@ -80,7 +129,7 @@ def build_prompt(audit: dict[str, Any]) -> str:
 """
 
 
-def normalize_issue(issue: dict[str, Any], index: int, screenshot: str | None) -> dict[str, Any]:
+def normalize_issue(issue: dict[str, Any], index: int, screenshot: str | None, page_url: str | None) -> dict[str, Any]:
     severity = str(issue.get("severity", "p2")).lower()
     if severity not in SEVERITIES:
         severity = "p2"
@@ -89,16 +138,22 @@ def normalize_issue(issue: dict[str, Any], index: int, screenshot: str | None) -
         locate = [locate]
     elif not isinstance(locate, list):
         locate = []
+    before, after = split_suggestion(issue.get("suggestion"))
+    issue_type = classify_issue(issue, before, after)
     return {
         "id": issue.get("id") or f"mobile-mobile-page-{index:03d}",
         "section": "mobile-page",
+        "type": issue_type,
         "severity": severity,
         "title": issue.get("title", ""),
         "area": issue.get("area", ""),
+        "page_url": page_url or "",
         "locate": locate,
         "evidence": issue.get("evidence", ""),
         "standard": issue.get("standard", ""),
-        "suggestion": issue.get("suggestion", ""),
+        "suggestion_before": before,
+        "suggestion_after": after,
+        "auto_fix_eligible": issue_type in {"typo", "copy_format"},
         "screenshot": issue.get("screenshot") or screenshot,
     }
 
@@ -144,7 +199,7 @@ def main() -> int:
         model_switch_sleep_seconds=args.model_switch_sleep_seconds,
     )
     screenshot = first_screenshot(audit)
-    issues = [normalize_issue(issue, index, screenshot) for index, issue in enumerate(analysis.get("issues") or [], start=1)]
+    issues = [normalize_issue(issue, index, screenshot, audit.get("input_url")) for index, issue in enumerate(analysis.get("issues") or [], start=1)]
     section = {
         "id": "mobile-page",
         "name": "移动端页面",

@@ -145,6 +145,14 @@ def split_suggestion(value: Any) -> tuple[str, str]:
     return summarize(text, 120), clean_recommendation(text)
 
 
+def issue_suggestion_parts(issue: dict[str, Any]) -> tuple[str, str]:
+    before = compact_text(issue.get("suggestion_before"))
+    after = compact_text(issue.get("suggestion_after"))
+    if before or after:
+        return summarize(before, 120), clean_recommendation(after)
+    return split_suggestion(issue.get("suggestion"))
+
+
 def clean_recommendation(value: Any, max_len: int = 140) -> str:
     text = compact_text(value)
     text = re.sub(r"^(?:->|→)?\s*修改后[:：]\s*", "", text)
@@ -153,7 +161,7 @@ def clean_recommendation(value: Any, max_len: int = 140) -> str:
 
 
 def issue_description(issue: dict[str, Any], max_len: int = 180) -> str:
-    current, _ = split_suggestion(issue.get("suggestion"))
+    current, _ = issue_suggestion_parts(issue)
     evidence = summarize(issue.get("evidence"), max_len)
     if not current:
         return evidence
@@ -323,7 +331,7 @@ def issue_card(stage: str, issue: dict[str, Any], index: int, has_marker: bool) 
     locate = ", ".join(issue.get("locate") or [])
     mid = marker_id(stage, index)
     marker = f"<span class='marker-ref {sev}'>#{index}</span>" if has_marker else "<span class='marker-ref missing'>未定位</span>"
-    _, recommendation = split_suggestion(issue.get("suggestion"))
+    _, recommendation = issue_suggestion_parts(issue)
     return f"""
     <article class="issue-card {sev}" id="issue-{esc(mid)}">
       <div class="issue-top">{marker}<span>{esc(SEVERITY_LABEL[sev])}</span><strong>{esc(stage)} · {esc(issue.get('title'))}</strong></div>
@@ -344,7 +352,7 @@ def issue_row(issue: dict[str, Any], include_stage: str | None = None, marker: s
     marker_cell = f"<td>{esc(marker or '')}</td>" if marker is not None else ""
     title = issue.get("title") or issue.get("area") or "未命名问题"
     locate = ", ".join(issue.get("locate") or [])
-    _, recommendation = split_suggestion(issue.get("suggestion"))
+    _, recommendation = issue_suggestion_parts(issue)
     return f"""
     <tr class="{sev}">
       {stage_cell}
@@ -372,7 +380,7 @@ def issue_table(rows: str, include_stage: bool = False) -> str:
 
 def priority_row(stage: str, issue: dict[str, Any], marker: str) -> str:
     sev = normalize_severity(issue)
-    _, recommendation = split_suggestion(issue.get("suggestion"))
+    _, recommendation = issue_suggestion_parts(issue)
     return f"""
     <tr class="{sev}">
       <td>{esc(stage)}</td>
