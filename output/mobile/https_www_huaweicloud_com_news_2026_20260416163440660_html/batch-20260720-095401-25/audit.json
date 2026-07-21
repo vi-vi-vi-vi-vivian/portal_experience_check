@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+  "generated_at": "2026-07-20T04:23:41.242315+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 6,
+    "p0": 0,
+    "p1": 5,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "顶部提示链接触控区域过小",
+          "area": "顶部提示栏",
+          "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+          "locate": [
+            "https://www.huaweicloud.com/intl/"
+          ],
+          "evidence": "DOM字段 `smallTargets[0]` 显示链接文本为 'https://www.huaweicloud.com/intl/'，其可点击区域尺寸为 `width: 192px, height: 14px`。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size (Level AAA) 建议触控目标尺寸至少为44x44 CSS像素。",
+          "suggestion_before": "链接高度14px",
+          "suggestion_after": "将顶部提示栏中“国际站”链接的可点击区域调整至至少44x44 CSS像素，以提高点击准确性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "页脚热门产品链接触控区域过小",
+          "area": "页脚",
+          "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+          "locate": [
+            "弹性云服务器",
+            "对象存储服务",
+            "云数据库 GaussDB"
+          ],
+          "evidence": "DOM字段 `smallTargets[7,8,9]` 显示这些热门产品链接的可点击区域高度均为 `16px`。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+          "suggestion_before": "链接高度16px",
+          "suggestion_after": "将页脚热门产品链接的可点击区域调整至至少44x44 CSS像素，确保用户能轻松点击。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "页脚App下载链接触控区域过小",
+          "area": "页脚",
+          "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+          "locate": [
+            "下载华为云App"
+          ],
+          "evidence": "DOM字段 `smallTargets[10]` 显示“下载华为云App”链接的可点击区域高度为 `16px`。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+          "suggestion_before": "链接高度16px",
+          "suggestion_after": "将页脚“下载华为云App”链接的可点击区域调整至至少44x44 CSS像素。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "页脚社交媒体图标触控区域过小",
+          "area": "页脚",
+          "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+          "locate": [
+            "华为云微信 扫描二维码",
+            "华为云微信小程序 华为云微信小程序",
+            "华为云微博 扫描二维码"
+          ],
+          "evidence": "DOM字段 `smallTargets[11,12,13]` 显示这些社交媒体图标的可点击区域尺寸均为 `width: 34px, height: 34px`。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+          "suggestion_before": "图标可点击区域34x34px",
+          "suggestion_after": "将页脚社交媒体图标的可点击区域调整至至少44x44 CSS像素，以改善触控体验。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-005",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "页脚法律及备案信息链接触控区域过小",
+          "area": "页脚",
+          "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+          "locate": [
+            "法律声明",
+            "隐私政策",
+            "黔ICP备20004760号-14",
+            "电子营业执照",
+            "贵公网安备 52990002000093号"
+          ],
+          "evidence": "DOM字段 `smallTargets[15,16,17,19,21]` 显示这些链接的可点击区域高度分别为 `16px, 16px, 15px, 14px, 14px`。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+          "suggestion_before": "链接高度在14-16px之间",
+          "suggestion_after": "将页脚法律及备案信息链接的可点击区域调整至至少44x44 CSS像素。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-006",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "页脚备案图标触控区域过小",
+          "area": "页脚",
+          "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+          "locate": [
+            "i.footer-icon-record1 > a",
+            "i.footer-icon-record2 > a"
+          ],
+          "evidence": "DOM字段 `smallTargets[18,20]` 显示这两个备案图标的可点击区域尺寸均为 `width: 12px, height: 12px`。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+          "suggestion_before": "图标可点击区域12x12px",
+          "suggestion_after": "将页脚备案图标的可点击区域调整至至少44x44 CSS像素。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面审查并增大页面上所有可点击元素的触控区域，确保其高度和宽度至少达到44 CSS像素，以显著提升移动端用户的点击准确性和整体体验。",
+        "特别关注页脚区域的链接和图标，这些区域存在大量触控目标过小的问题，应优先进行优化。"
+      ],
+      "analysis_content": "该新闻详情页面的首屏信息层级清晰，产品/页面主题（华为云OfficeAce办公智能体启动邀测）识别度高，主CTA（华为云App立即下载）可发现性良好。移动端响应式布局方面，未发现明显的横向溢出或固定栏遮挡问题，文字换行和可读性表现正常。导航菜单（汉堡菜单）可正常打开，且触控区域大小合适。然而，页面存在大量触控体验问题，特别是页脚和顶部提示栏中的多个链接和图标，其可点击区域远小于移动端推荐的44x44 CSS像素标准，严重影响了用户在移动设备上的操作便利性和可访问性。尽管点击事件均能有效触发，但过小的触控目标会导致用户误触或难以点击，降低用户体验。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "顶部提示链接触控区域过小",
+      "area": "顶部提示栏",
+      "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "locate": [
+        "https://www.huaweicloud.com/intl/"
+      ],
+      "evidence": "DOM字段 `smallTargets[0]` 显示链接文本为 'https://www.huaweicloud.com/intl/'，其可点击区域尺寸为 `width: 192px, height: 14px`。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size (Level AAA) 建议触控目标尺寸至少为44x44 CSS像素。",
+      "suggestion_before": "链接高度14px",
+      "suggestion_after": "将顶部提示栏中“国际站”链接的可点击区域调整至至少44x44 CSS像素，以提高点击准确性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "页脚热门产品链接触控区域过小",
+      "area": "页脚",
+      "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "locate": [
+        "弹性云服务器",
+        "对象存储服务",
+        "云数据库 GaussDB"
+      ],
+      "evidence": "DOM字段 `smallTargets[7,8,9]` 显示这些热门产品链接的可点击区域高度均为 `16px`。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+      "suggestion_before": "链接高度16px",
+      "suggestion_after": "将页脚热门产品链接的可点击区域调整至至少44x44 CSS像素，确保用户能轻松点击。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "页脚App下载链接触控区域过小",
+      "area": "页脚",
+      "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "locate": [
+        "下载华为云App"
+      ],
+      "evidence": "DOM字段 `smallTargets[10]` 显示“下载华为云App”链接的可点击区域高度为 `16px`。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+      "suggestion_before": "链接高度16px",
+      "suggestion_after": "将页脚“下载华为云App”链接的可点击区域调整至至少44x44 CSS像素。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "页脚社交媒体图标触控区域过小",
+      "area": "页脚",
+      "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "locate": [
+        "华为云微信 扫描二维码",
+        "华为云微信小程序 华为云微信小程序",
+        "华为云微博 扫描二维码"
+      ],
+      "evidence": "DOM字段 `smallTargets[11,12,13]` 显示这些社交媒体图标的可点击区域尺寸均为 `width: 34px, height: 34px`。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+      "suggestion_before": "图标可点击区域34x34px",
+      "suggestion_after": "将页脚社交媒体图标的可点击区域调整至至少44x44 CSS像素，以改善触控体验。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-005",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "页脚法律及备案信息链接触控区域过小",
+      "area": "页脚",
+      "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "locate": [
+        "法律声明",
+        "隐私政策",
+        "黔ICP备20004760号-14",
+        "电子营业执照",
+        "贵公网安备 52990002000093号"
+      ],
+      "evidence": "DOM字段 `smallTargets[15,16,17,19,21]` 显示这些链接的可点击区域高度分别为 `16px, 16px, 15px, 14px, 14px`。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+      "suggestion_before": "链接高度在14-16px之间",
+      "suggestion_after": "将页脚法律及备案信息链接的可点击区域调整至至少44x44 CSS像素。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-006",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "页脚备案图标触控区域过小",
+      "area": "页脚",
+      "page_url": "https://www.huaweicloud.com/news/2026/20260416163440660.html",
+      "locate": [
+        "i.footer-icon-record1 > a",
+        "i.footer-icon-record2 > a"
+      ],
+      "evidence": "DOM字段 `smallTargets[18,20]` 显示这两个备案图标的可点击区域尺寸均为 `width: 12px, height: 12px`。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size 建议触控目标尺寸至少为44x44 CSS像素。",
+      "suggestion_before": "图标可点击区域12x12px",
+      "suggestion_after": "将页脚备案图标的可点击区域调整至至少44x44 CSS像素。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_news_2026_20260416163440660_html/batch-20260720-095401-25/screenshots/https_www_huaweicloud_com_news_2026_20260416163440660_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

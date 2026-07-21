@@ -1,0 +1,2773 @@
+{
+  "input_url": "https://bbs.huaweicloud.com/blogs/474760",
+  "audit_time": "2026-07-20T04:19:46.195656+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png",
+    "scroll_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_scroll.png",
+    "full_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_full.png",
+    "menu_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_menu.png"
+  },
+  "dom": {
+    "url": "https://bbs.huaweicloud.com/blogs/474760",
+    "title": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）-云社区-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 11569
+    },
+    "overflowElements": [
+      {
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > img.user-avatar",
+        "text": "",
+        "left": -4,
+        "right": 52,
+        "width": 56,
+        "className": "user-avatar",
+        "overflowX": "clip"
+      }
+    ],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "div.loaded.mb > div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu",
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs 我的支持 我的技术支持 我的云声建议",
+        "clientWidth": 48,
+        "scrollWidth": 48,
+        "clientHeight": 536,
+        "scrollHeight": 763,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "536px"
+      },
+      {
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail",
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布） 举报 AgentArts运营小助手 2026/03/04 1.9k+ 【摘要】 用户体验全面提升~ < 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- Age",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 11473,
+        "scrollHeight": 11494,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "11472.5px"
+      },
+      {
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail > div.wrapper-main",
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布） 举报 AgentArts运营小助手 2026/03/04 1.9k+ 【摘要】 用户体验全面提升~ < 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- Age",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 11473,
+        "scrollHeight": 11494,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "11472.5px"
+      },
+      {
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog",
+        "text": "举报 AgentArts运营小助手 2026/03/04 1.9k+",
+        "clientWidth": 360,
+        "scrollWidth": 372,
+        "clientHeight": 20,
+        "scrollHeight": 40,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "20px"
+      }
+    ],
+    "fixedBottom": [
+      {
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.mobile-commenter-cover.m-blog-user-comment",
+        "text": "评论 全部回复 上滑加载中",
+        "position": "fixed",
+        "height": 54,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      },
+      {
+        "path": "html.phone > body#blogs_detial_home_page > div.banner-box",
+        "text": "新窗 关闭",
+        "position": "fixed",
+        "height": 844,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      }
+    ],
+    "clickableSummary": {
+      "count": 44
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-wrapper > div.header-inner.isDeveloper > div.hwc-header-bottom > h2.hwc-header-logo-outer > a.hwc-header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 20,
+        "y": 11,
+        "width": 70,
+        "height": 25,
+        "area": 1750
+      },
+      {
+        "index": 1,
+        "path": "div.header-wrapper > div.header-inner.isDeveloper > div.hwc-header-bottom > div.logo-title > a",
+        "text": "开发者",
+        "tag": "a",
+        "x": 169,
+        "y": 12,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 2,
+        "path": "div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu > li.level1 > a",
+        "text": "个人主页",
+        "tag": "a",
+        "x": 24,
+        "y": 229,
+        "width": 16,
+        "height": 163,
+        "area": 2608
+      },
+      {
+        "index": 3,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的博客",
+        "tag": "a",
+        "x": 40,
+        "y": 519,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 4,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的论坛",
+        "tag": "a",
+        "x": 40,
+        "y": 567,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 5,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的圈子",
+        "tag": "a",
+        "x": 40,
+        "y": 615,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 6,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的直播",
+        "tag": "a",
+        "x": 40,
+        "y": 663,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 7,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的活动",
+        "tag": "a",
+        "x": 40,
+        "y": 711,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 8,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的关注",
+        "tag": "a",
+        "x": 40,
+        "y": 759,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 9,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的课程",
+        "tag": "a",
+        "x": 40,
+        "y": 1144,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 10,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的认证",
+        "tag": "a",
+        "x": 40,
+        "y": 1192,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 11,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的实验",
+        "tag": "a",
+        "x": 40,
+        "y": 1240,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 12,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的收藏",
+        "tag": "a",
+        "x": 40,
+        "y": 1288,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 14,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的技术支持",
+        "tag": "a",
+        "x": 40,
+        "y": 1096,
+        "width": 14,
+        "height": 256,
+        "area": 3584
+      },
+      {
+        "index": 15,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的云声建议",
+        "tag": "a",
+        "x": 40,
+        "y": 1144,
+        "width": 14,
+        "height": 256,
+        "area": 3584
+      },
+      {
+        "index": 16,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.author-min-head.target_self",
+        "text": "",
+        "tag": "a",
+        "x": 15,
+        "y": 152,
+        "width": 20,
+        "height": 20,
+        "area": 400
+      },
+      {
+        "index": 17,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+        "text": "AgentArts运营小助手",
+        "tag": "a",
+        "x": 43,
+        "y": 154,
+        "width": 114,
+        "height": 16,
+        "area": 1828
+      },
+      {
+        "index": 18,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "华为开发",
+        "tag": "a",
+        "x": 64,
+        "y": 477,
+        "width": 60,
+        "height": 16,
+        "area": 966
+      },
+      {
+        "index": 19,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "者空间",
+        "tag": "a",
+        "x": 125,
+        "y": 477,
+        "width": 46,
+        "height": 16,
+        "area": 742
+      },
+      {
+        "index": 20,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "--开发平台-- AgentArts",
+        "tag": "a",
+        "x": 171,
+        "y": 477,
+        "width": 150,
+        "height": 16,
+        "area": 2400.75
+      },
+      {
+        "index": 21,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "",
+        "tag": "a",
+        "x": 321,
+        "y": 477,
+        "width": 4,
+        "height": 16,
+        "area": 70
+      },
+      {
+        "index": 22,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "控制台",
+        "tag": "a",
+        "x": 87,
+        "y": 9973,
+        "width": 46,
+        "height": 16,
+        "area": 742
+      },
+      {
+        "index": 23,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "华为云",
+        "tag": "a",
+        "x": 111,
+        "y": 10105,
+        "width": 46,
+        "height": 16,
+        "area": 742
+      },
+      {
+        "index": 24,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "AgentArts智能体",
+        "tag": "a",
+        "x": 158,
+        "y": 10105,
+        "width": 114,
+        "height": 16,
+        "area": 1828.75
+      },
+      {
+        "index": 25,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "开发",
+        "tag": "a",
+        "x": 272,
+        "y": 10105,
+        "width": 32,
+        "height": 16,
+        "area": 518
+      },
+      {
+        "index": 26,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "平台",
+        "tag": "a",
+        "x": 304,
+        "y": 10105,
+        "width": 32,
+        "height": 16,
+        "area": 518
+      },
+      {
+        "index": 27,
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a",
+        "text": "官网",
+        "tag": "a",
+        "x": 337,
+        "y": 10105,
+        "width": 28,
+        "height": 16,
+        "area": 448
+      },
+      {
+        "index": 28,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "text": "cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "x": 30,
+        "y": 10341,
+        "width": 180,
+        "height": 16,
+        "area": 2882.5
+      },
+      {
+        "index": 29,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "text": "人工智能",
+        "tag": "a",
+        "x": 15,
+        "y": 10397,
+        "width": 72,
+        "height": 24,
+        "area": 1728
+      },
+      {
+        "index": 30,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "text": "开发者",
+        "tag": "a",
+        "x": 95,
+        "y": 10397,
+        "width": 58,
+        "height": 24,
+        "area": 1392
+      },
+      {
+        "index": 31,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "text": "智果（AgentArts）智能体平台",
+        "tag": "a",
+        "x": 161,
+        "y": 10397,
+        "width": 205,
+        "height": 24,
+        "area": 4927.125
+      },
+      {
+        "index": 32,
+        "path": "div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card",
+        "text": "",
+        "tag": "a",
+        "x": 15,
+        "y": 10453,
+        "width": 360,
+        "height": 16,
+        "area": 5760
+      },
+      {
+        "index": 37,
+        "path": "div.cloud-blog-detail-left > div#other-block.other-article-block > ul.link-list > li > a#relate_4.por-text-body-t2.two-line",
+        "text": "码道实战｜Skill 集成赋能微信小程序快速上线",
+        "tag": "a",
+        "x": 15,
+        "y": 10911,
+        "width": 360,
+        "height": 24,
+        "area": 8640
+      },
+      {
+        "index": 43,
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.mobile-commenter-cover.m-blog-user-comment > div.mobile-commenter > textarea.mobile-comment-textarea",
+        "text": "",
+        "tag": "textarea",
+        "x": 15,
+        "y": 802,
+        "width": 260,
+        "height": 34,
+        "area": 8840
+      }
+    ],
+    "closePairs": [],
+    "forms": [
+      {
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.mobile-commenter-cover.m-blog-user-comment > div.mobile-commenter > textarea.mobile-comment-textarea",
+        "tag": "textarea",
+        "type": "",
+        "placeholder": "说点什么",
+        "inputmode": "",
+        "autocomplete": "",
+        "y": 802,
+        "width": 260,
+        "height": 34,
+        "nearBottom": true
+      }
+    ],
+    "images": [
+      {
+        "path": "div.header-inner.isDeveloper > div.hwc-header-bottom > h2.hwc-header-logo-outer > a.hwc-header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/navi/PClogonew.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 71,
+        "height": 25,
+        "top": 11,
+        "belowFold": false
+      },
+      {
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > img.user-avatar",
+        "alt": "",
+        "src": "",
+        "ext": "unknown",
+        "loading": "",
+        "width": 56,
+        "height": 56,
+        "top": 102,
+        "belowFold": false
+      },
+      {
+        "path": "div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.author-min-head.target_self > img#headImg.authorImg.currentImg",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20251104124232.90746061533028170043701954102347:20260720061537:2415:506421",
+        "ext": "jpeg",
+        "loading": "",
+        "width": 20,
+        "height": 20,
+        "top": 152,
+        "belowFold": false
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.62617935690109700168881184764910:20260720061537:2415:851568",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 102,
+        "top": 260,
+        "belowFold": false
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.71561411741870447878802398491809:20260720061537:2415:CFD614",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 39,
+        "top": 649,
+        "belowFold": false
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.88190544845561891119474470901021:20260720061537:2415:E81A19",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 170,
+        "top": 1231,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.02814336632849701637088898961019:20260720061537:2415:6EBC60",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 38,
+        "top": 1556,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.17835051842439891094878452376836:20260720061537:2415:A804AF",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 39,
+        "top": 2580,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.82241757706189749050859559106882:20260720061537:2415:9A399D",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 175,
+        "top": 3354,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.64501079616541603934463720393522:20260720061537:2415:A82204",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 38,
+        "top": 3721,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.88380755380381167335862124292530:20260720061537:2415:0A2C56",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 193,
+        "top": 3911,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.87695446785989955920831774431927:20260720061537:2415:8DADF8",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 165,
+        "top": 4282,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.66056234878120411288462319804576:20260720061537:2415:C40F89",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 168,
+        "top": 4599,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.98914455348857487577575934456719:20260720061537:2415:87F267",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 158,
+        "top": 4877,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.67009203818344626079588461117083:20260720061537:2415:798222",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 5102,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.95149802142583827639001865335140:20260720061537:2415:142C36",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 163,
+        "top": 5439,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.22084237047210228607504203193430:20260720061537:2415:572C8D",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 5733,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.42138907290721269996161372035508:20260720061537:2415:AFADED",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 6026,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.36456483310146009521127063818033:20260720061537:2415:67784C",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 164,
+        "top": 6276,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.27405506902998598021769904885159:20260720061537:2415:7E29C7",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 6639,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.10120433252096880798147068319673:20260720061537:2415:8977FD",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 160,
+        "top": 7083,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.99375503802318124251053458108869:20260720061537:2415:4B932A",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 7378,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.63741538419104990979815931183623:20260720061537:2415:CE935A",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 126,
+        "top": 7527,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.25786762702612900717213482126855:20260720061537:2415:61FA61",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 40,
+        "top": 7808,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.13065166971008040947161002869978:20260720061537:2415:D861BC",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8050,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.10503101732565459133576828895021:20260720061537:2415:E29943",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8294,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.38937987051270623635780780731809:20260720061537:2415:F31CF7",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8360,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.66802548255524874378441942235847:20260720061537:2415:8D1A5A",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8580,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.37058485733742947663609076583392:20260720061537:2415:042EE6",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9076,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.85579392313034044110839705007552:20260720061537:2415:E5B6B7",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9468,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.19046133428416841144792054583732:20260720061537:2415:B3E658",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9512,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9600,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9688,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9732,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 10016,
+        "belowFold": true
+      },
+      {
+        "path": "div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E5%8D%9A%E5%AE%A2%E8%AF%A6%E6%83%85%E9%A1%B5%E5%BA%95%E9%83%A8%E5%B9%BF%E5%91%8A%E4%BD%8D.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 360,
+        "height": 44,
+        "top": 10421,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.88190544845561891119474470901021:20260720061537:2415:E81A19",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 170,
+        "top": 1231,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.02814336632849701637088898961019:20260720061537:2415:6EBC60",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 38,
+        "top": 1556,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.17835051842439891094878452376836:20260720061537:2415:A804AF",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 39,
+        "top": 2580,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.82241757706189749050859559106882:20260720061537:2415:9A399D",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 175,
+        "top": 3354,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.64501079616541603934463720393522:20260720061537:2415:A82204",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 38,
+        "top": 3721,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.88380755380381167335862124292530:20260720061537:2415:0A2C56",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 193,
+        "top": 3911,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.87695446785989955920831774431927:20260720061537:2415:8DADF8",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 165,
+        "top": 4282,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.66056234878120411288462319804576:20260720061537:2415:C40F89",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 168,
+        "top": 4599,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.98914455348857487577575934456719:20260720061537:2415:87F267",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 158,
+        "top": 4877,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.67009203818344626079588461117083:20260720061537:2415:798222",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 5102,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.95149802142583827639001865335140:20260720061537:2415:142C36",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 163,
+        "top": 5439,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.22084237047210228607504203193430:20260720061537:2415:572C8D",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 5733,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.42138907290721269996161372035508:20260720061537:2415:AFADED",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 6026,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.36456483310146009521127063818033:20260720061537:2415:67784C",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 164,
+        "top": 6276,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035206.27405506902998598021769904885159:20260720061537:2415:7E29C7",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 162,
+        "top": 6639,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.10120433252096880798147068319673:20260720061537:2415:8977FD",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 160,
+        "top": 7083,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.99375503802318124251053458108869:20260720061537:2415:4B932A",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 7378,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.63741538419104990979815931183623:20260720061537:2415:CE935A",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 126,
+        "top": 7527,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.25786762702612900717213482126855:20260720061537:2415:61FA61",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 40,
+        "top": 7808,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.13065166971008040947161002869978:20260720061537:2415:D861BC",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8050,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.10503101732565459133576828895021:20260720061537:2415:E29943",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8294,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.38937987051270623635780780731809:20260720061537:2415:F31CF7",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8360,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.66802548255524874378441942235847:20260720061537:2415:8D1A5A",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 8580,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.37058485733742947663609076583392:20260720061537:2415:042EE6",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9076,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.85579392313034044110839705007552:20260720061537:2415:E5B6B7",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9468,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/878/944/576/0001725249878944576.20260304035207.19046133428416841144792054583732:20260720061537:2415:B3E658",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9512,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9600,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9688,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 9732,
+        "belowFold": true
+      },
+      {
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > img.lazyload",
+        "alt": "",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/libs/images/loading.gif",
+        "ext": "unknown",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 10016,
+        "belowFold": true
+      },
+      {
+        "path": "div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E5%8D%9A%E5%AE%A2%E8%AF%A6%E6%83%85%E9%A1%B5%E5%BA%95%E9%83%A8%E5%B9%BF%E5%91%8A%E4%BD%8D.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 360,
+        "height": 44,
+        "top": 10421,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover",
+        "media": "",
+        "css": ".eco-dialog footer button:hover { background-color: rgb(89, 89, 89); border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover.cancel",
+        "media": "",
+        "css": ".eco-dialog footer button:hover.cancel { background: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-body a:hover",
+        "media": "only screen and (max-width: 768px) and (min-width: 320px)",
+        "css": ".eco-protocol-content .eco-protocol-body a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-notice label a:hover",
+        "media": "only screen and (max-width: 768px) and (min-width: 320px)",
+        "css": ".eco-protocol-content .eco-protocol-notice label a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-body a:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".eco-protocol-content .eco-protocol-body a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-notice label a:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".eco-protocol-content .eco-protocol-notice label a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".protocol-btn-black:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".protocol-btn-black:hover { color: rgb(255, 255, 255) !important; background-color: rgb(137, 137, 137) !important; border-color: rgb(137, 137, 137) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-body a:hover",
+        "media": "",
+        "css": ".eco-protocol-body a:hover { color: rgb(20, 118, 255); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".protocol-btn-default:hover",
+        "media": "",
+        "css": ".protocol-btn-default:hover { background-color: rgb(254, 254, 254) !important; border-color: rgb(25, 25, 25) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover",
+        "media": "",
+        "css": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover .space-suspend-img[data-v-5de126e7]",
+        "media": "",
+        "css": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover .space-suspend-img[data-v-5de126e7] { transform: scale(1.1); }"
+      },
+      {
+        "type": "wide-width",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988]",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] { padding: 32px; position: relative; box-sizing: border-box; max-height: calc(-50px + 100vh); overflow: auto; width: 700px; border-radius: 8px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::after",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::after { background-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::before",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::before { background-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .foot[data-v-73233988] .btn-sub[data-v-73233988][data-v-73233988]:hover",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .foot[data-v-73233988] .btn-sub[data-v-73233988][data-v-73233988]:hover { border: 1px solid rgb(89, 89, 89); background-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config:hover .float-config-star",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config:hover .float-config-star { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .mkp-star-score-wrapper .mkp-star-score-btns .btn-box p:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .mkp-star-score-wrapper .mkp-star-score-btns .btn-box p:hover { font-weight: bold; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(24, 24, 24); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline label:hover",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline label:hover { cursor: default; color: rgb(87, 93, 108); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-submit:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-submit:hover { background: rgb(98, 98, 98); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-cancel:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-cancel:hover { background: rgb(243, 243, 243); border: 1px solid rgb(216, 216, 216); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:disabled + span, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:disabled + span, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(223, 225, 230); background-color: rgb(238, 240, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:disabled + span i, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span i",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:disabled + span i, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span i { color: rgb(223, 225, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-scrollbar-s::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".por-scrollbar-s::-webkit-scrollbar-thumb:hover { background-color: rgba(87, 93, 108, 0.8); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:focus + span, .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:focus + span, .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(173, 176, 184) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(24, 24, 24) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover > h2",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover > h2 { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .color-black-hover:hover",
+        "media": "",
+        "css": ".hwc-home-footer .color-black-hover:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-submenu-link:hover",
+        "media": "",
+        "css": ".hwc-home-footer .footer-submenu-link:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular a:hover { color: rgb(25, 25, 25); font-weight: 500; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".hwc-home-header .header-user-info-list-prompt .logout:hover a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user:hover .header-user-name",
+        "media": "",
+        "css": ".hwc-home-header .header-user:hover .header-user-name { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user:hover .header-user-name i",
+        "media": "",
+        "css": ".hwc-home-header .header-user:hover .header-user-name i { border-top-color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang-item.active > a, .hwc-home-header .header-lang-item:hover > a",
+        "media": "",
+        "css": ".hwc-home-header .header-lang-item.active > a, .hwc-home-header .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".hwc-home-header .header-tools .header-tools-right > li > a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".hwc-home-header .header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .agreement-authorized:hover",
+        "media": "",
+        "css": ".hwc-home-header .agreement-authorized:hover { font-weight: 600; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".privacy-popup .notice a:hover",
+        "media": "",
+        "css": ".privacy-popup .notice a:hover { color: rgb(25, 25, 25); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 17,
+    "testedCount": 12,
+    "issueCount": 3,
+    "candidates": [
+      {
+        "text": "AgentArts运营小助手",
+        "href": "https://bbs.huaweicloud.com/community/usersnew/id_1725249878944576",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+        "className": "sub-content-username por-link-red",
+        "top": 154,
+        "left": 43,
+        "width": 114,
+        "height": 16,
+        "importance": 28,
+        "ordinal": 0
+      },
+      {
+        "text": "返回",
+        "href": "",
+        "tag": "span",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "className": "back-btn",
+        "top": 42,
+        "left": 24,
+        "width": 18,
+        "height": 66,
+        "importance": 20,
+        "ordinal": 1
+      },
+      {
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布） 举报 AgentArts运营小助手 2026/03/04 1.9k+ 【摘要】 用户体验全面提升~ < 华为云AgentArts智能体开发平台 体验入口> 华",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail",
+        "className": "main-content main-content-blog-detail",
+        "top": 48,
+        "left": 0,
+        "width": 390,
+        "height": 9549,
+        "importance": 20,
+        "ordinal": 2
+      },
+      {
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+        "href": "",
+        "tag": "h1",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "className": "cloud-blog-detail-title",
+        "top": 68,
+        "left": 15,
+        "width": 360,
+        "height": 72,
+        "importance": 20,
+        "ordinal": 3
+      },
+      {
+        "text": "举报",
+        "href": "",
+        "tag": "div",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div#report_btn.report-btn",
+        "className": "report-btn",
+        "top": 152,
+        "left": 359,
+        "width": 16,
+        "height": 20,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "【摘要】 用户体验全面提升~",
+        "href": "",
+        "tag": "div",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "className": "cloud-blog-detail-summary ",
+        "top": 188,
+        "left": 15,
+        "width": 360,
+        "height": 56,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "< 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- AgentArts （请在PC端打开） hi各位开发者们，我们很高兴向大家宣布，原Versatile智能体平台迎来里程碑式更新！产品名称由“华为云Versatile智能体平台”变更为“华为",
+        "href": "",
+        "tag": "div",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+        "className": "cloud-blog-detail-content-wrap",
+        "top": 244,
+        "left": 15,
+        "width": 360,
+        "height": 8404,
+        "importance": 20,
+        "ordinal": 6
+      },
+      {
+        "text": "< 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- AgentArts （请在PC端打开） hi各位开发者们，我们很高兴向大家宣布，原Versatile智能体平台迎来里程碑式更新！产品名称由“华为云Versatile智能体平台”变更为“华为",
+        "href": "",
+        "tag": "div",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+        "className": "cloud-blog-detail-content blog-content-block-0",
+        "top": 260,
+        "left": 15,
+        "width": 360,
+        "height": 7970,
+        "importance": 20,
+        "ordinal": 7
+      },
+      {
+        "text": "cloudbbs@huaweicloud.com",
+        "href": "mailto:cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "className": "mail-contact-address por-link",
+        "top": 8442,
+        "left": 30,
+        "width": 180,
+        "height": 16,
+        "importance": 8,
+        "ordinal": 8
+      },
+      {
+        "text": "人工智能",
+        "href": "https://developer.huaweicloud.com/tags/200339/blog_1",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "className": "common-blog-menu-btn por-label-type",
+        "top": 8498,
+        "left": 15,
+        "width": 72,
+        "height": 24,
+        "importance": 8,
+        "ordinal": 9
+      },
+      {
+        "text": "开发者",
+        "href": "https://developer.huaweicloud.com/tags/200648/blog_1",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "className": "common-blog-menu-btn por-label-type",
+        "top": 8498,
+        "left": 95,
+        "width": 58,
+        "height": 24,
+        "importance": 8,
+        "ordinal": 10
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "href": "https://developer.huaweicloud.com/tags/306444/blog_1",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "className": "common-blog-menu-btn por-label-type",
+        "top": 8498,
+        "left": 161,
+        "width": 205,
+        "height": 24,
+        "importance": 8,
+        "ordinal": 11
+      },
+      {
+        "text": "",
+        "href": "https://developer.huaweicloud.com/space/home?source=bbs",
+        "tag": "a",
+        "path": "div.cloud-blog-detail-content-wrap > div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card",
+        "className": "pep-smart-recommend-img-card",
+        "top": 8553,
+        "left": 15,
+        "width": 360,
+        "height": 16,
+        "importance": 8,
+        "ordinal": 12
+      },
+      {
+        "text": "【声明】本内容来自华为云开发者社区博主，不代表华为云及华为云开发者社区的观点和立场。转载时必须标注文章的来源（华为云社区）、文章链接、文章作者等基本信息，否则作者和本社区有权追究责任。如果您发现本社区中有涉嫌抄袭的内容，欢迎发送邮件进行举报，并提供相关证据，一经查实，本社区将立刻",
+        "href": "",
+        "tag": "div",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights",
+        "className": "cloud-blog-detail-copyrights",
+        "top": 8254,
+        "left": 15,
+        "width": 360,
+        "height": 224,
+        "importance": 0,
+        "ordinal": 13
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "img",
+        "path": "div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+        "className": "portal-smart-recommends-card-title",
+        "top": 8522,
+        "left": 15,
+        "width": 360,
+        "height": 44,
+        "importance": 0,
+        "ordinal": 14
+      },
+      {
+        "text": "在线养虾模式开启，用华为云码道（CodeArts）代码智能体Skill快速安装OpenClaw 零基础30分钟搞定 Claude Code，这一步90%的人直接跳过了 智能体技能（Skills）安全扫描工具 给 Hermes Agent 装个可视化面板！Docker 一键部署 H",
+        "href": "",
+        "tag": "ul",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div#other-block.other-article-block > ul.link-list",
+        "className": "link-list",
+        "top": 8755,
+        "left": 15,
+        "width": 360,
+        "height": 256,
+        "importance": 0,
+        "ordinal": 15
+      },
+      {
+        "text": "版本速递 | 华为云Versatile智能体平台 新增特性介绍（2025年9月发布） 版本速递 | 华为云Versatile智能体平台 新增特性介绍（2025年10月发布） 版本速递 | 华为云Versatile智能体平台 新增特性介绍（2025年11月发布） 版本速递 | 华为",
+        "href": "",
+        "tag": "ul",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div#other-related-block.other-article-block > ul.link-list",
+        "className": "link-list",
+        "top": 9131,
+        "left": 15,
+        "width": 360,
+        "height": 304,
+        "importance": 0,
+        "ordinal": 16
+      }
+    ],
+    "results": [
+      {
+        "text": "AgentArts运营小助手",
+        "tag": "a",
+        "href": "https://bbs.huaweicloud.com/community/usersnew/id_1725249878944576",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+        "rect": {
+          "left": 43,
+          "top": 154,
+          "width": 114,
+          "height": 16
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "AgentArts运营小助手",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+          "className": "sub-content-username por-link-red"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/community/usersnew/id_1725249878944576",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:16:29 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:16:29 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:16:29 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:16:29 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/community/usersnew/id_1725249878944576",
+          "scrollY": 0,
+          "bodyLength": 1601,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2379,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "返回",
+        "tag": "span",
+        "href": "",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "rect": {
+          "left": 24,
+          "top": 42,
+          "width": 18,
+          "height": 66
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 0,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布） 举报 AgentArts运营小助手 2026/03/04 1.9k+ 【摘要】 用户体验全面提升~ < 华为云AgentArts智能体开发平台 体验入口> 华",
+        "tag": "div",
+        "href": "",
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail",
+        "rect": {
+          "left": 0,
+          "top": 48,
+          "width": 390,
+          "height": 9549
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "· 一站式模型开通配置：同账号下MAAS已开通部署的模型服务，在",
+          "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > b > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:17:08 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:17:08 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:17:08 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:17:08 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 4472,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 32,
+          "urlChanged": false,
+          "scrollChanged": 171,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+        "tag": "h1",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "rect": {
+          "left": 15,
+          "top": 68,
+          "width": 360,
+          "height": 72
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 0,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "举报",
+        "tag": "div",
+        "href": "",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div#report_btn.report-btn",
+        "rect": {
+          "left": 359,
+          "top": 152,
+          "width": 16,
+          "height": 20
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "举报",
+          "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div#report_btn.report-btn",
+          "className": "report-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?locale=zh-cn&service=https%3A%2F%2Fbbs.huaweicloud.com%2Fblogs%2F474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:17:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:17:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:17:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:17:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?locale=zh-cn&service=https%3A%2F%2Fbbs.huaweicloud.com%2Fblogs%2F474760",
+          "scrollY": 0,
+          "bodyLength": 0,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 3858,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "【摘要】 用户体验全面提升~",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "rect": {
+          "left": 15,
+          "top": 188,
+          "width": 360,
+          "height": 56
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "【摘要】 用户体验全面提升~",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+          "className": "cloud-blog-detail-summary "
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 0,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "< 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- AgentArts （请在PC端打开） hi各位开发者们，我们很高兴向大家宣布，原Versatile智能体平台迎来里程碑式更新！产品名称由“华为云Versatile智能体平台”变更为“华为",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+        "rect": {
+          "left": 15,
+          "top": 244,
+          "width": 360,
+          "height": 8404
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "< 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- AgentArts （请在PC端打开） hi各位开发者们，我们很高兴向大家宣布，原Versatile智能体平台迎来里程碑式更新！产品名称由“华为云Versatile智能体平台”变更为“华为",
+          "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+          "className": "cloud-blog-detail-content blog-content-block-0"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:18:12 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:18:12 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:18:12 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:18:12 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 4148,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 33,
+          "urlChanged": false,
+          "scrollChanged": 164,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "< 华为云AgentArts智能体开发平台 体验入口> 华为开发 者空间 --开发平台-- AgentArts （请在PC端打开） hi各位开发者们，我们很高兴向大家宣布，原Versatile智能体平台迎来里程碑式更新！产品名称由“华为云Versatile智能体平台”变更为“华为",
+        "tag": "div",
+        "href": "",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+        "rect": {
+          "left": 15,
+          "top": 260,
+          "width": 360,
+          "height": 7970
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "p",
+          "text": "",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:18:28 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:18:28 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:18:28 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:18:28 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 4119,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 34,
+          "urlChanged": false,
+          "scrollChanged": 336,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "href": "mailto:cloudbbs@huaweicloud.com",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "rect": {
+          "left": 30,
+          "top": 8442,
+          "width": 180,
+          "height": 16
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "cloudbbs@huaweicloud.com",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+          "className": "mail-contact-address por-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:18:45 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:18:45 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:18:45 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:18:45 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 8242,
+          "bodyLength": 3921,
+          "overlayCount": 0,
+          "mutations": 20,
+          "urlChanged": false,
+          "scrollChanged": 254,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "人工智能",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/tags/200339/blog_1",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "rect": {
+          "left": 15,
+          "top": 8498,
+          "width": 72,
+          "height": 24
+        },
+        "status": "not-tested",
+        "possibleCause": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:19:00 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:19:00 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:19:00 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:19:00 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {}
+      },
+      {
+        "text": "开发者",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/tags/200648/blog_1",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "rect": {
+          "left": 95,
+          "top": 8498,
+          "width": 58,
+          "height": 24
+        },
+        "status": "not-tested",
+        "possibleCause": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:19:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:19:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:19:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:19:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {}
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/tags/306444/blog_1",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "rect": {
+          "left": 161,
+          "top": 8498,
+          "width": 205,
+          "height": 24
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "智果（AgentArts）智能体平台",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+          "className": "common-blog-menu-btn por-label-type"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://developer.huaweicloud.com/tags/306444/blog_1",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:19:31 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:19:31 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:19:31 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:19:31 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/tags/306444/blog_1",
+          "scrollY": 0,
+          "bodyLength": 1865,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 8048,
+          "bodyLengthDelta": 2056,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": [
+      {
+        "text": "返回",
+        "tag": "span",
+        "href": "",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "rect": {
+          "left": 24,
+          "top": 42,
+          "width": 18,
+          "height": 66
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 0,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+        "tag": "h1",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "rect": {
+          "left": 15,
+          "top": 68,
+          "width": 360,
+          "height": 72
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 0,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "【摘要】 用户体验全面提升~",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "rect": {
+          "left": 15,
+          "top": 188,
+          "width": 360,
+          "height": 56
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "【摘要】 用户体验全面提升~",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+          "className": "cloud-blog-detail-summary "
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/474760",
+          "scrollY": 0,
+          "bodyLength": 3858,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      }
+    ]
+  },
+  "tapActionIssues": [
+    {
+      "text": "返回",
+      "tag": "span",
+      "href": "",
+      "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+      "rect": {
+        "left": 24,
+        "top": 42,
+        "width": 18,
+        "height": 66
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+      "hit": {
+        "tag": "h1",
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "className": "cloud-blog-detail-title"
+      },
+      "hitInsideTarget": false,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:16:51 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/474760",
+        "scrollY": 0,
+        "bodyLength": 3858,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+      "tag": "h1",
+      "href": "",
+      "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+      "rect": {
+        "left": 15,
+        "top": 68,
+        "width": 360,
+        "height": 72
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "h1",
+        "text": "版本速递 | 华为云AgentArts智能体开发平台，版本重大升级，品牌焕新+体验优化，已全新上线（2026年2月发布）",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "className": "cloud-blog-detail-title"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:17:25 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/474760",
+        "scrollY": 0,
+        "bodyLength": 3858,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "【摘要】 用户体验全面提升~",
+      "tag": "div",
+      "href": "",
+      "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+      "rect": {
+        "left": 15,
+        "top": 188,
+        "width": 360,
+        "height": 56
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "div",
+        "text": "【摘要】 用户体验全面提升~",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "className": "cloud-blog-detail-summary "
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/474760",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/474760",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:17:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/474760",
+        "scrollY": 0,
+        "bodyLength": 3858,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    }
+  ],
+  "after_scroll_ctas": [
+    {
+      "text": "控制台",
+      "position": "static",
+      "x": 87,
+      "y": 9624,
+      "width": 46,
+      "height": 16
+    }
+  ],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 2,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 24,
+        "x": 266,
+        "y": 12
+      },
+      {
+        "index": 3,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 342,
+        "y": -0.0
+      },
+      {
+        "index": 4,
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs ",
+        "className": "my-menu",
+        "width": 48,
+        "height": 536,
+        "x": 0,
+        "y": 194
+      },
+      {
+        "index": 32,
+        "text": "人工智能 开发者 智果（AgentArts）智能体平台",
+        "className": "blog-menu-footer m-blog-menu-footer-top",
+        "width": 360,
+        "height": 32,
+        "x": 15,
+        "y": 11398
+      },
+      {
+        "index": 33,
+        "text": "人工智能",
+        "className": "common-blog-menu-btn por-label-type",
+        "width": 72,
+        "height": 24,
+        "x": 15,
+        "y": 11398
+      },
+      {
+        "index": 34,
+        "text": "开发者",
+        "className": "common-blog-menu-btn por-label-type",
+        "width": 58,
+        "height": 24,
+        "x": 95,
+        "y": 11398
+      },
+      {
+        "index": 35,
+        "text": "智果（AgentArts）智能体平台",
+        "className": "common-blog-menu-btn por-label-type",
+        "width": 205,
+        "height": 24,
+        "x": 161,
+        "y": 11398
+      }
+    ],
+    "clicked_candidate": {
+      "index": 3,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 342,
+      "y": -0.0
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言 开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言 开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言",
+        "className": "header-mbnav-leftmenu",
+        "position": "relative",
+        "zIndex": "10",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言",
+        "className": "header-mbnav-menulist",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav-collapses",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 48
+      },
+      {
+        "text": "开发者空间",
+        "className": "header-mbnav-level2-content-index",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 235,
+        "height": 46,
+        "x": 140,
+        "y": 68
+      },
+      {
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs 我的支持 我的技术支持 我的云声建议",
+        "className": "my-menu",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 48,
+        "height": 536,
+        "x": 0,
+        "y": 194
+      },
+      {
+        "text": "人工智能 开发者 智果（AgentArts）智能体平台",
+        "className": "blog-menu-footer m-blog-menu-footer-top",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 360,
+        "height": 32,
+        "x": 15,
+        "y": 11398
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "className": "common-blog-menu-btn por-label-type",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 205,
+        "height": 24,
+        "x": 161,
+        "y": 11398
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "超全 Docker 镜像源配置指南｜Windows/Mac/Linux一键搞定，拉镜像再也不卡顿",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 11655
+      },
+      {
+        "text": "Win11局域网文件共享完整教程：一次设置，永久生效",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 11719
+      },
+      {
+        "text": "从零开始写好 Skill（四）：写 Skill 太费劲？让 skill-creator 来帮你",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 11783
+      },
+      {
+        "text": "还在终端里用 Claude Code？CC GUI 把 AI 编码工作流搬回 IDEA",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 11847
+      },
+      {
+        "text": "码道实战｜Skill 集成赋能微信小程序快速上线",
+        "width": 360,
+        "height": 24,
+        "x": 15,
+        "y": 11911
+      },
+      {
+        "text": "版本速递 | 华为云Versatile智能体平台 新增特性介绍（2025年9月发布）",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 12055
+      },
+      {
+        "text": "版本速递 | 华为云Versatile智能体平台 新增特性介绍（2025年10月发布）",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 12119
+      },
+      {
+        "text": "版本速递 | 华为云Versatile智能体平台 新增特性介绍（2025年11月发布）",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 12183
+      },
+      {
+        "text": "版本速递 | 华为云Versatile智能体平台 新增特性介绍（2026年1月发布）",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 12247
+      },
+      {
+        "text": "版本速递 | 华为云AgentArts智能体平台 新增特性介绍（2026年3月发布）",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 12311
+      }
+    ]
+  }
+}

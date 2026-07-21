@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+  "generated_at": "2026-07-20T02:18:30.081787+00:00",
+  "summary": {
+    "score": 3,
+    "issue_count": 3,
+    "p0": 0,
+    "p1": 2,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+      "title": null,
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "页面存在横向滚动溢出",
+          "area": "整体布局",
+          "page_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "locate": [
+            "div#content.help-page.home-page"
+          ],
+          "evidence": "DOM数据中，documentElementScrollWidth和bodyScrollWidth均为403px，而手机屏幕clientWidth仅为390px，存在13px的横向溢出，导致用户在滑动时页面会左右晃动。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "容器宽度未做严格限制，导致子元素撑大页面",
+          "suggestion_after": "为外层容器设置 max-width: 100vw; overflow-x: hidden; 并排查撑开宽度的异常子元素。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "侧边栏导航栏严重挤压变形无法阅读",
+          "area": "导航菜单",
+          "page_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "locate": [
+            "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav",
+            "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2.active > a.js-title"
+          ],
+          "evidence": "侧边栏导航容器 ul.side-nav 的 clientWidth 仅为 32px（scrollWidth 为 145px），其子元素 a.js-title（如“什么是智果（AgentArts）智能体平台？”）的 clientWidth 仅为 12px（scrollWidth 为 95px）。这表明导航文字在移动端被严重挤压成极窄的单列或被截断，完全丧失了可读性。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "在移动端保留PC端的侧边栏双栏/多栏布局，导致侧栏被极度压缩",
+          "suggestion_after": "在移动端将侧边栏导航改为抽屉式（Drawer）全屏或半屏覆盖菜单，或者采用顶部折叠下拉菜单，确保导航文本有足够的横向展示空间（宽度至少占屏幕的70%以上）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "触控目标尺寸过小易引发误触",
+          "area": "触控体验",
+          "page_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "locate": [
+            "button.support-link-searcher-submit",
+            "div.crumbs > a.link.help-link"
+          ],
+          "evidence": "搜索提交按钮（button.support-link-searcher-submit）尺寸仅为 16x16px；面包屑导航链接（如“文档首页”、“产品介绍”）高度仅为 14px。这些均远低于移动端推荐的 48x48px 最小触控尺寸，极易导致用户无法精准点击或发生误触。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "按钮和链接直接使用文字或图标的原始极小尺寸",
+          "suggestion_after": "通过增加 padding（如 padding: 12px;）或设置 min-width/min-height: 48px; 来扩大热区面积，确保触控顺畅。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "彻底重构移动端的文档目录导航，放弃侧边栏常驻的PC端布局，改用移动端友好的抽屉式菜单。",
+        "全局排查并消除导致页面横向溢出（scrollWidth > clientWidth）的样式问题，确保页面只能纵向滚动。",
+        "对全页面的小尺寸点击元素（如面包屑、搜索按钮、分享/PDF图标）进行热区放大优化，确保满足最小 48x48px 的触控标准。"
+      ],
+      "analysis_content": "智果智能体平台移动端页面存在严重的响应式适配问题。PC端的侧边栏导航在移动端未进行折叠或重构，导致导航栏被严重挤压至12px-32px宽，文字完全无法阅读且无法点击。同时，页面存在横向溢出，且大量交互元素的触控热区极小，严重影响了移动端用户的基本浏览和操作体验。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "页面存在横向滚动溢出",
+      "area": "整体布局",
+      "page_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+      "locate": [
+        "div#content.help-page.home-page"
+      ],
+      "evidence": "DOM数据中，documentElementScrollWidth和bodyScrollWidth均为403px，而手机屏幕clientWidth仅为390px，存在13px的横向溢出，导致用户在滑动时页面会左右晃动。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "容器宽度未做严格限制，导致子元素撑大页面",
+      "suggestion_after": "为外层容器设置 max-width: 100vw; overflow-x: hidden; 并排查撑开宽度的异常子元素。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "侧边栏导航栏严重挤压变形无法阅读",
+      "area": "导航菜单",
+      "page_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+      "locate": [
+        "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav",
+        "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2.active > a.js-title"
+      ],
+      "evidence": "侧边栏导航容器 ul.side-nav 的 clientWidth 仅为 32px（scrollWidth 为 145px），其子元素 a.js-title（如“什么是智果（AgentArts）智能体平台？”）的 clientWidth 仅为 12px（scrollWidth 为 95px）。这表明导航文字在移动端被严重挤压成极窄的单列或被截断，完全丧失了可读性。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "在移动端保留PC端的侧边栏双栏/多栏布局，导致侧栏被极度压缩",
+      "suggestion_after": "在移动端将侧边栏导航改为抽屉式（Drawer）全屏或半屏覆盖菜单，或者采用顶部折叠下拉菜单，确保导航文本有足够的横向展示空间（宽度至少占屏幕的70%以上）。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "触控目标尺寸过小易引发误触",
+      "area": "触控体验",
+      "page_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+      "locate": [
+        "button.support-link-searcher-submit",
+        "div.crumbs > a.link.help-link"
+      ],
+      "evidence": "搜索提交按钮（button.support-link-searcher-submit）尺寸仅为 16x16px；面包屑导航链接（如“文档首页”、“产品介绍”）高度仅为 14px。这些均远低于移动端推荐的 48x48px 最小触控尺寸，极易导致用户无法精准点击或发生误触。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "按钮和链接直接使用文字或图标的原始极小尺寸",
+      "suggestion_after": "通过增加 padding（如 padding: 12px;）或设置 min-width/min-height: 48px; 来扩大热区面积，确保触控顺畅。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

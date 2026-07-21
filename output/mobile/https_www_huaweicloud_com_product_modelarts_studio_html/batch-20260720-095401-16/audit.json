@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+  "generated_at": "2026-07-20T03:40:26.359040+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "折叠卡片内容严重横向溢出与截断",
+          "area": "产品模型列表区",
+          "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "locate": [
+            "代码生成 根据需求描述或注释，自动生成准确、可运行的程序代码"
+          ],
+          "evidence": "DOM textRisks 显示元素 'div.por-container > div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item' 的 clientWidth 为 167px，而 scrollWidth 达到 342px，内容被严重截断且无法完整阅读",
+          "standard": "Nielsen #8",
+          "suggestion_before": "移动端下折叠卡片容器宽度被限制为 167px",
+          "suggestion_after": "在移动端媒体查询中，将 .filter-collapse-item 的宽度设为 100% 或 flex: 0 0 100%，采用单列全宽布局，避免内容截断",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "移动端触控目标过小易导致误触",
+          "area": "分类Tab及文档链接区",
+          "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "locate": [
+            "精选推荐 NEW",
+            "文本生成",
+            "代码模型",
+            "华为云 AI 知识&实训社区"
+          ],
+          "evidence": "DOM smallTargets 显示，Tab 切换链接尺寸仅为 48x24px，社区文档链接尺寸仅为 135x14px，高度远低于移动端推荐的 44px 最小触控高度",
+          "standard": "Nielsen #5",
+          "suggestion_before": "a 标签高度为 24px 或 14px",
+          "suggestion_after": "为链接元素增加 padding（如 padding: 10px 12px），或设置 min-height: 44px 扩大触控热区，确保移动端易用性",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "底部固定栏未适配全面屏安全区域",
+          "area": "底部固定下载栏",
+          "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM fixedBottom 显示底部固定栏 'div.tm-adv-space.light-btn' 的 hasSafeAreaInset 为 false，bottom 为 0px，在全面屏设备上会被系统 Home 条遮挡",
+          "standard": "Nielsen #4",
+          "suggestion_before": "bottom: 0px; height: 66px;",
+          "suggestion_after": "利用 CSS 环境变量适配安全区域，设置 padding-bottom: env(safe-area-inset-bottom); 并动态增加容器高度，防止被系统 Home 条遮挡",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "横向滚动Tab缺乏滑动视觉提示",
+          "area": "分类Tab导航栏",
+          "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "locate": [
+            "精选推荐 NEW 文本生成 代码模型 视频生成 图像理解 图片生成"
+          ],
+          "evidence": "DOM textRisks 显示 Tab 列表 'div.por-tab > ul' 的 clientWidth 为 342px，scrollWidth 为 492px，存在横向溢出滚动但无任何视觉引导",
+          "standard": "Nielsen #1",
+          "suggestion_before": "Tab 栏右侧无任何提示，用户难以发现可滑动",
+          "suggestion_after": "在 Tab 容器右侧边缘添加微弱的半透明渐变遮罩，或在首屏时让最后一个可见 Tab 露出半个字，直观提示可横向滑动",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化移动端折叠卡片的响应式布局，确保在 390px 宽度的屏幕上能够单列全宽展示，避免 167px 的极窄分栏导致内容严重截断。",
+        "全面排查并提升移动端页面的触控热区，特别是 Tab 切换和文本链接，确保高度不低于 44px，减少误触率。",
+        "针对全面屏移动设备，为所有 position: fixed 处于底部的元素（如 App 下载栏）适配 safe-area-inset-bottom，提升高端机型用户的精致感体验。"
+      ],
+      "analysis_content": "本次审查发现该 MaaS 产品移动端页面在响应式适配和触控体验上存在明显缺陷。核心问题在于产品模型列表的折叠卡片在移动端产生了严重的内容截断（宽度仅 167px，溢出达 342px），导致关键产品介绍无法阅读。此外，多处高频交互的 Tab 和链接触控高度仅 14px-24px，极易发生误触；底部固定下载栏也未适配全面屏安全区域，存在被系统条遮挡的风险。建议立即针对移动端布局和触控热区进行专项优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "折叠卡片内容严重横向溢出与截断",
+      "area": "产品模型列表区",
+      "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+      "locate": [
+        "代码生成 根据需求描述或注释，自动生成准确、可运行的程序代码"
+      ],
+      "evidence": "DOM textRisks 显示元素 'div.por-container > div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item' 的 clientWidth 为 167px，而 scrollWidth 达到 342px，内容被严重截断且无法完整阅读",
+      "standard": "Nielsen #8",
+      "suggestion_before": "移动端下折叠卡片容器宽度被限制为 167px",
+      "suggestion_after": "在移动端媒体查询中，将 .filter-collapse-item 的宽度设为 100% 或 flex: 0 0 100%，采用单列全宽布局，避免内容截断",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "移动端触控目标过小易导致误触",
+      "area": "分类Tab及文档链接区",
+      "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+      "locate": [
+        "精选推荐 NEW",
+        "文本生成",
+        "代码模型",
+        "华为云 AI 知识&实训社区"
+      ],
+      "evidence": "DOM smallTargets 显示，Tab 切换链接尺寸仅为 48x24px，社区文档链接尺寸仅为 135x14px，高度远低于移动端推荐的 44px 最小触控高度",
+      "standard": "Nielsen #5",
+      "suggestion_before": "a 标签高度为 24px 或 14px",
+      "suggestion_after": "为链接元素增加 padding（如 padding: 10px 12px），或设置 min-height: 44px 扩大触控热区，确保移动端易用性",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "底部固定栏未适配全面屏安全区域",
+      "area": "底部固定下载栏",
+      "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM fixedBottom 显示底部固定栏 'div.tm-adv-space.light-btn' 的 hasSafeAreaInset 为 false，bottom 为 0px，在全面屏设备上会被系统 Home 条遮挡",
+      "standard": "Nielsen #4",
+      "suggestion_before": "bottom: 0px; height: 66px;",
+      "suggestion_after": "利用 CSS 环境变量适配安全区域，设置 padding-bottom: env(safe-area-inset-bottom); 并动态增加容器高度，防止被系统 Home 条遮挡",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "横向滚动Tab缺乏滑动视觉提示",
+      "area": "分类Tab导航栏",
+      "page_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+      "locate": [
+        "精选推荐 NEW 文本生成 代码模型 视频生成 图像理解 图片生成"
+      ],
+      "evidence": "DOM textRisks 显示 Tab 列表 'div.por-tab > ul' 的 clientWidth 为 342px，scrollWidth 为 492px，存在横向溢出滚动但无任何视觉引导",
+      "standard": "Nielsen #1",
+      "suggestion_before": "Tab 栏右侧无任何提示，用户难以发现可滑动",
+      "suggestion_after": "在 Tab 容器右侧边缘添加微弱的半透明渐变遮罩，或在首屏时让最后一个可见 Tab 露出半个字，直观提示可横向滑动",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

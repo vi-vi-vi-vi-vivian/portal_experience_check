@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/ai/decision.html",
+  "generated_at": "2026-07-20T03:53:26.450598+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/ai/decision.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "关键操作按钮触控区域过小",
+          "area": "产品卡片操作区",
+          "page_url": "https://www.huaweicloud.com/ai/decision.html",
+          "locate": [
+            "快速体验",
+            "产品介绍",
+            "专家咨询"
+          ],
+          "evidence": "DOM smallTargets 中多个按钮高度仅为 26px（如 index 8, 9, 13, 14，尺寸 82x26px），Banner中的“专家咨询”主CTA按钮高度也仅为 32px（index 4），远低于移动端推荐的 44px 最小高度标准，极易造成误触或无效点击。",
+          "standard": "WCAG 2.1 Target Size",
+          "suggestion_before": "按钮高度 26px/32px",
+          "suggestion_after": "将移动端所有可点击按钮的高度提升至至少 44px，并适当增加按钮间距，确保单手易操作性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "content_clarity",
+          "severity": "p2",
+          "title": "顶部提示栏占用过多首屏空间",
+          "area": "顶部导航栏",
+          "page_url": "https://www.huaweicloud.com/ai/decision.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM textRisks 显示顶部提示栏 `div#header` 高度达 168px，在 844px 高度的屏幕中占比近 20%，严重挤压了首屏 Banner 和核心业务内容的展示空间，降低了首屏信息层级效率。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "提示栏高度 168px",
+          "suggestion_after": "优化移动端提示文本长度，采用折叠或更紧凑的单行/双行设计，控制整体高度在 60px 以内。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "底部固定栏未适配安全区域",
+          "area": "底部固定下载栏",
+          "page_url": "https://www.huaweicloud.com/ai/decision.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM fixedBottom 元素 `div.tm-adv-space.light-btn` 的 `hasSafeAreaInset` 属性为 `false`，且 `bottom` 为 `0px`。在全面屏手机上会与系统 Home 指示条重合，影响视觉并导致误触。",
+          "standard": "iOS/Android Platform Integration",
+          "suggestion_before": "bottom: 0px",
+          "suggestion_after": "利用 CSS env(safe-area-inset-bottom) 动态增加底部 padding-bottom，避免与系统手势操作栏重叠。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "产品支持引导区域存在微小横向溢出",
+          "area": "产品支持引导模块",
+          "page_url": "https://www.huaweicloud.com/ai/decision.html",
+          "locate": [
+            "0 天筹决策智能引擎 瞬息万变中，锁定最优决策..."
+          ],
+          "evidence": "DOM textRisks 显示 `div.pep-product-support-guide-v2` 的 `clientWidth` 为 342px，而 `scrollWidth` 为 346px，存在 4px 的横向溢出，会导致页面在垂直滚动时产生不稳定的左右晃动。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "scrollWidth 346px > clientWidth 342px",
+          "suggestion_after": "检查该容器的 margin/padding 或子元素宽度，确保其 max-width: 100% 且 box-sizing: border-box，消除 4px 溢出。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面排查移动端所有 Button 和 Link 的物理点击区域，确保不低于 44x44px 的标准。",
+        "针对移动端首屏进行精简，特别是顶部通告栏，应提供一键关闭或极简模式，释放首屏空间给核心业务介绍。",
+        "全局引入 Safe Area Inset 机制，确保所有底部固定栏（Fixed Bottom）在全面屏设备上表现正常。"
+      ],
+      "analysis_content": "华为云科学计算专区移动端页面整体框架完整，菜单导航响应正常。但页面在移动端适配的细节体验上存在明显不足，主要体现在：核心操作按钮（如快速体验、产品介绍）尺寸过小，不符合移动端触控标准；顶部国际站提示栏高度过大，严重遮挡首屏内容；底部固定下载栏未适配全面屏安全区域。需要针对触控尺寸和屏幕利用率进行专项优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "关键操作按钮触控区域过小",
+      "area": "产品卡片操作区",
+      "page_url": "https://www.huaweicloud.com/ai/decision.html",
+      "locate": [
+        "快速体验",
+        "产品介绍",
+        "专家咨询"
+      ],
+      "evidence": "DOM smallTargets 中多个按钮高度仅为 26px（如 index 8, 9, 13, 14，尺寸 82x26px），Banner中的“专家咨询”主CTA按钮高度也仅为 32px（index 4），远低于移动端推荐的 44px 最小高度标准，极易造成误触或无效点击。",
+      "standard": "WCAG 2.1 Target Size",
+      "suggestion_before": "按钮高度 26px/32px",
+      "suggestion_after": "将移动端所有可点击按钮的高度提升至至少 44px，并适当增加按钮间距，确保单手易操作性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "content_clarity",
+      "severity": "p2",
+      "title": "顶部提示栏占用过多首屏空间",
+      "area": "顶部导航栏",
+      "page_url": "https://www.huaweicloud.com/ai/decision.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM textRisks 显示顶部提示栏 `div#header` 高度达 168px，在 844px 高度的屏幕中占比近 20%，严重挤压了首屏 Banner 和核心业务内容的展示空间，降低了首屏信息层级效率。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "提示栏高度 168px",
+      "suggestion_after": "优化移动端提示文本长度，采用折叠或更紧凑的单行/双行设计，控制整体高度在 60px 以内。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "底部固定栏未适配安全区域",
+      "area": "底部固定下载栏",
+      "page_url": "https://www.huaweicloud.com/ai/decision.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM fixedBottom 元素 `div.tm-adv-space.light-btn` 的 `hasSafeAreaInset` 属性为 `false`，且 `bottom` 为 `0px`。在全面屏手机上会与系统 Home 指示条重合，影响视觉并导致误触。",
+      "standard": "iOS/Android Platform Integration",
+      "suggestion_before": "bottom: 0px",
+      "suggestion_after": "利用 CSS env(safe-area-inset-bottom) 动态增加底部 padding-bottom，避免与系统手势操作栏重叠。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "产品支持引导区域存在微小横向溢出",
+      "area": "产品支持引导模块",
+      "page_url": "https://www.huaweicloud.com/ai/decision.html",
+      "locate": [
+        "0 天筹决策智能引擎 瞬息万变中，锁定最优决策..."
+      ],
+      "evidence": "DOM textRisks 显示 `div.pep-product-support-guide-v2` 的 `clientWidth` 为 342px，而 `scrollWidth` 为 346px，存在 4px 的横向溢出，会导致页面在垂直滚动时产生不稳定的左右晃动。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "scrollWidth 346px > clientWidth 342px",
+      "suggestion_after": "检查该容器的 margin/padding 或子元素宽度，确保其 max-width: 100% 且 box-sizing: border-box，消除 4px 溢出。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_decision_html/batch-20260720-095401-19/screenshots/https_www_huaweicloud_com_ai_decision_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

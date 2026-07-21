@@ -1,0 +1,2565 @@
+{
+  "input_url": "https://developer.huaweicloud.com/aishell.html",
+  "audit_time": "2026-07-20T04:09:21.195859+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png",
+    "scroll_screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_scroll.png",
+    "full_screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_full.png",
+    "menu_screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_menu.png"
+  },
+  "dom": {
+    "url": "https://developer.huaweicloud.com/aishell.html",
+    "title": "AI Shell-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 2546
+    },
+    "overflowElements": [
+      {
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > img.user-avatar",
+        "text": "",
+        "left": -4,
+        "right": 52,
+        "width": 56,
+        "className": "user-avatar",
+        "overflowX": "clip"
+      }
+    ],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "div.loaded.mb > div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu",
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs 我的支持 我的技术支持 我的云声建议",
+        "clientWidth": 48,
+        "scrollWidth": 48,
+        "clientHeight": 536,
+        "scrollHeight": 763,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "536px"
+      },
+      {
+        "path": "div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards > div.por-container > div.por-section-body",
+        "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 233,
+        "scrollHeight": 233,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "233px"
+      },
+      {
+        "path": "div.pep-product-banner-v3 > div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main",
+        "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 233,
+        "scrollHeight": 233,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "233px"
+      },
+      {
+        "path": "div#section-4 > div.pep-product-support-guide-v2 > div.por-section > div.por-container > div.por-section-body",
+        "text": "0 云资源管理 依托自然语言对话下达指令，便捷完成华为云资源查询、创建、释放等全流程操作，命令即刻下达生效。 云服务运维 CES 告警自动化技能，支持批量管理告警、配置通知与监控，自带模板，适配 ECS 批量告警、多环境运维场景。 最佳实践 根据您的需求自动规划最佳云资源使用实践，如需云上部署简易WEB应用，输入请求，",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 140,
+        "scrollHeight": 140,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "140px"
+      },
+      {
+        "path": "div.pep-product-support-guide-v2 > div.por-section > div.por-container > div.por-section-body > div.por-carousel.carousel-layout",
+        "text": "0 云资源管理 依托自然语言对话下达指令，便捷完成华为云资源查询、创建、释放等全流程操作，命令即刻下达生效。 云服务运维 CES 告警自动化技能，支持批量管理告警、配置通知与监控，自带模板，适配 ECS 批量告警、多环境运维场景。 最佳实践 根据您的需求自动规划最佳云资源使用实践，如需云上部署简易WEB应用，输入请求，",
+        "clientWidth": 350,
+        "scrollWidth": 1050,
+        "clientHeight": 140,
+        "scrollHeight": 140,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "140px"
+      },
+      {
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-carousel.carousel-layout > div.por-carousel-wrapper",
+        "text": "云资源管理 依托自然语言对话下达指令，便捷完成华为云资源查询、创建、释放等全流程操作，命令即刻下达生效。 云服务运维 CES 告警自动化技能，支持批量管理告警、配置通知与监控，自带模板，适配 ECS 批量告警、多环境运维场景。 最佳实践 根据您的需求自动规划最佳云资源使用实践，如需云上部署简易WEB应用，输入请求，自动",
+        "clientWidth": 350,
+        "scrollWidth": 1050,
+        "clientHeight": 120,
+        "scrollHeight": 120,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "120px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 41
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-wrapper > div.header-inner.isDeveloper > div.hwc-header-bottom > h2.hwc-header-logo-outer > a.hwc-header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 20,
+        "y": 11,
+        "width": 70,
+        "height": 25,
+        "area": 1750
+      },
+      {
+        "index": 1,
+        "path": "div.header-wrapper > div.header-inner.isDeveloper > div.hwc-header-bottom > div.logo-title > a",
+        "text": "开发者",
+        "tag": "a",
+        "x": 169,
+        "y": 12,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 2,
+        "path": "div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu > li.level1 > a",
+        "text": "个人主页",
+        "tag": "a",
+        "x": 24,
+        "y": 229,
+        "width": 16,
+        "height": 163,
+        "area": 2608
+      },
+      {
+        "index": 3,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的博客",
+        "tag": "a",
+        "x": 40,
+        "y": 519,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 4,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的论坛",
+        "tag": "a",
+        "x": 40,
+        "y": 567,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 5,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的圈子",
+        "tag": "a",
+        "x": 40,
+        "y": 615,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 6,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的直播",
+        "tag": "a",
+        "x": 40,
+        "y": 663,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 7,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的活动",
+        "tag": "a",
+        "x": 40,
+        "y": 711,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 8,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的关注",
+        "tag": "a",
+        "x": 40,
+        "y": 759,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 9,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的课程",
+        "tag": "a",
+        "x": 40,
+        "y": 1144,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 10,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的认证",
+        "tag": "a",
+        "x": 40,
+        "y": 1192,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 11,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的实验",
+        "tag": "a",
+        "x": 40,
+        "y": 1240,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 12,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的收藏",
+        "tag": "a",
+        "x": 40,
+        "y": 1288,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 14,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的技术支持",
+        "tag": "a",
+        "x": 40,
+        "y": 1096,
+        "width": 14,
+        "height": 256,
+        "area": 3584
+      },
+      {
+        "index": 15,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的云声建议",
+        "tag": "a",
+        "x": 40,
+        "y": 1144,
+        "width": 14,
+        "height": 256,
+        "area": 3584
+      },
+      {
+        "index": 16,
+        "path": "div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 142,
+        "y": 281,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 17,
+        "path": "div.por-carousel > div.por-row.por-carousel-wrapper > div.por-col.process-container.process-3 > div.process-text-container > a.process-title-container",
+        "text": "登录进入环境",
+        "tag": "a",
+        "x": 68,
+        "y": 478,
+        "width": 298,
+        "height": 22,
+        "area": 6556
+      },
+      {
+        "index": 18,
+        "path": "div.por-carousel > div.por-row.por-carousel-wrapper > div.por-col.process-container.process-3 > div.process-text-container > a.process-title-container",
+        "text": "自然语言对话",
+        "tag": "a",
+        "x": 68,
+        "y": 584,
+        "width": 298,
+        "height": 22,
+        "area": 6556
+      },
+      {
+        "index": 19,
+        "path": "div.por-carousel > div.por-row.por-carousel-wrapper > div.por-col.process-container.process-3 > div.process-text-container > a.process-title-container",
+        "text": "授权命令执行",
+        "tag": "a",
+        "x": 68,
+        "y": 690,
+        "width": 298,
+        "height": 22,
+        "area": 6556
+      },
+      {
+        "index": 21,
+        "path": "div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block > div.scence-btn-list > a.por-btn.por-btn-dark.por-btn-middle",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 44,
+        "y": 1524,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 22,
+        "path": "div.por-container > div.por-section-body > div.collapse-wrapper > div.por-collapse-container > a.por-collapse-trigger",
+        "text": "AI Shell的入口有哪些？",
+        "tag": "a",
+        "x": 48,
+        "y": 1998,
+        "width": 294,
+        "height": 22,
+        "area": 6468
+      },
+      {
+        "index": 23,
+        "path": "div.por-container > div.por-section-body > div.collapse-wrapper > div.por-collapse-container > a.por-collapse-trigger",
+        "text": "AI Shell底层容器会后台计费么？",
+        "tag": "a",
+        "x": 48,
+        "y": 2052,
+        "width": 294,
+        "height": 22,
+        "area": 6468
+      },
+      {
+        "index": 25,
+        "path": "div.footer-nav-content > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-download > a",
+        "text": "下载华为云APP",
+        "tag": "a",
+        "x": 138,
+        "y": 2228,
+        "width": 113,
+        "height": 16,
+        "area": 1809.5
+      },
+      {
+        "index": 26,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc",
+        "text": "",
+        "tag": "a",
+        "x": 99,
+        "y": 2293,
+        "width": 36,
+        "height": 41,
+        "area": 1476
+      },
+      {
+        "index": 27,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc",
+        "text": "",
+        "tag": "a",
+        "x": 151,
+        "y": 2293,
+        "width": 36,
+        "height": 41,
+        "area": 1476
+      },
+      {
+        "index": 28,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc.color-black-hover",
+        "text": "",
+        "tag": "a",
+        "x": 203,
+        "y": 2293,
+        "width": 36,
+        "height": 41,
+        "area": 1476
+      },
+      {
+        "index": 29,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc.color-black-hover",
+        "text": "",
+        "tag": "a",
+        "x": 255,
+        "y": 2293,
+        "width": 36,
+        "height": 41,
+        "area": 1476
+      },
+      {
+        "index": 31,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a.left-href-pc.burying-point.color-black-hover",
+        "text": "法律声明",
+        "tag": "a",
+        "x": 124,
+        "y": 2414,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 32,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a.left-href-pc.burying-point.color-black-hover",
+        "text": "隐私政策",
+        "tag": "a",
+        "x": 210,
+        "y": 2414,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 33,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point",
+        "text": "©2026 Huaweicloud.com 版权所有",
+        "tag": "a",
+        "x": 59,
+        "y": 2443,
+        "width": 157,
+        "height": 15,
+        "area": 2361.328125
+      },
+      {
+        "index": 34,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point.color-black-hover",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 226,
+        "y": 2443,
+        "width": 104,
+        "height": 15,
+        "area": 1567.265625
+      },
+      {
+        "index": 35,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point",
+        "text": "苏B2-20130048号",
+        "tag": "a",
+        "x": 106,
+        "y": 2458,
+        "width": 80,
+        "height": 15,
+        "area": 1203.984375
+      },
+      {
+        "index": 36,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point",
+        "text": "A2.B1.B2-20070312",
+        "tag": "a",
+        "x": 196,
+        "y": 2458,
+        "width": 89,
+        "height": 15,
+        "area": 1329.140625
+      },
+      {
+        "index": 37,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i > a",
+        "text": "",
+        "tag": "a",
+        "x": 44,
+        "y": 2511,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 38,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.left-href-pc.burying-point.color-black-hover",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 64,
+        "y": 2510,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 39,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i > a",
+        "text": "",
+        "tag": "a",
+        "x": 146,
+        "y": 2511,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 40,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.left-href-pc.burying-point.color-black-hover",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 166,
+        "y": 2510,
+        "width": 170,
+        "height": 14,
+        "area": 2375.40625
+      }
+    ],
+    "closePairs": [],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.header-inner.isDeveloper > div.hwc-header-bottom > h2.hwc-header-logo-outer > a.hwc-header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/navi/PClogonew.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 71,
+        "height": 25,
+        "top": 11,
+        "belowFold": false
+      },
+      {
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > img.user-avatar",
+        "alt": "",
+        "src": "",
+        "ext": "unknown",
+        "loading": "",
+        "width": 56,
+        "height": 56,
+        "top": 102,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-carousel > div.por-row.por-carousel-wrapper > div.por-col.process-container.process-3 > p.icon-process > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/01_1.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 24,
+        "height": 24,
+        "top": 478,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-carousel > div.por-row.por-carousel-wrapper > div.por-col.process-container.process-3 > p.icon-process > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/02_1.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 24,
+        "height": 24,
+        "top": 584,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-carousel > div.por-row.por-carousel-wrapper > div.por-col.process-container.process-3 > p.icon-process > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/202308/03_1.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 24,
+        "height": 24,
+        "top": 690,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-img.normal-image > img.lazyload",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E5%9B%BE%E7%89%87678.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 138,
+        "top": 1247,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-collapse-container > a.por-collapse-trigger > div.por-collapse-head-text > div.icon-wrapper > img.icon",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/HMP/component-asset/question.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2001,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-collapse-container > a.por-collapse-trigger > div.por-collapse-head-text > div.icon-wrapper > img.icon",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/HMP/component-asset/question.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2055,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-collapse-container > a.por-collapse-trigger > div.por-collapse-head-text > div.icon-wrapper > img.icon",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/question_7.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2109,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wechat.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/csdn.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/bilibili.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wb.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-img.normal-image > img.lazyload",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E5%9B%BE%E7%89%87678.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 138,
+        "top": 1247,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-collapse-container > a.por-collapse-trigger > div.por-collapse-head-text > div.icon-wrapper > img.icon",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/HMP/component-asset/question.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2001,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-collapse-container > a.por-collapse-trigger > div.por-collapse-head-text > div.icon-wrapper > img.icon",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/HMP/component-asset/question.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2055,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-collapse-container > a.por-collapse-trigger > div.por-collapse-head-text > div.icon-wrapper > img.icon",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/question_7.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2109,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wechat.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/csdn.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/bilibili.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > dl.footer-nav-about > dd.right-margin-pc > a.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wb.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 2293,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": "a:active, a:hover",
+        "media": "",
+        "css": "a:active, a:hover { outline-width: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": "::-webkit-scrollbar-thumb:hover { background-color: rgb(187, 187, 187); }"
+      },
+      {
+        "type": "hover",
+        "selector": "a.link:hover, a.linker:hover",
+        "media": "",
+        "css": "a.link:hover, a.linker:hover { color: rgb(45, 86, 177); transition: color 0.3s ease-out; }"
+      },
+      {
+        "type": "hover",
+        "selector": "a.linker.more:hover::after, a.link.more:hover::after",
+        "media": "",
+        "css": "a.linker.more:hover::after, a.link.more:hover::after { background-position: -190px 4px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".aui-button:hover",
+        "media": "",
+        "css": ".aui-button:hover { color: rgb(255, 255, 255); background-color: rgb(242, 70, 81); border-color: rgb(242, 70, 81); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".aui-btn-red:hover",
+        "media": "",
+        "css": ".aui-btn-red:hover { background: rgb(245, 54, 66); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#region-select .aui-btn-white:hover",
+        "media": "",
+        "css": "#region-select .aui-btn-white:hover { color: rgb(228, 30, 43); border-color: rgb(228, 30, 43); background-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".aui-btn-white:active, .aui-btn-white:hover",
+        "media": "",
+        "css": ".aui-btn-white:active, .aui-btn-white:hover { color: rgb(255, 255, 255); background-color: rgb(239, 50, 62); border-color: rgb(239, 50, 62); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-primary:hover, .cui-btn-primary.hover",
+        "media": "",
+        "css": ".cui-btn-primary:hover, .cui-btn-primary.hover { box-shadow: rgba(246, 111, 106, 0.5) 0px 8px 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-primary:hover, .cui-btn-outline-primary .hover",
+        "media": "",
+        "css": ".cui-btn-outline-primary:hover, .cui-btn-outline-primary .hover { border-color: rgb(246, 111, 106); background-color: rgb(246, 111, 106); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-dark:hover, .cui-btn-outline-dark .hover",
+        "media": "",
+        "css": ".cui-btn-outline-dark:hover, .cui-btn-outline-dark .hover { border: 1px solid rgb(246, 111, 106); color: rgb(246, 111, 106); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-light:hover, .cui-btn-outline-light .hover",
+        "media": "",
+        "css": ".cui-btn-outline-light:hover, .cui-btn-outline-light .hover { border: 1px solid rgb(246, 111, 106); color: rgb(246, 111, 106); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".video-thumb:hover img",
+        "media": "",
+        "css": ".video-thumb:hover img { transform: scale(1.1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".button.red:hover",
+        "media": "",
+        "css": ".button.red:hover { background: rgb(245, 54, 66); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".button.white:hover",
+        "media": "",
+        "css": ".button.white:hover { border-color: rgb(245, 54, 66); color: rgb(245, 54, 66); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".button.disable, .button.disable:active, .button.disable:hover",
+        "media": "",
+        "css": ".button.disable, .button.disable:active, .button.disable:hover { background: rgb(239, 239, 239); border-color: rgb(239, 239, 239); color: rgb(204, 204, 204); cursor: default; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hover-scale:hover .scale-down",
+        "media": "",
+        "css": ".hover-scale:hover .scale-down { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hover-scale:hover .scale-up",
+        "media": "",
+        "css": ".hover-scale:hover .scale-up { transform: scale(1.1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".nav-item:hover .menu-icon, .nav-item:hover .menu-icon::before, .nav-item:hover .menu-icon::after",
+        "media": "",
+        "css": ".nav-item:hover .menu-icon, .nav-item:hover .menu-icon::before, .nav-item:hover .menu-icon::after { background: rgb(227, 29, 42); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".role-tools .tool-item a:hover",
+        "media": "",
+        "css": ".role-tools .tool-item a:hover { color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".role-tools .tool-item .btn.js-register:active, .role-tools .tool-item .btn.js-register:hover",
+        "media": "",
+        "css": ".role-tools .tool-item .btn.js-register:active, .role-tools .tool-item .btn.js-register:hover { background-color: rgb(239, 50, 62); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".account-item:hover",
+        "media": "",
+        "css": ".account-item:hover { color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".account-item:not(.account-item-split):hover::after",
+        "media": "",
+        "css": ".account-item:not(.account-item-split):hover::after { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".navigation .nav .nav-item a:hover, .navigation .nav .nav-item.selected a",
+        "media": "",
+        "css": ".navigation .nav .nav-item a:hover, .navigation .nav .nav-item.selected a { color: rgb(228, 30, 43); font-weight: bold; }"
+      },
+      {
+        "type": "wide-width",
+        "selector": "#nav-main",
+        "media": "",
+        "css": "#nav-main { position: relative; height: 0px; width: 1410px; margin: 0px auto; overflow: hidden; max-width: 1410px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#nav-main .menu-panel .sub-title a:hover",
+        "media": "",
+        "css": "#nav-main .menu-panel .sub-title a:hover { color: rgb(228, 30, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#nav-main .menu-panel-list li a:hover .caption",
+        "media": "",
+        "css": "#nav-main .menu-panel-list li a:hover .caption { color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "wide-width",
+        "selector": "#nav-main.product .nav-ing",
+        "media": "",
+        "css": "#nav-main.product .nav-ing { width: 1200px; }"
+      },
+      {
+        "type": "wide-width",
+        "selector": "#nav-main.solution .nav-ing",
+        "media": "",
+        "css": "#nav-main.solution .nav-ing { width: 1200px; }"
+      },
+      {
+        "type": "wide-width",
+        "selector": "#nav-main.support .nav-ing",
+        "media": "",
+        "css": "#nav-main.support .nav-ing { width: 724px; }"
+      },
+      {
+        "type": "wide-width",
+        "selector": "#nav-main.market .nav-ing",
+        "media": "",
+        "css": "#nav-main.market .nav-ing { width: 953px; }"
+      },
+      {
+        "type": "wide-width",
+        "selector": "#nav-main.ei .nav-ing",
+        "media": "",
+        "css": "#nav-main.ei .nav-ing { width: 1200px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#nav-main .menu-panel-list .caption:hover",
+        "media": "",
+        "css": "#nav-main .menu-panel-list .caption:hover { color: rgb(228, 30, 43) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".menu-panel-sub-content a p:hover",
+        "media": "",
+        "css": ".menu-panel-sub-content a p:hover { color: rgb(228, 30, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".role-tools .lang-list .lang-item.active, .role-tools .lang-list .lang-item:hover",
+        "media": "",
+        "css": ".role-tools .lang-list .lang-item.active, .role-tools .lang-list .lang-item:hover { color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".lang-list .lang-item.active::after, .lang-list .lang-item:hover::after",
+        "media": "",
+        "css": ".lang-list .lang-item.active::after, .lang-list .lang-item:hover::after { content: \"\"; position: absolute; right: 0px; height: 20px; top: 10px; border-right: 3px solid rgb(228, 31, 43); }"
+      },
+      {
+        "type": "wide-width",
+        "selector": ".sidebar-box.fixed",
+        "media": "",
+        "css": ".sidebar-box.fixed { background: none; z-index: 100; color: rgb(255, 255, 255); width: 860px; margin-left: -500px; left: 50%; top: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".fixed .sidebar-menu .item a:hover",
+        "media": "",
+        "css": ".fixed .sidebar-menu .item a:hover { color: rgb(228, 30, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".navigation .subnav-layer, .navigation .nav-item:hover > .subnav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".navigation .subnav-layer, .navigation .nav-item:hover > .subnav-layer { position: static; height: auto; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; box-shadow: none; display: none; width: 100%; margin: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".navigation .nav li.selected > .title, .navigation .nav li:hover > .title, .navigation .sub-nav li:hover",
+        "media": "(max-width: 1023px)",
+        "css": ".navigation .nav li.selected > .title, .navigation .nav li:hover > .title, .navigation .sub-nav li:hover { color: rgb(54, 56, 60); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".side-nav-bar .nav-item:hover, .side-nav-bar .nav-item:hover",
+        "media": "",
+        "css": ".side-nav-bar .nav-item:hover, .side-nav-bar .nav-item:hover { background: rgb(227, 230, 235); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".nav-item:hover .title::after, .on.nav-item .title::after",
+        "media": "",
+        "css": ".nav-item:hover .title::after, .on.nav-item .title::after { border-left-color: rgb(227, 230, 235); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".side-nav-bar .nav-item:hover",
+        "media": "",
+        "css": ".side-nav-bar .nav-item:hover { color: black; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".nav-item:hover .sub-side-list",
+        "media": "",
+        "css": ".nav-item:hover .sub-side-list { left: 100%; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner .info[href]:hover, .sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner .info[href]:hover, .sub-inner > a:first-child:hover .title { color: rgb(246, 111, 106); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { visibility: visible !important; right: 44px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-custom .float-config-custom-expand .float-custom-item:hover",
+        "media": "",
+        "css": ".float-config-btn .float-config-custom .float-config-custom-expand .float-custom-item:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-custom .float-config-custom-expand .float-custom-item:hover .item-content .item-content_title",
+        "media": "",
+        "css": ".float-config-btn .float-config-custom .float-config-custom-expand .float-custom-item:hover .item-content .item-content_title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-nps .float-config-nps-expand .nps-score-wrapper .nps-score-btns p:hover",
+        "media": "",
+        "css": ".float-config-btn .float-config-nps .float-config-nps-expand .nps-score-wrapper .nps-score-btns p:hover { background: rgb(190, 204, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar .sidebar-qr-code:hover .sidebar-qr-code-content",
+        "media": "",
+        "css": ".float-sidebar .sidebar-qr-code:hover .sidebar-qr-code-content { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/floatdialog/icon-smile-h.svg\") !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn.showStar:hover .float-config-star",
+        "media": "",
+        "css": ".float-config-btn.showStar:hover .float-config-star { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".service-boxes .tile:hover",
+        "media": "",
+        "css": ".service-boxes .tile:hover { background-color: rgba(255, 255, 255, 0.03); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "wide-width",
+        "selector": ".home-popup-window",
+        "media": "",
+        "css": ".home-popup-window { position: absolute; inset: 0px; width: 1062px; height: 585px; margin: auto; background-color: rgba(0, 0, 0, 0.8); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover",
+        "media": "",
+        "css": ".eco-dialog footer button:hover { background-color: rgb(89, 89, 89); border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover.cancel",
+        "media": "",
+        "css": ".eco-dialog footer button:hover.cancel { background: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover",
+        "media": "",
+        "css": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover .space-suspend-img[data-v-5de126e7]",
+        "media": "",
+        "css": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover .space-suspend-img[data-v-5de126e7] { transform: scale(1.1); }"
+      },
+      {
+        "type": "wide-width",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988]",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] { padding: 32px; position: relative; box-sizing: border-box; max-height: calc(-50px + 100vh); overflow: auto; width: 700px; border-radius: 8px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::after",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::after { background-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::before",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::before { background-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .foot[data-v-73233988] .btn-sub[data-v-73233988][data-v-73233988]:hover",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .foot[data-v-73233988] .btn-sub[data-v-73233988][data-v-73233988]:hover { border: 1px solid rgb(89, 89, 89); background-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-body a:hover",
+        "media": "only screen and (max-width: 768px) and (min-width: 320px)",
+        "css": ".eco-protocol-content .eco-protocol-body a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-notice label a:hover",
+        "media": "only screen and (max-width: 768px) and (min-width: 320px)",
+        "css": ".eco-protocol-content .eco-protocol-notice label a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-body a:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".eco-protocol-content .eco-protocol-body a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-notice label a:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".eco-protocol-content .eco-protocol-notice label a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".protocol-btn-black:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".protocol-btn-black:hover { color: rgb(255, 255, 255) !important; background-color: rgb(137, 137, 137) !important; border-color: rgb(137, 137, 137) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-body a:hover",
+        "media": "",
+        "css": ".eco-protocol-body a:hover { color: rgb(20, 118, 255); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".protocol-btn-default:hover",
+        "media": "",
+        "css": ".protocol-btn-default:hover { background-color: rgb(254, 254, 254) !important; border-color: rgb(25, 25, 25) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config:hover .float-config-star",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config:hover .float-config-star { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .mkp-star-score-wrapper .mkp-star-score-btns .btn-box p:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .mkp-star-score-wrapper .mkp-star-score-btns .btn-box p:hover { font-weight: bold; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(24, 24, 24); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline label:hover",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline label:hover { cursor: default; color: rgb(87, 93, 108); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-submit:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-submit:hover { background: rgb(98, 98, 98); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-cancel:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-cancel:hover { background: rgb(243, 243, 243); border: 1px solid rgb(216, 216, 216); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:disabled + span, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:disabled + span, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(223, 225, 230); background-color: rgb(238, 240, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:disabled + span i, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span i",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:disabled + span i, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span i { color: rgb(223, 225, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-scrollbar-s::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".por-scrollbar-s::-webkit-scrollbar-thumb:hover { background-color: rgba(87, 93, 108, 0.8); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:focus + span, .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:focus + span, .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(173, 176, 184) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(24, 24, 24) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover > h2",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover > h2 { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .color-black-hover:hover",
+        "media": "",
+        "css": ".hwc-home-footer .color-black-hover:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-submenu-link:hover",
+        "media": "",
+        "css": ".hwc-home-footer .footer-submenu-link:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular a:hover { color: rgb(25, 25, 25); font-weight: 500; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".hwc-home-header .header-user-info-list-prompt .logout:hover a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user:hover .header-user-name",
+        "media": "",
+        "css": ".hwc-home-header .header-user:hover .header-user-name { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user:hover .header-user-name i",
+        "media": "",
+        "css": ".hwc-home-header .header-user:hover .header-user-name i { border-top-color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang-item.active > a, .hwc-home-header .header-lang-item:hover > a",
+        "media": "",
+        "css": ".hwc-home-header .header-lang-item.active > a, .hwc-home-header .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".hwc-home-header .header-tools .header-tools-right > li > a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".hwc-home-header .header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .agreement-authorized:hover",
+        "media": "",
+        "css": ".hwc-home-header .agreement-authorized:hover { font-weight: 600; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".privacy-popup .notice a:hover",
+        "media": "",
+        "css": ".privacy-popup .notice a:hover { color: rgb(25, 25, 25); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 10,
+    "testedCount": 10,
+    "issueCount": 3,
+    "candidates": [
+      {
+        "text": "立即体验",
+        "href": "https://devstation.connect.huaweicloud.com/aishell",
+        "tag": "a",
+        "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+        "className": "por-btn por-btn-primary por-btn-middle por-btn-md-default",
+        "top": 281,
+        "left": 142,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 0
+      },
+      {
+        "text": "立即体验",
+        "href": "https://devstation.connect.huaweicloud.com/aishell",
+        "tag": "a",
+        "path": "div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block > div.scence-btn-list > a.por-btn.por-btn-dark.por-btn-middle",
+        "className": "por-btn por-btn-dark por-btn-middle por-btn-md-default",
+        "top": 1524,
+        "left": 44,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 1
+      },
+      {
+        "text": "返回",
+        "href": "",
+        "tag": "span",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "className": "back-btn",
+        "top": 42,
+        "left": 24,
+        "width": 18,
+        "height": 66,
+        "importance": 20,
+        "ordinal": 2
+      },
+      {
+        "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+        "href": "",
+        "tag": "div",
+        "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+        "className": "por-section main-section hide-cards",
+        "top": 48,
+        "left": 0,
+        "width": 390,
+        "height": 305,
+        "importance": 20,
+        "ordinal": 3
+      },
+      {
+        "text": "立即体验",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-product-banner-v3 > div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup",
+        "className": "prodoc-banner-btnGroup ",
+        "top": 281,
+        "left": 20,
+        "width": 350,
+        "height": 44,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。 立即体验",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-tab-container.combination > div.por-tab-wrapper > div.por-tab-content.active > div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab",
+        "className": "scence-content-wrapper   card-grey single-tab",
+        "top": 1227,
+        "left": 24,
+        "width": 342,
+        "height": 344,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。 立即体验",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-tab-wrapper > div.por-tab-content.active > div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer",
+        "className": "scence-content-detail-outer",
+        "top": 1386,
+        "left": 44,
+        "width": 302,
+        "height": 186,
+        "importance": 20,
+        "ordinal": 6
+      },
+      {
+        "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-heading-block.scence-content-detail-block",
+        "className": "scence-content-detail-block",
+        "top": 1418,
+        "left": 44,
+        "width": 302,
+        "height": 90,
+        "importance": 20,
+        "ordinal": 7
+      },
+      {
+        "text": "立即体验",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block",
+        "className": "scence-content-detail-block",
+        "top": 1524,
+        "left": 44,
+        "width": 302,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 8
+      },
+      {
+        "text": "云服务运维 CES 告警自动化技能，支持批量管理告警、配置通知与监控，自带模板，适配 ECS 批量告警、多环境运维场景。",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-container > div.por-section-body > div.por-carousel.carousel-layout > div.por-carousel-wrapper > div.por-carousel-slide > div.por-card.por-card-panel.por-color-hover-container",
+        "className": "por-card por-card-panel por-color-hover-container",
+        "top": 1707,
+        "left": 370,
+        "width": 350,
+        "height": 120,
+        "importance": 20,
+        "ordinal": 9
+      }
+    ],
+    "results": [
+      {
+        "text": "立即体验",
+        "tag": "a",
+        "href": "https://devstation.connect.huaweicloud.com/aishell",
+        "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+        "rect": {
+          "left": 142,
+          "top": 281,
+          "width": 106,
+          "height": 32
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+        "hit": {
+          "tag": "a",
+          "text": "立即体验",
+          "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+          "className": "por-btn por-btn-primary por-btn-middle por-btn-md-default"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/8073666f-37d8-4075-92e7-1137b76017f2' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "立即体验",
+        "tag": "a",
+        "href": "https://devstation.connect.huaweicloud.com/aishell",
+        "path": "div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block > div.scence-btn-list > a.por-btn.por-btn-dark.por-btn-middle",
+        "rect": {
+          "left": 44,
+          "top": 1524,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "立即体验",
+          "path": "div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block > div.scence-btn-list > a.por-btn.por-btn-dark.por-btn-middle",
+          "className": "por-btn por-btn-dark por-btn-middle por-btn-md-default"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [
+          "https://devstation.connect.huaweicloud.com/aishell"
+        ],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/55167b12-79fa-4e43-9b08-231d0df46c41' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 1118,
+          "bodyLength": 918,
+          "overlayCount": 0,
+          "mutations": 37,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "返回",
+        "tag": "span",
+        "href": "",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "rect": {
+          "left": 24,
+          "top": 42,
+          "width": 18,
+          "height": 66
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+          "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+          "className": "por-section main-section hide-cards"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/2ec097a0-f9a3-444b-91c7-75643388c5d1' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+        "tag": "div",
+        "href": "",
+        "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+        "rect": {
+          "left": 0,
+          "top": 48,
+          "width": 390,
+          "height": 305
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "h3",
+          "text": "AI Shell，云上开发运维效率升级",
+          "path": "div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-title-content > div.prodoc-banner-title > h3.banner-mb",
+          "className": "banner-mb"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/6ddbc01f-df10-4e04-88bd-214199c2c429' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "立即体验",
+        "tag": "div",
+        "href": "",
+        "path": "div.pep-product-banner-v3 > div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup",
+        "rect": {
+          "left": 20,
+          "top": 281,
+          "width": 350,
+          "height": 44
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "立即体验",
+          "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+          "className": "por-btn por-btn-primary por-btn-middle por-btn-md-default"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [
+          "https://devstation.connect.huaweicloud.com/aishell"
+        ],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/ae2ade61-1ad6-4c88-b74b-c890d4be47b4' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。 立即体验",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-tab-container.combination > div.por-tab-wrapper > div.por-tab-content.active > div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab",
+        "rect": {
+          "left": 24,
+          "top": 1227,
+          "width": 342,
+          "height": 344
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。 立即体验",
+          "path": "div.por-tab-content.active > div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m",
+          "className": "scence-content-detail por-scrollbar-m"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/f1c47109-de31-428f-a298-7d704629e052' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 977,
+          "bodyLength": 918,
+          "overlayCount": 0,
+          "mutations": 45,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。 立即体验",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-tab-wrapper > div.por-tab-content.active > div.por-collapse-container > div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer",
+        "rect": {
+          "left": 44,
+          "top": 1386,
+          "width": 302,
+          "height": 186
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "p",
+          "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。",
+          "path": "div.scroll-container > div#scence-heading-block.scence-content-detail-block > div.scence-content-detail-subblock > div.scence-secondary-block > div.scence-content-block_detail.scence-heading-block_detail > p",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/53dc252f-1bea-425e-b15f-5501aa694d10' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 1057,
+          "bodyLength": 918,
+          "overlayCount": 0,
+          "mutations": 37,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-heading-block.scence-content-detail-block",
+        "rect": {
+          "left": 44,
+          "top": 1418,
+          "width": 302,
+          "height": 90
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "p",
+          "text": "一键快速拉起专属云端作业环境，预置AI CLI、精选华为云资源管理最佳实践等技能，无需复杂配置，开箱即用。容器运行环境免费使用，搭载多款预置大模型，轻松开展各类云上作业。",
+          "path": "div.scroll-container > div#scence-heading-block.scence-content-detail-block > div.scence-content-detail-subblock > div.scence-secondary-block > div.scence-content-block_detail.scence-heading-block_detail > p",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/b071cb27-d9b2-4cf2-8fd7-4b3f04511c84' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 1041,
+          "bodyLength": 918,
+          "overlayCount": 0,
+          "mutations": 37,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "立即体验",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-collapse.show > div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block",
+        "rect": {
+          "left": 44,
+          "top": 1524,
+          "width": 302,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "立即体验",
+          "path": "div.scence-content-wrapper.card-grey.single-tab > div.scence-content-detail-outer > div.scence-content-detail.por-scrollbar-m > div.scroll-container > div#scence-btn-block.scence-content-detail-block > div.scence-btn-list",
+          "className": "scence-btn-list"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/82571676-4c9e-4a83-aade-baf3fa7436b7' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 1118,
+          "bodyLength": 918,
+          "overlayCount": 0,
+          "mutations": 37,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "云服务运维 CES 告警自动化技能，支持批量管理告警、配置通知与监控，自带模板，适配 ECS 批量告警、多环境运维场景。",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-container > div.por-section-body > div.por-carousel.carousel-layout > div.por-carousel-wrapper > div.por-carousel-slide > div.por-card.por-card-panel.por-color-hover-container",
+        "rect": {
+          "left": 370,
+          "top": 1707,
+          "width": 350,
+          "height": 120
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "p",
+          "text": "CES 告警自动化技能，支持批量管理告警、配置通知与监控，自带模板，适配 ECS 批量告警、多环境运维场景。",
+          "path": "div.por-carousel-slide > div.por-card.por-card-panel.por-color-hover-container > div.por-card-content-graphic > div.por-text-body-t1 > div.por-text-title-desc.clickable > p",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/f032e2e8-88db-4af2-abc6-44518be8d81b' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 1345,
+          "bodyLength": 918,
+          "overlayCount": 0,
+          "mutations": 37,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": [
+      {
+        "text": "立即体验",
+        "tag": "a",
+        "href": "https://devstation.connect.huaweicloud.com/aishell",
+        "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+        "rect": {
+          "left": 142,
+          "top": 281,
+          "width": 106,
+          "height": 32
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+        "hit": {
+          "tag": "a",
+          "text": "立即体验",
+          "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+          "className": "por-btn por-btn-primary por-btn-middle por-btn-md-default"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/8073666f-37d8-4075-92e7-1137b76017f2' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "返回",
+        "tag": "span",
+        "href": "",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "rect": {
+          "left": 24,
+          "top": 42,
+          "width": 18,
+          "height": 66
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+          "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+          "className": "por-section main-section hide-cards"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/2ec097a0-f9a3-444b-91c7-75643388c5d1' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+        "tag": "div",
+        "href": "",
+        "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+        "rect": {
+          "left": 0,
+          "top": 48,
+          "width": 390,
+          "height": 305
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "h3",
+          "text": "AI Shell，云上开发运维效率升级",
+          "path": "div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-title-content > div.prodoc-banner-title > h3.banner-mb",
+          "className": "banner-mb"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+        "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+          "Creating a worker from 'blob:https://developer.huaweicloud.com/6ddbc01f-df10-4e04-88bd-214199c2c429' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/aishell.html",
+          "scrollY": 0,
+          "bodyLength": 916,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      }
+    ]
+  },
+  "tapActionIssues": [
+    {
+      "text": "立即体验",
+      "tag": "a",
+      "href": "https://devstation.connect.huaweicloud.com/aishell",
+      "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+      "rect": {
+        "left": 142,
+        "top": 281,
+        "width": 106,
+        "height": 32
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+      "hit": {
+        "tag": "a",
+        "text": "立即体验",
+        "path": "div.por-section.main-section.hide-cards > div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle",
+        "className": "por-btn por-btn-primary por-btn-middle por-btn-md-default"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+      "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "Creating a worker from 'blob:https://developer.huaweicloud.com/8073666f-37d8-4075-92e7-1137b76017f2' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+      ],
+      "after": {
+        "url": "https://developer.huaweicloud.com/aishell.html",
+        "scrollY": 0,
+        "bodyLength": 916,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "返回",
+      "tag": "span",
+      "href": "",
+      "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+      "rect": {
+        "left": 24,
+        "top": 42,
+        "width": 18,
+        "height": 66
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+      "hit": {
+        "tag": "div",
+        "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+        "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+        "className": "por-section main-section hide-cards"
+      },
+      "hitInsideTarget": false,
+      "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+      "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "Creating a worker from 'blob:https://developer.huaweicloud.com/2ec097a0-f9a3-444b-91c7-75643388c5d1' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+      ],
+      "after": {
+        "url": "https://developer.huaweicloud.com/aishell.html",
+        "scrollY": 0,
+        "bodyLength": 916,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验",
+      "tag": "div",
+      "href": "",
+      "path": "body.header-white > div#content > div#common-components-container > div#section-0 > div.pep-product-banner-v3 > div.por-section.main-section.hide-cards",
+      "rect": {
+        "left": 0,
+        "top": 48,
+        "width": 390,
+        "height": 305
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "h3",
+        "text": "AI Shell，云上开发运维效率升级",
+        "path": "div.por-container > div.por-section-body > div.prodoc-banner-main > div.prodoc-title-content > div.prodoc-banner-title > h3.banner-mb",
+        "className": "banner-mb"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://developer.huaweicloud.com/aishell.html",
+      "afterUrl": "https://developer.huaweicloud.com/aishell.html",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Refused to execute script from 'https://developer.huaweicloud.com/' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled.",
+        "Creating a worker from 'blob:https://developer.huaweicloud.com/6ddbc01f-df10-4e04-88bd-214199c2c429' violates the following Content Security Policy directive: \"script-src 'self' 'unsafe-eval' 'unsafe-inline' *.huaweicloud.cn *.huaweicloud.eu *.huaweicloud.asia *.hc-cdn.com *.hc-cdn.cn *.huawei.com *.myhwclouds.com *.huaweicloud.com *.myhuaweicloud.com\". Note that 'worker-src' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked."
+      ],
+      "after": {
+        "url": "https://developer.huaweicloud.com/aishell.html",
+        "scrollY": 0,
+        "bodyLength": 916,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    }
+  ],
+  "after_scroll_ctas": [
+    {
+      "text": "售前咨询： 950808转1",
+      "position": "static",
+      "x": 20,
+      "y": 1000,
+      "width": 351,
+      "height": 48
+    }
+  ],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 2,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 24,
+        "x": 266,
+        "y": 12
+      },
+      {
+        "index": 3,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 342,
+        "y": -0.0
+      },
+      {
+        "index": 4,
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs ",
+        "className": "my-menu",
+        "width": 48,
+        "height": 536,
+        "x": 0,
+        "y": 194
+      },
+      {
+        "index": 27,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策 ©2026 Huaweicloud.com 版权所有 黔ICP备20004760号",
+        "className": "footer-nav",
+        "width": 390,
+        "height": 337,
+        "x": 0,
+        "y": 2209
+      },
+      {
+        "index": 28,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "width": 390,
+        "height": 224,
+        "x": 0,
+        "y": 2209
+      },
+      {
+        "index": 29,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "width": 351,
+        "height": 224,
+        "x": 20,
+        "y": 2209
+      },
+      {
+        "index": 30,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "width": 351,
+        "height": 224,
+        "x": 20,
+        "y": 2209
+      },
+      {
+        "index": 31,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "width": 351,
+        "height": 208,
+        "x": 20,
+        "y": 2225
+      },
+      {
+        "index": 32,
+        "text": "下载华为云APP",
+        "className": "footer-nav-download",
+        "width": 351,
+        "height": 22,
+        "x": 20,
+        "y": 2225
+      },
+      {
+        "index": 34,
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "width": 351,
+        "height": 22,
+        "x": 20,
+        "y": 2263
+      },
+      {
+        "index": 35,
+        "text": "",
+        "className": "footer-nav-about",
+        "width": 351,
+        "height": 65,
+        "x": 20,
+        "y": 2285
+      },
+      {
+        "index": 40,
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 2350
+      }
+    ],
+    "clicked_candidate": {
+      "index": 3,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 342,
+      "y": -0.0
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言 开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言 开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言",
+        "className": "header-mbnav-leftmenu",
+        "position": "relative",
+        "zIndex": "10",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言",
+        "className": "header-mbnav-menulist",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav-collapses",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 48
+      },
+      {
+        "text": "开发者空间",
+        "className": "header-mbnav-level2-content-index",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 235,
+        "height": 46,
+        "x": 140,
+        "y": 68
+      },
+      {
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs 我的支持 我的技术支持 我的云声建议",
+        "className": "my-menu",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 48,
+        "height": 536,
+        "x": 0,
+        "y": 194
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策 ©2026 Huaweicloud.com 版权所有 黔ICP备20004760号-14 苏B2-20130048号 A2.B1.B2-20070312 增值电信",
+        "className": "footer-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 337,
+        "x": 0,
+        "y": 2209
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 224,
+        "x": 0,
+        "y": 2209
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 224,
+        "x": 20,
+        "y": 2209
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 224,
+        "x": 20,
+        "y": 2209
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 208,
+        "x": 20,
+        "y": 2225
+      },
+      {
+        "text": "下载华为云APP",
+        "className": "footer-nav-download",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 22,
+        "x": 20,
+        "y": 2225
+      },
+      {
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 22,
+        "x": 20,
+        "y": 2263
+      },
+      {
+        "text": "",
+        "className": "footer-nav-about",
+        "position": "relative",
+        "zIndex": "1",
+        "width": 351,
+        "height": 65,
+        "x": 20,
+        "y": 2285
+      },
+      {
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 2350
+      }
+    ],
+    "closeTargets": []
+  }
+}

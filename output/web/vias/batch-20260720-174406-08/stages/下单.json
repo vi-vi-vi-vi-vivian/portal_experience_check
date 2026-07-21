@@ -1,0 +1,32 @@
+{
+  "stage": "下单",
+  "url": "https://console.huaweicloud.com/vias2/?region=cn-north-4#/console/check-agency",
+  "title": "视频智能分析服务",
+  "score": 3,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "下单阶段入口未达成",
+      "area": "订单配置/购买页",
+      "locate": [
+        "视频智能分析服务"
+      ],
+      "evidence": "阶段URL为 https://console.huaweicloud.com/vias2/?region=cn-north-4#/console/check-agency；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Order stage did not reach an order configuration or purchase preparation page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "severity": "p0",
+      "suggestion": "修改前：用户在下单阶段停留在 https://console.huaweicloud.com/vias2/?region=cn-north-4#/console/check-agency，无法确认已到达订单配置/购买页 -> 修改后：提供稳定、可发现且可校验的订单配置/购买页入口，并在跳转失败时给出明确恢复路径"
+    }
+  ],
+  "suggestions": [
+    "修改前：用户在下单阶段停留在 https://console.huaweicloud.com/vias2/?region=cn-north-4#/console/check-agency，无法确认已到达订单配置/购买页 -> 修改后：提供稳定、可发现且可校验的订单配置/购买页入口，并在跳转失败时给出明确恢复路径"
+  ],
+  "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+  "screenshot_path": "../../output/web/vias/batch-20260720-174406-08/screenshots/screenshot_2_order.png",
+  "provider": "current-codex-agent",
+  "model": "agent-fallback",
+  "model_fallback_chain": [
+    "gemini-3.5-flash",
+    "gemini-2.5-flash",
+    "current-codex-agent"
+  ]
+}

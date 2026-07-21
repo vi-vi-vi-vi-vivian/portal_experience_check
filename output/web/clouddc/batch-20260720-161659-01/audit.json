@@ -1,0 +1,1216 @@
+{
+  "schema_version": "1.0",
+  "source": "web",
+  "input_url": "https://www.huaweicloud.com/product/clouddc.html",
+  "generated_at": "2026-07-20T08:52:49.526732+00:00",
+  "summary": {
+    "score": 3.6,
+    "issue_count": 16,
+    "p0": 5,
+    "p1": 4,
+    "p2": 7
+  },
+  "sections": [
+    {
+      "id": "感知",
+      "name": "感知",
+      "url": "https://www.huaweicloud.com/product/clouddc.html",
+      "title": "云化数据中心_CloudDC_华为云",
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png",
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "核心购买/试用入口缺失，跳转至控制台而非购买页",
+          "area": "首屏主视觉区 / 通栏广告区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "控制台",
+            "即刻申请"
+          ],
+          "evidence": "首屏主视觉区“控制台”按钮的href为`https://console.huaweicloud.com/clouddc`，通栏广告区“即刻申请”按钮的href也为`https://console.huaweicloud.com/clouddc`。这两个按钮均直接跳转到产品控制台，而非购买、开通或免费试用页面。在感知阶段，用户期望找到明确的购买或试用入口。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Cooper: Goal-Directed Design",
+          "suggestion_before": "点击“控制台”/“即刻申请”按钮跳转至产品控制台",
+          "suggestion_after": "在首屏主视觉区增加“免费试用”或“立即购买”按钮，并确保其跳转至对应的免费试用申请页或产品购买配置页；“控制台”按钮可保留作为已开通用户的入口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "定价信息未直接展示，需跳转至外部文档页面",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "定价"
+          ],
+          "evidence": "顶部导航区的“定价”链接（href为`https://support.huaweicloud.com/price-clouddc/clouddc_price_0001.html`）指向一个支持文档页面，而非产品详情页内的定价模块或交互式定价计算器。用户无法在当前页面直接了解产品定价。",
+          "standard": "Garrett: Structure Plane | Nielsen #2: Match Between System and Real World | Nielsen #10: Help and Documentation",
+          "suggestion_before": "点击“定价”跳转至外部文档",
+          "suggestion_after": "在产品详情页内增加一个“定价/套餐区”，直接展示核心套餐和价格信息，或提供一个内嵌的定价计算器，方便用户快速了解费用。同时，可保留指向详细定价文档的链接作为补充。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "功能介绍区内容默认折叠，增加用户获取信息成本",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "IDC一站式算网存云化",
+            "全栈AI基础设施使能",
+            "全球布局的安全合规云化DC",
+            "免运维的基础设施管理体验"
+          ],
+          "evidence": "“为什么选择云化数据中心 CloudDC”区域的四个功能介绍卡片（如“IDC一站式算网存云化”）默认处于折叠状态（DOM中包含`por-collapse-container`和`por-collapse`类），用户需要点击才能展开查看详细内容。这增加了用户了解产品核心优势的交互成本。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "功能介绍卡片默认折叠",
+          "suggestion_after": "将核心功能介绍卡片默认展开，或至少展开前两个最关键的功能，让用户无需额外点击即可快速浏览产品亮点。对于次要或详细信息可保留折叠功能。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-004",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "常见问题未在页面内展示，需跳转至外部文档页面",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "常见问题"
+          ],
+          "evidence": "顶部导航区的“常见问题”链接（href为`https://support.huaweicloud.com/clouddc_faq/clouddc_faq_0001.html`）指向一个支持文档页面，而非产品详情页内的FAQ模块。用户无法在当前页面直接找到常见问题的解答。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "点击“常见问题”跳转至外部文档",
+          "suggestion_after": "在产品详情页底部增加一个“常见问题”区域，直接展示用户最关心的问题及简要答案，并提供指向完整FAQ文档的链接作为补充。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "优化核心CTA按钮的文案和跳转目标，提供明确的购买/试用路径。",
+        "在产品详情页内直接展示定价信息，减少用户跳转成本。",
+        "调整功能介绍区折叠面板的默认状态，优先展示核心信息。",
+        "将常见问题直接集成到产品详情页中，提升信息可达性。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，产品信息展示较为完整，但核心的购买/试用入口、定价信息和常见问题均需跳转至外部页面或通过额外点击才能获取，这严重影响了用户在感知阶段快速评估和决策的体验。功能介绍区默认折叠也增加了用户获取信息的成本。这些问题可能导致用户流失，降低产品转化率。"
+    },
+    {
+      "id": "下单",
+      "name": "下单",
+      "url": "https://www.huaweicloud.com/product/clouddc.html",
+      "title": "云化数据中心_CloudDC_华为云",
+      "score": 2,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_2_order.png",
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到下单入口",
+          "area": "全页",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "控制台",
+            "即刻申请"
+          ],
+          "evidence": "DOM数据中 `entry_not_found` 字段为 `true`，且页面上未找到明确的“购买”、“开通”或“立即下单”等直接进入下单流程的按钮。页面上的“控制台”和“即刻申请”按钮（href: https://console.huaweicloud.com/clouddc）均指向产品控制台，而非配置或购买页面。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "产品详情页无直接下单入口，仅有指向控制台的“控制台”和“即刻申请”按钮。",
+          "suggestion_after": "在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [
+        "在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。"
+      ],
+      "analysis_content": "根据提供的DOM数据，该阶段的 `entry_not_found` 字段为 `true`，表明系统未能从感知阶段找到明确的下单入口。页面上的主要操作按钮“控制台”和“即刻申请”均指向产品控制台，而非直接进入产品购买或配置流程。这导致用户无法直接从产品详情页进入下单环节，严重影响用户体验和转化效率。"
+    },
+    {
+      "id": "支付",
+      "name": "支付",
+      "url": "https://www.huaweicloud.com/product/clouddc.html",
+      "title": "云化数据中心_CloudDC_华为云",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_3_payment.png",
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "支付阶段入口缺失",
+          "area": "交互与流程",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "即刻申请"
+          ],
+          "evidence": "根据提供的DOM数据，针对“支付”阶段，`entry_not_found`字段明确为`true`，表示未能从当前页面（产品详情页：https://www.huaweicloud.com/product/clouddc.html）找到支付流程的入口。页面上存在一个名为“即刻申请”的核心CTA按钮，其`href`属性指向`https://console.huaweicloud.com/clouddc`（华为云控制台页面），而非引导用户进入购买配置或支付的流程页面。这表明用户无法通过产品详情页直接进入支付环节。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "产品详情页的“即刻申请”按钮跳转至控制台，且无明确支付入口",
+          "suggestion_after": "在产品详情页提供清晰、醒目的“立即购买”或“去支付”按钮，并确保其`href`属性指向正确的购买配置或支付流程页面，以便用户能够顺畅地完成支付旅程。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "确保所有产品详情页都提供明确、可达的购买或支付入口，避免用户在关键决策点迷失。",
+        "审查并修正关键CTA按钮（如“即刻申请”）的跳转逻辑，使其符合用户预期和产品旅程阶段目标，即引导至购买或支付流程。"
+      ],
+      "analysis_content": "根据AI Agent逐阶段分析全量规则，当DOM数据中的`entry_not_found`字段为`true`时，应直接生成支付阶段入口缺失的问题，并跳过详细的视觉和DOM内容分析。本阶段分析发现，从提供的产品详情页（CloudDC产品页）无法找到明确的支付入口，且页面上的“即刻申请”按钮错误地跳转到控制台页面，这严重阻碍了用户完成支付流程，导致支付阶段无法正常开始。"
+    },
+    {
+      "id": "使用",
+      "name": "使用",
+      "url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+      "title": "CloudDC - 控制台",
+      "score": 5,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png",
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "控制台使用阶段遭遇阻断性服务授权拦截且缺乏引导说明",
+          "area": "主视觉区",
+          "page_url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+          "locate": [
+            "暂未开通权限",
+            "使用云化数据中心（CloudDC）服务，您需要申请访问权限。",
+            "立即申请"
+          ],
+          "evidence": "用户进入CloudDC控制台后，页面直接展示“暂未开通权限”阻断性提示，虽有“立即申请”按钮，但未提供任何关于申请流程、审批时效（如“预计1个工作日内完成审批”）、申请前置条件或联系人信息的说明，导致用户对下一步行动缺乏知情权和预期。",
+          "standard": "Nielsen #1 | Nielsen #10 | ISO 9241-110",
+          "suggestion_before": "仅显示“使用云化数据中心（CloudDC）服务，您需要申请访问权限。”及“立即申请”按钮",
+          "suggestion_after": "在提示文案下方增加补充说明，如“申请提交后，系统管理员将在1个工作日内完成审批，审批结果将通过短信/邮件通知您。如有紧急需求，请联系您的客户经理或[提交工单]。”，并在页面右侧或下方提供“新手入门文档”或“常见问题”链接。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "layout",
+          "severity": "p2",
+          "title": "核心操作按钮“立即申请”视觉权重过低",
+          "area": "主视觉区",
+          "page_url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+          "locate": [
+            "立即申请"
+          ],
+          "evidence": "截图中“立即申请”按钮采用白底黑字细边框的药丸样式，在纯白背景的控制台页面中视觉存在感极弱，对比度不足，不符合核心操作按钮（通常应为华为云标准高亮实底按钮）的视觉规范。",
+          "standard": "Garrett: Surface Plane | Nielsen #8",
+          "suggestion_before": "白底黑字细边框按钮样式",
+          "suggestion_after": "采用华为云标准高亮实底按钮样式（如蓝色背景，白字，fontSize: 14px, font-weight: 700），提升其视觉引导性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "在服务授权拦截页面增加审批时效说明和紧急联系渠道，避免用户因未知等待时间而产生焦虑。",
+        "优化“立即申请”按钮的视觉样式，使其符合华为云控制台核心操作按钮的设计规范，增强视觉引导。",
+        "在授权页面右侧或底部引入轻量化的“帮助与文档”板块，提供CloudDC服务的产品介绍和使用指南，提升自描述性。"
+      ],
+      "analysis_content": "CloudDC控制台在使用阶段直接呈现“服务授权”拦截，提示用户暂未开通权限。该页面存在明显的体验缺失：一是阻断性提示缺乏申请流程、审批时效及前置条件的说明，用户无法建立合理的心理预期；二是核心操作按钮“立即申请”视觉权重过低，在纯白背景下极易被忽略。建议补充审批时效与帮助文档链接，并优化按钮视觉样式。"
+    },
+    {
+      "id": "续费",
+      "name": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png",
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "unknown",
+          "severity": "p1",
+          "title": "加载状态与空状态重叠展示",
+          "area": "列表区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "暂无表格数据"
+          ],
+          "evidence": "截图中列表区域正中央显示一个灰色的加载圆圈（Loading），而其下方同时渲染了“暂无表格数据”的空状态插图和文字，加载态与空状态并存重叠。",
+          "standard": "Nielsen #1",
+          "suggestion_before": "同时渲染加载动画与空状态插图",
+          "suggestion_after": "在数据请求未返回时仅显示加载动画（Loading），请求返回且数据为空时才显示“暂无表格数据”的空状态插图。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "续费筛选能力不足迫使用户跳出",
+          "area": "提示区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如果您想通过IP地址、资源标签等信息筛选资源进行续费，可前往云服务控制台处理。"
+          ],
+          "evidence": "页面顶部提示信息第5条明确写道：“如果您想通过IP地址、资源标签等信息筛选资源进行续费，可前往云服务控制台处理。”，说明统一续费管理页面不支持IP和标签筛选，迫使有此类需求的用户中断当前续费流程，跳转到各个云服务控制台。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "提示用户前往云服务控制台筛选续费",
+          "suggestion_after": "在续费管理页面的筛选条件或搜索框中，增加“IP地址”和“资源标签”的筛选维度，实现一站式续费。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "提示信息密度过高导致阅读超载",
+          "area": "提示区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如果您想延长资源使用时间，推荐： 如何续费资源？"
+          ],
+          "evidence": "提示框内包含5行文字，每行都包含1-3个蓝色链接，整体高度约120px，在首屏中占据了较大面积，且文字密集度极高，缺乏视觉层级。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "将所有帮助链接和规则平铺在蓝色提示框中",
+          "suggestion_after": "将提示信息精简，或采用折叠面板（Collapse）默认收起，仅保留最核心的“如何续费”指引，其他辅助说明放入悬浮问号或折叠区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化列表加载逻辑，确保加载态（Loading）与空状态（Empty State）互斥展示，避免重叠。",
+        "在续费管理页面集成IP地址、资源标签等常用筛选维度，避免用户因筛选能力不足而跳出续费流程。",
+        "精简页面顶部的提示信息，降低信息密度，提供更清爽的视觉体验。"
+      ],
+      "analysis_content": "对华为云费用中心的续费管理页面进行了审查。页面整体布局清晰，但在细节体验上存在一些问题。首先，列表区域在加载数据时，加载圈与空状态插图重叠展示，属于典型的状态不一致问题。其次，页面提示用户若需通过IP或标签筛选资源需前往云服务控制台，这割裂了统一续费的旅程。最后，顶部的提示信息密度过高，给用户带来了一定的认知负荷。"
+    },
+    {
+      "id": "变更",
+      "name": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_6_change.png",
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未找到变更规格入口，跳转至无关公告页",
+          "area": "全局",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "全部公告",
+            "升级公告"
+          ],
+          "evidence": "系统在执行变更阶段评测时，检测到 entry_not_found 为 true。页面实际跳转到了无关的升级公告页（https://www.huaweicloud.com/notice/20260717153237724.html），未提供任何实际的产品规格变更、配置升级或降配的操作入口，导致用户无法完成变更旅程。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #1 | Nielsen #6",
+          "suggestion_before": "变更操作无法触达，跳转至静态公告页面",
+          "suggestion_after": "在产品控制台或费用中心订阅管理页提供显眼的“变更配置”或“升级/降级”按钮，点击后直接引导至规格变更与补差价支付页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "在控制台或订阅管理页面中，为该产品建立闭环的规格变更（升降配）流程，避免用户在需要变更时迷失或跳转到无关的静态公告页面。"
+      ],
+      "analysis_content": "在变更阶段审查中，系统未能定位到该产品的规格变更或套餐升级入口（entry_not_found为true），而是跳转到了一个关于IAM升级的静态公告页面。这属于严重的旅程中断问题，用户完全无法在页面上执行任何与产品变更相关的操作。"
+    },
+    {
+      "id": "退订",
+      "name": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png",
+      "issues": [
+        {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "退订阶段页面跳转错误，直接进入提现页面",
+          "area": "主体内容区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "提现",
+            "可提现金额"
+          ],
+          "evidence": "用户处于“退订”阶段，但系统加载的页面URL为 'https://account.huaweicloud.com/usercenter/...#/userindex/refundRecord'（提现页面），页面标题为“费用中心-提现”，展示的是提现规则和金额，而非待退订的产品列表或退订确认页面，导致核心退订任务无法进行。",
+          "standard": "Nielsen #4 | Garrett: Skeleton Plane",
+          "suggestion_before": "退订操作跳转至提现页面（URL: ...#/userindex/refundRecord）",
+          "suggestion_after": "退订操作应跳转至“退订管理”页面（如 ...#/userindex/unsubscribe），展示待退订的产品明细及退款金额预览。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "满意度评价弹窗遮挡页面并打扰用户",
+          "area": "右侧弹窗区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "诚邀您对“费用中心”进行满意度评价",
+            "非常不满意"
+          ],
+          "evidence": "页面右侧弹出了一个高权重的满意度评价卡片（“诚邀您对“费用中心”进行满意度评价”），遮挡了部分背景内容，且在用户尚未完成核心操作时主动弹出，干扰了用户的核心任务流。",
+          "standard": "Nielsen #8 | Cooper: Modeless vs Modal",
+          "suggestion_before": "主动弹出满意度评价遮挡页面",
+          "suggestion_after": "将满意度评价改为非模态的轻量化入口（如右侧悬浮反馈按钮），或在用户成功完成提现/退订任务后再行弹出。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-003",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "提现规则中“原路提现”到账时间描述前后矛盾",
+          "area": "使用指南区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "1.提交提现申请后，什么时间到账？",
+            "原路提现（支付宝、微信、银联、Huawei Pay）的款项，需要1个工作日到账",
+            "原路提现（转账汇款）、银行卡提现的款项，需要7个工作日到账"
+          ],
+          "evidence": "使用指南第1条中，（1）指出“原路提现（支付宝、微信、银联、Huawei Pay）...需要1个工作日到账”，而（2）又指出“原路提现（转账汇款）...需要7个工作日到账”。同一术语“原路提现”在同一条规则中对应了两种截然不同的到账时间，极易造成用户理解混淆。",
+          "standard": "Nielsen #4 | Nielsen #2",
+          "suggestion_before": "'（1）原路提现（支付宝...）...1个工作日...（2）原路提现（转账汇款）...7个工作日...'",
+          "suggestion_after": "明确区分渠道，避免重复使用“原路提现”作为不同时间的前缀。例如：'（1）在线支付渠道（支付宝、微信、银联、Huawei Pay）原路退回：1个工作日到账；（2）线下汇款渠道原路退回、银行卡提现：7个工作日到账。'",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-004",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "置灰的“立即提现”按钮缺少原因说明",
+          "area": "提现操作区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可原路提现金额",
+            "立即提现"
+          ],
+          "evidence": "截图中“可原路提现金额”为 ¥0.00，其下方的“立即提现”按钮呈置灰状态，但鼠标悬浮或就近区域未提供任何工具提示（Tooltip）或文字说明，告知用户为何该按钮不可用。",
+          "standard": "Nielsen #5 | ISO 9241-110",
+          "suggestion_before": "按钮置灰且无提示",
+          "suggestion_after": "在置灰按钮旁或悬浮时显示提示：“当前可原路提现金额为0，无法提交申请”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        }
+      ],
+      "suggestions": [
+        "修复退订流程的页面跳转逻辑，确保用户点击退订时进入退订管理页面而非提现页面。",
+        "优化提现使用指南的文案表述，消除关于“原路提现”到账时间的歧义与矛盾。",
+        "降低满意度评价弹窗的弹出频次和干扰度，改用非模态或任务结束后的触发机制。",
+        "为所有置灰的不可操作按钮补充清晰的置灰原因提示，提升系统的自描述性。"
+      ],
+      "analysis_content": "在退订阶段的审查中发现，系统未能引导用户进入正确的退订管理页面，而是直接跳转到了费用中心的“提现”页面，导致核心退订任务中断。此外，提现页面存在满意度弹窗打扰、置灰按钮缺少原因说明以及使用指南文案前后矛盾等体验问题。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "web-感知-001",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "核心购买/试用入口缺失，跳转至控制台而非购买页",
+      "area": "首屏主视觉区 / 通栏广告区",
+      "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+      "locate": [
+        "控制台",
+        "即刻申请"
+      ],
+      "evidence": "首屏主视觉区“控制台”按钮的href为`https://console.huaweicloud.com/clouddc`，通栏广告区“即刻申请”按钮的href也为`https://console.huaweicloud.com/clouddc`。这两个按钮均直接跳转到产品控制台，而非购买、开通或免费试用页面。在感知阶段，用户期望找到明确的购买或试用入口。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Cooper: Goal-Directed Design",
+      "suggestion_before": "点击“控制台”/“即刻申请”按钮跳转至产品控制台",
+      "suggestion_after": "在首屏主视觉区增加“免费试用”或“立即购买”按钮，并确保其跳转至对应的免费试用申请页或产品购买配置页；“控制台”按钮可保留作为已开通用户的入口。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-002",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "定价信息未直接展示，需跳转至外部文档页面",
+      "area": "顶部导航区",
+      "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+      "locate": [
+        "定价"
+      ],
+      "evidence": "顶部导航区的“定价”链接（href为`https://support.huaweicloud.com/price-clouddc/clouddc_price_0001.html`）指向一个支持文档页面，而非产品详情页内的定价模块或交互式定价计算器。用户无法在当前页面直接了解产品定价。",
+      "standard": "Garrett: Structure Plane | Nielsen #2: Match Between System and Real World | Nielsen #10: Help and Documentation",
+      "suggestion_before": "点击“定价”跳转至外部文档",
+      "suggestion_after": "在产品详情页内增加一个“定价/套餐区”，直接展示核心套餐和价格信息，或提供一个内嵌的定价计算器，方便用户快速了解费用。同时，可保留指向详细定价文档的链接作为补充。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-003",
+      "section": "感知",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "功能介绍区内容默认折叠，增加用户获取信息成本",
+      "area": "功能介绍区",
+      "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+      "locate": [
+        "IDC一站式算网存云化",
+        "全栈AI基础设施使能",
+        "全球布局的安全合规云化DC",
+        "免运维的基础设施管理体验"
+      ],
+      "evidence": "“为什么选择云化数据中心 CloudDC”区域的四个功能介绍卡片（如“IDC一站式算网存云化”）默认处于折叠状态（DOM中包含`por-collapse-container`和`por-collapse`类），用户需要点击才能展开查看详细内容。这增加了用户了解产品核心优势的交互成本。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "功能介绍卡片默认折叠",
+      "suggestion_after": "将核心功能介绍卡片默认展开，或至少展开前两个最关键的功能，让用户无需额外点击即可快速浏览产品亮点。对于次要或详细信息可保留折叠功能。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-004",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "常见问题未在页面内展示，需跳转至外部文档页面",
+      "area": "顶部导航区",
+      "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+      "locate": [
+        "常见问题"
+      ],
+      "evidence": "顶部导航区的“常见问题”链接（href为`https://support.huaweicloud.com/clouddc_faq/clouddc_faq_0001.html`）指向一个支持文档页面，而非产品详情页内的FAQ模块。用户无法在当前页面直接找到常见问题的解答。",
+      "standard": "Nielsen #10: Help and Documentation | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "点击“常见问题”跳转至外部文档",
+      "suggestion_after": "在产品详情页底部增加一个“常见问题”区域，直接展示用户最关心的问题及简要答案，并提供指向完整FAQ文档的链接作为补充。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-下单-001",
+      "section": "下单",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "未找到下单入口",
+      "area": "全页",
+      "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+      "locate": [
+        "控制台",
+        "即刻申请"
+      ],
+      "evidence": "DOM数据中 `entry_not_found` 字段为 `true`，且页面上未找到明确的“购买”、“开通”或“立即下单”等直接进入下单流程的按钮。页面上的“控制台”和“即刻申请”按钮（href: https://console.huaweicloud.com/clouddc）均指向产品控制台，而非配置或购买页面。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "产品详情页无直接下单入口，仅有指向控制台的“控制台”和“即刻申请”按钮。",
+      "suggestion_after": "在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-支付-001",
+      "section": "支付",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "支付阶段入口缺失",
+      "area": "交互与流程",
+      "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+      "locate": [
+        "即刻申请"
+      ],
+      "evidence": "根据提供的DOM数据，针对“支付”阶段，`entry_not_found`字段明确为`true`，表示未能从当前页面（产品详情页：https://www.huaweicloud.com/product/clouddc.html）找到支付流程的入口。页面上存在一个名为“即刻申请”的核心CTA按钮，其`href`属性指向`https://console.huaweicloud.com/clouddc`（华为云控制台页面），而非引导用户进入购买配置或支付的流程页面。这表明用户无法通过产品详情页直接进入支付环节。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "产品详情页的“即刻申请”按钮跳转至控制台，且无明确支付入口",
+      "suggestion_after": "在产品详情页提供清晰、醒目的“立即购买”或“去支付”按钮，并确保其`href`属性指向正确的购买配置或支付流程页面，以便用户能够顺畅地完成支付旅程。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_3_payment.png"
+    },
+    {
+      "id": "web-使用-001",
+      "section": "使用",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "控制台使用阶段遭遇阻断性服务授权拦截且缺乏引导说明",
+      "area": "主视觉区",
+      "page_url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+      "locate": [
+        "暂未开通权限",
+        "使用云化数据中心（CloudDC）服务，您需要申请访问权限。",
+        "立即申请"
+      ],
+      "evidence": "用户进入CloudDC控制台后，页面直接展示“暂未开通权限”阻断性提示，虽有“立即申请”按钮，但未提供任何关于申请流程、审批时效（如“预计1个工作日内完成审批”）、申请前置条件或联系人信息的说明，导致用户对下一步行动缺乏知情权和预期。",
+      "standard": "Nielsen #1 | Nielsen #10 | ISO 9241-110",
+      "suggestion_before": "仅显示“使用云化数据中心（CloudDC）服务，您需要申请访问权限。”及“立即申请”按钮",
+      "suggestion_after": "在提示文案下方增加补充说明，如“申请提交后，系统管理员将在1个工作日内完成审批，审批结果将通过短信/邮件通知您。如有紧急需求，请联系您的客户经理或[提交工单]。”，并在页面右侧或下方提供“新手入门文档”或“常见问题”链接。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-002",
+      "section": "使用",
+      "type": "layout",
+      "severity": "p2",
+      "title": "核心操作按钮“立即申请”视觉权重过低",
+      "area": "主视觉区",
+      "page_url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+      "locate": [
+        "立即申请"
+      ],
+      "evidence": "截图中“立即申请”按钮采用白底黑字细边框的药丸样式，在纯白背景的控制台页面中视觉存在感极弱，对比度不足，不符合核心操作按钮（通常应为华为云标准高亮实底按钮）的视觉规范。",
+      "standard": "Garrett: Surface Plane | Nielsen #8",
+      "suggestion_before": "白底黑字细边框按钮样式",
+      "suggestion_after": "采用华为云标准高亮实底按钮样式（如蓝色背景，白字，fontSize: 14px, font-weight: 700），提升其视觉引导性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-续费-001",
+      "section": "续费",
+      "type": "unknown",
+      "severity": "p1",
+      "title": "加载状态与空状态重叠展示",
+      "area": "列表区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "暂无表格数据"
+      ],
+      "evidence": "截图中列表区域正中央显示一个灰色的加载圆圈（Loading），而其下方同时渲染了“暂无表格数据”的空状态插图和文字，加载态与空状态并存重叠。",
+      "standard": "Nielsen #1",
+      "suggestion_before": "同时渲染加载动画与空状态插图",
+      "suggestion_after": "在数据请求未返回时仅显示加载动画（Loading），请求返回且数据为空时才显示“暂无表格数据”的空状态插图。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-002",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "续费筛选能力不足迫使用户跳出",
+      "area": "提示区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "如果您想通过IP地址、资源标签等信息筛选资源进行续费，可前往云服务控制台处理。"
+      ],
+      "evidence": "页面顶部提示信息第5条明确写道：“如果您想通过IP地址、资源标签等信息筛选资源进行续费，可前往云服务控制台处理。”，说明统一续费管理页面不支持IP和标签筛选，迫使有此类需求的用户中断当前续费流程，跳转到各个云服务控制台。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "提示用户前往云服务控制台筛选续费",
+      "suggestion_after": "在续费管理页面的筛选条件或搜索框中，增加“IP地址”和“资源标签”的筛选维度，实现一站式续费。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-003",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "提示信息密度过高导致阅读超载",
+      "area": "提示区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "如果您想延长资源使用时间，推荐： 如何续费资源？"
+      ],
+      "evidence": "提示框内包含5行文字，每行都包含1-3个蓝色链接，整体高度约120px，在首屏中占据了较大面积，且文字密集度极高，缺乏视觉层级。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "将所有帮助链接和规则平铺在蓝色提示框中",
+      "suggestion_after": "将提示信息精简，或采用折叠面板（Collapse）默认收起，仅保留最核心的“如何续费”指引，其他辅助说明放入悬浮问号或折叠区。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-变更-001",
+      "section": "变更",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "未找到变更规格入口，跳转至无关公告页",
+      "area": "全局",
+      "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "locate": [
+        "全部公告",
+        "升级公告"
+      ],
+      "evidence": "系统在执行变更阶段评测时，检测到 entry_not_found 为 true。页面实际跳转到了无关的升级公告页（https://www.huaweicloud.com/notice/20260717153237724.html），未提供任何实际的产品规格变更、配置升级或降配的操作入口，导致用户无法完成变更旅程。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #1 | Nielsen #6",
+      "suggestion_before": "变更操作无法触达，跳转至静态公告页面",
+      "suggestion_after": "在产品控制台或费用中心订阅管理页提供显眼的“变更配置”或“升级/降级”按钮，点击后直接引导至规格变更与补差价支付页面。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_6_change.png"
+    },
+    {
+      "id": "web-退订-001",
+      "section": "退订",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "退订阶段页面跳转错误，直接进入提现页面",
+      "area": "主体内容区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "提现",
+        "可提现金额"
+      ],
+      "evidence": "用户处于“退订”阶段，但系统加载的页面URL为 'https://account.huaweicloud.com/usercenter/...#/userindex/refundRecord'（提现页面），页面标题为“费用中心-提现”，展示的是提现规则和金额，而非待退订的产品列表或退订确认页面，导致核心退订任务无法进行。",
+      "standard": "Nielsen #4 | Garrett: Skeleton Plane",
+      "suggestion_before": "退订操作跳转至提现页面（URL: ...#/userindex/refundRecord）",
+      "suggestion_after": "退订操作应跳转至“退订管理”页面（如 ...#/userindex/unsubscribe），展示待退订的产品明细及退款金额预览。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-002",
+      "section": "退订",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "满意度评价弹窗遮挡页面并打扰用户",
+      "area": "右侧弹窗区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "诚邀您对“费用中心”进行满意度评价",
+        "非常不满意"
+      ],
+      "evidence": "页面右侧弹出了一个高权重的满意度评价卡片（“诚邀您对“费用中心”进行满意度评价”），遮挡了部分背景内容，且在用户尚未完成核心操作时主动弹出，干扰了用户的核心任务流。",
+      "standard": "Nielsen #8 | Cooper: Modeless vs Modal",
+      "suggestion_before": "主动弹出满意度评价遮挡页面",
+      "suggestion_after": "将满意度评价改为非模态的轻量化入口（如右侧悬浮反馈按钮），或在用户成功完成提现/退订任务后再行弹出。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-003",
+      "section": "退订",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "提现规则中“原路提现”到账时间描述前后矛盾",
+      "area": "使用指南区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "1.提交提现申请后，什么时间到账？",
+        "原路提现（支付宝、微信、银联、Huawei Pay）的款项，需要1个工作日到账",
+        "原路提现（转账汇款）、银行卡提现的款项，需要7个工作日到账"
+      ],
+      "evidence": "使用指南第1条中，（1）指出“原路提现（支付宝、微信、银联、Huawei Pay）...需要1个工作日到账”，而（2）又指出“原路提现（转账汇款）...需要7个工作日到账”。同一术语“原路提现”在同一条规则中对应了两种截然不同的到账时间，极易造成用户理解混淆。",
+      "standard": "Nielsen #4 | Nielsen #2",
+      "suggestion_before": "'（1）原路提现（支付宝...）...1个工作日...（2）原路提现（转账汇款）...7个工作日...'",
+      "suggestion_after": "明确区分渠道，避免重复使用“原路提现”作为不同时间的前缀。例如：'（1）在线支付渠道（支付宝、微信、银联、Huawei Pay）原路退回：1个工作日到账；（2）线下汇款渠道原路退回、银行卡提现：7个工作日到账。'",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-004",
+      "section": "退订",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "置灰的“立即提现”按钮缺少原因说明",
+      "area": "提现操作区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "可原路提现金额",
+        "立即提现"
+      ],
+      "evidence": "截图中“可原路提现金额”为 ¥0.00，其下方的“立即提现”按钮呈置灰状态，但鼠标悬浮或就近区域未提供任何工具提示（Tooltip）或文字说明，告知用户为何该按钮不可用。",
+      "standard": "Nielsen #5 | ISO 9241-110",
+      "suggestion_before": "按钮置灰且无提示",
+      "suggestion_after": "在置灰按钮旁或悬浮时显示提示：“当前可原路提现金额为0，无法提交申请”。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  },
+  "total_stages_analyzed": 7,
+  "stages_analyzed": [
+    "感知",
+    "下单",
+    "支付",
+    "使用",
+    "续费",
+    "变更",
+    "退订"
+  ],
+  "stages_missing": [],
+  "stage_analysis": {
+    "感知": {
+      "stage": "感知",
+      "score": 6,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "核心购买/试用入口缺失，跳转至控制台而非购买页",
+          "area": "首屏主视觉区 / 通栏广告区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "控制台",
+            "即刻申请"
+          ],
+          "evidence": "首屏主视觉区“控制台”按钮的href为`https://console.huaweicloud.com/clouddc`，通栏广告区“即刻申请”按钮的href也为`https://console.huaweicloud.com/clouddc`。这两个按钮均直接跳转到产品控制台，而非购买、开通或免费试用页面。在感知阶段，用户期望找到明确的购买或试用入口。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Cooper: Goal-Directed Design",
+          "suggestion_before": "点击“控制台”/“即刻申请”按钮跳转至产品控制台",
+          "suggestion_after": "在首屏主视觉区增加“免费试用”或“立即购买”按钮，并确保其跳转至对应的免费试用申请页或产品购买配置页；“控制台”按钮可保留作为已开通用户的入口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "定价信息未直接展示，需跳转至外部文档页面",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "定价"
+          ],
+          "evidence": "顶部导航区的“定价”链接（href为`https://support.huaweicloud.com/price-clouddc/clouddc_price_0001.html`）指向一个支持文档页面，而非产品详情页内的定价模块或交互式定价计算器。用户无法在当前页面直接了解产品定价。",
+          "standard": "Garrett: Structure Plane | Nielsen #2: Match Between System and Real World | Nielsen #10: Help and Documentation",
+          "suggestion_before": "点击“定价”跳转至外部文档",
+          "suggestion_after": "在产品详情页内增加一个“定价/套餐区”，直接展示核心套餐和价格信息，或提供一个内嵌的定价计算器，方便用户快速了解费用。同时，可保留指向详细定价文档的链接作为补充。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "功能介绍区内容默认折叠，增加用户获取信息成本",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "IDC一站式算网存云化",
+            "全栈AI基础设施使能",
+            "全球布局的安全合规云化DC",
+            "免运维的基础设施管理体验"
+          ],
+          "evidence": "“为什么选择云化数据中心 CloudDC”区域的四个功能介绍卡片（如“IDC一站式算网存云化”）默认处于折叠状态（DOM中包含`por-collapse-container`和`por-collapse`类），用户需要点击才能展开查看详细内容。这增加了用户了解产品核心优势的交互成本。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "功能介绍卡片默认折叠",
+          "suggestion_after": "将核心功能介绍卡片默认展开，或至少展开前两个最关键的功能，让用户无需额外点击即可快速浏览产品亮点。对于次要或详细信息可保留折叠功能。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-004",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "常见问题未在页面内展示，需跳转至外部文档页面",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "常见问题"
+          ],
+          "evidence": "顶部导航区的“常见问题”链接（href为`https://support.huaweicloud.com/clouddc_faq/clouddc_faq_0001.html`）指向一个支持文档页面，而非产品详情页内的FAQ模块。用户无法在当前页面直接找到常见问题的解答。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "点击“常见问题”跳转至外部文档",
+          "suggestion_after": "在产品详情页底部增加一个“常见问题”区域，直接展示用户最关心的问题及简要答案，并提供指向完整FAQ文档的链接作为补充。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "优化核心CTA按钮的文案和跳转目标，提供明确的购买/试用路径。",
+        "在产品详情页内直接展示定价信息，减少用户跳转成本。",
+        "调整功能介绍区折叠面板的默认状态，优先展示核心信息。",
+        "将常见问题直接集成到产品详情页中，提升信息可达性。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，产品信息展示较为完整，但核心的购买/试用入口、定价信息和常见问题均需跳转至外部页面或通过额外点击才能获取，这严重影响了用户在感知阶段快速评估和决策的体验。功能介绍区默认折叠也增加了用户获取信息的成本。这些问题可能导致用户流失，降低产品转化率。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/clouddc.html",
+      "title": "云化数据中心_CloudDC_华为云",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+    },
+    "下单": {
+      "stage": "下单",
+      "score": 2,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到下单入口",
+          "area": "全页",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "控制台",
+            "即刻申请"
+          ],
+          "evidence": "DOM数据中 `entry_not_found` 字段为 `true`，且页面上未找到明确的“购买”、“开通”或“立即下单”等直接进入下单流程的按钮。页面上的“控制台”和“即刻申请”按钮（href: https://console.huaweicloud.com/clouddc）均指向产品控制台，而非配置或购买页面。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "产品详情页无直接下单入口，仅有指向控制台的“控制台”和“即刻申请”按钮。",
+          "suggestion_after": "在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [
+        "在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。"
+      ],
+      "analysis_content": "根据提供的DOM数据，该阶段的 `entry_not_found` 字段为 `true`，表明系统未能从感知阶段找到明确的下单入口。页面上的主要操作按钮“控制台”和“即刻申请”均指向产品控制台，而非直接进入产品购买或配置流程。这导致用户无法直接从产品详情页进入下单环节，严重影响用户体验和转化效率。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/clouddc.html",
+      "title": "云化数据中心_CloudDC_华为云",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_2_order.png"
+    },
+    "支付": {
+      "stage": "支付",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "支付阶段入口缺失",
+          "area": "交互与流程",
+          "page_url": "https://www.huaweicloud.com/product/clouddc.html",
+          "locate": [
+            "即刻申请"
+          ],
+          "evidence": "根据提供的DOM数据，针对“支付”阶段，`entry_not_found`字段明确为`true`，表示未能从当前页面（产品详情页：https://www.huaweicloud.com/product/clouddc.html）找到支付流程的入口。页面上存在一个名为“即刻申请”的核心CTA按钮，其`href`属性指向`https://console.huaweicloud.com/clouddc`（华为云控制台页面），而非引导用户进入购买配置或支付的流程页面。这表明用户无法通过产品详情页直接进入支付环节。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "产品详情页的“即刻申请”按钮跳转至控制台，且无明确支付入口",
+          "suggestion_after": "在产品详情页提供清晰、醒目的“立即购买”或“去支付”按钮，并确保其`href`属性指向正确的购买配置或支付流程页面，以便用户能够顺畅地完成支付旅程。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "确保所有产品详情页都提供明确、可达的购买或支付入口，避免用户在关键决策点迷失。",
+        "审查并修正关键CTA按钮（如“即刻申请”）的跳转逻辑，使其符合用户预期和产品旅程阶段目标，即引导至购买或支付流程。"
+      ],
+      "analysis_content": "根据AI Agent逐阶段分析全量规则，当DOM数据中的`entry_not_found`字段为`true`时，应直接生成支付阶段入口缺失的问题，并跳过详细的视觉和DOM内容分析。本阶段分析发现，从提供的产品详情页（CloudDC产品页）无法找到明确的支付入口，且页面上的“即刻申请”按钮错误地跳转到控制台页面，这严重阻碍了用户完成支付流程，导致支付阶段无法正常开始。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/clouddc.html",
+      "title": "云化数据中心_CloudDC_华为云",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_3_payment.png"
+    },
+    "使用": {
+      "stage": "使用",
+      "score": 5,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "控制台使用阶段遭遇阻断性服务授权拦截且缺乏引导说明",
+          "area": "主视觉区",
+          "page_url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+          "locate": [
+            "暂未开通权限",
+            "使用云化数据中心（CloudDC）服务，您需要申请访问权限。",
+            "立即申请"
+          ],
+          "evidence": "用户进入CloudDC控制台后，页面直接展示“暂未开通权限”阻断性提示，虽有“立即申请”按钮，但未提供任何关于申请流程、审批时效（如“预计1个工作日内完成审批”）、申请前置条件或联系人信息的说明，导致用户对下一步行动缺乏知情权和预期。",
+          "standard": "Nielsen #1 | Nielsen #10 | ISO 9241-110",
+          "suggestion_before": "仅显示“使用云化数据中心（CloudDC）服务，您需要申请访问权限。”及“立即申请”按钮",
+          "suggestion_after": "在提示文案下方增加补充说明，如“申请提交后，系统管理员将在1个工作日内完成审批，审批结果将通过短信/邮件通知您。如有紧急需求，请联系您的客户经理或[提交工单]。”，并在页面右侧或下方提供“新手入门文档”或“常见问题”链接。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "layout",
+          "severity": "p2",
+          "title": "核心操作按钮“立即申请”视觉权重过低",
+          "area": "主视觉区",
+          "page_url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+          "locate": [
+            "立即申请"
+          ],
+          "evidence": "截图中“立即申请”按钮采用白底黑字细边框的药丸样式，在纯白背景的控制台页面中视觉存在感极弱，对比度不足，不符合核心操作按钮（通常应为华为云标准高亮实底按钮）的视觉规范。",
+          "standard": "Garrett: Surface Plane | Nielsen #8",
+          "suggestion_before": "白底黑字细边框按钮样式",
+          "suggestion_after": "采用华为云标准高亮实底按钮样式（如蓝色背景，白字，fontSize: 14px, font-weight: 700），提升其视觉引导性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "在服务授权拦截页面增加审批时效说明和紧急联系渠道，避免用户因未知等待时间而产生焦虑。",
+        "优化“立即申请”按钮的视觉样式，使其符合华为云控制台核心操作按钮的设计规范，增强视觉引导。",
+        "在授权页面右侧或底部引入轻量化的“帮助与文档”板块，提供CloudDC服务的产品介绍和使用指南，提升自描述性。"
+      ],
+      "analysis_content": "CloudDC控制台在使用阶段直接呈现“服务授权”拦截，提示用户暂未开通权限。该页面存在明显的体验缺失：一是阻断性提示缺乏申请流程、审批时效及前置条件的说明，用户无法建立合理的心理预期；二是核心操作按钮“立即申请”视觉权重过低，在纯白背景下极易被忽略。建议补充审批时效与帮助文档链接，并优化按钮视觉样式。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/clouddc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/whitelist",
+      "title": "CloudDC - 控制台",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_4_usage.png"
+    },
+    "续费": {
+      "stage": "续费",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "unknown",
+          "severity": "p1",
+          "title": "加载状态与空状态重叠展示",
+          "area": "列表区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "暂无表格数据"
+          ],
+          "evidence": "截图中列表区域正中央显示一个灰色的加载圆圈（Loading），而其下方同时渲染了“暂无表格数据”的空状态插图和文字，加载态与空状态并存重叠。",
+          "standard": "Nielsen #1",
+          "suggestion_before": "同时渲染加载动画与空状态插图",
+          "suggestion_after": "在数据请求未返回时仅显示加载动画（Loading），请求返回且数据为空时才显示“暂无表格数据”的空状态插图。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "续费筛选能力不足迫使用户跳出",
+          "area": "提示区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如果您想通过IP地址、资源标签等信息筛选资源进行续费，可前往云服务控制台处理。"
+          ],
+          "evidence": "页面顶部提示信息第5条明确写道：“如果您想通过IP地址、资源标签等信息筛选资源进行续费，可前往云服务控制台处理。”，说明统一续费管理页面不支持IP和标签筛选，迫使有此类需求的用户中断当前续费流程，跳转到各个云服务控制台。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "提示用户前往云服务控制台筛选续费",
+          "suggestion_after": "在续费管理页面的筛选条件或搜索框中，增加“IP地址”和“资源标签”的筛选维度，实现一站式续费。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "提示信息密度过高导致阅读超载",
+          "area": "提示区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如果您想延长资源使用时间，推荐： 如何续费资源？"
+          ],
+          "evidence": "提示框内包含5行文字，每行都包含1-3个蓝色链接，整体高度约120px，在首屏中占据了较大面积，且文字密集度极高，缺乏视觉层级。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "将所有帮助链接和规则平铺在蓝色提示框中",
+          "suggestion_after": "将提示信息精简，或采用折叠面板（Collapse）默认收起，仅保留最核心的“如何续费”指引，其他辅助说明放入悬浮问号或折叠区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化列表加载逻辑，确保加载态（Loading）与空状态（Empty State）互斥展示，避免重叠。",
+        "在续费管理页面集成IP地址、资源标签等常用筛选维度，避免用户因筛选能力不足而跳出续费流程。",
+        "精简页面顶部的提示信息，降低信息密度，提供更清爽的视觉体验。"
+      ],
+      "analysis_content": "对华为云费用中心的续费管理页面进行了审查。页面整体布局清晰，但在细节体验上存在一些问题。首先，列表区域在加载数据时，加载圈与空状态插图重叠展示，属于典型的状态不一致问题。其次，页面提示用户若需通过IP或标签筛选资源需前往云服务控制台，这割裂了统一续费的旅程。最后，顶部的提示信息密度过高，给用户带来了一定的认知负荷。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_5_renewal.png"
+    },
+    "变更": {
+      "stage": "变更",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未找到变更规格入口，跳转至无关公告页",
+          "area": "全局",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "全部公告",
+            "升级公告"
+          ],
+          "evidence": "系统在执行变更阶段评测时，检测到 entry_not_found 为 true。页面实际跳转到了无关的升级公告页（https://www.huaweicloud.com/notice/20260717153237724.html），未提供任何实际的产品规格变更、配置升级或降配的操作入口，导致用户无法完成变更旅程。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #1 | Nielsen #6",
+          "suggestion_before": "变更操作无法触达，跳转至静态公告页面",
+          "suggestion_after": "在产品控制台或费用中心订阅管理页提供显眼的“变更配置”或“升级/降级”按钮，点击后直接引导至规格变更与补差价支付页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "在控制台或订阅管理页面中，为该产品建立闭环的规格变更（升降配）流程，避免用户在需要变更时迷失或跳转到无关的静态公告页面。"
+      ],
+      "analysis_content": "在变更阶段审查中，系统未能定位到该产品的规格变更或套餐升级入口（entry_not_found为true），而是跳转到了一个关于IAM升级的静态公告页面。这属于严重的旅程中断问题，用户完全无法在页面上执行任何与产品变更相关的操作。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_6_change.png"
+    },
+    "退订": {
+      "stage": "退订",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "退订阶段页面跳转错误，直接进入提现页面",
+          "area": "主体内容区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "提现",
+            "可提现金额"
+          ],
+          "evidence": "用户处于“退订”阶段，但系统加载的页面URL为 'https://account.huaweicloud.com/usercenter/...#/userindex/refundRecord'（提现页面），页面标题为“费用中心-提现”，展示的是提现规则和金额，而非待退订的产品列表或退订确认页面，导致核心退订任务无法进行。",
+          "standard": "Nielsen #4 | Garrett: Skeleton Plane",
+          "suggestion_before": "退订操作跳转至提现页面（URL: ...#/userindex/refundRecord）",
+          "suggestion_after": "退订操作应跳转至“退订管理”页面（如 ...#/userindex/unsubscribe），展示待退订的产品明细及退款金额预览。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "满意度评价弹窗遮挡页面并打扰用户",
+          "area": "右侧弹窗区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "诚邀您对“费用中心”进行满意度评价",
+            "非常不满意"
+          ],
+          "evidence": "页面右侧弹出了一个高权重的满意度评价卡片（“诚邀您对“费用中心”进行满意度评价”），遮挡了部分背景内容，且在用户尚未完成核心操作时主动弹出，干扰了用户的核心任务流。",
+          "standard": "Nielsen #8 | Cooper: Modeless vs Modal",
+          "suggestion_before": "主动弹出满意度评价遮挡页面",
+          "suggestion_after": "将满意度评价改为非模态的轻量化入口（如右侧悬浮反馈按钮），或在用户成功完成提现/退订任务后再行弹出。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-003",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "提现规则中“原路提现”到账时间描述前后矛盾",
+          "area": "使用指南区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "1.提交提现申请后，什么时间到账？",
+            "原路提现（支付宝、微信、银联、Huawei Pay）的款项，需要1个工作日到账",
+            "原路提现（转账汇款）、银行卡提现的款项，需要7个工作日到账"
+          ],
+          "evidence": "使用指南第1条中，（1）指出“原路提现（支付宝、微信、银联、Huawei Pay）...需要1个工作日到账”，而（2）又指出“原路提现（转账汇款）...需要7个工作日到账”。同一术语“原路提现”在同一条规则中对应了两种截然不同的到账时间，极易造成用户理解混淆。",
+          "standard": "Nielsen #4 | Nielsen #2",
+          "suggestion_before": "'（1）原路提现（支付宝...）...1个工作日...（2）原路提现（转账汇款）...7个工作日...'",
+          "suggestion_after": "明确区分渠道，避免重复使用“原路提现”作为不同时间的前缀。例如：'（1）在线支付渠道（支付宝、微信、银联、Huawei Pay）原路退回：1个工作日到账；（2）线下汇款渠道原路退回、银行卡提现：7个工作日到账。'",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-004",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "置灰的“立即提现”按钮缺少原因说明",
+          "area": "提现操作区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可原路提现金额",
+            "立即提现"
+          ],
+          "evidence": "截图中“可原路提现金额”为 ¥0.00，其下方的“立即提现”按钮呈置灰状态，但鼠标悬浮或就近区域未提供任何工具提示（Tooltip）或文字说明，告知用户为何该按钮不可用。",
+          "standard": "Nielsen #5 | ISO 9241-110",
+          "suggestion_before": "按钮置灰且无提示",
+          "suggestion_after": "在置灰按钮旁或悬浮时显示提示：“当前可原路提现金额为0，无法提交申请”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+        }
+      ],
+      "suggestions": [
+        "修复退订流程的页面跳转逻辑，确保用户点击退订时进入退订管理页面而非提现页面。",
+        "优化提现使用指南的文案表述，消除关于“原路提现”到账时间的歧义与矛盾。",
+        "降低满意度评价弹窗的弹出频次和干扰度，改用非模态或任务结束后的触发机制。",
+        "为所有置灰的不可操作按钮补充清晰的置灰原因提示，提升系统的自描述性。"
+      ],
+      "analysis_content": "在退订阶段的审查中发现，系统未能引导用户进入正确的退订管理页面，而是直接跳转到了费用中心的“提现”页面，导致核心退订任务中断。此外，提现页面存在满意度弹窗打扰、置灰按钮缺少原因说明以及使用指南文案前后矛盾等体验问题。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_7_unsubscribe.png"
+    }
+  }
+}

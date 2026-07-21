@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://skills.huaweicloud.com/",
+  "generated_at": "2026-07-20T03:00:27.541088+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://skills.huaweicloud.com/",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "解决方案卡片标题文字垂直截断",
+          "area": "解决方案轮播区域",
+          "page_url": "https://skills.huaweicloud.com/",
+          "locate": [
+            "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-header > h3.solution-title"
+          ],
+          "evidence": "元素 clientHeight 为 21px，而 scrollHeight 为 42px，导致标题文字 '基于AIcli平台的华为云OpenClaw极速部署解决方案' 和 '昇腾轻量化模型部署与小模型极速适配' 垂直方向被截断，无法完整显示。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "h3.solution-title 高度固定为 21px",
+          "suggestion_after": "将 height 设置为 auto，或增加 line-height 并将 min-height 设为 42px，确保两行文本能完整呈现。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "导航栏“云 Skills 库”文字水平溢出",
+          "area": "顶部导航栏",
+          "page_url": "https://skills.huaweicloud.com/",
+          "locate": [
+            "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links"
+          ],
+          "evidence": "导航链接容器 clientWidth 为 81px，但内容 scrollWidth 为 119px，导致 '云 Skills 库' 文本在水平方向发生溢出截断。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "nav.navbar-nav-links 宽度受限为 81px",
+          "suggestion_after": "移除固定宽度限制，或设置 flex-shrink: 0 允许容器根据文字内容自适应撑开。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "热门 Skill 卡片长 ID 水平溢出",
+          "area": "热门 Skills 列表",
+          "page_url": "https://skills.huaweicloud.com/",
+          "locate": [
+            "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id"
+          ],
+          "evidence": "对于超长 ID 'huawei-cloud-flexus-l-server-openclaw-deployment'，其 clientWidth 为 302px，而 scrollWidth 为 335px，导致文本溢出卡片边界。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "span.skill-id 默认 word-break: normal",
+          "suggestion_after": "为 span.skill-id 增加 word-break: break-all; 或使用 text-overflow: ellipsis; overflow: hidden; white-space: nowrap; 进行截断并提供 Tooltip 提示。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "复制按钮及页脚链接触控区域过小",
+          "area": "命令行卡片及页脚",
+          "page_url": "https://skills.huaweicloud.com/",
+          "locate": [
+            "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+            "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a.left-href-pc.burying-point.color-black-hover"
+          ],
+          "evidence": "复制按钮尺寸仅为 32x32px (面积 1024px²)，页脚 '法律声明'、'隐私政策' 链接高度仅 16px，均显著低于移动端推荐的最小触控热区 44x44px。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮和链接尺寸过小",
+          "suggestion_after": "通过增加 padding (如 padding: 8px) 扩大点击热区，确保用户在移动端能轻松精准点击。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化移动端卡片标题和长标识符的响应式排版，避免使用固定高度限制多行文本的显示。",
+        "扩大移动端高频交互元素（如复制按钮、页脚法律链接）的触控热区至 44x44px 以上，提升触控体验。",
+        "确保顶部导航栏在小屏设备下有足够的弹性空间，防止导航文本因容器宽度不足而截断。"
+      ],
+      "analysis_content": "华为云 Skills 门户移动端整体结构清晰，具备响应式的导航菜单和轮播交互。然而，在细节排版和触控体验上存在较多移动端适配缺陷，主要表现为多处文本因容器宽高固定而发生截断或溢出（如解决方案标题、导航文本、长ID），以及部分交互按钮（如复制按钮）和页脚链接的触控热区过小，不符合移动端易用性标准。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "解决方案卡片标题文字垂直截断",
+      "area": "解决方案轮播区域",
+      "page_url": "https://skills.huaweicloud.com/",
+      "locate": [
+        "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-header > h3.solution-title"
+      ],
+      "evidence": "元素 clientHeight 为 21px，而 scrollHeight 为 42px，导致标题文字 '基于AIcli平台的华为云OpenClaw极速部署解决方案' 和 '昇腾轻量化模型部署与小模型极速适配' 垂直方向被截断，无法完整显示。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "h3.solution-title 高度固定为 21px",
+      "suggestion_after": "将 height 设置为 auto，或增加 line-height 并将 min-height 设为 42px，确保两行文本能完整呈现。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "导航栏“云 Skills 库”文字水平溢出",
+      "area": "顶部导航栏",
+      "page_url": "https://skills.huaweicloud.com/",
+      "locate": [
+        "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links"
+      ],
+      "evidence": "导航链接容器 clientWidth 为 81px，但内容 scrollWidth 为 119px，导致 '云 Skills 库' 文本在水平方向发生溢出截断。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "nav.navbar-nav-links 宽度受限为 81px",
+      "suggestion_after": "移除固定宽度限制，或设置 flex-shrink: 0 允许容器根据文字内容自适应撑开。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "热门 Skill 卡片长 ID 水平溢出",
+      "area": "热门 Skills 列表",
+      "page_url": "https://skills.huaweicloud.com/",
+      "locate": [
+        "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id"
+      ],
+      "evidence": "对于超长 ID 'huawei-cloud-flexus-l-server-openclaw-deployment'，其 clientWidth 为 302px，而 scrollWidth 为 335px，导致文本溢出卡片边界。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "span.skill-id 默认 word-break: normal",
+      "suggestion_after": "为 span.skill-id 增加 word-break: break-all; 或使用 text-overflow: ellipsis; overflow: hidden; white-space: nowrap; 进行截断并提供 Tooltip 提示。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "复制按钮及页脚链接触控区域过小",
+      "area": "命令行卡片及页脚",
+      "page_url": "https://skills.huaweicloud.com/",
+      "locate": [
+        "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a.left-href-pc.burying-point.color-black-hover"
+      ],
+      "evidence": "复制按钮尺寸仅为 32x32px (面积 1024px²)，页脚 '法律声明'、'隐私政策' 链接高度仅 16px，均显著低于移动端推荐的最小触控热区 44x44px。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮和链接尺寸过小",
+      "suggestion_after": "通过增加 padding (如 padding: 8px) 扩大点击热区，确保用户在移动端能轻松精准点击。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

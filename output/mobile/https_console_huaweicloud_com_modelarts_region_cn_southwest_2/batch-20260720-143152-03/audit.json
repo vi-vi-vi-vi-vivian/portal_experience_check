@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+  "generated_at": "2026-07-20T07:33:36.644440+00:00",
+  "summary": {
+    "score": 2,
+    "issue_count": 5,
+    "p0": 0,
+    "p1": 4,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+      "title": null,
+      "score": 2,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "关键链接点击无响应：了解更多",
+          "area": "底部信息",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+          "locate": [
+            "了解更多"
+          ],
+          "evidence": "点击元素 `a` (text: \"了解更多\", path: \"div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope\", rect: {left: 15, top: 634, width: 351, height: 34}) 后，页面无可见效果，URL未改变 (beforeUrl: \"https://auth.huaweicloud.com/authui/login.html?...\", afterUrl: \"https://auth.huaweicloud.com/authui/login.html?...\")。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+          "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+          "suggestion_before": "点击“了解更多”链接无响应。",
+          "suggestion_after": "确保“了解更多”链接能正常跳转到隐私政策页面。排查并解决导致网络连接拒绝的后端服务或网络配置问题，并在用户点击失败时提供明确的错误提示。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "“获取验证码”按钮点击无响应",
+          "area": "登录表单",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+          "locate": [
+            "获取验证码"
+          ],
+          "evidence": "点击元素 `div` (text: \"获取验证码\", path: \"div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect\", rect: {left: 295, top: 277, width: 80, height: 40}) 后，页面无可见效果。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+          "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+          "suggestion_before": "点击“获取验证码”按钮无响应。",
+          "suggestion_after": "确保“获取验证码”功能正常工作，并在点击后提供明确的系统反馈（如发送成功/失败提示）。排查并解决导致网络连接拒绝的后端服务或网络配置问题。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "“账号密码登录”链接点击无响应",
+          "area": "登录表单",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+          "locate": [
+            "账号密码登录"
+          ],
+          "evidence": "点击元素 `div` (text: \"账号密码登录\", path: \"div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap\", rect: {left: 15, top: 334, width: 360, height: 18}) 后，页面无可见效果。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+          "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+          "suggestion_before": "点击“账号密码登录”链接无响应。",
+          "suggestion_after": "确保“账号密码登录”链接能正常切换登录方式。排查并解决导致网络连接拒绝的后端服务或网络配置问题。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "主CTA“登录/注册”按钮点击无响应",
+          "area": "登录表单",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+          "locate": [
+            "登录/注册"
+          ],
+          "evidence": "点击元素 `div` (text: \"登录/注册\", path: \"div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.login-register-btn\", rect: {left: 15, top: 394, width: 360, height: 36}) 后，页面无可见效果。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+          "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+          "suggestion_before": "点击“登录/注册”按钮无响应。",
+          "suggestion_after": "确保核心的“登录/注册”按钮功能正常，并在点击后提供明确的系统反馈。排查并解决导致网络连接拒绝的后端服务或网络配置问题。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-005",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "多个可点击元素触控区域过小",
+          "area": "全局触控",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+          "locate": [
+            "华为云Logo",
+            "手机号输入框",
+            "获取验证码",
+            "账号密码登录",
+            "遇到问题",
+            "IAM用户",
+            "更多账号登录"
+          ],
+          "evidence": "页面上存在多个触控区域小于推荐的44x44像素的元素：\n- 华为云Logo (`a`): 宽度 83px, 高度 19px (dom.smallTargets[0])\n- 手机号输入框 (`input`): 宽度 263px, 高度 22px (dom.smallTargets[1])\n- 获取验证码按钮 (`div`): 宽度 80px, 高度 21px (dom.smallTargets[3])\n- 账号密码登录链接 (`div`): 宽度 84px, 高度 18px (dom.smallTargets[4])\n- 遇到问题链接 (`div`): 宽度 56px, 高度 18px (dom.smallTargets[6])\n- IAM用户链接 (`span`): 宽度 57px, 高度 19px (dom.smallTargets[7])\n- 更多账号登录链接 (`div`): 宽度 99px, 高度 21px (dom.smallTargets[8])",
+          "standard": "Nielsen #4 Consistency and standards (Mobile touch target guidelines)",
+          "suggestion_before": "多个可点击元素的触控区域过小，易导致误触。",
+          "suggestion_after": "调整所有可点击元素的触控区域，使其高度和宽度至少达到 44x44 像素，以提升移动端用户的点击准确性和体验。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+        }
+      ],
+      "suggestions": [
+        "优先修复所有关键交互元素（如登录/注册、获取验证码、重要链接）点击无响应的问题，这是当前页面最严重的缺陷。根据控制台错误信息，重点排查后端服务或网络连接配置。",
+        "为用户操作提供明确的系统反馈。当功能成功或失败时，应有视觉或文字提示，避免用户对操作结果产生困惑。",
+        "全面审查并优化页面上所有可点击元素的触控区域大小，确保符合移动端设计规范，提升用户操作的舒适度和准确性。"
+      ],
+      "analysis_content": "该华为云移动端登录页面存在严重的可用性问题。尽管页面布局响应式良好，无横向溢出，且首屏信息层级和主CTA可发现性尚可，但核心的登录/注册功能、获取验证码以及多个重要链接在点击后均无响应，且伴随网络连接拒绝的控制台错误，这导致用户无法完成登录操作，严重影响了用户体验。此外，页面上存在大量触控区域过小的元素，增加了误触的可能性。这些功能性和交互体验上的缺陷使得页面几乎无法正常使用，急需立即修复。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "关键链接点击无响应：了解更多",
+      "area": "底部信息",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+      "locate": [
+        "了解更多"
+      ],
+      "evidence": "点击元素 `a` (text: \"了解更多\", path: \"div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope\", rect: {left: 15, top: 634, width: 351, height: 34}) 后，页面无可见效果，URL未改变 (beforeUrl: \"https://auth.huaweicloud.com/authui/login.html?...\", afterUrl: \"https://auth.huaweicloud.com/authui/login.html?...\")。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+      "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+      "suggestion_before": "点击“了解更多”链接无响应。",
+      "suggestion_after": "确保“了解更多”链接能正常跳转到隐私政策页面。排查并解决导致网络连接拒绝的后端服务或网络配置问题，并在用户点击失败时提供明确的错误提示。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "“获取验证码”按钮点击无响应",
+      "area": "登录表单",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+      "locate": [
+        "获取验证码"
+      ],
+      "evidence": "点击元素 `div` (text: \"获取验证码\", path: \"div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect\", rect: {left: 295, top: 277, width: 80, height: 40}) 后，页面无可见效果。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+      "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+      "suggestion_before": "点击“获取验证码”按钮无响应。",
+      "suggestion_after": "确保“获取验证码”功能正常工作，并在点击后提供明确的系统反馈（如发送成功/失败提示）。排查并解决导致网络连接拒绝的后端服务或网络配置问题。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "“账号密码登录”链接点击无响应",
+      "area": "登录表单",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+      "locate": [
+        "账号密码登录"
+      ],
+      "evidence": "点击元素 `div` (text: \"账号密码登录\", path: \"div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap\", rect: {left: 15, top: 334, width: 360, height: 18}) 后，页面无可见效果。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+      "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+      "suggestion_before": "点击“账号密码登录”链接无响应。",
+      "suggestion_after": "确保“账号密码登录”链接能正常切换登录方式。排查并解决导致网络连接拒绝的后端服务或网络配置问题。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "主CTA“登录/注册”按钮点击无响应",
+      "area": "登录表单",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+      "locate": [
+        "登录/注册"
+      ],
+      "evidence": "点击元素 `div` (text: \"登录/注册\", path: \"div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.login-register-btn\", rect: {left: 15, top: 394, width: 360, height: 36}) 后，页面无可见效果。控制台报错: \"Failed to load resource: net::ERR_CONNECTION_REFUSED\"。",
+      "standard": "Nielsen #1 Visibility of system status, #9 Help users recognize, diagnose, and recover from errors",
+      "suggestion_before": "点击“登录/注册”按钮无响应。",
+      "suggestion_after": "确保核心的“登录/注册”按钮功能正常，并在点击后提供明确的系统反馈。排查并解决导致网络连接拒绝的后端服务或网络配置问题。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-005",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "多个可点击元素触控区域过小",
+      "area": "全局触控",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+      "locate": [
+        "华为云Logo",
+        "手机号输入框",
+        "获取验证码",
+        "账号密码登录",
+        "遇到问题",
+        "IAM用户",
+        "更多账号登录"
+      ],
+      "evidence": "页面上存在多个触控区域小于推荐的44x44像素的元素：\n- 华为云Logo (`a`): 宽度 83px, 高度 19px (dom.smallTargets[0])\n- 手机号输入框 (`input`): 宽度 263px, 高度 22px (dom.smallTargets[1])\n- 获取验证码按钮 (`div`): 宽度 80px, 高度 21px (dom.smallTargets[3])\n- 账号密码登录链接 (`div`): 宽度 84px, 高度 18px (dom.smallTargets[4])\n- 遇到问题链接 (`div`): 宽度 56px, 高度 18px (dom.smallTargets[6])\n- IAM用户链接 (`span`): 宽度 57px, 高度 19px (dom.smallTargets[7])\n- 更多账号登录链接 (`div`): 宽度 99px, 高度 21px (dom.smallTargets[8])",
+      "standard": "Nielsen #4 Consistency and standards (Mobile touch target guidelines)",
+      "suggestion_before": "多个可点击元素的触控区域过小，易导致误触。",
+      "suggestion_after": "调整所有可点击元素的触控区域，使其高度和宽度至少达到 44x44 像素，以提升移动端用户的点击准确性和体验。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

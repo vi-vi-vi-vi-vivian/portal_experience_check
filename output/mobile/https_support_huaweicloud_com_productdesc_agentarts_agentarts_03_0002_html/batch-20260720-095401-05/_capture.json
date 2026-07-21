@@ -1,0 +1,3007 @@
+{
+  "input_url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+  "audit_time": "2026-07-20T02:18:30.081787+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_top.png",
+    "scroll_screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_scroll.png",
+    "full_screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_full.png",
+    "menu_screenshot": "../../output/mobile/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html/batch-20260720-095401-05/screenshots/https_support_huaweicloud_com_productdesc_agentarts_agentarts_03_0002_html_menu.png"
+  },
+  "dom": {
+    "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+    "title": "什么是智果（AgentArts）智能体平台？_产品介绍_智果（AgentArts）智能体平台-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 403,
+      "bodyScrollWidth": 403,
+      "clientWidth": 390,
+      "scrollHeight": 4549
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html.phone.phone > body.scrolled.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.scrolled.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.scrolled.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 120,
+        "scrollHeight": 120,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "120px"
+      },
+      {
+        "path": "body.scrolled.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 88,
+        "scrollHeight": 88,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "88px"
+      },
+      {
+        "path": "div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 334,
+        "scrollWidth": 334,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "clientWidth": 0,
+        "scrollWidth": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "auto"
+      },
+      {
+        "path": "html.phone.phone > body.scrolled.show-top-prompt > div#content.help-page.home-page",
+        "text": "本文导读 什么是智果（AgentArts）智能体平台？ 为什么选择智果（AgentArts）智能体平台？ 产品架构 访问方式 智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 4256,
+        "scrollHeight": 4256,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "4255.94px"
+      },
+      {
+        "path": "html.phone.phone > body.scrolled.show-top-prompt > div#content.help-page.home-page > div",
+        "text": "本文导读 什么是智果（AgentArts）智能体平台？ 为什么选择智果（AgentArts）智能体平台？ 产品架构 访问方式 智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 4256,
+        "scrollHeight": 4256,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "4255.94px"
+      },
+      {
+        "path": "html.phone.phone > body.scrolled.show-top-prompt > div#content.help-page.home-page > div > div#support-content.support-section.support-content",
+        "text": "本文导读 什么是智果（AgentArts）智能体平台？ 为什么选择智果（AgentArts）智能体平台？ 产品架构 访问方式 智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 4256,
+        "scrollHeight": 4256,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "4255.94px"
+      },
+      {
+        "path": "div > div#support-content.support-section.support-content > div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list",
+        "text": "什么是智果（AgentArts）智能体平台？ 为什么选择智果（AgentArts）智能体平台？ 产品架构 访问方式",
+        "clientWidth": 16,
+        "scrollWidth": 56,
+        "clientHeight": 272,
+        "scrollHeight": 272,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "272px"
+      },
+      {
+        "path": "div#support-content.support-section.support-content > div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li.active",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "clientWidth": 20,
+        "scrollWidth": 40,
+        "clientHeight": 68,
+        "scrollHeight": 81,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "68px"
+      },
+      {
+        "path": "div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li.active > a.js-title",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "clientWidth": 20,
+        "scrollWidth": 34,
+        "clientHeight": 44,
+        "scrollHeight": 484,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "44px"
+      },
+      {
+        "path": "div#support-content.support-section.support-content > div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li",
+        "text": "为什么选择智果（AgentArts）智能体平台？",
+        "clientWidth": 20,
+        "scrollWidth": 40,
+        "clientHeight": 68,
+        "scrollHeight": 81,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "68px"
+      },
+      {
+        "path": "div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li > a.js-title",
+        "text": "为什么选择智果（AgentArts）智能体平台？",
+        "clientWidth": 20,
+        "scrollWidth": 34,
+        "clientHeight": 44,
+        "scrollHeight": 528,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "44px"
+      },
+      {
+        "path": "body.scrolled.show-top-prompt > div#content.help-page.home-page > div > div#support-content.support-section.support-content > div.support-body",
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 API参考 SDK参考 常见问题 视频帮助 文档下载 通用参考 产品术语 责任共担 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 4256,
+        "scrollHeight": 4256,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "4255.94px"
+      },
+      {
+        "path": "div#content.help-page.home-page > div > div#support-content.support-section.support-content > div.support-body > div.wrapper",
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 API参考 SDK参考 常见问题 视频帮助 文档下载 通用参考 产品术语 责任共担 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 4256,
+        "scrollHeight": 4256,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "4255.94px"
+      },
+      {
+        "path": "div > div#support-content.support-section.support-content > div.support-body > div.wrapper > div#support-nav.support-section.support-nav",
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 API参考 SDK参考 常见问题 视频帮助 文档下载 通用参考 产品术语 责任共担 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 42,
+        "scrollHeight": 51,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "42px"
+      },
+      {
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div#support-nav.support-section.support-nav > div.prod-name.common-menu",
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 API参考 SDK参考 常见问题 视频帮助 文档下载 通用参考 产品术语 责任共担 ",
+        "clientWidth": 390,
+        "scrollWidth": 403,
+        "clientHeight": 42,
+        "scrollHeight": 51,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "42px"
+      },
+      {
+        "path": "div.wrapper > div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > div.search-box-l",
+        "text": "本产品内“”的所有结果",
+        "clientWidth": 32,
+        "scrollWidth": 52,
+        "clientHeight": 32,
+        "scrollHeight": 32,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "32px"
+      },
+      {
+        "path": "div.wrapper > div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav",
+        "text": "最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 API参考 SDK参考 常见问题 视频帮助 文档下载 通用参考 产品术语 责任共担 云服务等级协议（SLA） 白皮书资源 ",
+        "clientWidth": 32,
+        "scrollWidth": 145,
+        "clientHeight": 3149,
+        "scrollHeight": 3149,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "3149px"
+      },
+      {
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1.unfold",
+        "text": "产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念",
+        "clientWidth": 14,
+        "scrollWidth": 129,
+        "clientHeight": 714,
+        "scrollHeight": 714,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "714px"
+      },
+      {
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1.unfold > ul",
+        "text": "什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念",
+        "clientWidth": 6,
+        "scrollWidth": 115,
+        "clientHeight": 602,
+        "scrollHeight": 602,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "602px"
+      },
+      {
+        "path": "div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2.active",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "clientWidth": 14,
+        "scrollWidth": 109,
+        "clientHeight": 266,
+        "scrollHeight": 266,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "266px"
+      },
+      {
+        "path": "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2.active > a.js-title",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "clientWidth": 12,
+        "scrollWidth": 95,
+        "clientHeight": 252,
+        "scrollHeight": 252,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "252px"
+      },
+      {
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1",
+        "text": "OfficeAce (PC版)",
+        "clientWidth": 14,
+        "scrollWidth": 81,
+        "clientHeight": 90,
+        "scrollHeight": 90,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "90px"
+      },
+      {
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "OfficeAce (PC版)",
+        "clientWidth": 12,
+        "scrollWidth": 67,
+        "clientHeight": 76,
+        "scrollHeight": 76,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "76px"
+      },
+      {
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.help-tsr.unfold",
+        "text": "通用参考 产品术语 责任共担 云服务等级协议（SLA） 白皮书资源 支持区域 系统权限",
+        "clientWidth": 14,
+        "scrollWidth": 72,
+        "clientHeight": 911,
+        "scrollHeight": 911,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "911px"
+      },
+      {
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "云服务等级协议（SLA）",
+        "clientWidth": 12,
+        "scrollWidth": 58,
+        "clientHeight": 186,
+        "scrollHeight": 186,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "186px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 57
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "tag": "a",
+        "x": 40,
+        "y": 36,
+        "width": 192,
+        "height": 14,
+        "area": 2686.25
+      },
+      {
+        "index": 1,
+        "path": "div.header-container > div.header-wrapper > div.header-bottom > div.header-bottom-wrapper > a.header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 128,
+        "width": 108,
+        "height": 32,
+        "area": 3456
+      },
+      {
+        "index": 2,
+        "path": "div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li.active > a.js-title",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "tag": "a",
+        "x": 426,
+        "y": 185,
+        "width": 20,
+        "height": 44,
+        "area": 880
+      },
+      {
+        "index": 3,
+        "path": "div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li > a.js-title",
+        "text": "为什么选择智果（AgentArts）智能体平台？",
+        "tag": "a",
+        "x": 426,
+        "y": 253,
+        "width": 20,
+        "height": 44,
+        "area": 880
+      },
+      {
+        "index": 4,
+        "path": "div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li > a.js-title",
+        "text": "产品架构",
+        "tag": "a",
+        "x": 426,
+        "y": 321,
+        "width": 20,
+        "height": 44,
+        "area": 880
+      },
+      {
+        "index": 5,
+        "path": "div.text-guide-container > div.text-guide-body.swiper-guide.por-scrollbar-s > ul.tex-guide-list > li.section-guide-li > a.js-title",
+        "text": "访问方式",
+        "tag": "a",
+        "x": 426,
+        "y": 389,
+        "width": 20,
+        "height": 44,
+        "area": 880
+      },
+      {
+        "index": 6,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > div.search-box-l > form.support-link-searcher > input.support-link-searcher-input",
+        "text": "",
+        "tag": "input",
+        "x": 16,
+        "y": 234,
+        "width": 36,
+        "height": 32,
+        "area": 1152
+      },
+      {
+        "index": 7,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > div.search-box-l > form.support-link-searcher > button.support-link-searcher-submit",
+        "text": "",
+        "tag": "button",
+        "x": 25,
+        "y": 242,
+        "width": 16,
+        "height": 16,
+        "area": 256
+      },
+      {
+        "index": 8,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title",
+        "text": "最新动态",
+        "tag": "a",
+        "x": 30,
+        "y": 285,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 9,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1.unfold > a.js-title.ajax-nav",
+        "text": "产品介绍",
+        "tag": "a",
+        "x": 30,
+        "y": 397,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 10,
+        "path": "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2.active > a.js-title",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "tag": "a",
+        "x": 50,
+        "y": 509,
+        "width": 12,
+        "height": 252,
+        "area": 3024
+      },
+      {
+        "index": 11,
+        "path": "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "订阅套餐",
+        "tag": "a",
+        "x": 50,
+        "y": 775,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 12,
+        "path": "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "资产广场",
+        "tag": "a",
+        "x": 50,
+        "y": 887,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 13,
+        "path": "ul.side-nav > li.nav-item.level1.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "基本概念",
+        "tag": "a",
+        "x": 50,
+        "y": 999,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 14,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "开始使用",
+        "tag": "a",
+        "x": 30,
+        "y": 1111,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 15,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "计费说明",
+        "tag": "a",
+        "x": 30,
+        "y": 1223,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 16,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "低代码开发",
+        "tag": "a",
+        "x": 30,
+        "y": 1335,
+        "width": 12,
+        "height": 120,
+        "area": 1440
+      },
+      {
+        "index": 17,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "高代码开发",
+        "tag": "a",
+        "x": 30,
+        "y": 1469,
+        "width": 12,
+        "height": 120,
+        "area": 1440
+      },
+      {
+        "index": 18,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "智能体运营运维",
+        "tag": "a",
+        "x": 30,
+        "y": 1603,
+        "width": 12,
+        "height": 164,
+        "area": 1968
+      },
+      {
+        "index": 19,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "OfficeAce (PC版)",
+        "tag": "a",
+        "x": 30,
+        "y": 1781,
+        "width": 12,
+        "height": 76,
+        "area": 912
+      },
+      {
+        "index": 20,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "最佳实践",
+        "tag": "a",
+        "x": 30,
+        "y": 1871,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 21,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "API参考",
+        "tag": "a",
+        "x": 30,
+        "y": 1983,
+        "width": 12,
+        "height": 76,
+        "area": 912
+      },
+      {
+        "index": 22,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "SDK参考",
+        "tag": "a",
+        "x": 30,
+        "y": 2073,
+        "width": 12,
+        "height": 76,
+        "area": 912
+      },
+      {
+        "index": 23,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "常见问题",
+        "tag": "a",
+        "x": 30,
+        "y": 2163,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 24,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "text": "视频帮助",
+        "tag": "a",
+        "x": 30,
+        "y": 2275,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 25,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title",
+        "text": "文档下载",
+        "tag": "a",
+        "x": 30,
+        "y": 2387,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 26,
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.help-tsr.unfold > a",
+        "text": "通用参考",
+        "tag": "a",
+        "x": 30,
+        "y": 2500,
+        "width": 12,
+        "height": 114,
+        "area": 1368
+      },
+      {
+        "index": 27,
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title.ajax-nav",
+        "text": "产品术语",
+        "tag": "a",
+        "x": 30,
+        "y": 2628,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 28,
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title.ajax-nav",
+        "text": "责任共担",
+        "tag": "a",
+        "x": 30,
+        "y": 2740,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 29,
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "云服务等级协议（SLA）",
+        "tag": "a",
+        "x": 30,
+        "y": 2852,
+        "width": 12,
+        "height": 186,
+        "area": 2232
+      },
+      {
+        "index": 30,
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "白皮书资源",
+        "tag": "a",
+        "x": 30,
+        "y": 3052,
+        "width": 12,
+        "height": 120,
+        "area": 1440
+      },
+      {
+        "index": 31,
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title",
+        "text": "支持区域",
+        "tag": "a",
+        "x": 30,
+        "y": 3186,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 32,
+        "path": "ul.side-nav > li.nav-item.help-tsr.unfold > ul > li.nav-item.level2 > a.js-title.ajax-nav",
+        "text": "系统权限",
+        "tag": "a",
+        "x": 30,
+        "y": 3298,
+        "width": 12,
+        "height": 98,
+        "area": 1176
+      },
+      {
+        "index": 33,
+        "path": "div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "text": "文档首页",
+        "tag": "a",
+        "x": 17,
+        "y": 231,
+        "width": 48,
+        "height": 14,
+        "area": 672
+      },
+      {
+        "index": 34,
+        "path": "div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "text": "智果（AgentArts）智能体平台",
+        "tag": "a",
+        "x": 88,
+        "y": 231,
+        "width": 162,
+        "height": 14,
+        "area": 2271.5
+      },
+      {
+        "index": 35,
+        "path": "div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "text": "产品介绍",
+        "tag": "a",
+        "x": 273,
+        "y": 231,
+        "width": 48,
+        "height": 14,
+        "area": 672
+      },
+      {
+        "index": 36,
+        "path": "div.help-content.help-center-document.cf > div.append-container.cf > div.help-content-tools > div.help-view-pdf.showw > a",
+        "text": "查看PDF",
+        "tag": "a",
+        "x": 320,
+        "y": 370,
+        "width": 18,
+        "height": 24,
+        "area": 432
+      },
+      {
+        "index": 37,
+        "path": "div.help-content.help-center-document.cf > div.append-container.cf > div.help-content-tools > div.help-view-share.showw > a",
+        "text": "分享",
+        "tag": "a",
+        "x": 356,
+        "y": 370,
+        "width": 18,
+        "height": 24,
+        "area": 432
+      },
+      {
+        "index": 38,
+        "path": "div.help-content.help-center-document.cf > div#body0000002517597628 > div#agentarts_03_0002__section93271717114813.section > p#agentarts_03_0002__p65526224487 > a",
+        "text": "图1",
+        "tag": "a",
+        "x": 31,
+        "y": 2278,
+        "width": 22,
+        "height": 16,
+        "area": 349.25
+      },
+      {
+        "index": 39,
+        "path": "div#agentarts_03_0002__section1050mcpsimp.section > ul#agentarts_03_0002__ul71062913715 > li#agentarts_03_0002__li423mcpsimp > p#agentarts_03_0002__p424mcpsimp > a",
+        "text": "《智能体平台API参考》",
+        "tag": "a",
+        "x": 127,
+        "y": 3732,
+        "width": 140,
+        "height": 16,
+        "area": 2241.75
+      },
+      {
+        "index": 40,
+        "path": "div#agentarts_03_0002__section1050mcpsimp.section > ul#agentarts_03_0002__ul71062913715 > li#agentarts_03_0002__li426mcpsimp > p#agentarts_03_0002__p1163171823211 > a",
+        "text": "注册华为云并实名认证",
+        "tag": "a",
+        "x": 29,
+        "y": 3812,
+        "width": 341,
+        "height": 40,
+        "area": 13632.5
+      },
+      {
+        "index": 41,
+        "path": "div.support-main > div.help-detail-feedback > div.action > p.next > a.link.help-link.js-title",
+        "text": "下一篇：订阅套餐",
+        "tag": "a",
+        "x": 17,
+        "y": 3921,
+        "width": 112,
+        "height": 22,
+        "area": 2464
+      },
+      {
+        "index": 42,
+        "path": "div.relevant-content > div.relevant-body > ul.relevant-left > li > a.js-title",
+        "text": "最新动态",
+        "tag": "a",
+        "x": 33,
+        "y": 4026,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 43,
+        "path": "div.relevant-content > div.relevant-body > ul.relevant-left > li > a.js-title",
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "tag": "a",
+        "x": 33,
+        "y": 4052,
+        "width": 245,
+        "height": 16,
+        "area": 3924.75
+      },
+      {
+        "index": 44,
+        "path": "div.relevant-content > div.relevant-body > ul.relevant-left > li > a.js-title",
+        "text": "订阅套餐",
+        "tag": "a",
+        "x": 33,
+        "y": 4078,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 45,
+        "path": "div.relevant-content > div.relevant-body > ul.relevant-left > li > a.js-title",
+        "text": "资产广场",
+        "tag": "a",
+        "x": 33,
+        "y": 4104,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 46,
+        "path": "div.relevant-content > div.relevant-body > ul.relevant-left > li > a.js-title",
+        "text": "基本概念",
+        "tag": "a",
+        "x": 33,
+        "y": 4130,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 47,
+        "path": "div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-use",
+        "text": "有帮助",
+        "tag": "a",
+        "x": 33,
+        "y": 4259,
+        "width": 50,
+        "height": 32,
+        "area": 1600
+      },
+      {
+        "index": 48,
+        "path": "div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-unuse",
+        "text": "没帮助",
+        "tag": "a",
+        "x": 83,
+        "y": 4259,
+        "width": 50,
+        "height": 32,
+        "area": 1600
+      },
+      {
+        "index": 49,
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > a.help-form-btn.provide-feedback",
+        "text": "提供反馈",
+        "tag": "a",
+        "x": 153,
+        "y": 4266,
+        "width": 48,
+        "height": 22,
+        "area": 1056
+      },
+      {
+        "index": 50,
+        "path": "div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+        "text": "云宝助手提问",
+        "tag": "a",
+        "x": 33,
+        "y": 4346,
+        "width": 72,
+        "height": 18,
+        "area": 1296
+      },
+      {
+        "index": 51,
+        "path": "div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+        "text": "云社区提问",
+        "tag": "a",
+        "x": 129,
+        "y": 4346,
+        "width": 60,
+        "height": 18,
+        "area": 1080
+      },
+      {
+        "index": 52,
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.footer-link",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 226,
+        "y": 4434,
+        "width": 104,
+        "height": 15,
+        "area": 1567.265625
+      },
+      {
+        "index": 53,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a",
+        "text": "",
+        "tag": "a",
+        "x": 44,
+        "y": 4502,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 54,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 64,
+        "y": 4501,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 55,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record2 > a",
+        "text": "",
+        "tag": "a",
+        "x": 146,
+        "y": 4502,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 56,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 166,
+        "y": 4501,
+        "width": 170,
+        "height": 14,
+        "area": 2375.40625
+      }
+    ],
+    "closePairs": [],
+    "forms": [
+      {
+        "path": "div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > div.search-box-l > form.support-link-searcher > input.support-link-searcher-input",
+        "tag": "input",
+        "type": "text",
+        "placeholder": "搜索本产品文档",
+        "inputmode": "",
+        "autocomplete": "off",
+        "y": 234,
+        "width": 36,
+        "height": 32,
+        "nearBottom": false
+      }
+    ],
+    "images": [
+      {
+        "path": "div.header-wrapper > div.header-bottom > div.header-bottom-wrapper > a.header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 108,
+        "height": 32,
+        "top": 128,
+        "belowFold": false
+      },
+      {
+        "path": "div#body0000002517597628 > div#agentarts_03_0002__section93271717114813.section > div#agentarts_03_0002__fig442265002415.fignone > span > img#agentarts_03_0002__image1542310508246.eddx",
+        "alt": "",
+        "src": "https://support.huaweicloud.com/productdesc-agentarts/zh-cn_image_0000002622387411.png",
+        "ext": "png",
+        "loading": "",
+        "width": 353,
+        "height": 183,
+        "top": 2072,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div#body0000002517597628 > div#agentarts_03_0002__section93271717114813.section > div#agentarts_03_0002__fig442265002415.fignone > span > img#agentarts_03_0002__image1542310508246.eddx",
+        "alt": "",
+        "src": "https://support.huaweicloud.com/productdesc-agentarts/zh-cn_image_0000002622387411.png",
+        "ext": "png",
+        "loading": "",
+        "width": 353,
+        "height": 183,
+        "top": 2072,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i { background-image: none; transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i { transform: scale(1.15); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container { opacity: 1; transform: scale(1); visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover",
+        "media": "",
+        "css": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i.float-icon-bigger",
+        "media": "",
+        "css": ".phone-icon:hover > i.float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar:hover",
+        "media": "",
+        "css": ".float-sidebar:hover { z-index: 993; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".clicked-chatIcon .float-sidebar:hover",
+        "media": "",
+        "css": ".clicked-chatIcon .float-sidebar:hover { z-index: 990; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { right: 44px; visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active i, .star-score-btns p:hover i",
+        "media": "",
+        "css": ".star-score-btns p.active i, .star-score-btns p:hover i { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active, .star-score-btns p:hover",
+        "media": "",
+        "css": ".star-score-btns p.active, .star-score-btns p:hover { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; font-size: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.por-btn-dark:hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.por-btn-dark:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback i",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback .float-icon-bigger",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback .float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: translateY(-50%) scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover label",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover label { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(201, 201, 201); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover { background-color: transparent; border-color: grey; color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-modal-close:hover .u-icon",
+        "media": "",
+        "css": "#interceptor-modal .por-modal-close:hover .u-icon { color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-primary:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-dark:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-dark:hover { border-color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-primary.hover, .cui-btn-primary:hover",
+        "media": "",
+        "css": ".cui-btn-primary.hover, .cui-btn-primary:hover { box-shadow: rgba(246, 111, 106, 0.5) 0px 8px 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover",
+        "media": "",
+        "css": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover",
+        "media": "",
+        "css": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover { border: 1px solid rgb(199, 0, 11); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover",
+        "media": "",
+        "css": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover",
+        "media": "",
+        "css": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover { box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown ::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".header-dropdown ::-webkit-scrollbar-thumb:hover { background-color: rgb(173, 176, 184); }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right-large",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right-large { margin-left: 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang-item.active > a, .header-lang-item:hover > a",
+        "media": "",
+        "css": ".header-lang-item.active > a, .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp:hover .header-icon-hwapp",
+        "media": "",
+        "css": ".header-hwapp:hover .header-icon-hwapp { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48dGl0bGU+YXBwPC90aXRsZT48ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0xMS41IDBhLjUuNSAwIDAgMSAuNS41djEzYS41LjUgMCAwIDEtLjUuNWgtOWEuNS41IDAgMCAxLS41LS41Vi41YS41LjUgMCAwIDEgLjUtLjV6TTExIDFIM3YxMmg4eiIvPjxwYXRoIGQ9Ik0xMS4yMzEgMTEuMDU4djFIMi43MDZ2LTF6TTguMDQgMi4wNTh2MUg2LjAzdi0xeiIvPjwvZz"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp .header-hwapp-link:hover",
+        "media": "",
+        "css": ".header-hwapp .header-hwapp-link:hover { color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button input:hover",
+        "media": "",
+        "css": ".header-search-button input:hover { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button i:hover",
+        "media": "",
+        "css": ".header-search-button i:hover { background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbi/mkJzntKLlpIfku708L3RpdGxlPgogICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0iZmlsdGVyLTEiPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlR3JhcGhpYyIgdHlwZT0"
+      },
+      {
+        "type": "hover",
+        "selector": ".show-search-box .header-search .header-search-button:hover input",
+        "media": "",
+        "css": ".show-search-box .header-search .header-search-button:hover input { border: 1px solid rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search.active .close-icon:hover",
+        "media": "",
+        "css": ".header-search.active .close-icon:hover { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTQgMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNC4wMDAwMDAiIGhlaWdodD0iMTQuMDAwMDAwIiBmaWxsPSJub25lIiBjdXN0b21GcmFtZT0iIzAwMDAwMCI+Cgk8cmVjdCBpZD0i55S75p2/IDE2NDA4IiB3aWR0aD0iMTQuMDAwMDAwIiBoZWlnaHQ9IjE0LjAwMDAwMCIgeD0iMC4wMDAwMDAiIHk9IjAuMDAwMDAwIiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjAiIC8+C"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-keyWordsAll a:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-keyWordsAll a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .text::after",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .text::after { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNiAxMiI+PHRpdGxlPmhkcGkv566t5aS0aG92ZXLlpIfku708L3RpdGxlPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE2djE2SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMikiPjxtYXNrIGlkPSJiIi"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block .search-tag .tag-console:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block .search-tag .tag-console:hover { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover { border-color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover::before",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover::before { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNi4wMDAwMDAiIGhlaWdodD0iMTYuMDAwMDAwIiBmaWxsPSJub25lIj4KCTxkZWZzPgoJCTxmaWx0ZXIgaWQ9InBpeHNvX2N1c3RvbV9tYXNrX3R5cGVfYWxwaGEiPgoJCQk8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAxIDAgMCAwIDAgMSAwIDAgMCAwIDEgMCAwIDAgMSAwICIgLz4KCQ"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover { font-weight: 400; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li > a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-tools .header-user:hover .header-nav-item-icon { background-size: 100% 100%; transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a",
+        "media": "",
+        "css": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-tools .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover { animation: 2s linear 0s 2 alternate none running textBg, 1s linear 0s 1 normal none running textOpacity; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before { animation: 2s linear 0s 2 normal forwards running flowState; display: inline-block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-pagenav a:hover",
+        "media": "",
+        "css": ".header-pagenav a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown-close:hover",
+        "media": "",
+        "css": ".header-dropdown-close:hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title { text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; content: \"\"; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after { content: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-common-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover input",
+        "media": "",
+        "css": ".link-searcher:hover input { border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-submit i",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-submit i { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAEFCu8CAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHKADAAQAAAABAAAAHAAAAABkvfSiAAAEPklEQVRIDbWWS0xUVxjHZ+6MhVEQQZHYxISK2KolTdSFJsY0MaZNTGlCy4KX0AHZaNMSF+2SRIMs3CgQE1LIEF6NbdqmbsqiC5rYVlE2oAk+EmOMQKNGRYQZHuPvO73neu7lghDjSe6c7/H/vv95fmcCgaVaaWnpFssEBIPBhy7D/Pz8UwUoKSnJ0UJShKqqqlwHmkgk3lde1w/pj/M9F2NZWVk5OVSoAmE47UKjABgMizEUCl"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-clear",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-clear { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAFNQDtUAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIqADAAQAAAABAAAAIgAAAAACeqFUAAAE3ElEQVRYCe2XS2zURRzH9+1ud6EPE8WmDaKGcMEEG18HNAKRxAPVy5bQpnX7phxt9WCIcK0HTRD7bk1pfDSRyEGqCUkhMWkAD5zAVAlBEq0U2i7tdpNud9fPb7vz7/+17W4CF3GS2d/M7/Gd78xvZv6zDkeu0tfXtyQ2ZNrgY1H09vYu23oawh5ZBz637MAtPLMc41lpmJXLhGDur5uB/WS9t96yHW7dbGrhvWpSOQYGBk6ILjN2a"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon { opacity: 0; visibility: hidden; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon-hover",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon-hover { opacity: 1; visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher-more:hover",
+        "media": "",
+        "css": ".link-searcher-more:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content-link a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content-link a[href]:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before",
+        "media": "",
+        "css": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before { transform: scaleX(1); width: 100%; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover",
+        "media": "",
+        "css": ".dropdown-product-item:hover { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover .dropdown-product-item-title",
+        "media": "",
+        "css": ".dropdown-product-item:hover .dropdown-product-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-column-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column .dropdown-product-link:hover",
+        "media": "",
+        "css": ".dropdown-product-column .dropdown-product-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-module.noIcon:hover",
+        "media": "",
+        "css": ".dropdown-product-module.noIcon:hover { z-index: 101; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item-more .link:hover",
+        "media": "",
+        "css": ".dropdown-product-item-more .link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-group-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab.active:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab.active:hover { border-color: rgb(89, 89, 89); font-weight: 400; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-product-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputted ~ .header-search-submit:hover",
+        "media": "",
+        "css": ".inputted ~ .header-search-submit:hover { color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search .header-search-close:hover",
+        "media": "",
+        "css": ".header-search .header-search-close:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name i",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name i { border-top-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-link:hover",
+        "media": "",
+        "css": ".footer-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon",
+        "media": "",
+        "css": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover .contact-icon-hover",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover .contact-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover",
+        "media": "",
+        "css": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover { margin-top: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover i",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover i { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".chat-assistant:hover .chat-icon",
+        "media": "",
+        "css": ".chat-assistant:hover .chat-icon { background-image: url(\"\"); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 16,
+    "testedCount": 12,
+    "issueCount": 0,
+    "candidates": [
+      {
+        "text": "开始使用",
+        "href": "javascript:",
+        "tag": "a",
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "className": "js-title ajax-nav",
+        "top": 1111,
+        "left": 30,
+        "width": 12,
+        "height": 98,
+        "importance": 78,
+        "ordinal": 0
+      },
+      {
+        "text": "文档首页",
+        "href": "https://support.huaweicloud.com/index.html",
+        "tag": "a",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "className": "link help-link",
+        "top": 231,
+        "left": 17,
+        "width": 48,
+        "height": 14,
+        "importance": 28,
+        "ordinal": 1
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "href": "https://support.huaweicloud.com/agentarts/index.html",
+        "tag": "a",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "className": "link help-link",
+        "top": 231,
+        "left": 88,
+        "width": 162,
+        "height": 14,
+        "importance": 28,
+        "ordinal": 2
+      },
+      {
+        "text": "产品介绍",
+        "href": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "tag": "a",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "className": "link help-link",
+        "top": 231,
+        "left": 273,
+        "width": 48,
+        "height": 14,
+        "importance": 28,
+        "ordinal": 3
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "span",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div#support-nav.support-section.support-nav > div.prod-name.common-menu > span.hide-menu-btn",
+        "className": "hide-menu-btn",
+        "top": 159,
+        "left": 389,
+        "width": 14,
+        "height": 60,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "input",
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > div.search-box-l > form.support-link-searcher > input.support-link-searcher-input",
+        "className": "support-link-searcher-input",
+        "top": 234,
+        "left": 16,
+        "width": 36,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "下一篇：订阅套餐",
+        "href": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0003.html",
+        "tag": "a",
+        "path": "div.wrapper > div.support-main > div.help-detail-feedback > div.action > p.next > a.link.help-link.js-title",
+        "className": "link help-link js-title",
+        "top": 3921,
+        "left": 17,
+        "width": 112,
+        "height": 22,
+        "importance": 8,
+        "ordinal": 6
+      },
+      {
+        "text": "有帮助",
+        "href": "javascript:void(0)",
+        "tag": "a",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-use",
+        "className": "help-form-btn help-btn-use",
+        "top": 4285,
+        "left": 33,
+        "width": 50,
+        "height": 32,
+        "importance": 8,
+        "ordinal": 7
+      },
+      {
+        "text": "没帮助",
+        "href": "javascript:void(0)",
+        "tag": "a",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-unuse",
+        "className": "help-form-btn help-btn-unuse",
+        "top": 4285,
+        "left": 83,
+        "width": 50,
+        "height": 32,
+        "importance": 8,
+        "ordinal": 8
+      },
+      {
+        "text": "提供反馈",
+        "href": "",
+        "tag": "a",
+        "path": "div.wrapper > div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > a.help-form-btn.provide-feedback",
+        "className": "help-form-btn provide-feedback",
+        "top": 4292,
+        "left": 153,
+        "width": 48,
+        "height": 22,
+        "importance": 8,
+        "ordinal": 9
+      },
+      {
+        "text": "云宝助手提问",
+        "href": "https://www.huaweicloud.com/ai-assistant/index.html",
+        "tag": "a",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+        "className": "help-form-more",
+        "top": 4372,
+        "left": 33,
+        "width": 72,
+        "height": 18,
+        "importance": 8,
+        "ordinal": 10
+      },
+      {
+        "text": "云社区提问",
+        "href": "https://bbs.huaweicloud.com/forum/",
+        "tag": "a",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+        "className": "help-form-more",
+        "top": 4372,
+        "left": 129,
+        "width": 60,
+        "height": 18,
+        "importance": 8,
+        "ordinal": 11
+      },
+      {
+        "text": "黔ICP备20004760号-14",
+        "href": "https://beian.miit.gov.cn/",
+        "tag": "a",
+        "path": "body.scrolled.show-top-prompt > div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.footer-link",
+        "className": "footer-link",
+        "top": 4460,
+        "left": 226,
+        "width": 104,
+        "height": 15,
+        "importance": 8,
+        "ordinal": 12
+      },
+      {
+        "text": "电子营业执照",
+        "href": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/yingyezhizhao02.jpg",
+        "tag": "a",
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "className": "footer-link",
+        "top": 4527,
+        "left": 64,
+        "width": 72,
+        "height": 14,
+        "importance": 8,
+        "ordinal": 13
+      },
+      {
+        "text": "贵公网安备 52990002000093号",
+        "href": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=52990002000093",
+        "tag": "a",
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "className": "footer-link",
+        "top": 4527,
+        "left": 166,
+        "width": 170,
+        "height": 14,
+        "importance": 8,
+        "ordinal": 14
+      },
+      {
+        "text": "下一篇：订阅套餐",
+        "href": "",
+        "tag": "div",
+        "path": "div > div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.help-detail-feedback",
+        "className": "help-detail-feedback ",
+        "top": 3896,
+        "left": 1,
+        "width": 389,
+        "height": 71,
+        "importance": 0,
+        "ordinal": 15
+      }
+    ],
+    "results": [
+      {
+        "text": "开始使用",
+        "tag": "a",
+        "href": "javascript:",
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav > li.nav-item.level1 > a.js-title.ajax-nav",
+        "rect": {
+          "left": 30,
+          "top": 1111,
+          "width": 12,
+          "height": 98
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "什么是智果（AgentArts）智能体平台？ 更新时间：2026-06-11 GMT+08:00 随着企业大模型应用从“原型试验”走向“核心生产场景”，如何保障智能体在复杂业务环境下的安全运行、高效运维与精准资产调用，成为企业规模化部署的挑战。AgentArts正是为此而生的企业",
+          "path": "div > div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.help-content.help-center-document.cf",
+          "className": "help-content help-center-document cf"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 0,
+          "bodyLength": 3155,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "文档首页",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/index.html",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "rect": {
+          "left": 17,
+          "top": 231,
+          "width": 48,
+          "height": 14
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "文档首页",
+          "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+          "className": "link help-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/index.html",
+          "scrollY": 0,
+          "bodyLength": 848,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2307,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/agentarts/index.html",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "rect": {
+          "left": 88,
+          "top": 231,
+          "width": 162,
+          "height": 14
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "智果（AgentArts）智能体平台",
+          "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+          "className": "link help-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/agentarts/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/agentarts/index.html",
+          "scrollY": 0,
+          "bodyLength": 181,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 2974,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "产品介绍",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+        "rect": {
+          "left": 273,
+          "top": 231,
+          "width": 48,
+          "height": 14
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "产品介绍",
+          "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs > a.link.help-link",
+          "className": "link help-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 0,
+          "bodyLength": 2881,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 274,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "span",
+        "href": "",
+        "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div#support-nav.support-section.support-nav > div.prod-name.common-menu > span.hide-menu-btn",
+        "rect": {
+          "left": 389,
+          "top": 159,
+          "width": 14,
+          "height": 60
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "",
+          "path": "div#support-content.support-section.support-content > div.support-body > div.wrapper > div#support-nav.support-section.support-nav > div.prod-name.common-menu > span.hide-menu-btn",
+          "className": "hide-menu-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 0,
+          "bodyLength": 2971,
+          "overlayCount": 0,
+          "mutations": 16,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 189,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "input",
+        "href": "",
+        "path": "div#support-nav.support-section.support-nav > div.prod-name.common-menu > div.side-nav.sidenav-main.por-scrollbar-s > div.search-box-l > form.support-link-searcher > input.support-link-searcher-input",
+        "rect": {
+          "left": 16,
+          "top": 234,
+          "width": 36,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "文档首页/ 智果（AgentArts）智能体平台/ 产品介绍/ 什么是智果（AgentArts）智能体平台？",
+          "path": "div > div#support-content.support-section.support-content > div.support-body > div.wrapper > div.support-main > div.crumbs",
+          "className": "crumbs"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 0,
+          "bodyLength": 3160,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "下一篇：订阅套餐",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0003.html",
+        "path": "div.wrapper > div.support-main > div.help-detail-feedback > div.action > p.next > a.link.help-link.js-title",
+        "rect": {
+          "left": 17,
+          "top": 3921,
+          "width": 112,
+          "height": 22
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "下一篇：订阅套餐",
+          "path": "div.wrapper > div.support-main > div.help-detail-feedback > div.action > p.next > a.link.help-link.js-title",
+          "className": "link help-link js-title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0003.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0003.html",
+          "scrollY": 0,
+          "bodyLength": 1078,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 3510,
+          "bodyLengthDelta": 2082,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "有帮助",
+        "tag": "a",
+        "href": "javascript:void(0)",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-use",
+        "rect": {
+          "left": 33,
+          "top": 4285,
+          "width": 50,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "i",
+          "text": "",
+          "path": "div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-use > i.help-form-y",
+          "className": "help-form-y"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 3731,
+          "bodyLength": 3204,
+          "overlayCount": 0,
+          "mutations": 42,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 49,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "没帮助",
+        "tag": "a",
+        "href": "javascript:void(0)",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-unuse",
+        "rect": {
+          "left": 83,
+          "top": 4285,
+          "width": 50,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "i",
+          "text": "",
+          "path": "div.relevant-content > div.doc-bottom-feedback > div.help-form > div.help-form-content > a.help-form-btn.help-btn-unuse > i.help-form-n",
+          "className": "help-form-n"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 3731,
+          "bodyLength": 3246,
+          "overlayCount": 0,
+          "mutations": 86,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 91,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "提供反馈",
+        "tag": "a",
+        "href": "",
+        "path": "div.wrapper > div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > a.help-form-btn.provide-feedback",
+        "rect": {
+          "left": 153,
+          "top": 4292,
+          "width": 48,
+          "height": 22
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "提供反馈",
+          "path": "div.wrapper > div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > a.help-form-btn.provide-feedback",
+          "className": "help-form-btn provide-feedback"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 3731,
+          "bodyLength": 3176,
+          "overlayCount": 0,
+          "mutations": 87,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 21,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "云宝助手提问",
+        "tag": "a",
+        "href": "https://www.huaweicloud.com/ai-assistant/index.html",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+        "rect": {
+          "left": 33,
+          "top": 4372,
+          "width": 72,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "云宝助手提问",
+          "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+          "className": "help-form-more"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 3731,
+          "bodyLength": 3155,
+          "overlayCount": 0,
+          "mutations": 21,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "云社区提问",
+        "tag": "a",
+        "href": "https://bbs.huaweicloud.com/forum/",
+        "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+        "rect": {
+          "left": 129,
+          "top": 4372,
+          "width": 60,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "云社区提问",
+          "path": "div.support-main > div.relevant-content > div.doc-bottom-feedback > div.help-form > div.contact-decs > a.help-form-more",
+          "className": "help-form-more"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "afterUrl": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://support.huaweicloud.com/productdesc-agentarts/agentarts_03_0002.html",
+          "scrollY": 3731,
+          "bodyLength": 3155,
+          "overlayCount": 0,
+          "mutations": 21,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "tapActionIssues": [],
+  "after_scroll_ctas": [],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 0,
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 3,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 25,
+        "x": 270,
+        "y": 131
+      },
+      {
+        "index": 4,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 346,
+        "y": 120
+      },
+      {
+        "index": 9,
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码",
+        "className": "support-section support-nav",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "index": 10,
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码",
+        "className": "prod-name common-menu",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "index": 11,
+        "text": "智果（AgentArts）智能体平台",
+        "className": "menu-info",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "index": 13,
+        "text": "最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 Of",
+        "className": "side-nav",
+        "width": 32,
+        "height": 3149,
+        "x": 0,
+        "y": 266
+      },
+      {
+        "index": 14,
+        "text": "最新动态",
+        "className": "nav-item level1",
+        "width": 14,
+        "height": 98,
+        "x": 16,
+        "y": 285
+      },
+      {
+        "index": 16,
+        "text": "产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念",
+        "className": "nav-item level1 unfold",
+        "width": 14,
+        "height": 714,
+        "x": 16,
+        "y": 383
+      },
+      {
+        "index": 17,
+        "text": "产品介绍",
+        "className": "js-title ajax-nav",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 397
+      },
+      {
+        "index": 18,
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "className": "nav-item level2 active",
+        "width": 14,
+        "height": 266,
+        "x": 36,
+        "y": 495
+      },
+      {
+        "index": 20,
+        "text": "订阅套餐",
+        "className": "nav-item level2",
+        "width": 14,
+        "height": 112,
+        "x": 36,
+        "y": 761
+      },
+      {
+        "index": 22,
+        "text": "资产广场",
+        "className": "nav-item level2",
+        "width": 14,
+        "height": 112,
+        "x": 36,
+        "y": 873
+      },
+      {
+        "index": 24,
+        "text": "基本概念",
+        "className": "nav-item level2",
+        "width": 14,
+        "height": 112,
+        "x": 36,
+        "y": 985
+      },
+      {
+        "index": 26,
+        "text": "开始使用",
+        "className": "nav-item level1",
+        "width": 14,
+        "height": 112,
+        "x": 16,
+        "y": 1097
+      },
+      {
+        "index": 27,
+        "text": "开始使用",
+        "className": "js-title ajax-nav",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 1111
+      },
+      {
+        "index": 28,
+        "text": "计费说明",
+        "className": "nav-item level1",
+        "width": 14,
+        "height": 112,
+        "x": 16,
+        "y": 1209
+      },
+      {
+        "index": 29,
+        "text": "计费说明",
+        "className": "js-title ajax-nav",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 1223
+      },
+      {
+        "index": 30,
+        "text": "低代码开发",
+        "className": "nav-item level1",
+        "width": 14,
+        "height": 134,
+        "x": 16,
+        "y": 1321
+      },
+      {
+        "index": 31,
+        "text": "低代码开发",
+        "className": "js-title ajax-nav",
+        "width": 12,
+        "height": 120,
+        "x": 30,
+        "y": 1335
+      }
+    ],
+    "clicked_candidate": {
+      "index": 4,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 346,
+      "y": 120
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息 智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 Agen",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-inner ",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言",
+        "className": "header-mbnav-leftmenu",
+        "position": "relative",
+        "zIndex": "10",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言",
+        "className": "header-mbnav-menulist",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-collapses",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 168
+      },
+      {
+        "text": "智果园首页",
+        "className": "header-mbnav-level2-content-index",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 235,
+        "height": 46,
+        "x": 140,
+        "y": 188
+      },
+      {
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 AP",
+        "className": "support-section support-nav",
+        "position": "static",
+        "zIndex": "10",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果（AgentArts）智能体平台 最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 AP",
+        "className": "prod-name common-menu",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "className": "menu-info",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "最新动态 产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念 开始使用 计费说明 低代码开发 高代码开发 智能体运营运维 OfficeAce (PC版) 最佳实践 API参考 SDK参考 常见问题 视频帮助",
+        "className": "side-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 32,
+        "height": 3149,
+        "x": 0,
+        "y": 266
+      },
+      {
+        "text": "产品介绍 什么是智果（AgentArts）智能体平台？ 订阅套餐 资产广场 基本概念",
+        "className": "nav-item level1 unfold",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 14,
+        "height": 714,
+        "x": 16,
+        "y": 383
+      },
+      {
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "className": "nav-item level2 active",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 14,
+        "height": 266,
+        "x": 36,
+        "y": 495
+      },
+      {
+        "text": "通用参考 产品术语 责任共担 云服务等级协议（SLA） 白皮书资源 支持区域 系统权限",
+        "className": "nav-item help-tsr unfold",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 14,
+        "height": 911,
+        "x": 16,
+        "y": 2485
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 16,
+        "y": 87
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 358,
+        "y": 87
+      },
+      {
+        "text": "产品介绍",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 397
+      },
+      {
+        "text": "开始使用",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 1111
+      },
+      {
+        "text": "计费说明",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 1223
+      },
+      {
+        "text": "低代码开发",
+        "width": 12,
+        "height": 120,
+        "x": 30,
+        "y": 1335
+      },
+      {
+        "text": "高代码开发",
+        "width": 12,
+        "height": 120,
+        "x": 30,
+        "y": 1469
+      },
+      {
+        "text": "智能体运营运维",
+        "width": 12,
+        "height": 164,
+        "x": 30,
+        "y": 1603
+      },
+      {
+        "text": "OfficeAce (PC版)",
+        "width": 12,
+        "height": 76,
+        "x": 30,
+        "y": 1781
+      },
+      {
+        "text": "最佳实践",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 1871
+      },
+      {
+        "text": "API参考",
+        "width": 12,
+        "height": 76,
+        "x": 30,
+        "y": 1983
+      },
+      {
+        "text": "SDK参考",
+        "width": 12,
+        "height": 76,
+        "x": 30,
+        "y": 2073
+      },
+      {
+        "text": "常见问题",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 2163
+      },
+      {
+        "text": "视频帮助",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 2275
+      },
+      {
+        "text": "产品术语",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 2628
+      },
+      {
+        "text": "责任共担",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 2740
+      },
+      {
+        "text": "系统权限",
+        "width": 12,
+        "height": 98,
+        "x": 30,
+        "y": 3298
+      },
+      {
+        "text": "什么是智果（AgentArts）智能体平台？",
+        "width": 351,
+        "height": 36,
+        "x": 17,
+        "y": 231
+      }
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://account.huaweicloud.com/u",
+  "generated_at": "2026-07-20T02:14:19.996472+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 3,
+    "p0": 0,
+    "p1": 0,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://account.huaweicloud.com/u",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "辅助操作链接触控区域过小",
+          "area": "登录表单下方操作区",
+          "page_url": "https://account.huaweicloud.com/u",
+          "locate": [
+            "Forgot password?",
+            "Help",
+            "IAM User",
+            "More"
+          ],
+          "evidence": "DOM数据中，'Forgot password?' 元素尺寸为 119x18px，'Help' 元素尺寸为 31x18px，'IAM User' 元素尺寸为 61x19px。这些核心辅助链接的高度均在 18px-21px 之间，远低于移动端推荐的 48x48px 最小触控热区标准，极易导致误触。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "直接使用小字号文本作为点击目标",
+          "suggestion_after": "为这些文本链接增加 padding（例如 padding: 12px 8px），在不改变视觉字号的前提下，将触控热区高度提升至 44px 以上。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "密码显示切换图标触控热区不足",
+          "area": "密码输入框内",
+          "page_url": "https://account.huaweicloud.com/u",
+          "locate": [
+            "Display password"
+          ],
+          "evidence": "密码显示/隐藏切换图标 `span.hwid-pwdright-icon > i` 的物理尺寸仅为 24x24px，在移动端单手操作时极难精准点击。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "图标尺寸及热区为 24x24px",
+          "suggestion_after": "通过外层 span 容器或增加透明边框，将该图标的实际可点击区域扩大至 44x44px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "移动端残留大量桌面端 hover 样式",
+          "area": "全局 CSS 样式",
+          "page_url": "https://account.huaweicloud.com/u",
+          "locate": [
+            ".loginBtn:hover",
+            ".privacyMsgLink:hover",
+            ".otherLoginWays .otherItemDiv:hover"
+          ],
+          "evidence": "CSS 规则中包含大量针对 `:hover` 状态的定义（如 `.loginBtn:hover` 改变背景色，`.privacyMsgLink:hover` 改变颜色）。在移动端触屏设备上，点击后 hover 状态会持续残留，导致按钮或链接呈现“被选中”的视觉假象。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "使用 :hover 响应触控操作",
+          "suggestion_after": "在移动端样式中移除 :hover 伪类，统一改用 :active 伪类来提供瞬时的按压反馈。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面排查并增大页面内所有文本链接与功能图标的触控热区，确保其高度不低于 44px。",
+        "清理移动端样式表，移除如 `#loginAdv { width: 800px; }` 等桌面端残留的固定宽度配置，并使用媒体查询（@media）隔离桌面端的 :hover 交互效果。"
+      ],
+      "analysis_content": "华为云移动端登录页面整体结构清晰，首屏信息层级合理。但在移动端精细化体验上存在不足，主要表现在忘记密码、帮助、IAM用户等辅助入口以及密码显示图标的触控热区过小，不符合移动端人体工程学标准。此外，样式表中存在桌面端 hover 态残留，需针对触屏设备的交互特性进行专项优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "辅助操作链接触控区域过小",
+      "area": "登录表单下方操作区",
+      "page_url": "https://account.huaweicloud.com/u",
+      "locate": [
+        "Forgot password?",
+        "Help",
+        "IAM User",
+        "More"
+      ],
+      "evidence": "DOM数据中，'Forgot password?' 元素尺寸为 119x18px，'Help' 元素尺寸为 31x18px，'IAM User' 元素尺寸为 61x19px。这些核心辅助链接的高度均在 18px-21px 之间，远低于移动端推荐的 48x48px 最小触控热区标准，极易导致误触。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "直接使用小字号文本作为点击目标",
+      "suggestion_after": "为这些文本链接增加 padding（例如 padding: 12px 8px），在不改变视觉字号的前提下，将触控热区高度提升至 44px 以上。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "密码显示切换图标触控热区不足",
+      "area": "密码输入框内",
+      "page_url": "https://account.huaweicloud.com/u",
+      "locate": [
+        "Display password"
+      ],
+      "evidence": "密码显示/隐藏切换图标 `span.hwid-pwdright-icon > i` 的物理尺寸仅为 24x24px，在移动端单手操作时极难精准点击。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "图标尺寸及热区为 24x24px",
+      "suggestion_after": "通过外层 span 容器或增加透明边框，将该图标的实际可点击区域扩大至 44x44px。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "移动端残留大量桌面端 hover 样式",
+      "area": "全局 CSS 样式",
+      "page_url": "https://account.huaweicloud.com/u",
+      "locate": [
+        ".loginBtn:hover",
+        ".privacyMsgLink:hover",
+        ".otherLoginWays .otherItemDiv:hover"
+      ],
+      "evidence": "CSS 规则中包含大量针对 `:hover` 状态的定义（如 `.loginBtn:hover` 改变背景色，`.privacyMsgLink:hover` 改变颜色）。在移动端触屏设备上，点击后 hover 状态会持续残留，导致按钮或链接呈现“被选中”的视觉假象。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "使用 :hover 响应触控操作",
+      "suggestion_after": "在移动端样式中移除 :hover 伪类，统一改用 :active 伪类来提供瞬时的按压反馈。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

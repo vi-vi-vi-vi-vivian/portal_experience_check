@@ -1,0 +1,631 @@
+{
+  "input_url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+  "audit_time": "2026-07-20T04:25:55.257549+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_top.png",
+    "scroll_screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_scroll.png",
+    "full_screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_full.png",
+    "menu_screenshot": null
+  },
+  "dom": {
+    "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+    "title": "下载华为云App-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 844
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div.wroddiv",
+        "text": "您的云服务随身助手",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 28,
+        "scrollHeight": 38,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "28px"
+      },
+      {
+        "path": "div#section-0 > div.pep-htmlcomponent > div#download > div.wroddiv > p#common.assistantblack.showText.describe-class",
+        "text": "您的云服务随身助手",
+        "clientWidth": 203,
+        "scrollWidth": 203,
+        "clientHeight": 28,
+        "scrollHeight": 38,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "28px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 2
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div#tip > div.footer > div.tip-word-second-line > div.version-word > a",
+        "text": "隐私协议",
+        "tag": "a",
+        "x": 191,
+        "y": 714,
+        "width": 40,
+        "height": 14,
+        "area": 560
+      },
+      {
+        "index": 1,
+        "path": "div#tip > div.footer > div.tip-word-second-line > div.version-word > a#userJurisdiction",
+        "text": "用户权限",
+        "tag": "a",
+        "x": 244,
+        "y": 714,
+        "width": 43,
+        "height": 14,
+        "area": 606.8125
+      }
+    ],
+    "closePairs": [],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.pep-htmlcomponent > div#download > div#logdiv.logdiv > div.header-logo > img.logo-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/APP/download/downloadpage/20230816/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 139,
+        "height": 44,
+        "top": 228,
+        "belowFold": false
+      },
+      {
+        "path": "div#download > div#tip > div.footer > div.lastFoot > img.footImg",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/mobile_app/pages/download/images/footer_1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 7,
+        "height": 7,
+        "top": 791,
+        "belowFold": false
+      },
+      {
+        "path": "div#download > div#tip > div.footer > div.lastFoot > img.footImg",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/aem/content/dam/cloudbu-site/archive/china/zh-cn/mobile_app/pages/download/images/footer_2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 7,
+        "height": 7,
+        "top": 791,
+        "belowFold": false
+      }
+    ],
+    "imageIssues": [],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i { background-image: none; transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i { transform: scale(1.15); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container { opacity: 1; transform: scale(1); visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover",
+        "media": "",
+        "css": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i.float-icon-bigger",
+        "media": "",
+        "css": ".phone-icon:hover > i.float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar:hover",
+        "media": "",
+        "css": ".float-sidebar:hover { z-index: 993; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".clicked-chatIcon .float-sidebar:hover",
+        "media": "",
+        "css": ".clicked-chatIcon .float-sidebar:hover { z-index: 990; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { right: 44px; visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active i, .star-score-btns p:hover i",
+        "media": "",
+        "css": ".star-score-btns p.active i, .star-score-btns p:hover i { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active, .star-score-btns p:hover",
+        "media": "",
+        "css": ".star-score-btns p.active, .star-score-btns p:hover { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; font-size: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.por-btn-dark:hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.por-btn-dark:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback i",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback .float-icon-bigger",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback .float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: translateY(-50%) scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover label",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover label { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(201, 201, 201); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover { background-color: transparent; border-color: grey; color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-modal-close:hover .u-icon",
+        "media": "",
+        "css": "#interceptor-modal .por-modal-close:hover .u-icon { color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-primary:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-dark:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-dark:hover { border-color: grey; }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 2,
+    "testedCount": 2,
+    "issueCount": 2,
+    "candidates": [
+      {
+        "text": "立即下载",
+        "href": "",
+        "tag": "div",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+        "className": "download-btn",
+        "top": 558,
+        "left": 31,
+        "width": 328,
+        "height": 44,
+        "importance": 20,
+        "ordinal": 0
+      },
+      {
+        "text": "打开APP",
+        "href": "",
+        "tag": "div",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+        "className": "download-btn",
+        "top": 618,
+        "left": 31,
+        "width": 328,
+        "height": 44,
+        "importance": 20,
+        "ordinal": 1
+      }
+    ],
+    "results": [
+      {
+        "text": "立即下载",
+        "tag": "div",
+        "href": "",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+        "rect": {
+          "left": 31,
+          "top": 558,
+          "width": 328,
+          "height": 44
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "div",
+          "text": "立即下载",
+          "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+          "className": "download-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "afterUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+          "scrollY": 0,
+          "bodyLength": 224,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "打开APP",
+        "tag": "div",
+        "href": "",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+        "rect": {
+          "left": 31,
+          "top": 618,
+          "width": 328,
+          "height": 44
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "div",
+          "text": "打开APP",
+          "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+          "className": "download-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "afterUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+          "scrollY": 0,
+          "bodyLength": 224,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": [
+      {
+        "text": "立即下载",
+        "tag": "div",
+        "href": "",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+        "rect": {
+          "left": 31,
+          "top": 558,
+          "width": 328,
+          "height": 44
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "div",
+          "text": "立即下载",
+          "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+          "className": "download-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "afterUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+          "scrollY": 0,
+          "bodyLength": 224,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "打开APP",
+        "tag": "div",
+        "href": "",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+        "rect": {
+          "left": 31,
+          "top": 618,
+          "width": 328,
+          "height": 44
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "div",
+          "text": "打开APP",
+          "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+          "className": "download-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "afterUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+          "scrollY": 0,
+          "bodyLength": 224,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      }
+    ]
+  },
+  "tapActionIssues": [
+    {
+      "text": "立即下载",
+      "tag": "div",
+      "href": "",
+      "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+      "rect": {
+        "left": 31,
+        "top": 558,
+        "width": 328,
+        "height": 44
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "no-visible-effect",
+      "hit": {
+        "tag": "div",
+        "text": "立即下载",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#download-btn.download-btn",
+        "className": "download-btn"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "afterUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "popupUrls": [],
+      "consoleErrors": [],
+      "after": {
+        "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "scrollY": 0,
+        "bodyLength": 224,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "打开APP",
+      "tag": "div",
+      "href": "",
+      "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+      "rect": {
+        "left": 31,
+        "top": 618,
+        "width": 328,
+        "height": 44
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "no-visible-effect",
+      "hit": {
+        "tag": "div",
+        "text": "打开APP",
+        "path": "div#common-components-container > div#section-0 > div.pep-htmlcomponent > div#download > div#tip > div#open-btn.download-btn",
+        "className": "download-btn"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "afterUrl": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "popupUrls": [],
+      "consoleErrors": [],
+      "after": {
+        "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+        "scrollY": 0,
+        "bodyLength": 224,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    }
+  ],
+  "after_scroll_ctas": [],
+  "menu": {
+    "attempted": false,
+    "opened": false,
+    "candidates": []
+  }
+}

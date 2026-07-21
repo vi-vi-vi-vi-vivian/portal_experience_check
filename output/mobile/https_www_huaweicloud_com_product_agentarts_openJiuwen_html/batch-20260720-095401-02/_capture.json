@@ -1,0 +1,2587 @@
+{
+  "input_url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+  "audit_time": "2026-07-20T02:08:45.781809+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_top.png",
+    "scroll_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_scroll.png",
+    "full_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_full.png",
+    "menu_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_menu.png"
+  },
+  "dom": {
+    "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+    "title": "智能体平台_AgentArts_openJiuwen_华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 1090,
+      "bodyScrollWidth": 1090,
+      "clientWidth": 390,
+      "scrollHeight": 2530
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html.phone.phone > body.header-white > div#header.nav-medium-padding",
+        "text": "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn 不再显示此消息 中国站 中国站 简体中文 International English Bahasa Indonesia Español Português Türkç",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 48,
+        "scrollHeight": 48,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "48px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white > div#header.nav-medium-padding > div.header-container",
+        "text": "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn 不再显示此消息 中国站 中国站 简体中文 International English Bahasa Indonesia Español Português Türkç",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 48,
+        "scrollHeight": 48,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "48px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white > div#content",
+        "text": "智果（AgentArts）智能体平台 AgentArts开源版openJiuwen 携手行业伙伴共同打造智能体生态 精准 · 易用 · 高效 打造生产级AI Agent 访问官网 加入社区 查看源码 产品新动态 快速上手Coordination Engineering再升级！ 发布Team Skills技能新范式！ D",
+        "clientWidth": 390,
+        "scrollWidth": 1090,
+        "clientHeight": 2015,
+        "scrollHeight": 2015,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "2015px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white > div#content > div#common-components-container",
+        "text": "智果（AgentArts）智能体平台 AgentArts开源版openJiuwen 携手行业伙伴共同打造智能体生态 精准 · 易用 · 高效 打造生产级AI Agent 访问官网 加入社区 查看源码 产品新动态 快速上手Coordination Engineering再升级！ 发布Team Skills技能新范式！ D",
+        "clientWidth": 390,
+        "scrollWidth": 1090,
+        "clientHeight": 2015,
+        "scrollHeight": 2015,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "2015px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white > div#content > div#common-components-container > div#section-6",
+        "text": "为什么选择 openJiuwen 基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按",
+        "clientWidth": 390,
+        "scrollWidth": 1090,
+        "clientHeight": 318,
+        "scrollHeight": 318,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "318px"
+      },
+      {
+        "path": "body.header-white > div#content > div#common-components-container > div#section-6 > div.pep-parallax-scroll-aicode",
+        "text": "为什么选择 openJiuwen 基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按",
+        "clientWidth": 390,
+        "scrollWidth": 1090,
+        "clientHeight": 318,
+        "scrollHeight": 318,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "318px"
+      },
+      {
+        "path": "div#content > div#common-components-container > div#section-6 > div.pep-parallax-scroll-aicode > div.por-section",
+        "text": "为什么选择 openJiuwen 基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按",
+        "clientWidth": 390,
+        "scrollWidth": 1090,
+        "clientHeight": 318,
+        "scrollHeight": 318,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "318px"
+      },
+      {
+        "path": "div#common-components-container > div#section-6 > div.pep-parallax-scroll-aicode > div.por-section > div.por-container",
+        "text": "为什么选择 openJiuwen 基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按",
+        "clientWidth": 390,
+        "scrollWidth": 1090,
+        "clientHeight": 230,
+        "scrollHeight": 256,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "230px"
+      },
+      {
+        "path": "div#section-6 > div.pep-parallax-scroll-aicode > div.por-section > div.por-container > div.por-section-body",
+        "text": "基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按需恢复。 基于状态自动管理的高可靠",
+        "clientWidth": 342,
+        "scrollWidth": 1066,
+        "clientHeight": 182,
+        "scrollHeight": 208,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "182px"
+      },
+      {
+        "path": "div.pep-parallax-scroll-aicode > div.por-section > div.por-container > div.por-section-body > div.swiper.mobile-swiper.white",
+        "text": "基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按需恢复。 基于状态自动管理的高可靠",
+        "clientWidth": 342,
+        "scrollWidth": 1066,
+        "clientHeight": 182,
+        "scrollHeight": 208,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "182px"
+      },
+      {
+        "path": "div.por-section > div.por-container > div.por-section-body > div.swiper.mobile-swiper.white > div.swiper-wrapper",
+        "text": "基于事件驱动的多Agent控制 原生支持Agent的异步事件处理：基于事件驱动的Agent控制器，支持在任务执行过程中可随时响应用户的新消息，无需阻塞等待。 意图驱动的任务自动中断、跳转与恢复：智能识别用户意图变化（继续/跳转/取消/修改），自动持久化任务状态，支持多任务执行、管理与按需恢复。 基于状态自动管理的高可靠",
+        "clientWidth": 342,
+        "scrollWidth": 1066,
+        "clientHeight": 182,
+        "scrollHeight": 182,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "182px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 36
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-container > div.header-wrapper > div.header-bottom > div.header-bottom-wrapper > a.header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 8,
+        "width": 108,
+        "height": 32,
+        "area": 3456
+      },
+      {
+        "index": 3,
+        "path": "div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item",
+        "text": "精准 · 易用 · 高效",
+        "tag": "a",
+        "x": 67,
+        "y": 187,
+        "width": 114,
+        "height": 18,
+        "area": 2045.53125
+      },
+      {
+        "index": 4,
+        "path": "div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item",
+        "text": "打造生产级AI Agent",
+        "tag": "a",
+        "x": 193,
+        "y": 187,
+        "width": 131,
+        "height": 18,
+        "area": 2350.125
+      },
+      {
+        "index": 5,
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-primary.por-btn-middle",
+        "text": "访问官网",
+        "tag": "a",
+        "x": 28,
+        "y": 225,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 6,
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle",
+        "text": "加入社区",
+        "tag": "a",
+        "x": 142,
+        "y": 225,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 7,
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle",
+        "text": "查看源码",
+        "tag": "a",
+        "x": 256,
+        "y": 225,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 21,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "弹性云服务器",
+        "tag": "a",
+        "x": 32,
+        "y": 2123,
+        "width": 84,
+        "height": 16,
+        "area": 1344
+      },
+      {
+        "index": 22,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "对象存储服务",
+        "tag": "a",
+        "x": 137,
+        "y": 2123,
+        "width": 84,
+        "height": 16,
+        "area": 1344
+      },
+      {
+        "index": 23,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "云数据库 GaussDB",
+        "tag": "a",
+        "x": 241,
+        "y": 2123,
+        "width": 117,
+        "height": 16,
+        "area": 1867.25
+      },
+      {
+        "index": 24,
+        "path": "div.footer-nav-content > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-download > a",
+        "text": "下载华为云App",
+        "tag": "a",
+        "x": 138,
+        "y": 2173,
+        "width": 113,
+        "height": 16,
+        "area": 1811.75
+      },
+      {
+        "index": 25,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.weixin-sh",
+        "text": "华为云微信 扫描二维码",
+        "tag": "a",
+        "x": 128,
+        "y": 2236,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 26,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.microapp-sh",
+        "text": "华为云微信小程序 华为云微信小程序",
+        "tag": "a",
+        "x": 178,
+        "y": 2236,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 27,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link",
+        "text": "华为云微博 扫描二维码",
+        "tag": "a",
+        "x": 228,
+        "y": 2236,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 29,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "法律声明",
+        "tag": "a",
+        "x": 127,
+        "y": 2372,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 30,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "隐私政策",
+        "tag": "a",
+        "x": 208,
+        "y": 2372,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 31,
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.footer-link",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 226,
+        "y": 2415,
+        "width": 104,
+        "height": 15,
+        "area": 1567.265625
+      },
+      {
+        "index": 32,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a",
+        "text": "",
+        "tag": "a",
+        "x": 44,
+        "y": 2483,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 33,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 64,
+        "y": 2482,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 34,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record2 > a",
+        "text": "",
+        "tag": "a",
+        "x": 146,
+        "y": 2483,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 35,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 166,
+        "y": 2482,
+        "width": 170,
+        "height": 14,
+        "area": 2375.40625
+      }
+    ],
+    "closePairs": [],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.header-wrapper > div.header-bottom > div.header-bottom-wrapper > a.header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 108,
+        "height": 32,
+        "top": 8,
+        "belowFold": false
+      },
+      {
+        "path": "div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item > img.banner-item__subtitle-item-icon.svelte-6737yf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/aPaaS/AppStage/start2x.png",
+        "ext": "png",
+        "loading": "",
+        "width": 12,
+        "height": 12,
+        "top": 190,
+        "belowFold": false
+      },
+      {
+        "path": "div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item > img.banner-item__subtitle-item-icon.svelte-6737yf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/aPaaS/AppStage/start2x.png",
+        "ext": "png",
+        "loading": "",
+        "width": 12,
+        "height": 12,
+        "top": 190,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg > img.card-bg-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/%E5%95%86%E4%B8%9A%E4%B8%8E%E5%BC%80%E6%BA%90-%E7%A7%BB%E5%8A%A8%E5%A4%A7%E5%86%99-%E6%89%8B%E6%9C%BA.png",
+        "ext": "png",
+        "loading": "",
+        "width": 342,
+        "height": 162,
+        "top": 773,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg > img.card-bg-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/03%E6%9E%B6%E6%9E%84%E5%9B%BE.png",
+        "ext": "png",
+        "loading": "",
+        "width": 342,
+        "height": 148,
+        "top": 1103,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1731,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1731,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/3.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1801,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/4.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1801,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1871,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/9.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1871,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/7.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1941,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/8.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1941,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg > img.card-bg-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/03%E6%9E%B6%E6%9E%84%E5%9B%BE.png",
+        "ext": "png",
+        "loading": "",
+        "width": 342,
+        "height": 148,
+        "top": 1103,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1731,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1731,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/3.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1801,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/4.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1801,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1871,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/9.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1871,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/7.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1941,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/public/agentarts/8.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 58,
+        "top": 1941,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i { background-image: none; transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i { transform: scale(1.15); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container { opacity: 1; transform: scale(1); visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover",
+        "media": "",
+        "css": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i.float-icon-bigger",
+        "media": "",
+        "css": ".phone-icon:hover > i.float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar:hover",
+        "media": "",
+        "css": ".float-sidebar:hover { z-index: 993; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".clicked-chatIcon .float-sidebar:hover",
+        "media": "",
+        "css": ".clicked-chatIcon .float-sidebar:hover { z-index: 990; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { right: 44px; visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active i, .star-score-btns p:hover i",
+        "media": "",
+        "css": ".star-score-btns p.active i, .star-score-btns p:hover i { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active, .star-score-btns p:hover",
+        "media": "",
+        "css": ".star-score-btns p.active, .star-score-btns p:hover { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; font-size: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.por-btn-dark:hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.por-btn-dark:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback i",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback .float-icon-bigger",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback .float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: translateY(-50%) scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover label",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover label { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(201, 201, 201); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover { background-color: transparent; border-color: grey; color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-modal-close:hover .u-icon",
+        "media": "",
+        "css": "#interceptor-modal .por-modal-close:hover .u-icon { color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-primary:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-dark:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-dark:hover { border-color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-primary.hover, .cui-btn-primary:hover",
+        "media": "",
+        "css": ".cui-btn-primary.hover, .cui-btn-primary:hover { box-shadow: rgba(246, 111, 106, 0.5) 0px 8px 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover",
+        "media": "",
+        "css": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover",
+        "media": "",
+        "css": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover { border: 1px solid rgb(199, 0, 11); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover",
+        "media": "",
+        "css": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover",
+        "media": "",
+        "css": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover { box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown ::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".header-dropdown ::-webkit-scrollbar-thumb:hover { background-color: rgb(173, 176, 184); }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right-large",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right-large { margin-left: 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang-item.active > a, .header-lang-item:hover > a",
+        "media": "",
+        "css": ".header-lang-item.active > a, .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp:hover .header-icon-hwapp",
+        "media": "",
+        "css": ".header-hwapp:hover .header-icon-hwapp { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48dGl0bGU+YXBwPC90aXRsZT48ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0xMS41IDBhLjUuNSAwIDAgMSAuNS41djEzYS41LjUgMCAwIDEtLjUuNWgtOWEuNS41IDAgMCAxLS41LS41Vi41YS41LjUgMCAwIDEgLjUtLjV6TTExIDFIM3YxMmg4eiIvPjxwYXRoIGQ9Ik0xMS4yMzEgMTEuMDU4djFIMi43MDZ2LTF6TTguMDQgMi4wNTh2MUg2LjAzdi0xeiIvPjwvZz"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp .header-hwapp-link:hover",
+        "media": "",
+        "css": ".header-hwapp .header-hwapp-link:hover { color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button input:hover",
+        "media": "",
+        "css": ".header-search-button input:hover { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button i:hover",
+        "media": "",
+        "css": ".header-search-button i:hover { background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbi/mkJzntKLlpIfku708L3RpdGxlPgogICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0iZmlsdGVyLTEiPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlR3JhcGhpYyIgdHlwZT0"
+      },
+      {
+        "type": "hover",
+        "selector": ".show-search-box .header-search .header-search-button:hover input",
+        "media": "",
+        "css": ".show-search-box .header-search .header-search-button:hover input { border: 1px solid rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search.active .close-icon:hover",
+        "media": "",
+        "css": ".header-search.active .close-icon:hover { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTQgMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNC4wMDAwMDAiIGhlaWdodD0iMTQuMDAwMDAwIiBmaWxsPSJub25lIiBjdXN0b21GcmFtZT0iIzAwMDAwMCI+Cgk8cmVjdCBpZD0i55S75p2/IDE2NDA4IiB3aWR0aD0iMTQuMDAwMDAwIiBoZWlnaHQ9IjE0LjAwMDAwMCIgeD0iMC4wMDAwMDAiIHk9IjAuMDAwMDAwIiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjAiIC8+C"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-keyWordsAll a:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-keyWordsAll a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .text::after",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .text::after { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNiAxMiI+PHRpdGxlPmhkcGkv566t5aS0aG92ZXLlpIfku708L3RpdGxlPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE2djE2SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMikiPjxtYXNrIGlkPSJiIi"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block .search-tag .tag-console:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block .search-tag .tag-console:hover { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover { border-color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover::before",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover::before { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNi4wMDAwMDAiIGhlaWdodD0iMTYuMDAwMDAwIiBmaWxsPSJub25lIj4KCTxkZWZzPgoJCTxmaWx0ZXIgaWQ9InBpeHNvX2N1c3RvbV9tYXNrX3R5cGVfYWxwaGEiPgoJCQk8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAxIDAgMCAwIDAgMSAwIDAgMCAwIDEgMCAwIDAgMSAwICIgLz4KCQ"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover { font-weight: 400; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li > a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-tools .header-user:hover .header-nav-item-icon { background-size: 100% 100%; transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a",
+        "media": "",
+        "css": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-tools .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover { animation: 2s linear 0s 2 alternate none running textBg, 1s linear 0s 1 normal none running textOpacity; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before { animation: 2s linear 0s 2 normal forwards running flowState; display: inline-block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-pagenav a:hover",
+        "media": "",
+        "css": ".header-pagenav a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown-close:hover",
+        "media": "",
+        "css": ".header-dropdown-close:hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title { text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; content: \"\"; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after { content: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-common-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover input",
+        "media": "",
+        "css": ".link-searcher:hover input { border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-submit i",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-submit i { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAEFCu8CAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHKADAAQAAAABAAAAHAAAAABkvfSiAAAEPklEQVRIDbWWS0xUVxjHZ+6MhVEQQZHYxISK2KolTdSFJsY0MaZNTGlCy4KX0AHZaNMSF+2SRIMs3CgQE1LIEF6NbdqmbsqiC5rYVlE2oAk+EmOMQKNGRYQZHuPvO73neu7lghDjSe6c7/H/vv95fmcCgaVaaWnpFssEBIPBhy7D/Pz8UwUoKSnJ0UJShKqqqlwHmkgk3lde1w/pj/M9F2NZWVk5OVSoAmE47UKjABgMizEUCl"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-clear",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-clear { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAFNQDtUAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIqADAAQAAAABAAAAIgAAAAACeqFUAAAE3ElEQVRYCe2XS2zURRzH9+1ud6EPE8WmDaKGcMEEG18HNAKRxAPVy5bQpnX7phxt9WCIcK0HTRD7bk1pfDSRyEGqCUkhMWkAD5zAVAlBEq0U2i7tdpNud9fPb7vz7/+17W4CF3GS2d/M7/Gd78xvZv6zDkeu0tfXtyQ2ZNrgY1H09vYu23oawh5ZBz637MAtPLMc41lpmJXLhGDur5uB/WS9t96yHW7dbGrhvWpSOQYGBk6ILjN2a"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon { opacity: 0; visibility: hidden; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon-hover",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon-hover { opacity: 1; visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher-more:hover",
+        "media": "",
+        "css": ".link-searcher-more:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content-link a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content-link a[href]:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before",
+        "media": "",
+        "css": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before { transform: scaleX(1); width: 100%; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover",
+        "media": "",
+        "css": ".dropdown-product-item:hover { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover .dropdown-product-item-title",
+        "media": "",
+        "css": ".dropdown-product-item:hover .dropdown-product-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-column-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column .dropdown-product-link:hover",
+        "media": "",
+        "css": ".dropdown-product-column .dropdown-product-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-module.noIcon:hover",
+        "media": "",
+        "css": ".dropdown-product-module.noIcon:hover { z-index: 101; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item-more .link:hover",
+        "media": "",
+        "css": ".dropdown-product-item-more .link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-group-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab.active:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab.active:hover { border-color: rgb(89, 89, 89); font-weight: 400; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-product-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputted ~ .header-search-submit:hover",
+        "media": "",
+        "css": ".inputted ~ .header-search-submit:hover { color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search .header-search-close:hover",
+        "media": "",
+        "css": ".header-search .header-search-close:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name i",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name i { border-top-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-link:hover",
+        "media": "",
+        "css": ".footer-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon",
+        "media": "",
+        "css": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover .contact-icon-hover",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover .contact-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover",
+        "media": "",
+        "css": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover { margin-top: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover i",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover i { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr { display: block; }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 18,
+    "testedCount": 12,
+    "issueCount": 0,
+    "candidates": [
+      {
+        "text": "精准 · 易用 · 高效",
+        "href": "javascript:void(0)",
+        "tag": "a",
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item",
+        "className": "por-link por-link-primary banner-item__subtitle-item svelte-6737yf",
+        "top": 307,
+        "left": 67,
+        "width": 114,
+        "height": 18,
+        "importance": 28,
+        "ordinal": 0
+      },
+      {
+        "text": "打造生产级AI Agent",
+        "href": "javascript:void(0)",
+        "tag": "a",
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item",
+        "className": "por-link por-link-primary banner-item__subtitle-item svelte-6737yf",
+        "top": 307,
+        "left": 193,
+        "width": 131,
+        "height": 18,
+        "importance": 28,
+        "ordinal": 1
+      },
+      {
+        "text": "访问官网",
+        "href": "https://openjiuwen.com/",
+        "tag": "a",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-primary.por-btn-middle",
+        "className": "por-btn por-btn-primary por-btn-middle por-btn-lg-default svelte-6737yf",
+        "top": 345,
+        "left": 28,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 2
+      },
+      {
+        "text": "加入社区",
+        "href": "https://openjiuwen.com/community",
+        "tag": "a",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle",
+        "className": "por-btn por-btn-secondary por-btn-middle por-btn-lg-default svelte-6737yf",
+        "top": 345,
+        "left": 142,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 3
+      },
+      {
+        "text": "查看源码",
+        "href": "https://atomgit.com/openJiuwen?utm_source=openjiuwen_website",
+        "tag": "a",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle",
+        "className": "por-btn por-btn-secondary por-btn-middle por-btn-lg-default svelte-6737yf",
+        "top": 345,
+        "left": 256,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 4
+      },
+      {
+        "text": "快速上手Coordination Engineering再升级！ 发布Team Skills技能新范式！",
+        "href": "https://openjiuwen.com/news/news-artical?id=23",
+        "tag": "a",
+        "path": "div#common-components-container > div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card",
+        "className": "c_card",
+        "top": 478,
+        "left": 24,
+        "width": 342,
+        "height": 85,
+        "importance": 28,
+        "ordinal": 5
+      },
+      {
+        "text": "DeepAgent与DeepSearch双双霸榜 纷纷登顶GAIA和BrowseComp-Plus榜首",
+        "href": "https://openjiuwen.com/news/news-artical?id=12",
+        "tag": "a",
+        "path": "div#common-components-container > div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card",
+        "className": "c_card",
+        "top": 571,
+        "left": 24,
+        "width": 342,
+        "height": 85,
+        "importance": 28,
+        "ordinal": 6
+      },
+      {
+        "text": "openJiuwen开源增强版正式上线 核心组件增强企业级能力",
+        "href": "https://www.openjiuwen.com/news/news-artical?id=36",
+        "tag": "a",
+        "path": "div#common-components-container > div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card",
+        "className": "c_card",
+        "top": 664,
+        "left": 24,
+        "width": 342,
+        "height": 85,
+        "importance": 28,
+        "ordinal": 7
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div#section-4 > div.pep-ai-gallery-banner > div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg",
+        "className": "card-item-link hasBg ",
+        "top": 893,
+        "left": 24,
+        "width": 342,
+        "height": 160,
+        "importance": 28,
+        "ordinal": 8
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div#section-5 > div.pep-ai-gallery-banner > div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg",
+        "className": "card-item-link hasBg ",
+        "top": 1217,
+        "left": 24,
+        "width": 342,
+        "height": 160,
+        "importance": 28,
+        "ordinal": 9
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1851,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 10
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1851,
+        "left": 201,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 11
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1921,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 12
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1921,
+        "left": 201,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 13
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1991,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 14
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1991,
+        "left": 201,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 15
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 2061,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 16
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 2061,
+        "left": 201,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 17
+      }
+    ],
+    "results": [
+      {
+        "text": "精准 · 易用 · 高效",
+        "tag": "a",
+        "href": "javascript:void(0)",
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item",
+        "rect": {
+          "left": 67,
+          "top": 307,
+          "width": 114,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "精准 · 易用 · 高效",
+          "path": "div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item > span.banner-item__subtitle-item-text.svelte-6737yf",
+          "className": "banner-item__subtitle-item-text svelte-6737yf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_NETWORK_CHANGED",
+          "Failed to load resource: net::ERR_NETWORK_CHANGED",
+          "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+        ],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 0,
+          "bodyLength": 1060,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "打造生产级AI Agent",
+        "tag": "a",
+        "href": "javascript:void(0)",
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item",
+        "rect": {
+          "left": 193,
+          "top": 307,
+          "width": 131,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "打造生产级AI Agent",
+          "path": "div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__subtitle.banner-item__subtitle.hidden--web > div.banner-item__subtitle-items.svelte-6737yf > a.por-link.por-link-primary.banner-item__subtitle-item > span.banner-item__subtitle-item-text.svelte-6737yf",
+          "className": "banner-item__subtitle-item-text svelte-6737yf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 0,
+          "bodyLength": 1060,
+          "overlayCount": 0,
+          "mutations": 17,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "访问官网",
+        "tag": "a",
+        "href": "https://openjiuwen.com/",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-primary.por-btn-middle",
+        "rect": {
+          "left": 28,
+          "top": 345,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "访问官网",
+          "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-primary.por-btn-middle > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 0,
+          "bodyLength": 1121,
+          "overlayCount": 11,
+          "mutations": 18,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 61,
+          "overlayDelta": 11
+        }
+      },
+      {
+        "text": "加入社区",
+        "tag": "a",
+        "href": "https://openjiuwen.com/community",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle",
+        "rect": {
+          "left": 142,
+          "top": 345,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "加入社区",
+          "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 0,
+          "bodyLength": 1130,
+          "overlayCount": 11,
+          "mutations": 18,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 70,
+          "overlayDelta": 11
+        }
+      },
+      {
+        "text": "查看源码",
+        "tag": "a",
+        "href": "https://atomgit.com/openJiuwen?utm_source=openjiuwen_website",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle",
+        "rect": {
+          "left": 256,
+          "top": 345,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "查看源码",
+          "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf.banner-item__buttons--animate > a.por-btn.por-btn-secondary.por-btn-middle > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 0,
+          "bodyLength": 1158,
+          "overlayCount": 11,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 98,
+          "overlayDelta": 11
+        }
+      },
+      {
+        "text": "快速上手Coordination Engineering再升级！ 发布Team Skills技能新范式！",
+        "tag": "a",
+        "href": "https://openjiuwen.com/news/news-artical?id=23",
+        "path": "div#common-components-container > div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card",
+        "rect": {
+          "left": 24,
+          "top": 478,
+          "width": 342,
+          "height": 85
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "section",
+          "text": "快速上手Coordination Engineering再升级！ 发布Team Skills技能新范式！",
+          "path": "div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card > section.c_card_content",
+          "className": "c_card_content"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 99,
+          "bodyLength": 1144,
+          "overlayCount": 11,
+          "mutations": 24,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 84,
+          "overlayDelta": 11
+        }
+      },
+      {
+        "text": "DeepAgent与DeepSearch双双霸榜 纷纷登顶GAIA和BrowseComp-Plus榜首",
+        "tag": "a",
+        "href": "https://openjiuwen.com/news/news-artical?id=12",
+        "path": "div#common-components-container > div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card",
+        "rect": {
+          "left": 24,
+          "top": 571,
+          "width": 342,
+          "height": 85
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "section",
+          "text": "DeepAgent与DeepSearch双双霸榜 纷纷登顶GAIA和BrowseComp-Plus榜首",
+          "path": "div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card > section.c_card_content",
+          "className": "c_card_content"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 192,
+          "bodyLength": 1144,
+          "overlayCount": 11,
+          "mutations": 24,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 84,
+          "overlayDelta": 11
+        }
+      },
+      {
+        "text": "openJiuwen开源增强版正式上线 核心组件增强企业级能力",
+        "tag": "a",
+        "href": "https://www.openjiuwen.com/news/news-artical?id=36",
+        "path": "div#common-components-container > div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card",
+        "rect": {
+          "left": 24,
+          "top": 664,
+          "width": 342,
+          "height": 85
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "section",
+          "text": "openJiuwen开源增强版正式上线 核心组件增强企业级能力",
+          "path": "div#section-2 > div.pep-hp-guide-cards > div.por-section.c_wrap > div.por-container.c_cards > a.c_card > section.c_card_content",
+          "className": "c_card_content"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 285,
+          "bodyLength": 1148,
+          "overlayCount": 11,
+          "mutations": 24,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 88,
+          "overlayDelta": 11
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div#section-4 > div.pep-ai-gallery-banner > div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg",
+        "rect": {
+          "left": 24,
+          "top": 893,
+          "width": 342,
+          "height": 160
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "",
+          "path": "div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg > div.item-content > div.card-main",
+          "className": "card-main"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 551,
+          "bodyLength": 1060,
+          "overlayCount": 0,
+          "mutations": 19,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div#section-5 > div.pep-ai-gallery-banner > div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg",
+        "rect": {
+          "left": 24,
+          "top": 1217,
+          "width": 342,
+          "height": 160
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "",
+          "path": "div.por-section > div.por-container > div.por-section-body.hide-pc > a.card-item-link.hasBg > div.item-content > div.card-main",
+          "className": "card-main"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 875,
+          "bodyLength": 1060,
+          "overlayCount": 0,
+          "mutations": 26,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 36,
+          "top": 1851,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 1458,
+          "bodyLength": 1060,
+          "overlayCount": 0,
+          "mutations": 28,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 201,
+          "top": 1851,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "afterUrl": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "scrollY": 1458,
+          "bodyLength": 1060,
+          "overlayCount": 0,
+          "mutations": 28,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "tapActionIssues": [],
+  "after_scroll_ctas": [
+    {
+      "text": "售前咨询： 950808转1",
+      "position": "static",
+      "x": 20,
+      "y": 902,
+      "width": 351,
+      "height": 48
+    }
+  ],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 0,
+        "text": "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn 不再显",
+        "className": "nav-medium-padding",
+        "width": 390,
+        "height": 48,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 2,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 25,
+        "x": 270,
+        "y": 11
+      },
+      {
+        "index": 3,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 346,
+        "y": -0.0
+      },
+      {
+        "index": 4,
+        "text": "智果（AgentArts）智能体平台",
+        "className": "pep-solution-page-navigate-v2 por-tab-self-adaption",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "index": 27,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2155
+      },
+      {
+        "index": 28,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2155
+      },
+      {
+        "index": 29,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2155
+      },
+      {
+        "index": 30,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2155
+      },
+      {
+        "index": 31,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 2171
+      },
+      {
+        "index": 32,
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 2171
+      },
+      {
+        "index": 34,
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 2207
+      },
+      {
+        "index": 35,
+        "text": "",
+        "className": "footer-nav-about",
+        "width": 150,
+        "height": 66,
+        "x": 120,
+        "y": 2228
+      },
+      {
+        "index": 36,
+        "text": "华为云微信 扫描二维码",
+        "className": "footer-nav-submenus-link weixin-sh",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 2236
+      },
+      {
+        "index": 37,
+        "text": "华为云微信小程序 华为云微信小程序",
+        "className": "footer-nav-submenus-link microapp-sh",
+        "width": 34,
+        "height": 34,
+        "x": 178,
+        "y": 2236
+      },
+      {
+        "index": 38,
+        "text": "华为云微博 扫描二维码",
+        "className": "footer-nav-submenus-link ",
+        "width": 34,
+        "height": 34,
+        "x": 228,
+        "y": 2236
+      },
+      {
+        "index": 39,
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 2294
+      }
+    ],
+    "clicked_candidate": {
+      "index": 3,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 346,
+      "y": -0.0
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "nav-medium-padding",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 48,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-inner ",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言",
+        "className": "header-mbnav-leftmenu",
+        "position": "relative",
+        "zIndex": "10",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言",
+        "className": "header-mbnav-menulist",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-collapses",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 48
+      },
+      {
+        "text": "智果园首页",
+        "className": "header-mbnav-level2-content-index",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 235,
+        "height": 46,
+        "x": 140,
+        "y": 68
+      },
+      {
+        "text": "智果（AgentArts）智能体平台",
+        "className": "pep-solution-page-navigate-v2 por-tab-self-adaption",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 42,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2155
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2155
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2155
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2155
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 2171
+      },
+      {
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 2171
+      },
+      {
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 2207
+      },
+      {
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 2294
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "精准 · 易用 · 高效",
+        "width": 94,
+        "height": 18,
+        "x": 87,
+        "y": 187
+      },
+      {
+        "text": "打造生产级AI Agent",
+        "width": 111,
+        "height": 18,
+        "x": 213,
+        "y": 187
+      },
+      {
+        "text": "快速上手Coordination Engineering再升级！",
+        "width": 284,
+        "height": 21,
+        "x": 45,
+        "y": 379
+      },
+      {
+        "text": "DeepAgent与DeepSearch双双霸榜",
+        "width": 224,
+        "height": 21,
+        "x": 45,
+        "y": 472
+      },
+      {
+        "text": "openJiuwen开源增强版正式上线",
+        "width": 206,
+        "height": 21,
+        "x": 45,
+        "y": 565
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1731
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 201,
+        "y": 1731
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1801
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 201,
+        "y": 1801
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1871
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 201,
+        "y": 1871
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1941
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 201,
+        "y": 1941
+      },
+      {
+        "text": "华为云微信 扫描二维码",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 2236
+      }
+    ]
+  }
+}

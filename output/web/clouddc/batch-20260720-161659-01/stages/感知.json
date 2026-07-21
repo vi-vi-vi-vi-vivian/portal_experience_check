@@ -1,0 +1,72 @@
+{
+  "stage": "感知",
+  "score": 6,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "核心购买/试用入口缺失，跳转至控制台而非购买页",
+      "area": "首屏主视觉区 / 通栏广告区",
+      "locate": [
+        "控制台",
+        "即刻申请"
+      ],
+      "evidence": "首屏主视觉区“控制台”按钮的href为`https://console.huaweicloud.com/clouddc`，通栏广告区“即刻申请”按钮的href也为`https://console.huaweicloud.com/clouddc`。这两个按钮均直接跳转到产品控制台，而非购买、开通或免费试用页面。在感知阶段，用户期望找到明确的购买或试用入口。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #3: User Control and Freedom | Cooper: Goal-Directed Design",
+      "severity": "p0",
+      "suggestion": "修改前：点击“控制台”/“即刻申请”按钮跳转至产品控制台 → 修改后：在首屏主视觉区增加“免费试用”或“立即购买”按钮，并确保其跳转至对应的免费试用申请页或产品购买配置页；“控制台”按钮可保留作为已开通用户的入口。"
+    },
+    {
+      "title": "定价信息未直接展示，需跳转至外部文档页面",
+      "area": "顶部导航区",
+      "locate": [
+        "定价"
+      ],
+      "evidence": "顶部导航区的“定价”链接（href为`https://support.huaweicloud.com/price-clouddc/clouddc_price_0001.html`）指向一个支持文档页面，而非产品详情页内的定价模块或交互式定价计算器。用户无法在当前页面直接了解产品定价。",
+      "standard": "Garrett: Structure Plane | Nielsen #2: Match Between System and Real World | Nielsen #10: Help and Documentation",
+      "severity": "p1",
+      "suggestion": "修改前：点击“定价”跳转至外部文档 → 修改后：在产品详情页内增加一个“定价/套餐区”，直接展示核心套餐和价格信息，或提供一个内嵌的定价计算器，方便用户快速了解费用。同时，可保留指向详细定价文档的链接作为补充。"
+    },
+    {
+      "title": "功能介绍区内容默认折叠，增加用户获取信息成本",
+      "area": "功能介绍区",
+      "locate": [
+        "IDC一站式算网存云化",
+        "全栈AI基础设施使能",
+        "全球布局的安全合规云化DC",
+        "免运维的基础设施管理体验"
+      ],
+      "evidence": "“为什么选择云化数据中心 CloudDC”区域的四个功能介绍卡片（如“IDC一站式算网存云化”）默认处于折叠状态（DOM中包含`por-collapse-container`和`por-collapse`类），用户需要点击才能展开查看详细内容。这增加了用户了解产品核心优势的交互成本。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p2",
+      "suggestion": "修改前：功能介绍卡片默认折叠 → 修改后：将核心功能介绍卡片默认展开，或至少展开前两个最关键的功能，让用户无需额外点击即可快速浏览产品亮点。对于次要或详细信息可保留折叠功能。"
+    },
+    {
+      "title": "常见问题未在页面内展示，需跳转至外部文档页面",
+      "area": "顶部导航区",
+      "locate": [
+        "常见问题"
+      ],
+      "evidence": "顶部导航区的“常见问题”链接（href为`https://support.huaweicloud.com/clouddc_faq/clouddc_faq_0001.html`）指向一个支持文档页面，而非产品详情页内的FAQ模块。用户无法在当前页面直接找到常见问题的解答。",
+      "standard": "Nielsen #10: Help and Documentation | Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p2",
+      "suggestion": "修改前：点击“常见问题”跳转至外部文档 → 修改后：在产品详情页底部增加一个“常见问题”区域，直接展示用户最关心的问题及简要答案，并提供指向完整FAQ文档的链接作为补充。"
+    }
+  ],
+  "suggestions": [
+    "优化核心CTA按钮的文案和跳转目标，提供明确的购买/试用路径。",
+    "在产品详情页内直接展示定价信息，减少用户跳转成本。",
+    "调整功能介绍区折叠面板的默认状态，优先展示核心信息。",
+    "将常见问题直接集成到产品详情页中，提升信息可达性。"
+  ],
+  "analysis_content": "感知阶段页面整体布局清晰，产品信息展示较为完整，但核心的购买/试用入口、定价信息和常见问题均需跳转至外部页面或通过额外点击才能获取，这严重影响了用户在感知阶段快速评估和决策的体验。功能介绍区默认折叠也增加了用户获取信息的成本。这些问题可能导致用户流失，降低产品转化率。",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/product/clouddc.html",
+  "title": "云化数据中心_CloudDC_华为云",
+  "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_1_awareness.png"
+}

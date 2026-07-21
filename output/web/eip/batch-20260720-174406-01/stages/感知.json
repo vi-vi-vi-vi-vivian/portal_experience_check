@@ -1,0 +1,72 @@
+{
+  "stage": "感知",
+  "score": 7,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "顶部国际站账号提示信息过于突出且持续显示",
+      "area": "顶部导航区",
+      "locate": [
+        "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn"
+      ],
+      "evidence": "视觉上该提示位于页面顶部，背景为蓝色渐变，文字为白色，非常醒目。DOM数据显示其为 `header-prompt`，`fontSize` 12px，但其位置和背景色使其视觉权重过高，可能分散用户对主要内容的注意力。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+      "severity": "p2",
+      "suggestion": "修改前：顶部横幅持续显示，背景色醒目 → 修改后：将提示信息改为不那么侵入式的浮窗或在用户首次访问时显示一次，并提供“不再显示”选项，或降低其视觉权重（如改为浅色背景）。"
+    },
+    {
+      "title": "首屏及主要内容区域缺少直接的价格信息展示",
+      "area": "首屏主视觉区",
+      "locate": [
+        "定价",
+        "计费说明"
+      ],
+      "evidence": "页面首屏及主要内容区域未直接展示弹性公网IP的任何价格或套餐信息，仅通过导航链接“定价”和“计费说明”引导用户跳转到其他页面查看。DOM数据中无 `price_info` 字段。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p1",
+      "suggestion": "修改前：无直接价格展示，需跳转查看 → 修改后：在首屏或紧随其后的区域增加一个简要的价格范围或最受欢迎套餐的价格示例，并提供“查看详细定价”链接，方便用户快速了解成本。"
+    },
+    {
+      "title": "核心优势信息默认折叠，增加用户探索成本",
+      "area": "功能介绍区",
+      "locate": [
+        "弹性的资源关联，灵活使用，绑定解绑实时生效",
+        "提供全动态BGP和静态BGP等多种带宽服务",
+        "提供共享带宽，降低带宽成本",
+        "计费灵活，管理便捷"
+      ],
+      "evidence": "“为什么选择华为云弹性公网IP EIP”区域的四个核心优势卡片默认处于折叠状态，用户需要点击才能展开查看详细描述。DOM数据显示这些元素具有 `por-collapse-container` 和 `por-collapse-trigger` 类，且默认未展开。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+      "severity": "p2",
+      "suggestion": "修改前：核心优势卡片默认折叠 → 修改后：在感知阶段，考虑将核心优势卡片默认展开，或至少在首屏展示部分关键信息，减少用户获取信息的交互成本，以便用户快速理解产品价值。"
+    },
+    {
+      "title": "底部版权年份错误",
+      "area": "底部Footer区",
+      "locate": [
+        "©2026 Huaweicloud.com"
+      ],
+      "evidence": "页面底部版权信息显示为“©2026 Huaweicloud.com”，当前年份为2024年，版权年份为未来年份。DOM数据显示 `©2026 Huaweicloud.com`。",
+      "standard": "Nielsen #4: Consistency and Standards",
+      "severity": "p2",
+      "suggestion": "修改前：版权年份显示为“©2026” → 修改后：将版权年份更新为当前年份，例如“©2024”，确保信息准确性。"
+    }
+  ],
+  "suggestions": [
+    "优化顶部提示信息的视觉权重和交互方式，避免干扰用户。",
+    "在产品概述页面直接展示关键价格信息，提升用户对产品成本的感知效率。",
+    "调整核心优势内容的默认展示状态，减少用户探索信息时的额外点击。",
+    "修正页面底部版权年份，确保信息准确性。"
+  ],
+  "analysis_content": "感知阶段页面整体布局清晰，产品核心卖点和功能介绍完整。主要问题在于信息呈现方式，如顶部提示过于醒目、价格信息需跳转查看、核心优势默认折叠，以及底部版权年份错误。这些问题增加了用户获取关键信息的成本，并影响了页面的专业度。",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/product/eip.html",
+  "title": "弹性公网IP-网络-产品-华为云",
+  "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+  "generated_at": "2026-07-20T02:22:38.101386+00:00",
+  "summary": {
+    "score": 4,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 2,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+      "title": null,
+      "score": 4,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "侧边导航栏严重挤压变形，文字无法阅读",
+          "area": "导航菜单",
+          "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+          "locate": [
+            "div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav"
+          ],
+          "evidence": "DOM数据显示，侧边导航栏容器 `ul.side-nav` 的 `clientWidth` 仅为 32px，而 `scrollWidth` 达 113px。其子元素如“OfficeAce (PC版)”的 `clientWidth` 仅 14px，高度却被拉伸至 90px。这导致导航文本在移动端被严重挤压成单字竖排或完全遮挡，无法正常阅读。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "在移动端保留PC端的侧边栏布局，导致宽度被压缩至32px。",
+          "suggestion_after": "在移动端（屏幕宽度 < 768px）下，应默认隐藏侧边导航栏，改由顶部的面包屑或专门的抽屉式菜单（Drawer）承载分类导航。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "导航链接触控热区极小，极易误触",
+          "area": "触控体验",
+          "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+          "locate": [
+            "最新动态",
+            "产品介绍",
+            "产品咨询"
+          ],
+          "evidence": "多个导航链接的触控尺寸严重不合规。例如“最新动态” (index 4) 宽度仅 12px，高度 98px；“产品咨询” (index 16) 宽度仅 12px，高度 98px。宽度远低于移动端推荐的最小 44px 或 48px 触控热区标准。",
+          "standard": "Touch Experience",
+          "suggestion_before": "链接宽度为12px，呈极窄条状。",
+          "suggestion_after": "将移动端导航项重构为通栏列表项（List Item），确保每个可点击条目的高度不低于 48px，宽度占满屏幕或菜单容器，提供充分的触控响应区域。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "页面存在横向溢出滚动条",
+          "area": "响应式布局",
+          "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+          "locate": [
+            "html.phone.phone > body.scrolled.show-top-prompt > div#content.help-page.home-page"
+          ],
+          "evidence": "视口宽度 `clientWidth` 为 390px，但 `documentElementScrollWidth` 和 `bodyScrollWidth` 均为 403px，页面主体容器 `div#content.help-page.home-page` 的 `scrollWidth` 也是 403px，存在 13px 的横向溢出，导致用户在上下滑动时页面会左右晃动。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "容器宽度超出视口，导致横向溢出。",
+          "suggestion_after": "排查 `div#content` 及其子元素的固定宽度属性，使用 `max-width: 100%` 和 `box-sizing: border-box` 消除非预期的横向滚动。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "顶部提示栏高度过大，严重遮挡首屏内容",
+          "area": "首屏信息层级",
+          "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+          "locate": [
+            "div#header.nav-medium-padding.show-top-prompt.show-prompt-ip"
+          ],
+          "evidence": "顶部提示信息栏（“如需了解国际站更多云产品...”）在移动端高度达 168px (`clientHeight`: 168)，占用了首屏近 20% 的高度（屏幕高度 844px），导致核心的文档内容和标题被严重下推，降低了首屏的信息效率。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "提示栏高度168px，文字未针对移动端精简。",
+          "suggestion_after": "在移动端精简提示语文本，减小内边距，或将其改为可手动关闭的悬浮轻量条带，高度控制在 60px 以内。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "强烈建议针对移动端重构该帮助中心文档页的布局。目前该页面直接套用了PC端的双栏（左侧导航+右侧内容）布局，导致左侧栏在 390px 视口下被挤压至 32px 宽，完全丧失了可用性。",
+        "将左侧树状导航整合进移动端专用的抽屉式菜单中，点击顶部面包屑或特定菜单按钮时才唤出。",
+        "修复全局横向溢出问题，确保移动端滑动的顺畅度。"
+      ],
+      "analysis_content": "本次审查发现该智果智能体平台常见问题页面在移动端存在严重的响应式布局缺陷。由于直接继承了PC端的双栏设计，导致左侧导航栏在移动端被挤压至32px宽，文字呈极窄竖排且触控热区仅12px宽，完全无法阅读和点击。此外，页面存在13px的横向溢出，且顶部提示栏高度过大遮挡首屏。页面整体移动端体验较差，不符合响应式设计规范。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "侧边导航栏严重挤压变形，文字无法阅读",
+      "area": "导航菜单",
+      "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+      "locate": [
+        "div.side-nav.sidenav-main.por-scrollbar-s > ul.side-nav"
+      ],
+      "evidence": "DOM数据显示，侧边导航栏容器 `ul.side-nav` 的 `clientWidth` 仅为 32px，而 `scrollWidth` 达 113px。其子元素如“OfficeAce (PC版)”的 `clientWidth` 仅 14px，高度却被拉伸至 90px。这导致导航文本在移动端被严重挤压成单字竖排或完全遮挡，无法正常阅读。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "在移动端保留PC端的侧边栏布局，导致宽度被压缩至32px。",
+      "suggestion_after": "在移动端（屏幕宽度 < 768px）下，应默认隐藏侧边导航栏，改由顶部的面包屑或专门的抽屉式菜单（Drawer）承载分类导航。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "导航链接触控热区极小，极易误触",
+      "area": "触控体验",
+      "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+      "locate": [
+        "最新动态",
+        "产品介绍",
+        "产品咨询"
+      ],
+      "evidence": "多个导航链接的触控尺寸严重不合规。例如“最新动态” (index 4) 宽度仅 12px，高度 98px；“产品咨询” (index 16) 宽度仅 12px，高度 98px。宽度远低于移动端推荐的最小 44px 或 48px 触控热区标准。",
+      "standard": "Touch Experience",
+      "suggestion_before": "链接宽度为12px，呈极窄条状。",
+      "suggestion_after": "将移动端导航项重构为通栏列表项（List Item），确保每个可点击条目的高度不低于 48px，宽度占满屏幕或菜单容器，提供充分的触控响应区域。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "页面存在横向溢出滚动条",
+      "area": "响应式布局",
+      "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+      "locate": [
+        "html.phone.phone > body.scrolled.show-top-prompt > div#content.help-page.home-page"
+      ],
+      "evidence": "视口宽度 `clientWidth` 为 390px，但 `documentElementScrollWidth` 和 `bodyScrollWidth` 均为 403px，页面主体容器 `div#content.help-page.home-page` 的 `scrollWidth` 也是 403px，存在 13px 的横向溢出，导致用户在上下滑动时页面会左右晃动。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "容器宽度超出视口，导致横向溢出。",
+      "suggestion_after": "排查 `div#content` 及其子元素的固定宽度属性，使用 `max-width: 100%` 和 `box-sizing: border-box` 消除非预期的横向滚动。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "顶部提示栏高度过大，严重遮挡首屏内容",
+      "area": "首屏信息层级",
+      "page_url": "https://support.huaweicloud.com/agentarts_faq/agentarts_09_0001.html",
+      "locate": [
+        "div#header.nav-medium-padding.show-top-prompt.show-prompt-ip"
+      ],
+      "evidence": "顶部提示信息栏（“如需了解国际站更多云产品...”）在移动端高度达 168px (`clientHeight`: 168)，占用了首屏近 20% 的高度（屏幕高度 844px），导致核心的文档内容和标题被严重下推，降低了首屏的信息效率。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "提示栏高度168px，文字未针对移动端精简。",
+      "suggestion_after": "在移动端精简提示语文本，减小内边距，或将其改为可手动关闭的悬浮轻量条带，高度控制在 60px 以内。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html/batch-20260720-095401-06/screenshots/https_support_huaweicloud_com_agentarts_faq_agentarts_09_0001_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

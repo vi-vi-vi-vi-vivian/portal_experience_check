@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+  "generated_at": "2026-07-20T02:32:33.420891+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 2,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "底部固定栏未适配移动端安全区",
+          "area": "底部固定下载栏",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "元素 path 为 `html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn`，采用 `position: fixed; bottom: 0px`，但 `hasSafeAreaInset` 为 false，未适配 iOS/Android 底部安全区。",
+          "standard": "移动端响应式布局",
+          "suggestion_before": "bottom: 0px 且无安全区适配",
+          "suggestion_after": "利用 CSS env(safe-area-inset-bottom) 动态增加底部 padding-bottom，避免被系统全面屏手势条遮挡。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "核心触控目标尺寸过小",
+          "area": "命令复制与Tab切换区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+          "locate": [
+            "复制命令",
+            "API",
+            "SDK"
+          ],
+          "evidence": "‘复制命令’按钮尺寸仅 24x24px，‘API’ Tab 尺寸仅 19x22px，‘SDK’ Tab 尺寸仅 22x22px，远低于移动端 48x48px 的标准触控热区要求。",
+          "standard": "触控体验",
+          "suggestion_before": "Tab 和复制按钮尺寸在 19px~24px 之间",
+          "suggestion_after": "通过增加透明 padding 或设置 min-width/min-height 为 44px 以上，扩大实际可触控热区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "部分容器存在横向溢出风险",
+          "area": "API开发与开发者空间卡片区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+          "locate": [
+            "API开发 CodeArts API是面向开发者...",
+            "开发者空间 开发者空间是面向开发者行业的..."
+          ],
+          "evidence": "DOM 数据显示 `div.por-tab-container` 和 `div#section-5 ... div.por-section-body` 的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出。",
+          "standard": "移动端响应式布局",
+          "suggestion_before": "容器 scrollWidth (346px) 大于 clientWidth (342px)",
+          "suggestion_after": "检查并修正内部元素的 margin/padding 或宽度设置，确保其完全自适应不产生横向滚动条。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "content_clarity",
+          "severity": "p2",
+          "title": "顶部提示栏高度过大挤压首屏空间",
+          "area": "顶部提示区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "顶部提示 Banner 高度达 168px，占首屏高度 (844px) 的 20%，导致核心产品‘智果 AgentArts’的标题和主 CTA 被向下严重挤压。",
+          "standard": "首屏信息层级",
+          "suggestion_before": "顶部提示栏高度 168px",
+          "suggestion_after": "在移动端精简该提示文本，或采用折叠/小图标形式，将高度控制在 60px 以内。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "为所有固定在底部的元素（如 App 下载栏）添加 iOS/Android 安全区域适配（safe-area-inset-bottom）。",
+        "全局排查移动端小尺寸触控热区，特别是 Tab 切换标签和功能性小图标（如复制按钮），确保其热区面积不小于 44x44px。",
+        "优化首屏高度分配，减少非核心提示信息的纵向占比，让主产品价值主张和主 CTA 按钮在首屏更具可发现性。"
+      ],
+      "analysis_content": "智果AgentArts移动端页面整体结构清晰，但在移动端适配细节上存在多处体验缺陷。主要表现在底部固定栏未适配安全区、核心交互组件（如复制按钮、Tab标签）触控热区极小、部分卡片容器存在微弱横向溢出，以及顶部提示 Banner 占用首屏空间过多，影响了整体的移动端浏览与操作体验。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "底部固定栏未适配移动端安全区",
+      "area": "底部固定下载栏",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "元素 path 为 `html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn`，采用 `position: fixed; bottom: 0px`，但 `hasSafeAreaInset` 为 false，未适配 iOS/Android 底部安全区。",
+      "standard": "移动端响应式布局",
+      "suggestion_before": "bottom: 0px 且无安全区适配",
+      "suggestion_after": "利用 CSS env(safe-area-inset-bottom) 动态增加底部 padding-bottom，避免被系统全面屏手势条遮挡。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "核心触控目标尺寸过小",
+      "area": "命令复制与Tab切换区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+      "locate": [
+        "复制命令",
+        "API",
+        "SDK"
+      ],
+      "evidence": "‘复制命令’按钮尺寸仅 24x24px，‘API’ Tab 尺寸仅 19x22px，‘SDK’ Tab 尺寸仅 22x22px，远低于移动端 48x48px 的标准触控热区要求。",
+      "standard": "触控体验",
+      "suggestion_before": "Tab 和复制按钮尺寸在 19px~24px 之间",
+      "suggestion_after": "通过增加透明 padding 或设置 min-width/min-height 为 44px 以上，扩大实际可触控热区。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "部分容器存在横向溢出风险",
+      "area": "API开发与开发者空间卡片区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+      "locate": [
+        "API开发 CodeArts API是面向开发者...",
+        "开发者空间 开发者空间是面向开发者行业的..."
+      ],
+      "evidence": "DOM 数据显示 `div.por-tab-container` 和 `div#section-5 ... div.por-section-body` 的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出。",
+      "standard": "移动端响应式布局",
+      "suggestion_before": "容器 scrollWidth (346px) 大于 clientWidth (342px)",
+      "suggestion_after": "检查并修正内部元素的 margin/padding 或宽度设置，确保其完全自适应不产生横向滚动条。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "content_clarity",
+      "severity": "p2",
+      "title": "顶部提示栏高度过大挤压首屏空间",
+      "area": "顶部提示区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agentarts.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "顶部提示 Banner 高度达 168px，占首屏高度 (844px) 的 20%，导致核心产品‘智果 AgentArts’的标题和主 CTA 被向下严重挤压。",
+      "standard": "首屏信息层级",
+      "suggestion_before": "顶部提示栏高度 168px",
+      "suggestion_after": "在移动端精简该提示文本，或采用折叠/小图标形式，将高度控制在 60px 以内。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agentarts_html/batch-20260720-095401-08/screenshots/https_www_huaweicloud_com_agentorchard_agentarts_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

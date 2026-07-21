@@ -1,0 +1,607 @@
+{
+  "schema_version": "1.0",
+  "source": "web",
+  "input_url": "https://www.huaweicloud.com/product/ecs.html",
+  "generated_at": "2026-07-20T09:43:30.871668+00:00",
+  "summary": {
+    "score": 5.7,
+    "issue_count": 6,
+    "p0": 3,
+    "p1": 2,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "感知",
+      "name": "感知",
+      "url": "https://www.huaweicloud.com/product/ecs.html",
+      "title": "云服务器_云主机_弹性云服务器ECS_租用_购买-华为云",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png",
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "国际站登录提示的“不再显示此消息”选项不突出",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/ecs.html",
+          "locate": [
+            "不再显示此消息"
+          ],
+          "evidence": "视觉截图显示“不再显示此消息”文本字号小（约12px），颜色为深灰色，位于顶部横幅右侧，与背景对比度不足，且复选框图标较小，容易被用户忽略。DOM数据中，该提示文本周围的链接文本颜色为rgb(65, 145, 250)，而提示文本本身颜色为rgb(25, 25, 25)，但整体视觉权重低于主要信息。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "文本字号约12px，颜色#252525，复选框小",
+          "suggestion_after": "文本字号14px，颜色#595959，并增大复选框的视觉尺寸和点击区域，使其更易被发现和操作。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "layout",
+          "severity": "p1",
+          "title": "价格约束提示“仅为实例规格参考价”视觉权重不足",
+          "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/product/ecs.html",
+          "locate": [
+            "仅为实例规格参考价"
+          ],
+          "evidence": "视觉截图显示“仅为实例规格参考价”文本颜色为浅灰色，字号较小。DOM数据中，该文本的color为rgb(89, 89, 89)，fontSize为14px，与套餐名称和价格的视觉突出度相比明显不足，可能导致用户忽略重要的价格约束信息。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+          "suggestion_before": "color:rgb(89, 89, 89), fontSize:14px",
+          "suggestion_after": "color:rgb(199, 0, 11), fontSize:14px, font-weight:700，或将其放置在更醒目、更易于阅读的位置，例如在价格旁边添加一个醒目的提示图标。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "部分实例规格默认折叠，用户需额外点击才能查看",
+          "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/product/ecs.html",
+          "locate": [
+            "最大带宽",
+            "最大收发包",
+            "por-icon por-icon-down"
+          ],
+          "evidence": "DOM数据显示“Flexus云服务器X实例”卡片中的“最大带宽”和“最大收发包”等规格信息被包含在`<div class=\"por-collapse\">`中，并通过`<a data-toggle=\"por-collapse\">`控制折叠状态，默认处于折叠状态，用户需要点击“向下箭头”图标才能展开查看。这增加了用户获取完整信息的步骤。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "默认折叠部分规格信息",
+          "suggestion_after": "默认展开所有关键规格信息，或对默认折叠的内容提供更明显的提示和引导，确保用户无需额外操作即可获取核心信息。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "增强关键提示信息的视觉权重，确保用户能够清晰识别和理解重要约束条件。",
+        "优化信息展示方式，减少不必要的默认折叠，提高信息可发现性。",
+        "定期审查并更新页面上的静态信息，如版权年份，确保其准确性。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，产品信息丰富。顶部导航和首屏主视觉区设计合理，核心CTA按钮（购买、控制台、文档）功能明确且跳转目标正确。定价/套餐区提供了多种实例规格，但部分关键约束信息和规格细节的展示方式有待优化。底部版权年份存在错误。这些问题可能影响用户对产品信息的完整理解和信任度。"
+    },
+    {
+      "id": "下单",
+      "name": "下单",
+      "url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+      "title": "弹性云服务器 - 控制台",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_2_order.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "支付",
+      "name": "支付",
+      "url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+      "title": "弹性云服务器 - 控制台",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_3_payment.png",
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "支付阶段入口未达成",
+          "area": "收银台/支付确认页",
+          "page_url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+          "locate": [
+            "弹性云服务器 - 控制台"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Payment stage did not reach a servicePay, cashier, or payment confirmation page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在支付阶段停留在 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom，无法确认已到达收银台/支付确认页",
+          "suggestion_after": "提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在支付阶段停留在 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom，无法确认已到达收银台/支付确认页 -> 修改后：提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "使用",
+      "name": "使用",
+      "url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+      "title": "控制台",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_4_usage.png",
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "使用阶段入口未达成",
+          "area": "目标产品控制台",
+          "page_url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+          "locate": [
+            "控制台"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/console/?region=cn-east-3#/home；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Usage stage did not reach a usable console page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在使用阶段停留在 https://console.huaweicloud.com/console/?region=cn-east-3#/home，无法确认已到达目标产品控制台",
+          "suggestion_after": "提供稳定、可发现且可校验的目标产品控制台入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在使用阶段停留在 https://console.huaweicloud.com/console/?region=cn-east-3#/home，无法确认已到达目标产品控制台 -> 修改后：提供稳定、可发现且可校验的目标产品控制台入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "续费",
+      "name": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_5_renewal.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "变更",
+      "name": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_6_change.png",
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "变更阶段入口未达成",
+          "area": "产品变更/规格变更页",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00"
+          ],
+          "evidence": "阶段URL为 https://www.huaweicloud.com/notice/20260717153237724.html；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页",
+          "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页 -> 修改后：提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "退订",
+      "name": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_7_unsubscribe.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "web-感知-001",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "国际站登录提示的“不再显示此消息”选项不突出",
+      "area": "顶部导航区",
+      "page_url": "https://www.huaweicloud.com/product/ecs.html",
+      "locate": [
+        "不再显示此消息"
+      ],
+      "evidence": "视觉截图显示“不再显示此消息”文本字号小（约12px），颜色为深灰色，位于顶部横幅右侧，与背景对比度不足，且复选框图标较小，容易被用户忽略。DOM数据中，该提示文本周围的链接文本颜色为rgb(65, 145, 250)，而提示文本本身颜色为rgb(25, 25, 25)，但整体视觉权重低于主要信息。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "文本字号约12px，颜色#252525，复选框小",
+      "suggestion_after": "文本字号14px，颜色#595959，并增大复选框的视觉尺寸和点击区域，使其更易被发现和操作。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-002",
+      "section": "感知",
+      "type": "layout",
+      "severity": "p1",
+      "title": "价格约束提示“仅为实例规格参考价”视觉权重不足",
+      "area": "定价/套餐区",
+      "page_url": "https://www.huaweicloud.com/product/ecs.html",
+      "locate": [
+        "仅为实例规格参考价"
+      ],
+      "evidence": "视觉截图显示“仅为实例规格参考价”文本颜色为浅灰色，字号较小。DOM数据中，该文本的color为rgb(89, 89, 89)，fontSize为14px，与套餐名称和价格的视觉突出度相比明显不足，可能导致用户忽略重要的价格约束信息。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+      "suggestion_before": "color:rgb(89, 89, 89), fontSize:14px",
+      "suggestion_after": "color:rgb(199, 0, 11), fontSize:14px, font-weight:700，或将其放置在更醒目、更易于阅读的位置，例如在价格旁边添加一个醒目的提示图标。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-003",
+      "section": "感知",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "部分实例规格默认折叠，用户需额外点击才能查看",
+      "area": "定价/套餐区",
+      "page_url": "https://www.huaweicloud.com/product/ecs.html",
+      "locate": [
+        "最大带宽",
+        "最大收发包",
+        "por-icon por-icon-down"
+      ],
+      "evidence": "DOM数据显示“Flexus云服务器X实例”卡片中的“最大带宽”和“最大收发包”等规格信息被包含在`<div class=\"por-collapse\">`中，并通过`<a data-toggle=\"por-collapse\">`控制折叠状态，默认处于折叠状态，用户需要点击“向下箭头”图标才能展开查看。这增加了用户获取完整信息的步骤。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "默认折叠部分规格信息",
+      "suggestion_after": "默认展开所有关键规格信息，或对默认折叠的内容提供更明显的提示和引导，确保用户无需额外操作即可获取核心信息。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-支付-001",
+      "section": "支付",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "支付阶段入口未达成",
+      "area": "收银台/支付确认页",
+      "page_url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+      "locate": [
+        "弹性云服务器 - 控制台"
+      ],
+      "evidence": "阶段URL为 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Payment stage did not reach a servicePay, cashier, or payment confirmation page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "suggestion_before": "用户在支付阶段停留在 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom，无法确认已到达收银台/支付确认页",
+      "suggestion_after": "提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_3_payment.png"
+    },
+    {
+      "id": "web-使用-001",
+      "section": "使用",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "使用阶段入口未达成",
+      "area": "目标产品控制台",
+      "page_url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+      "locate": [
+        "控制台"
+      ],
+      "evidence": "阶段URL为 https://console.huaweicloud.com/console/?region=cn-east-3#/home；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Usage stage did not reach a usable console page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "suggestion_before": "用户在使用阶段停留在 https://console.huaweicloud.com/console/?region=cn-east-3#/home，无法确认已到达目标产品控制台",
+      "suggestion_after": "提供稳定、可发现且可校验的目标产品控制台入口，并在跳转失败时给出明确恢复路径",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-变更-001",
+      "section": "变更",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "变更阶段入口未达成",
+      "area": "产品变更/规格变更页",
+      "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "locate": [
+        "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00"
+      ],
+      "evidence": "阶段URL为 https://www.huaweicloud.com/notice/20260717153237724.html；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "suggestion_before": "用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页",
+      "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_6_change.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  },
+  "total_stages_analyzed": 7,
+  "stages_analyzed": [
+    "感知",
+    "下单",
+    "支付",
+    "使用",
+    "续费",
+    "变更",
+    "退订"
+  ],
+  "stages_missing": [],
+  "stage_analysis": {
+    "感知": {
+      "stage": "感知",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "国际站登录提示的“不再显示此消息”选项不突出",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/ecs.html",
+          "locate": [
+            "不再显示此消息"
+          ],
+          "evidence": "视觉截图显示“不再显示此消息”文本字号小（约12px），颜色为深灰色，位于顶部横幅右侧，与背景对比度不足，且复选框图标较小，容易被用户忽略。DOM数据中，该提示文本周围的链接文本颜色为rgb(65, 145, 250)，而提示文本本身颜色为rgb(25, 25, 25)，但整体视觉权重低于主要信息。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "文本字号约12px，颜色#252525，复选框小",
+          "suggestion_after": "文本字号14px，颜色#595959，并增大复选框的视觉尺寸和点击区域，使其更易被发现和操作。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "layout",
+          "severity": "p1",
+          "title": "价格约束提示“仅为实例规格参考价”视觉权重不足",
+          "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/product/ecs.html",
+          "locate": [
+            "仅为实例规格参考价"
+          ],
+          "evidence": "视觉截图显示“仅为实例规格参考价”文本颜色为浅灰色，字号较小。DOM数据中，该文本的color为rgb(89, 89, 89)，fontSize为14px，与套餐名称和价格的视觉突出度相比明显不足，可能导致用户忽略重要的价格约束信息。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+          "suggestion_before": "color:rgb(89, 89, 89), fontSize:14px",
+          "suggestion_after": "color:rgb(199, 0, 11), fontSize:14px, font-weight:700，或将其放置在更醒目、更易于阅读的位置，例如在价格旁边添加一个醒目的提示图标。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "部分实例规格默认折叠，用户需额外点击才能查看",
+          "area": "定价/套餐区",
+          "page_url": "https://www.huaweicloud.com/product/ecs.html",
+          "locate": [
+            "最大带宽",
+            "最大收发包",
+            "por-icon por-icon-down"
+          ],
+          "evidence": "DOM数据显示“Flexus云服务器X实例”卡片中的“最大带宽”和“最大收发包”等规格信息被包含在`<div class=\"por-collapse\">`中，并通过`<a data-toggle=\"por-collapse\">`控制折叠状态，默认处于折叠状态，用户需要点击“向下箭头”图标才能展开查看。这增加了用户获取完整信息的步骤。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "默认折叠部分规格信息",
+          "suggestion_after": "默认展开所有关键规格信息，或对默认折叠的内容提供更明显的提示和引导，确保用户无需额外操作即可获取核心信息。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "增强关键提示信息的视觉权重，确保用户能够清晰识别和理解重要约束条件。",
+        "优化信息展示方式，减少不必要的默认折叠，提高信息可发现性。",
+        "定期审查并更新页面上的静态信息，如版权年份，确保其准确性。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，产品信息丰富。顶部导航和首屏主视觉区设计合理，核心CTA按钮（购买、控制台、文档）功能明确且跳转目标正确。定价/套餐区提供了多种实例规格，但部分关键约束信息和规格细节的展示方式有待优化。底部版权年份存在错误。这些问题可能影响用户对产品信息的完整理解和信任度。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/ecs.html",
+      "title": "云服务器_云主机_弹性云服务器ECS_租用_购买-华为云",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_1_awareness.png"
+    },
+    "下单": {
+      "stage": "下单",
+      "url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+      "title": "弹性云服务器 - 控制台",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_2_order.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "支付": {
+      "stage": "支付",
+      "url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+      "title": "弹性云服务器 - 控制台",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "支付阶段入口未达成",
+          "area": "收银台/支付确认页",
+          "page_url": "https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom",
+          "locate": [
+            "弹性云服务器 - 控制台"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Payment stage did not reach a servicePay, cashier, or payment confirmation page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在支付阶段停留在 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom，无法确认已到达收银台/支付确认页",
+          "suggestion_after": "提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在支付阶段停留在 https://console.huaweicloud.com/ecm/?region=cn-east-3#/ecs/create/custom，无法确认已到达收银台/支付确认页 -> 修改后：提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_3_payment.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "使用": {
+      "stage": "使用",
+      "url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+      "title": "控制台",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "使用阶段入口未达成",
+          "area": "目标产品控制台",
+          "page_url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+          "locate": [
+            "控制台"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/console/?region=cn-east-3#/home；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Usage stage did not reach a usable console page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在使用阶段停留在 https://console.huaweicloud.com/console/?region=cn-east-3#/home，无法确认已到达目标产品控制台",
+          "suggestion_after": "提供稳定、可发现且可校验的目标产品控制台入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在使用阶段停留在 https://console.huaweicloud.com/console/?region=cn-east-3#/home，无法确认已到达目标产品控制台 -> 修改后：提供稳定、可发现且可校验的目标产品控制台入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_4_usage.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "续费": {
+      "stage": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_5_renewal.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "变更": {
+      "stage": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "变更阶段入口未达成",
+          "area": "产品变更/规格变更页",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00"
+          ],
+          "evidence": "阶段URL为 https://www.huaweicloud.com/notice/20260717153237724.html；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页",
+          "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页 -> 修改后：提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_6_change.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "退订": {
+      "stage": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/ecs/batch-20260720-161659-03/screenshots/screenshot_7_unsubscribe.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    }
+  }
+}

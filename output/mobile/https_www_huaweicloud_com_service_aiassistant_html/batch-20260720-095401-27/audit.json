@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/service/aiassistant.html",
+  "generated_at": "2026-07-20T04:30:37.124726+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 2,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/service/aiassistant.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "首屏顶部提示栏高度过大，挤压核心内容空间",
+          "area": "首屏头部",
+          "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM中 `div#header` 高度达到 168px（占 844px 视口高度的近 20%），导致首屏 Banner 和主 CTA 按钮被严重向下推送，降低了首屏核心价值主张的即时可见性。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "顶部提示栏高度 168px，采用多行文本展示。",
+          "suggestion_after": "在移动端将提示栏高度压缩至 60px 以内，采用单行滚动跑马灯或更紧凑的折叠图标设计，关闭后释放空间。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "首屏核心 CTA 按钮触控面积不足",
+          "area": "Banner 按钮组",
+          "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+          "locate": [
+            "立即体验",
+            "文档"
+          ],
+          "evidence": "“立即体验”按钮尺寸为 106x32px，“文档”按钮尺寸为 78x32px。高度仅 32px，远低于移动端推荐的最小触控高度 48px（或 44px）。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度 32px。",
+          "suggestion_after": "将移动端“立即体验”和“文档”按钮的高度提升至至少 44px，并适当增加水平间距，确保单手操作时易于点击。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "功能卡片内文本链接尺寸过小且间距极密，极易误触",
+          "area": "产品功能卡片区",
+          "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+          "locate": [
+            "查导航",
+            "问知识",
+            "查账单",
+            "导账单",
+            "查扣费",
+            "查欠费",
+            "成本分析",
+            "成本对比",
+            "多数据源交叉对账"
+          ],
+          "evidence": "上述链接的高度均只有 14px。其中“导账单”与“查扣费”的物理距离仅 6.7px，“成本对比”与“多数据源交叉对账”的物理距离仅 6.7px，严重违反移动端防误触间距标准。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "文本链接高度 14px，水平间距 6.7px。",
+          "suggestion_after": "在移动端将这些高频功能入口改用标签（Tag）或网格按钮（Grid Button）样式呈现，单个触控区域高度不低于 36px，且元素间距保持在 12px 以上。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "底部固定栏未适配全面屏安全区域",
+          "area": "底部固定栏",
+          "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "固定在底部的 App 推广栏 `div.tm-adv-space.light-btn` 高度为 66px，`bottom` 为 `0px`，但 `hasSafeAreaInset` 为 `false`，未适配 iOS/Android 全面屏底部的 Home 指示条区域。",
+          "standard": "移动端响应式规范",
+          "suggestion_before": "bottom: 0px 且无 safe-area-inset-bottom。",
+          "suggestion_after": "在 CSS 中为固定底部栏添加 `padding-bottom: env(safe-area-inset-bottom);`，防止系统手势区域与“立即下载”按钮重叠导致误触。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化首屏空间利用率，移动端应默认折叠或精简非核心的跨站提示公告。",
+        "全面排查并重构全页面的触控目标尺寸，确保所有主/次 CTA 按钮高度不低于 44px，普通文本链接转换为块级标签以提升触控体验。",
+        "针对全面屏设备，对所有 `position: fixed` 在底部或顶部的交互栏强制引入 Safe Area 适配。"
+      ],
+      "analysis_content": "云宝助手移动端页面整体响应式布局表现尚可，未发现明显的横向溢出问题，且侧边栏导航菜单可正常唤起。然而，页面在移动端触控体验（Tap Target）上存在严重缺陷：首屏主按钮及卡片内高频功能链接的尺寸过小、间距过密，极易引发误触；同时，首屏顶部公告栏占用空间过大，底部固定栏缺乏安全区适配，需要针对移动端手势和视觉特征进行专项优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "首屏顶部提示栏高度过大，挤压核心内容空间",
+      "area": "首屏头部",
+      "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM中 `div#header` 高度达到 168px（占 844px 视口高度的近 20%），导致首屏 Banner 和主 CTA 按钮被严重向下推送，降低了首屏核心价值主张的即时可见性。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "顶部提示栏高度 168px，采用多行文本展示。",
+      "suggestion_after": "在移动端将提示栏高度压缩至 60px 以内，采用单行滚动跑马灯或更紧凑的折叠图标设计，关闭后释放空间。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "首屏核心 CTA 按钮触控面积不足",
+      "area": "Banner 按钮组",
+      "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+      "locate": [
+        "立即体验",
+        "文档"
+      ],
+      "evidence": "“立即体验”按钮尺寸为 106x32px，“文档”按钮尺寸为 78x32px。高度仅 32px，远低于移动端推荐的最小触控高度 48px（或 44px）。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度 32px。",
+      "suggestion_after": "将移动端“立即体验”和“文档”按钮的高度提升至至少 44px，并适当增加水平间距，确保单手操作时易于点击。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "功能卡片内文本链接尺寸过小且间距极密，极易误触",
+      "area": "产品功能卡片区",
+      "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+      "locate": [
+        "查导航",
+        "问知识",
+        "查账单",
+        "导账单",
+        "查扣费",
+        "查欠费",
+        "成本分析",
+        "成本对比",
+        "多数据源交叉对账"
+      ],
+      "evidence": "上述链接的高度均只有 14px。其中“导账单”与“查扣费”的物理距离仅 6.7px，“成本对比”与“多数据源交叉对账”的物理距离仅 6.7px，严重违反移动端防误触间距标准。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "文本链接高度 14px，水平间距 6.7px。",
+      "suggestion_after": "在移动端将这些高频功能入口改用标签（Tag）或网格按钮（Grid Button）样式呈现，单个触控区域高度不低于 36px，且元素间距保持在 12px 以上。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "底部固定栏未适配全面屏安全区域",
+      "area": "底部固定栏",
+      "page_url": "https://www.huaweicloud.com/service/aiassistant.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "固定在底部的 App 推广栏 `div.tm-adv-space.light-btn` 高度为 66px，`bottom` 为 `0px`，但 `hasSafeAreaInset` 为 `false`，未适配 iOS/Android 全面屏底部的 Home 指示条区域。",
+      "standard": "移动端响应式规范",
+      "suggestion_before": "bottom: 0px 且无 safe-area-inset-bottom。",
+      "suggestion_after": "在 CSS 中为固定底部栏添加 `padding-bottom: env(safe-area-inset-bottom);`，防止系统手势区域与“立即下载”按钮重叠导致误触。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_aiassistant_html/batch-20260720-095401-27/screenshots/https_www_huaweicloud_com_service_aiassistant_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

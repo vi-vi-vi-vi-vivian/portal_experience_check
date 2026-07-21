@@ -1,0 +1,967 @@
+{
+  "input_url": "https://account.huaweicloud.com/u",
+  "audit_time": "2026-07-20T02:14:19.996472+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_top.png",
+    "scroll_screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_scroll.png",
+    "full_screenshot": "../../output/mobile/https_account_huaweicloud_com_u/batch-20260720-095401-04/screenshots/https_account_huaweicloud_com_u_full.png",
+    "menu_screenshot": null
+  },
+  "dom": {
+    "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Faccount.huaweicloud.com%2Fusercenter%2F#/login",
+    "title": "Huawei Cloud - Login",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 844
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html > body.ng-scope > div#content",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help Use Another Account IAM User | More We use your networ",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 766,
+        "scrollHeight": 818,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "765.672px"
+      },
+      {
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div#hwidsdk_mudule_container",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "422.188px"
+      },
+      {
+        "path": "div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div#hwidsdk_mudule_container > div.hwidsdk_mudule",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "422.188px"
+      },
+      {
+        "path": "div.loginDiv.ng-scope > div#hwLoginDivId > div#hwidsdk_mudule_container > div.hwidsdk_mudule > div.hwid-root",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div#hwLoginDivId > div#hwidsdk_mudule_container > div.hwidsdk_mudule > div.hwid-root > div.hwid-login-root",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div#hwidsdk_mudule_container > div.hwidsdk_mudule > div.hwid-root > div.hwid-login-root > div",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div.hwidsdk_mudule > div.hwid-root > div.hwid-login-root > div > div.hwid-login-container",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div.hwid-root > div.hwid-login-root > div > div.hwid-login-container > div",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div.hwid-login-root > div > div.hwid-login-container > div > div",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div > div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3",
+        "text": "HUAWEI ID login Double-tap and hold to have the password read aloud REGISTER LOG IN Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 422,
+        "scrollHeight": 426,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "422.188px"
+      },
+      {
+        "path": "div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem",
+        "text": "Forgot password? Help",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 18,
+        "scrollHeight": 22,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "18.1875px"
+      },
+      {
+        "path": "div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "text": "Forgot password?",
+        "clientWidth": 151,
+        "scrollWidth": 151,
+        "clientHeight": 18,
+        "scrollHeight": 22,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "18.1875px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 11
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "body.ng-scope > div#banner > div.widthLimit.ng-scope > div.ng-scope > a",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 8,
+        "width": 141,
+        "height": 19,
+        "area": 2674.25
+      },
+      {
+        "index": 1,
+        "path": "form > div.hwid-textInput-root.hwid-login-input-wrap.hwid-login-input-mt40 > div.hwid-input-area > div.hwid-input-content > input.hwid-input.userAccount",
+        "text": "",
+        "tag": "input",
+        "x": 15,
+        "y": 219,
+        "width": 360,
+        "height": 40,
+        "area": 14400
+      },
+      {
+        "index": 2,
+        "path": "div.hwid-pwdlogin-root-v3 > form > div.hwid-password-root.hwid-login-input-wrap > div.hwid-input-area > input.hwid-input",
+        "text": "",
+        "tag": "input",
+        "x": 15,
+        "y": 272,
+        "width": 288,
+        "height": 40,
+        "area": 11520
+      },
+      {
+        "index": 3,
+        "path": "form > div.hwid-password-root.hwid-login-input-wrap > div.hwid-input-area > span.hwid-pwdright-icon > i",
+        "text": "Display password",
+        "tag": "i",
+        "x": 351,
+        "y": 280,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      {
+        "index": 4,
+        "path": "div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-button-base-box1 > div.normalBtn.btnWidth100",
+        "text": "REGISTER",
+        "tag": "div",
+        "x": 15,
+        "y": 433,
+        "width": 360,
+        "height": 40,
+        "area": 14400
+      },
+      {
+        "index": 5,
+        "path": "div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-btn-primary.hwid-disabled > div.normalBtn.btnWidth100",
+        "text": "LOG IN",
+        "tag": "div",
+        "x": 15,
+        "y": 377,
+        "width": 360,
+        "height": 40,
+        "area": 14400
+      },
+      {
+        "index": 6,
+        "path": "div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "text": "Forgot password?",
+        "tag": "div",
+        "x": 104,
+        "y": 489,
+        "width": 119,
+        "height": 18,
+        "area": 2155.787109375
+      },
+      {
+        "index": 7,
+        "path": "div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "text": "Help",
+        "tag": "div",
+        "x": 255,
+        "y": 489,
+        "width": 31,
+        "height": 18,
+        "area": 564.0966796875
+      },
+      {
+        "index": 8,
+        "path": "div.other-login-content > div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope > div.login-more.ng-scope > span#IAMLinkDiv.otherItemDiv",
+        "text": "IAM User",
+        "tag": "span",
+        "x": 131,
+        "y": 614,
+        "width": 61,
+        "height": 19,
+        "area": 1166.71875
+      },
+      {
+        "index": 9,
+        "path": "div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text",
+        "text": "More",
+        "tag": "div",
+        "x": 211,
+        "y": 613,
+        "width": 48,
+        "height": 21,
+        "area": 1004.0625
+      },
+      {
+        "index": 10,
+        "path": "div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "text": "Learn more",
+        "tag": "a",
+        "x": 80,
+        "y": 695,
+        "width": 61,
+        "height": 16,
+        "area": 976
+      }
+    ],
+    "closePairs": [],
+    "forms": [
+      {
+        "path": "form > div.hwid-textInput-root.hwid-login-input-wrap.hwid-login-input-mt40 > div.hwid-input-area > div.hwid-input-content > input.hwid-input.userAccount",
+        "tag": "input",
+        "type": "text",
+        "placeholder": "Phone/Email/Login ID/HUAWEI CLOUD account name",
+        "inputmode": "",
+        "autocomplete": "off",
+        "y": 219,
+        "width": 360,
+        "height": 40,
+        "nearBottom": false
+      },
+      {
+        "path": "div.hwid-pwdlogin-root-v3 > form > div.hwid-password-root.hwid-login-input-wrap > div.hwid-input-area > input.hwid-input",
+        "tag": "input",
+        "type": "password",
+        "placeholder": "Password",
+        "inputmode": "",
+        "autocomplete": "off",
+        "y": 272,
+        "width": 288,
+        "height": 40,
+        "nearBottom": false
+      }
+    ],
+    "images": [
+      {
+        "path": "div#banner > div.widthLimit.ng-scope > div.ng-scope > a > img#logo",
+        "alt": "",
+        "src": "https://console-static.huaweicloud.com/static/authui/20260630094949/public/hws/images/logo-en.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 141,
+        "height": 28,
+        "top": 10,
+        "belowFold": false
+      },
+      {
+        "path": "div.hwid-header-tab > div.header-contain-center.center > div.header-icon-v3 > div.hwid-avatar-root.hwid-avatar-preWidth-48 > img.hwid-avatar-circle",
+        "alt": "",
+        "src": "https://h5hosting-dra.dbankcdn.com/cch5/HWIDPlatform/red-UnifiedIDMPortal/rss_20260615/UnifiedIDMPortal/vue3/jssdk/vue3/vuebuild/img/ic_login_avatar.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 48,
+        "height": 48,
+        "top": 85,
+        "belowFold": false
+      },
+      {
+        "path": "div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.login-more-text-icon > img.otherAccountsClose",
+        "alt": "",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77",
+        "ext": "unknown",
+        "loading": "",
+        "width": 10,
+        "height": 10,
+        "top": 620,
+        "belowFold": false
+      },
+      {
+        "path": "div#footer > div.widthLimit.ng-scope > div#cookieMsgDivId.cookieMsgContainer.ng-scope > div.cookieMsgContent > img.cookieWarnImg",
+        "alt": "",
+        "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dH",
+        "ext": "unknown",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 780,
+        "belowFold": false
+      }
+    ],
+    "imageIssues": [],
+    "cssRules": [
+      {
+        "type": "wide-width",
+        "selector": "#loginAdv",
+        "media": "",
+        "css": "#loginAdv {\n  width: 800px; height: 515px; margin-top: 80px;\n  & #loginAdImgDefault { max-width: 800px; }\n}"
+      },
+      {
+        "type": "hover",
+        "selector": ".loginBtn:active, .loginBtn:focus, .loginBtn:hover",
+        "media": "",
+        "css": ".loginBtn:active, .loginBtn:focus, .loginBtn:hover { cursor: pointer; box-shadow: rgba(246, 111, 106, 0.3) 0px 8px 16px; outline: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".loginBtn:hover",
+        "media": "",
+        "css": ".loginBtn:hover { background: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".loginBtnDisabled:active, .loginBtnDisabled:focus, .loginBtnDisabled:hover",
+        "media": "",
+        "css": ".loginBtnDisabled:active, .loginBtnDisabled:focus, .loginBtnDisabled:hover { background-color: rgba(199, 2, 11, 0.3); box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#bottomBtns .forgetPwdLink:hover, .closeImg, .learnMoreLink",
+        "media": "",
+        "css": "#bottomBtns .forgetPwdLink:hover, .closeImg, .learnMoreLink { color: rgb(82, 110, 204); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".otherLoginWays .otherItemDiv:hover",
+        "media": "",
+        "css": ".otherLoginWays .otherItemDiv:hover { cursor: pointer; opacity: 1; color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".iam-name-tooltip a, .iam-name-tooltip a:hover",
+        "media": "",
+        "css": ".iam-name-tooltip a, .iam-name-tooltip a:hover { color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".privacyMsgLink:hover",
+        "media": "",
+        "css": ".privacyMsgLink:hover { text-decoration: none; color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputClearIcon:hover, input:focus + .inputClearIcon",
+        "media": "",
+        "css": ".inputClearIcon:hover, input:focus + .inputClearIcon { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".QRLoginBottomColor:active, .QRLoginBottomColor:focus, .QRLoginBottomColor:hover",
+        "media": "",
+        "css": ".QRLoginBottomColor:active, .QRLoginBottomColor:focus, .QRLoginBottomColor:hover { color: rgb(82, 110, 204); text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .userOptionDiv:hover",
+        "media": "",
+        "css": "#quickLoginDiv .userOptionDiv:hover { background: rgb(230, 230, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .inputField .icon-clear:hover, #quickLoginDiv .inputFieldFocused .icon-clear",
+        "media": "",
+        "css": "#quickLoginDiv .inputField .icon-clear:hover, #quickLoginDiv .inputFieldFocused .icon-clear { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .users-dropdown-option:hover",
+        "media": "",
+        "css": "#quickLoginDiv .users-dropdown-option:hover { background: rgb(230, 230, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .registerDiv:hover",
+        "media": "",
+        "css": "#quickLoginDiv .registerDiv:hover { cursor: pointer; opacity: 1; color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-content div:hover",
+        "media": "",
+        "css": ".dropdown-content div:hover { background-color: rgba(199, 0, 11, 0.05); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".login-more-select-option:hover",
+        "media": "",
+        "css": ".login-more-select-option:hover { color: rgb(82, 110, 204); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 13,
+    "testedCount": 12,
+    "issueCount": 0,
+    "candidates": [
+      {
+        "text": "Learn more",
+        "href": "https://legal.cloud.huawei.asia/legal/id/unifiedidprivacyurl.htm?language=en-us&code=HK&version=20200901",
+        "tag": "a",
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "className": "ng-binding ng-scope",
+        "top": 695,
+        "left": 80,
+        "width": 61,
+        "height": 16,
+        "importance": 108,
+        "ordinal": 0
+      },
+      {
+        "text": "IAM User | More",
+        "href": "",
+        "tag": "div",
+        "path": "div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope",
+        "className": "login-more-width ng-scope",
+        "top": 613,
+        "left": 15,
+        "width": 360,
+        "height": 21,
+        "importance": 100,
+        "ordinal": 1
+      },
+      {
+        "text": "More",
+        "href": "",
+        "tag": "div",
+        "path": "div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope",
+        "className": "login-more-box ng-scope",
+        "top": 613,
+        "left": 211,
+        "width": 48,
+        "height": 21,
+        "importance": 100,
+        "ordinal": 2
+      },
+      {
+        "text": "REGISTER LOG IN",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap",
+        "className": "hwid-login-btn-wrap",
+        "top": 369,
+        "left": 15,
+        "width": 360,
+        "height": 112,
+        "importance": 20,
+        "ordinal": 3
+      },
+      {
+        "text": "LOG IN",
+        "href": "",
+        "tag": "div",
+        "path": "div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-btn-primary.hwid-disabled",
+        "className": "hwid-button-base-box hwid-btn-primary hwid-disabled pwd-login-login-btn-class hwid-button-base-box2",
+        "top": 369,
+        "left": 15,
+        "width": 360,
+        "height": 56,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "LOG IN",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-btn-primary.hwid-disabled > div.normalBtn.btnWidth100",
+        "className": "normalBtn btnWidth100",
+        "top": 377,
+        "left": 15,
+        "width": 360,
+        "height": 40,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "REGISTER",
+        "href": "",
+        "tag": "div",
+        "path": "div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-button-base-box1",
+        "className": "hwid-button-base-box hwid-button-base-box1",
+        "top": 425,
+        "left": 15,
+        "width": 360,
+        "height": 56,
+        "importance": 20,
+        "ordinal": 6
+      },
+      {
+        "text": "REGISTER",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-button-base-box1 > div.normalBtn.btnWidth100",
+        "className": "normalBtn btnWidth100",
+        "top": 433,
+        "left": 15,
+        "width": 360,
+        "height": 40,
+        "importance": 20,
+        "ordinal": 7
+      },
+      {
+        "text": "Forgot password?",
+        "href": "",
+        "tag": "div",
+        "path": "div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "className": "hwid-button-base-box hwid-link",
+        "top": 489,
+        "left": 88,
+        "width": 151,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 8
+      },
+      {
+        "text": "Forgot password?",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "className": "hwid-text-btn",
+        "top": 489,
+        "left": 104,
+        "width": 119,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 9
+      },
+      {
+        "text": "Help",
+        "href": "",
+        "tag": "div",
+        "path": "div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "className": "hwid-button-base-box hwid-link",
+        "top": 489,
+        "left": 239,
+        "width": 63,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 10
+      },
+      {
+        "text": "Help",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "className": "hwid-text-btn",
+        "top": 489,
+        "left": 255,
+        "width": 31,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 11
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "span",
+        "path": "div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.login-more-text-icon",
+        "className": "login-more-text-icon",
+        "top": 613,
+        "left": 249,
+        "width": 10,
+        "height": 21,
+        "importance": 20,
+        "ordinal": 12
+      }
+    ],
+    "results": [
+      {
+        "text": "Learn more",
+        "tag": "a",
+        "href": "https://legal.cloud.huawei.asia/legal/id/unifiedidprivacyurl.htm?language=en-us&code=HK&version=20200901",
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "rect": {
+          "left": 80,
+          "top": 695,
+          "width": 61,
+          "height": 16
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "Learn more",
+          "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+          "className": "ng-binding ng-scope"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Faccount.huaweicloud.com%2Fusercenter%2F#/login",
+        "afterUrl": "https://legal.cloud.huawei.asia/legal/id/unifiedidprivacyurl.htm?language=en-us&code=HK&version=20200901",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://legal.cloud.huawei.asia/legal/id/unifiedidprivacyurl.htm?language=en-us&code=HK&version=20200901",
+          "scrollY": 0,
+          "bodyLength": 0,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 365,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "IAM User | More",
+        "tag": "div",
+        "href": "",
+        "path": "div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope",
+        "rect": {
+          "left": 15,
+          "top": 613,
+          "width": 360,
+          "height": 21
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "IAM User | More",
+          "path": "div.loginDiv.ng-scope > div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope > div.login-more.ng-scope",
+          "className": "login-more ng-scope"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Faccount.huaweicloud.com%2Fusercenter%2F#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Faccount.huaweicloud.com%2Fusercenter%2F#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Faccount.huaweicloud.com%2Fusercenter%2F#/login",
+          "scrollY": 0,
+          "bodyLength": 216,
+          "overlayCount": 0,
+          "mutations": 17,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 149,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "More",
+        "tag": "div",
+        "href": "",
+        "path": "div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forPc.ng-scope > div.login-more-width.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope",
+        "rect": {
+          "left": 211,
+          "top": 613,
+          "width": 48,
+          "height": 21
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "REGISTER LOG IN",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap",
+        "rect": {
+          "left": 15,
+          "top": 369,
+          "width": 360,
+          "height": 112
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "LOG IN",
+        "tag": "div",
+        "href": "",
+        "path": "div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-btn-primary.hwid-disabled",
+        "rect": {
+          "left": 15,
+          "top": 369,
+          "width": 360,
+          "height": 56
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "LOG IN",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-btn-primary.hwid-disabled > div.normalBtn.btnWidth100",
+        "rect": {
+          "left": 15,
+          "top": 377,
+          "width": 360,
+          "height": 40
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "REGISTER",
+        "tag": "div",
+        "href": "",
+        "path": "div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-button-base-box1",
+        "rect": {
+          "left": 15,
+          "top": 425,
+          "width": 360,
+          "height": 56
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "REGISTER",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-btn-group.normal-line-group.showBtnTwo > div.hwid-button-base-box.hwid-button-base-box1 > div.normalBtn.btnWidth100",
+        "rect": {
+          "left": 15,
+          "top": 433,
+          "width": 360,
+          "height": 40
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "Forgot password?",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "rect": {
+          "left": 88,
+          "top": 489,
+          "width": 151,
+          "height": 18
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "Forgot password?",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "rect": {
+          "left": 104,
+          "top": 489,
+          "width": 119,
+          "height": 18
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "Help",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-login-container > div > div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "rect": {
+          "left": 239,
+          "top": 489,
+          "width": 63,
+          "height": 18
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      },
+      {
+        "text": "Help",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-pwdlogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "rect": {
+          "left": 255,
+          "top": 489,
+          "width": 31,
+          "height": 18
+        },
+        "status": "not-tested",
+        "possibleCause": "candidate-not-found",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {}
+      }
+    ],
+    "issues": []
+  },
+  "tapActionIssues": [],
+  "after_scroll_ctas": [],
+  "menu": {
+    "attempted": false,
+    "opened": false,
+    "candidates": []
+  }
+}

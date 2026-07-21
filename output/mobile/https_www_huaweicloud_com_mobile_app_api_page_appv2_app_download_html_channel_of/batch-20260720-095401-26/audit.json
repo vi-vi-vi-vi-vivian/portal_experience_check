@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+  "generated_at": "2026-07-20T04:25:55.257549+00:00",
+  "summary": {
+    "score": 3,
+    "issue_count": 2,
+    "p0": 0,
+    "p1": 1,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "title": null,
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "主要行动按钮无响应",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+          "locate": [
+            "立即下载",
+            "打开APP"
+          ],
+          "evidence": "DOM元素 `div#download-btn` (文案: \"立即下载\", 尺寸: 宽328px, 高44px) 和 `div#open-btn` (文案: \"打开APP\", 尺寸: 宽328px, 高44px) 在点击后，`tapActionAudit.results` 显示 `status: \"no-visible-effect\"`，且 `urlChanged: false`, `scrollChanged: 0`, `overlayDelta: 0`。这表明点击这些按钮没有触发任何可见的页面行为或导航。",
+          "standard": "Nielsen #4 (错误预防), #5 (帮助用户识别、诊断和恢复错误)",
+          "suggestion_before": "点击“立即下载”和“打开APP”按钮无任何反馈或功能执行。",
+          "suggestion_after": "确保“立即下载”按钮点击后能正确触发App下载（如跳转到应用商店或直接下载APK），“打开APP”按钮点击后能尝试通过Universal Link或App Scheme打开华为云App。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "底部法律链接触控区域过小",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+          "locate": [
+            "隐私协议",
+            "用户权限"
+          ],
+          "evidence": "DOM元素 `a` (文案: \"隐私协议\", 尺寸: 宽40px, 高14px, 面积: 560px²) 和 `a#userJurisdiction` (文案: \"用户权限\", 尺寸: 宽43px, 高14px, 面积: 606.8125px²)。这些链接的触控区域远小于移动端推荐的最小触控目标尺寸（通常为48x48px）。",
+          "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size (Minimum)",
+          "suggestion_before": "底部“隐私协议”和“用户权限”链接的触控区域过小，难以准确点击。",
+          "suggestion_after": "增大“隐私协议”和“用户权限”链接的触控区域，使其至少达到48x48px，可以通过增加内边距（padding）或外边距（margin）来扩大可点击范围，同时保持视觉布局不变。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_top.png"
+        }
+      ],
+      "suggestions": [
+        "优先修复页面核心功能，即确保“立即下载”和“打开APP”按钮能够正常工作，这是该页面存在的根本目的。",
+        "优化页面底部法律链接的触控区域，提升用户在移动设备上的点击体验和准确性。"
+      ],
+      "analysis_content": "该华为云App下载页面在移动端布局响应式方面表现良好，无横向溢出或文字换行问题。首屏信息层级清晰，产品主题和主要行动点（CTA）易于识别。然而，页面存在两项关键可用性问题：最主要的“立即下载”和“打开APP”按钮在点击后无任何可见反馈或功能执行，这严重阻碍了用户完成页面核心任务。此外，页面底部的法律链接触控区域过小，可能导致用户误触或难以点击。这些问题显著影响了用户体验和页面的有效性。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "主要行动按钮无响应",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "locate": [
+        "立即下载",
+        "打开APP"
+      ],
+      "evidence": "DOM元素 `div#download-btn` (文案: \"立即下载\", 尺寸: 宽328px, 高44px) 和 `div#open-btn` (文案: \"打开APP\", 尺寸: 宽328px, 高44px) 在点击后，`tapActionAudit.results` 显示 `status: \"no-visible-effect\"`，且 `urlChanged: false`, `scrollChanged: 0`, `overlayDelta: 0`。这表明点击这些按钮没有触发任何可见的页面行为或导航。",
+      "standard": "Nielsen #4 (错误预防), #5 (帮助用户识别、诊断和恢复错误)",
+      "suggestion_before": "点击“立即下载”和“打开APP”按钮无任何反馈或功能执行。",
+      "suggestion_after": "确保“立即下载”按钮点击后能正确触发App下载（如跳转到应用商店或直接下载APK），“打开APP”按钮点击后能尝试通过Universal Link或App Scheme打开华为云App。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "底部法律链接触控区域过小",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=official",
+      "locate": [
+        "隐私协议",
+        "用户权限"
+      ],
+      "evidence": "DOM元素 `a` (文案: \"隐私协议\", 尺寸: 宽40px, 高14px, 面积: 560px²) 和 `a#userJurisdiction` (文案: \"用户权限\", 尺寸: 宽43px, 高14px, 面积: 606.8125px²)。这些链接的触控区域远小于移动端推荐的最小触控目标尺寸（通常为48x48px）。",
+      "standard": "WCAG 2.1 Success Criterion 2.5.5 Target Size (Minimum)",
+      "suggestion_before": "底部“隐私协议”和“用户权限”链接的触控区域过小，难以准确点击。",
+      "suggestion_after": "增大“隐私协议”和“用户权限”链接的触控区域，使其至少达到48x48px，可以通过增加内边距（padding）或外边距（margin）来扩大可点击范围，同时保持视觉布局不变。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of/batch-20260720-095401-26/screenshots/https_www_huaweicloud_com_mobile_app_api_page_appv2_app_download_html_channel_of_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

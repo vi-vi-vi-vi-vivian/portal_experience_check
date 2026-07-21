@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+  "generated_at": "2026-07-20T01:58:13.247628+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 6,
+    "p0": 0,
+    "p1": 2,
+    "p2": 4
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "首屏顶部提示遮挡主要内容",
+          "area": "首屏信息层级",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+          "locate": [
+            "顶部国际站提示"
+          ],
+          "evidence": "DOM: `div#header.nav-medium-padding.show-top-prompt.show-prompt-ip` 元素，`height: 168px`，`top: 0`。该提示占据首屏顶部大量空间，将页面核心内容向下推移。",
+          "standard": "Nielsen #1 (Visibility of system status)",
+          "suggestion_before": "顶部提示固定高度168px，遮挡首屏内容。",
+          "suggestion_after": "优化顶部提示的展示方式，例如缩小高度、提供更明显的关闭按钮，或在用户首次访问时以浮层形式展示，减少对首屏核心内容的干扰。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "多个链接点击区域过小",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+          "locate": [
+            "国际站链接",
+            "Banner副标题链接",
+            "页脚热门产品链接",
+            "页脚社交媒体图标"
+          ],
+          "evidence": "SmallTargets列表显示多处点击区域小于44x44px：\n- 顶部提示链接 'https://www.huaweicloud.com/intl/' (`path: div.header-prompt > ... > p > a`): `width: 179px`, `height: 14px`。\n- Banner副标题链接 '专业办公级PPT一键生成' (`path: div.por-container > ... > a.por-link.por-link-primary.banner-item__subtitle-item`): `width: 151px`, `height: 18px`。\n- 页脚热门产品链接 '弹性云服务器' (`path: div.footer-hots-mb > ... > ul > li > a`): `width: 84px`, `height: 16px`。\n- 页脚社交媒体图标链接 (`path: div.footer-copyright-container... > i.footer-icon-record1 > a`): `width: 12px`, `height: 12px`。",
+          "standard": "Apple Human Interface Guidelines (Minimum tappable area 44x44pt), Google Material Design (Minimum touch target size 48x48dp)",
+          "suggestion_before": "点击区域过小，如14x14px。",
+          "suggestion_after": "增大所有可点击元素的触控区域至至少44x44px，可以通过增加内边距（padding）或设置最小尺寸来实现，同时保持视觉设计不变。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "Banner副标题链接点击无明确反馈",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+          "locate": [
+            "专业办公级PPT一键生成",
+            "专家团研讨避免幻觉",
+            "安全高效随时待命"
+          ],
+          "evidence": "TapActionAudit结果显示：\n- '专业办公级PPT一键生成' (`path: div.por-container > ... > a.por-link.por-link-primary.banner-item__subtitle-item`): `href=\"javascript:void(0)\"`, `status: \"effective\"`, `urlChanged: false`, `scrollChanged: 0`。\n- '专家团研讨避免幻觉' 和 '安全高效随时待命' 具有相同行为。点击后页面无明显变化，用户无从得知是否成功交互。",
+          "standard": "Nielsen #1 (Visibility of system status)",
+          "suggestion_before": "点击`href=\"javascript:void(0)\"`链接后无视觉或功能反馈。",
+          "suggestion_after": "为这些链接添加明确的点击反馈，例如滚动到页面相关部分、展开更多信息、显示提示信息或导航到相关详情页。如果仅为装饰性文本，应移除其链接属性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "固定底部栏“立即下载”按钮点击无明确反馈",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+          "locate": [
+            "立即下载"
+          ],
+          "evidence": "TapActionAudit结果显示：\n- '立即下载' 按钮 (`path: div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner`): `href: \"\"`, `status: \"effective\"`, `urlChanged: false`, `scrollChanged: 0`。点击后未触发下载或页面跳转。",
+          "standard": "Nielsen #1 (Visibility of system status)",
+          "suggestion_before": "点击“立即下载”按钮后无下载或跳转行为。",
+          "suggestion_after": "确保“立即下载”按钮点击后能触发实际的下载操作（如APK下载）或跳转到下载指引页面，并提供明确的加载或下载状态反馈。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-005",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "固定底部栏遮挡页面内容",
+          "area": "移动端响应式布局",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM: `div#footer > div.tm-adv-space.light-btn` 元素，`position: \"fixed\"`, `height: 66px`, `bottom: \"0px\"`。该固定底部栏在页面滚动到底部时会遮挡页脚的版权信息和备案号等内容。",
+          "standard": "Nielsen #8 (Aesthetic and minimalist design)",
+          "suggestion_before": "固定底部栏遮挡页脚内容。",
+          "suggestion_after": "在页面底部内容区域增加一个与固定底部栏高度相等的内边距（padding-bottom），确保所有内容在滚动时都能完全显示，不被遮挡。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-006",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "内容块和图片点击行为不明确",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+          "locate": [
+            "邀请码：AgentArtsUVMRQ2 下载PC端，输入邀请码，开启智能办公",
+            "创意即刻呈现，专业级 PPT 精准生成 (图片)"
+          ],
+          "evidence": "TapActionAudit结果显示：\n- 文本内容块 '邀请码：AgentArtsUVMRQ2 下载PC端，输入邀请码，开启智能办公' (`path: div.por-tab-container.combination > ... > div.scence-content-wrapper.row-reverse.card-grey`): `tag: \"div\"`, `href: \"\"`, `status: \"effective\"`，点击后 `after.scrollY` 变为352，触发页面滚动而非内容展开或导航。\n- 图片元素 (`path: div.por-section-body > ... > img.card-bg-img.img-mb.lazyload`): `tag: \"img\"`, `href: \"\"`, `status: \"effective\"`，点击后无任何反馈。",
+          "standard": "Nielsen #2 (Match between system and the real world), #5 (Error prevention)",
+          "suggestion_before": "内容块和图片被检测为可点击并触发滚动或无反馈。",
+          "suggestion_after": "对于内容块，如果点击是为了滚动到特定区域，应使用更明确的指示（如“查看详情”按钮或箭头），而不是让整个内容块可点击。对于图片，如果无交互功能，应移除其可点击属性；如果图片是可点击的，应确保其点击行为有明确的视觉反馈和功能结果。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化首屏布局，减少顶部提示对核心内容的遮挡，提升产品主题和主CTA的可见性。",
+        "统一并增大所有可点击元素的触控区域，确保符合移动端设计规范，提升用户操作的准确性和舒适度。",
+        "为所有可点击元素提供明确的视觉或功能反馈，避免用户点击后产生困惑或认为功能失效。",
+        "审查并规范内容块和图片的交互行为，确保其可点击性与用户预期功能相符，避免误导性交互。"
+      ],
+      "analysis_content": "华为云OfficeAce移动端页面在首屏信息层级、触控体验和响应式布局方面存在多项可用性问题。顶部国际站提示和固定底部栏对页面内容的遮挡，以及大量过小的点击区域和点击后缺乏明确反馈的元素，严重影响了用户体验。特别是“立即下载”等关键CTA的无反馈问题，可能导致用户流失。建议对这些问题进行优先修复，以提升页面的整体可用性和用户满意度。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "首屏顶部提示遮挡主要内容",
+      "area": "首屏信息层级",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "locate": [
+        "顶部国际站提示"
+      ],
+      "evidence": "DOM: `div#header.nav-medium-padding.show-top-prompt.show-prompt-ip` 元素，`height: 168px`，`top: 0`。该提示占据首屏顶部大量空间，将页面核心内容向下推移。",
+      "standard": "Nielsen #1 (Visibility of system status)",
+      "suggestion_before": "顶部提示固定高度168px，遮挡首屏内容。",
+      "suggestion_after": "优化顶部提示的展示方式，例如缩小高度、提供更明显的关闭按钮，或在用户首次访问时以浮层形式展示，减少对首屏核心内容的干扰。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "多个链接点击区域过小",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "locate": [
+        "国际站链接",
+        "Banner副标题链接",
+        "页脚热门产品链接",
+        "页脚社交媒体图标"
+      ],
+      "evidence": "SmallTargets列表显示多处点击区域小于44x44px：\n- 顶部提示链接 'https://www.huaweicloud.com/intl/' (`path: div.header-prompt > ... > p > a`): `width: 179px`, `height: 14px`。\n- Banner副标题链接 '专业办公级PPT一键生成' (`path: div.por-container > ... > a.por-link.por-link-primary.banner-item__subtitle-item`): `width: 151px`, `height: 18px`。\n- 页脚热门产品链接 '弹性云服务器' (`path: div.footer-hots-mb > ... > ul > li > a`): `width: 84px`, `height: 16px`。\n- 页脚社交媒体图标链接 (`path: div.footer-copyright-container... > i.footer-icon-record1 > a`): `width: 12px`, `height: 12px`。",
+      "standard": "Apple Human Interface Guidelines (Minimum tappable area 44x44pt), Google Material Design (Minimum touch target size 48x48dp)",
+      "suggestion_before": "点击区域过小，如14x14px。",
+      "suggestion_after": "增大所有可点击元素的触控区域至至少44x44px，可以通过增加内边距（padding）或设置最小尺寸来实现，同时保持视觉设计不变。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "Banner副标题链接点击无明确反馈",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "locate": [
+        "专业办公级PPT一键生成",
+        "专家团研讨避免幻觉",
+        "安全高效随时待命"
+      ],
+      "evidence": "TapActionAudit结果显示：\n- '专业办公级PPT一键生成' (`path: div.por-container > ... > a.por-link.por-link-primary.banner-item__subtitle-item`): `href=\"javascript:void(0)\"`, `status: \"effective\"`, `urlChanged: false`, `scrollChanged: 0`。\n- '专家团研讨避免幻觉' 和 '安全高效随时待命' 具有相同行为。点击后页面无明显变化，用户无从得知是否成功交互。",
+      "standard": "Nielsen #1 (Visibility of system status)",
+      "suggestion_before": "点击`href=\"javascript:void(0)\"`链接后无视觉或功能反馈。",
+      "suggestion_after": "为这些链接添加明确的点击反馈，例如滚动到页面相关部分、展开更多信息、显示提示信息或导航到相关详情页。如果仅为装饰性文本，应移除其链接属性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "固定底部栏“立即下载”按钮点击无明确反馈",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "locate": [
+        "立即下载"
+      ],
+      "evidence": "TapActionAudit结果显示：\n- '立即下载' 按钮 (`path: div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner`): `href: \"\"`, `status: \"effective\"`, `urlChanged: false`, `scrollChanged: 0`。点击后未触发下载或页面跳转。",
+      "standard": "Nielsen #1 (Visibility of system status)",
+      "suggestion_before": "点击“立即下载”按钮后无下载或跳转行为。",
+      "suggestion_after": "确保“立即下载”按钮点击后能触发实际的下载操作（如APK下载）或跳转到下载指引页面，并提供明确的加载或下载状态反馈。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-005",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "固定底部栏遮挡页面内容",
+      "area": "移动端响应式布局",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM: `div#footer > div.tm-adv-space.light-btn` 元素，`position: \"fixed\"`, `height: 66px`, `bottom: \"0px\"`。该固定底部栏在页面滚动到底部时会遮挡页脚的版权信息和备案号等内容。",
+      "standard": "Nielsen #8 (Aesthetic and minimalist design)",
+      "suggestion_before": "固定底部栏遮挡页脚内容。",
+      "suggestion_after": "在页面底部内容区域增加一个与固定底部栏高度相等的内边距（padding-bottom），确保所有内容在滚动时都能完全显示，不被遮挡。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-006",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "内容块和图片点击行为不明确",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+      "locate": [
+        "邀请码：AgentArtsUVMRQ2 下载PC端，输入邀请码，开启智能办公",
+        "创意即刻呈现，专业级 PPT 精准生成 (图片)"
+      ],
+      "evidence": "TapActionAudit结果显示：\n- 文本内容块 '邀请码：AgentArtsUVMRQ2 下载PC端，输入邀请码，开启智能办公' (`path: div.por-tab-container.combination > ... > div.scence-content-wrapper.row-reverse.card-grey`): `tag: \"div\"`, `href: \"\"`, `status: \"effective\"`，点击后 `after.scrollY` 变为352，触发页面滚动而非内容展开或导航。\n- 图片元素 (`path: div.por-section-body > ... > img.card-bg-img.img-mb.lazyload`): `tag: \"img\"`, `href: \"\"`, `status: \"effective\"`，点击后无任何反馈。",
+      "standard": "Nielsen #2 (Match between system and the real world), #5 (Error prevention)",
+      "suggestion_before": "内容块和图片被检测为可点击并触发滚动或无反馈。",
+      "suggestion_after": "对于内容块，如果点击是为了滚动到特定区域，应使用更明确的指示（如“查看详情”按钮或箭头），而不是让整个内容块可点击。对于图片，如果无交互功能，应移除其可点击属性；如果图片是可点击的，应确保其点击行为有明确的视觉反馈和功能结果。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_officeace_html/batch-20260720-095401-01/screenshots/https_www_huaweicloud_com_product_agentarts_officeace_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+  "generated_at": "2026-07-20T02:52:16.111892+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 5,
+    "p0": 0,
+    "p1": 1,
+    "p2": 4
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p1",
+          "title": "顶部提示栏高度过大占用过多首屏空间",
+          "area": "首屏/顶部导航",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM中顶部提示栏元素 `div#header.nav-medium-padding.show-top-prompt` 高度达 168px，在 844px 高度的移动端屏幕中占比近 20%，严重挤压首屏核心内容展示空间。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "提示栏高度 168px，采用宽内边距",
+          "suggestion_after": "在移动端优化提示文本排版，缩减内边距，将高度控制在 80px 以内，或提供更紧凑的折叠样式。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "copy_format",
+          "severity": "p2",
+          "title": "社交媒体图标触控区域过小",
+          "area": "页脚/关注我们",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "locate": [
+            "华为云微信 扫描二维码",
+            "华为云微信小程序 华为云微信小程序",
+            "华为云微博 扫描二维码"
+          ],
+          "evidence": "DOM中 `smallTargets` 索引 20, 21, 22 对应的社交媒体图标元素尺寸仅为 34x34px，低于移动端推荐的最小触控区域标准（44x44px 或 48x48px）。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "图标尺寸 34x34px",
+          "suggestion_after": "将图标点击热区（通过增加透明 padding 或增大容器尺寸）提升至至少 44x44px，避免用户误触或难以点中。",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p2",
+          "title": "关键模型Logo图片缺失Alt替代文本",
+          "area": "大模型展示区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "locate": [
+            "GLM5.1.png",
+            "GLM-5.png",
+            "logo-kimi.png",
+            "logo-DeepSeek-V4-Flash.png",
+            "logo-DeepSeek-V3.2.png"
+          ],
+          "evidence": "在 `imageIssues` 中，多个主流大模型（GLM、Kimi、DeepSeek）的 Logo 图片 `alt` 属性为空字符串 `\"\"`，不利于无障碍阅读及SEO。",
+          "standard": "Nielsen #10",
+          "suggestion_before": "<img class=\"logo\" src=\"...\" alt=\"\">",
+          "suggestion_after": "为每个模型Logo添加对应的文本描述，如 <img class=\"logo\" src=\"...\" alt=\"智谱 GLM 5.1\">。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "文本链接触控热区高度不足",
+          "area": "内容区及页脚",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "locate": [
+            "查看订阅详情",
+            "查看更多",
+            "法律声明",
+            "隐私政策"
+          ],
+          "evidence": "DOM中 `smallTargets` 索引 5, 15, 24, 25 对应的文本链接高度仅为 14px 或 16px，在移动端极易发生漏点或误触邻近元素。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "文本链接高度 14px/16px",
+          "suggestion_after": "通过 CSS 为这些 `<a>` 标签增加 `display: inline-block; padding: 8px 0;`，在不改变视觉字号的前提下扩大物理触控热区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+        },
+        {
+          "id": "mobile-typo-005",
+          "section": "mobile-page",
+          "type": "typo",
+          "severity": "p2",
+          "title": "FAQ 问句存在错别字",
+          "area": "FAQ/正文文案",
+          "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "locate": [
+            "订阅 Token Plan 后时候需要再单独开通模型服务？"
+          ],
+          "evidence": "采集数据中存在文案“订阅 Token Plan 后时候需要再单独开通模型服务？”，其中“后时候”属于错别字/多字，应表达为“后是否”。",
+          "standard": "Nielsen #2 | Nielsen #4",
+          "suggestion_before": "订阅 Token Plan 后时候需要再单独开通模型服务？",
+          "suggestion_after": "订阅 Token Plan 后是否需要再单独开通模型服务？",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化移动端首屏的顶部提示 Banner，采用更紧凑的单行文本或可关闭的轻量化设计，释放首屏空间给 Token Plan 核心业务介绍。",
+        "全面排查移动端页脚及内容区的所有小尺寸点击目标（如社交图标、法律条款链接），确保其物理触控面积达到 44x44px 以上。",
+        "完善全站图片的 alt 属性，特别是合作伙伴与支持的大模型 Logo，提升无障碍体验与搜索引擎友好度。",
+        "订阅 Token Plan 后是否需要再单独开通模型服务？"
+      ],
+      "analysis_content": "本次审查发现，华为云智果园 Token Plan 移动端页面整体框架响应式适配良好，侧边栏菜单可正常唤起。但首屏顶部提示栏高度过大（168px），严重遮挡首屏视线。此外，页脚社交图标（34x34px）及多处文本链接（高度14-16px）存在触控热区过小的问题，且部分大模型 Logo 缺失无障碍替代文本，需针对移动端触控体验和无障碍规范进行细节优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p1",
+      "title": "顶部提示栏高度过大占用过多首屏空间",
+      "area": "首屏/顶部导航",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM中顶部提示栏元素 `div#header.nav-medium-padding.show-top-prompt` 高度达 168px，在 844px 高度的移动端屏幕中占比近 20%，严重挤压首屏核心内容展示空间。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "提示栏高度 168px，采用宽内边距",
+      "suggestion_after": "在移动端优化提示文本排版，缩减内边距，将高度控制在 80px 以内，或提供更紧凑的折叠样式。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "copy_format",
+      "severity": "p2",
+      "title": "社交媒体图标触控区域过小",
+      "area": "页脚/关注我们",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+      "locate": [
+        "华为云微信 扫描二维码",
+        "华为云微信小程序 华为云微信小程序",
+        "华为云微博 扫描二维码"
+      ],
+      "evidence": "DOM中 `smallTargets` 索引 20, 21, 22 对应的社交媒体图标元素尺寸仅为 34x34px，低于移动端推荐的最小触控区域标准（44x44px 或 48x48px）。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "图标尺寸 34x34px",
+      "suggestion_after": "将图标点击热区（通过增加透明 padding 或增大容器尺寸）提升至至少 44x44px，避免用户误触或难以点中。",
+      "auto_fix_eligible": true,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p2",
+      "title": "关键模型Logo图片缺失Alt替代文本",
+      "area": "大模型展示区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+      "locate": [
+        "GLM5.1.png",
+        "GLM-5.png",
+        "logo-kimi.png",
+        "logo-DeepSeek-V4-Flash.png",
+        "logo-DeepSeek-V3.2.png"
+      ],
+      "evidence": "在 `imageIssues` 中，多个主流大模型（GLM、Kimi、DeepSeek）的 Logo 图片 `alt` 属性为空字符串 `\"\"`，不利于无障碍阅读及SEO。",
+      "standard": "Nielsen #10",
+      "suggestion_before": "<img class=\"logo\" src=\"...\" alt=\"\">",
+      "suggestion_after": "为每个模型Logo添加对应的文本描述，如 <img class=\"logo\" src=\"...\" alt=\"智谱 GLM 5.1\">。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "文本链接触控热区高度不足",
+      "area": "内容区及页脚",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+      "locate": [
+        "查看订阅详情",
+        "查看更多",
+        "法律声明",
+        "隐私政策"
+      ],
+      "evidence": "DOM中 `smallTargets` 索引 5, 15, 24, 25 对应的文本链接高度仅为 14px 或 16px，在移动端极易发生漏点或误触邻近元素。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "文本链接高度 14px/16px",
+      "suggestion_after": "通过 CSS 为这些 `<a>` 标签增加 `display: inline-block; padding: 8px 0;`，在不改变视觉字号的前提下扩大物理触控热区。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+    },
+    {
+      "id": "mobile-typo-005",
+      "section": "mobile-page",
+      "type": "typo",
+      "severity": "p2",
+      "title": "FAQ 问句存在错别字",
+      "area": "FAQ/正文文案",
+      "page_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+      "locate": [
+        "订阅 Token Plan 后时候需要再单独开通模型服务？"
+      ],
+      "evidence": "采集数据中存在文案“订阅 Token Plan 后时候需要再单独开通模型服务？”，其中“后时候”属于错别字/多字，应表达为“后是否”。",
+      "standard": "Nielsen #2 | Nielsen #4",
+      "suggestion_before": "订阅 Token Plan 后时候需要再单独开通模型服务？",
+      "suggestion_after": "订阅 Token Plan 后是否需要再单独开通模型服务？",
+      "auto_fix_eligible": true,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

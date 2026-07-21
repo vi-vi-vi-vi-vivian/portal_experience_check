@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/ai/industry.html",
+  "generated_at": "2026-07-20T03:57:42.228297+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 2,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/ai/industry.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "顶部提示栏占用过多首屏空间",
+          "area": "首屏/页头",
+          "page_url": "https://www.huaweicloud.com/ai/industry.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM中 `div#header` 提示栏高度达 168px（容器高度 120px），在 844px 高度的移动端屏幕中占用了近 20% 的垂直空间，严重挤压了首屏核心业务“智能制造AI梦工厂”的主题呈现。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "移动端顶部提示栏高度达168px，占用过多首屏空间",
+          "suggestion_after": "在移动端对提示文本进行精简或折叠，高度控制在60px以内，并提供明显的关闭按钮，释放首屏空间。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "触控目标尺寸过小",
+          "area": "内容区/按钮",
+          "page_url": "https://www.huaweicloud.com/ai/industry.html",
+          "locate": [
+            "了解详情",
+            "查看更多"
+          ],
+          "evidence": "多个关键CTA按钮和链接尺寸远低于移动端标准。例如：Index 8/14 的“了解详情”按钮尺寸仅为 82x26px（面积 2132）；Index 15/24/28 的“查看更多”链接高度仅为 16px（面积 1184/1280），极易导致用户漏触或误触。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度仅26px，链接高度仅16px",
+          "suggestion_after": "通过增加 CSS padding 或调整最小高度，确保所有可点击元素的触控热区高度至少达到 44px（推荐 48px）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p2",
+          "title": "底部固定栏未适配iOS安全区域",
+          "area": "页脚/固定栏",
+          "page_url": "https://www.huaweicloud.com/ai/industry.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "底部固定栏 `div.tm-adv-space.light-btn` 的 `position` 为 `fixed`，`bottom` 为 `0px`，但 `hasSafeAreaInset` 属性为 `false`。在全面屏手机上会与系统底部 Home 指示条重叠，影响操作。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "底部固定栏 bottom 为 0px，未适配安全区",
+          "suggestion_after": "利用 CSS `padding-bottom: env(safe-area-inset-bottom);` 自动适配全面屏手机的安全区域高度。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "滚动交互中存在高频误触风险",
+          "area": "交互体验",
+          "page_url": "https://www.huaweicloud.com/ai/industry.html",
+          "locate": [
+            "了解详情",
+            "华为云App 便捷的云服务移动管控体验"
+          ],
+          "evidence": "数据表明，内容区中的“了解详情”按钮（Index 8/14）与底部固定下载栏（Index 45）在特定滚动位置下的间距（Close Pairs distance）仅为 6px，用户在尝试点击“了解详情”时极易误触底部的App下载广告栏。",
+          "standard": "Nielsen #5",
+          "suggestion_before": "滚动时内容按钮与底部固定栏间距仅6px",
+          "suggestion_after": "在内容区域底部增加足够的 margin-bottom 占位，或在滚动到特定区域时对底部固定栏进行半透明或暂时避让处理。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "建议对移动端的顶部提示信息进行响应式隐藏或简化，避免首屏核心视觉被遮挡。",
+        "全局排查移动端所有 a 标签和 button 标签的 padding，确保触控热区符合移动端规范（不小于 44x44px）。",
+        "针对全面屏移动设备，统一规范底部固定悬浮栏的 Safe Area 适配。"
+      ],
+      "analysis_content": "智能制造专区移动端页面整体结构完整，但在移动端适配细节上存在明显不足。首屏被高宽度的国际站提示栏严重遮挡，降低了首屏主题的识别度；页面内大量“了解详情”和“查看更多”按钮尺寸过小，不符合移动端触控标准；此外，底部固定下载栏未适配安全区且与内容区按钮距离过近，存在较高的误触和体验瑕疵风险。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "顶部提示栏占用过多首屏空间",
+      "area": "首屏/页头",
+      "page_url": "https://www.huaweicloud.com/ai/industry.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM中 `div#header` 提示栏高度达 168px（容器高度 120px），在 844px 高度的移动端屏幕中占用了近 20% 的垂直空间，严重挤压了首屏核心业务“智能制造AI梦工厂”的主题呈现。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "移动端顶部提示栏高度达168px，占用过多首屏空间",
+      "suggestion_after": "在移动端对提示文本进行精简或折叠，高度控制在60px以内，并提供明显的关闭按钮，释放首屏空间。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "触控目标尺寸过小",
+      "area": "内容区/按钮",
+      "page_url": "https://www.huaweicloud.com/ai/industry.html",
+      "locate": [
+        "了解详情",
+        "查看更多"
+      ],
+      "evidence": "多个关键CTA按钮和链接尺寸远低于移动端标准。例如：Index 8/14 的“了解详情”按钮尺寸仅为 82x26px（面积 2132）；Index 15/24/28 的“查看更多”链接高度仅为 16px（面积 1184/1280），极易导致用户漏触或误触。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度仅26px，链接高度仅16px",
+      "suggestion_after": "通过增加 CSS padding 或调整最小高度，确保所有可点击元素的触控热区高度至少达到 44px（推荐 48px）。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p2",
+      "title": "底部固定栏未适配iOS安全区域",
+      "area": "页脚/固定栏",
+      "page_url": "https://www.huaweicloud.com/ai/industry.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "底部固定栏 `div.tm-adv-space.light-btn` 的 `position` 为 `fixed`，`bottom` 为 `0px`，但 `hasSafeAreaInset` 属性为 `false`。在全面屏手机上会与系统底部 Home 指示条重叠，影响操作。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "底部固定栏 bottom 为 0px，未适配安全区",
+      "suggestion_after": "利用 CSS `padding-bottom: env(safe-area-inset-bottom);` 自动适配全面屏手机的安全区域高度。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "滚动交互中存在高频误触风险",
+      "area": "交互体验",
+      "page_url": "https://www.huaweicloud.com/ai/industry.html",
+      "locate": [
+        "了解详情",
+        "华为云App 便捷的云服务移动管控体验"
+      ],
+      "evidence": "数据表明，内容区中的“了解详情”按钮（Index 8/14）与底部固定下载栏（Index 45）在特定滚动位置下的间距（Close Pairs distance）仅为 6px，用户在尝试点击“了解详情”时极易误触底部的App下载广告栏。",
+      "standard": "Nielsen #5",
+      "suggestion_before": "滚动时内容按钮与底部固定栏间距仅6px",
+      "suggestion_after": "在内容区域底部增加足够的 margin-bottom 占位，或在滚动到特定区域时对底部固定栏进行半透明或暂时避让处理。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_industry_html/batch-20260720-095401-20/screenshots/https_www_huaweicloud_com_ai_industry_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

@@ -1,0 +1,1524 @@
+{
+  "input_url": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2",
+  "audit_time": "2026-07-20T07:33:36.644440+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_top.png",
+    "scroll_screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_scroll.png",
+    "full_screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_full.png",
+    "menu_screenshot": "../../output/mobile/https_console_huaweicloud_com_modelarts_region_cn_southwest_2/batch-20260720-143152-03/screenshots/https_console_huaweicloud_com_modelarts_region_cn_southwest_2_menu.png"
+  },
+  "dom": {
+    "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+    "title": "用户登录—华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 844
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html > body.ng-scope > div#content",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题 使用其他账号登录 IAM用户 | 更多账号登录 为提升登录体验，华为账号服务将获取您的网络及账号信息。 了解更多",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 784,
+        "scrollHeight": 837,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "783.672px"
+      },
+      {
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div#hwidsdk_mudule_container",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "379.375px"
+      },
+      {
+        "path": "div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div#hwidsdk_mudule_container > div.hwidsdk_mudule",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "379.375px"
+      },
+      {
+        "path": "div.loginDiv.ng-scope > div#hwLoginDivId > div#hwidsdk_mudule_container > div.hwidsdk_mudule > div.hwid-root",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      },
+      {
+        "path": "div#hwLoginDivId > div#hwidsdk_mudule_container > div.hwidsdk_mudule > div.hwid-root > div.hwid-login-root",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      },
+      {
+        "path": "div#hwidsdk_mudule_container > div.hwidsdk_mudule > div.hwid-root > div.hwid-login-root > div",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      },
+      {
+        "path": "div.hwidsdk_mudule > div.hwid-root > div.hwid-login-root > div > div.hwid-login-container",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      },
+      {
+        "path": "div.hwid-root > div.hwid-login-root > div > div.hwid-login-container > div",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      },
+      {
+        "path": "div.hwid-login-root > div > div.hwid-login-container > div > div",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      },
+      {
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3",
+        "text": "手机号登录 +86 (中国) 短信验证码 获取验证码 账号密码登录 登录/注册 遇到问题",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 379,
+        "scrollHeight": 383,
+        "wordBreak": "normal",
+        "overflowWrap": "break-word",
+        "height": "379.375px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 10
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "body.ng-scope > div#banner > div.widthLimit.ng-scope > div.ng-scope > a",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 8,
+        "width": 83,
+        "height": 19,
+        "area": 1581.453125
+      },
+      {
+        "index": 1,
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-callingCode-root-withphone > div.hwid-input-area.hwid-input-line > input.hwid-input",
+        "text": "",
+        "tag": "input",
+        "x": 113,
+        "y": 228,
+        "width": 263,
+        "height": 22,
+        "area": 5775
+      },
+      {
+        "index": 2,
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > input.hwid-input",
+        "text": "",
+        "tag": "input",
+        "x": 15,
+        "y": 277,
+        "width": 272,
+        "height": 40,
+        "area": 10880
+      },
+      {
+        "index": 3,
+        "path": "div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn",
+        "text": "获取验证码",
+        "tag": "div",
+        "x": 295,
+        "y": 287,
+        "width": 80,
+        "height": 21,
+        "area": 1663.75
+      },
+      {
+        "index": 4,
+        "path": "div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-button-base-box.hwid-link.hwid-goto-pwd-login > div.textBtn > div.hwid-text-btn",
+        "text": "账号密码登录",
+        "tag": "div",
+        "x": 15,
+        "y": 334,
+        "width": 84,
+        "height": 18,
+        "area": 1527.75
+      },
+      {
+        "index": 5,
+        "path": "div > div.hwid-smslogin-root-v3 > div.login-register-btn > div.hwid-button-base-box > div.normalBtn",
+        "text": "登录/注册",
+        "tag": "div",
+        "x": 15,
+        "y": 394,
+        "width": 360,
+        "height": 36,
+        "area": 12960
+      },
+      {
+        "index": 6,
+        "path": "div.hwid-smslogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "text": "遇到问题",
+        "tag": "div",
+        "x": 167,
+        "y": 446,
+        "width": 56,
+        "height": 18,
+        "area": 1018.5
+      },
+      {
+        "index": 7,
+        "path": "div.other-login-content > div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > span#IAMLinkDiv.otherItemDiv.ng-scope",
+        "text": "IAM用户",
+        "tag": "span",
+        "x": 112,
+        "y": 571,
+        "width": 57,
+        "height": 19,
+        "area": 1081.8125
+      },
+      {
+        "index": 8,
+        "path": "div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text",
+        "text": "更多账号登录",
+        "tag": "div",
+        "x": 178,
+        "y": 570,
+        "width": 99,
+        "height": 21,
+        "area": 2089.171875
+      },
+      {
+        "index": 9,
+        "path": "div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "text": "了解更多",
+        "tag": "a",
+        "x": 15,
+        "y": 634,
+        "width": 351,
+        "height": 34,
+        "area": 11933.46875
+      }
+    ],
+    "closePairs": [],
+    "forms": [
+      {
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-callingCode-root-withphone > div.hwid-input-area.hwid-input-line > input.hwid-input",
+        "tag": "input",
+        "type": "text",
+        "placeholder": "请输入手机号",
+        "inputmode": "",
+        "autocomplete": "off",
+        "y": 228,
+        "width": 263,
+        "height": 22,
+        "nearBottom": false
+      },
+      {
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > input.hwid-input",
+        "tag": "input",
+        "type": "text",
+        "placeholder": "",
+        "inputmode": "",
+        "autocomplete": "",
+        "y": 277,
+        "width": 272,
+        "height": 40,
+        "nearBottom": false
+      }
+    ],
+    "images": [
+      {
+        "path": "div#banner > div.widthLimit.ng-scope > div.ng-scope > a > img#logo",
+        "alt": "",
+        "src": "https://console-static.huaweicloud.com/static/authui/20260630094949/public/hws/images/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 83,
+        "height": 28,
+        "top": 10,
+        "belowFold": false
+      },
+      {
+        "path": "div.hwid-header-tab > div.header-contain-center.center > div.header-icon-v3 > div.hwid-avatar-root.hwid-avatar-preWidth-48 > img.hwid-avatar-circle",
+        "alt": "",
+        "src": "https://id1.cloud.huawei.com/CAS/static_rss/red/rss_20260615/UnifiedIDMPortal/vue3/jssdk/vue3/vuebuild/img/ic_login_avatar.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 48,
+        "height": 48,
+        "top": 85,
+        "belowFold": false
+      },
+      {
+        "path": "div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.login-more-text-icon > img.otherAccountsClose",
+        "alt": "",
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77",
+        "ext": "unknown",
+        "loading": "",
+        "width": 10,
+        "height": 10,
+        "top": 578,
+        "belowFold": false
+      },
+      {
+        "path": "div#footer > div.widthLimit.ng-scope > div#cookieMsgDivId.cookieMsgContainer.ng-scope > div.cookieMsgContent > img.cookieWarnImg",
+        "alt": "",
+        "src": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dH",
+        "ext": "unknown",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 798,
+        "belowFold": false
+      }
+    ],
+    "imageIssues": [],
+    "cssRules": [
+      {
+        "type": "wide-width",
+        "selector": "#loginAdv",
+        "media": "",
+        "css": "#loginAdv {\n  width: 800px; height: 515px; margin-top: 80px;\n  & #loginAdImgDefault { max-width: 800px; }\n}"
+      },
+      {
+        "type": "hover",
+        "selector": ".loginBtn:active, .loginBtn:focus, .loginBtn:hover",
+        "media": "",
+        "css": ".loginBtn:active, .loginBtn:focus, .loginBtn:hover { cursor: pointer; box-shadow: rgba(246, 111, 106, 0.3) 0px 8px 16px; outline: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".loginBtn:hover",
+        "media": "",
+        "css": ".loginBtn:hover { background: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".loginBtnDisabled:active, .loginBtnDisabled:focus, .loginBtnDisabled:hover",
+        "media": "",
+        "css": ".loginBtnDisabled:active, .loginBtnDisabled:focus, .loginBtnDisabled:hover { background-color: rgba(199, 2, 11, 0.3); box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#bottomBtns .forgetPwdLink:hover, .closeImg, .learnMoreLink",
+        "media": "",
+        "css": "#bottomBtns .forgetPwdLink:hover, .closeImg, .learnMoreLink { color: rgb(82, 110, 204); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".otherLoginWays .otherItemDiv:hover",
+        "media": "",
+        "css": ".otherLoginWays .otherItemDiv:hover { cursor: pointer; opacity: 1; color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".iam-name-tooltip a, .iam-name-tooltip a:hover",
+        "media": "",
+        "css": ".iam-name-tooltip a, .iam-name-tooltip a:hover { color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".privacyMsgLink:hover",
+        "media": "",
+        "css": ".privacyMsgLink:hover { text-decoration: none; color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputClearIcon:hover, input:focus + .inputClearIcon",
+        "media": "",
+        "css": ".inputClearIcon:hover, input:focus + .inputClearIcon { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".QRLoginBottomColor:active, .QRLoginBottomColor:focus, .QRLoginBottomColor:hover",
+        "media": "",
+        "css": ".QRLoginBottomColor:active, .QRLoginBottomColor:focus, .QRLoginBottomColor:hover { color: rgb(82, 110, 204); text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .userOptionDiv:hover",
+        "media": "",
+        "css": "#quickLoginDiv .userOptionDiv:hover { background: rgb(230, 230, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .inputField .icon-clear:hover, #quickLoginDiv .inputFieldFocused .icon-clear",
+        "media": "",
+        "css": "#quickLoginDiv .inputField .icon-clear:hover, #quickLoginDiv .inputFieldFocused .icon-clear { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .users-dropdown-option:hover",
+        "media": "",
+        "css": "#quickLoginDiv .users-dropdown-option:hover { background: rgb(230, 230, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#quickLoginDiv .registerDiv:hover",
+        "media": "",
+        "css": "#quickLoginDiv .registerDiv:hover { cursor: pointer; opacity: 1; color: rgb(82, 110, 204); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-content div:hover",
+        "media": "",
+        "css": ".dropdown-content div:hover { background-color: rgba(199, 0, 11, 0.05); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".login-more-select-option:hover",
+        "media": "",
+        "css": ".login-more-select-option:hover { color: rgb(82, 110, 204); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 11,
+    "testedCount": 11,
+    "issueCount": 6,
+    "candidates": [
+      {
+        "text": "了解更多",
+        "href": "https://legal.cloud.huawei.com.cn/legal/id/unifiedidprivacyurl.htm?language=zh-cn&code=CN&version=20200901",
+        "tag": "a",
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "className": "ng-binding ng-scope",
+        "top": 634,
+        "left": 15,
+        "width": 351,
+        "height": 34,
+        "importance": 108,
+        "ordinal": 0
+      },
+      {
+        "text": "IAM用户 | 更多账号登录",
+        "href": "",
+        "tag": "div",
+        "path": "div.loginDiv.ng-scope > div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope",
+        "className": "login-more ng-scope",
+        "top": 570,
+        "left": 15,
+        "width": 360,
+        "height": 21,
+        "importance": 70,
+        "ordinal": 1
+      },
+      {
+        "text": "更多账号登录",
+        "href": "",
+        "tag": "div",
+        "path": "div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope",
+        "className": "login-more-box ng-scope",
+        "top": 570,
+        "left": 178,
+        "width": 99,
+        "height": 21,
+        "importance": 70,
+        "ordinal": 2
+      },
+      {
+        "text": "获取验证码",
+        "href": "",
+        "tag": "div",
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect",
+        "className": "hwid-button-base-box hwid-text-button-harmony-effect",
+        "top": 277,
+        "left": 295,
+        "width": 80,
+        "height": 40,
+        "importance": 20,
+        "ordinal": 3
+      },
+      {
+        "text": "获取验证码",
+        "href": "",
+        "tag": "div",
+        "path": "div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn",
+        "className": "hwid-disabled hwid-text-btn",
+        "top": 287,
+        "left": 295,
+        "width": 80,
+        "height": 21,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "账号密码登录",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+        "className": "hwid-login-btn-wrap",
+        "top": 334,
+        "left": 15,
+        "width": 360,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "账号密码登录",
+        "href": "",
+        "tag": "div",
+        "path": "div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-button-base-box.hwid-link.hwid-goto-pwd-login",
+        "className": "hwid-button-base-box hwid-link hwid-goto-pwd-login",
+        "top": 334,
+        "left": 15,
+        "width": 84,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 6
+      },
+      {
+        "text": "登录/注册",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.login-register-btn",
+        "className": "login-register-btn",
+        "top": 394,
+        "left": 15,
+        "width": 360,
+        "height": 36,
+        "importance": 20,
+        "ordinal": 7
+      },
+      {
+        "text": "遇到问题",
+        "href": "",
+        "tag": "div",
+        "path": "div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "className": "hwid-button-base-box hwid-link",
+        "top": 446,
+        "left": 151,
+        "width": 88,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 8
+      },
+      {
+        "text": "遇到问题",
+        "href": "",
+        "tag": "div",
+        "path": "div > div.hwid-smslogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "className": "hwid-text-btn",
+        "top": 446,
+        "left": 167,
+        "width": 56,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 9
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "span",
+        "path": "div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.login-more-text-icon",
+        "className": "login-more-text-icon",
+        "top": 570,
+        "left": 268,
+        "width": 10,
+        "height": 21,
+        "importance": 20,
+        "ordinal": 10
+      }
+    ],
+    "results": [
+      {
+        "text": "了解更多",
+        "tag": "a",
+        "href": "https://legal.cloud.huawei.com.cn/legal/id/unifiedidprivacyurl.htm?language=zh-cn&code=CN&version=20200901",
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "rect": {
+          "left": 15,
+          "top": 634,
+          "width": 351,
+          "height": 34
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "为提升登录体验，华为账号服务将获取您的网络及账号信息。 了解更多",
+          "path": "body.ng-scope > div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope",
+          "className": "privacyMsg ng-scope"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "IAM用户 | 更多账号登录",
+        "tag": "div",
+        "href": "",
+        "path": "div.loginDiv.ng-scope > div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope",
+        "rect": {
+          "left": 15,
+          "top": 570,
+          "width": 360,
+          "height": 21
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "更多账号登录",
+          "path": "div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.ng-binding",
+          "className": "ng-binding"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 191,
+          "overlayCount": 0,
+          "mutations": 30,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 22,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "更多账号登录",
+        "tag": "div",
+        "href": "",
+        "path": "div#hwLoginDivId > div.other-login-content > div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope",
+        "rect": {
+          "left": 178,
+          "top": 570,
+          "width": 99,
+          "height": 21
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "更多账号登录",
+          "path": "div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.ng-binding",
+          "className": "ng-binding"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 191,
+          "overlayCount": 0,
+          "mutations": 30,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 22,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "获取验证码",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect",
+        "rect": {
+          "left": 295,
+          "top": 277,
+          "width": 80,
+          "height": 40
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "span",
+          "text": "获取验证码",
+          "path": "div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "获取验证码",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn",
+        "rect": {
+          "left": 295,
+          "top": 287,
+          "width": 80,
+          "height": 21
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "span",
+          "text": "获取验证码",
+          "path": "div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "账号密码登录",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+        "rect": {
+          "left": 15,
+          "top": 334,
+          "width": 360,
+          "height": 18
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "账号密码登录",
+          "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+          "className": "hwid-login-btn-wrap"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "账号密码登录",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-button-base-box.hwid-link.hwid-goto-pwd-login",
+        "rect": {
+          "left": 15,
+          "top": 334,
+          "width": 84,
+          "height": 18
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "账号密码登录",
+          "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+          "className": "hwid-login-btn-wrap"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "登录/注册",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.login-register-btn",
+        "rect": {
+          "left": 15,
+          "top": 394,
+          "width": 360,
+          "height": 36
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "span",
+          "text": "登录/注册",
+          "path": "div.login-register-btn > div.hwid-button-base-box > div.normalBtn > div.hwid-btn.hwid-btn-primary.hwid-disabled > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "遇到问题",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link",
+        "rect": {
+          "left": 151,
+          "top": 446,
+          "width": 88,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "遇到问题",
+          "path": "div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://reg.huaweicloud.com/registerui/cn/m/index.html#/account/hwchelp",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Creating a worker from 'blob:https://reg.huaweicloud.com/3744e227-a851-468f-b905-a4e1cce1a64c' violates the following Content Security Policy directive: \"worker-src https:\". The action has been blocked."
+        ],
+        "after": {
+          "url": "https://reg.huaweicloud.com/registerui/cn/m/index.html#/account/hwchelp",
+          "scrollY": 0,
+          "bodyLength": 61,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 108,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "遇到问题",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-smslogin-root-v3 > div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn",
+        "rect": {
+          "left": 167,
+          "top": 446,
+          "width": 56,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "遇到问题",
+          "path": "div.hwid-login-problem > div.hwid-button-base-box.hwid-link > div.textBtn > div.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://reg.huaweicloud.com/registerui/cn/m/index.html#/account/hwchelp",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Creating a worker from 'blob:https://reg.huaweicloud.com/2cb13f62-52b8-45fa-8dbc-27214c21d2fc' violates the following Content Security Policy directive: \"worker-src https:\". The action has been blocked."
+        ],
+        "after": {
+          "url": "https://reg.huaweicloud.com/registerui/cn/m/index.html#/account/hwchelp",
+          "scrollY": 0,
+          "bodyLength": 61,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 108,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "span",
+        "href": "",
+        "path": "div.otherLoginWays.forMobile.ng-scope > div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.login-more-text-icon",
+        "rect": {
+          "left": 268,
+          "top": 570,
+          "width": 10,
+          "height": 21
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.ng-scope > div.login-more.ng-scope > div.login-more-box.ng-scope > div.login-more-text > span.login-more-text-icon > img.otherAccountsClose",
+          "className": "otherAccountsClose"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 191,
+          "overlayCount": 0,
+          "mutations": 30,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 22,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": [
+      {
+        "text": "了解更多",
+        "tag": "a",
+        "href": "https://legal.cloud.huawei.com.cn/legal/id/unifiedidprivacyurl.htm?language=zh-cn&code=CN&version=20200901",
+        "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+        "rect": {
+          "left": 15,
+          "top": 634,
+          "width": 351,
+          "height": 34
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "为提升登录体验，华为账号服务将获取您的网络及账号信息。 了解更多",
+          "path": "body.ng-scope > div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope",
+          "className": "privacyMsg ng-scope"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P1"
+      },
+      {
+        "text": "获取验证码",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect",
+        "rect": {
+          "left": 295,
+          "top": 277,
+          "width": 80,
+          "height": 40
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "span",
+          "text": "获取验证码",
+          "path": "div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "获取验证码",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn",
+        "rect": {
+          "left": 295,
+          "top": 287,
+          "width": 80,
+          "height": 21
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "span",
+          "text": "获取验证码",
+          "path": "div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "账号密码登录",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+        "rect": {
+          "left": 15,
+          "top": 334,
+          "width": 360,
+          "height": 18
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "账号密码登录",
+          "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+          "className": "hwid-login-btn-wrap"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "账号密码登录",
+        "tag": "div",
+        "href": "",
+        "path": "div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-button-base-box.hwid-link.hwid-goto-pwd-login",
+        "rect": {
+          "left": 15,
+          "top": 334,
+          "width": 84,
+          "height": 18
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "账号密码登录",
+          "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+          "className": "hwid-login-btn-wrap"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "登录/注册",
+        "tag": "div",
+        "href": "",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.login-register-btn",
+        "rect": {
+          "left": 15,
+          "top": 394,
+          "width": 360,
+          "height": 36
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "span",
+          "text": "登录/注册",
+          "path": "div.login-register-btn > div.hwid-button-base-box > div.normalBtn > div.hwid-btn.hwid-btn-primary.hwid-disabled > span.hwid-text-container > span.hwid-vertical-align",
+          "className": "hwid-vertical-align"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "popupUrls": [],
+        "consoleErrors": [
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+          "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+          "scrollY": 0,
+          "bodyLength": 169,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      }
+    ]
+  },
+  "tapActionIssues": [
+    {
+      "text": "了解更多",
+      "tag": "a",
+      "href": "https://legal.cloud.huawei.com.cn/legal/id/unifiedidprivacyurl.htm?language=zh-cn&code=CN&version=20200901",
+      "path": "div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope > a.ng-binding.ng-scope",
+      "rect": {
+        "left": 15,
+        "top": 634,
+        "width": 351,
+        "height": 34
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+      "hit": {
+        "tag": "div",
+        "text": "为提升登录体验，华为账号服务将获取您的网络及账号信息。 了解更多",
+        "path": "body.ng-scope > div#content > div.widthLimit.ng-scope > div.loginDiv.ng-scope > div#hwLoginDivId > div.privacyMsg.ng-scope",
+        "className": "privacyMsg ng-scope"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "after": {
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "scrollY": 0,
+        "bodyLength": 169,
+        "overlayCount": 0,
+        "mutations": 4,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P1"
+    },
+    {
+      "text": "获取验证码",
+      "tag": "div",
+      "href": "",
+      "path": "div.hwid-smslogin-root-v3 > div.input-phone-container > div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect",
+      "rect": {
+        "left": 295,
+        "top": 277,
+        "width": 80,
+        "height": 40
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "span",
+        "text": "获取验证码",
+        "path": "div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+        "className": "hwid-vertical-align"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "after": {
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "scrollY": 0,
+        "bodyLength": 169,
+        "overlayCount": 0,
+        "mutations": 6,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "获取验证码",
+      "tag": "div",
+      "href": "",
+      "path": "div.hwid-getAuthCode-input.hwid-mt-16 > div.hwid-input-area > div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn",
+      "rect": {
+        "left": 295,
+        "top": 287,
+        "width": 80,
+        "height": 21
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "span",
+        "text": "获取验证码",
+        "path": "div.hwid-getAuthCode.hwid-smsCode > div.hwid-button-base-box.hwid-text-button-harmony-effect > div.textBtn > div.hwid-disabled.hwid-text-btn > span.hwid-text-container > span.hwid-vertical-align",
+        "className": "hwid-vertical-align"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "after": {
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "scrollY": 0,
+        "bodyLength": 169,
+        "overlayCount": 0,
+        "mutations": 6,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "账号密码登录",
+      "tag": "div",
+      "href": "",
+      "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+      "rect": {
+        "left": 15,
+        "top": 334,
+        "width": 360,
+        "height": 18
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "div",
+        "text": "账号密码登录",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+        "className": "hwid-login-btn-wrap"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "after": {
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "scrollY": 0,
+        "bodyLength": 169,
+        "overlayCount": 0,
+        "mutations": 4,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "账号密码登录",
+      "tag": "div",
+      "href": "",
+      "path": "div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap > div.hwid-button-base-box.hwid-link.hwid-goto-pwd-login",
+      "rect": {
+        "left": 15,
+        "top": 334,
+        "width": 84,
+        "height": 18
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "div",
+        "text": "账号密码登录",
+        "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.hwid-login-btn-wrap",
+        "className": "hwid-login-btn-wrap"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "after": {
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "scrollY": 0,
+        "bodyLength": 169,
+        "overlayCount": 0,
+        "mutations": 4,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "登录/注册",
+      "tag": "div",
+      "href": "",
+      "path": "div > div.hwid-login-container > div > div > div.hwid-smslogin-root-v3 > div.login-register-btn",
+      "rect": {
+        "left": 15,
+        "top": 394,
+        "width": 360,
+        "height": 36
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "span",
+        "text": "登录/注册",
+        "path": "div.login-register-btn > div.hwid-button-base-box > div.normalBtn > div.hwid-btn.hwid-btn-primary.hwid-disabled > span.hwid-text-container > span.hwid-vertical-align",
+        "className": "hwid-vertical-align"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "afterUrl": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+      "popupUrls": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED",
+        "Failed to load resource: net::ERR_CONNECTION_REFUSED"
+      ],
+      "after": {
+        "url": "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2#/login",
+        "scrollY": 0,
+        "bodyLength": 169,
+        "overlayCount": 0,
+        "mutations": 6,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    }
+  ],
+  "after_scroll_ctas": [],
+  "menu": {
+    "attempted": true,
+    "opened": false,
+    "candidates": [
+      {
+        "index": 5,
+        "text": "了解更多",
+        "className": "ng-binding ng-scope",
+        "width": 351,
+        "height": 34,
+        "x": 15,
+        "y": 634
+      }
+    ],
+    "clicked_candidate": {
+      "index": 5,
+      "text": "了解更多",
+      "className": "ng-binding ng-scope",
+      "width": 351,
+      "height": 34,
+      "x": 15,
+      "y": 634
+    },
+    "bodyOverflow": "hidden",
+    "htmlOverflow": "visible",
+    "overlays": [],
+    "closeTargets": []
+  }
+}

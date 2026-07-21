@@ -1,0 +1,1614 @@
+{
+  "schema_version": "1.0",
+  "source": "web",
+  "input_url": "https://www.huaweicloud.com/product/eip.html",
+  "generated_at": "2026-07-20T10:07:08.025408+00:00",
+  "summary": {
+    "score": 4.7,
+    "issue_count": 22,
+    "p0": 4,
+    "p1": 10,
+    "p2": 8
+  },
+  "sections": [
+    {
+      "id": "感知",
+      "name": "感知",
+      "url": "https://www.huaweicloud.com/product/eip.html",
+      "title": "弹性公网IP-网络-产品-华为云",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png",
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "layout",
+          "severity": "p2",
+          "title": "顶部国际站账号提示信息过于突出且持续显示",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/eip.html",
+          "locate": [
+            "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn"
+          ],
+          "evidence": "视觉上该提示位于页面顶部，背景为蓝色渐变，文字为白色，非常醒目。DOM数据显示其为 `header-prompt`，`fontSize` 12px，但其位置和背景色使其视觉权重过高，可能分散用户对主要内容的注意力。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "顶部横幅持续显示，背景色醒目",
+          "suggestion_after": "将提示信息改为不那么侵入式的浮窗或在用户首次访问时显示一次，并提供“不再显示”选项，或降低其视觉权重（如改为浅色背景）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "首屏及主要内容区域缺少直接的价格信息展示",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/eip.html",
+          "locate": [
+            "定价",
+            "计费说明"
+          ],
+          "evidence": "页面首屏及主要内容区域未直接展示弹性公网IP的任何价格或套餐信息，仅通过导航链接“定价”和“计费说明”引导用户跳转到其他页面查看。DOM数据中无 `price_info` 字段。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "无直接价格展示，需跳转查看",
+          "suggestion_after": "在首屏或紧随其后的区域增加一个简要的价格范围或最受欢迎套餐的价格示例，并提供“查看详细定价”链接，方便用户快速了解成本。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "核心优势信息默认折叠，增加用户探索成本",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/eip.html",
+          "locate": [
+            "弹性的资源关联，灵活使用，绑定解绑实时生效",
+            "提供全动态BGP和静态BGP等多种带宽服务",
+            "提供共享带宽，降低带宽成本",
+            "计费灵活，管理便捷"
+          ],
+          "evidence": "“为什么选择华为云弹性公网IP EIP”区域的四个核心优势卡片默认处于折叠状态，用户需要点击才能展开查看详细描述。DOM数据显示这些元素具有 `por-collapse-container` 和 `por-collapse-trigger` 类，且默认未展开。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "核心优势卡片默认折叠",
+          "suggestion_after": "在感知阶段，考虑将核心优势卡片默认展开，或至少在首屏展示部分关键信息，减少用户获取信息的交互成本，以便用户快速理解产品价值。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "优化顶部提示信息的视觉权重和交互方式，避免干扰用户。",
+        "在产品概述页面直接展示关键价格信息，提升用户对产品成本的感知效率。",
+        "调整核心优势内容的默认展示状态，减少用户探索信息时的额外点击。",
+        "修正页面底部版权年份，确保信息准确性。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，产品核心卖点和功能介绍完整。主要问题在于信息呈现方式，如顶部提示过于醒目、价格信息需跳转查看、核心优势默认折叠，以及底部版权年份错误。这些问题增加了用户获取关键信息的成本，并影响了页面的专业度。"
+    },
+    {
+      "id": "下单",
+      "name": "下单",
+      "url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "title": "购买弹性公网IP",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png",
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "计费详情信息不透明，缺少计算公式",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "弹性公网IP保有费：免费 带宽费用：¥115.00",
+            "实际扣费以账单为准。了解计费详情"
+          ],
+          "evidence": "页面底部显示'弹性公网IP保有费：免费 带宽费用：¥115.00'，但未提供带宽费用¥115.00的具体计算公式（如带宽大小*单价*时长），且'实际扣费以账单为准'的提示可能让用户对当前价格的准确性产生疑虑。价格信息字号为12px，颜色为rgb(140, 140, 140)，与正文14px、rgb(25, 25, 25)相比不突出。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "'弹性公网IP保有费：免费 带宽费用：¥115.00 实际扣费以账单为准。了解计费详情'",
+          "suggestion_after": "在价格下方提供详细的计算公式，例如：'带宽费用：¥115.00 (5 Mbit/s × ¥23.00/Mbit/s/月)'，并将'实际扣费以账单为准'的提示字号和颜色调整为更醒目，如fontSize:14px, color:rgb(220,38,38)。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-002",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p1",
+          "title": "关键约束和风险提示字号过小，易被忽略",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "如果您需要扩大带宽大小上限，请 提交工单",
+            "公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组，在安全组的出方向和入方向中放通198.19.0.0/16网段的IP地址。",
+            "如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多"
+          ],
+          "evidence": "页面中关于带宽上限、IPv6转换配置、ICP备案等重要约束和风险提示的文字，如'如果您需要扩大带宽大小上限，请 提交工单'、'公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组...'、'如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多'，其字号均为12px，颜色为rgb(140, 140, 140)或rgb(89, 89, 89)，在页面中视觉权重不足，容易被用户忽略。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+          "suggestion_before": "关键约束和风险提示文字fontSize:12px, color:rgb(140,140,140)",
+          "suggestion_after": "将这些关键提示的字号提升至14px，并使用更醒目的颜色（如橙色或红色），或通过加粗、图标等方式增强视觉强调，例如：fontSize:14px, color:rgb(230,120,0)。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-003",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "按需计费模式缺少明确的扣费说明",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "按需计费"
+          ],
+          "evidence": "页面提供了'包年/包月'和'按需计费'两种计费模式选项，但对于'按需计费'模式，未在显眼位置提供具体的扣费说明（如按小时计费、按流量计费、扣费周期等），用户需要自行探索或点击'了解计费详情'才能获取，增加了理解成本。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "仅显示'按需计费'选项",
+          "suggestion_after": "在'按需计费'选项下方或旁边增加简要的扣费说明，例如：'按需计费（按小时扣费）'或提供悬浮提示，点击后显示详细扣费规则。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-004",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "IPv6转换公测结束后收费情况未明确",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "公测期间IPv6转换功能免费。"
+          ],
+          "evidence": "页面明确指出'公测期间IPv6转换功能免费'，但未说明公测结束后该功能是否会收费，以及如果收费，其计费标准和生效时间，可能导致用户在公测结束后产生额外费用而不知情。",
+          "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "'公测期间IPv6转换功能免费。'",
+          "suggestion_after": "'公测期间IPv6转换功能免费。公测结束后将按[具体计费标准]收费，详情请参考[链接]。'或明确说明公测结束后是否继续免费。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-005",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "免费产品缺少二次确认机制和自动续费说明",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "弹性公网IP保有费：免费",
+            "自动续费"
+          ],
+          "evidence": "页面显示'弹性公网IP保有费：免费'，但对于免费产品，缺少明确的二次确认机制，也没有在'自动续费'区域明确说明免费产品的自动续费逻辑（例如，免费部分是否自动续费，如果续费是否会产生费用）。",
+          "standard": "Nielsen #5: Error Prevention",
+          "suggestion_before": "免费产品无特殊提示",
+          "suggestion_after": "对于免费产品，在'立即购买'前增加弹窗确认，并明确说明'免费产品不涉及自动续费'或'免费部分到期后将自动失效，如需继续使用请购买付费套餐'。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [
+        "提升关键约束和风险提示信息的视觉权重，使用更醒目的字号和颜色。",
+        "增加计费详情的透明度，提供清晰的费用计算公式和按需计费的详细说明。",
+        "明确公测期结束后免费功能的收费政策，避免用户产生误解。",
+        "针对免费产品，增加二次确认机制，并明确其自动续费逻辑。"
+      ],
+      "analysis_content": "下单页面整体布局清晰，核心操作按钮醒目。但在计费详情、关键约束提示和免费产品说明方面存在信息透明度不足和视觉权重分配不合理的问题，可能导致用户对费用产生误解或忽略重要风险提示。特别是计费公式的缺失和公测期后收费政策的不明确，可能影响用户决策和后续使用体验。"
+    },
+    {
+      "id": "支付",
+      "name": "支付",
+      "url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "title": "购买弹性公网IP",
+      "score": 2,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_3_payment.png",
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未成功进入支付收银台页面",
+          "area": "全局",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "立即购买"
+          ],
+          "evidence": "DOM数据中 entry_not_found 为 true，且当前页面仍处于配置下单页（URL为购买弹性公网IP的创建页：https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create），底部核心操作按钮为'立即购买'而非支付收银台的'确认付款'或'去支付'，导致用户无法在当前旅程中完成支付阶段的体验审查。",
+          "standard": "Nielsen #1 | Garrett: Skeleton Plane",
+          "suggestion_before": "点击'立即购买'未自动跳转或未引导用户进入统一的支付收银台页面",
+          "suggestion_after": "点击'立即购买'后应顺畅生成订单并自动跳转至华为云统一支付收银台页面，展示清晰的支付方式和订单金额，确保支付旅程的完整闭环。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "确保自动化测试或爬取脚本能够通过点击'立即购买'生成订单，并成功跳转到真实的支付收银台页面（servicePay），以便对支付阶段的收银台布局、支付渠道、优惠券抵扣等关键体验进行审查。"
+      ],
+      "analysis_content": "由于系统限制或未实际提交订单，当前旅程未能进入真实的支付收银台页面，仍停留在弹性公网IP的配置下单页面。因此判定支付阶段入口不可达，无法对实际支付交互进行深度审查。"
+    },
+    {
+      "id": "使用",
+      "name": "使用",
+      "url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+      "title": "弹性公网IP-控制台",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png",
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "弹窗遮挡核心内容，影响用户操作流",
+          "area": "首屏主视觉区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "新增监控告警一键配置能力",
+            "我已了解"
+          ],
+          "evidence": "截图中显示“新增监控告警一键配置能力”弹窗在页面加载时自动弹出，覆盖了页面中部的主要操作区域，用户需手动点击“我已了解”才能关闭。该弹窗的出现打断了用户对EIP列表页面的初始浏览和操作。",
+          "standard": "Nielsen #3: User Control and Freedom | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "页面加载时自动弹出功能介绍弹窗",
+          "suggestion_after": "将功能介绍以非模态、非侵入式的方式展示（如顶部Banner、侧边提示条），或在用户首次访问时以引导形式展示，避免阻断用户操作。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "核心操作按钮禁用无明确原因提示",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "解绑",
+            "修改带宽",
+            "续费"
+          ],
+          "evidence": "截图中“解绑”、“修改带宽”、“续费”等操作按钮呈灰色禁用状态，但页面上没有直接的文字说明（如悬浮提示或下方文字）告知用户这些按钮为何被禁用。用户需要结合页面下方的“暂无数据”提示才能推断出禁用原因。",
+          "standard": "Nielsen #1: Visibility of System Status | Nielsen #5: Error Prevention",
+          "suggestion_before": "禁用按钮无原因提示",
+          "suggestion_after": "在禁用按钮上添加悬浮提示（tooltip）或在按钮附近提供简短文字说明，解释按钮被禁用的原因（例如：“当前无弹性公网IP，无法进行此操作”）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-003",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "快捷入口文字字号过小，影响可读性",
+          "area": "导航区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "续费管理",
+            "域名列表",
+            "优惠券",
+            "我的工单",
+            "我的订单",
+            "支持计划"
+          ],
+          "evidence": "DOM数据显示左侧导航栏“快捷入口”区域（如“续费管理”、“我的工单”等）的文字`font-size`为`12px`，而页面其他主要导航和内容文字的`font-size`为`14px`或`16px`，导致快捷入口文字视觉权重较低，不易阅读。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "快捷入口文字`font-size: 12px`",
+          "suggestion_after": "快捷入口文字`font-size: 14px`，与页面其他导航文字保持一致，提升可读性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-004",
+          "section": "使用",
+          "type": "content_clarity",
+          "severity": "p2",
+          "title": "“暂无数据”状态下引导信息不完整",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "暂无数据",
+            "购买弹性公网IP",
+            "切换区域"
+          ],
+          "evidence": "页面在“暂无数据”状态下，仅提供了“购买弹性公网IP”和“切换区域”的选项。缺少对用户可能存在的其他需求（如如何导入已有EIP、查看其他区域EIP的详细指引）的考虑和引导，信息不够全面。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #2: Match Between System and Real World",
+          "suggestion_before": "仅提供“购买”和“切换区域”",
+          "suggestion_after": "在“暂无数据”提示下方增加更多引导，例如“如果您已有EIP，请检查其他区域或联系客服”、“了解如何导入EIP”等，提供更全面的帮助。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "优化页面加载时的弹窗展示方式，避免打断用户操作。",
+        "为禁用状态的操作按钮提供明确的禁用原因提示。",
+        "统一导航和快捷入口的文字字号，提升页面整体可读性。",
+        "在“暂无数据”状态下提供更全面和智能的用户引导，覆盖更多潜在用户需求。"
+      ],
+      "analysis_content": "当前“使用”阶段页面为弹性公网IP的控制台列表页，整体布局清晰，产品名称和核心功能区域明确。但存在弹窗遮挡、禁用按钮缺乏明确提示、快捷入口文字过小以及“暂无数据”状态下引导信息不完整等体验问题，这些问题影响了用户首次访问的流畅性、操作的理解性以及信息的获取效率。控制台内的产品可达性良好，搜索和分类导航均能有效找到产品入口。"
+    },
+    {
+      "id": "续费",
+      "name": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png",
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "续费指南链接视觉权重不足",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如何续费资源？",
+            "找不到想续费的资源？",
+            "如何将“包年包月计费”转为“按需计费”？",
+            "什么是宽限期保留期？",
+            "如何自动续费？",
+            "如何统一到期日？",
+            "弹性云服务器 ECS"
+          ],
+          "evidence": "截图中，页面顶部的重要引导链接（如“如何续费资源？”）字体颜色为蓝色 (rgb(20, 118, 255))，字号为14px，与普通文本链接无明显视觉区分，在页面中作为重要帮助信息，视觉权重不足，容易被用户忽略。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "链接字体颜色为蓝色，字号14px，无加粗",
+          "suggestion_after": "链接字体颜色保持蓝色，字号14px，增加 `font-weight: 700` 进行加粗，并在链接前增加醒目的图标或提示文字，以提高视觉权重。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "到期时间筛选器未以独立可交互元素呈现",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "全部：3",
+            "已冻结（进入保留期）：0",
+            "已过期（进入宽限期）：0",
+            "7天内到期：0",
+            "15天内到期：0",
+            "30天内到期：1",
+            "自定义时间"
+          ],
+          "evidence": "截图中，“到期时间”下的筛选选项（如“全部：3”、“7天内到期：0”、“30天内到期：1”）在视觉上呈现为独立的标签或按钮，但DOM数据中这些选项被解析为一个大的文本块，没有独立的 `<a>` 或 `<button>` 元素。这可能导致屏幕阅读器用户或依赖键盘导航的用户难以识别和操作这些筛选条件。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "将筛选选项作为纯文本展示",
+          "suggestion_after": "将每个筛选选项（如“全部”、“7天内到期”）封装为独立的按钮或链接元素，并提供可访问的名称和状态，确保其可交互性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "“到期不续费项”数量与表格数据不一致",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期不续费项 (3)",
+            "暂无表格数据"
+          ],
+          "evidence": "DOM数据和截图中，标签页显示“到期不续费项 (3)”，表明有3个资源设置为到期不续费。然而，下方的资源列表表格内容却显示“暂无表格数据”。这造成了信息上的矛盾和不一致，可能误导用户认为没有资源符合该条件。",
+          "standard": "Nielsen #4: Consistency and Standards",
+          "suggestion_before": "标签页显示“到期不续费项 (3)”，表格显示“暂无表格数据”",
+          "suggestion_after": "确保标签页的计数与实际表格数据一致。如果表格确实无数据，则标签页应显示“到期不续费项 (0)”；如果存在3条数据，则表格应正确显示这3条数据。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-004",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "“一键续费”按钮在数量为0时仍高亮显示",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "一键续费（0）"
+          ],
+          "evidence": "截图中，“一键续费（0）”按钮以蓝色背景高亮显示，通常表示可操作的主按钮。然而，括号中的数字“0”表明当前没有可一键续费的资源，该按钮实际上是不可用的。这种高亮显示与实际功能状态不符，可能误导用户点击。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #1: Visibility of System Status",
+          "suggestion_before": "一键续费（0）按钮高亮显示",
+          "suggestion_after": "当“一键续费”数量为0时，将按钮置灰或使用次要按钮样式，以降低其视觉权重，明确表示当前不可操作。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-005",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "“到期转按需”文案可能引起歧义，缺少详细说明",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期转按需"
+          ],
+          "evidence": "DOM数据和截图中，存在“到期转按需”的选项和批量操作按钮。对于不熟悉华为云计费模式的用户，可能不清楚“到期转按需”的具体含义和后果（例如，是否会自动扣费，扣费标准如何，是否需要手动确认）。页面上没有直接提供相关的解释或链接。",
+          "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性 | Nielsen #5: Error Prevention",
+          "suggestion_before": "“到期转按需”",
+          "suggestion_after": "将文案修改为更清晰的“到期自动转按需计费”或“到期按需付费”，并在附近提供清晰的说明链接或悬浮提示，解释按需计费的扣费方式、生效时间、可能产生的费用以及如何管理，以帮助用户做出知情决策。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化页面顶部续费指南链接的视觉权重，使其更醒目，方便用户获取帮助信息。",
+        "将“到期时间”筛选器中的每个选项设计为独立的、可交互的组件，提升可访问性和用户体验。",
+        "确保标签页的资源计数与实际表格数据严格一致，避免信息矛盾。",
+        "根据按钮的实际可用状态调整其视觉样式，避免在不可用时仍高亮显示。",
+        "为“到期转按需”等计费相关术语提供更清晰的解释和详细说明，帮助用户理解其含义和潜在影响。"
+      ],
+      "analysis_content": "续费管理页面整体功能布局合理，提供了必要的筛选和批量操作。然而，在信息展示的一致性、重要引导信息的视觉权重以及计费术语的清晰度方面存在一些体验问题。特别是“到期时间”筛选器的DOM结构与视觉表现不符，可能影响可访问性。此外，标签页计数与表格数据不一致以及“一键续费”按钮在不可用状态下的高亮显示，都可能导致用户困惑或误操作。对计费模式的解释不足也增加了用户理解成本和潜在风险。"
+    },
+    {
+      "id": "变更",
+      "name": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_6_change.png",
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到变更阶段入口",
+          "area": "页面整体",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "变更"
+          ],
+          "evidence": "DOM数据中 `entry_not_found` 字段为 `true`。当前页面URL为 `https://www.huaweicloud.com/notice/20260717153237724.html`，页面标题为“华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云”，内容为服务升级公告，与产品变更操作无关。视觉截图也显示这是一个公告页面，没有提供任何产品变更的入口或相关信息。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "用户尝试进入产品变更页面时，被重定向到一个服务公告页面，无法进行产品变更操作。",
+          "suggestion_after": "确保用户点击产品变更入口后，能够正确跳转到目标产品的变更套餐页面，并展示可供选择的套餐选项。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "确保所有客户旅程阶段的入口都能够正确导航到对应的功能页面，避免重定向到无关页面，以保证用户能够顺利完成其目标操作。"
+      ],
+      "analysis_content": "在“变更”阶段，系统未能提供有效的入口，用户被导航到一个与产品变更无关的服务公告页面。这严重阻碍了用户执行产品变更操作，导致用户旅程中断，体验极差。根据DOM数据，`entry_not_found` 明确为 `true`，视觉截图也证实了页面内容与变更操作不符。"
+    },
+    {
+      "id": "退订",
+      "name": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 2,
+      "is_compliant": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png",
+      "issues": [
+        {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "页面与“退订”阶段目标严重不符，实际为“提现”页面",
+          "area": "整体页面",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "提现",
+            "费用中心-提现",
+            "refundRecord"
+          ],
+          "evidence": "页面标题为“费用中心-提现”，URL路径包含“refundRecord”，页面主体内容全部围绕账户余额提现的规则和记录，未提供任何针对具体已购产品的退订或退款入口。这与“退订”阶段（指产品或服务的退订/退款）的目标完全不符。",
+          "standard": "Nielsen #2: Match Between System and Real World | Cooper: Goal-Directed Design",
+          "suggestion_before": "将“提现”页面作为“退订”阶段页面",
+          "suggestion_after": "提供明确的产品退订/退款入口页面，或在费用中心/订阅管理中增加“产品退订”或“申请退款”的明确入口，并引导用户至正确的操作页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "“可原路提现金额”为零时，“立即提现”按钮未禁用",
+          "area": "提现金额区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可原路提现金额 ¥0.00",
+            "立即提现"
+          ],
+          "evidence": "页面明确显示“可原路提现金额 ¥0.00”，但对应的“立即提现”按钮在DOM数据中`isDisabled`属性为`false`，视觉上按钮颜色为蓝色（`rgb(20, 118, 255)`），未置灰。用户点击此按钮将进行无效操作，造成困惑。",
+          "standard": "Nielsen #5: Error Prevention | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "可原路提现金额为0时，“立即提现”按钮可点击",
+          "suggestion_after": "当“可原路提现金额”为零时，将对应的“立即提现”按钮置灰（`isDisabled: true`, `opacity: 0.5`, `bgColor: #ccc`）并提供提示信息说明原因。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-003",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "缺少产品退订/退款的直接入口或指引",
+          "area": "整体页面",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "提现",
+            "退订"
+          ],
+          "evidence": "页面内容专注于账户余额提现，未提供任何针对具体已购产品的退订或退款操作入口，也未提供相关指引。用户无法在此页面完成产品退订，需要额外探索才能找到正确的退订路径。",
+          "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall | ISO 9241-110: 适合学习性",
+          "suggestion_before": "未提供产品退订入口",
+          "suggestion_after": "在费用中心或订阅管理中增加“产品退订”或“申请退款”的明确入口，并引导用户至正确的操作页面，或在当前页面提供相关指引链接。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+        }
+      ],
+      "suggestions": [
+        "核心问题是页面与阶段目标不匹配，应立即修正。确保“退订”阶段链接指向的是产品退订/退款流程页面，而非账户余额提现页面。",
+        "优化零金额操作的交互，避免用户进行无效点击。",
+        "提供清晰的产品退订路径指引，减少用户探索成本。"
+      ],
+      "analysis_content": "当前“退订”阶段的页面实际上是“费用中心”下的“提现”页面，用于处理账户余额的提现操作，而非产品或服务的退订/退款。这导致了严重的阶段目标不符问题，用户无法在此页面完成产品退订。此外，页面在“可原路提现金额”为零时，其对应的“立即提现”按钮仍可点击，存在误导用户的风险。整体而言，该页面未能满足“退订”阶段的用户需求，用户体验极差。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "web-感知-001",
+      "section": "感知",
+      "type": "layout",
+      "severity": "p2",
+      "title": "顶部国际站账号提示信息过于突出且持续显示",
+      "area": "顶部导航区",
+      "page_url": "https://www.huaweicloud.com/product/eip.html",
+      "locate": [
+        "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn"
+      ],
+      "evidence": "视觉上该提示位于页面顶部，背景为蓝色渐变，文字为白色，非常醒目。DOM数据显示其为 `header-prompt`，`fontSize` 12px，但其位置和背景色使其视觉权重过高，可能分散用户对主要内容的注意力。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "顶部横幅持续显示，背景色醒目",
+      "suggestion_after": "将提示信息改为不那么侵入式的浮窗或在用户首次访问时显示一次，并提供“不再显示”选项，或降低其视觉权重（如改为浅色背景）。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-002",
+      "section": "感知",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "首屏及主要内容区域缺少直接的价格信息展示",
+      "area": "首屏主视觉区",
+      "page_url": "https://www.huaweicloud.com/product/eip.html",
+      "locate": [
+        "定价",
+        "计费说明"
+      ],
+      "evidence": "页面首屏及主要内容区域未直接展示弹性公网IP的任何价格或套餐信息，仅通过导航链接“定价”和“计费说明”引导用户跳转到其他页面查看。DOM数据中无 `price_info` 字段。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "无直接价格展示，需跳转查看",
+      "suggestion_after": "在首屏或紧随其后的区域增加一个简要的价格范围或最受欢迎套餐的价格示例，并提供“查看详细定价”链接，方便用户快速了解成本。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-003",
+      "section": "感知",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "核心优势信息默认折叠，增加用户探索成本",
+      "area": "功能介绍区",
+      "page_url": "https://www.huaweicloud.com/product/eip.html",
+      "locate": [
+        "弹性的资源关联，灵活使用，绑定解绑实时生效",
+        "提供全动态BGP和静态BGP等多种带宽服务",
+        "提供共享带宽，降低带宽成本",
+        "计费灵活，管理便捷"
+      ],
+      "evidence": "“为什么选择华为云弹性公网IP EIP”区域的四个核心优势卡片默认处于折叠状态，用户需要点击才能展开查看详细描述。DOM数据显示这些元素具有 `por-collapse-container` 和 `por-collapse-trigger` 类，且默认未展开。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "核心优势卡片默认折叠",
+      "suggestion_after": "在感知阶段，考虑将核心优势卡片默认展开，或至少在首屏展示部分关键信息，减少用户获取信息的交互成本，以便用户快速理解产品价值。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-下单-001",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "计费详情信息不透明，缺少计算公式",
+      "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "locate": [
+        "弹性公网IP保有费：免费 带宽费用：¥115.00",
+        "实际扣费以账单为准。了解计费详情"
+      ],
+      "evidence": "页面底部显示'弹性公网IP保有费：免费 带宽费用：¥115.00'，但未提供带宽费用¥115.00的具体计算公式（如带宽大小*单价*时长），且'实际扣费以账单为准'的提示可能让用户对当前价格的准确性产生疑虑。价格信息字号为12px，颜色为rgb(140, 140, 140)，与正文14px、rgb(25, 25, 25)相比不突出。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "suggestion_before": "'弹性公网IP保有费：免费 带宽费用：¥115.00 实际扣费以账单为准。了解计费详情'",
+      "suggestion_after": "在价格下方提供详细的计算公式，例如：'带宽费用：¥115.00 (5 Mbit/s × ¥23.00/Mbit/s/月)'，并将'实际扣费以账单为准'的提示字号和颜色调整为更醒目，如fontSize:14px, color:rgb(220,38,38)。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-002",
+      "section": "下单",
+      "type": "layout",
+      "severity": "p1",
+      "title": "关键约束和风险提示字号过小，易被忽略",
+      "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "locate": [
+        "如果您需要扩大带宽大小上限，请 提交工单",
+        "公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组，在安全组的出方向和入方向中放通198.19.0.0/16网段的IP地址。",
+        "如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多"
+      ],
+      "evidence": "页面中关于带宽上限、IPv6转换配置、ICP备案等重要约束和风险提示的文字，如'如果您需要扩大带宽大小上限，请 提交工单'、'公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组...'、'如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多'，其字号均为12px，颜色为rgb(140, 140, 140)或rgb(89, 89, 89)，在页面中视觉权重不足，容易被用户忽略。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+      "suggestion_before": "关键约束和风险提示文字fontSize:12px, color:rgb(140,140,140)",
+      "suggestion_after": "将这些关键提示的字号提升至14px，并使用更醒目的颜色（如橙色或红色），或通过加粗、图标等方式增强视觉强调，例如：fontSize:14px, color:rgb(230,120,0)。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-003",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "按需计费模式缺少明确的扣费说明",
+      "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "locate": [
+        "按需计费"
+      ],
+      "evidence": "页面提供了'包年/包月'和'按需计费'两种计费模式选项，但对于'按需计费'模式，未在显眼位置提供具体的扣费说明（如按小时计费、按流量计费、扣费周期等），用户需要自行探索或点击'了解计费详情'才能获取，增加了理解成本。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "suggestion_before": "仅显示'按需计费'选项",
+      "suggestion_after": "在'按需计费'选项下方或旁边增加简要的扣费说明，例如：'按需计费（按小时扣费）'或提供悬浮提示，点击后显示详细扣费规则。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-004",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "IPv6转换公测结束后收费情况未明确",
+      "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "locate": [
+        "公测期间IPv6转换功能免费。"
+      ],
+      "evidence": "页面明确指出'公测期间IPv6转换功能免费'，但未说明公测结束后该功能是否会收费，以及如果收费，其计费标准和生效时间，可能导致用户在公测结束后产生额外费用而不知情。",
+      "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "suggestion_before": "'公测期间IPv6转换功能免费。'",
+      "suggestion_after": "'公测期间IPv6转换功能免费。公测结束后将按[具体计费标准]收费，详情请参考[链接]。'或明确说明公测结束后是否继续免费。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-005",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "免费产品缺少二次确认机制和自动续费说明",
+      "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "locate": [
+        "弹性公网IP保有费：免费",
+        "自动续费"
+      ],
+      "evidence": "页面显示'弹性公网IP保有费：免费'，但对于免费产品，缺少明确的二次确认机制，也没有在'自动续费'区域明确说明免费产品的自动续费逻辑（例如，免费部分是否自动续费，如果续费是否会产生费用）。",
+      "standard": "Nielsen #5: Error Prevention",
+      "suggestion_before": "免费产品无特殊提示",
+      "suggestion_after": "对于免费产品，在'立即购买'前增加弹窗确认，并明确说明'免费产品不涉及自动续费'或'免费部分到期后将自动失效，如需继续使用请购买付费套餐'。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-支付-001",
+      "section": "支付",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "未成功进入支付收银台页面",
+      "area": "全局",
+      "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "locate": [
+        "立即购买"
+      ],
+      "evidence": "DOM数据中 entry_not_found 为 true，且当前页面仍处于配置下单页（URL为购买弹性公网IP的创建页：https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create），底部核心操作按钮为'立即购买'而非支付收银台的'确认付款'或'去支付'，导致用户无法在当前旅程中完成支付阶段的体验审查。",
+      "standard": "Nielsen #1 | Garrett: Skeleton Plane",
+      "suggestion_before": "点击'立即购买'未自动跳转或未引导用户进入统一的支付收银台页面",
+      "suggestion_after": "点击'立即购买'后应顺畅生成订单并自动跳转至华为云统一支付收银台页面，展示清晰的支付方式和订单金额，确保支付旅程的完整闭环。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_3_payment.png"
+    },
+    {
+      "id": "web-使用-001",
+      "section": "使用",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "弹窗遮挡核心内容，影响用户操作流",
+      "area": "首屏主视觉区",
+      "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+      "locate": [
+        "新增监控告警一键配置能力",
+        "我已了解"
+      ],
+      "evidence": "截图中显示“新增监控告警一键配置能力”弹窗在页面加载时自动弹出，覆盖了页面中部的主要操作区域，用户需手动点击“我已了解”才能关闭。该弹窗的出现打断了用户对EIP列表页面的初始浏览和操作。",
+      "standard": "Nielsen #3: User Control and Freedom | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "页面加载时自动弹出功能介绍弹窗",
+      "suggestion_after": "将功能介绍以非模态、非侵入式的方式展示（如顶部Banner、侧边提示条），或在用户首次访问时以引导形式展示，避免阻断用户操作。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-002",
+      "section": "使用",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "核心操作按钮禁用无明确原因提示",
+      "area": "功能介绍区",
+      "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+      "locate": [
+        "解绑",
+        "修改带宽",
+        "续费"
+      ],
+      "evidence": "截图中“解绑”、“修改带宽”、“续费”等操作按钮呈灰色禁用状态，但页面上没有直接的文字说明（如悬浮提示或下方文字）告知用户这些按钮为何被禁用。用户需要结合页面下方的“暂无数据”提示才能推断出禁用原因。",
+      "standard": "Nielsen #1: Visibility of System Status | Nielsen #5: Error Prevention",
+      "suggestion_before": "禁用按钮无原因提示",
+      "suggestion_after": "在禁用按钮上添加悬浮提示（tooltip）或在按钮附近提供简短文字说明，解释按钮被禁用的原因（例如：“当前无弹性公网IP，无法进行此操作”）。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-003",
+      "section": "使用",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "快捷入口文字字号过小，影响可读性",
+      "area": "导航区",
+      "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+      "locate": [
+        "续费管理",
+        "域名列表",
+        "优惠券",
+        "我的工单",
+        "我的订单",
+        "支持计划"
+      ],
+      "evidence": "DOM数据显示左侧导航栏“快捷入口”区域（如“续费管理”、“我的工单”等）的文字`font-size`为`12px`，而页面其他主要导航和内容文字的`font-size`为`14px`或`16px`，导致快捷入口文字视觉权重较低，不易阅读。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "快捷入口文字`font-size: 12px`",
+      "suggestion_after": "快捷入口文字`font-size: 14px`，与页面其他导航文字保持一致，提升可读性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-004",
+      "section": "使用",
+      "type": "content_clarity",
+      "severity": "p2",
+      "title": "“暂无数据”状态下引导信息不完整",
+      "area": "功能介绍区",
+      "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+      "locate": [
+        "暂无数据",
+        "购买弹性公网IP",
+        "切换区域"
+      ],
+      "evidence": "页面在“暂无数据”状态下，仅提供了“购买弹性公网IP”和“切换区域”的选项。缺少对用户可能存在的其他需求（如如何导入已有EIP、查看其他区域EIP的详细指引）的考虑和引导，信息不够全面。",
+      "standard": "Nielsen #10: Help and Documentation | Nielsen #2: Match Between System and Real World",
+      "suggestion_before": "仅提供“购买”和“切换区域”",
+      "suggestion_after": "在“暂无数据”提示下方增加更多引导，例如“如果您已有EIP，请检查其他区域或联系客服”、“了解如何导入EIP”等，提供更全面的帮助。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-续费-001",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "续费指南链接视觉权重不足",
+      "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "如何续费资源？",
+        "找不到想续费的资源？",
+        "如何将“包年包月计费”转为“按需计费”？",
+        "什么是宽限期保留期？",
+        "如何自动续费？",
+        "如何统一到期日？",
+        "弹性云服务器 ECS"
+      ],
+      "evidence": "截图中，页面顶部的重要引导链接（如“如何续费资源？”）字体颜色为蓝色 (rgb(20, 118, 255))，字号为14px，与普通文本链接无明显视觉区分，在页面中作为重要帮助信息，视觉权重不足，容易被用户忽略。",
+      "standard": "Nielsen #10: Help and Documentation | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "链接字体颜色为蓝色，字号14px，无加粗",
+      "suggestion_after": "链接字体颜色保持蓝色，字号14px，增加 `font-weight: 700` 进行加粗，并在链接前增加醒目的图标或提示文字，以提高视觉权重。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-002",
+      "section": "续费",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "到期时间筛选器未以独立可交互元素呈现",
+      "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "全部：3",
+        "已冻结（进入保留期）：0",
+        "已过期（进入宽限期）：0",
+        "7天内到期：0",
+        "15天内到期：0",
+        "30天内到期：1",
+        "自定义时间"
+      ],
+      "evidence": "截图中，“到期时间”下的筛选选项（如“全部：3”、“7天内到期：0”、“30天内到期：1”）在视觉上呈现为独立的标签或按钮，但DOM数据中这些选项被解析为一个大的文本块，没有独立的 `<a>` 或 `<button>` 元素。这可能导致屏幕阅读器用户或依赖键盘导航的用户难以识别和操作这些筛选条件。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "将筛选选项作为纯文本展示",
+      "suggestion_after": "将每个筛选选项（如“全部”、“7天内到期”）封装为独立的按钮或链接元素，并提供可访问的名称和状态，确保其可交互性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-003",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "“到期不续费项”数量与表格数据不一致",
+      "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "到期不续费项 (3)",
+        "暂无表格数据"
+      ],
+      "evidence": "DOM数据和截图中，标签页显示“到期不续费项 (3)”，表明有3个资源设置为到期不续费。然而，下方的资源列表表格内容却显示“暂无表格数据”。这造成了信息上的矛盾和不一致，可能误导用户认为没有资源符合该条件。",
+      "standard": "Nielsen #4: Consistency and Standards",
+      "suggestion_before": "标签页显示“到期不续费项 (3)”，表格显示“暂无表格数据”",
+      "suggestion_after": "确保标签页的计数与实际表格数据一致。如果表格确实无数据，则标签页应显示“到期不续费项 (0)”；如果存在3条数据，则表格应正确显示这3条数据。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-004",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "“一键续费”按钮在数量为0时仍高亮显示",
+      "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "一键续费（0）"
+      ],
+      "evidence": "截图中，“一键续费（0）”按钮以蓝色背景高亮显示，通常表示可操作的主按钮。然而，括号中的数字“0”表明当前没有可一键续费的资源，该按钮实际上是不可用的。这种高亮显示与实际功能状态不符，可能误导用户点击。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #1: Visibility of System Status",
+      "suggestion_before": "一键续费（0）按钮高亮显示",
+      "suggestion_after": "当“一键续费”数量为0时，将按钮置灰或使用次要按钮样式，以降低其视觉权重，明确表示当前不可操作。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-005",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "“到期转按需”文案可能引起歧义，缺少详细说明",
+      "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "到期转按需"
+      ],
+      "evidence": "DOM数据和截图中，存在“到期转按需”的选项和批量操作按钮。对于不熟悉华为云计费模式的用户，可能不清楚“到期转按需”的具体含义和后果（例如，是否会自动扣费，扣费标准如何，是否需要手动确认）。页面上没有直接提供相关的解释或链接。",
+      "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性 | Nielsen #5: Error Prevention",
+      "suggestion_before": "“到期转按需”",
+      "suggestion_after": "将文案修改为更清晰的“到期自动转按需计费”或“到期按需付费”，并在附近提供清晰的说明链接或悬浮提示，解释按需计费的扣费方式、生效时间、可能产生的费用以及如何管理，以帮助用户做出知情决策。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-变更-001",
+      "section": "变更",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "未找到变更阶段入口",
+      "area": "页面整体",
+      "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "locate": [
+        "变更"
+      ],
+      "evidence": "DOM数据中 `entry_not_found` 字段为 `true`。当前页面URL为 `https://www.huaweicloud.com/notice/20260717153237724.html`，页面标题为“华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云”，内容为服务升级公告，与产品变更操作无关。视觉截图也显示这是一个公告页面，没有提供任何产品变更的入口或相关信息。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "用户尝试进入产品变更页面时，被重定向到一个服务公告页面，无法进行产品变更操作。",
+      "suggestion_after": "确保用户点击产品变更入口后，能够正确跳转到目标产品的变更套餐页面，并展示可供选择的套餐选项。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_6_change.png"
+    },
+    {
+      "id": "web-退订-001",
+      "section": "退订",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "页面与“退订”阶段目标严重不符，实际为“提现”页面",
+      "area": "整体页面",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "提现",
+        "费用中心-提现",
+        "refundRecord"
+      ],
+      "evidence": "页面标题为“费用中心-提现”，URL路径包含“refundRecord”，页面主体内容全部围绕账户余额提现的规则和记录，未提供任何针对具体已购产品的退订或退款入口。这与“退订”阶段（指产品或服务的退订/退款）的目标完全不符。",
+      "standard": "Nielsen #2: Match Between System and Real World | Cooper: Goal-Directed Design",
+      "suggestion_before": "将“提现”页面作为“退订”阶段页面",
+      "suggestion_after": "提供明确的产品退订/退款入口页面，或在费用中心/订阅管理中增加“产品退订”或“申请退款”的明确入口，并引导用户至正确的操作页面。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-002",
+      "section": "退订",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "“可原路提现金额”为零时，“立即提现”按钮未禁用",
+      "area": "提现金额区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "可原路提现金额 ¥0.00",
+        "立即提现"
+      ],
+      "evidence": "页面明确显示“可原路提现金额 ¥0.00”，但对应的“立即提现”按钮在DOM数据中`isDisabled`属性为`false`，视觉上按钮颜色为蓝色（`rgb(20, 118, 255)`），未置灰。用户点击此按钮将进行无效操作，造成困惑。",
+      "standard": "Nielsen #5: Error Prevention | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "可原路提现金额为0时，“立即提现”按钮可点击",
+      "suggestion_after": "当“可原路提现金额”为零时，将对应的“立即提现”按钮置灰（`isDisabled: true`, `opacity: 0.5`, `bgColor: #ccc`）并提供提示信息说明原因。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-003",
+      "section": "退订",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "缺少产品退订/退款的直接入口或指引",
+      "area": "整体页面",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "提现",
+        "退订"
+      ],
+      "evidence": "页面内容专注于账户余额提现，未提供任何针对具体已购产品的退订或退款操作入口，也未提供相关指引。用户无法在此页面完成产品退订，需要额外探索才能找到正确的退订路径。",
+      "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall | ISO 9241-110: 适合学习性",
+      "suggestion_before": "未提供产品退订入口",
+      "suggestion_after": "在费用中心或订阅管理中增加“产品退订”或“申请退款”的明确入口，并引导用户至正确的操作页面，或在当前页面提供相关指引链接。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  },
+  "total_stages_analyzed": 7,
+  "stages_analyzed": [
+    "感知",
+    "下单",
+    "支付",
+    "使用",
+    "续费",
+    "变更",
+    "退订"
+  ],
+  "stages_missing": [],
+  "stage_analysis": {
+    "感知": {
+      "stage": "感知",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "layout",
+          "severity": "p2",
+          "title": "顶部国际站账号提示信息过于突出且持续显示",
+          "area": "顶部导航区",
+          "page_url": "https://www.huaweicloud.com/product/eip.html",
+          "locate": [
+            "检测到您已登录华为云国际站账号，为了您更好的体验，建议您访问国际站服务网站 https://www.huaweicloud.com/intl/zh-cn"
+          ],
+          "evidence": "视觉上该提示位于页面顶部，背景为蓝色渐变，文字为白色，非常醒目。DOM数据显示其为 `header-prompt`，`fontSize` 12px，但其位置和背景色使其视觉权重过高，可能分散用户对主要内容的注意力。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "顶部横幅持续显示，背景色醒目",
+          "suggestion_after": "将提示信息改为不那么侵入式的浮窗或在用户首次访问时显示一次，并提供“不再显示”选项，或降低其视觉权重（如改为浅色背景）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "首屏及主要内容区域缺少直接的价格信息展示",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/eip.html",
+          "locate": [
+            "定价",
+            "计费说明"
+          ],
+          "evidence": "页面首屏及主要内容区域未直接展示弹性公网IP的任何价格或套餐信息，仅通过导航链接“定价”和“计费说明”引导用户跳转到其他页面查看。DOM数据中无 `price_info` 字段。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "无直接价格展示，需跳转查看",
+          "suggestion_after": "在首屏或紧随其后的区域增加一个简要的价格范围或最受欢迎套餐的价格示例，并提供“查看详细定价”链接，方便用户快速了解成本。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-003",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "核心优势信息默认折叠，增加用户探索成本",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/eip.html",
+          "locate": [
+            "弹性的资源关联，灵活使用，绑定解绑实时生效",
+            "提供全动态BGP和静态BGP等多种带宽服务",
+            "提供共享带宽，降低带宽成本",
+            "计费灵活，管理便捷"
+          ],
+          "evidence": "“为什么选择华为云弹性公网IP EIP”区域的四个核心优势卡片默认处于折叠状态，用户需要点击才能展开查看详细描述。DOM数据显示这些元素具有 `por-collapse-container` 和 `por-collapse-trigger` 类，且默认未展开。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "核心优势卡片默认折叠",
+          "suggestion_after": "在感知阶段，考虑将核心优势卡片默认展开，或至少在首屏展示部分关键信息，减少用户获取信息的交互成本，以便用户快速理解产品价值。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "优化顶部提示信息的视觉权重和交互方式，避免干扰用户。",
+        "在产品概述页面直接展示关键价格信息，提升用户对产品成本的感知效率。",
+        "调整核心优势内容的默认展示状态，减少用户探索信息时的额外点击。",
+        "修正页面底部版权年份，确保信息准确性。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，产品核心卖点和功能介绍完整。主要问题在于信息呈现方式，如顶部提示过于醒目、价格信息需跳转查看、核心优势默认折叠，以及底部版权年份错误。这些问题增加了用户获取关键信息的成本，并影响了页面的专业度。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/eip.html",
+      "title": "弹性公网IP-网络-产品-华为云",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_1_awareness.png"
+    },
+    "下单": {
+      "stage": "下单",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "计费详情信息不透明，缺少计算公式",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "弹性公网IP保有费：免费 带宽费用：¥115.00",
+            "实际扣费以账单为准。了解计费详情"
+          ],
+          "evidence": "页面底部显示'弹性公网IP保有费：免费 带宽费用：¥115.00'，但未提供带宽费用¥115.00的具体计算公式（如带宽大小*单价*时长），且'实际扣费以账单为准'的提示可能让用户对当前价格的准确性产生疑虑。价格信息字号为12px，颜色为rgb(140, 140, 140)，与正文14px、rgb(25, 25, 25)相比不突出。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "'弹性公网IP保有费：免费 带宽费用：¥115.00 实际扣费以账单为准。了解计费详情'",
+          "suggestion_after": "在价格下方提供详细的计算公式，例如：'带宽费用：¥115.00 (5 Mbit/s × ¥23.00/Mbit/s/月)'，并将'实际扣费以账单为准'的提示字号和颜色调整为更醒目，如fontSize:14px, color:rgb(220,38,38)。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-002",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p1",
+          "title": "关键约束和风险提示字号过小，易被忽略",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "如果您需要扩大带宽大小上限，请 提交工单",
+            "公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组，在安全组的出方向和入方向中放通198.19.0.0/16网段的IP地址。",
+            "如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多"
+          ],
+          "evidence": "页面中关于带宽上限、IPv6转换配置、ICP备案等重要约束和风险提示的文字，如'如果您需要扩大带宽大小上限，请 提交工单'、'公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组...'、'如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多'，其字号均为12px，颜色为rgb(140, 140, 140)或rgb(89, 89, 89)，在页面中视觉权重不足，容易被用户忽略。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+          "suggestion_before": "关键约束和风险提示文字fontSize:12px, color:rgb(140,140,140)",
+          "suggestion_after": "将这些关键提示的字号提升至14px，并使用更醒目的颜色（如橙色或红色），或通过加粗、图标等方式增强视觉强调，例如：fontSize:14px, color:rgb(230,120,0)。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-003",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "按需计费模式缺少明确的扣费说明",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "按需计费"
+          ],
+          "evidence": "页面提供了'包年/包月'和'按需计费'两种计费模式选项，但对于'按需计费'模式，未在显眼位置提供具体的扣费说明（如按小时计费、按流量计费、扣费周期等），用户需要自行探索或点击'了解计费详情'才能获取，增加了理解成本。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "仅显示'按需计费'选项",
+          "suggestion_after": "在'按需计费'选项下方或旁边增加简要的扣费说明，例如：'按需计费（按小时扣费）'或提供悬浮提示，点击后显示详细扣费规则。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-004",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "IPv6转换公测结束后收费情况未明确",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "公测期间IPv6转换功能免费。"
+          ],
+          "evidence": "页面明确指出'公测期间IPv6转换功能免费'，但未说明公测结束后该功能是否会收费，以及如果收费，其计费标准和生效时间，可能导致用户在公测结束后产生额外费用而不知情。",
+          "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "'公测期间IPv6转换功能免费。'",
+          "suggestion_after": "'公测期间IPv6转换功能免费。公测结束后将按[具体计费标准]收费，详情请参考[链接]。'或明确说明公测结束后是否继续免费。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-005",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "免费产品缺少二次确认机制和自动续费说明",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "弹性公网IP保有费：免费",
+            "自动续费"
+          ],
+          "evidence": "页面显示'弹性公网IP保有费：免费'，但对于免费产品，缺少明确的二次确认机制，也没有在'自动续费'区域明确说明免费产品的自动续费逻辑（例如，免费部分是否自动续费，如果续费是否会产生费用）。",
+          "standard": "Nielsen #5: Error Prevention",
+          "suggestion_before": "免费产品无特殊提示",
+          "suggestion_after": "对于免费产品，在'立即购买'前增加弹窗确认，并明确说明'免费产品不涉及自动续费'或'免费部分到期后将自动失效，如需继续使用请购买付费套餐'。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [
+        "提升关键约束和风险提示信息的视觉权重，使用更醒目的字号和颜色。",
+        "增加计费详情的透明度，提供清晰的费用计算公式和按需计费的详细说明。",
+        "明确公测期结束后免费功能的收费政策，避免用户产生误解。",
+        "针对免费产品，增加二次确认机制，并明确其自动续费逻辑。"
+      ],
+      "analysis_content": "下单页面整体布局清晰，核心操作按钮醒目。但在计费详情、关键约束提示和免费产品说明方面存在信息透明度不足和视觉权重分配不合理的问题，可能导致用户对费用产生误解或忽略重要风险提示。特别是计费公式的缺失和公测期后收费政策的不明确，可能影响用户决策和后续使用体验。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "title": "购买弹性公网IP",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+    },
+    "支付": {
+      "stage": "支付",
+      "score": 2,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未成功进入支付收银台页面",
+          "area": "全局",
+          "page_url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+          "locate": [
+            "立即购买"
+          ],
+          "evidence": "DOM数据中 entry_not_found 为 true，且当前页面仍处于配置下单页（URL为购买弹性公网IP的创建页：https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create），底部核心操作按钮为'立即购买'而非支付收银台的'确认付款'或'去支付'，导致用户无法在当前旅程中完成支付阶段的体验审查。",
+          "standard": "Nielsen #1 | Garrett: Skeleton Plane",
+          "suggestion_before": "点击'立即购买'未自动跳转或未引导用户进入统一的支付收银台页面",
+          "suggestion_after": "点击'立即购买'后应顺畅生成订单并自动跳转至华为云统一支付收银台页面，展示清晰的支付方式和订单金额，确保支付旅程的完整闭环。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "确保自动化测试或爬取脚本能够通过点击'立即购买'生成订单，并成功跳转到真实的支付收银台页面（servicePay），以便对支付阶段的收银台布局、支付渠道、优惠券抵扣等关键体验进行审查。"
+      ],
+      "analysis_content": "由于系统限制或未实际提交订单，当前旅程未能进入真实的支付收银台页面，仍停留在弹性公网IP的配置下单页面。因此判定支付阶段入口不可达，无法对实际支付交互进行深度审查。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+      "title": "购买弹性公网IP",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_3_payment.png"
+    },
+    "使用": {
+      "stage": "使用",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "弹窗遮挡核心内容，影响用户操作流",
+          "area": "首屏主视觉区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "新增监控告警一键配置能力",
+            "我已了解"
+          ],
+          "evidence": "截图中显示“新增监控告警一键配置能力”弹窗在页面加载时自动弹出，覆盖了页面中部的主要操作区域，用户需手动点击“我已了解”才能关闭。该弹窗的出现打断了用户对EIP列表页面的初始浏览和操作。",
+          "standard": "Nielsen #3: User Control and Freedom | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "页面加载时自动弹出功能介绍弹窗",
+          "suggestion_after": "将功能介绍以非模态、非侵入式的方式展示（如顶部Banner、侧边提示条），或在用户首次访问时以引导形式展示，避免阻断用户操作。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "核心操作按钮禁用无明确原因提示",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "解绑",
+            "修改带宽",
+            "续费"
+          ],
+          "evidence": "截图中“解绑”、“修改带宽”、“续费”等操作按钮呈灰色禁用状态，但页面上没有直接的文字说明（如悬浮提示或下方文字）告知用户这些按钮为何被禁用。用户需要结合页面下方的“暂无数据”提示才能推断出禁用原因。",
+          "standard": "Nielsen #1: Visibility of System Status | Nielsen #5: Error Prevention",
+          "suggestion_before": "禁用按钮无原因提示",
+          "suggestion_after": "在禁用按钮上添加悬浮提示（tooltip）或在按钮附近提供简短文字说明，解释按钮被禁用的原因（例如：“当前无弹性公网IP，无法进行此操作”）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-003",
+          "section": "使用",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "快捷入口文字字号过小，影响可读性",
+          "area": "导航区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "续费管理",
+            "域名列表",
+            "优惠券",
+            "我的工单",
+            "我的订单",
+            "支持计划"
+          ],
+          "evidence": "DOM数据显示左侧导航栏“快捷入口”区域（如“续费管理”、“我的工单”等）的文字`font-size`为`12px`，而页面其他主要导航和内容文字的`font-size`为`14px`或`16px`，导致快捷入口文字视觉权重较低，不易阅读。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "快捷入口文字`font-size: 12px`",
+          "suggestion_after": "快捷入口文字`font-size: 14px`，与页面其他导航文字保持一致，提升可读性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-004",
+          "section": "使用",
+          "type": "content_clarity",
+          "severity": "p2",
+          "title": "“暂无数据”状态下引导信息不完整",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+          "locate": [
+            "暂无数据",
+            "购买弹性公网IP",
+            "切换区域"
+          ],
+          "evidence": "页面在“暂无数据”状态下，仅提供了“购买弹性公网IP”和“切换区域”的选项。缺少对用户可能存在的其他需求（如如何导入已有EIP、查看其他区域EIP的详细指引）的考虑和引导，信息不够全面。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #2: Match Between System and Real World",
+          "suggestion_before": "仅提供“购买”和“切换区域”",
+          "suggestion_after": "在“暂无数据”提示下方增加更多引导，例如“如果您已有EIP，请检查其他区域或联系客服”、“了解如何导入EIP”等，提供更全面的帮助。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "优化页面加载时的弹窗展示方式，避免打断用户操作。",
+        "为禁用状态的操作按钮提供明确的禁用原因提示。",
+        "统一导航和快捷入口的文字字号，提升页面整体可读性。",
+        "在“暂无数据”状态下提供更全面和智能的用户引导，覆盖更多潜在用户需求。"
+      ],
+      "analysis_content": "当前“使用”阶段页面为弹性公网IP的控制台列表页，整体布局清晰，产品名称和核心功能区域明确。但存在弹窗遮挡、禁用按钮缺乏明确提示、快捷入口文字过小以及“暂无数据”状态下引导信息不完整等体验问题，这些问题影响了用户首次访问的流畅性、操作的理解性以及信息的获取效率。控制台内的产品可达性良好，搜索和分类导航均能有效找到产品入口。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/vpc/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/eip/eips/list",
+      "title": "弹性公网IP-控制台",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_4_usage.png"
+    },
+    "续费": {
+      "stage": "续费",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "续费指南链接视觉权重不足",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如何续费资源？",
+            "找不到想续费的资源？",
+            "如何将“包年包月计费”转为“按需计费”？",
+            "什么是宽限期保留期？",
+            "如何自动续费？",
+            "如何统一到期日？",
+            "弹性云服务器 ECS"
+          ],
+          "evidence": "截图中，页面顶部的重要引导链接（如“如何续费资源？”）字体颜色为蓝色 (rgb(20, 118, 255))，字号为14px，与普通文本链接无明显视觉区分，在页面中作为重要帮助信息，视觉权重不足，容易被用户忽略。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "链接字体颜色为蓝色，字号14px，无加粗",
+          "suggestion_after": "链接字体颜色保持蓝色，字号14px，增加 `font-weight: 700` 进行加粗，并在链接前增加醒目的图标或提示文字，以提高视觉权重。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "到期时间筛选器未以独立可交互元素呈现",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "全部：3",
+            "已冻结（进入保留期）：0",
+            "已过期（进入宽限期）：0",
+            "7天内到期：0",
+            "15天内到期：0",
+            "30天内到期：1",
+            "自定义时间"
+          ],
+          "evidence": "截图中，“到期时间”下的筛选选项（如“全部：3”、“7天内到期：0”、“30天内到期：1”）在视觉上呈现为独立的标签或按钮，但DOM数据中这些选项被解析为一个大的文本块，没有独立的 `<a>` 或 `<button>` 元素。这可能导致屏幕阅读器用户或依赖键盘导航的用户难以识别和操作这些筛选条件。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "将筛选选项作为纯文本展示",
+          "suggestion_after": "将每个筛选选项（如“全部”、“7天内到期”）封装为独立的按钮或链接元素，并提供可访问的名称和状态，确保其可交互性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "“到期不续费项”数量与表格数据不一致",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期不续费项 (3)",
+            "暂无表格数据"
+          ],
+          "evidence": "DOM数据和截图中，标签页显示“到期不续费项 (3)”，表明有3个资源设置为到期不续费。然而，下方的资源列表表格内容却显示“暂无表格数据”。这造成了信息上的矛盾和不一致，可能误导用户认为没有资源符合该条件。",
+          "standard": "Nielsen #4: Consistency and Standards",
+          "suggestion_before": "标签页显示“到期不续费项 (3)”，表格显示“暂无表格数据”",
+          "suggestion_after": "确保标签页的计数与实际表格数据一致。如果表格确实无数据，则标签页应显示“到期不续费项 (0)”；如果存在3条数据，则表格应正确显示这3条数据。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-004",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "“一键续费”按钮在数量为0时仍高亮显示",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "一键续费（0）"
+          ],
+          "evidence": "截图中，“一键续费（0）”按钮以蓝色背景高亮显示，通常表示可操作的主按钮。然而，括号中的数字“0”表明当前没有可一键续费的资源，该按钮实际上是不可用的。这种高亮显示与实际功能状态不符，可能误导用户点击。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #1: Visibility of System Status",
+          "suggestion_before": "一键续费（0）按钮高亮显示",
+          "suggestion_after": "当“一键续费”数量为0时，将按钮置灰或使用次要按钮样式，以降低其视觉权重，明确表示当前不可操作。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-005",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "“到期转按需”文案可能引起歧义，缺少详细说明",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期转按需"
+          ],
+          "evidence": "DOM数据和截图中，存在“到期转按需”的选项和批量操作按钮。对于不熟悉华为云计费模式的用户，可能不清楚“到期转按需”的具体含义和后果（例如，是否会自动扣费，扣费标准如何，是否需要手动确认）。页面上没有直接提供相关的解释或链接。",
+          "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性 | Nielsen #5: Error Prevention",
+          "suggestion_before": "“到期转按需”",
+          "suggestion_after": "将文案修改为更清晰的“到期自动转按需计费”或“到期按需付费”，并在附近提供清晰的说明链接或悬浮提示，解释按需计费的扣费方式、生效时间、可能产生的费用以及如何管理，以帮助用户做出知情决策。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化页面顶部续费指南链接的视觉权重，使其更醒目，方便用户获取帮助信息。",
+        "将“到期时间”筛选器中的每个选项设计为独立的、可交互的组件，提升可访问性和用户体验。",
+        "确保标签页的资源计数与实际表格数据严格一致，避免信息矛盾。",
+        "根据按钮的实际可用状态调整其视觉样式，避免在不可用时仍高亮显示。",
+        "为“到期转按需”等计费相关术语提供更清晰的解释和详细说明，帮助用户理解其含义和潜在影响。"
+      ],
+      "analysis_content": "续费管理页面整体功能布局合理，提供了必要的筛选和批量操作。然而，在信息展示的一致性、重要引导信息的视觉权重以及计费术语的清晰度方面存在一些体验问题。特别是“到期时间”筛选器的DOM结构与视觉表现不符，可能影响可访问性。此外，标签页计数与表格数据不一致以及“一键续费”按钮在不可用状态下的高亮显示，都可能导致用户困惑或误操作。对计费模式的解释不足也增加了用户理解成本和潜在风险。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_5_renewal.png"
+    },
+    "变更": {
+      "stage": "变更",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到变更阶段入口",
+          "area": "页面整体",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "变更"
+          ],
+          "evidence": "DOM数据中 `entry_not_found` 字段为 `true`。当前页面URL为 `https://www.huaweicloud.com/notice/20260717153237724.html`，页面标题为“华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云”，内容为服务升级公告，与产品变更操作无关。视觉截图也显示这是一个公告页面，没有提供任何产品变更的入口或相关信息。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "用户尝试进入产品变更页面时，被重定向到一个服务公告页面，无法进行产品变更操作。",
+          "suggestion_after": "确保用户点击产品变更入口后，能够正确跳转到目标产品的变更套餐页面，并展示可供选择的套餐选项。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "确保所有客户旅程阶段的入口都能够正确导航到对应的功能页面，避免重定向到无关页面，以保证用户能够顺利完成其目标操作。"
+      ],
+      "analysis_content": "在“变更”阶段，系统未能提供有效的入口，用户被导航到一个与产品变更无关的服务公告页面。这严重阻碍了用户执行产品变更操作，导致用户旅程中断，体验极差。根据DOM数据，`entry_not_found` 明确为 `true`，视觉截图也证实了页面内容与变更操作不符。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_6_change.png"
+    },
+    "退订": {
+      "stage": "退订",
+      "score": 2,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "页面与“退订”阶段目标严重不符，实际为“提现”页面",
+          "area": "整体页面",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "提现",
+            "费用中心-提现",
+            "refundRecord"
+          ],
+          "evidence": "页面标题为“费用中心-提现”，URL路径包含“refundRecord”，页面主体内容全部围绕账户余额提现的规则和记录，未提供任何针对具体已购产品的退订或退款入口。这与“退订”阶段（指产品或服务的退订/退款）的目标完全不符。",
+          "standard": "Nielsen #2: Match Between System and Real World | Cooper: Goal-Directed Design",
+          "suggestion_before": "将“提现”页面作为“退订”阶段页面",
+          "suggestion_after": "提供明确的产品退订/退款入口页面，或在费用中心/订阅管理中增加“产品退订”或“申请退款”的明确入口，并引导用户至正确的操作页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "“可原路提现金额”为零时，“立即提现”按钮未禁用",
+          "area": "提现金额区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可原路提现金额 ¥0.00",
+            "立即提现"
+          ],
+          "evidence": "页面明确显示“可原路提现金额 ¥0.00”，但对应的“立即提现”按钮在DOM数据中`isDisabled`属性为`false`，视觉上按钮颜色为蓝色（`rgb(20, 118, 255)`），未置灰。用户点击此按钮将进行无效操作，造成困惑。",
+          "standard": "Nielsen #5: Error Prevention | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "可原路提现金额为0时，“立即提现”按钮可点击",
+          "suggestion_after": "当“可原路提现金额”为零时，将对应的“立即提现”按钮置灰（`isDisabled: true`, `opacity: 0.5`, `bgColor: #ccc`）并提供提示信息说明原因。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-003",
+          "section": "退订",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "缺少产品退订/退款的直接入口或指引",
+          "area": "整体页面",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "提现",
+            "退订"
+          ],
+          "evidence": "页面内容专注于账户余额提现，未提供任何针对具体已购产品的退订或退款操作入口，也未提供相关指引。用户无法在此页面完成产品退订，需要额外探索才能找到正确的退订路径。",
+          "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall | ISO 9241-110: 适合学习性",
+          "suggestion_before": "未提供产品退订入口",
+          "suggestion_after": "在费用中心或订阅管理中增加“产品退订”或“申请退款”的明确入口，并引导用户至正确的操作页面，或在当前页面提供相关指引链接。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+        }
+      ],
+      "suggestions": [
+        "核心问题是页面与阶段目标不匹配，应立即修正。确保“退订”阶段链接指向的是产品退订/退款流程页面，而非账户余额提现页面。",
+        "优化零金额操作的交互，避免用户进行无效点击。",
+        "提供清晰的产品退订路径指引，减少用户探索成本。"
+      ],
+      "analysis_content": "当前“退订”阶段的页面实际上是“费用中心”下的“提现”页面，用于处理账户余额的提现操作，而非产品或服务的退订/退款。这导致了严重的阶段目标不符问题，用户无法在此页面完成产品退订。此外，页面在“可原路提现金额”为零时，其对应的“立即提现”按钮仍可点击，存在误导用户的风险。整体而言，该页面未能满足“退订”阶段的用户需求，用户体验极差。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_7_unsubscribe.png"
+    }
+  }
+}

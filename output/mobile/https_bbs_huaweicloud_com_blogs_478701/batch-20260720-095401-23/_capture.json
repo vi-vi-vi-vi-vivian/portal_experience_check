@@ -1,0 +1,2623 @@
+{
+  "input_url": "https://bbs.huaweicloud.com/blogs/478701",
+  "audit_time": "2026-07-20T04:14:02.072622+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_478701/batch-20260720-095401-23/screenshots/https_bbs_huaweicloud_com_blogs_478701_top.png",
+    "scroll_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_478701/batch-20260720-095401-23/screenshots/https_bbs_huaweicloud_com_blogs_478701_scroll.png",
+    "full_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_478701/batch-20260720-095401-23/screenshots/https_bbs_huaweicloud_com_blogs_478701_full.png",
+    "menu_screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_478701/batch-20260720-095401-23/screenshots/https_bbs_huaweicloud_com_blogs_478701_menu.png"
+  },
+  "dom": {
+    "url": "https://bbs.huaweicloud.com/blogs/478701",
+    "title": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验-云社区-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 7283
+    },
+    "overflowElements": [
+      {
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > img.user-avatar",
+        "text": "",
+        "left": -4,
+        "right": 52,
+        "width": 56,
+        "className": "user-avatar",
+        "overflowX": "clip"
+      }
+    ],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "div.loaded.mb > div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu",
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs 我的支持 我的技术支持 我的云声建议",
+        "clientWidth": 48,
+        "scrollWidth": 48,
+        "clientHeight": 536,
+        "scrollHeight": 763,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "536px"
+      },
+      {
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail",
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验 举报 华为开发者空间小助手 2026/06/05 1.5w+ 【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devst",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 7187,
+        "scrollHeight": 7208,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "7186.86px"
+      },
+      {
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail > div.wrapper-main",
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验 举报 华为开发者空间小助手 2026/06/05 1.5w+ 【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devst",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 7187,
+        "scrollHeight": 7208,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "7186.86px"
+      },
+      {
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog",
+        "text": "举报 华为开发者空间小助手 2026/06/05 1.5w+",
+        "clientWidth": 360,
+        "scrollWidth": 372,
+        "clientHeight": 20,
+        "scrollHeight": 40,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "20px"
+      },
+      {
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstation.connect.huaweicl",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 5882,
+        "scrollHeight": 5882,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "5881.86px"
+      },
+      {
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstation.connect.huaweicl",
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "clientHeight": 5464,
+        "scrollHeight": 5464,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "5463.52px"
+      },
+      {
+        "path": "div#comment.comment-block > ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info",
+        "text": "2026/07/08 20:44:02 举报 回复",
+        "clientWidth": 316,
+        "scrollWidth": 316,
+        "clientHeight": 18,
+        "scrollHeight": 22,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "18px"
+      }
+    ],
+    "fixedBottom": [
+      {
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.mobile-commenter-cover.m-blog-user-comment",
+        "text": "评论 全部回复 上滑加载中",
+        "position": "fixed",
+        "height": 54,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      },
+      {
+        "path": "html.phone > body#blogs_detial_home_page > div.banner-box",
+        "text": "新窗 关闭",
+        "position": "fixed",
+        "height": 844,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      }
+    ],
+    "clickableSummary": {
+      "count": 49
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-wrapper > div.header-inner.isDeveloper > div.hwc-header-bottom > h2.hwc-header-logo-outer > a.hwc-header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 20,
+        "y": 11,
+        "width": 70,
+        "height": 25,
+        "area": 1750
+      },
+      {
+        "index": 1,
+        "path": "div.header-wrapper > div.header-inner.isDeveloper > div.hwc-header-bottom > div.logo-title > a",
+        "text": "开发者",
+        "tag": "a",
+        "x": 169,
+        "y": 12,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 2,
+        "path": "div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu > li.level1 > a",
+        "text": "个人主页",
+        "tag": "a",
+        "x": 24,
+        "y": 229,
+        "width": 16,
+        "height": 163,
+        "area": 2608
+      },
+      {
+        "index": 3,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的博客",
+        "tag": "a",
+        "x": 40,
+        "y": 519,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 4,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的论坛",
+        "tag": "a",
+        "x": 40,
+        "y": 567,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 5,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的圈子",
+        "tag": "a",
+        "x": 40,
+        "y": 615,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 6,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的直播",
+        "tag": "a",
+        "x": 40,
+        "y": 663,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 7,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的活动",
+        "tag": "a",
+        "x": 40,
+        "y": 711,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 8,
+        "path": "ul.my-menu > li.level1.active > ul.children > li > a",
+        "text": "我的关注",
+        "tag": "a",
+        "x": 40,
+        "y": 759,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 9,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的课程",
+        "tag": "a",
+        "x": 40,
+        "y": 1144,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 10,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的认证",
+        "tag": "a",
+        "x": 40,
+        "y": 1192,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 11,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的实验",
+        "tag": "a",
+        "x": 40,
+        "y": 1240,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 12,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的收藏",
+        "tag": "a",
+        "x": 40,
+        "y": 1288,
+        "width": 14,
+        "height": 160,
+        "area": 2240
+      },
+      {
+        "index": 14,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的技术支持",
+        "tag": "a",
+        "x": 40,
+        "y": 1096,
+        "width": 14,
+        "height": 256,
+        "area": 3584
+      },
+      {
+        "index": 15,
+        "path": "ul.my-menu > li.level1 > ul.children > li > a",
+        "text": "我的云声建议",
+        "tag": "a",
+        "x": 40,
+        "y": 1144,
+        "width": 14,
+        "height": 256,
+        "area": 3584
+      },
+      {
+        "index": 16,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.author-min-head.target_self",
+        "text": "",
+        "tag": "a",
+        "x": 15,
+        "y": 128,
+        "width": 20,
+        "height": 20,
+        "area": 400
+      },
+      {
+        "index": 17,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+        "text": "华为开发者空间小助手",
+        "tag": "a",
+        "x": 43,
+        "y": 130,
+        "width": 120,
+        "height": 16,
+        "area": 1920
+      },
+      {
+        "index": 18,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > strong > a",
+        "text": "https://developer.huaweicloud.com/aishell.html",
+        "tag": "a",
+        "x": 15,
+        "y": 479,
+        "width": 329,
+        "height": 17,
+        "area": 5587.6875
+      },
+      {
+        "index": 19,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > strong > a",
+        "text": "https://devstation.connect.huaweicloud.com/aishell",
+        "tag": "a",
+        "x": 15,
+        "y": 527,
+        "width": 359,
+        "height": 17,
+        "area": 6097.15625
+      },
+      {
+        "index": 20,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > strong > a",
+        "text": "华为云SKILL门户",
+        "tag": "a",
+        "x": 88,
+        "y": 2404,
+        "width": 110,
+        "height": 17,
+        "area": 1865.75
+      },
+      {
+        "index": 21,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > strong > a",
+        "text": "https://developer.huaweicloud.com/practicecenter.html",
+        "tag": "a",
+        "x": 15,
+        "y": 4103,
+        "width": 353,
+        "height": 41,
+        "area": 14479.40625
+      },
+      {
+        "index": 22,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li > a",
+        "text": "华为云VPC从入门到精通：手动创建与Terraform一键部署Hands-On最佳实践",
+        "tag": "a",
+        "x": 47,
+        "y": 4347,
+        "width": 322,
+        "height": 38,
+        "area": 12243.125
+      },
+      {
+        "index": 23,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li > a",
+        "text": "AssetMgmt固定资产管理系统",
+        "tag": "a",
+        "x": 47,
+        "y": 4441,
+        "width": 191,
+        "height": 17,
+        "area": 3249.921875
+      },
+      {
+        "index": 24,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li > a",
+        "text": "华为云 Flexus L 一键部署",
+        "tag": "a",
+        "x": 47,
+        "y": 4535,
+        "width": 161,
+        "height": 17,
+        "area": 2738.859375
+      },
+      {
+        "index": 25,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li > a",
+        "text": "技术分享：我的OPC首单成交之路，华为云码道Spec-Driven模式如何帮我破局",
+        "tag": "a",
+        "x": 47,
+        "y": 4608,
+        "width": 296,
+        "height": 38,
+        "area": 11262.25
+      },
+      {
+        "index": 26,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > strong > a",
+        "text": "https://devstation.connect.huaweicloud.com/aishell",
+        "tag": "a",
+        "x": 15,
+        "y": 5450,
+        "width": 359,
+        "height": 17,
+        "area": 6097.15625
+      },
+      {
+        "index": 27,
+        "path": "div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > strong > a",
+        "text": "https://developer.huaweicloud.com/practicecenter.html",
+        "tag": "a",
+        "x": 15,
+        "y": 5514,
+        "width": 353,
+        "height": 41,
+        "area": 14479.40625
+      },
+      {
+        "index": 28,
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > a",
+        "text": "云开发环境",
+        "tag": "a",
+        "x": 289,
+        "y": 5651,
+        "width": 70,
+        "height": 17,
+        "area": 1190
+      },
+      {
+        "index": 29,
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > a",
+        "text": "码道（CodeArts）代码智能体",
+        "tag": "a",
+        "x": 15,
+        "y": 5675,
+        "width": 325,
+        "height": 41,
+        "area": 13311.546875
+      },
+      {
+        "index": 30,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "text": "cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "x": 30,
+        "y": 6040,
+        "width": 180,
+        "height": 16,
+        "area": 2882.5
+      },
+      {
+        "index": 31,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "text": "Shell",
+        "tag": "a",
+        "x": 15,
+        "y": 6096,
+        "width": 47,
+        "height": 24,
+        "area": 1121.625
+      },
+      {
+        "index": 32,
+        "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "text": "运维",
+        "tag": "a",
+        "x": 70,
+        "y": 6096,
+        "width": 44,
+        "height": 24,
+        "area": 1056
+      },
+      {
+        "index": 33,
+        "path": "div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card",
+        "text": "",
+        "tag": "a",
+        "x": 15,
+        "y": 6151,
+        "width": 360,
+        "height": 16,
+        "area": 5760
+      },
+      {
+        "index": 35,
+        "path": "div.cloud-blog-detail-left > div#other-block.other-article-block > ul.link-list > li > a#relate_1.por-text-body-t2.two-line",
+        "text": "opencode简介",
+        "tag": "a",
+        "x": 15,
+        "y": 6417,
+        "width": 360,
+        "height": 24,
+        "area": 8640
+      },
+      {
+        "index": 39,
+        "path": "div.cloud-blog-detail-left > div#other-related-block.other-article-block > ul.link-list > li > a#relate_0.por-text-body-t2.two-line",
+        "text": "华为云和开源Istio运维管理对比样例应用部署",
+        "tag": "a",
+        "x": 15,
+        "y": 6753,
+        "width": 360,
+        "height": 24,
+        "area": 8640
+      },
+      {
+        "index": 40,
+        "path": "div.cloud-blog-detail-left > div#other-related-block.other-article-block > ul.link-list > li > a#relate_1.por-text-body-t2.two-line",
+        "text": "DevOps的践行者——华为云应用管理与运维平台",
+        "tag": "a",
+        "x": 15,
+        "y": 6793,
+        "width": 360,
+        "height": 24,
+        "area": 8640
+      },
+      {
+        "index": 41,
+        "path": "div.cloud-blog-detail-left > div#other-related-block.other-article-block > ul.link-list > li > a#relate_2.por-text-body-t2.two-line",
+        "text": "华为云CCE体验之云原生应用部署与运维管理",
+        "tag": "a",
+        "x": 15,
+        "y": 6833,
+        "width": 360,
+        "height": 24,
+        "area": 8640
+      },
+      {
+        "index": 44,
+        "path": "div#comment.comment-block > ul.comment-list > li.comment-one-item > div.commenter-head > a",
+        "text": "",
+        "tag": "a",
+        "x": 15,
+        "y": 7105,
+        "width": 32,
+        "height": 32,
+        "area": 1024
+      },
+      {
+        "index": 45,
+        "path": "ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info > a.commenter-name.por-link-red",
+        "text": "Wan_xin",
+        "tag": "a",
+        "x": 59,
+        "y": 7110,
+        "width": 58,
+        "height": 22,
+        "area": 1266.71875
+      },
+      {
+        "index": 46,
+        "path": "ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info > a.report-btn.por-link-blue.detail-report-btn",
+        "text": "举报",
+        "tag": "a",
+        "x": 331,
+        "y": 7163,
+        "width": 44,
+        "height": 18,
+        "area": 792
+      },
+      {
+        "index": 47,
+        "path": "ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info > a.comment-reply-btn.por-link-blue.detail-commenter-reply-btn",
+        "text": "回复",
+        "tag": "a",
+        "x": 277,
+        "y": 7163,
+        "width": 44,
+        "height": 18,
+        "area": 792
+      },
+      {
+        "index": 48,
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.mobile-commenter-cover.m-blog-user-comment > div.mobile-commenter > textarea.mobile-comment-textarea",
+        "text": "",
+        "tag": "textarea",
+        "x": 15,
+        "y": 802,
+        "width": 260,
+        "height": 34,
+        "area": 8840
+      }
+    ],
+    "closePairs": [
+      {
+        "distance": 7,
+        "a": {
+          "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > a",
+          "text": "云开发环境",
+          "width": 70,
+          "height": 17
+        },
+        "b": {
+          "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > a",
+          "text": "码道（CodeArts）代码智能体",
+          "width": 325,
+          "height": 41
+        }
+      }
+    ],
+    "forms": [
+      {
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.mobile-commenter-cover.m-blog-user-comment > div.mobile-commenter > textarea.mobile-comment-textarea",
+        "tag": "textarea",
+        "type": "",
+        "placeholder": "说点什么",
+        "inputmode": "",
+        "autocomplete": "",
+        "y": 802,
+        "width": 260,
+        "height": 34,
+        "nearBottom": true
+      }
+    ],
+    "images": [
+      {
+        "path": "div.header-inner.isDeveloper > div.hwc-header-bottom > h2.hwc-header-logo-outer > a.hwc-header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/navi/PClogonew.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 71,
+        "height": 25,
+        "top": 11,
+        "belowFold": false
+      },
+      {
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > img.user-avatar",
+        "alt": "",
+        "src": "",
+        "ext": "unknown",
+        "loading": "",
+        "width": 56,
+        "height": 56,
+        "top": 102,
+        "belowFold": false
+      },
+      {
+        "path": "div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.author-min-head.target_self > img#headImg.authorImg.currentImg",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20250409073917.38412888691711550492117217286017:20260720060955:2415:60A683",
+        "ext": "jpeg",
+        "loading": "",
+        "width": 20,
+        "height": 20,
+        "top": 128,
+        "belowFold": false
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605015530.75884418185636802148796983021494:20260720060955:2415:72108E",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 169,
+        "top": 564,
+        "belowFold": false
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605020021.75405394446065696800167203723863:20260720060955:2415:CFE671",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 212,
+        "top": 1179,
+        "belowFold": true
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605014840.11697626492746199151681373279837:20260720060955:2415:BE752F",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 107,
+        "top": 2038,
+        "belowFold": true
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605020220.63935623251216936737258832502042:20260720060955:2415:0B1A9B",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 136,
+        "top": 2553,
+        "belowFold": true
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605021120.77494870219101851121381812590168:20260720060955:2415:E5414C",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 5803,
+        "belowFold": true
+      },
+      {
+        "path": "div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E5%8D%9A%E5%AE%A2%E8%AF%A6%E6%83%85%E9%A1%B5%E5%BA%95%E9%83%A8%E5%B9%BF%E5%91%8A%E4%BD%8D.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 360,
+        "height": 44,
+        "top": 6120,
+        "belowFold": true
+      },
+      {
+        "path": "ul.comment-list > li.comment-one-item > div.commenter-head > a > img",
+        "alt": "作者头像",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/images/ydcomm/default_user.png",
+        "ext": "png",
+        "loading": "",
+        "width": 32,
+        "height": 32,
+        "top": 7105,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605020021.75405394446065696800167203723863:20260720060955:2415:CFE671",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 212,
+        "top": 1179,
+        "belowFold": true
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605014840.11697626492746199151681373279837:20260720060955:2415:BE752F",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 107,
+        "top": 2038,
+        "belowFold": true
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605020220.63935623251216936737258832502042:20260720060955:2415:0B1A9B",
+        "ext": "png",
+        "loading": "",
+        "width": 360,
+        "height": 136,
+        "top": 2553,
+        "belowFold": true
+      },
+      {
+        "path": "div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p > img.lazyload",
+        "alt": "",
+        "src": "https://fileserver.developer.huaweicloud.com/FileServer/getFile/community/527/187/433/0001744179527187433.20260605021120.77494870219101851121381812590168:20260720060955:2415:E5414C",
+        "ext": "png",
+        "loading": "",
+        "width": 14,
+        "height": 14,
+        "top": 5803,
+        "belowFold": true
+      },
+      {
+        "path": "div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E5%8D%9A%E5%AE%A2%E8%AF%A6%E6%83%85%E9%A1%B5%E5%BA%95%E9%83%A8%E5%B9%BF%E5%91%8A%E4%BD%8D.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 360,
+        "height": 44,
+        "top": 6120,
+        "belowFold": true
+      },
+      {
+        "path": "ul.comment-list > li.comment-one-item > div.commenter-head > a > img",
+        "alt": "作者头像",
+        "src": "https://res-hd.hc-cdn.cn/ecology/9.3.209/v2_resources/ydcomm/images/ydcomm/default_user.png",
+        "ext": "png",
+        "loading": "",
+        "width": 32,
+        "height": 32,
+        "top": 7105,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover",
+        "media": "",
+        "css": ".eco-dialog footer button:hover { background-color: rgb(89, 89, 89); border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover.cancel",
+        "media": "",
+        "css": ".eco-dialog footer button:hover.cancel { background: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-body a:hover",
+        "media": "only screen and (max-width: 768px) and (min-width: 320px)",
+        "css": ".eco-protocol-content .eco-protocol-body a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-notice label a:hover",
+        "media": "only screen and (max-width: 768px) and (min-width: 320px)",
+        "css": ".eco-protocol-content .eco-protocol-notice label a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-body a:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".eco-protocol-content .eco-protocol-body a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-content .eco-protocol-notice label a:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".eco-protocol-content .eco-protocol-notice label a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".protocol-btn-black:hover",
+        "media": "only screen and (min-width: 768px)",
+        "css": ".protocol-btn-black:hover { color: rgb(255, 255, 255) !important; background-color: rgb(137, 137, 137) !important; border-color: rgb(137, 137, 137) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-protocol-body a:hover",
+        "media": "",
+        "css": ".eco-protocol-body a:hover { color: rgb(20, 118, 255); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".protocol-btn-default:hover",
+        "media": "",
+        "css": ".protocol-btn-default:hover { background-color: rgb(254, 254, 254) !important; border-color: rgb(25, 25, 25) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover",
+        "media": "",
+        "css": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover .space-suspend-img[data-v-5de126e7]",
+        "media": "",
+        "css": ".space-suspend-icon[data-v-5de126e7][data-v-5de126e7]:hover .space-suspend-img[data-v-5de126e7] { transform: scale(1.1); }"
+      },
+      {
+        "type": "wide-width",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988]",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] { padding: 32px; position: relative; box-sizing: border-box; max-height: calc(-50px + 100vh); overflow: auto; width: 700px; border-radius: 8px; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::after",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::after { background-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::before",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .head[data-v-73233988] .cloud-dialog-close[data-v-73233988]:hover[data-v-73233988]::before { background-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .foot[data-v-73233988] .btn-sub[data-v-73233988][data-v-73233988]:hover",
+        "media": "",
+        "css": ".cloud-host-page[data-v-73233988] .cloud-host-dialog-inner[data-v-73233988] .foot[data-v-73233988] .btn-sub[data-v-73233988][data-v-73233988]:hover { border: 1px solid rgb(89, 89, 89); background-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config:hover .float-config-star",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config:hover .float-config-star { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .mkp-star-score-wrapper .mkp-star-score-btns .btn-box p:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .mkp-star-score-wrapper .mkp-star-score-btns .btn-box p:hover { font-weight: bold; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(24, 24, 24); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline label:hover",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline label:hover { cursor: default; color: rgb(87, 93, 108); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-submit:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-submit:hover { background: rgb(98, 98, 98); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-cancel:hover",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .star-btn-wrapper .btn-cancel:hover { background: rgb(243, 243, 243); border: 1px solid rgb(216, 216, 216); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:disabled + span, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:disabled + span, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(223, 225, 230); background-color: rgb(238, 240, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:disabled + span i, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span i",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:disabled + span i, .por-checkbox input[type=\"checkbox\"]:disabled:hover + span i { color: rgb(223, 225, 230); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-scrollbar-s::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".por-scrollbar-s::-webkit-scrollbar-thumb:hover { background-color: rgba(87, 93, 108, 0.8); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".por-checkbox input[type=\"checkbox\"]:focus + span, .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".por-checkbox input[type=\"checkbox\"]:focus + span, .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(173, 176, 184) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".marketplace-sidebar .marketplace-sidebar-inner .marketplace-float-config .float-config-star .float-config-star-expand .question-wrapper .por-checkbox-group .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(24, 24, 24) !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover > h2",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover > h2 { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .color-black-hover:hover",
+        "media": "",
+        "css": ".hwc-home-footer .color-black-hover:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-submenu-link:hover",
+        "media": "",
+        "css": ".hwc-home-footer .footer-submenu-link:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-footer .footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".hwc-home-footer .footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular a:hover { color: rgb(25, 25, 25); font-weight: 500; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".hwc-home-header .header-user-info-list-prompt .logout:hover a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user:hover .header-user-name",
+        "media": "",
+        "css": ".hwc-home-header .header-user:hover .header-user-name { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-user:hover .header-user-name i",
+        "media": "",
+        "css": ".hwc-home-header .header-user:hover .header-user-name i { border-top-color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang-item.active > a, .hwc-home-header .header-lang-item:hover > a",
+        "media": "",
+        "css": ".hwc-home-header .header-lang-item.active > a, .hwc-home-header .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".hwc-home-header .header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".hwc-home-header .header-tools .header-tools-right > li > a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".hwc-home-header .header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".hwc-home-header .agreement-authorized:hover",
+        "media": "",
+        "css": ".hwc-home-header .agreement-authorized:hover { font-weight: 600; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".privacy-popup .notice a:hover",
+        "media": "",
+        "css": ".privacy-popup .notice a:hover { color: rgb(25, 25, 25); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 18,
+    "testedCount": 12,
+    "issueCount": 6,
+    "candidates": [
+      {
+        "text": "华为开发者空间小助手",
+        "href": "https://bbs.huaweicloud.com/community/usersnew/id_1744179527187433",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+        "className": "sub-content-username por-link-red",
+        "top": 130,
+        "left": 43,
+        "width": 120,
+        "height": 16,
+        "importance": 28,
+        "ordinal": 0
+      },
+      {
+        "text": "返回",
+        "href": "",
+        "tag": "span",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "className": "back-btn",
+        "top": 42,
+        "left": 24,
+        "width": 18,
+        "height": 66,
+        "importance": 20,
+        "ordinal": 1
+      },
+      {
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验 举报 华为开发者空间小助手 2026/06/05 1.5w+ 【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇�",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail",
+        "className": "main-content main-content-blog-detail",
+        "top": 48,
+        "left": 0,
+        "width": 390,
+        "height": 7034,
+        "importance": 20,
+        "ordinal": 2
+      },
+      {
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+        "href": "",
+        "tag": "h1",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "className": "cloud-blog-detail-title",
+        "top": 68,
+        "left": 15,
+        "width": 360,
+        "height": 48,
+        "importance": 20,
+        "ordinal": 3
+      },
+      {
+        "text": "举报",
+        "href": "",
+        "tag": "div",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div#report_btn.report-btn",
+        "className": "report-btn",
+        "top": 128,
+        "left": 359,
+        "width": 16,
+        "height": 20,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+        "href": "",
+        "tag": "div",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "className": "cloud-blog-detail-summary ",
+        "top": 164,
+        "left": 15,
+        "width": 360,
+        "height": 200,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+        "href": "",
+        "tag": "div",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+        "className": "cloud-blog-detail-content-wrap",
+        "top": 364,
+        "left": 15,
+        "width": 360,
+        "height": 5681,
+        "importance": 20,
+        "ordinal": 6
+      },
+      {
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+        "href": "",
+        "tag": "div",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+        "className": "cloud-blog-detail-content blog-content-block-0",
+        "top": 364,
+        "left": 15,
+        "width": 360,
+        "height": 5262,
+        "importance": 20,
+        "ordinal": 7
+      },
+      {
+        "text": "cloudbbs@huaweicloud.com",
+        "href": "mailto:cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "className": "mail-contact-address por-link",
+        "top": 5838,
+        "left": 30,
+        "width": 180,
+        "height": 16,
+        "importance": 8,
+        "ordinal": 8
+      },
+      {
+        "text": "Shell",
+        "href": "https://developer.huaweicloud.com/tags/200087/blog_1",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "className": "common-blog-menu-btn por-label-type",
+        "top": 5894,
+        "left": 15,
+        "width": 47,
+        "height": 24,
+        "importance": 8,
+        "ordinal": 9
+      },
+      {
+        "text": "运维",
+        "href": "https://developer.huaweicloud.com/tags/200730/blog_1",
+        "tag": "a",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "className": "common-blog-menu-btn por-label-type",
+        "top": 5894,
+        "left": 70,
+        "width": 44,
+        "height": 24,
+        "importance": 8,
+        "ordinal": 10
+      },
+      {
+        "text": "",
+        "href": "https://developer.huaweicloud.com/space/home?source=bbs",
+        "tag": "a",
+        "path": "div.cloud-blog-detail-content-wrap > div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card",
+        "className": "pep-smart-recommend-img-card",
+        "top": 5950,
+        "left": 15,
+        "width": 360,
+        "height": 16,
+        "importance": 8,
+        "ordinal": 11
+      },
+      {
+        "text": "Wan_xin",
+        "href": "https://bbs.huaweicloud.com/community/usersnew/id_1563173366654458",
+        "tag": "a",
+        "path": "div#comment.comment-block > ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info > a.commenter-name.por-link-red",
+        "className": "commenter-name por-link-red",
+        "top": 6957,
+        "left": 59,
+        "width": 58,
+        "height": 22,
+        "importance": 8,
+        "ordinal": 12
+      },
+      {
+        "text": "举报",
+        "href": "",
+        "tag": "a",
+        "path": "div#comment.comment-block > ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info > a.report-btn.por-link-blue.detail-report-btn",
+        "className": "report-btn por-link-blue detail-report-btn",
+        "top": 7010,
+        "left": 331,
+        "width": 44,
+        "height": 18,
+        "importance": 8,
+        "ordinal": 13
+      },
+      {
+        "text": "回复",
+        "href": "",
+        "tag": "a",
+        "path": "div#comment.comment-block > ul.comment-list > li.comment-one-item > div.comment-detail > p.comment-info > a.comment-reply-btn.por-link-blue.detail-commenter-reply-btn",
+        "className": "comment-reply-btn por-link-blue detail-commenter-reply-btn",
+        "top": 7010,
+        "left": 277,
+        "width": 44,
+        "height": 18,
+        "importance": 8,
+        "ordinal": 14
+      },
+      {
+        "text": "【声明】本内容来自华为云开发者社区博主，不代表华为云及华为云开发者社区的观点和立场。转载时必须标注文章的来源（华为云社区）、文章链接、文章作者等基本信息，否则作者和本社区有权追究责任。如果您发现本社区中有涉嫌抄袭的内容，欢迎发送邮件进行举报，并提供相关证据，一经查实，本社区将立刻",
+        "href": "",
+        "tag": "div",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights",
+        "className": "cloud-blog-detail-copyrights",
+        "top": 5650,
+        "left": 15,
+        "width": 360,
+        "height": 224,
+        "importance": 0,
+        "ordinal": 15
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "img",
+        "path": "div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+        "className": "portal-smart-recommends-card-title",
+        "top": 5918,
+        "left": 15,
+        "width": 360,
+        "height": 44,
+        "importance": 0,
+        "ordinal": 16
+      },
+      {
+        "text": "从零开始理解大模型（一）：一切从\"猜下一个词\"开始 opencode简介 从零开始理解大模型（九）：Scaling Law——为什么”大力出奇迹”有效 【AGENT专栏】AI Agent入门三部曲，从零开始理解大模型、Agent 与 Skill 给 AI Agent一个邮箱：AI",
+        "href": "",
+        "tag": "ul",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div#other-block.other-article-block > ul.link-list",
+        "className": "link-list",
+        "top": 6152,
+        "left": 15,
+        "width": 360,
+        "height": 280,
+        "importance": 0,
+        "ordinal": 17
+      }
+    ],
+    "results": [
+      {
+        "text": "华为开发者空间小助手",
+        "tag": "a",
+        "href": "https://bbs.huaweicloud.com/community/usersnew/id_1744179527187433",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+        "rect": {
+          "left": 43,
+          "top": 130,
+          "width": 120,
+          "height": 16
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "华为开发者空间小助手",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div.m-author-min-head.color_text_weaken_dark > a.sub-content-username.por-link-red",
+          "className": "sub-content-username por-link-red"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/community/usersnew/id_1744179527187433",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:10:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:10:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:10:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:10:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/community/usersnew/id_1744179527187433",
+          "scrollY": 0,
+          "bodyLength": 2411,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 1260,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "返回",
+        "tag": "span",
+        "href": "",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "rect": {
+          "left": 24,
+          "top": 42,
+          "width": 18,
+          "height": 66
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 0,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验 举报 华为开发者空间小助手 2026/06/05 1.5w+ 【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇�",
+        "tag": "div",
+        "href": "",
+        "path": "html.phone > body#blogs_detial_home_page > div#content > div.main-content.main-content-blog-detail",
+        "rect": {
+          "left": 0,
+          "top": 48,
+          "width": 390,
+          "height": 7034
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "p",
+          "text": "但涉及到 创建资源、修改配置 这类敏感操作，一定会先征求你的同意 —— 这是对生产环境的基本尊重。",
+          "path": "div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > p",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:11:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:11:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:11:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:11:16 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 3206,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 8,
+          "urlChanged": false,
+          "scrollChanged": 115,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+        "tag": "h1",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "rect": {
+          "left": 15,
+          "top": 68,
+          "width": 360,
+          "height": 48
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 0,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "举报",
+        "tag": "div",
+        "href": "",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div#report_btn.report-btn",
+        "rect": {
+          "left": 359,
+          "top": 128,
+          "width": 16,
+          "height": 20
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "举报",
+          "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.common-blog-icons.common-blog-icons-cloud-blog > div#report_btn.report-btn",
+          "className": "report-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://auth.huaweicloud.com/authui/login.html?locale=zh-cn&service=https%3A%2F%2Fbbs.huaweicloud.com%2Fblogs%2F478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:11:48 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:11:48 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:11:48 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:11:48 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://auth.huaweicloud.com/authui/login.html?locale=zh-cn&service=https%3A%2F%2Fbbs.huaweicloud.com%2Fblogs%2F478701",
+          "scrollY": 0,
+          "bodyLength": 0,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 3671,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "rect": {
+          "left": 15,
+          "top": 164,
+          "width": 360,
+          "height": 200
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+          "className": "cloud-blog-detail-summary "
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 0,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+        "rect": {
+          "left": 15,
+          "top": 364,
+          "width": 360,
+          "height": 5681
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "li",
+          "text": "大生态：复杂任务交给skills，具体执行交给华为云Terraform，两者高效配合。既能智能生成IaC配置，又能完成终态编排和资源全生命周期。",
+          "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 2742,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 7,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+        "tag": "div",
+        "href": "",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+        "rect": {
+          "left": 15,
+          "top": 364,
+          "width": 360,
+          "height": 5262
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "li",
+          "text": "大生态：复杂任务交给skills，具体执行交给华为云Terraform，两者高效配合。既能智能生成IaC配置，又能完成终态编排和资源全生命周期。",
+          "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 2742,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 7,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "href": "mailto:cloudbbs@huaweicloud.com",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "rect": {
+          "left": 30,
+          "top": 5838,
+          "width": 180,
+          "height": 16
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+        "hit": {
+          "tag": "a",
+          "text": "cloudbbs@huaweicloud.com",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+          "className": "mail-contact-address por-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 5384,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 8,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "Shell",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/tags/200087/blog_1",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "rect": {
+          "left": 15,
+          "top": 5894,
+          "width": 47,
+          "height": 24
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "Shell",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+          "className": "common-blog-menu-btn por-label-type"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://developer.huaweicloud.com/tags/200087/blog_1",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:13:13 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:13:13 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:13:13 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:13:13 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://developer.huaweicloud.com/tags/200087/blog_1",
+          "scrollY": 0,
+          "bodyLength": 3266,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": true,
+          "scrollChanged": 5444,
+          "bodyLengthDelta": 405,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "运维",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/tags/200730/blog_1",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.blog-menu-footer.m-blog-menu-footer-top > a.common-blog-menu-btn.por-label-type",
+        "rect": {
+          "left": 70,
+          "top": 5894,
+          "width": 44,
+          "height": 24
+        },
+        "status": "not-tested",
+        "possibleCause": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:13:30 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:13:30 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:13:30 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:13:30 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {}
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/space/home?source=bbs",
+        "path": "div.cloud-blog-detail-content-wrap > div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card",
+        "rect": {
+          "left": 15,
+          "top": 5950,
+          "width": 360,
+          "height": 16
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div#adSide > div > div#pep-ad-img_1664508731473.pep-ad-img > div.pep-ad-img-wrapper > a.pep-smart-recommend-img-card > img.portal-smart-recommends-card-title",
+          "className": "portal-smart-recommends-card-title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [
+          "https://developer.huaweicloud.com/space/home?source=bbs"
+        ],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:13:50 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:13:50 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:13:50 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:13:50 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 5480,
+          "bodyLength": 3620,
+          "overlayCount": 0,
+          "mutations": 8,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": [
+      {
+        "text": "返回",
+        "tag": "span",
+        "href": "",
+        "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+        "rect": {
+          "left": 24,
+          "top": 42,
+          "width": 18,
+          "height": 66
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 0,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+        "tag": "h1",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "rect": {
+          "left": 15,
+          "top": 68,
+          "width": 360,
+          "height": 48
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "h1",
+          "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+          "className": "cloud-blog-detail-title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 0,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "rect": {
+          "left": 15,
+          "top": 164,
+          "width": 360,
+          "height": 200
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "div",
+          "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+          "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+          "className": "cloud-blog-detail-summary "
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 0,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+        "tag": "div",
+        "href": "",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+        "rect": {
+          "left": 15,
+          "top": 364,
+          "width": 360,
+          "height": 5681
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "li",
+          "text": "大生态：复杂任务交给skills，具体执行交给华为云Terraform，两者高效配合。既能智能生成IaC配置，又能完成终态编排和资源全生命周期。",
+          "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 2742,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 7,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+        "tag": "div",
+        "href": "",
+        "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+        "rect": {
+          "left": 15,
+          "top": 364,
+          "width": 360,
+          "height": 5262
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "console-error-after-tap",
+        "hit": {
+          "tag": "li",
+          "text": "大生态：复杂任务交给skills，具体执行交给华为云Terraform，两者高效配合。既能智能生成IaC配置，又能完成终态编排和资源全生命周期。",
+          "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 2742,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 7,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "cloudbbs@huaweicloud.com",
+        "tag": "a",
+        "href": "mailto:cloudbbs@huaweicloud.com",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "rect": {
+          "left": 30,
+          "top": 5838,
+          "width": 180,
+          "height": 16
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+        "hit": {
+          "tag": "a",
+          "text": "cloudbbs@huaweicloud.com",
+          "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+          "className": "mail-contact-address por-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+        "popupUrls": [],
+        "consoleErrors": [
+          "等待 HDTracking 初始化...",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+          "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+        ],
+        "after": {
+          "url": "https://bbs.huaweicloud.com/blogs/478701",
+          "scrollY": 5384,
+          "bodyLength": 3671,
+          "overlayCount": 0,
+          "mutations": 8,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      }
+    ]
+  },
+  "tapActionIssues": [
+    {
+      "text": "返回",
+      "tag": "span",
+      "href": "",
+      "path": "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn",
+      "rect": {
+        "left": 24,
+        "top": 42,
+        "width": 18,
+        "height": 66
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "tap-center-hit-different-element,console-error-after-tap",
+      "hit": {
+        "tag": "h1",
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "className": "cloud-blog-detail-title"
+      },
+      "hitInsideTarget": false,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:10:59 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/478701",
+        "scrollY": 0,
+        "bodyLength": 3671,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+      "tag": "h1",
+      "href": "",
+      "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+      "rect": {
+        "left": 15,
+        "top": 68,
+        "width": 360,
+        "height": 48
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "h1",
+        "text": "🤖 华为云AI Shell × Skills × 实践中心：从“学”到“用”的全链路智能部署运维体验",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > h1.cloud-blog-detail-title",
+        "className": "cloud-blog-detail-title"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:11:33 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/478701",
+        "scrollY": 0,
+        "bodyLength": 3671,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+      "tag": "div",
+      "href": "",
+      "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+      "rect": {
+        "left": 15,
+        "top": 164,
+        "width": 360,
+        "height": 200
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "div",
+        "text": "【摘要】 还在为记不住命令行头疼？还在被Terraform配置逼疯？别挣扎了，你的智能云架构助手已经上线了 👇🔗 立即体验：https://devstation.connect.huaweicloud.com/aishell 🚀 开箱即用，登录就是“就绪态”传统上，想用云C",
+        "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-summary",
+        "className": "cloud-blog-detail-summary "
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:12:05 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/478701",
+        "scrollY": 0,
+        "bodyLength": 3671,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+      "tag": "div",
+      "href": "",
+      "path": "div#content > div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap",
+      "rect": {
+        "left": 15,
+        "top": 364,
+        "width": 360,
+        "height": 5681
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "li",
+        "text": "大生态：复杂任务交给skills，具体执行交给华为云Terraform，两者高效配合。既能智能生成IaC配置，又能完成终态编排和资源全生命周期。",
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li",
+        "className": ""
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:12:26 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/478701",
+        "scrollY": 2742,
+        "bodyLength": 3671,
+        "overlayCount": 0,
+        "mutations": 7,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "还在为记不住命令行头疼？还在被Terraform配置逼疯？ 别挣扎了，你的智能云架构助手已经上线了 👇 🔗 了解AI SHELL：https://developer.huaweicloud.com/aishell.html 🔗 零门槛立即体验：https://devstat",
+      "tag": "div",
+      "href": "",
+      "path": "div.main-content.main-content-blog-detail > div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0",
+      "rect": {
+        "left": 15,
+        "top": 364,
+        "width": 360,
+        "height": 5262
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "console-error-after-tap",
+      "hit": {
+        "tag": "li",
+        "text": "大生态：复杂任务交给skills，具体执行交给华为云Terraform，两者高效配合。既能智能生成IaC配置，又能完成终态编排和资源全生命周期。",
+        "path": "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > div.markdown-preview > ul > li",
+        "className": ""
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:12:41 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/478701",
+        "scrollY": 2742,
+        "bodyLength": 3671,
+        "overlayCount": 0,
+        "mutations": 7,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "cloudbbs@huaweicloud.com",
+      "tag": "a",
+      "href": "mailto:cloudbbs@huaweicloud.com",
+      "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+      "rect": {
+        "left": 30,
+        "top": 5838,
+        "width": 180,
+        "height": 16
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "href-present-but-no-navigation,console-error-after-tap",
+      "hit": {
+        "tag": "a",
+        "text": "cloudbbs@huaweicloud.com",
+        "path": "div.wrapper-main > div.cloud-blog-detail-left > div.blog-content-body > div.cloud-blog-detail-content-wrap > div.cloud-blog-detail-copyrights > a.mail-contact-address.por-link",
+        "className": "mail-contact-address por-link"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "afterUrl": "https://bbs.huaweicloud.com/blogs/478701",
+      "popupUrls": [],
+      "consoleErrors": [
+        "等待 HDTracking 初始化...",
+        "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-listener",
+        "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-previous-page",
+        "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-session-id",
+        "12:12:57 [ugasdk][2.8.0][warn] plugin is already installed: plugin-web-link-reaching"
+      ],
+      "after": {
+        "url": "https://bbs.huaweicloud.com/blogs/478701",
+        "scrollY": 5384,
+        "bodyLength": 3671,
+        "overlayCount": 0,
+        "mutations": 8,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    }
+  ],
+  "after_scroll_ctas": [],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 2,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 24,
+        "x": 266,
+        "y": 12
+      },
+      {
+        "index": 3,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 342,
+        "y": -0.0
+      },
+      {
+        "index": 4,
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs ",
+        "className": "my-menu",
+        "width": 48,
+        "height": 536,
+        "x": 0,
+        "y": 194
+      },
+      {
+        "index": 34,
+        "text": "Shell 运维",
+        "className": "blog-menu-footer m-blog-menu-footer-top",
+        "width": 360,
+        "height": 32,
+        "x": 15,
+        "y": 6540
+      },
+      {
+        "index": 35,
+        "text": "Shell",
+        "className": "common-blog-menu-btn por-label-type",
+        "width": 47,
+        "height": 24,
+        "x": 15,
+        "y": 6540
+      },
+      {
+        "index": 36,
+        "text": "运维",
+        "className": "common-blog-menu-btn por-label-type",
+        "width": 44,
+        "height": 24,
+        "x": 70,
+        "y": 6540
+      }
+    ],
+    "clicked_candidate": {
+      "index": 3,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 342,
+      "y": -0.0
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言 开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言 开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言",
+        "className": "header-mbnav-leftmenu",
+        "position": "relative",
+        "zIndex": "10",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发 活动 Programs 社区 学堂 大赛 支持 茶思屋 语言",
+        "className": "header-mbnav-menulist",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "开发者空间 开发者空间 开发平台 精选服务",
+        "className": "header-mbnav-collapses",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 48
+      },
+      {
+        "text": "开发者空间",
+        "className": "header-mbnav-level2-content-index",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 235,
+        "height": 46,
+        "x": 140,
+        "y": 68
+      },
+      {
+        "text": "个人主页 我的开发者 我的博客 我的论坛 我的圈子 我的直播 我的活动 我的关注 我的开发者学堂 我的课程 我的认证 我的实验 我的收藏 我的Programs 我的支持 我的技术支持 我的云声建议",
+        "className": "my-menu",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 48,
+        "height": 536,
+        "x": 0,
+        "y": 194
+      },
+      {
+        "text": "Shell 运维",
+        "className": "blog-menu-footer m-blog-menu-footer-top",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 360,
+        "height": 32,
+        "x": 15,
+        "y": 6540
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "华为云 Flexus L 一键部署",
+        "width": 161,
+        "height": 17,
+        "x": 47,
+        "y": 4535
+      },
+      {
+        "text": "从零开始理解大模型（一）：一切从\"猜下一个词\"开始",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 6798
+      },
+      {
+        "text": "opencode简介",
+        "width": 360,
+        "height": 24,
+        "x": 15,
+        "y": 6862
+      },
+      {
+        "text": "从零开始理解大模型（九）：Scaling Law——为什么”大力出奇迹”有效",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 6902
+      },
+      {
+        "text": "【AGENT专栏】AI Agent入门三部曲，从零开始理解大模型、Agent 与 Skill",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 6966
+      },
+      {
+        "text": "给 AI Agent一个邮箱：AI Shell + QQ 邮箱 Agent 实战教程【Agent Mail】",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 7030
+      },
+      {
+        "text": "华为云和开源Istio运维管理对比样例应用部署",
+        "width": 360,
+        "height": 24,
+        "x": 15,
+        "y": 7198
+      },
+      {
+        "text": "DevOps的践行者——华为云应用管理与运维平台",
+        "width": 360,
+        "height": 24,
+        "x": 15,
+        "y": 7238
+      },
+      {
+        "text": "华为云CCE体验之云原生应用部署与运维管理",
+        "width": 360,
+        "height": 24,
+        "x": 15,
+        "y": 7278
+      },
+      {
+        "text": "【Docker实战】云端代码管理新体验，华为云Flexus X实例上GitLab部署与使用的实战指南",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 7318
+      },
+      {
+        "text": "基于华为开发者云主机部署FastGPT并构建知识库智能体",
+        "width": 360,
+        "height": 48,
+        "x": 15,
+        "y": 7382
+      },
+      {
+        "text": "Wan_xin",
+        "width": 58,
+        "height": 22,
+        "x": 59,
+        "y": 7555
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "stage": "下单",
+  "score": 2,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "未找到下单入口",
+      "area": "全页",
+      "locate": [
+        "控制台",
+        "即刻申请"
+      ],
+      "evidence": "DOM数据中 `entry_not_found` 字段为 `true`，且页面上未找到明确的“购买”、“开通”或“立即下单”等直接进入下单流程的按钮。页面上的“控制台”和“即刻申请”按钮（href: https://console.huaweicloud.com/clouddc）均指向产品控制台，而非配置或购买页面。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p0",
+      "suggestion": "修改前：产品详情页无直接下单入口，仅有指向控制台的“控制台”和“即刻申请”按钮。 -> 修改后：在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。"
+    }
+  ],
+  "suggestions": [
+    "在产品详情页（感知阶段）的显著位置增加明确的“立即购买”或“免费试用”按钮，并确保其链接指向正确的下单配置页面，而非直接跳转到控制台。"
+  ],
+  "analysis_content": "根据提供的DOM数据，该阶段的 `entry_not_found` 字段为 `true`，表明系统未能从感知阶段找到明确的下单入口。页面上的主要操作按钮“控制台”和“即刻申请”均指向产品控制台，而非直接进入产品购买或配置流程。这导致用户无法直接从产品详情页进入下单环节，严重影响用户体验和转化效率。",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/product/clouddc.html",
+  "title": "云化数据中心_CloudDC_华为云",
+  "screenshot_path": "../../output/web/clouddc/batch-20260720-161659-01/screenshots/screenshot_2_order.png"
+}

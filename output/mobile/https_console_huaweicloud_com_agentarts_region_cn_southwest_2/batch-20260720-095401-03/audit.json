@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://console.huaweicloud.com/agentarts/?region=cn-southwest-2",
+  "generated_at": "2026-07-20T02:11:24.648538+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 2,
+    "p0": 0,
+    "p1": 0,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://console.huaweicloud.com/agentarts/?region=cn-southwest-2",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_agentarts_region_cn_southwest_2/batch-20260720-095401-03/screenshots/https_console_huaweicloud_com_agentarts_region_cn_southwest_2_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "关键操作及链接触控热区过小",
+          "area": "登录表单及辅助链接区",
+          "page_url": "https://console.huaweicloud.com/agentarts/?region=cn-southwest-2",
+          "locate": [
+            "Display password",
+            "Forgot password?",
+            "Help",
+            "IAM User",
+            "More",
+            "Learn more"
+          ],
+          "evidence": "DOM数据中，密码显示图标（Display password）尺寸仅为 24x24px，'Forgot password?' 高度为 18px，'Help' 尺寸为 31x18px，'Learn more' 高度为 16px。均显著低于移动端标准的 44x44px 触控热区要求，极易导致用户误触或点击无响应。",
+          "standard": "WCAG 2.1 Target Size (2.5.5)",
+          "suggestion_before": "图标尺寸 24x24px，文字链接高度 16px-18px",
+          "suggestion_after": "为这些小尺寸可点击元素增加 padding（例如 padding: 10px），或设置 min-width/min-height 确保其物理触控热区不小于 44x44px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_agentarts_region_cn_southwest_2/batch-20260720-095401-03/screenshots/https_console_huaweicloud_com_agentarts_region_cn_southwest_2_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "移动端页面混用PC端样式与类名",
+          "area": "页面整体布局与底部切换区",
+          "page_url": "https://console.huaweicloud.com/agentarts/?region=cn-southwest-2",
+          "locate": [
+            "div.otherLoginWays.forPc.ng-scope",
+            "#loginAdv"
+          ],
+          "evidence": "DOM中存在带有 'forPc' 后缀的类名（如 div.otherLoginWays.forPc.ng-scope），且 CSS 规则中包含针对桌面端的固定宽度样式（如 #loginAdv { width: 800px; }），表明移动端未进行彻底的响应式适配或代码剥离。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "在移动端渲染带有 'forPc' 的 DOM 节点及 800px 固定宽度样式",
+          "suggestion_after": "在移动端视图中动态销毁或隐藏 PC 端专属组件，并使用媒体查询（Media Queries）确保样式完全基于移动端视口（Viewport）自适应。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_console_huaweicloud_com_agentarts_region_cn_southwest_2/batch-20260720-095401-03/screenshots/https_console_huaweicloud_com_agentarts_region_cn_southwest_2_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化移动端登录页的触控体验，将所有文本链接和图标按钮的点击热区扩大至 44x44px 以上。",
+        "清理移动端页面中残留的 PC 端专用类名（如 .forPc）和固定宽度样式（如 800px），提升代码的响应式规范性。"
+      ],
+      "analysis_content": "华为云移动端登录页面整体功能完整，但在移动端精细化体验上存在不足。主要表现在多个辅助操作按钮（如忘记密码、帮助、显示密码图标）的触控热区过小，极易造成误触或无效点击；同时页面中残留了 PC 端的类名和固定宽度样式，建议针对移动端进行彻底的响应式重构与触控热区优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "关键操作及链接触控热区过小",
+      "area": "登录表单及辅助链接区",
+      "page_url": "https://console.huaweicloud.com/agentarts/?region=cn-southwest-2",
+      "locate": [
+        "Display password",
+        "Forgot password?",
+        "Help",
+        "IAM User",
+        "More",
+        "Learn more"
+      ],
+      "evidence": "DOM数据中，密码显示图标（Display password）尺寸仅为 24x24px，'Forgot password?' 高度为 18px，'Help' 尺寸为 31x18px，'Learn more' 高度为 16px。均显著低于移动端标准的 44x44px 触控热区要求，极易导致用户误触或点击无响应。",
+      "standard": "WCAG 2.1 Target Size (2.5.5)",
+      "suggestion_before": "图标尺寸 24x24px，文字链接高度 16px-18px",
+      "suggestion_after": "为这些小尺寸可点击元素增加 padding（例如 padding: 10px），或设置 min-width/min-height 确保其物理触控热区不小于 44x44px。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_agentarts_region_cn_southwest_2/batch-20260720-095401-03/screenshots/https_console_huaweicloud_com_agentarts_region_cn_southwest_2_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "移动端页面混用PC端样式与类名",
+      "area": "页面整体布局与底部切换区",
+      "page_url": "https://console.huaweicloud.com/agentarts/?region=cn-southwest-2",
+      "locate": [
+        "div.otherLoginWays.forPc.ng-scope",
+        "#loginAdv"
+      ],
+      "evidence": "DOM中存在带有 'forPc' 后缀的类名（如 div.otherLoginWays.forPc.ng-scope），且 CSS 规则中包含针对桌面端的固定宽度样式（如 #loginAdv { width: 800px; }），表明移动端未进行彻底的响应式适配或代码剥离。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "在移动端渲染带有 'forPc' 的 DOM 节点及 800px 固定宽度样式",
+      "suggestion_after": "在移动端视图中动态销毁或隐藏 PC 端专属组件，并使用媒体查询（Media Queries）确保样式完全基于移动端视口（Viewport）自适应。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_console_huaweicloud_com_agentarts_region_cn_southwest_2/batch-20260720-095401-03/screenshots/https_console_huaweicloud_com_agentarts_region_cn_southwest_2_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

@@ -1,0 +1,2416 @@
+{
+  "input_url": "https://skills.huaweicloud.com/",
+  "audit_time": "2026-07-20T03:00:27.541088+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_top.png",
+    "scroll_screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_scroll.png",
+    "full_screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_full.png",
+    "menu_screenshot": "../../output/mobile/https_skills_huaweicloud_com/batch-20260720-095401-12/screenshots/https_skills_huaweicloud_com_menu.png"
+  },
+  "dom": {
+    "url": "https://skills.huaweicloud.com/",
+    "title": "华为云 Skills 门户",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 3521
+    },
+    "overflowElements": [],
+    "wideFixed": [
+      {
+        "path": "div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills 华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills 昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills 华为云容器环境评估解决方案 查看案例所用的 1 个 Skills 华为云Ma",
+        "width": 1382,
+        "cssWidth": "1382px",
+        "minWidth": "auto",
+        "inline": ""
+      }
+    ],
+    "textRisks": [
+      {
+        "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links",
+        "text": "云 Skills 库",
+        "clientWidth": 81,
+        "scrollWidth": 119,
+        "clientHeight": 30,
+        "scrollHeight": 30,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "30px"
+      },
+      {
+        "path": "div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links > div.nav-link.nav-link-cloud",
+        "text": "云 Skills 库",
+        "clientWidth": 81,
+        "scrollWidth": 119,
+        "clientHeight": 30,
+        "scrollHeight": 30,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "30px"
+      },
+      {
+        "path": "div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+        "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使用此 Skill npx skills ",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 285,
+        "scrollHeight": 285,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "285px"
+      },
+      {
+        "path": "section.hero-section > div.container > div.hero-content > div.cli-card > div.cli-content",
+        "text": "通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 84,
+        "scrollHeight": 84,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "84px"
+      },
+      {
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper",
+        "text": "npx clawhub install @huaweiclouddev/huawei-cloud-find-skills",
+        "clientWidth": 278,
+        "scrollWidth": 278,
+        "clientHeight": 32,
+        "scrollHeight": 32,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "32px"
+      },
+      {
+        "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > code.cli-command",
+        "text": "npx clawhub install @huaweiclouddev/huawei-cloud-find-skills",
+        "clientWidth": 238,
+        "scrollWidth": 426,
+        "clientHeight": 24,
+        "scrollHeight": 24,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "24px"
+      },
+      {
+        "path": "section.hero-section > div.container > div.hero-content > div.cli-card > div.cli-content",
+        "text": "通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使用此 Skill npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 108,
+        "scrollHeight": 108,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "108px"
+      },
+      {
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper",
+        "text": "npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills",
+        "clientWidth": 278,
+        "scrollWidth": 278,
+        "clientHeight": 32,
+        "scrollHeight": 32,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "32px"
+      },
+      {
+        "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > code.cli-command",
+        "text": "npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills",
+        "clientWidth": 238,
+        "scrollWidth": 531,
+        "clientHeight": 24,
+        "scrollHeight": 24,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "24px"
+      },
+      {
+        "path": "div#app > div#app > div.home > section.solution-section > div.carousel-fullwidth",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills 华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills 昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills 华为云容器环境评估解决方案 查看案例所用的 1 个 Skills 华为云Ma",
+        "clientWidth": 390,
+        "scrollWidth": 1406,
+        "clientHeight": 247,
+        "scrollHeight": 247,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246.766px"
+      },
+      {
+        "path": "div#app > div.home > section.solution-section > div.carousel-fullwidth > div.carousel-content",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills 华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills 昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills 华为云容器环境评估解决方案 查看案例所用的 1 个 Skills 华为云Ma",
+        "clientWidth": 390,
+        "scrollWidth": 1406,
+        "clientHeight": 247,
+        "scrollHeight": 247,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246.766px"
+      },
+      {
+        "path": "div.home > section.solution-section > div.carousel-fullwidth > div.carousel-content > div.carousel-wrapper",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills 华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills 昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills 华为云容器环境评估解决方案 查看案例所用的 1 个 Skills 华为云Ma",
+        "clientWidth": 366,
+        "scrollWidth": 1382,
+        "clientHeight": 247,
+        "scrollHeight": 247,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246.766px"
+      },
+      {
+        "path": "section.solution-section > div.carousel-fullwidth > div.carousel-content > div.carousel-wrapper > div.carousel-viewport",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills 华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills 昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills 华为云容器环境评估解决方案 查看案例所用的 1 个 Skills 华为云Ma",
+        "clientWidth": 366,
+        "scrollWidth": 1382,
+        "clientHeight": 247,
+        "scrollHeight": 247,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246.766px"
+      },
+      {
+        "path": "div.carousel-fullwidth > div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills 华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills 昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills 华为云容器环境评估解决方案 查看案例所用的 1 个 Skills 华为云Ma",
+        "clientWidth": 366,
+        "scrollWidth": 1382,
+        "clientHeight": 247,
+        "scrollHeight": 247,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246.766px"
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-header > h3.solution-title",
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案",
+        "clientWidth": 230,
+        "scrollWidth": 230,
+        "clientHeight": 21,
+        "scrollHeight": 42,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-header > h3.solution-title",
+        "text": "昇腾轻量化模型部署与小模型极速适配",
+        "clientWidth": 230,
+        "scrollWidth": 230,
+        "clientHeight": 21,
+        "scrollHeight": 42,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "body > div#app > div#app > div.home > section.hot-skills-section",
+        "text": "最热门 Skills huawei-cloud-find-skills Invoke this skill to search, discover, browse, find and install any Huawei Cloud (华为云) agent skill.Triggers include: \"华为云\",\"",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 1997,
+        "scrollHeight": 1997,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "1997px"
+      },
+      {
+        "path": "div#app > div#app > div.home > section.hot-skills-section > div.container",
+        "text": "最热门 Skills huawei-cloud-find-skills Invoke this skill to search, discover, browse, find and install any Huawei Cloud (华为云) agent skill.Triggers include: \"华为云\",\"",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 1933,
+        "scrollHeight": 1933,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "1933px"
+      },
+      {
+        "path": "div#app > div.home > section.hot-skills-section > div.container > div.skills-grid",
+        "text": "huawei-cloud-find-skills Invoke this skill to search, discover, browse, find and install any Huawei Cloud (华为云) agent skill.Triggers include: \"华为云\",\"华为云有什么skill",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 1820,
+        "scrollHeight": 1820,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "1820px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-find-skills Invoke this skill to search, discover, browse, find and install any Huawei Cloud (华为云) agent skill.Triggers include: \"华为云\",\"华为云有什么skill",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-find-skills",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-find-skills",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "Invoke this skill to search, discover, browse, find and install any Huawei Cloud (华为云) agent skill.Triggers include: \"华为云\",\"华为云有什么skill\",\"华为云相关skill\",\"华为云agent ",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 180,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-billing-scout Huawei Cloud BSS billing (not AWS/Azure/other clouds; refuses pricing quotes, real-name review, and any non-billing scope): balance, ",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-billing-scout",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-billing-scout",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "Huawei Cloud BSS billing (not AWS/Azure/other clouds; refuses pricing quotes, real-name review, and any non-billing scope): balance, spend, attribution, reconci",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 144,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-install-openjiuwenswarm One-click local installation and startup of JiuwenSwarm in the current Huawei Cloud development container. Usage scenarios:",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-install-openjiuwenswarm",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-install-openjiuwenswarm",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "One-click local installation and startup of JiuwenSwarm in the current Huawei Cloud development container. Usage scenarios: CRITICAL — Do NOT manually deploy Ji",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 342,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "Provides access guide for Huawei Cloud Graph Database GES service. Covers Cypher queries, GQL queries, schema/label management, summary info queries, graph data",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 108,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-cci-instance-management Huawei Cloud CCI (Cloud Container Instance) full lifecycle management using hcloud CLI. Covers Namespace, Network, Deployme",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-cci-instance-management",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-cci-instance-management",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "Huawei Cloud CCI (Cloud Container Instance) full lifecycle management using hcloud CLI. Covers Namespace, Network, Deployment, StatefulSet, Pod creation/update/",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 144,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-flexus-l-server-openclaw-deployment Create Huawei Cloud Flexus L Instance (Lightweight Server), deploy OpenClaw application platform on it, and sup",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-flexus-l-server-openclaw-deployment",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-flexus-l-server-openclaw-deployment",
+        "clientWidth": 302,
+        "scrollWidth": 335,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "Create Huawei Cloud Flexus L Instance (Lightweight Server), deploy OpenClaw application platform on it, and support installation and configuration of models and",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 180,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-dws-sql-check Comprehensive SQL statement checking for DWS, supporting two check modes: 1. Syntax Check - Keyword validation, statement structure v",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-dws-sql-check",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-dws-sql-check",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "Comprehensive SQL statement checking for DWS, supporting two check modes: 1. Syntax Check - Keyword validation, statement structure verification, clause complet",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 252,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "text": "huawei-cloud-icp-process-guidance 华为云ICP备案知识问答Skill。 自带 ICP备案知识库（./kb/），开箱即用。 当用户提到华为云/ICP备案/网站备案/App备案 + 流程/材料/条件/问题/驳回/授权码/审核时触发。 只回答ICP备案相关问题，其他问题礼貌拒绝。 云宝 hu",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 210,
+        "scrollHeight": 210,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "210px"
+      },
+      {
+        "path": "section.hot-skills-section > div.container > div.skills-grid > div.skill-card > div.skill-header",
+        "text": "huawei-cloud-icp-process-guidance",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-header > span.skill-id",
+        "text": "huawei-cloud-icp-process-guidance",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 21,
+        "scrollHeight": 21,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "21px"
+      },
+      {
+        "path": "div.container > div.skills-grid > div.skill-card > div.skill-desc-wrapper > p.skill-desc",
+        "text": "华为云ICP备案知识问答Skill。 自带 ICP备案知识库（./kb/），开箱即用。 当用户提到华为云/ICP备案/网站备案/App备案 + 流程/材料/条件/问题/驳回/授权码/审核时触发。 只回答ICP备案相关问题，其他问题礼貌拒绝。",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 36,
+        "scrollHeight": 72,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      }
+    ],
+    "fixedBottom": [],
+    "clickableSummary": {
+      "count": 17
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+        "text": "",
+        "tag": "button",
+        "x": 282,
+        "y": 4,
+        "width": 40,
+        "height": 40,
+        "area": 1600
+      },
+      {
+        "index": 1,
+        "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+        "text": "",
+        "tag": "button",
+        "x": 326,
+        "y": 4,
+        "width": 40,
+        "height": 40,
+        "area": 1600
+      },
+      {
+        "index": 3,
+        "path": "div.home > section.hero-section > div.container > div.hero-content > button.hw-btn.hw-btn-primary.hero-btn",
+        "text": "查看全部 Skills",
+        "tag": "button",
+        "x": 125,
+        "y": 282,
+        "width": 140,
+        "height": 37,
+        "area": 5180
+      },
+      {
+        "index": 4,
+        "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "text": "复制",
+        "tag": "button",
+        "x": 302,
+        "y": 456,
+        "width": 32,
+        "height": 32,
+        "area": 1024
+      },
+      {
+        "index": 5,
+        "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "text": "复制",
+        "tag": "button",
+        "x": 302,
+        "y": 572,
+        "width": 32,
+        "height": 32,
+        "area": 1024
+      },
+      {
+        "index": 6,
+        "path": "div.home > section.hot-skills-section > div.container > div.view-more > button.hw-btn.hw-btn-secondary.btn-view",
+        "text": "查看更多",
+        "tag": "button",
+        "x": 120,
+        "y": 2933,
+        "width": 150,
+        "height": 34,
+        "area": 5100
+      },
+      {
+        "index": 7,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a.left-href-pc.burying-point.color-black-hover",
+        "text": "法律声明",
+        "tag": "a",
+        "x": 127,
+        "y": 3368,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 8,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a.left-href-pc.burying-point.color-black-hover",
+        "text": "隐私政策",
+        "tag": "a",
+        "x": 208,
+        "y": 3368,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 9,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point",
+        "text": "©2026 Huaweicloud.com 版权所有",
+        "tag": "a",
+        "x": 59,
+        "y": 3418,
+        "width": 156,
+        "height": 15,
+        "area": 2345.625
+      },
+      {
+        "index": 10,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point.color-black-hover",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 225,
+        "y": 3418,
+        "width": 106,
+        "height": 15,
+        "area": 1586.71875
+      },
+      {
+        "index": 11,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point",
+        "text": "苏B2-20130048号",
+        "tag": "a",
+        "x": 104,
+        "y": 3433,
+        "width": 81,
+        "height": 15,
+        "area": 1211.71875
+      },
+      {
+        "index": 12,
+        "path": "div.footer-nav > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.left-href-pc.burying-point",
+        "text": "A2.B1.B2-20070312",
+        "tag": "a",
+        "x": 195,
+        "y": 3433,
+        "width": 91,
+        "height": 15,
+        "area": 1361.953125
+      },
+      {
+        "index": 13,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i > a",
+        "text": "",
+        "tag": "a",
+        "x": 45,
+        "y": 3486,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 14,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.left-href-pc.burying-point.color-black-hover",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 65,
+        "y": 3485,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 15,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i > a",
+        "text": "",
+        "tag": "a",
+        "x": 147,
+        "y": 3486,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 16,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.left-href-pc.burying-point.color-black-hover",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 167,
+        "y": 3485,
+        "width": 169,
+        "height": 14,
+        "area": 2362.5
+      }
+    ],
+    "closePairs": [
+      {
+        "distance": 4,
+        "a": {
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+          "text": "",
+          "width": 40,
+          "height": 40
+        },
+        "b": {
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+          "text": "",
+          "width": 40,
+          "height": 40
+        }
+      },
+      {
+        "distance": 4.5,
+        "a": {
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+          "text": "",
+          "width": 40,
+          "height": 40
+        },
+        "b": {
+          "path": "div#app > div.home > section.hero-section > div.container > video.hero-bg-video",
+          "text": "",
+          "width": 390,
+          "height": 628
+        }
+      },
+      {
+        "distance": 4.5,
+        "a": {
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+          "text": "",
+          "width": 40,
+          "height": 40
+        },
+        "b": {
+          "path": "div#app > div.home > section.hero-section > div.container > video.hero-bg-video",
+          "text": "",
+          "width": 390,
+          "height": 628
+        }
+      }
+    ],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.navbar-inner > div.navbar-left > nav.navbar-nav-links > div.nav-link.nav-link-cloud > img.beta-badge",
+        "alt": "beta",
+        "src": "https://res-hd.hc-cdn.cn/HDSkillPortal/1.0.22/assets/beta-4113cab6.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 34,
+        "height": 14,
+        "top": 7,
+        "belowFold": false
+      },
+      {
+        "path": "div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+        "alt": "",
+        "src": "data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48dGl0bGU+5pCc57Si5aSH5Lu9PC90",
+        "ext": "unknown",
+        "loading": "",
+        "width": 20,
+        "height": 20,
+        "top": 14,
+        "belowFold": false
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+        "alt": "基于AIcli平台的华为云OpenClaw极速部署解决方案",
+        "src": "https://res-hd.hc-cdn.cn/HDSkillPortal/1.0.5/assets/3ai-cli-openclaw-0273cf7a.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 262,
+        "height": 147,
+        "top": 727,
+        "belowFold": false
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+        "alt": "华为云一句话极速账单对账解决方案",
+        "src": "https://res-hd.hc-cdn.cn/HDSkillPortal/1.0.5/assets/5query-charge-account-07055245.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 262,
+        "height": 147,
+        "top": 727,
+        "belowFold": false
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+        "alt": "昇腾轻量化模型部署与小模型极速适配",
+        "src": "https://res-hd.hc-cdn.cn/HDSkillPortal/1.0.5/assets/2ascend-light-maas-f7f0d8bb.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 262,
+        "height": 147,
+        "top": 727,
+        "belowFold": false
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+        "alt": "华为云容器环境评估解决方案",
+        "src": "https://res-hd.hc-cdn.cn/HDSkillPortal/1.0.5/assets/4huawei-cloud-origin-1d98bb3a.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 262,
+        "height": 147,
+        "top": 727,
+        "belowFold": false
+      },
+      {
+        "path": "div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+        "alt": "华为云MaaS token统计查询",
+        "src": "https://res-hd.hc-cdn.cn/HDSkillPortal/1.0.5/assets/1.maas-token-usage-bb04b121.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 262,
+        "height": 147,
+        "top": 727,
+        "belowFold": false
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wechat.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/csdn.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/bilibili.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wb.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-comps > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-contact-icon > img.lazyload",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E7%BB%84%E4%BB%B6%E9%AA%8C%E8%AF%81/pep-common-footer/1618990892808034938.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 20,
+        "height": 20,
+        "top": 3303,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wechat.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/csdn.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/bilibili.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-submenus-inner > div.footer-nav-about > div.right-margin-pc > div.burying-point.footer-qrcode-pc.color-black-hover > img.img-circle",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/HWCdeveloper/shemei/wb.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 36,
+        "height": 36,
+        "top": 3231,
+        "belowFold": true
+      },
+      {
+        "path": "div.footer-nav-comps > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-contact-icon > img.lazyload",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E7%BB%84%E4%BB%B6%E9%AA%8C%E8%AF%81/pep-common-footer/1618990892808034938.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 20,
+        "height": 20,
+        "top": 3303,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover",
+        "media": "",
+        "css": ".eco-dialog footer button:hover { background-color: rgb(89, 89, 89); border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".eco-dialog footer button:hover.cancel",
+        "media": "",
+        "css": ".eco-dialog footer button:hover.cancel { background: rgb(255, 255, 255); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 18,
+    "testedCount": 12,
+    "issueCount": 4,
+    "candidates": [
+      {
+        "text": "查看更多",
+        "href": "",
+        "tag": "div",
+        "path": "div#app > div#app > div.home > section.hot-skills-section > div.container > div.view-more",
+        "className": "view-more",
+        "top": 2933,
+        "left": 24,
+        "width": 342,
+        "height": 34,
+        "importance": 80,
+        "ordinal": 0
+      },
+      {
+        "text": "查看更多",
+        "href": "",
+        "tag": "button",
+        "path": "div#app > div.home > section.hot-skills-section > div.container > div.view-more > button.hw-btn.hw-btn-secondary.btn-view",
+        "className": "hw-btn hw-btn-secondary btn-view",
+        "top": 2933,
+        "left": 120,
+        "width": 150,
+        "height": 34,
+        "importance": 80,
+        "ordinal": 1
+      },
+      {
+        "text": "查看全部 Skills",
+        "href": "",
+        "tag": "button",
+        "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > button.hw-btn.hw-btn-primary.hero-btn",
+        "className": "hw-btn hw-btn-primary hero-btn",
+        "top": 282,
+        "left": 125,
+        "width": 140,
+        "height": 37,
+        "importance": 70,
+        "ordinal": 2
+      },
+      {
+        "text": "huawei-cloud-install-openjiuwenswarm One-click local installation and startup of JiuwenSwarm in the current Huawei Cloud development contain",
+        "href": "",
+        "tag": "div",
+        "path": "div#app > div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "className": "skill-card",
+        "top": 1541,
+        "left": 24,
+        "width": 342,
+        "height": 210,
+        "importance": 70,
+        "ordinal": 3
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "button",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+        "className": "navbar-search-btn",
+        "top": 4,
+        "left": 282,
+        "width": 40,
+        "height": 40,
+        "importance": 20,
+        "ordinal": 4
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "button",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+        "className": "navbar-hamburger-btn",
+        "top": 4,
+        "left": 326,
+        "width": 40,
+        "height": 40,
+        "importance": 20,
+        "ordinal": 5
+      },
+      {
+        "text": "云 Skills 库",
+        "href": "",
+        "tag": "nav",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links",
+        "className": "navbar-nav-links",
+        "top": 9,
+        "left": 154,
+        "width": 81,
+        "height": 30,
+        "importance": 20,
+        "ordinal": 6
+      },
+      {
+        "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+        "href": "",
+        "tag": "div",
+        "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+        "className": "cli-card",
+        "top": 359,
+        "left": 24,
+        "width": 342,
+        "height": 285,
+        "importance": 20,
+        "ordinal": 7
+      },
+      {
+        "text": "复制",
+        "href": "",
+        "tag": "button",
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "className": "copy-btn",
+        "top": 456,
+        "left": 302,
+        "width": 32,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 8
+      },
+      {
+        "text": "复制",
+        "href": "",
+        "tag": "button",
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "className": "copy-btn",
+        "top": 572,
+        "left": 302,
+        "width": 32,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 9
+      },
+      {
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large",
+        "className": "solution-card solution-card-large",
+        "top": 727,
+        "left": 24,
+        "width": 262,
+        "height": 239,
+        "importance": 20,
+        "ordinal": 10
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image",
+        "className": "card-image",
+        "top": 727,
+        "left": 24,
+        "width": 262,
+        "height": 147,
+        "importance": 20,
+        "ordinal": 11
+      },
+      {
+        "text": "华为云一句话极速账单对账解决方案 查看案例所用的 1 个 Skills",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large",
+        "className": "solution-card solution-card-large",
+        "top": 727,
+        "left": 298,
+        "width": 262,
+        "height": 239,
+        "importance": 20,
+        "ordinal": 12
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image",
+        "className": "card-image",
+        "top": 727,
+        "left": 298,
+        "width": 262,
+        "height": 147,
+        "importance": 20,
+        "ordinal": 13
+      },
+      {
+        "text": "昇腾轻量化模型部署与小模型极速适配 查看案例所用的 1 个 Skills",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large",
+        "className": "solution-card solution-card-large",
+        "top": 727,
+        "left": 572,
+        "width": 262,
+        "height": 239,
+        "importance": 20,
+        "ordinal": 14
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image",
+        "className": "card-image",
+        "top": 727,
+        "left": 572,
+        "width": 262,
+        "height": 147,
+        "importance": 20,
+        "ordinal": 15
+      },
+      {
+        "text": "华为云容器环境评估解决方案 查看案例所用的 1 个 Skills",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large",
+        "className": "solution-card solution-card-large",
+        "top": 727,
+        "left": 846,
+        "width": 262,
+        "height": 239,
+        "importance": 20,
+        "ordinal": 16
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "div",
+        "path": "div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image",
+        "className": "card-image",
+        "top": 727,
+        "left": 846,
+        "width": 262,
+        "height": 147,
+        "importance": 20,
+        "ordinal": 17
+      }
+    ],
+    "results": [
+      {
+        "text": "查看更多",
+        "tag": "div",
+        "href": "",
+        "path": "div#app > div#app > div.home > section.hot-skills-section > div.container > div.view-more",
+        "rect": {
+          "left": 24,
+          "top": 2933,
+          "width": 342,
+          "height": 34
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+          "className": ""
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 2528,
+          "bodyLength": 4911,
+          "overlayCount": 4,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 2528,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 4
+        }
+      },
+      {
+        "text": "查看更多",
+        "tag": "button",
+        "href": "",
+        "path": "div#app > div.home > section.hot-skills-section > div.container > div.view-more > button.hw-btn.hw-btn-secondary.btn-view",
+        "rect": {
+          "left": 120,
+          "top": 2933,
+          "width": 150,
+          "height": 34
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+          "className": ""
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 2528,
+          "bodyLength": 4911,
+          "overlayCount": 4,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 2528,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 4
+        }
+      },
+      {
+        "text": "查看全部 Skills",
+        "tag": "button",
+        "href": "",
+        "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > button.hw-btn.hw-btn-primary.hero-btn",
+        "rect": {
+          "left": 125,
+          "top": 282,
+          "width": 140,
+          "height": 37
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "button",
+          "text": "查看全部 Skills",
+          "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > button.hw-btn.hw-btn-primary.hero-btn",
+          "className": "hw-btn hw-btn-primary hero-btn"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [
+          "https://skills.huaweicloud.com/list"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 0,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "huawei-cloud-install-openjiuwenswarm One-click local installation and startup of JiuwenSwarm in the current Huawei Cloud development contain",
+        "tag": "div",
+        "href": "",
+        "path": "div#app > div.home > section.hot-skills-section > div.container > div.skills-grid > div.skill-card",
+        "rect": {
+          "left": 24,
+          "top": 1541,
+          "width": 342,
+          "height": 210
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+          "className": ""
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 1224,
+          "bodyLength": 4911,
+          "overlayCount": 4,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 1224,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 4
+        }
+      },
+      {
+        "text": "",
+        "tag": "button",
+        "href": "",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+        "rect": {
+          "left": 282,
+          "top": 4,
+          "width": 40,
+          "height": 40
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 0,
+          "bodyLength": 4914,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 3,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "button",
+        "href": "",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+        "rect": {
+          "left": 326,
+          "top": 4,
+          "width": 40,
+          "height": 40
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 0,
+          "bodyLength": 4914,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 3,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "云 Skills 库",
+        "tag": "nav",
+        "href": "",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links",
+        "rect": {
+          "left": 154,
+          "top": 9,
+          "width": 81,
+          "height": 30
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "云 Skills 库",
+          "path": "div.navbar > div.navbar-inner > div.navbar-left > nav.navbar-nav-links > div.nav-link.nav-link-cloud > span.cloud-text",
+          "className": "cloud-text"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [
+          "https://skills.huaweicloud.com/"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 0,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+        "tag": "div",
+        "href": "",
+        "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+        "rect": {
+          "left": 24,
+          "top": 359,
+          "width": 342,
+          "height": 285
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "div",
+          "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+          "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+          "className": "cli-card"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 80,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 80,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "复制",
+        "tag": "button",
+        "href": "",
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "rect": {
+          "left": 302,
+          "top": 456,
+          "width": 32,
+          "height": 32
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "object-or-overlay-may-intercept-tap,console-error-after-tap",
+        "hit": {
+          "tag": "svg",
+          "text": "",
+          "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn > svg.[object.SVGAnimatedString]",
+          "className": "[object SVGAnimatedString]"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [
+          "复制失败: NotAllowedError: Failed to execute 'writeText' on 'Clipboard': Write permission denied."
+        ],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 50,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 50,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "复制",
+        "tag": "button",
+        "href": "",
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "rect": {
+          "left": 302,
+          "top": 572,
+          "width": 32,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "svg",
+          "text": "",
+          "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn > svg.[object.SVGAnimatedString]",
+          "className": "[object SVGAnimatedString]"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [
+          "复制失败: NotAllowedError: Failed to execute 'writeText' on 'Clipboard': Write permission denied."
+        ],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 166,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 166,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "基于AIcli平台的华为云OpenClaw极速部署解决方案 查看案例所用的 3 个 Skills",
+        "tag": "div",
+        "href": "",
+        "path": "div.carousel-content > div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large",
+        "rect": {
+          "left": 24,
+          "top": 727,
+          "width": 262,
+          "height": 239
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 424,
+          "bodyLength": 4911,
+          "overlayCount": 4,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 424,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 4
+        }
+      },
+      {
+        "text": "",
+        "tag": "div",
+        "href": "",
+        "path": "div.carousel-wrapper > div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image",
+        "rect": {
+          "left": 24,
+          "top": 727,
+          "width": 262,
+          "height": 147
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.carousel-viewport > div.carousel-track > div.carousel-track-pad > div.solution-card.solution-card-large > div.card-image > img",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 379,
+          "bodyLength": 4911,
+          "overlayCount": 4,
+          "mutations": 4,
+          "urlChanged": false,
+          "scrollChanged": 379,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 4
+        }
+      }
+    ],
+    "issues": [
+      {
+        "text": "",
+        "tag": "button",
+        "href": "",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+        "rect": {
+          "left": 282,
+          "top": 4,
+          "width": 40,
+          "height": 40
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 0,
+          "bodyLength": 4914,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 3,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "",
+        "tag": "button",
+        "href": "",
+        "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+        "rect": {
+          "left": 326,
+          "top": 4,
+          "width": 40,
+          "height": 40
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 0,
+          "bodyLength": 4914,
+          "overlayCount": 0,
+          "mutations": 6,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 3,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+        "tag": "div",
+        "href": "",
+        "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+        "rect": {
+          "left": 24,
+          "top": 359,
+          "width": 342,
+          "height": 285
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "no-visible-effect",
+        "hit": {
+          "tag": "div",
+          "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+          "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+          "className": "cli-card"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 80,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 80,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      },
+      {
+        "text": "复制",
+        "tag": "button",
+        "href": "",
+        "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+        "rect": {
+          "left": 302,
+          "top": 456,
+          "width": 32,
+          "height": 32
+        },
+        "status": "no-visible-effect",
+        "possibleCause": "object-or-overlay-may-intercept-tap,console-error-after-tap",
+        "hit": {
+          "tag": "svg",
+          "text": "",
+          "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn > svg.[object.SVGAnimatedString]",
+          "className": "[object SVGAnimatedString]"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://skills.huaweicloud.com/",
+        "afterUrl": "https://skills.huaweicloud.com/",
+        "popupUrls": [],
+        "consoleErrors": [
+          "复制失败: NotAllowedError: Failed to execute 'writeText' on 'Clipboard': Write permission denied."
+        ],
+        "after": {
+          "url": "https://skills.huaweicloud.com/",
+          "scrollY": 50,
+          "bodyLength": 4911,
+          "overlayCount": 0,
+          "mutations": 0,
+          "urlChanged": false,
+          "scrollChanged": 50,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        },
+        "severity": "P2"
+      }
+    ]
+  },
+  "tapActionIssues": [
+    {
+      "text": "",
+      "tag": "button",
+      "href": "",
+      "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn",
+      "rect": {
+        "left": 282,
+        "top": 4,
+        "width": 40,
+        "height": 40
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "no-visible-effect",
+      "hit": {
+        "tag": "img",
+        "text": "",
+        "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+        "className": ""
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://skills.huaweicloud.com/",
+      "afterUrl": "https://skills.huaweicloud.com/",
+      "popupUrls": [],
+      "consoleErrors": [],
+      "after": {
+        "url": "https://skills.huaweicloud.com/",
+        "scrollY": 0,
+        "bodyLength": 4914,
+        "overlayCount": 0,
+        "mutations": 6,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 3,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "",
+      "tag": "button",
+      "href": "",
+      "path": "div#app > header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-hamburger-btn",
+      "rect": {
+        "left": 326,
+        "top": 4,
+        "width": 40,
+        "height": 40
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "no-visible-effect",
+      "hit": {
+        "tag": "img",
+        "text": "",
+        "path": "header.navbar-wrapper > div.navbar > div.navbar-inner > div.navbar-search-wrapper > button.navbar-search-btn > img",
+        "className": ""
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://skills.huaweicloud.com/",
+      "afterUrl": "https://skills.huaweicloud.com/",
+      "popupUrls": [],
+      "consoleErrors": [],
+      "after": {
+        "url": "https://skills.huaweicloud.com/",
+        "scrollY": 0,
+        "bodyLength": 4914,
+        "overlayCount": 0,
+        "mutations": 6,
+        "urlChanged": false,
+        "scrollChanged": 0,
+        "bodyLengthDelta": 3,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+      "tag": "div",
+      "href": "",
+      "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+      "rect": {
+        "left": 24,
+        "top": 359,
+        "width": 342,
+        "height": 285
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "no-visible-effect",
+      "hit": {
+        "tag": "div",
+        "text": "通过与Agent对话安装华为云Skills 通过 ClawHub CLI 安装 npx clawhub install @huaweiclouddev/huawei-cloud-find-skills 通过 skills.sh CLI 安装，运行后，重启 Agent 客户端即可使",
+        "path": "div#app > div.home > section.hero-section > div.container > div.hero-content > div.cli-card",
+        "className": "cli-card"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://skills.huaweicloud.com/",
+      "afterUrl": "https://skills.huaweicloud.com/",
+      "popupUrls": [],
+      "consoleErrors": [],
+      "after": {
+        "url": "https://skills.huaweicloud.com/",
+        "scrollY": 80,
+        "bodyLength": 4911,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 80,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    },
+    {
+      "text": "复制",
+      "tag": "button",
+      "href": "",
+      "path": "div.container > div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn",
+      "rect": {
+        "left": 302,
+        "top": 456,
+        "width": 32,
+        "height": 32
+      },
+      "status": "no-visible-effect",
+      "possibleCause": "object-or-overlay-may-intercept-tap,console-error-after-tap",
+      "hit": {
+        "tag": "svg",
+        "text": "",
+        "path": "div.hero-content > div.cli-card > div.cli-content > div.cli-command-wrapper > button.copy-btn > svg.[object.SVGAnimatedString]",
+        "className": "[object SVGAnimatedString]"
+      },
+      "hitInsideTarget": true,
+      "beforeUrl": "https://skills.huaweicloud.com/",
+      "afterUrl": "https://skills.huaweicloud.com/",
+      "popupUrls": [],
+      "consoleErrors": [
+        "复制失败: NotAllowedError: Failed to execute 'writeText' on 'Clipboard': Write permission denied."
+      ],
+      "after": {
+        "url": "https://skills.huaweicloud.com/",
+        "scrollY": 50,
+        "bodyLength": 4911,
+        "overlayCount": 0,
+        "mutations": 0,
+        "urlChanged": false,
+        "scrollChanged": 50,
+        "bodyLengthDelta": 0,
+        "overlayDelta": 0
+      },
+      "severity": "P2"
+    }
+  ],
+  "after_scroll_ctas": [],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 0,
+        "text": "云 Skills 库",
+        "className": "navbar-wrapper",
+        "width": 390,
+        "height": 48,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 1,
+        "text": "云 Skills 库",
+        "className": "navbar",
+        "width": 390,
+        "height": 48,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 2,
+        "text": "云 Skills 库",
+        "className": "navbar-inner",
+        "width": 390,
+        "height": 47,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 3,
+        "text": "云 Skills 库",
+        "className": "navbar-left",
+        "width": 246,
+        "height": 31,
+        "x": 24,
+        "y": 8
+      },
+      {
+        "index": 4,
+        "text": "",
+        "className": "navbar-logo",
+        "width": 88,
+        "height": 31,
+        "x": 24,
+        "y": 8
+      },
+      {
+        "index": 5,
+        "text": "云 Skills 库",
+        "className": "navbar-nav-links",
+        "width": 81,
+        "height": 30,
+        "x": 154,
+        "y": 9
+      },
+      {
+        "index": 6,
+        "text": "云 Skills 库",
+        "className": "nav-link nav-link-cloud",
+        "width": 81,
+        "height": 30,
+        "x": 154,
+        "y": 9
+      },
+      {
+        "index": 7,
+        "text": "",
+        "className": "navbar-search-wrapper",
+        "width": 84,
+        "height": 40,
+        "x": 282,
+        "y": 4
+      },
+      {
+        "index": 8,
+        "text": "",
+        "className": "navbar-search-btn",
+        "width": 40,
+        "height": 40,
+        "x": 282,
+        "y": 4
+      },
+      {
+        "index": 9,
+        "text": "",
+        "className": "navbar-hamburger-btn",
+        "width": 40,
+        "height": 40,
+        "x": 326,
+        "y": 4
+      },
+      {
+        "index": 10,
+        "text": "查看全部 Skills",
+        "className": "hw-btn hw-btn-primary hero-btn",
+        "width": 140,
+        "height": 37,
+        "x": 125,
+        "y": 264
+      },
+      {
+        "index": 13,
+        "text": "查看更多",
+        "className": "hw-btn hw-btn-secondary btn-view",
+        "width": 150,
+        "height": 34,
+        "x": 120,
+        "y": 2915
+      },
+      {
+        "index": 14,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策 ©2026 Huaweicloud.com 版权所有黔ICP备20004760号-1",
+        "className": "footer-nav",
+        "width": 342,
+        "height": 374,
+        "x": 24,
+        "y": 3129
+      },
+      {
+        "index": 15,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-wrapper",
+        "width": 342,
+        "height": 261,
+        "x": 24,
+        "y": 3129
+      },
+      {
+        "index": 16,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-content",
+        "width": 308,
+        "height": 261,
+        "x": 41,
+        "y": 3129
+      },
+      {
+        "index": 17,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-comps",
+        "width": 208,
+        "height": 240,
+        "x": 91,
+        "y": 3129
+      },
+      {
+        "index": 18,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-submenus",
+        "width": 208,
+        "height": 240,
+        "x": 91,
+        "y": 3129
+      },
+      {
+        "index": 19,
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "width": 208,
+        "height": 224,
+        "x": 91,
+        "y": 3145
+      },
+      {
+        "index": 20,
+        "text": "下载华为云APP",
+        "className": "footer-nav-download",
+        "width": 208,
+        "height": 22,
+        "x": 91,
+        "y": 3145
+      },
+      {
+        "index": 21,
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "width": 208,
+        "height": 22,
+        "x": 91,
+        "y": 3183
+      }
+    ],
+    "clicked_candidate": {
+      "index": 9,
+      "text": "",
+      "className": "navbar-hamburger-btn",
+      "width": 40,
+      "height": 40,
+      "x": 326,
+      "y": 4
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "clip visible",
+    "overlays": [
+      {
+        "text": "云 Skills 库 全部 Skills 语言 查看全部 Skills",
+        "className": "navbar-wrapper",
+        "position": "sticky",
+        "zIndex": "9999",
+        "width": 390,
+        "height": 48,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "云 Skills 库",
+        "className": "navbar",
+        "position": "relative",
+        "zIndex": "9999",
+        "width": 390,
+        "height": 48,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "云 Skills 库",
+        "className": "navbar-inner",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 47,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "云 Skills 库",
+        "className": "navbar-left",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 246,
+        "height": 31,
+        "x": 24,
+        "y": 8
+      },
+      {
+        "text": "全部 Skills 语言 查看全部 Skills",
+        "className": "mobile-menu-panel",
+        "position": "fixed",
+        "zIndex": "9997",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "全部 Skills 语言 查看全部 Skills",
+        "className": "mobile-menu-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "全部 Skills 语言",
+        "className": "mobile-menu-left",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 48
+      },
+      {
+        "text": "查看全部 Skills",
+        "className": "mobile-menu-right",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 48
+      },
+      {
+        "text": "查看全部 Skills",
+        "className": "mobile-menu-sub-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 238,
+        "height": 38,
+        "x": 136,
+        "y": 48
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策 ©2026 Huaweicloud.com 版权所有黔ICP备20004760号-14苏B2-20130048号A2.B1.B2-20070312 增值电信业务经营",
+        "className": "footer-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 342,
+        "height": 374,
+        "x": 24,
+        "y": 3147
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-wrapper",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 342,
+        "height": 261,
+        "x": 24,
+        "y": 3147
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 308,
+        "height": 261,
+        "x": 41,
+        "y": 3147
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-comps",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 208,
+        "height": 240,
+        "x": 91,
+        "y": 3147
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-submenus",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 208,
+        "height": 240,
+        "x": 91,
+        "y": 3147
+      },
+      {
+        "text": "下载华为云APP 关注我们 售前咨询： 950808转1 法律声明隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 208,
+        "height": 224,
+        "x": 91,
+        "y": 3163
+      },
+      {
+        "text": "下载华为云APP",
+        "className": "footer-nav-download",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 208,
+        "height": 22,
+        "x": 91,
+        "y": 3163
+      },
+      {
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 208,
+        "height": 22,
+        "x": 91,
+        "y": 3201
+      },
+      {
+        "text": "",
+        "className": "footer-nav-about",
+        "position": "relative",
+        "zIndex": "99",
+        "width": 208,
+        "height": 66,
+        "x": 91,
+        "y": 3223
+      },
+      {
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 208,
+        "height": 48,
+        "x": 91,
+        "y": 3289
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "云 Skills 库",
+        "width": 81,
+        "height": 19,
+        "x": 154,
+        "y": 14
+      },
+      {
+        "text": "全部 Skills",
+        "width": 67,
+        "height": 22,
+        "x": 15,
+        "y": 59
+      },
+      {
+        "text": "语言",
+        "width": 28,
+        "height": 22,
+        "x": 15,
+        "y": 104
+      },
+      {
+        "text": "查看全部 Skills",
+        "width": 95,
+        "height": 22,
+        "x": 136,
+        "y": 64
+      },
+      {
+        "text": "huawei-cloud-flexus-l-server-openclaw-deployment",
+        "width": 302,
+        "height": 21,
+        "x": 44,
+        "y": 2253
+      }
+    ]
+  }
+}

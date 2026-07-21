@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/ai/",
+  "generated_at": "2026-07-20T03:45:03.672589+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/ai/",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p1",
+          "title": "底部固定下载栏未适配安全区域",
+          "area": "底部固定栏",
+          "page_url": "https://www.huaweicloud.com/ai/",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM中 fixedBottom 元素 'div.tm-adv-space.light-btn' 的 hasSafeAreaInset 属性为 false，在全面屏手机上会导致内容与系统底部手势操作条重叠，引发误触。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "padding-bottom: 0px;",
+          "suggestion_after": "利用 CSS 的 env(safe-area-inset-bottom) 动态增加底部安全区填充，确保不与系统手势条重叠。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "立即体验等按钮触控区域过小",
+          "area": "产品体验区域",
+          "page_url": "https://www.huaweicloud.com/ai/",
+          "locate": [
+            "产品体验",
+            "立即体验"
+          ],
+          "evidence": "DOM中 smallTargets 索引 6, 7, 9, 10, 12, 13 显示，'产品体验' 和 '立即体验' 按钮的尺寸仅为 82px * 24px，高度远低于移动端推荐的 44px 最小触控标准，极易导致用户点击失败。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "height: 24px; width: 82px;",
+          "suggestion_after": "将按钮的最小高度调整为 44px，并适当增加水平内边距，确保触控轻松精准。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p2",
+          "title": "顶部提示横幅高度过大挤压首屏空间",
+          "area": "顶部导航与提示",
+          "page_url": "https://www.huaweicloud.com/ai/",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM中 textRisks 显示，顶部提示横幅 'div#header' 高度达 168px，占首屏高度（844px）的近 20%，严重挤压了核心品牌词 '行业AI梦工厂' 的首屏曝光空间。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "提示横幅高度 168px",
+          "suggestion_after": "在移动端精简提示文案，或采用可折叠的通告栏设计，将高度控制在 60px 以内。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "客户案例卡片横向溢出且缺乏视觉引导",
+          "area": "客户案例区域",
+          "page_url": "https://www.huaweicloud.com/ai/",
+          "locate": [
+            "瑞金医院携手华为云构建智慧病理服务专区..."
+          ],
+          "evidence": "DOM中 textRisks 显示 'div.customers-tab-content.show.show-mb' 的 clientWidth 为 159px，而 scrollWidth 达 306px，存在近一倍的的横向溢出，若无明确的视觉引导，用户很难发现右侧隐藏内容。",
+          "standard": "Nielsen #1",
+          "suggestion_before": "横向滚动内容完全截断",
+          "suggestion_after": "在右侧边缘故意露出下一张卡片的一部分（如 15% 宽度），或在底部增加轮播指示点（Dots），明确提示可横滑。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化移动端核心 CTA 按钮的触控热区，确保所有可点击元素的最小高度不低于 44px。",
+        "对底部固定栏进行全面屏安全区域（Safe Area）适配，避免与 iOS/Android 系统手势条冲突。",
+        "精简首屏非核心提示信息，释放更多垂直空间给核心业务和品牌主题展示。",
+        "对横向滚动的卡片流增加微弱的视觉截断露出或指示器，提升横滑交互的可发现性。"
+      ],
+      "analysis_content": "华为云移动端页面整体响应式布局表现良好，未发现全局性的横向溢出。但在细节体验上存在典型移动端适配问题：底部固定栏未适配安全区域、部分核心 CTA 按钮触控面积过小、顶部提示横幅过高挤压首屏，以及横向滚动区域缺乏视觉引导。建议针对上述问题进行专项优化，以提升移动端用户的浏览与操作体验。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p1",
+      "title": "底部固定下载栏未适配安全区域",
+      "area": "底部固定栏",
+      "page_url": "https://www.huaweicloud.com/ai/",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM中 fixedBottom 元素 'div.tm-adv-space.light-btn' 的 hasSafeAreaInset 属性为 false，在全面屏手机上会导致内容与系统底部手势操作条重叠，引发误触。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "padding-bottom: 0px;",
+      "suggestion_after": "利用 CSS 的 env(safe-area-inset-bottom) 动态增加底部安全区填充，确保不与系统手势条重叠。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "立即体验等按钮触控区域过小",
+      "area": "产品体验区域",
+      "page_url": "https://www.huaweicloud.com/ai/",
+      "locate": [
+        "产品体验",
+        "立即体验"
+      ],
+      "evidence": "DOM中 smallTargets 索引 6, 7, 9, 10, 12, 13 显示，'产品体验' 和 '立即体验' 按钮的尺寸仅为 82px * 24px，高度远低于移动端推荐的 44px 最小触控标准，极易导致用户点击失败。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "height: 24px; width: 82px;",
+      "suggestion_after": "将按钮的最小高度调整为 44px，并适当增加水平内边距，确保触控轻松精准。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p2",
+      "title": "顶部提示横幅高度过大挤压首屏空间",
+      "area": "顶部导航与提示",
+      "page_url": "https://www.huaweicloud.com/ai/",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM中 textRisks 显示，顶部提示横幅 'div#header' 高度达 168px，占首屏高度（844px）的近 20%，严重挤压了核心品牌词 '行业AI梦工厂' 的首屏曝光空间。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "提示横幅高度 168px",
+      "suggestion_after": "在移动端精简提示文案，或采用可折叠的通告栏设计，将高度控制在 60px 以内。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "客户案例卡片横向溢出且缺乏视觉引导",
+      "area": "客户案例区域",
+      "page_url": "https://www.huaweicloud.com/ai/",
+      "locate": [
+        "瑞金医院携手华为云构建智慧病理服务专区..."
+      ],
+      "evidence": "DOM中 textRisks 显示 'div.customers-tab-content.show.show-mb' 的 clientWidth 为 159px，而 scrollWidth 达 306px，存在近一倍的的横向溢出，若无明确的视觉引导，用户很难发现右侧隐藏内容。",
+      "standard": "Nielsen #1",
+      "suggestion_before": "横向滚动内容完全截断",
+      "suggestion_after": "在右侧边缘故意露出下一张卡片的一部分（如 15% 宽度），或在底部增加轮播指示点（Dots），明确提示可横滑。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai/batch-20260720-095401-17/screenshots/https_www_huaweicloud_com_ai_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

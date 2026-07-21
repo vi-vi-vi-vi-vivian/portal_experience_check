@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+  "generated_at": "2026-07-20T04:03:04.927007+00:00",
+  "summary": {
+    "score": 6.8,
+    "issue_count": 3,
+    "p0": 0,
+    "p1": 0,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+      "title": "具身智能专区-华为云",
+      "score": 6.8,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "顶部国际站提示栏占用首屏空间过高",
+          "area": "页面顶部提示栏",
+          "page_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM textRisks 显示顶部国际站提示相关元素在 390x844 移动视口下高度为 168px，挤占首屏核心内容展示空间。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "移动端顶部提示栏高度约 168px。",
+          "suggestion_after": "移动端将提示压缩为单行或可折叠提示，关闭后释放首屏空间。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "部分移动端链接或按钮触控面积不足",
+          "area": "移动端 CTA/文本链接",
+          "page_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+          "locate": [
+            "https://www.huaweicloud.com/intl/",
+            "产品体验",
+            "使用说明",
+            "专家咨询",
+            "模型",
+            "仿真资产"
+          ],
+          "evidence": "DOM smallTargets 记录可点击元素低于移动端推荐触控面积：https://www.huaweicloud. 192x14px；产品体验 106x32px；使用说明 106x32px；专家咨询 106x32px。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "部分链接或按钮高度低于 40px。",
+          "suggestion_after": "移动端将关键 CTA 和文本链接点击热区扩展到至少 40px，推荐 44px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_scroll.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "底部固定栏未适配安全区",
+          "area": "页面底部固定栏",
+          "page_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM fixedBottom 显示底部固定元素 bottom=0px、paddingBottom=0px、hasSafeAreaInset=false。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "底部固定栏未使用 safe-area-inset-bottom。",
+          "suggestion_after": "为固定底栏增加 padding-bottom: env(safe-area-inset-bottom)，并为内容区预留底部空间。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "移动端将提示压缩为单行或可折叠提示，关闭后释放首屏空间。",
+        "移动端将关键 CTA 和文本链接点击热区扩展到至少 40px，推荐 44px。",
+        "为固定底栏增加 padding-bottom: env(safe-area-inset-bottom)，并为内容区预留底部空间。"
+      ],
+      "analysis_content": "模型分析链路失败后由 Codex 基于 _capture.json 生成 fallback audit。采集包含 12 个点击回放、菜单检查、DOM 布局证据和截图。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "顶部国际站提示栏占用首屏空间过高",
+      "area": "页面顶部提示栏",
+      "page_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM textRisks 显示顶部国际站提示相关元素在 390x844 移动视口下高度为 168px，挤占首屏核心内容展示空间。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "移动端顶部提示栏高度约 168px。",
+      "suggestion_after": "移动端将提示压缩为单行或可折叠提示，关闭后释放首屏空间。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "部分移动端链接或按钮触控面积不足",
+      "area": "移动端 CTA/文本链接",
+      "page_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+      "locate": [
+        "https://www.huaweicloud.com/intl/",
+        "产品体验",
+        "使用说明",
+        "专家咨询",
+        "模型",
+        "仿真资产"
+      ],
+      "evidence": "DOM smallTargets 记录可点击元素低于移动端推荐触控面积：https://www.huaweicloud. 192x14px；产品体验 106x32px；使用说明 106x32px；专家咨询 106x32px。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "部分链接或按钮高度低于 40px。",
+      "suggestion_after": "移动端将关键 CTA 和文本链接点击热区扩展到至少 40px，推荐 44px。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_scroll.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "底部固定栏未适配安全区",
+      "area": "页面底部固定栏",
+      "page_url": "https://www.huaweicloud.com/ai/cloudrobo.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM fixedBottom 显示底部固定元素 bottom=0px、paddingBottom=0px、hasSafeAreaInset=false。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "底部固定栏未使用 safe-area-inset-bottom。",
+      "suggestion_after": "为固定底栏增加 padding-bottom: env(safe-area-inset-bottom)，并为内容区预留底部空间。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_cloudrobo_html/batch-20260720-095401-21/screenshots/https_www_huaweicloud_com_ai_cloudrobo_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "agent-fallback",
+    "name": "codex",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash",
+      "agent-fallback:codex"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

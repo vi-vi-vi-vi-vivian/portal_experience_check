@@ -1,0 +1,47 @@
+{
+  "stage": "续费",
+  "score": 6,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "默认Tab无数据且缺乏切换引导",
+      "area": "功能介绍区",
+      "locate": [
+        "暂无表格数据",
+        "手动续费项 (0)",
+        "到期不续费项 (3)"
+      ],
+      "evidence": "页面默认选中“手动续费项 (0)”Tab，导致表格区域大面积空白并显示“暂无表格数据”。然而，右侧“到期不续费项 (3)”和上方筛选“30天内到期：1”均显示存在资源。系统在空状态下未提供任何引导用户切换Tab的交互提示。",
+      "standard": "Nielsen #1 | Nielsen #6",
+      "severity": "p1",
+      "suggestion": "修改前：展示纯文本“暂无表格数据” -> 修改后：在空状态中增加引导，如“当前无手动续费资源，您有 3 个资源已设为到期不续费，[点击前往查看]”；或当默认Tab无数据而其他Tab有数据时，默认切换至有数据的Tab。"
+    },
+    {
+      "title": "到期不续费资源续费操作链路冗长",
+      "area": "功能介绍区",
+      "locate": [
+        "到期不续费项 (3)",
+        "手动续费项 (0)"
+      ],
+      "evidence": "若用户想对已设为“到期不续费”的资源进行重新续费，无法在默认的“手动续费项”列表中直接看到，必须手动切换到“到期不续费项 (3)”Tab。这种物理隔离的设计增加了用户的查找和操作成本。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #7",
+      "severity": "p2",
+      "suggestion": "修改前：用户必须切换Tab才能找到并续费到期不续费资源 -> 修改后：在“全部”或默认视图下统一展示所有包年包月资源，通过列表内的状态标签（如“已设为到期不续费”）进行区分，并直接在操作列提供“恢复续费”或“立即续费”按钮。"
+    }
+  ],
+  "suggestions": [
+    "优化续费管理页面的默认视图逻辑，当手动续费项为0且存在其他待处理资源时，智能引导或自动切换Tab。",
+    "统一资源状态视图，避免因Tab分类导致用户遗漏重要到期资源。"
+  ],
+  "analysis_content": "续费管理页面在默认状态下展示了“暂无表格数据”的空状态，但实际上用户拥有3个到期不续费的资源。默认Tab的选择逻辑和空状态引导缺失，容易让用户产生“没有资源需要续费”的错觉，且增加了重新续费的操作链路。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+  "title": "费用中心-续费管理",
+  "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+}

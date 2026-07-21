@@ -1,0 +1,3207 @@
+{
+  "input_url": "https://www.huaweicloud.com/agentorchard/index.html",
+  "audit_time": "2026-07-20T01:46:01.124618+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_top.png",
+    "scroll_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_scroll.png",
+    "full_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_full.png",
+    "menu_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_menu.png"
+  },
+  "dom": {
+    "url": "https://www.huaweicloud.com/agentorchard/index.html",
+    "title": "智果园，为 Agent 而生-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 5733
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 120,
+        "scrollHeight": 120,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "120px"
+      },
+      {
+        "path": "body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 88,
+        "scrollHeight": 88,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "88px"
+      },
+      {
+        "path": "div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 334,
+        "scrollWidth": 334,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "clientWidth": 0,
+        "scrollWidth": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "auto"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-3",
+        "text": "开放能力，让 Agent 更好使用华为云 查看全部开放能力 > Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills AI S",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 542,
+        "scrollHeight": 542,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "542px"
+      },
+      {
+        "path": "body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-3 > div.svelte-content",
+        "text": "开放能力，让 Agent 更好使用华为云 查看全部开放能力 > Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills AI S",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 542,
+        "scrollHeight": 542,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "542px"
+      },
+      {
+        "path": "div#content > div#common-components-container > div#section-3 > div.svelte-content > div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top",
+        "text": "开放能力，让 Agent 更好使用华为云 查看全部开放能力 > Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills AI S",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 542,
+        "scrollHeight": 542,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "542px"
+      },
+      {
+        "path": "div#common-components-container > div#section-3 > div.svelte-content > div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g",
+        "text": "开放能力，让 Agent 更好使用华为云 查看全部开放能力 > Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills AI S",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 498,
+        "scrollHeight": 498,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "498px"
+      },
+      {
+        "path": "div#section-3 > div.svelte-content > div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g > div.por-section-body",
+        "text": "Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills AI Shell 预置 AI CLI 及常用 Skills，开箱即用作业",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 408,
+        "scrollHeight": 408,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "408px"
+      },
+      {
+        "path": "div.svelte-content > div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-copy-command-line__grid.svelte-161racf",
+        "text": "Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills AI Shell 预置 AI CLI 及常用 Skills，开箱即用作业",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 408,
+        "scrollHeight": 408,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "408px"
+      },
+      {
+        "path": "div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black",
+        "text": "Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 246,
+        "scrollHeight": 246,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246px"
+      },
+      {
+        "path": "div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb",
+        "text": "Skills 通过与 Agent 自然语言对话，快速使用华为云能力 npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills 探索更多Skills",
+        "clientWidth": 342,
+        "scrollWidth": 342,
+        "clientHeight": 246,
+        "scrollHeight": 246,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "246px"
+      },
+      {
+        "path": "div.por-section-body > div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__copy-list.svelte-pv3cxb",
+        "text": "npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills",
+        "clientWidth": 302,
+        "scrollWidth": 302,
+        "clientHeight": 100,
+        "scrollHeight": 100,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "100px"
+      },
+      {
+        "path": "div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__copy-list.svelte-pv3cxb > div.copy-card.svelte-91z5xt",
+        "text": "npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills",
+        "clientWidth": 300,
+        "scrollWidth": 300,
+        "clientHeight": 98,
+        "scrollHeight": 98,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "100px"
+      },
+      {
+        "path": "div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__copy-list.svelte-pv3cxb > div.copy-card.svelte-91z5xt > div.copy-card__content.svelte-91z5xt",
+        "text": "npx skills add huaweicloud/huaweicloud-skills --skill huawei-cloud-find-skills",
+        "clientWidth": 268,
+        "scrollWidth": 268,
+        "clientHeight": 66,
+        "scrollHeight": 66,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "66px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-5",
+        "text": "window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-image-ad', data : {\"package",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 196,
+        "scrollHeight": 196,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "195.656px"
+      },
+      {
+        "path": "body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-5 > div.pep-image-ad",
+        "text": "window.gConfig = window.gConfig || {}; window.gConfig.seed = window.gConfig.seed || []; window.gConfig.seed.push({name : '@cloud/pep-image-ad', data : {\"package",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 196,
+        "scrollHeight": 196,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "195.656px"
+      },
+      {
+        "path": "div#section-8 > div.pep-common-card-v2 > div.por-section.showMb > div.por-container > div.por-section-body",
+        "text": "智果 AgentArts 智能体平台正式公测 华为云智果开启公测，提供安全可靠的企业级运行底座、长短期记忆、海量行业资产精准调用与全链路运营运维体系，帮助企业智能体快速规模化落地 华为云新一代企业级 AI 助手 OfficeAce 正式公测 华为云 OfficeAce（原OfficeClaw）依托智果底座，面向多角色思",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 386,
+        "scrollHeight": 386,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "386px"
+      },
+      {
+        "path": "div.pep-common-card-v2 > div.por-section.showMb > div.por-container > div.por-section-body > div.por-tab-container",
+        "text": "智果 AgentArts 智能体平台正式公测 华为云智果开启公测，提供安全可靠的企业级运行底座、长短期记忆、海量行业资产精准调用与全链路运营运维体系，帮助企业智能体快速规模化落地 华为云新一代企业级 AI 助手 OfficeAce 正式公测 华为云 OfficeAce（原OfficeClaw）依托智果底座，面向多角色思",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 386,
+        "scrollHeight": 386,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "386px"
+      },
+      {
+        "path": "div.por-section.showMb > div.por-container > div.por-section-body > div.por-tab-container > div.por-tab-wrapper",
+        "text": "智果 AgentArts 智能体平台正式公测 华为云智果开启公测，提供安全可靠的企业级运行底座、长短期记忆、海量行业资产精准调用与全链路运营运维体系，帮助企业智能体快速规模化落地 华为云新一代企业级 AI 助手 OfficeAce 正式公测 华为云 OfficeAce（原OfficeClaw）依托智果底座，面向多角色思",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 386,
+        "scrollHeight": 386,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "386px"
+      },
+      {
+        "path": "div.por-container > div.por-section-body > div.por-tab-container > div.por-tab-wrapper > div.por-tab-content.active",
+        "text": "智果 AgentArts 智能体平台正式公测 华为云智果开启公测，提供安全可靠的企业级运行底座、长短期记忆、海量行业资产精准调用与全链路运营运维体系，帮助企业智能体快速规模化落地 华为云新一代企业级 AI 助手 OfficeAce 正式公测 华为云 OfficeAce（原OfficeClaw）依托智果底座，面向多角色思",
+        "clientWidth": 342,
+        "scrollWidth": 346,
+        "clientHeight": 386,
+        "scrollHeight": 386,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "386px"
+      }
+    ],
+    "fixedBottom": [
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn",
+        "text": "华为云App 便捷的云服务移动管控体验 立即下载",
+        "position": "fixed",
+        "height": 66,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      }
+    ],
+    "clickableSummary": {
+      "count": 58
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "tag": "a",
+        "x": 40,
+        "y": 36,
+        "width": 192,
+        "height": 14,
+        "area": 2686.25
+      },
+      {
+        "index": 1,
+        "path": "div.header-container > div.header-wrapper > div.header-bottom > div.header-bottom-wrapper.header-active-nav > a.header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 128,
+        "width": 108,
+        "height": 32,
+        "area": 3456
+      },
+      {
+        "index": 4,
+        "path": "div.por-section-head > div.floor-head-mb-only.svelte-1uwqn2g > div.por-section-subtitle > p > a.por-link",
+        "text": "查看全部智能体 >",
+        "tag": "a",
+        "x": 152,
+        "y": 746,
+        "width": 95,
+        "height": 14,
+        "area": 1325.40625
+      },
+      {
+        "index": 5,
+        "path": "div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "text": "了解详情",
+        "tag": "a",
+        "x": 45,
+        "y": 1078,
+        "width": 96,
+        "height": 32,
+        "area": 3072
+      },
+      {
+        "index": 6,
+        "path": "div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "text": "了解详情",
+        "tag": "a",
+        "x": 45,
+        "y": 1434,
+        "width": 96,
+        "height": 32,
+        "area": 3072
+      },
+      {
+        "index": 7,
+        "path": "div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "text": "了解详情",
+        "tag": "a",
+        "x": 45,
+        "y": 1474,
+        "width": 96,
+        "height": 32,
+        "area": 3072
+      },
+      {
+        "index": 8,
+        "path": "div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__buttons.svelte-j9skco > object",
+        "text": "了解详情",
+        "tag": "object",
+        "x": 142,
+        "y": 1531,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 9,
+        "path": "div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__buttons.svelte-j9skco > object > a.smart-card-content__button.por-btn.por-btn-primary",
+        "text": "了解详情",
+        "tag": "a",
+        "x": 142,
+        "y": 1531,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 10,
+        "path": "div.por-section-head > div.floor-head-mb-only.svelte-1uwqn2g > div.por-section-subtitle > p > a.por-link",
+        "text": "查看全部开放能力 >",
+        "tag": "a",
+        "x": 146,
+        "y": 1856,
+        "width": 107,
+        "height": 14,
+        "area": 1493.40625
+      },
+      {
+        "index": 11,
+        "path": "div.card-item__content.svelte-pv3cxb > div.card-item__copy-list.svelte-pv3cxb > div.copy-card.svelte-91z5xt > div.copy-card__content.svelte-91z5xt > button.copy-card__btn.svelte-91z5xt",
+        "text": "复制命令",
+        "tag": "button",
+        "x": 305,
+        "y": 2000,
+        "width": 24,
+        "height": 24,
+        "area": 576
+      },
+      {
+        "index": 12,
+        "path": "div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__footer.svelte-pv3cxb > a.por-btn.por-btn-middle.por-btn-lg-default",
+        "text": "探索更多Skills",
+        "tag": "a",
+        "x": 44,
+        "y": 2078,
+        "width": 138,
+        "height": 32,
+        "area": 4417.5
+      },
+      {
+        "index": 13,
+        "path": "div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__footer.svelte-pv3cxb > a.por-btn.por-btn-middle.por-btn-lg-default",
+        "text": "了解详情",
+        "tag": "a",
+        "x": 44,
+        "y": 2240,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 14,
+        "path": "div.por-container > div.por-section-head > div.por-section-subtitle.hide-pc > p > a.por-link",
+        "text": "查看全部模型 >",
+        "tag": "a",
+        "x": 158,
+        "y": 2410,
+        "width": 83,
+        "height": 14,
+        "area": 1157.40625
+      },
+      {
+        "index": 17,
+        "path": "div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > div.card-main > object.action-buttons.transWhite",
+        "text": "立即体验",
+        "tag": "object",
+        "x": 44,
+        "y": 2576,
+        "width": 186,
+        "height": 26,
+        "area": 4836
+      },
+      {
+        "index": 18,
+        "path": "a.card-item-link > div.item-content > div.card-main > object.action-buttons.transWhite > a.por-btn.por-btn-default.por-btn-md-small",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 44,
+        "y": 2576,
+        "width": 82,
+        "height": 26,
+        "area": 2132
+      },
+      {
+        "index": 21,
+        "path": "div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > div.card-main > object.action-buttons.transWhite",
+        "text": "立即体验",
+        "tag": "object",
+        "x": 44,
+        "y": 2760,
+        "width": 186,
+        "height": 26,
+        "area": 4836
+      },
+      {
+        "index": 22,
+        "path": "a.card-item-link > div.item-content > div.card-main > object.action-buttons.transWhite > a.por-btn.por-btn-default.por-btn-md-small",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 44,
+        "y": 2760,
+        "width": 82,
+        "height": 26,
+        "area": 2132
+      },
+      {
+        "index": 25,
+        "path": "div.card-item-container.transBlack.hasBg > a.card-item-link > div.item-content > div.card-main > object.action-buttons.transBlack",
+        "text": "立即体验",
+        "tag": "object",
+        "x": 44,
+        "y": 2926,
+        "width": 186,
+        "height": 26,
+        "area": 4836
+      },
+      {
+        "index": 26,
+        "path": "a.card-item-link > div.item-content > div.card-main > object.action-buttons.transBlack > a.por-btn.por-btn-default.por-btn-md-small",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 44,
+        "y": 2926,
+        "width": 82,
+        "height": 26,
+        "area": 2132
+      },
+      {
+        "index": 29,
+        "path": "div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > div.card-main > object.action-buttons.transWhite",
+        "text": "立即体验",
+        "tag": "object",
+        "x": 44,
+        "y": 3092,
+        "width": 186,
+        "height": 26,
+        "area": 4836
+      },
+      {
+        "index": 30,
+        "path": "a.card-item-link > div.item-content > div.card-main > object.action-buttons.transWhite > a.por-btn.por-btn-default.por-btn-md-small",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 44,
+        "y": 3092,
+        "width": 82,
+        "height": 26,
+        "area": 2132
+      },
+      {
+        "index": 31,
+        "path": "div.por-section.por-section-merge-spacing.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.ad-img.mb-show > a",
+        "text": "",
+        "tag": "a",
+        "x": 12,
+        "y": 3359,
+        "width": 367,
+        "height": 16,
+        "area": 5865.5
+      },
+      {
+        "index": 32,
+        "path": "div.por-section-head > div.floor-head-mb-only.svelte-1uwqn2g > div.por-section-subtitle > p > a.por-link",
+        "text": "了解行业AI梦工厂 >",
+        "tag": "a",
+        "x": 146,
+        "y": 3484,
+        "width": 106,
+        "height": 14,
+        "area": 1483.125
+      },
+      {
+        "index": 33,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-0.por-collapse-trigger.expended.svelte-pv3cxb",
+        "text": "智慧医疗专区",
+        "tag": "a",
+        "x": 44,
+        "y": 3532,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 34,
+        "path": "div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > div#collapse-content-0.por-collapse.show.svelte-pv3cxb > div.collapse-inner.svelte-pv3cxb > div.btn-group.svelte-pv3cxb > a.por-btn.por-btn-middle.por-btn-md-default",
+        "text": "进入专区",
+        "tag": "a",
+        "x": 44,
+        "y": 3611,
+        "width": 82,
+        "height": 24,
+        "area": 1968
+      },
+      {
+        "index": 35,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-1.por-collapse-trigger.svelte-pv3cxb",
+        "text": "具身智能专区",
+        "tag": "a",
+        "x": 44,
+        "y": 3824,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 36,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-2.por-collapse-trigger.svelte-pv3cxb",
+        "text": "科学计算专区",
+        "tag": "a",
+        "x": 44,
+        "y": 3873,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 37,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-3.por-collapse-trigger.svelte-pv3cxb",
+        "text": "智能制造专区",
+        "tag": "a",
+        "x": 44,
+        "y": 3922,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 40,
+        "path": "div.pep-common-ad-v2 > div.por-section > div.por-container > div.por-section-body > a.common-ad-btn.por-btn.por-btn-primary",
+        "text": "立即体验",
+        "tag": "a",
+        "x": 134,
+        "y": 5182,
+        "width": 122,
+        "height": 40,
+        "area": 4880
+      },
+      {
+        "index": 41,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "云服务器",
+        "tag": "a",
+        "x": 30,
+        "y": 5326,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 42,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "Flexus云服务",
+        "tag": "a",
+        "x": 106,
+        "y": 5326,
+        "width": 82,
+        "height": 16,
+        "area": 1304.25
+      },
+      {
+        "index": 43,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "大模型即服务平台 MaaS",
+        "tag": "a",
+        "x": 208,
+        "y": 5326,
+        "width": 152,
+        "height": 16,
+        "area": 2437.25
+      },
+      {
+        "index": 44,
+        "path": "div.footer-nav-content > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-download > a",
+        "text": "下载华为云App",
+        "tag": "a",
+        "x": 138,
+        "y": 5376,
+        "width": 113,
+        "height": 16,
+        "area": 1811.75
+      },
+      {
+        "index": 45,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.weixin-sh",
+        "text": "华为云微信 扫描二维码",
+        "tag": "a",
+        "x": 128,
+        "y": 5439,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 46,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.microapp-sh",
+        "text": "华为云微信小程序 华为云微信小程序",
+        "tag": "a",
+        "x": 178,
+        "y": 5439,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 47,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link",
+        "text": "华为云微博 扫描二维码",
+        "tag": "a",
+        "x": 228,
+        "y": 5439,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 49,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "法律声明",
+        "tag": "a",
+        "x": 127,
+        "y": 5575,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 50,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "隐私政策",
+        "tag": "a",
+        "x": 208,
+        "y": 5575,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 51,
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.footer-link",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 226,
+        "y": 5618,
+        "width": 104,
+        "height": 15,
+        "area": 1567.265625
+      },
+      {
+        "index": 52,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a",
+        "text": "",
+        "tag": "a",
+        "x": 44,
+        "y": 5686,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 53,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 64,
+        "y": 5685,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 54,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record2 > a",
+        "text": "",
+        "tag": "a",
+        "x": 146,
+        "y": 5686,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 55,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 166,
+        "y": 5685,
+        "width": 170,
+        "height": 14,
+        "area": 2375.40625
+      },
+      {
+        "index": 56,
+        "path": "body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > a.tm-adv-space-content__main",
+        "text": "华为云App 便捷的云服务移动管控体验",
+        "tag": "a",
+        "x": 54,
+        "y": 790,
+        "width": 184,
+        "height": 42,
+        "area": 7728
+      },
+      {
+        "index": 57,
+        "path": "div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner",
+        "text": "立即下载",
+        "tag": "a",
+        "x": 248,
+        "y": 795,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      }
+    ],
+    "closePairs": [],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.header-wrapper > div.header-bottom > div.header-bottom-wrapper.header-active-nav > a.header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 108,
+        "height": 32,
+        "top": 128,
+        "belowFold": false
+      },
+      {
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/pic-codearts.png",
+        "ext": "png",
+        "loading": "",
+        "width": 300,
+        "height": 168,
+        "top": 836,
+        "belowFold": false
+      },
+      {
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile-ace-604.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 300,
+        "height": 168,
+        "top": 1192,
+        "belowFold": true
+      },
+      {
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/pic-Wordagent.png",
+        "ext": "png",
+        "loading": "",
+        "width": 300,
+        "height": 168,
+        "top": 1250,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g > div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > img.smart-card-content__img-bg.mb-only.svelte-j9skco",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/%E5%A4%A7%E5%B1%8F%E6%89%8B%E6%9C%BA-AgentArts.png",
+        "ext": "png",
+        "loading": "",
+        "width": 342,
+        "height": 375,
+        "top": 1375,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__icon.mb-only.smart-card-content__icon--shadow > img.smart-card-content__icon-img.svelte-j9skco",
+        "alt": "card icon",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/icon.png",
+        "ext": "png",
+        "loading": "",
+        "width": 40,
+        "height": 40,
+        "top": 1399,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-item__copy-list.svelte-pv3cxb > div.copy-card.svelte-91z5xt > div.copy-card__content.svelte-91z5xt > button.copy-card__btn.svelte-91z5xt > img.copy-card__icon.svelte-91z5xt",
+        "alt": "复制",
+        "src": "data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='16.000000'%20height='16.000000'%20f",
+        "ext": "unknown",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2004,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/moxing/35F5CEBB-E286-4C3D-A02A-14F83C748151.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2466,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile2-62.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2650,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transBlack.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile3-62.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2834,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile1-62.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 3000,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-container > div.por-section-body > div.ad-img.mb-show > a > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/%E5%BA%95%E9%83%A8%E6%9C%80%E7%BB%88%E4%B8%8D%E6%8D%A2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 367,
+        "height": 190,
+        "top": 3182,
+        "belowFold": true
+      },
+      {
+        "path": "div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > div#collapse-content-0.por-collapse.show.svelte-pv3cxb > div.collapse-inner.svelte-pv3cxb > img.radius_border_XL.hide-pc.svelte-pv3cxb",
+        "alt": "智慧医疗专区",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile603.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 160,
+        "top": 3651,
+        "belowFold": true
+      },
+      {
+        "path": "div.pep-customer-case__mobile-layout.mb-only.svelte-161racf > div.pep-customer-case__mobile-scroll.svelte-161racf.pep-customer-case__mobile-scroll--single > div.mobile-card.svelte-1brovx8.mobile-card--non-white-bg > div.mobile-card__content.svelte-1brovx8 > img.mobile-card__logo.svelte-1brovx8",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/%E6%B8%A9%E6%B0%8F%E9%A3%9F%E5%93%81logo-Mobile.png",
+        "ext": "png",
+        "loading": "",
+        "width": 70,
+        "height": 28,
+        "top": 4307,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile-ace-604.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 300,
+        "height": 168,
+        "top": 1192,
+        "belowFold": true
+      },
+      {
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/pic-Wordagent.png",
+        "ext": "png",
+        "loading": "",
+        "width": 300,
+        "height": 168,
+        "top": 1250,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g > div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > img.smart-card-content__img-bg.mb-only.svelte-j9skco",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/%E5%A4%A7%E5%B1%8F%E6%89%8B%E6%9C%BA-AgentArts.png",
+        "ext": "png",
+        "loading": "",
+        "width": 342,
+        "height": 375,
+        "top": 1375,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__icon.mb-only.smart-card-content__icon--shadow > img.smart-card-content__icon-img.svelte-j9skco",
+        "alt": "card icon",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/icon.png",
+        "ext": "png",
+        "loading": "",
+        "width": 40,
+        "height": 40,
+        "top": 1399,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-item__copy-list.svelte-pv3cxb > div.copy-card.svelte-91z5xt > div.copy-card__content.svelte-91z5xt > button.copy-card__btn.svelte-91z5xt > img.copy-card__icon.svelte-91z5xt",
+        "alt": "复制",
+        "src": "data:image/svg+xml,%3csvg%20viewBox='0%200%2016%2016'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%20width='16.000000'%20height='16.000000'%20f",
+        "ext": "unknown",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2004,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/moxing/35F5CEBB-E286-4C3D-A02A-14F83C748151.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2466,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile2-62.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2650,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transBlack.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile3-62.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2834,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.transWhite.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile1-62.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 3000,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-container > div.por-section-body > div.ad-img.mb-show > a > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/%E5%BA%95%E9%83%A8%E6%9C%80%E7%BB%88%E4%B8%8D%E6%8D%A2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 367,
+        "height": 190,
+        "top": 3182,
+        "belowFold": true
+      },
+      {
+        "path": "div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > div#collapse-content-0.por-collapse.show.svelte-pv3cxb > div.collapse-inner.svelte-pv3cxb > img.radius_border_XL.hide-pc.svelte-pv3cxb",
+        "alt": "智慧医疗专区",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/home/mobile603.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 160,
+        "top": 3651,
+        "belowFold": true
+      },
+      {
+        "path": "div.pep-customer-case__mobile-layout.mb-only.svelte-161racf > div.pep-customer-case__mobile-scroll.svelte-161racf.pep-customer-case__mobile-scroll--single > div.mobile-card.svelte-1brovx8.mobile-card--non-white-bg > div.mobile-card__content.svelte-1brovx8 > img.mobile-card__logo.svelte-1brovx8",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/%E6%B8%A9%E6%B0%8F%E9%A3%9F%E5%93%81logo-Mobile.png",
+        "ext": "png",
+        "loading": "",
+        "width": 70,
+        "height": 28,
+        "top": 4307,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i { background-image: none; transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i { transform: scale(1.15); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container { opacity: 1; transform: scale(1); visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover",
+        "media": "",
+        "css": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i.float-icon-bigger",
+        "media": "",
+        "css": ".phone-icon:hover > i.float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar:hover",
+        "media": "",
+        "css": ".float-sidebar:hover { z-index: 993; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".clicked-chatIcon .float-sidebar:hover",
+        "media": "",
+        "css": ".clicked-chatIcon .float-sidebar:hover { z-index: 990; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { right: 44px; visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active i, .star-score-btns p:hover i",
+        "media": "",
+        "css": ".star-score-btns p.active i, .star-score-btns p:hover i { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active, .star-score-btns p:hover",
+        "media": "",
+        "css": ".star-score-btns p.active, .star-score-btns p:hover { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; font-size: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.por-btn-dark:hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.por-btn-dark:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback i",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback .float-icon-bigger",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback .float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: translateY(-50%) scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover label",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover label { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(201, 201, 201); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover { background-color: transparent; border-color: grey; color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-modal-close:hover .u-icon",
+        "media": "",
+        "css": "#interceptor-modal .por-modal-close:hover .u-icon { color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-primary:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-dark:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-dark:hover { border-color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-primary.hover, .cui-btn-primary:hover",
+        "media": "",
+        "css": ".cui-btn-primary.hover, .cui-btn-primary:hover { box-shadow: rgba(246, 111, 106, 0.5) 0px 8px 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover",
+        "media": "",
+        "css": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover",
+        "media": "",
+        "css": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover { border: 1px solid rgb(199, 0, 11); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover",
+        "media": "",
+        "css": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover",
+        "media": "",
+        "css": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover { box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown ::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".header-dropdown ::-webkit-scrollbar-thumb:hover { background-color: rgb(173, 176, 184); }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right-large",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right-large { margin-left: 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang-item.active > a, .header-lang-item:hover > a",
+        "media": "",
+        "css": ".header-lang-item.active > a, .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp:hover .header-icon-hwapp",
+        "media": "",
+        "css": ".header-hwapp:hover .header-icon-hwapp { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48dGl0bGU+YXBwPC90aXRsZT48ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0xMS41IDBhLjUuNSAwIDAgMSAuNS41djEzYS41LjUgMCAwIDEtLjUuNWgtOWEuNS41IDAgMCAxLS41LS41Vi41YS41LjUgMCAwIDEgLjUtLjV6TTExIDFIM3YxMmg4eiIvPjxwYXRoIGQ9Ik0xMS4yMzEgMTEuMDU4djFIMi43MDZ2LTF6TTguMDQgMi4wNTh2MUg2LjAzdi0xeiIvPjwvZz"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp .header-hwapp-link:hover",
+        "media": "",
+        "css": ".header-hwapp .header-hwapp-link:hover { color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button input:hover",
+        "media": "",
+        "css": ".header-search-button input:hover { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button i:hover",
+        "media": "",
+        "css": ".header-search-button i:hover { background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbi/mkJzntKLlpIfku708L3RpdGxlPgogICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0iZmlsdGVyLTEiPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlR3JhcGhpYyIgdHlwZT0"
+      },
+      {
+        "type": "hover",
+        "selector": ".show-search-box .header-search .header-search-button:hover input",
+        "media": "",
+        "css": ".show-search-box .header-search .header-search-button:hover input { border: 1px solid rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search.active .close-icon:hover",
+        "media": "",
+        "css": ".header-search.active .close-icon:hover { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTQgMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNC4wMDAwMDAiIGhlaWdodD0iMTQuMDAwMDAwIiBmaWxsPSJub25lIiBjdXN0b21GcmFtZT0iIzAwMDAwMCI+Cgk8cmVjdCBpZD0i55S75p2/IDE2NDA4IiB3aWR0aD0iMTQuMDAwMDAwIiBoZWlnaHQ9IjE0LjAwMDAwMCIgeD0iMC4wMDAwMDAiIHk9IjAuMDAwMDAwIiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjAiIC8+C"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-keyWordsAll a:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-keyWordsAll a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .text::after",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .text::after { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNiAxMiI+PHRpdGxlPmhkcGkv566t5aS0aG92ZXLlpIfku708L3RpdGxlPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE2djE2SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMikiPjxtYXNrIGlkPSJiIi"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block .search-tag .tag-console:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block .search-tag .tag-console:hover { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover { border-color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover::before",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover::before { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNi4wMDAwMDAiIGhlaWdodD0iMTYuMDAwMDAwIiBmaWxsPSJub25lIj4KCTxkZWZzPgoJCTxmaWx0ZXIgaWQ9InBpeHNvX2N1c3RvbV9tYXNrX3R5cGVfYWxwaGEiPgoJCQk8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAxIDAgMCAwIDAgMSAwIDAgMCAwIDEgMCAwIDAgMSAwICIgLz4KCQ"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover { font-weight: 400; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li > a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-tools .header-user:hover .header-nav-item-icon { background-size: 100% 100%; transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a",
+        "media": "",
+        "css": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-tools .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover { animation: 2s linear 0s 2 alternate none running textBg, 1s linear 0s 1 normal none running textOpacity; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before { animation: 2s linear 0s 2 normal forwards running flowState; display: inline-block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-pagenav a:hover",
+        "media": "",
+        "css": ".header-pagenav a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown-close:hover",
+        "media": "",
+        "css": ".header-dropdown-close:hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title { text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; content: \"\"; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after { content: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-common-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover input",
+        "media": "",
+        "css": ".link-searcher:hover input { border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-submit i",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-submit i { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAEFCu8CAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHKADAAQAAAABAAAAHAAAAABkvfSiAAAEPklEQVRIDbWWS0xUVxjHZ+6MhVEQQZHYxISK2KolTdSFJsY0MaZNTGlCy4KX0AHZaNMSF+2SRIMs3CgQE1LIEF6NbdqmbsqiC5rYVlE2oAk+EmOMQKNGRYQZHuPvO73neu7lghDjSe6c7/H/vv95fmcCgaVaaWnpFssEBIPBhy7D/Pz8UwUoKSnJ0UJShKqqqlwHmkgk3lde1w/pj/M9F2NZWVk5OVSoAmE47UKjABgMizEUCl"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-clear",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-clear { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAFNQDtUAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIqADAAQAAAABAAAAIgAAAAACeqFUAAAE3ElEQVRYCe2XS2zURRzH9+1ud6EPE8WmDaKGcMEEG18HNAKRxAPVy5bQpnX7phxt9WCIcK0HTRD7bk1pfDSRyEGqCUkhMWkAD5zAVAlBEq0U2i7tdpNud9fPb7vz7/+17W4CF3GS2d/M7/Gd78xvZv6zDkeu0tfXtyQ2ZNrgY1H09vYu23oawh5ZBz637MAtPLMc41lpmJXLhGDur5uB/WS9t96yHW7dbGrhvWpSOQYGBk6ILjN2a"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon { opacity: 0; visibility: hidden; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon-hover",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon-hover { opacity: 1; visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher-more:hover",
+        "media": "",
+        "css": ".link-searcher-more:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content-link a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content-link a[href]:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before",
+        "media": "",
+        "css": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before { transform: scaleX(1); width: 100%; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover",
+        "media": "",
+        "css": ".dropdown-product-item:hover { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover .dropdown-product-item-title",
+        "media": "",
+        "css": ".dropdown-product-item:hover .dropdown-product-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-column-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column .dropdown-product-link:hover",
+        "media": "",
+        "css": ".dropdown-product-column .dropdown-product-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-module.noIcon:hover",
+        "media": "",
+        "css": ".dropdown-product-module.noIcon:hover { z-index: 101; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item-more .link:hover",
+        "media": "",
+        "css": ".dropdown-product-item-more .link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-group-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab.active:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab.active:hover { border-color: rgb(89, 89, 89); font-weight: 400; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-product-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputted ~ .header-search-submit:hover",
+        "media": "",
+        "css": ".inputted ~ .header-search-submit:hover { color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search .header-search-close:hover",
+        "media": "",
+        "css": ".header-search .header-search-close:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name i",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name i { border-top-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-link:hover",
+        "media": "",
+        "css": ".footer-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon",
+        "media": "",
+        "css": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover .contact-icon-hover",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover .contact-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover",
+        "media": "",
+        "css": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover { margin-top: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover i",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover i { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".chat-assistant:hover .chat-icon",
+        "media": "",
+        "css": ".chat-assistant:hover .chat-icon { background-image: url(\"\"); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 18,
+    "testedCount": 12,
+    "issueCount": 0,
+    "candidates": [
+      {
+        "text": "了解详情",
+        "href": "https://codearts.huaweicloud.com/",
+        "tag": "a",
+        "path": "div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "className": "pep-horizontal-carousel__mobile-card-button por-btn por-btn-secondary svelte-161racf",
+        "top": 1078,
+        "left": 45,
+        "width": 96,
+        "height": 32,
+        "importance": 108,
+        "ordinal": 0
+      },
+      {
+        "text": "了解详情",
+        "href": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+        "tag": "a",
+        "path": "div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "className": "pep-horizontal-carousel__mobile-card-button por-btn por-btn-secondary svelte-161racf",
+        "top": 1434,
+        "left": 45,
+        "width": 96,
+        "height": 32,
+        "importance": 108,
+        "ordinal": 1
+      },
+      {
+        "text": "了解详情",
+        "href": "https://www.huaweicloud.com/agentorchard/workagent.html",
+        "tag": "a",
+        "path": "div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "className": "pep-horizontal-carousel__mobile-card-button por-btn por-btn-secondary svelte-161racf",
+        "top": 1474,
+        "left": 45,
+        "width": 96,
+        "height": 32,
+        "importance": 108,
+        "ordinal": 2
+      },
+      {
+        "text": "了解详情",
+        "href": "https://www.huaweicloud.com/product/agentarts.html",
+        "tag": "a",
+        "path": "div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__buttons.svelte-j9skco > object > a.smart-card-content__button.por-btn.por-btn-primary",
+        "className": "smart-card-content__button por-btn por-btn-primary por-btn-middle por-btn-md-default svelte-j9skco",
+        "top": 1531,
+        "left": 142,
+        "width": 106,
+        "height": 32,
+        "importance": 108,
+        "ordinal": 3
+      },
+      {
+        "text": "了解详情",
+        "href": "https://developer.huaweicloud.com/aishell.html",
+        "tag": "a",
+        "path": "div.por-section-body > div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__footer.svelte-pv3cxb > a.por-btn.por-btn-middle.por-btn-lg-default",
+        "className": "por-btn por-btn-middle por-btn-lg-default por-btn-md-default por-btn-primary svelte-pv3cxb",
+        "top": 2240,
+        "left": 44,
+        "width": 106,
+        "height": 32,
+        "importance": 108,
+        "ordinal": 4
+      },
+      {
+        "text": "华为云码道 CodeArts 代码智能体 理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card svelte-161racf",
+        "top": 779,
+        "left": 45,
+        "width": 300,
+        "height": 355,
+        "importance": 100,
+        "ordinal": 5
+      },
+      {
+        "text": "理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded",
+        "className": "pep-horizontal-carousel__mobile-card-content svelte-161racf expanded",
+        "top": 836,
+        "left": 45,
+        "width": 300,
+        "height": 298,
+        "importance": 100,
+        "ordinal": 6
+      },
+      {
+        "text": "理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-text svelte-161racf",
+        "top": 1022,
+        "left": 45,
+        "width": 300,
+        "height": 88,
+        "importance": 100,
+        "ordinal": 7
+      },
+      {
+        "text": "了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-buttons svelte-161racf",
+        "top": 1078,
+        "left": 45,
+        "width": 300,
+        "height": 32,
+        "importance": 100,
+        "ordinal": 8
+      },
+      {
+        "text": "华为云 OfficeAce 办公智能体 专业办公级 PPT 一键生成，专家团研讨避免幻觉，安全高效待命 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card svelte-161racf",
+        "top": 1134,
+        "left": 45,
+        "width": 300,
+        "height": 58,
+        "importance": 100,
+        "ordinal": 9
+      },
+      {
+        "text": "专业办公级 PPT 一键生成，专家团研讨避免幻觉，安全高效待命 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-inner svelte-161racf",
+        "top": 1192,
+        "left": 45,
+        "width": 300,
+        "height": 298,
+        "importance": 100,
+        "ordinal": 10
+      },
+      {
+        "text": "WorkAgent 文档智能体 你的专属办公搭档，开发者的文档开放引擎 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card svelte-161racf",
+        "top": 1192,
+        "left": 45,
+        "width": 300,
+        "height": 58,
+        "importance": 100,
+        "ordinal": 11
+      },
+      {
+        "text": "你的专属办公搭档，开发者的文档开放引擎 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-inner svelte-161racf",
+        "top": 1250,
+        "left": 45,
+        "width": 300,
+        "height": 280,
+        "importance": 100,
+        "ordinal": 12
+      },
+      {
+        "text": "用智果 AgentArts 打造更实用的 AI 智能体 智果 AgentArts 智能体平台 智能流畅的开发体验，高性能安全稳定运行时，端到端可观测可评估 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-2 > div.svelte-content > div.pep-smart-card.svelte-161racf",
+        "className": "pep-smart-card svelte-161racf",
+        "top": 1299,
+        "left": 0,
+        "width": 390,
+        "height": 495,
+        "importance": 100,
+        "ordinal": 13
+      },
+      {
+        "text": "智果 AgentArts 智能体平台 智能流畅的开发体验，高性能安全稳定运行时，端到端可观测可评估 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.svelte-content > div.pep-smart-card.svelte-161racf > div.por-section.svelte-1uwqn2g.por-section-merge-spacing-top > div.por-container.svelte-1uwqn2g > div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link",
+        "className": "smart-card-content smart-card-content--bg-white no-link  svelte-j9skco",
+        "top": 1375,
+        "left": 24,
+        "width": 342,
+        "height": 375,
+        "importance": 100,
+        "ordinal": 14
+      },
+      {
+        "text": "专业办公级 PPT 一键生成，专家团研讨避免幻觉，安全高效待命 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-text svelte-161racf",
+        "top": 1378,
+        "left": 45,
+        "width": 300,
+        "height": 88,
+        "importance": 100,
+        "ordinal": 15
+      },
+      {
+        "text": "了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-buttons svelte-161racf",
+        "top": 1434,
+        "left": 45,
+        "width": 300,
+        "height": 32,
+        "importance": 100,
+        "ordinal": 16
+      },
+      {
+        "text": "你的专属办公搭档，开发者的文档开放引擎 了解详情",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf",
+        "className": "pep-horizontal-carousel__mobile-card-text svelte-161racf",
+        "top": 1436,
+        "left": 45,
+        "width": 300,
+        "height": 70,
+        "importance": 100,
+        "ordinal": 17
+      }
+    ],
+    "results": [
+      {
+        "text": "了解详情",
+        "tag": "a",
+        "href": "https://codearts.huaweicloud.com/",
+        "path": "div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "rect": {
+          "left": 45,
+          "top": 1078,
+          "width": 96,
+          "height": 32
+        },
+        "status": "not-tested",
+        "possibleCause": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {}
+      },
+      {
+        "text": "了解详情",
+        "tag": "a",
+        "href": "https://www.huaweicloud.com/product/agentarts/officeace.html",
+        "path": "div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "rect": {
+          "left": 45,
+          "top": 1434,
+          "width": 96,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "WorkAgent 文档智能体 你的专属办公搭档，开发者的文档开放引擎 了解详情",
+          "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card svelte-161racf"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 770,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 67,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "了解详情",
+        "tag": "a",
+        "href": "https://www.huaweicloud.com/agentorchard/workagent.html",
+        "path": "div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf > a.pep-horizontal-carousel__mobile-card-button.por-btn.por-btn-secondary",
+        "rect": {
+          "left": 45,
+          "top": 1474,
+          "width": 96,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "WorkAgent 文档智能体",
+          "path": "div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-header.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-header svelte-161racf"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 828,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 67,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "了解详情",
+        "tag": "a",
+        "href": "https://www.huaweicloud.com/product/agentarts.html",
+        "path": "div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__buttons.svelte-j9skco > object > a.smart-card-content__button.por-btn.por-btn-primary",
+        "rect": {
+          "left": 142,
+          "top": 1531,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "了解详情",
+          "path": "div.por-section-body > div.smart-card-content.smart-card-content--bg-white.no-link > div.smart-card-content__inner.svelte-j9skco > div.smart-card-content__buttons.svelte-j9skco > object > a.smart-card-content__button.por-btn.por-btn-primary",
+          "className": "smart-card-content__button por-btn por-btn-primary por-btn-middle por-btn-md-default svelte-j9skco"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 1125,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 69,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "了解详情",
+        "tag": "a",
+        "href": "https://developer.huaweicloud.com/aishell.html",
+        "path": "div.por-section-body > div.pep-copy-command-line__grid.svelte-161racf > div.card-item.card-item--bg-gray.card-item--text-black > div.card-item__content.svelte-pv3cxb > div.card-item__footer.svelte-pv3cxb > a.por-btn.por-btn-middle.por-btn-lg-default",
+        "rect": {
+          "left": 44,
+          "top": 2240,
+          "width": 106,
+          "height": 32
+        },
+        "status": "not-tested",
+        "possibleCause": "Page.evaluate: Execution context was destroyed, most likely because of a navigation",
+        "hit": null,
+        "hitInsideTarget": null,
+        "beforeUrl": null,
+        "afterUrl": null,
+        "popupUrls": [
+          "https://www.huaweicloud.com/product/agentarts.html"
+        ],
+        "consoleErrors": [],
+        "after": {}
+      },
+      {
+        "text": "华为云码道 CodeArts 代码智能体 理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+        "rect": {
+          "left": 45,
+          "top": 779,
+          "width": 300,
+          "height": 355
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-image svelte-161racf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 534,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 63,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded",
+        "rect": {
+          "left": 45,
+          "top": 836,
+          "width": 300,
+          "height": 298
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > img.pep-horizontal-carousel__mobile-card-image.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-image svelte-161racf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 563,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 62,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf",
+        "rect": {
+          "left": 45,
+          "top": 1022,
+          "width": 300,
+          "height": 88
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "理解项目需求，懂得编码之道，善用百器的实干派 AI 研发专家 了解详情",
+          "path": "div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-text svelte-161racf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 644,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 63,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf",
+        "rect": {
+          "left": 45,
+          "top": 1078,
+          "width": 300,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "了解详情",
+          "path": "div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf.expanded > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf > div.pep-horizontal-carousel__mobile-card-text.svelte-161racf > div.pep-horizontal-carousel__mobile-card-buttons.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-buttons svelte-161racf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 672,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 63,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "华为云 OfficeAce 办公智能体 专业办公级 PPT 一键生成，专家团研讨避免幻觉，安全高效待命 了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+        "rect": {
+          "left": 45,
+          "top": 1134,
+          "width": 300,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "华为云 OfficeAce 办公智能体",
+          "path": "div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-header.svelte-161racf > span.pep-horizontal-carousel__mobile-card-title.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-title svelte-161racf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 741,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 66,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "专业办公级 PPT 一键生成，专家团研讨避免幻觉，安全高效待命 了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-content.svelte-161racf > div.pep-horizontal-carousel__mobile-card-inner.svelte-161racf",
+        "rect": {
+          "left": 45,
+          "top": 1192,
+          "width": 300,
+          "height": 298
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "WorkAgent 文档智能体 你的专属办公搭档，开发者的文档开放引擎 了解详情",
+          "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card svelte-161racf"
+        },
+        "hitInsideTarget": false,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 770,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 67,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "WorkAgent 文档智能体 你的专属办公搭档，开发者的文档开放引擎 了解详情",
+        "tag": "div",
+        "href": "",
+        "path": "div.pep-horizontal-carousel.svelte-161racf > div.por-section.svelte-1uwqn2g > div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf",
+        "rect": {
+          "left": 45,
+          "top": 1192,
+          "width": 300,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "WorkAgent 文档智能体",
+          "path": "div.por-container.svelte-1uwqn2g > div.por-section-body > div.pep-horizontal-carousel__mobile-list.svelte-161racf > div.pep-horizontal-carousel__mobile-card.svelte-161racf > div.pep-horizontal-carousel__mobile-card-header.svelte-161racf > span.pep-horizontal-carousel__mobile-card-title.svelte-161racf",
+          "className": "pep-horizontal-carousel__mobile-card-title svelte-161racf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/index.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "scrollY": 799,
+          "bodyLength": 1749,
+          "overlayCount": 0,
+          "mutations": 66,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "tapActionIssues": [],
+  "after_scroll_ctas": [
+    {
+      "text": "openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛 立即体验",
+      "position": "relative",
+      "x": 24,
+      "y": 1096,
+      "width": 342,
+      "height": 176
+    },
+    {
+      "text": "立即体验",
+      "position": "static",
+      "x": 44,
+      "y": 1226,
+      "width": 82,
+      "height": 26
+    },
+    {
+      "text": "GLM-5.2 GLM-5.2是面向长任务时代的旗舰模型。长程任务执行更稳定、工程规范遵循更可靠，开发场景成功率进一步提升 立即体验",
+      "position": "relative",
+      "x": 24,
+      "y": 1280,
+      "width": 342,
+      "height": 176
+    },
+    {
+      "text": "立即体验",
+      "position": "static",
+      "x": 44,
+      "y": 1410,
+      "width": 82,
+      "height": 26
+    },
+    {
+      "text": "Kimi-K2.6 在通用 Agent、代码能力上全面提升，并在多个基准测试中取得行业领先成绩 立即体验",
+      "position": "relative",
+      "x": 24,
+      "y": 1464,
+      "width": 342,
+      "height": 158
+    },
+    {
+      "text": "立即体验",
+      "position": "static",
+      "x": 44,
+      "y": 1576,
+      "width": 82,
+      "height": 26
+    },
+    {
+      "text": "DeepSeek-V4-Pro 混合专家架构，拥有万亿级总参数与1M（百万 Tokens）超长上下文窗口 立即体验",
+      "position": "relative",
+      "x": 24,
+      "y": 1630,
+      "width": 342,
+      "height": 158
+    },
+    {
+      "text": "立即体验",
+      "position": "static",
+      "x": 44,
+      "y": 1742,
+      "width": 82,
+      "height": 26
+    },
+    {
+      "text": "立即体验",
+      "position": "static",
+      "x": 134,
+      "y": 3832,
+      "width": 122,
+      "height": 40
+    },
+    {
+      "text": "售前咨询： 950808转1",
+      "position": "static",
+      "x": 20,
+      "y": 4147,
+      "width": 351,
+      "height": 48
+    },
+    {
+      "text": "立即下载",
+      "position": "static",
+      "x": 248,
+      "y": 795,
+      "width": 106,
+      "height": 32
+    }
+  ],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 0,
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 2,
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂 清空最近搜索 “”的所有结果 账号中心 费用与成本 待支付订单 待续费",
+        "className": "header-bottom-wrapper header-active-nav",
+        "width": 358,
+        "height": 47,
+        "x": 16,
+        "y": 120
+      },
+      {
+        "index": 4,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 25,
+        "x": 270,
+        "y": 131
+      },
+      {
+        "index": 5,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 346,
+        "y": 120
+      },
+      {
+        "index": 7,
+        "text": "查看全部智能体 >",
+        "className": "por-link",
+        "width": 95,
+        "height": 14,
+        "x": 152,
+        "y": 746
+      },
+      {
+        "index": 12,
+        "text": "查看全部开放能力 >",
+        "className": "por-link",
+        "width": 107,
+        "height": 14,
+        "x": 146,
+        "y": 1856
+      },
+      {
+        "index": 14,
+        "text": "探索更多Skills",
+        "className": "por-btn por-btn-middle por-btn-lg-default por-btn-md-default por-btn-primary svelte-pv3cxb",
+        "width": 138,
+        "height": 32,
+        "x": 44,
+        "y": 2078
+      },
+      {
+        "index": 16,
+        "text": "查看全部模型 >",
+        "className": "por-link",
+        "width": 83,
+        "height": 14,
+        "x": 158,
+        "y": 2410
+      },
+      {
+        "index": 37,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5358
+      },
+      {
+        "index": 38,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5358
+      },
+      {
+        "index": 39,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5358
+      },
+      {
+        "index": 40,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5358
+      },
+      {
+        "index": 41,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 5374
+      },
+      {
+        "index": 42,
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 5374
+      },
+      {
+        "index": 44,
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 5410
+      },
+      {
+        "index": 45,
+        "text": "",
+        "className": "footer-nav-about",
+        "width": 150,
+        "height": 66,
+        "x": 120,
+        "y": 5431
+      },
+      {
+        "index": 46,
+        "text": "华为云微信 扫描二维码",
+        "className": "footer-nav-submenus-link weixin-sh",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 5439
+      },
+      {
+        "index": 47,
+        "text": "华为云微信小程序 华为云微信小程序",
+        "className": "footer-nav-submenus-link microapp-sh",
+        "width": 34,
+        "height": 34,
+        "x": 178,
+        "y": 5439
+      },
+      {
+        "index": 48,
+        "text": "华为云微博 扫描二维码",
+        "className": "footer-nav-submenus-link ",
+        "width": 34,
+        "height": 34,
+        "x": 228,
+        "y": 5439
+      },
+      {
+        "index": 49,
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 5497
+      }
+    ],
+    "clicked_candidate": {
+      "index": 5,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 346,
+      "y": 120
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息 智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂 清空最近搜索 “”的所有结果 账号中心 费用与成本 待支付订单 待续费产品 未读消息 工单管理 管理控制台 注册 登录 登录 注册 购物车 admin",
+        "className": "header-bottom-wrapper header-active-nav",
+        "position": "relative",
+        "zIndex": "1",
+        "width": 358,
+        "height": 47,
+        "x": 16,
+        "y": 120
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 168
+      },
+      {
+        "text": "智能体",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 214
+      },
+      {
+        "text": "智果 AgentArts",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 260
+      },
+      {
+        "text": "百模千态",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 306
+      },
+      {
+        "text": "Token Plan",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 352
+      },
+      {
+        "text": "行业AI梦工厂",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 398
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5358
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5358
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5358
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5358
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 5374
+      },
+      {
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 5374
+      },
+      {
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 5410
+      },
+      {
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 5497
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 16,
+        "y": 87
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 358,
+        "y": 87
+      },
+      {
+        "text": "复制命令",
+        "width": 24,
+        "height": 24,
+        "x": 305,
+        "y": 2000
+      },
+      {
+        "text": "探索更多Skills",
+        "width": 138,
+        "height": 32,
+        "x": 44,
+        "y": 2078
+      },
+      {
+        "text": "了解详情",
+        "width": 106,
+        "height": 32,
+        "x": 44,
+        "y": 2240
+      },
+      {
+        "text": "智慧医疗专区",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 3532
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 3535
+      },
+      {
+        "text": "进入专区",
+        "width": 82,
+        "height": 24,
+        "x": 44,
+        "y": 3611
+      },
+      {
+        "text": "具身智能专区",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 3824
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 3827
+      },
+      {
+        "text": "科学计算专区",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 3873
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 3876
+      },
+      {
+        "text": "智能制造专区",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 3922
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 3925
+      },
+      {
+        "text": "",
+        "width": 342,
+        "height": 192,
+        "x": 24,
+        "y": 4099
+      },
+      {
+        "text": "Flexus云服务",
+        "width": 82,
+        "height": 16,
+        "x": 106,
+        "y": 5326
+      },
+      {
+        "text": "华为云微信 扫描二维码",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 5439
+      },
+      {
+        "text": "",
+        "width": 28,
+        "height": 28,
+        "x": 360,
+        "y": 797
+      }
+    ]
+  }
+}

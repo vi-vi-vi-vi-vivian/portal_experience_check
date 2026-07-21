@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/agentorchard/index.html",
+  "generated_at": "2026-07-20T01:46:01.124618+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 3,
+    "p0": 0,
+    "p1": 0,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/agentorchard/index.html",
+      "title": "智果园，为 Agent 而生-华为云",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "顶部国际站提示栏占用首屏空间过高",
+          "area": "页面顶部提示栏",
+          "page_url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM textRisks 显示 div#header 在 390x844 移动视口下高度为 168px，其中 header-prompt 高度 120px，占首屏约 20%，压缩了智果园主视觉和核心 CTA 的曝光空间。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "移动端顶部提示栏高度 168px，提示文案与链接占据多行。",
+          "suggestion_after": "移动端将国际站提示压缩为单行/可折叠提示，默认高度控制在 48-60px，关闭后释放首屏空间。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "多个关键链接和按钮触控高度不足",
+          "area": "查看全部/了解详情/复制命令等移动端 CTA",
+          "page_url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "locate": [
+            "查看全部智能体 >",
+            "了解详情",
+            "查看全部开放能力 >",
+            "复制命令"
+          ],
+          "evidence": "DOM smallTargets 记录多个可点击元素高度低于移动端推荐触控面积：查看全部智能体高度 14px、了解详情高度 32px、查看全部开放能力高度 14px、复制命令按钮 24x24px。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "部分文本链接和按钮仅 14-32px 高，复制命令按钮为 24x24px。",
+          "suggestion_after": "移动端将关键 CTA 点击热区扩展到至少 40px，推荐 44px；文本链接可通过 padding 扩大可点区域，不必放大视觉字号。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_scroll.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "底部 App 下载固定栏未适配安全区",
+          "area": "页面底部固定下载栏",
+          "page_url": "https://www.huaweicloud.com/agentorchard/index.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM fixedBottom 显示 div.tm-adv-space.light-btn position=fixed，高度 66px，bottom=0px，paddingBottom=0px，hasSafeAreaInset=false，全面屏手机底部系统手势区可能遮挡或贴边。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "底部固定栏 padding-bottom: 0px，未使用 safe-area-inset-bottom。",
+          "suggestion_after": "为移动端固定底栏增加 padding-bottom: env(safe-area-inset-bottom)，并确认内容区域底部预留同等空间，避免遮挡末屏内容。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "压缩移动端顶部国际站提示栏，减少首屏挤占。",
+        "统一扩大移动端 CTA 和文本链接热区到 40-44px。",
+        "为底部 App 下载固定栏补充安全区适配。"
+      ],
+      "analysis_content": "模型分析链路因 Gemini 高负载/返回 JSON 解析失败触发 agent fallback。本报告基于 _capture.json 中的 DOM、点击回放和截图证据生成：页面无横向溢出，菜单可打开，12 个点击候选回放未发现无反馈问题；主要移动端体验风险集中在顶部提示栏占高、小触控目标和底部固定栏安全区。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "顶部国际站提示栏占用首屏空间过高",
+      "area": "页面顶部提示栏",
+      "page_url": "https://www.huaweicloud.com/agentorchard/index.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM textRisks 显示 div#header 在 390x844 移动视口下高度为 168px，其中 header-prompt 高度 120px，占首屏约 20%，压缩了智果园主视觉和核心 CTA 的曝光空间。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "移动端顶部提示栏高度 168px，提示文案与链接占据多行。",
+      "suggestion_after": "移动端将国际站提示压缩为单行/可折叠提示，默认高度控制在 48-60px，关闭后释放首屏空间。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "多个关键链接和按钮触控高度不足",
+      "area": "查看全部/了解详情/复制命令等移动端 CTA",
+      "page_url": "https://www.huaweicloud.com/agentorchard/index.html",
+      "locate": [
+        "查看全部智能体 >",
+        "了解详情",
+        "查看全部开放能力 >",
+        "复制命令"
+      ],
+      "evidence": "DOM smallTargets 记录多个可点击元素高度低于移动端推荐触控面积：查看全部智能体高度 14px、了解详情高度 32px、查看全部开放能力高度 14px、复制命令按钮 24x24px。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "部分文本链接和按钮仅 14-32px 高，复制命令按钮为 24x24px。",
+      "suggestion_after": "移动端将关键 CTA 点击热区扩展到至少 40px，推荐 44px；文本链接可通过 padding 扩大可点区域，不必放大视觉字号。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_scroll.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "底部 App 下载固定栏未适配安全区",
+      "area": "页面底部固定下载栏",
+      "page_url": "https://www.huaweicloud.com/agentorchard/index.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM fixedBottom 显示 div.tm-adv-space.light-btn position=fixed，高度 66px，bottom=0px，paddingBottom=0px，hasSafeAreaInset=false，全面屏手机底部系统手势区可能遮挡或贴边。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "底部固定栏 padding-bottom: 0px，未使用 safe-area-inset-bottom。",
+      "suggestion_after": "为移动端固定底栏增加 padding-bottom: env(safe-area-inset-bottom)，并确认内容区域底部预留同等空间，避免遮挡末屏内容。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_index_html/batch-20260720-094053-01/screenshots/https_www_huaweicloud_com_agentorchard_index_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "agent-fallback",
+    "name": "codex",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash",
+      "agent-fallback:codex"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

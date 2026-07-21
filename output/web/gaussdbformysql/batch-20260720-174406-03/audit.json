@@ -1,0 +1,1439 @@
+{
+  "schema_version": "1.0",
+  "source": "web",
+  "input_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+  "generated_at": "2026-07-20T10:41:44.985724+00:00",
+  "summary": {
+    "score": 4.6,
+    "issue_count": 20,
+    "p0": 4,
+    "p1": 8,
+    "p2": 8
+  },
+  "sections": [
+    {
+      "id": "感知",
+      "name": "感知",
+      "url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+      "title": "云数据库 TaurusDB_云原生关系型数据库_企业级数据库-华为云",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png",
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "核心功能介绍默认折叠，增加用户获取信息成本",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "核心技术一：并行执行",
+            "核心技术二：NDP(Near Data Processing)",
+            "PK 开源 MySQL，优势明显",
+            "对比同类其他产品，性能占优"
+          ],
+          "evidence": "截图中可见功能介绍卡片默认折叠，DOM数据显示这些内容被包裹在 `<div class=\"por-collapse-container\">` 中，需要点击 `<a class=\"por-collapse-trigger\">` 才能展开，增加了用户获取详细信息的步骤。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "功能介绍卡片默认折叠",
+          "suggestion_after": "默认展开部分关键功能介绍，或提供更明显的“展开全部”入口，减少用户点击成本。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "常见问题列表仅显示标题，需跳转页面才能查看答案",
+          "area": "FAQ/常见问题区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "数据库连接问题",
+            "备份恢复问题",
+            "数据库性能问题",
+            "网络安全问题",
+            "查看更多"
+          ],
+          "evidence": "截图中可见常见问题仅为标题，下方有“查看更多”链接，DOM数据显示这些问题没有直接的答案内容，点击“查看更多”会跳转到新的FAQ页面，增加了用户获取答案的路径。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #10: Help and Documentation",
+          "suggestion_before": "常见问题仅显示标题并需跳转",
+          "suggestion_after": "在当前页面以折叠面板形式直接展示常见问题答案，减少用户跳转，提高信息可达性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-004",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "产品概览页首屏缺少直接的定价或免费试用入口",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "购买",
+            "控制台",
+            "文档",
+            "免费试用"
+          ],
+          "evidence": "截图中首屏主视觉区仅有“购买”、“控制台”、“文档”按钮，没有直接的定价信息或免费试用按钮。虽然页面底部有“免费试用”按钮，但位置不突出，用户在感知阶段可能无法快速找到。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "首屏无直接定价/试用入口",
+          "suggestion_after": "在首屏主视觉区增加“免费试用”或“查看定价”的醒目按钮，方便用户快速获取关键信息，提升转化效率。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-005",
+          "section": "感知",
+          "type": "layout",
+          "severity": "p2",
+          "title": "“最新动态”提示文字视觉权重不足，重要信息易被忽略",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "GaussDB(for MySQL)服务将于2024年11月更名为TaurusDB"
+          ],
+          "evidence": "截图中该提示文字字号较小，颜色为灰色（DOM数据显示 `font-size: 14px`, `color: rgb(89, 89, 89)`），与周围内容对比度不高，容易被用户忽略，尽管这是一条重要的产品更名通知。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "文字字号14px，颜色rgb(89,89,89)",
+          "suggestion_after": "文字字号适当增大（如16px），颜色调整为更醒目的颜色（如红色或深蓝色），并可考虑加粗，以突出重要通知。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "优化功能介绍和常见问题区域的交互模式，减少用户获取信息的步骤，可考虑默认展开部分内容或在当前页面直接展示答案。",
+        "修正底部版权年份，确保信息准确性。",
+        "在产品概览页首屏增加更醒目的免费试用或定价入口，提升用户转化效率。",
+        "提高重要通知（如产品更名）的视觉权重，确保用户能够及时获取关键信息。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，核心CTA按钮明确，产品优势介绍简洁。然而，部分关键信息（如功能细节、常见问题答案）默认折叠或需跳转才能获取，增加了用户的信息获取成本。同时，版权年份显示未来年份，以及重要通知的视觉权重不足，影响了用户体验和信息准确性。建议优化信息展示方式和视觉层级，以提供更流畅、准确的感知体验。"
+    },
+    {
+      "id": "下单",
+      "name": "下单",
+      "url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "title": "云数据库TaurusDB-控制台",
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png",
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "计费明细不透明，用户难以验证费用合理性",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "配置费用:¥11,570.00",
+            "共省¥2,314.00"
+          ],
+          "evidence": "DOM数据中`price_info`字段显示总价和优惠金额，但`body_text`中未找到详细的计算公式或各配置项的单价信息。用户只能看到最终价格，无法了解其构成。",
+          "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "仅显示“配置费用:¥11,570.00 共省¥2,314.00”",
+          "suggestion_after": "在“配置概要”或价格下方提供详细的费用计算明细，例如：“基础配置费用 (CPU/内存/节点) + 存储费用 + 备份费用 - 优惠 = 总价”，并显示各项单价。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-002",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "关键计费规则链接化，降低信息透明度",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "备份空间计费信息",
+            "了解计费详情"
+          ],
+          "evidence": "DOM数据中`body_text`显示“备份空间计费信息”和底部“了解计费详情”是链接，用户需要点击跳转才能查看详细规则。这些是影响用户决策的关键信息，不应隐藏在链接中。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #5: Error Prevention",
+          "suggestion_before": "将“备份空间计费信息”和“了解计费详情”作为链接",
+          "suggestion_after": "将关键计费规则的摘要直接展示在页面上，或使用弹窗/悬浮提示提供即时信息，减少用户跳转。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-003",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p1",
+          "title": "关键约束信息视觉权重不足，易被忽略",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "创建后如果存储超过选择的容量，超出部分将按需计费。",
+            "账户余额不足，会导致自动扩容失败。"
+          ],
+          "evidence": "视觉截图中这些提示文字的字号小，颜色偏灰，与普通文本区分度不高。例如“账户余额不足，会导致自动扩容失败”是重要风险提示，但其`font-size`约为12px，`color`为rgb(89, 89, 89)，不突出。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+          "suggestion_before": "提示文字 `font-size: 12px/14px`, `color: rgb(89, 89, 89)`",
+          "suggestion_after": "将重要约束和风险提示文字的 `font-size` 提高到 `14px` 或 `16px`，`color` 使用更醒目的颜色（如橙色或红色），并增加 `font-weight: 700`。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-004",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p2",
+          "title": "购买时长选项视觉引导不一致，可能导致误操作",
+          "area": "购买时长与数量",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "1个月",
+            "1年"
+          ],
+          "evidence": "视觉截图中，“购买时长”区域默认选中“1个月”，但“1年”选项有蓝色边框，视觉上更突出，可能引导用户误解默认选项或误操作。",
+          "standard": "Nielsen #4: Consistency and Standards | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "默认选中“1个月”但“1年”有蓝色边框",
+          "suggestion_after": "统一默认选中项和非选中项的视觉样式，确保默认选中项清晰且不被其他选项的视觉强调所干扰。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-005",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "自动扩容规则描述存在歧义，用户理解困难",
+          "area": "高级配置",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "新的存储空间按照包年/包月计费，超出存储空间部分仍按需计费。"
+          ],
+          "evidence": "DOM数据`body_text`中关于自动扩容的计费规则描述，\"新的存储空间按照包年/包月计费\"与\"超出存储空间部分仍按需计费\"的逻辑关系不够清晰，可能导致用户对扩容后的计费方式产生误解。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention",
+          "suggestion_before": "“新的存储空间按照包年/包月计费，超出存储空间部分仍按需计费。”",
+          "suggestion_after": "明确说明自动扩容后，扩容部分是按包年/包月计费，还是按需计费，或者两者并存的条件。例如：“自动扩容后，新增存储空间将按包年/包月计费。若实际使用量超出此包年/包月容量，超出部分将按需计费。”",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-006",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p2",
+          "title": "页面标题与面包屑导航冗余",
+          "area": "顶部导航区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "购买数据库实例"
+          ],
+          "evidence": "视觉截图中，页面标题和面包屑导航的最后一项都显示“购买数据库实例”，存在重复。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "页面标题和面包屑导航均显示“购买数据库实例”",
+          "suggestion_after": "页面标题可简化为“创建实例”或“实例配置”，面包屑导航保持“购买数据库实例”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-007",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p2",
+          "title": "批量创建实例时IP地址分配提示不清晰",
+          "area": "网络",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "批量创建数据库实例时，不支持指定IP地址。"
+          ],
+          "evidence": "视觉截图中，该提示文字在“IPv4地址”选项下方，但其视觉位置和样式与普通文本无异，且未明确指出用户当前是否处于“批量创建”模式，导致用户可能不清楚此限制是否适用于当前操作。",
+          "standard": "Nielsen #5: Error Prevention | Nielsen #2: Match Between System and Real World",
+          "suggestion_before": "提示文字样式不突出，未明确适用场景",
+          "suggestion_after": "当用户选择批量创建时，将此提示以更醒目的方式（如红色文字或警告图标）显示，并明确指出当前操作不支持指定IP。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-008",
+          "section": "下单",
+          "type": "content_clarity",
+          "severity": "p2",
+          "title": "自动扩容规则中“非10倍数向上取整”表述不直观",
+          "area": "高级配置",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "非10倍数向上取整"
+          ],
+          "evidence": "DOM数据`body_text`中“自动扩容当前存储空间的20%（非10倍数向上取整...）”的表述，对于普通用户来说“非10倍数向上取整”不够直观，难以理解具体扩容逻辑。",
+          "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
+          "suggestion_before": "“非10倍数向上取整”",
+          "suggestion_after": "提供具体示例或更通俗易懂的解释，例如：“如果扩容20%后不是10GB的整数倍，将向上取整到最近的10GB整数倍。”",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [],
+      "analysis_content": "下单阶段页面为云数据库TaurusDB的实例创建配置页。页面提供了详尽的配置选项，但存在多处体验问题。主要问题集中在计费规则的透明度不足、关键约束信息的视觉权重过低、复杂规则的文案表述不够清晰以及部分交互元素的视觉引导不一致。这些问题可能导致用户在理解产品计费方式、识别重要风险和进行配置选择时遇到困难，影响下单效率和用户满意度。"
+    },
+    {
+      "id": "支付",
+      "name": "支付",
+      "url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "title": "云数据库TaurusDB-控制台",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_3_payment.png",
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未找到支付阶段入口",
+          "area": "交互与流程",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [],
+          "evidence": "DOM数据中明确指出 `entry_not_found: true`，表示爬虫未能找到明确的支付阶段页面入口。当前提供的页面URL为 `https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns`，标题为“云数据库TaurusDB-控制台”，这是一个产品购买/配置页面，而非实际的支付确认页面。",
+          "standard": "Nielsen #1: Visibility of System Status | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "用户完成订单配置后，未能明确跳转到支付页面或提供清晰的支付入口。",
+          "suggestion_after": "确保用户在完成产品配置和下单操作后，能够明确、无歧义地跳转到支付确认页面，或在订单概要中提供醒目的“去支付”按钮。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "确保用户在完成产品配置后，能够顺利进入支付流程，避免流程中断或用户迷失。"
+      ],
+      "analysis_content": "根据提供的DOM数据，未能找到明确的“支付”阶段页面入口（`entry_not_found` 为 `true`）。当前页面为产品购买/配置页面，不属于支付阶段。由于无法访问实际的支付页面，无法对支付阶段的视觉、DOM细节进行深入分析。此问题严重影响用户完成购买流程，因此评分为1分，不合规。"
+    },
+    {
+      "id": "使用",
+      "name": "使用",
+      "url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+      "title": "控制台",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_4_usage.png",
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未能直接进入目标产品控制台页面",
+          "area": "控制台导航/产品入口",
+          "page_url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+          "locate": [
+            "云数据库 TaurusDB"
+          ],
+          "evidence": "当前页面URL为 `https://console.huaweicloud.com/console/?region=cn-east-3#/home`，是华为云主控制台首页，而非目标产品'云数据库 TaurusDB'的专属控制台页面。DOM数据中的 `entry_not_found` 字段为 `true`，明确指示未能直接定位到产品控制台入口。尽管页面搜索结果中列出了'云数据库 TaurusDB'及其快捷操作链接（如'总览', '实例', '创建'），但这些链接仍是搜索结果的一部分，并非直接的产品控制台页面，用户需要额外点击才能进入。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #7: Flexibility and Efficiency",
+          "suggestion_before": "用户在主控制台搜索产品后，停留在搜索结果页，需要点击多个链接才能找到产品控制台。",
+          "suggestion_after": "在主控制台搜索结果中，为目标产品提供一个醒目的、直接的'进入控制台'或'管理实例'按钮，点击后直接跳转到该产品的控制台首页或实例管理页面，减少用户操作路径。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "在主控制台搜索结果中，为目标产品提供一个醒目的、直接的'进入控制台'或'管理实例'按钮，点击后直接跳转到该产品的控制台首页或实例管理页面，减少用户操作路径。"
+      ],
+      "analysis_content": "根据DOM数据，系统未能直接定位到目标产品'云数据库 TaurusDB'的控制台入口页面，而是停留在华为云主控制台的搜索结果页。这严重影响了用户在'使用'阶段直接访问和管理产品的体验，增加了操作路径和认知负担。尽管搜索结果中提供了产品名称和一些快捷操作，但缺乏一个明确、直接的入口来访问产品控制台，导致用户无法高效地开始使用和管理产品。"
+    },
+    {
+      "id": "续费",
+      "name": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png",
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "续费项数量与表格数据不一致",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期不续费项 (3)",
+            "暂无表格数据"
+          ],
+          "evidence": "DOM中“到期不续费项 (3)”的Tab文本存在，且其父元素样式表明其为选中状态（color: rgb(20, 118, 255), fontWeight: 700），表示有3个资源。但下方资源列表区域的DOM中存在“暂无表格数据”的文本，两者信息存在明显矛盾。",
+          "standard": "Nielsen #4: Consistency and Standards",
+          "suggestion_before": "Tab显示“到期不续费项 (3)”，表格显示“暂无表格数据”",
+          "suggestion_after": "当Tab显示有资源数量时，表格应展示对应的资源列表；或当表格无数据时，Tab数量显示为0。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "批量操作按钮在无可选资源时未禁用",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "批量续费",
+            "设为自动续费",
+            "到期转按需",
+            "到期不续费",
+            "统一到期日",
+            "导出",
+            "一键续费（0）"
+          ],
+          "evidence": "DOM中“手动续费项 (0)”、“自动续费项 (0)”、“到期转按需项 (0)”等Tab显示无资源，但“批量续费”、“设为自动续费”、“到期转按需”、“到期不续费”、“统一到期日”、“导出”以及“一键续费（0）”等批量操作按钮的`isDisabled`属性为`false`，且其`color`为蓝色（`rgb(20, 118, 255)`），表明是可点击状态。用户点击后将执行无效操作，造成困惑。",
+          "standard": "Nielsen #5: Error Prevention | Nielsen #3: User Control and Freedom",
+          "suggestion_before": "无可选资源时批量操作按钮仍可点击",
+          "suggestion_after": "当无可选资源时，批量操作按钮应置灰禁用（`isDisabled: true`），并可提供悬浮提示说明禁用原因。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "用户满意度调查弹窗遮挡页面内容",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "诚邀您对“费用中心”进行满意度评价"
+          ],
+          "evidence": "视觉截图显示用户满意度调查弹窗覆盖在页面主体内容上方，遮挡了部分信息，且其关闭按钮（X）与弹窗背景对比度低，可能不易发现。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design | Cooper: Modeless vs Modal",
+          "suggestion_before": "满意度调查弹窗默认显示并遮挡内容",
+          "suggestion_after": "满意度调查弹窗应以非侵入式方式展示（如页面底部浮窗），或在不影响核心操作时才弹出，并优化关闭按钮的视觉可识别性（例如：修改前：关闭按钮颜色与背景相近 → 修改后：关闭按钮使用高对比度颜色或更明显的图标）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-004",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "帮助信息链接直接跳转外部页面，中断用户流程",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如何续费资源？",
+            "什么是宽限期保留期？",
+            "如何自动续费？"
+          ],
+          "evidence": "页面顶部提供的多条帮助信息（如“如何续费资源？”）点击后会直接跳转到外部帮助文档页面，例如“如何续费资源？”的链接指向`https://support.huaweicloud.com/usermanual-billing/zh-cn_topic_0000001275685741.html`，这会中断用户在续费管理页面上的操作流程。",
+          "standard": "Cooper: Goal-Directed Design | Nielsen #7: Flexibility and Efficiency",
+          "suggestion_before": "帮助信息链接直接跳转外部页面",
+          "suggestion_after": "对于常见或简单的问题，点击帮助链接后应在当前页面以轻量级弹窗或侧边栏形式展示答案，避免用户离开当前操作页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-005",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "“隐藏有待支付订单的资源”和“隐藏资源包”复选框文字不突出",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "隐藏有待支付订单的资源",
+            "隐藏资源包"
+          ],
+          "evidence": "视觉截图显示这两个复选框的文字颜色较浅，字号较小，在页面中视觉权重不足，用户可能容易忽略这些筛选条件。DOM数据中未提供具体颜色和字号，但视觉上判断其对比度不足。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "文字颜色浅、字号小",
+          "suggestion_after": "增加文字对比度或适当增大字号，确保筛选条件清晰可见，例如：修改前：color:#999, fontSize:12px → 修改后：color:#333, fontSize:14px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化续费管理页面的数据一致性，确保Tab显示数量与实际表格内容匹配。",
+        "改进交互设计，在无可用操作时禁用相关按钮，避免用户进行无效点击。",
+        "重新评估满意度调查弹窗的展示方式，减少对用户操作的干扰。",
+        "优化帮助信息的呈现方式，对于常见问题优先采用站内弹窗或侧边栏，减少页面跳转。"
+      ],
+      "analysis_content": "续费管理页面在信息展示和交互设计上存在多处体验问题。最突出的是Tab显示数量与实际表格数据不一致，以及在无可选资源时批量操作按钮仍可点击，这可能导致用户困惑和无效操作。此外，满意度调查弹窗的侵入式展示和帮助信息链接的外部跳转也影响了用户体验的流畅性。页面整体布局清晰，但细节处仍需优化以提升用户满意度。"
+    },
+    {
+      "id": "变更",
+      "name": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_6_change.png",
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "变更阶段入口未达成",
+          "area": "产品变更/规格变更页",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00"
+          ],
+          "evidence": "阶段URL为 https://www.huaweicloud.com/notice/20260717153237724.html；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页",
+          "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页 -> 修改后：提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "退订",
+      "name": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_7_unsubscribe.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "web-感知-001",
+      "section": "感知",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "核心功能介绍默认折叠，增加用户获取信息成本",
+      "area": "功能介绍区",
+      "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+      "locate": [
+        "核心技术一：并行执行",
+        "核心技术二：NDP(Near Data Processing)",
+        "PK 开源 MySQL，优势明显",
+        "对比同类其他产品，性能占优"
+      ],
+      "evidence": "截图中可见功能介绍卡片默认折叠，DOM数据显示这些内容被包裹在 `<div class=\"por-collapse-container\">` 中，需要点击 `<a class=\"por-collapse-trigger\">` 才能展开，增加了用户获取详细信息的步骤。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "功能介绍卡片默认折叠",
+      "suggestion_after": "默认展开部分关键功能介绍，或提供更明显的“展开全部”入口，减少用户点击成本。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-002",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "常见问题列表仅显示标题，需跳转页面才能查看答案",
+      "area": "FAQ/常见问题区",
+      "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+      "locate": [
+        "数据库连接问题",
+        "备份恢复问题",
+        "数据库性能问题",
+        "网络安全问题",
+        "查看更多"
+      ],
+      "evidence": "截图中可见常见问题仅为标题，下方有“查看更多”链接，DOM数据显示这些问题没有直接的答案内容，点击“查看更多”会跳转到新的FAQ页面，增加了用户获取答案的路径。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #10: Help and Documentation",
+      "suggestion_before": "常见问题仅显示标题并需跳转",
+      "suggestion_after": "在当前页面以折叠面板形式直接展示常见问题答案，减少用户跳转，提高信息可达性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-004",
+      "section": "感知",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "产品概览页首屏缺少直接的定价或免费试用入口",
+      "area": "首屏主视觉区",
+      "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+      "locate": [
+        "购买",
+        "控制台",
+        "文档",
+        "免费试用"
+      ],
+      "evidence": "截图中首屏主视觉区仅有“购买”、“控制台”、“文档”按钮，没有直接的定价信息或免费试用按钮。虽然页面底部有“免费试用”按钮，但位置不突出，用户在感知阶段可能无法快速找到。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "首屏无直接定价/试用入口",
+      "suggestion_after": "在首屏主视觉区增加“免费试用”或“查看定价”的醒目按钮，方便用户快速获取关键信息，提升转化效率。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-005",
+      "section": "感知",
+      "type": "layout",
+      "severity": "p2",
+      "title": "“最新动态”提示文字视觉权重不足，重要信息易被忽略",
+      "area": "首屏主视觉区",
+      "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+      "locate": [
+        "GaussDB(for MySQL)服务将于2024年11月更名为TaurusDB"
+      ],
+      "evidence": "截图中该提示文字字号较小，颜色为灰色（DOM数据显示 `font-size: 14px`, `color: rgb(89, 89, 89)`），与周围内容对比度不高，容易被用户忽略，尽管这是一条重要的产品更名通知。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "文字字号14px，颜色rgb(89,89,89)",
+      "suggestion_after": "文字字号适当增大（如16px），颜色调整为更醒目的颜色（如红色或深蓝色），并可考虑加粗，以突出重要通知。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-下单-001",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "计费明细不透明，用户难以验证费用合理性",
+      "area": "定价/套餐区",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "配置费用:¥11,570.00",
+        "共省¥2,314.00"
+      ],
+      "evidence": "DOM数据中`price_info`字段显示总价和优惠金额，但`body_text`中未找到详细的计算公式或各配置项的单价信息。用户只能看到最终价格，无法了解其构成。",
+      "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "suggestion_before": "仅显示“配置费用:¥11,570.00 共省¥2,314.00”",
+      "suggestion_after": "在“配置概要”或价格下方提供详细的费用计算明细，例如：“基础配置费用 (CPU/内存/节点) + 存储费用 + 备份费用 - 优惠 = 总价”，并显示各项单价。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-002",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "关键计费规则链接化，降低信息透明度",
+      "area": "功能介绍区",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "备份空间计费信息",
+        "了解计费详情"
+      ],
+      "evidence": "DOM数据中`body_text`显示“备份空间计费信息”和底部“了解计费详情”是链接，用户需要点击跳转才能查看详细规则。这些是影响用户决策的关键信息，不应隐藏在链接中。",
+      "standard": "Nielsen #10: Help and Documentation | Nielsen #5: Error Prevention",
+      "suggestion_before": "将“备份空间计费信息”和“了解计费详情”作为链接",
+      "suggestion_after": "将关键计费规则的摘要直接展示在页面上，或使用弹窗/悬浮提示提供即时信息，减少用户跳转。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-003",
+      "section": "下单",
+      "type": "layout",
+      "severity": "p1",
+      "title": "关键约束信息视觉权重不足，易被忽略",
+      "area": "功能介绍区",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "创建后如果存储超过选择的容量，超出部分将按需计费。",
+        "账户余额不足，会导致自动扩容失败。"
+      ],
+      "evidence": "视觉截图中这些提示文字的字号小，颜色偏灰，与普通文本区分度不高。例如“账户余额不足，会导致自动扩容失败”是重要风险提示，但其`font-size`约为12px，`color`为rgb(89, 89, 89)，不突出。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+      "suggestion_before": "提示文字 `font-size: 12px/14px`, `color: rgb(89, 89, 89)`",
+      "suggestion_after": "将重要约束和风险提示文字的 `font-size` 提高到 `14px` 或 `16px`，`color` 使用更醒目的颜色（如橙色或红色），并增加 `font-weight: 700`。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-004",
+      "section": "下单",
+      "type": "layout",
+      "severity": "p2",
+      "title": "购买时长选项视觉引导不一致，可能导致误操作",
+      "area": "购买时长与数量",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "1个月",
+        "1年"
+      ],
+      "evidence": "视觉截图中，“购买时长”区域默认选中“1个月”，但“1年”选项有蓝色边框，视觉上更突出，可能引导用户误解默认选项或误操作。",
+      "standard": "Nielsen #4: Consistency and Standards | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "默认选中“1个月”但“1年”有蓝色边框",
+      "suggestion_after": "统一默认选中项和非选中项的视觉样式，确保默认选中项清晰且不被其他选项的视觉强调所干扰。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-005",
+      "section": "下单",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "自动扩容规则描述存在歧义，用户理解困难",
+      "area": "高级配置",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "新的存储空间按照包年/包月计费，超出存储空间部分仍按需计费。"
+      ],
+      "evidence": "DOM数据`body_text`中关于自动扩容的计费规则描述，\"新的存储空间按照包年/包月计费\"与\"超出存储空间部分仍按需计费\"的逻辑关系不够清晰，可能导致用户对扩容后的计费方式产生误解。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention",
+      "suggestion_before": "“新的存储空间按照包年/包月计费，超出存储空间部分仍按需计费。”",
+      "suggestion_after": "明确说明自动扩容后，扩容部分是按包年/包月计费，还是按需计费，或者两者并存的条件。例如：“自动扩容后，新增存储空间将按包年/包月计费。若实际使用量超出此包年/包月容量，超出部分将按需计费。”",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-006",
+      "section": "下单",
+      "type": "layout",
+      "severity": "p2",
+      "title": "页面标题与面包屑导航冗余",
+      "area": "顶部导航区",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "购买数据库实例"
+      ],
+      "evidence": "视觉截图中，页面标题和面包屑导航的最后一项都显示“购买数据库实例”，存在重复。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "页面标题和面包屑导航均显示“购买数据库实例”",
+      "suggestion_after": "页面标题可简化为“创建实例”或“实例配置”，面包屑导航保持“购买数据库实例”。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-007",
+      "section": "下单",
+      "type": "layout",
+      "severity": "p2",
+      "title": "批量创建实例时IP地址分配提示不清晰",
+      "area": "网络",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "批量创建数据库实例时，不支持指定IP地址。"
+      ],
+      "evidence": "视觉截图中，该提示文字在“IPv4地址”选项下方，但其视觉位置和样式与普通文本无异，且未明确指出用户当前是否处于“批量创建”模式，导致用户可能不清楚此限制是否适用于当前操作。",
+      "standard": "Nielsen #5: Error Prevention | Nielsen #2: Match Between System and Real World",
+      "suggestion_before": "提示文字样式不突出，未明确适用场景",
+      "suggestion_after": "当用户选择批量创建时，将此提示以更醒目的方式（如红色文字或警告图标）显示，并明确指出当前操作不支持指定IP。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-下单-008",
+      "section": "下单",
+      "type": "content_clarity",
+      "severity": "p2",
+      "title": "自动扩容规则中“非10倍数向上取整”表述不直观",
+      "area": "高级配置",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [
+        "非10倍数向上取整"
+      ],
+      "evidence": "DOM数据`body_text`中“自动扩容当前存储空间的20%（非10倍数向上取整...）”的表述，对于普通用户来说“非10倍数向上取整”不够直观，难以理解具体扩容逻辑。",
+      "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
+      "suggestion_before": "“非10倍数向上取整”",
+      "suggestion_after": "提供具体示例或更通俗易懂的解释，例如：“如果扩容20%后不是10GB的整数倍，将向上取整到最近的10GB整数倍。”",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-支付-001",
+      "section": "支付",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "未找到支付阶段入口",
+      "area": "交互与流程",
+      "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "locate": [],
+      "evidence": "DOM数据中明确指出 `entry_not_found: true`，表示爬虫未能找到明确的支付阶段页面入口。当前提供的页面URL为 `https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns`，标题为“云数据库TaurusDB-控制台”，这是一个产品购买/配置页面，而非实际的支付确认页面。",
+      "standard": "Nielsen #1: Visibility of System Status | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "用户完成订单配置后，未能明确跳转到支付页面或提供清晰的支付入口。",
+      "suggestion_after": "确保用户在完成产品配置和下单操作后，能够明确、无歧义地跳转到支付确认页面，或在订单概要中提供醒目的“去支付”按钮。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_3_payment.png"
+    },
+    {
+      "id": "web-使用-001",
+      "section": "使用",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "未能直接进入目标产品控制台页面",
+      "area": "控制台导航/产品入口",
+      "page_url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+      "locate": [
+        "云数据库 TaurusDB"
+      ],
+      "evidence": "当前页面URL为 `https://console.huaweicloud.com/console/?region=cn-east-3#/home`，是华为云主控制台首页，而非目标产品'云数据库 TaurusDB'的专属控制台页面。DOM数据中的 `entry_not_found` 字段为 `true`，明确指示未能直接定位到产品控制台入口。尽管页面搜索结果中列出了'云数据库 TaurusDB'及其快捷操作链接（如'总览', '实例', '创建'），但这些链接仍是搜索结果的一部分，并非直接的产品控制台页面，用户需要额外点击才能进入。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #7: Flexibility and Efficiency",
+      "suggestion_before": "用户在主控制台搜索产品后，停留在搜索结果页，需要点击多个链接才能找到产品控制台。",
+      "suggestion_after": "在主控制台搜索结果中，为目标产品提供一个醒目的、直接的'进入控制台'或'管理实例'按钮，点击后直接跳转到该产品的控制台首页或实例管理页面，减少用户操作路径。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-续费-001",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "续费项数量与表格数据不一致",
+      "area": "功能介绍区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "到期不续费项 (3)",
+        "暂无表格数据"
+      ],
+      "evidence": "DOM中“到期不续费项 (3)”的Tab文本存在，且其父元素样式表明其为选中状态（color: rgb(20, 118, 255), fontWeight: 700），表示有3个资源。但下方资源列表区域的DOM中存在“暂无表格数据”的文本，两者信息存在明显矛盾。",
+      "standard": "Nielsen #4: Consistency and Standards",
+      "suggestion_before": "Tab显示“到期不续费项 (3)”，表格显示“暂无表格数据”",
+      "suggestion_after": "当Tab显示有资源数量时，表格应展示对应的资源列表；或当表格无数据时，Tab数量显示为0。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-002",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "批量操作按钮在无可选资源时未禁用",
+      "area": "功能介绍区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "批量续费",
+        "设为自动续费",
+        "到期转按需",
+        "到期不续费",
+        "统一到期日",
+        "导出",
+        "一键续费（0）"
+      ],
+      "evidence": "DOM中“手动续费项 (0)”、“自动续费项 (0)”、“到期转按需项 (0)”等Tab显示无资源，但“批量续费”、“设为自动续费”、“到期转按需”、“到期不续费”、“统一到期日”、“导出”以及“一键续费（0）”等批量操作按钮的`isDisabled`属性为`false`，且其`color`为蓝色（`rgb(20, 118, 255)`），表明是可点击状态。用户点击后将执行无效操作，造成困惑。",
+      "standard": "Nielsen #5: Error Prevention | Nielsen #3: User Control and Freedom",
+      "suggestion_before": "无可选资源时批量操作按钮仍可点击",
+      "suggestion_after": "当无可选资源时，批量操作按钮应置灰禁用（`isDisabled: true`），并可提供悬浮提示说明禁用原因。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-003",
+      "section": "续费",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "用户满意度调查弹窗遮挡页面内容",
+      "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "诚邀您对“费用中心”进行满意度评价"
+      ],
+      "evidence": "视觉截图显示用户满意度调查弹窗覆盖在页面主体内容上方，遮挡了部分信息，且其关闭按钮（X）与弹窗背景对比度低，可能不易发现。",
+      "standard": "Nielsen #8: Aesthetic and Minimalist Design | Cooper: Modeless vs Modal",
+      "suggestion_before": "满意度调查弹窗默认显示并遮挡内容",
+      "suggestion_after": "满意度调查弹窗应以非侵入式方式展示（如页面底部浮窗），或在不影响核心操作时才弹出，并优化关闭按钮的视觉可识别性（例如：修改前：关闭按钮颜色与背景相近 → 修改后：关闭按钮使用高对比度颜色或更明显的图标）。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-004",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "帮助信息链接直接跳转外部页面，中断用户流程",
+      "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "如何续费资源？",
+        "什么是宽限期保留期？",
+        "如何自动续费？"
+      ],
+      "evidence": "页面顶部提供的多条帮助信息（如“如何续费资源？”）点击后会直接跳转到外部帮助文档页面，例如“如何续费资源？”的链接指向`https://support.huaweicloud.com/usermanual-billing/zh-cn_topic_0000001275685741.html`，这会中断用户在续费管理页面上的操作流程。",
+      "standard": "Cooper: Goal-Directed Design | Nielsen #7: Flexibility and Efficiency",
+      "suggestion_before": "帮助信息链接直接跳转外部页面",
+      "suggestion_after": "对于常见或简单的问题，点击帮助链接后应在当前页面以轻量级弹窗或侧边栏形式展示答案，避免用户离开当前操作页面。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-005",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "“隐藏有待支付订单的资源”和“隐藏资源包”复选框文字不突出",
+      "area": "功能介绍区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "隐藏有待支付订单的资源",
+        "隐藏资源包"
+      ],
+      "evidence": "视觉截图显示这两个复选框的文字颜色较浅，字号较小，在页面中视觉权重不足，用户可能容易忽略这些筛选条件。DOM数据中未提供具体颜色和字号，但视觉上判断其对比度不足。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+      "suggestion_before": "文字颜色浅、字号小",
+      "suggestion_after": "增加文字对比度或适当增大字号，确保筛选条件清晰可见，例如：修改前：color:#999, fontSize:12px → 修改后：color:#333, fontSize:14px。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-变更-001",
+      "section": "变更",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "变更阶段入口未达成",
+      "area": "产品变更/规格变更页",
+      "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "locate": [
+        "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00"
+      ],
+      "evidence": "阶段URL为 https://www.huaweicloud.com/notice/20260717153237724.html；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "suggestion_before": "用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页",
+      "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_6_change.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  },
+  "total_stages_analyzed": 7,
+  "stages_analyzed": [
+    "感知",
+    "下单",
+    "支付",
+    "使用",
+    "续费",
+    "变更",
+    "退订"
+  ],
+  "stages_missing": [],
+  "stage_analysis": {
+    "感知": {
+      "stage": "感知",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "核心功能介绍默认折叠，增加用户获取信息成本",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "核心技术一：并行执行",
+            "核心技术二：NDP(Near Data Processing)",
+            "PK 开源 MySQL，优势明显",
+            "对比同类其他产品，性能占优"
+          ],
+          "evidence": "截图中可见功能介绍卡片默认折叠，DOM数据显示这些内容被包裹在 `<div class=\"por-collapse-container\">` 中，需要点击 `<a class=\"por-collapse-trigger\">` 才能展开，增加了用户获取详细信息的步骤。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "功能介绍卡片默认折叠",
+          "suggestion_after": "默认展开部分关键功能介绍，或提供更明显的“展开全部”入口，减少用户点击成本。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "常见问题列表仅显示标题，需跳转页面才能查看答案",
+          "area": "FAQ/常见问题区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "数据库连接问题",
+            "备份恢复问题",
+            "数据库性能问题",
+            "网络安全问题",
+            "查看更多"
+          ],
+          "evidence": "截图中可见常见问题仅为标题，下方有“查看更多”链接，DOM数据显示这些问题没有直接的答案内容，点击“查看更多”会跳转到新的FAQ页面，增加了用户获取答案的路径。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #10: Help and Documentation",
+          "suggestion_before": "常见问题仅显示标题并需跳转",
+          "suggestion_after": "在当前页面以折叠面板形式直接展示常见问题答案，减少用户跳转，提高信息可达性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-004",
+          "section": "感知",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "产品概览页首屏缺少直接的定价或免费试用入口",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "购买",
+            "控制台",
+            "文档",
+            "免费试用"
+          ],
+          "evidence": "截图中首屏主视觉区仅有“购买”、“控制台”、“文档”按钮，没有直接的定价信息或免费试用按钮。虽然页面底部有“免费试用”按钮，但位置不突出，用户在感知阶段可能无法快速找到。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "首屏无直接定价/试用入口",
+          "suggestion_after": "在首屏主视觉区增加“免费试用”或“查看定价”的醒目按钮，方便用户快速获取关键信息，提升转化效率。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-005",
+          "section": "感知",
+          "type": "layout",
+          "severity": "p2",
+          "title": "“最新动态”提示文字视觉权重不足，重要信息易被忽略",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+          "locate": [
+            "GaussDB(for MySQL)服务将于2024年11月更名为TaurusDB"
+          ],
+          "evidence": "截图中该提示文字字号较小，颜色为灰色（DOM数据显示 `font-size: 14px`, `color: rgb(89, 89, 89)`），与周围内容对比度不高，容易被用户忽略，尽管这是一条重要的产品更名通知。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "文字字号14px，颜色rgb(89,89,89)",
+          "suggestion_after": "文字字号适当增大（如16px），颜色调整为更醒目的颜色（如红色或深蓝色），并可考虑加粗，以突出重要通知。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "优化功能介绍和常见问题区域的交互模式，减少用户获取信息的步骤，可考虑默认展开部分内容或在当前页面直接展示答案。",
+        "修正底部版权年份，确保信息准确性。",
+        "在产品概览页首屏增加更醒目的免费试用或定价入口，提升用户转化效率。",
+        "提高重要通知（如产品更名）的视觉权重，确保用户能够及时获取关键信息。"
+      ],
+      "analysis_content": "感知阶段页面整体布局清晰，核心CTA按钮明确，产品优势介绍简洁。然而，部分关键信息（如功能细节、常见问题答案）默认折叠或需跳转才能获取，增加了用户的信息获取成本。同时，版权年份显示未来年份，以及重要通知的视觉权重不足，影响了用户体验和信息准确性。建议优化信息展示方式和视觉层级，以提供更流畅、准确的感知体验。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+      "title": "云数据库 TaurusDB_云原生关系型数据库_企业级数据库-华为云",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+    },
+    "下单": {
+      "stage": "下单",
+      "score": 6,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "计费明细不透明，用户难以验证费用合理性",
+          "area": "定价/套餐区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "配置费用:¥11,570.00",
+            "共省¥2,314.00"
+          ],
+          "evidence": "DOM数据中`price_info`字段显示总价和优惠金额，但`body_text`中未找到详细的计算公式或各配置项的单价信息。用户只能看到最终价格，无法了解其构成。",
+          "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+          "suggestion_before": "仅显示“配置费用:¥11,570.00 共省¥2,314.00”",
+          "suggestion_after": "在“配置概要”或价格下方提供详细的费用计算明细，例如：“基础配置费用 (CPU/内存/节点) + 存储费用 + 备份费用 - 优惠 = 总价”，并显示各项单价。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-002",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "关键计费规则链接化，降低信息透明度",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "备份空间计费信息",
+            "了解计费详情"
+          ],
+          "evidence": "DOM数据中`body_text`显示“备份空间计费信息”和底部“了解计费详情”是链接，用户需要点击跳转才能查看详细规则。这些是影响用户决策的关键信息，不应隐藏在链接中。",
+          "standard": "Nielsen #10: Help and Documentation | Nielsen #5: Error Prevention",
+          "suggestion_before": "将“备份空间计费信息”和“了解计费详情”作为链接",
+          "suggestion_after": "将关键计费规则的摘要直接展示在页面上，或使用弹窗/悬浮提示提供即时信息，减少用户跳转。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-003",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p1",
+          "title": "关键约束信息视觉权重不足，易被忽略",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "创建后如果存储超过选择的容量，超出部分将按需计费。",
+            "账户余额不足，会导致自动扩容失败。"
+          ],
+          "evidence": "视觉截图中这些提示文字的字号小，颜色偏灰，与普通文本区分度不高。例如“账户余额不足，会导致自动扩容失败”是重要风险提示，但其`font-size`约为12px，`color`为rgb(89, 89, 89)，不突出。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+          "suggestion_before": "提示文字 `font-size: 12px/14px`, `color: rgb(89, 89, 89)`",
+          "suggestion_after": "将重要约束和风险提示文字的 `font-size` 提高到 `14px` 或 `16px`，`color` 使用更醒目的颜色（如橙色或红色），并增加 `font-weight: 700`。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-004",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p2",
+          "title": "购买时长选项视觉引导不一致，可能导致误操作",
+          "area": "购买时长与数量",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "1个月",
+            "1年"
+          ],
+          "evidence": "视觉截图中，“购买时长”区域默认选中“1个月”，但“1年”选项有蓝色边框，视觉上更突出，可能引导用户误解默认选项或误操作。",
+          "standard": "Nielsen #4: Consistency and Standards | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "默认选中“1个月”但“1年”有蓝色边框",
+          "suggestion_after": "统一默认选中项和非选中项的视觉样式，确保默认选中项清晰且不被其他选项的视觉强调所干扰。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-005",
+          "section": "下单",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "自动扩容规则描述存在歧义，用户理解困难",
+          "area": "高级配置",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "新的存储空间按照包年/包月计费，超出存储空间部分仍按需计费。"
+          ],
+          "evidence": "DOM数据`body_text`中关于自动扩容的计费规则描述，\"新的存储空间按照包年/包月计费\"与\"超出存储空间部分仍按需计费\"的逻辑关系不够清晰，可能导致用户对扩容后的计费方式产生误解。",
+          "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention",
+          "suggestion_before": "“新的存储空间按照包年/包月计费，超出存储空间部分仍按需计费。”",
+          "suggestion_after": "明确说明自动扩容后，扩容部分是按包年/包月计费，还是按需计费，或者两者并存的条件。例如：“自动扩容后，新增存储空间将按包年/包月计费。若实际使用量超出此包年/包月容量，超出部分将按需计费。”",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-006",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p2",
+          "title": "页面标题与面包屑导航冗余",
+          "area": "顶部导航区",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "购买数据库实例"
+          ],
+          "evidence": "视觉截图中，页面标题和面包屑导航的最后一项都显示“购买数据库实例”，存在重复。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "页面标题和面包屑导航均显示“购买数据库实例”",
+          "suggestion_after": "页面标题可简化为“创建实例”或“实例配置”，面包屑导航保持“购买数据库实例”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-007",
+          "section": "下单",
+          "type": "layout",
+          "severity": "p2",
+          "title": "批量创建实例时IP地址分配提示不清晰",
+          "area": "网络",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "批量创建数据库实例时，不支持指定IP地址。"
+          ],
+          "evidence": "视觉截图中，该提示文字在“IPv4地址”选项下方，但其视觉位置和样式与普通文本无异，且未明确指出用户当前是否处于“批量创建”模式，导致用户可能不清楚此限制是否适用于当前操作。",
+          "standard": "Nielsen #5: Error Prevention | Nielsen #2: Match Between System and Real World",
+          "suggestion_before": "提示文字样式不突出，未明确适用场景",
+          "suggestion_after": "当用户选择批量创建时，将此提示以更醒目的方式（如红色文字或警告图标）显示，并明确指出当前操作不支持指定IP。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        },
+        {
+          "id": "web-下单-008",
+          "section": "下单",
+          "type": "content_clarity",
+          "severity": "p2",
+          "title": "自动扩容规则中“非10倍数向上取整”表述不直观",
+          "area": "高级配置",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [
+            "非10倍数向上取整"
+          ],
+          "evidence": "DOM数据`body_text`中“自动扩容当前存储空间的20%（非10倍数向上取整...）”的表述，对于普通用户来说“非10倍数向上取整”不够直观，难以理解具体扩容逻辑。",
+          "standard": "Nielsen #2: Match Between System and Real World | ISO 9241-110: 自描述性",
+          "suggestion_before": "“非10倍数向上取整”",
+          "suggestion_after": "提供具体示例或更通俗易懂的解释，例如：“如果扩容20%后不是10GB的整数倍，将向上取整到最近的10GB整数倍。”",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [],
+      "analysis_content": "下单阶段页面为云数据库TaurusDB的实例创建配置页。页面提供了详尽的配置选项，但存在多处体验问题。主要问题集中在计费规则的透明度不足、关键约束信息的视觉权重过低、复杂规则的文案表述不够清晰以及部分交互元素的视觉引导不一致。这些问题可能导致用户在理解产品计费方式、识别重要风险和进行配置选择时遇到困难，影响下单效率和用户满意度。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "title": "云数据库TaurusDB-控制台",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_2_order.png"
+    },
+    "支付": {
+      "stage": "支付",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未找到支付阶段入口",
+          "area": "交互与流程",
+          "page_url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+          "locate": [],
+          "evidence": "DOM数据中明确指出 `entry_not_found: true`，表示爬虫未能找到明确的支付阶段页面入口。当前提供的页面URL为 `https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns`，标题为“云数据库TaurusDB-控制台”，这是一个产品购买/配置页面，而非实际的支付确认页面。",
+          "standard": "Nielsen #1: Visibility of System Status | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "用户完成订单配置后，未能明确跳转到支付页面或提供清晰的支付入口。",
+          "suggestion_after": "确保用户在完成产品配置和下单操作后，能够明确、无歧义地跳转到支付确认页面，或在订单概要中提供醒目的“去支付”按钮。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "确保用户在完成产品配置后，能够顺利进入支付流程，避免流程中断或用户迷失。"
+      ],
+      "analysis_content": "根据提供的DOM数据，未能找到明确的“支付”阶段页面入口（`entry_not_found` 为 `true`）。当前页面为产品购买/配置页面，不属于支付阶段。由于无法访问实际的支付页面，无法对支付阶段的视觉、DOM细节进行深入分析。此问题严重影响用户完成购买流程，因此评分为1分，不合规。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/gaussdbformysql/?region=cn-east-3&engine=taurus#/gaussdbformysql/createIns",
+      "title": "云数据库TaurusDB-控制台",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_3_payment.png"
+    },
+    "使用": {
+      "stage": "使用",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未能直接进入目标产品控制台页面",
+          "area": "控制台导航/产品入口",
+          "page_url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+          "locate": [
+            "云数据库 TaurusDB"
+          ],
+          "evidence": "当前页面URL为 `https://console.huaweicloud.com/console/?region=cn-east-3#/home`，是华为云主控制台首页，而非目标产品'云数据库 TaurusDB'的专属控制台页面。DOM数据中的 `entry_not_found` 字段为 `true`，明确指示未能直接定位到产品控制台入口。尽管页面搜索结果中列出了'云数据库 TaurusDB'及其快捷操作链接（如'总览', '实例', '创建'），但这些链接仍是搜索结果的一部分，并非直接的产品控制台页面，用户需要额外点击才能进入。",
+          "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #7: Flexibility and Efficiency",
+          "suggestion_before": "用户在主控制台搜索产品后，停留在搜索结果页，需要点击多个链接才能找到产品控制台。",
+          "suggestion_after": "在主控制台搜索结果中，为目标产品提供一个醒目的、直接的'进入控制台'或'管理实例'按钮，点击后直接跳转到该产品的控制台首页或实例管理页面，减少用户操作路径。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "在主控制台搜索结果中，为目标产品提供一个醒目的、直接的'进入控制台'或'管理实例'按钮，点击后直接跳转到该产品的控制台首页或实例管理页面，减少用户操作路径。"
+      ],
+      "analysis_content": "根据DOM数据，系统未能直接定位到目标产品'云数据库 TaurusDB'的控制台入口页面，而是停留在华为云主控制台的搜索结果页。这严重影响了用户在'使用'阶段直接访问和管理产品的体验，增加了操作路径和认知负担。尽管搜索结果中提供了产品名称和一些快捷操作，但缺乏一个明确、直接的入口来访问产品控制台，导致用户无法高效地开始使用和管理产品。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/console/?region=cn-east-3#/home",
+      "title": "控制台",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_4_usage.png"
+    },
+    "续费": {
+      "stage": "续费",
+      "score": 6,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "续费项数量与表格数据不一致",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期不续费项 (3)",
+            "暂无表格数据"
+          ],
+          "evidence": "DOM中“到期不续费项 (3)”的Tab文本存在，且其父元素样式表明其为选中状态（color: rgb(20, 118, 255), fontWeight: 700），表示有3个资源。但下方资源列表区域的DOM中存在“暂无表格数据”的文本，两者信息存在明显矛盾。",
+          "standard": "Nielsen #4: Consistency and Standards",
+          "suggestion_before": "Tab显示“到期不续费项 (3)”，表格显示“暂无表格数据”",
+          "suggestion_after": "当Tab显示有资源数量时，表格应展示对应的资源列表；或当表格无数据时，Tab数量显示为0。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "批量操作按钮在无可选资源时未禁用",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "批量续费",
+            "设为自动续费",
+            "到期转按需",
+            "到期不续费",
+            "统一到期日",
+            "导出",
+            "一键续费（0）"
+          ],
+          "evidence": "DOM中“手动续费项 (0)”、“自动续费项 (0)”、“到期转按需项 (0)”等Tab显示无资源，但“批量续费”、“设为自动续费”、“到期转按需”、“到期不续费”、“统一到期日”、“导出”以及“一键续费（0）”等批量操作按钮的`isDisabled`属性为`false`，且其`color`为蓝色（`rgb(20, 118, 255)`），表明是可点击状态。用户点击后将执行无效操作，造成困惑。",
+          "standard": "Nielsen #5: Error Prevention | Nielsen #3: User Control and Freedom",
+          "suggestion_before": "无可选资源时批量操作按钮仍可点击",
+          "suggestion_after": "当无可选资源时，批量操作按钮应置灰禁用（`isDisabled: true`），并可提供悬浮提示说明禁用原因。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-003",
+          "section": "续费",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "用户满意度调查弹窗遮挡页面内容",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "诚邀您对“费用中心”进行满意度评价"
+          ],
+          "evidence": "视觉截图显示用户满意度调查弹窗覆盖在页面主体内容上方，遮挡了部分信息，且其关闭按钮（X）与弹窗背景对比度低，可能不易发现。",
+          "standard": "Nielsen #8: Aesthetic and Minimalist Design | Cooper: Modeless vs Modal",
+          "suggestion_before": "满意度调查弹窗默认显示并遮挡内容",
+          "suggestion_after": "满意度调查弹窗应以非侵入式方式展示（如页面底部浮窗），或在不影响核心操作时才弹出，并优化关闭按钮的视觉可识别性（例如：修改前：关闭按钮颜色与背景相近 → 修改后：关闭按钮使用高对比度颜色或更明显的图标）。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-004",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "帮助信息链接直接跳转外部页面，中断用户流程",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "如何续费资源？",
+            "什么是宽限期保留期？",
+            "如何自动续费？"
+          ],
+          "evidence": "页面顶部提供的多条帮助信息（如“如何续费资源？”）点击后会直接跳转到外部帮助文档页面，例如“如何续费资源？”的链接指向`https://support.huaweicloud.com/usermanual-billing/zh-cn_topic_0000001275685741.html`，这会中断用户在续费管理页面上的操作流程。",
+          "standard": "Cooper: Goal-Directed Design | Nielsen #7: Flexibility and Efficiency",
+          "suggestion_before": "帮助信息链接直接跳转外部页面",
+          "suggestion_after": "对于常见或简单的问题，点击帮助链接后应在当前页面以轻量级弹窗或侧边栏形式展示答案，避免用户离开当前操作页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-005",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "“隐藏有待支付订单的资源”和“隐藏资源包”复选框文字不突出",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "隐藏有待支付订单的资源",
+            "隐藏资源包"
+          ],
+          "evidence": "视觉截图显示这两个复选框的文字颜色较浅，字号较小，在页面中视觉权重不足，用户可能容易忽略这些筛选条件。DOM数据中未提供具体颜色和字号，但视觉上判断其对比度不足。",
+          "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+          "suggestion_before": "文字颜色浅、字号小",
+          "suggestion_after": "增加文字对比度或适当增大字号，确保筛选条件清晰可见，例如：修改前：color:#999, fontSize:12px → 修改后：color:#333, fontSize:14px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化续费管理页面的数据一致性，确保Tab显示数量与实际表格内容匹配。",
+        "改进交互设计，在无可用操作时禁用相关按钮，避免用户进行无效点击。",
+        "重新评估满意度调查弹窗的展示方式，减少对用户操作的干扰。",
+        "优化帮助信息的呈现方式，对于常见问题优先采用站内弹窗或侧边栏，减少页面跳转。"
+      ],
+      "analysis_content": "续费管理页面在信息展示和交互设计上存在多处体验问题。最突出的是Tab显示数量与实际表格数据不一致，以及在无可选资源时批量操作按钮仍可点击，这可能导致用户困惑和无效操作。此外，满意度调查弹窗的侵入式展示和帮助信息链接的外部跳转也影响了用户体验的流畅性。页面整体布局清晰，但细节处仍需优化以提升用户满意度。",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_5_renewal.png"
+    },
+    "变更": {
+      "stage": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "变更阶段入口未达成",
+          "area": "产品变更/规格变更页",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00"
+          ],
+          "evidence": "阶段URL为 https://www.huaweicloud.com/notice/20260717153237724.html；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页",
+          "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在变更阶段停留在 https://www.huaweicloud.com/notice/20260717153237724.html，无法确认已到达产品变更/规格变更页 -> 修改后：提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_6_change.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "退订": {
+      "stage": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_7_unsubscribe.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    }
+  }
+}

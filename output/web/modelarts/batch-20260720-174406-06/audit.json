@@ -1,0 +1,370 @@
+{
+  "schema_version": "1.0",
+  "source": "web",
+  "input_url": "https://www.huaweicloud.com/product/modelarts.html",
+  "generated_at": "2026-07-20T11:11:04.609710+00:00",
+  "summary": {
+    "score": 6.6,
+    "issue_count": 2,
+    "p0": 2,
+    "p1": 0,
+    "p2": 0
+  },
+  "sections": [
+    {
+      "id": "感知",
+      "name": "感知",
+      "url": "https://www.huaweicloud.com/product/modelarts.html",
+      "title": "AI开发平台_ModelArts_AI智能开放平台_人工智能平台_机器学习-华为云",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_1_awareness.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "下单",
+      "name": "下单",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+      "title": "ModelArts - Console",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_2_order.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "支付",
+      "name": "支付",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+      "title": "ModelArts - Console",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_3_payment.png",
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "支付阶段入口未达成",
+          "area": "收银台/支付确认页",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+          "locate": [
+            "ModelArts - Console"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Payment stage did not reach a servicePay, cashier, or payment confirmation page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在支付阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard，无法确认已到达收银台/支付确认页",
+          "suggestion_after": "提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在支付阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard，无法确认已到达收银台/支付确认页 -> 修改后：提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "使用",
+      "name": "使用",
+      "url": "https://console.huaweicloud.com/modelarts/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/dashboard",
+      "title": "ModelArts - Console",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_4_usage.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "续费",
+      "name": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_5_renewal.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "变更",
+      "name": "变更",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard",
+      "title": "ModelArts - Console",
+      "score": 3,
+      "is_compliant": false,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_6_change.png",
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "变更阶段入口未达成",
+          "area": "产品变更/规格变更页",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard",
+          "locate": [
+            "ModelArts - Console"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在变更阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard，无法确认已到达产品变更/规格变更页",
+          "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在变更阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard，无法确认已到达产品变更/规格变更页 -> 修改后：提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    },
+    {
+      "id": "退订",
+      "name": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 8,
+      "is_compliant": true,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_7_unsubscribe.png",
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "web-支付-001",
+      "section": "支付",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "支付阶段入口未达成",
+      "area": "收银台/支付确认页",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+      "locate": [
+        "ModelArts - Console"
+      ],
+      "evidence": "阶段URL为 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Payment stage did not reach a servicePay, cashier, or payment confirmation page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "suggestion_before": "用户在支付阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard，无法确认已到达收银台/支付确认页",
+      "suggestion_after": "提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_3_payment.png"
+    },
+    {
+      "id": "web-变更-001",
+      "section": "变更",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "变更阶段入口未达成",
+      "area": "产品变更/规格变更页",
+      "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard",
+      "locate": [
+        "ModelArts - Console"
+      ],
+      "evidence": "阶段URL为 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+      "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+      "suggestion_before": "用户在变更阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard，无法确认已到达产品变更/规格变更页",
+      "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_6_change.png"
+    }
+  ],
+  "model": {
+    "provider": "current-codex-agent",
+    "name": "agent-fallback",
+    "fallback_chain": [
+      "gemini-3.5-flash",
+      "gemini-2.5-flash",
+      "current-codex-agent"
+    ],
+    "config_path": null
+  },
+  "total_stages_analyzed": 7,
+  "stages_analyzed": [
+    "感知",
+    "下单",
+    "支付",
+    "使用",
+    "续费",
+    "变更",
+    "退订"
+  ],
+  "stages_missing": [],
+  "stage_analysis": {
+    "感知": {
+      "stage": "感知",
+      "url": "https://www.huaweicloud.com/product/modelarts.html",
+      "title": "AI开发平台_ModelArts_AI智能开放平台_人工智能平台_机器学习-华为云",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_1_awareness.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "下单": {
+      "stage": "下单",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+      "title": "ModelArts - Console",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_2_order.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "支付": {
+      "stage": "支付",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+      "title": "ModelArts - Console",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "支付阶段入口未达成",
+          "area": "收银台/支付确认页",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard",
+          "locate": [
+            "ModelArts - Console"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Payment stage did not reach a servicePay, cashier, or payment confirmation page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在支付阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard，无法确认已到达收银台/支付确认页",
+          "suggestion_after": "提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在支付阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/resource-pool/create?resourceType=standard，无法确认已到达收银台/支付确认页 -> 修改后：提供稳定、可发现且可校验的收银台/支付确认页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_3_payment.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "使用": {
+      "stage": "使用",
+      "url": "https://console.huaweicloud.com/modelarts/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/dashboard",
+      "title": "ModelArts - Console",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_4_usage.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "续费": {
+      "stage": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_5_renewal.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "变更": {
+      "stage": "变更",
+      "url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard",
+      "title": "ModelArts - Console",
+      "score": 3,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "变更阶段入口未达成",
+          "area": "产品变更/规格变更页",
+          "page_url": "https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard",
+          "locate": [
+            "ModelArts - Console"
+          ],
+          "evidence": "阶段URL为 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard；crawl 标记 entry_not_found=True, stage_goal_not_reached=True, login_required=False；原因：Change stage did not reach a product change page.",
+          "standard": "Nielsen #1 | Nielsen #3 | Nielsen #6 | Garrett: Skeleton Plane",
+          "suggestion_before": "用户在变更阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard，无法确认已到达产品变更/规格变更页",
+          "suggestion_after": "提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "修改前：用户在变更阶段停留在 https://console.huaweicloud.com/modelarts/?region=cn-east-3#/dashboard，无法确认已到达产品变更/规格变更页 -> 修改后：提供稳定、可发现且可校验的产品变更/规格变更页入口，并在跳转失败时给出明确恢复路径"
+      ],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_6_change.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    },
+    "退订": {
+      "stage": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 8,
+      "is_compliant": true,
+      "issues": [],
+      "suggestions": [],
+      "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+      "screenshot_path": "../../output/web/modelarts/batch-20260720-174406-06/screenshots/screenshot_7_unsubscribe.png",
+      "provider": "current-codex-agent",
+      "model": "agent-fallback",
+      "model_fallback_chain": [
+        "gemini-3.5-flash",
+        "gemini-2.5-flash",
+        "current-codex-agent"
+      ]
+    }
+  }
+}

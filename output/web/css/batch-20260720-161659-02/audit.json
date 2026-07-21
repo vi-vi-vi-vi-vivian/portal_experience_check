@@ -1,0 +1,1226 @@
+{
+  "schema_version": "1.0",
+  "source": "web",
+  "input_url": "https://www.huaweicloud.com/product/css.html",
+  "generated_at": "2026-07-20T09:12:39.086336+00:00",
+  "summary": {
+    "score": 3.4,
+    "issue_count": 16,
+    "p0": 4,
+    "p1": 5,
+    "p2": 7
+  },
+  "sections": [
+    {
+      "id": "感知",
+      "name": "感知",
+      "url": "https://www.huaweicloud.com/product/css.html",
+      "title": "404页面_华为云",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png",
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "官网云搜索服务CSS产品感知页返回404错误，导致客户旅程中断",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "很抱歉，没发现您要的页面",
+            "404页面_华为云"
+          ],
+          "evidence": "用户访问云搜索服务CSS的产品官网感知页（URL: https://www.huaweicloud.com/product/css.html），页面直接返回404错误，DOM中title为'404页面_华为云'，正文显示'很抱歉，没发现您要的页面'，导致用户完全无法获取该产品的任何介绍、定价或购买入口。",
+          "standard": "Garrett: Structure Plane | Nielsen #5: Error Prevention",
+          "suggestion_before": "访问产品感知页链接返回404错误页面",
+          "suggestion_after": "修复该页面的路由配置与内容部署，确保用户访问时能正常加载云搜索服务 CSS 的产品详情、功能介绍与购买入口页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "404页面推荐项目与用户目标产品无关，且缺乏智能引导机制",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "您可能感兴趣的项目：",
+            "大模型即服务平台",
+            "弹性云服务器",
+            "虚拟私有云"
+          ],
+          "evidence": "在404错误页面中，'您可能感兴趣的项目' 仅推荐了 '大模型即服务平台'、'弹性云服务器'、'虚拟私有云'，未结合用户请求的URL路径（/product/css.html）进行关联推荐（如推荐云搜索服务CSS或相关大数据产品），导致用户无法快速找回目标产品。",
+          "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "展示固定的无关产品推荐",
+          "suggestion_after": "根据用户请求的URL关键字（如css）进行智能关联推荐，或在404页面提供明显的搜索框并自动填充用户原本寻找的关键词 'CSS'，降低用户的流失率。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "立即排查并修复官网云搜索服务 CSS（css.html）的产品页面部署与路由分发，恢复产品感知入口。",
+        "优化全站404错误页面的导流机制，引入基于URL路径分析的智能推荐算法，避免在发生404时直接中断客户旅程。"
+      ],
+      "analysis_content": "在感知阶段，用户尝试通过官网链接访问云搜索服务 CSS 的产品页面，但该页面直接返回 404 错误，导致用户无法获取任何产品信息或购买入口，客户旅程在第一步发生严重阻断。页面提供的推荐内容也与目标产品完全无关，缺乏有效的容错与引导机制。"
+    },
+    {
+      "id": "下单",
+      "name": "下单",
+      "url": "https://www.huaweicloud.com/product/css.html",
+      "title": "404页面_华为云",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_2_order.png",
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到下单阶段入口（页面返回404错误）",
+          "area": "全页",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "很抱歉，没发现您要的页面",
+            "404页面_华为云"
+          ],
+          "evidence": "DOM数据中 entry_not_found 为 true，且页面URL https://www.huaweicloud.com/product/css.html 实际渲染为404错误页，页面标题为 '404页面_华为云'，正文包含 '很抱歉，没发现您要的页面'，导致用户无法进行下单购买操作。",
+          "standard": "Garrett: Structure Plane | Nielsen #5",
+          "suggestion_before": "访问下单页面返回404错误页",
+          "suggestion_after": "修复云搜索服务 CSS 的购买/下单页面链接，确保其正确跳转到控制台购买配置页（如 https://console.huaweicloud.com/css/）而非返回404页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [
+        "修复云搜索服务 CSS 的下单页面路由，确保购买入口可达，避免向用户展示404错误页。"
+      ],
+      "analysis_content": "在下单阶段，系统未能加载正确的购买或配置页面，而是直接返回了404错误页面（'很抱歉，没发现您要的页面'）。这属于严重的阻断性问题（P0级），导致客户旅程在下单阶段完全中断，无法完成购买闭环。"
+    },
+    {
+      "id": "支付",
+      "name": "支付",
+      "url": "https://www.huaweicloud.com/product/css.html",
+      "title": "404页面_华为云",
+      "score": 1,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_3_payment.png",
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未找到支付阶段入口（页面404）",
+          "area": "全局",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "很抱歉，没发现您要的页面"
+          ],
+          "evidence": "在支付阶段，系统未能加载正确的支付收银台页面，而是跳转到了404错误页面（URL: https://www.huaweicloud.com/product/css.html），页面展示'很抱歉，没发现您要的页面'。DOM数据中 entry_not_found 字段为 true，导致用户支付流程完全中断。",
+          "standard": "Nielsen #1: Visibility of System Status | Garrett: Skeleton Plane",
+          "suggestion_before": "下单后跳转至404页面 'https://www.huaweicloud.com/product/css.html'",
+          "suggestion_after": "下单后正确跳转至华为云收银台页面 'https://account.huaweicloud.com/usercenter/#/ordercenter/pay'，并展示订单金额和支付方式选择。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "紧急修复下单到支付阶段的重定向路由，确保支付链接的有效性，防止用户因404错误流失。"
+      ],
+      "analysis_content": "在支付阶段，系统未能正确引导用户进入支付页面，而是直接跳转到了404错误页。这属于严重的阻塞性体验问题（P0级），导致用户无法完成购买闭环。"
+    },
+    {
+      "id": "使用",
+      "name": "使用",
+      "url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "title": "管理控制台 - 云搜索服务",
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png",
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "满意度评价弹窗遮挡核心操作按钮",
+          "area": "首屏主视觉区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "诚邀您对“华为云”进行满意度评价",
+            "创建集群"
+          ],
+          "evidence": "满意度评价弹窗（宽约300px，高约150px）悬浮在页面右上角，直接遮挡了首屏右侧的“创建集群”核心CTA按钮以及“新手入门”区域的部分内容，干扰了用户正常的使用和操作。",
+          "standard": "Nielsen #8 | Nielsen #5",
+          "suggestion_before": "满意度评价弹窗直接在页面加载时悬浮弹出并遮挡核心按钮",
+          "suggestion_after": "将满意度评价改为非阻碍式的轻量化通知，或在用户完成核心任务（如成功创建集群）后再行触发，且不遮挡核心操作区域。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "集群类别卡片底部的创建按钮视觉权重过弱",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "创建集群",
+            "经济集群",
+            "普通集群",
+            "分析型集群"
+          ],
+          "evidence": "卡片底部的“创建集群”按钮采用白底黑字细边框设计，在白色卡片背景中对比度极低，视觉权重过弱，容易被用户忽略或误认为是不可点击状态。",
+          "standard": "Garrett: Surface Plane | Nielsen #8",
+          "suggestion_before": "卡片底部按钮样式为普通白底细边框",
+          "suggestion_after": "将卡片底部的“创建集群”按钮统一为高对比度的品牌色（如橙色或蓝色）填充按钮，提升其视觉引导性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-003",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "新手入门步骤概念跨度大且引导单一",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "导入数据",
+            "创建Logstash集群"
+          ],
+          "evidence": "步骤3标题为“导入数据”，但核心操作链接仅为“创建Logstash集群”，未提供其他常见的数据导入方式或说明，对不使用Logstash的用户造成引导困惑。",
+          "standard": "Nielsen #2 | ISO 9241-110",
+          "suggestion_before": "链接仅显示\"创建Logstash集群\"",
+          "suggestion_after": "将链接文案修改为\"查看数据导入指南\"，或并列提供\"创建Logstash集群\"与\"其他导入方式\"两个入口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-004",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "新手入门入口多处冗余且不统一",
+          "area": "顶部导航区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "新手入门"
+          ],
+          "evidence": "页面右上角工具栏和正文首屏同时存在“新手入门”入口，功能重复，且视觉样式和交互位置不统一，增加用户认知负荷。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "右上角和正文均有\"新手入门\"",
+          "suggestion_after": "保留正文中的“新手入门”作为主引导，将右上角的“新手入门”整合到“使用指南”或帮助下拉菜单中。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-005",
+          "section": "使用",
+          "type": "copy_format",
+          "severity": "p2",
+          "title": "常见问题板块分类与命名格式不统一",
+          "area": "FAQ/常见问题区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "优化集群写入性能",
+            "优化集群查询性能"
+          ],
+          "evidence": "在“常见问题”板块中混入了非疑问句式的性能优化指南，与前两个标准的FAQ格式（“...如何...？”）不一致，分类不够精准。",
+          "standard": "Nielsen #2 | Nielsen #4",
+          "suggestion_before": "\"优化集群写入性能\"",
+          "suggestion_after": "统一FAQ命名格式，如“如何优化集群写入性能？”；或将其移至“最佳实践”板块。",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "优化满意度评价弹窗的触发时机与展示方式，避免遮挡核心操作按钮。",
+        "统一页面中“创建集群”按钮的视觉层级，增强卡片内操作按钮的醒目度。",
+        "规范新手入门和常见问题板块的内容分类与文案格式，降低用户认知成本。"
+      ],
+      "analysis_content": "云搜索服务CSS控制台总览页整体布局清晰，但在细节体验上存在一些问题。最显著的问题是满意度评价弹窗遮挡了右上角的核心操作按钮，严重影响了用户的使用流程。此外，卡片内按钮的视觉权重过弱、新手入门步骤引导过于单一、多处入口冗余以及常见问题分类不规范等问题，也对用户的认知和操作便利性产生了一定影响。"
+    },
+    {
+      "id": "续费",
+      "name": "续费",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png",
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "默认Tab无数据且缺乏切换引导",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "暂无表格数据",
+            "手动续费项 (0)",
+            "到期不续费项 (3)"
+          ],
+          "evidence": "页面默认选中“手动续费项 (0)”Tab，导致表格区域大面积空白并显示“暂无表格数据”。然而，右侧“到期不续费项 (3)”和上方筛选“30天内到期：1”均显示存在资源。系统在空状态下未提供任何引导用户切换Tab的交互提示。",
+          "standard": "Nielsen #1 | Nielsen #6",
+          "suggestion_before": "展示纯文本“暂无表格数据”",
+          "suggestion_after": "在空状态中增加引导，如“当前无手动续费资源，您有 3 个资源已设为到期不续费，[点击前往查看]”；或当默认Tab无数据而其他Tab有数据时，默认切换至有数据的Tab。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "到期不续费资源续费操作链路冗长",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期不续费项 (3)",
+            "手动续费项 (0)"
+          ],
+          "evidence": "若用户想对已设为“到期不续费”的资源进行重新续费，无法在默认的“手动续费项”列表中直接看到，必须手动切换到“到期不续费项 (3)”Tab。这种物理隔离的设计增加了用户的查找和操作成本。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #7",
+          "suggestion_before": "用户必须切换Tab才能找到并续费到期不续费资源",
+          "suggestion_after": "在“全部”或默认视图下统一展示所有包年包月资源，通过列表内的状态标签（如“已设为到期不续费”）进行区分，并直接在操作列提供“恢复续费”或“立即续费”按钮。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化续费管理页面的默认视图逻辑，当手动续费项为0且存在其他待处理资源时，智能引导或自动切换Tab。",
+        "统一资源状态视图，避免因Tab分类导致用户遗漏重要到期资源。"
+      ],
+      "analysis_content": "续费管理页面在默认状态下展示了“暂无表格数据”的空状态，但实际上用户拥有3个到期不续费的资源。默认Tab的选择逻辑和空状态引导缺失，容易让用户产生“没有资源需要续费”的错觉，且增加了重新续费的操作链路。"
+    },
+    {
+      "id": "变更",
+      "name": "变更",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "score": 2,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_6_change.png",
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到变更入口",
+          "area": "全局",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "服务公告",
+            "升级公告"
+          ],
+          "evidence": "系统在变更阶段未能引导用户进入实际的产品配置变更或套餐升级页面，而是跳转到了无关的升级公告页面（https://www.huaweicloud.com/notice/20260717153237724.html），且DOM数据中标记 entry_not_found 为 true。",
+          "standard": "Nielsen #4 | Garrett: Structure Plane",
+          "suggestion_before": "跳转至服务公告页",
+          "suggestion_after": "应引导用户跳转至控制台的产品变更/配置升级页面，或在订阅管理中提供明确的‘变更配置/升级套餐’入口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "在用户尝试进行产品变更时，应提供直接、明确的配置变更或套餐升级入口，避免引导至无关的系统升级公告页面。"
+      ],
+      "analysis_content": "在变更阶段，系统未能提供有效的产品配置变更或套餐升级入口，而是错误地跳转到了统一身份认证服务（IAM）的升级公告页面，导致用户无法完成变更操作，体验旅程中断。"
+    },
+    {
+      "id": "退订",
+      "name": "退订",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png",
+      "issues": [
+        {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "layout",
+          "severity": "p1",
+          "title": "满意度评价弹窗遮挡核心操作与信息，干扰用户提现流程",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "诚邀您对\"费用中心\"进行满意度评价",
+            "非常不满意"
+          ],
+          "evidence": "截图中右侧弹出了一个宽约300px的“诚邀您对‘费用中心’进行满意度评价”弹窗，直接遮挡了提现页面的部分内容和右侧辅助功能，干扰了用户进行提现的核心操作任务。",
+          "standard": "Nielsen #8 | Nielsen #3",
+          "suggestion_before": "页面加载后自动弹出大面积满意度评价弹窗遮挡内容",
+          "suggestion_after": "将满意度评价改为页面右侧悬浮的轻量化图标，或在用户完成提现操作后再行弹出，避免阻断用户当前核心任务。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "置灰的“立即提现”按钮缺少就近的禁用原因说明",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可原路提现金额",
+            "立即提现"
+          ],
+          "evidence": "截图中“可原路提现金额”为“¥0.00”，其右侧的“立即提现”按钮处于置灰禁用状态（opacity约为0.35），但按钮就近区域未提供任何关于“为何可原路提现金额为0”或“如何开通原路提现”的解释，用户必须去顶部密密麻麻的提示中自行寻找原因。",
+          "standard": "Nielsen #5 | ISO 9241-110",
+          "suggestion_before": "按钮置灰且无就近说明",
+          "suggestion_after": "在置灰按钮旁增加问号悬浮提示，或在金额下方增加一行小字说明，如“充值已超原路退回时限，请使用银行卡提现”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-003",
+          "section": "退订",
+          "type": "layout",
+          "severity": "p2",
+          "title": "提现规则提示信息密度过高，缺乏视觉层级与结构化呈现",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "您可能想了解： 如何提现？ 提现规则？",
+            "1.提交提现申请后，什么时间到账？"
+          ],
+          "evidence": "截图中顶部的蓝色提示框内包含了6条长篇幅的提现规则，字号约为12px，行间距紧凑，且全部以纯文本列表形式堆叠，导致信息密度极高，用户极难快速抓取到“到账时间”或“限制条件”等关键信息。",
+          "standard": "Nielsen #8 | ISO 9241-110",
+          "suggestion_before": "纯文本列表堆叠6条规则",
+          "suggestion_after": "将规则进行结构化分类（如分为“到账时间”、“提现限制”、“特殊场景”），并使用折叠面板（Collapse）或表格形式呈现，减少首屏视觉超载。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-004",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "银行卡提现的关键风险提示（需上传申请函）未在操作就近处显眼提示",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可银行卡提现金额",
+            "银行卡提现原则上也要遵循原路退回"
+          ],
+          "evidence": "规则5中提到“如银行开户名与实名认证信息不一致，需上传《非原路申请函》才允许提现”，但该关键约束和不可逆风险提示仅存在于顶部的规则列表中，在下方的“可银行卡提现金额 ¥72.02 立即提现”操作区没有任何就近的风险警示，极易导致用户在点击“立即提现”并填写完资料后才发现不合规，造成流程中断。",
+          "standard": "Nielsen #5",
+          "suggestion_before": "关键限制条件仅在顶部规则中说明",
+          "suggestion_after": "在“可银行卡提现金额”操作区就近增加提示文字，如“温馨提示：若银行开户名与实名认证不一致，需前置准备《非原路申请函》”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        }
+      ],
+      "suggestions": [
+        "优化满意度评价弹窗的触发时机，避免在用户刚进入提现页面时进行强阻断式弹出。",
+        "在置灰的“立即提现”按钮旁增加就近的解释说明，提升系统的自描述性。",
+        "对顶部的提现规则进行结构化和可视化改造，降低用户的信息阅读负担。",
+        "将银行卡提现的特殊资质要求（如非原路申请函）在操作就近区域进行前置高亮提示，防止用户无效操作。"
+      ],
+      "analysis_content": "退订/退款旅程的终点是资金提现。当前提现页面存在明显的强阻断式弹窗干扰，且提现规则信息密度过高、缺乏视觉层级。此外，置灰的立即提现按钮缺乏就近的禁用原因解释，银行卡提现的关键约束条件（如非原路申请函）也未在操作就近区域进行前置警示，整体自描述性和防错性有待提升。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "web-感知-001",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "官网云搜索服务CSS产品感知页返回404错误，导致客户旅程中断",
+      "area": "首屏主视觉区",
+      "page_url": "https://www.huaweicloud.com/product/css.html",
+      "locate": [
+        "很抱歉，没发现您要的页面",
+        "404页面_华为云"
+      ],
+      "evidence": "用户访问云搜索服务CSS的产品官网感知页（URL: https://www.huaweicloud.com/product/css.html），页面直接返回404错误，DOM中title为'404页面_华为云'，正文显示'很抱歉，没发现您要的页面'，导致用户完全无法获取该产品的任何介绍、定价或购买入口。",
+      "standard": "Garrett: Structure Plane | Nielsen #5: Error Prevention",
+      "suggestion_before": "访问产品感知页链接返回404错误页面",
+      "suggestion_after": "修复该页面的路由配置与内容部署，确保用户访问时能正常加载云搜索服务 CSS 的产品详情、功能介绍与购买入口页面。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-感知-002",
+      "section": "感知",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "404页面推荐项目与用户目标产品无关，且缺乏智能引导机制",
+      "area": "功能介绍区",
+      "page_url": "https://www.huaweicloud.com/product/css.html",
+      "locate": [
+        "您可能感兴趣的项目：",
+        "大模型即服务平台",
+        "弹性云服务器",
+        "虚拟私有云"
+      ],
+      "evidence": "在404错误页面中，'您可能感兴趣的项目' 仅推荐了 '大模型即服务平台'、'弹性云服务器'、'虚拟私有云'，未结合用户请求的URL路径（/product/css.html）进行关联推荐（如推荐云搜索服务CSS或相关大数据产品），导致用户无法快速找回目标产品。",
+      "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+      "suggestion_before": "展示固定的无关产品推荐",
+      "suggestion_after": "根据用户请求的URL关键字（如css）进行智能关联推荐，或在404页面提供明显的搜索框并自动填充用户原本寻找的关键词 'CSS'，降低用户的流失率。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+    },
+    {
+      "id": "web-下单-001",
+      "section": "下单",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "未找到下单阶段入口（页面返回404错误）",
+      "area": "全页",
+      "page_url": "https://www.huaweicloud.com/product/css.html",
+      "locate": [
+        "很抱歉，没发现您要的页面",
+        "404页面_华为云"
+      ],
+      "evidence": "DOM数据中 entry_not_found 为 true，且页面URL https://www.huaweicloud.com/product/css.html 实际渲染为404错误页，页面标题为 '404页面_华为云'，正文包含 '很抱歉，没发现您要的页面'，导致用户无法进行下单购买操作。",
+      "standard": "Garrett: Structure Plane | Nielsen #5",
+      "suggestion_before": "访问下单页面返回404错误页",
+      "suggestion_after": "修复云搜索服务 CSS 的购买/下单页面链接，确保其正确跳转到控制台购买配置页（如 https://console.huaweicloud.com/css/）而非返回404页面。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_2_order.png"
+    },
+    {
+      "id": "web-支付-001",
+      "section": "支付",
+      "type": "billing_risk",
+      "severity": "p0",
+      "title": "未找到支付阶段入口（页面404）",
+      "area": "全局",
+      "page_url": "https://www.huaweicloud.com/product/css.html",
+      "locate": [
+        "很抱歉，没发现您要的页面"
+      ],
+      "evidence": "在支付阶段，系统未能加载正确的支付收银台页面，而是跳转到了404错误页面（URL: https://www.huaweicloud.com/product/css.html），页面展示'很抱歉，没发现您要的页面'。DOM数据中 entry_not_found 字段为 true，导致用户支付流程完全中断。",
+      "standard": "Nielsen #1: Visibility of System Status | Garrett: Skeleton Plane",
+      "suggestion_before": "下单后跳转至404页面 'https://www.huaweicloud.com/product/css.html'",
+      "suggestion_after": "下单后正确跳转至华为云收银台页面 'https://account.huaweicloud.com/usercenter/#/ordercenter/pay'，并展示订单金额和支付方式选择。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_3_payment.png"
+    },
+    {
+      "id": "web-使用-001",
+      "section": "使用",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "满意度评价弹窗遮挡核心操作按钮",
+      "area": "首屏主视觉区",
+      "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "locate": [
+        "诚邀您对“华为云”进行满意度评价",
+        "创建集群"
+      ],
+      "evidence": "满意度评价弹窗（宽约300px，高约150px）悬浮在页面右上角，直接遮挡了首屏右侧的“创建集群”核心CTA按钮以及“新手入门”区域的部分内容，干扰了用户正常的使用和操作。",
+      "standard": "Nielsen #8 | Nielsen #5",
+      "suggestion_before": "满意度评价弹窗直接在页面加载时悬浮弹出并遮挡核心按钮",
+      "suggestion_after": "将满意度评价改为非阻碍式的轻量化通知，或在用户完成核心任务（如成功创建集群）后再行触发，且不遮挡核心操作区域。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-002",
+      "section": "使用",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "集群类别卡片底部的创建按钮视觉权重过弱",
+      "area": "功能介绍区",
+      "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "locate": [
+        "创建集群",
+        "经济集群",
+        "普通集群",
+        "分析型集群"
+      ],
+      "evidence": "卡片底部的“创建集群”按钮采用白底黑字细边框设计，在白色卡片背景中对比度极低，视觉权重过弱，容易被用户忽略或误认为是不可点击状态。",
+      "standard": "Garrett: Surface Plane | Nielsen #8",
+      "suggestion_before": "卡片底部按钮样式为普通白底细边框",
+      "suggestion_after": "将卡片底部的“创建集群”按钮统一为高对比度的品牌色（如橙色或蓝色）填充按钮，提升其视觉引导性。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-003",
+      "section": "使用",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "新手入门步骤概念跨度大且引导单一",
+      "area": "功能介绍区",
+      "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "locate": [
+        "导入数据",
+        "创建Logstash集群"
+      ],
+      "evidence": "步骤3标题为“导入数据”，但核心操作链接仅为“创建Logstash集群”，未提供其他常见的数据导入方式或说明，对不使用Logstash的用户造成引导困惑。",
+      "standard": "Nielsen #2 | ISO 9241-110",
+      "suggestion_before": "链接仅显示\"创建Logstash集群\"",
+      "suggestion_after": "将链接文案修改为\"查看数据导入指南\"，或并列提供\"创建Logstash集群\"与\"其他导入方式\"两个入口。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-004",
+      "section": "使用",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "新手入门入口多处冗余且不统一",
+      "area": "顶部导航区",
+      "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "locate": [
+        "新手入门"
+      ],
+      "evidence": "页面右上角工具栏和正文首屏同时存在“新手入门”入口，功能重复，且视觉样式和交互位置不统一，增加用户认知负荷。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "右上角和正文均有\"新手入门\"",
+      "suggestion_after": "保留正文中的“新手入门”作为主引导，将右上角的“新手入门”整合到“使用指南”或帮助下拉菜单中。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-使用-005",
+      "section": "使用",
+      "type": "copy_format",
+      "severity": "p2",
+      "title": "常见问题板块分类与命名格式不统一",
+      "area": "FAQ/常见问题区",
+      "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "locate": [
+        "优化集群写入性能",
+        "优化集群查询性能"
+      ],
+      "evidence": "在“常见问题”板块中混入了非疑问句式的性能优化指南，与前两个标准的FAQ格式（“...如何...？”）不一致，分类不够精准。",
+      "standard": "Nielsen #2 | Nielsen #4",
+      "suggestion_before": "\"优化集群写入性能\"",
+      "suggestion_after": "统一FAQ命名格式，如“如何优化集群写入性能？”；或将其移至“最佳实践”板块。",
+      "auto_fix_eligible": true,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+    },
+    {
+      "id": "web-续费-001",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p1",
+      "title": "默认Tab无数据且缺乏切换引导",
+      "area": "功能介绍区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "暂无表格数据",
+        "手动续费项 (0)",
+        "到期不续费项 (3)"
+      ],
+      "evidence": "页面默认选中“手动续费项 (0)”Tab，导致表格区域大面积空白并显示“暂无表格数据”。然而，右侧“到期不续费项 (3)”和上方筛选“30天内到期：1”均显示存在资源。系统在空状态下未提供任何引导用户切换Tab的交互提示。",
+      "standard": "Nielsen #1 | Nielsen #6",
+      "suggestion_before": "展示纯文本“暂无表格数据”",
+      "suggestion_after": "在空状态中增加引导，如“当前无手动续费资源，您有 3 个资源已设为到期不续费，[点击前往查看]”；或当默认Tab无数据而其他Tab有数据时，默认切换至有数据的Tab。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-续费-002",
+      "section": "续费",
+      "type": "billing_risk",
+      "severity": "p2",
+      "title": "到期不续费资源续费操作链路冗长",
+      "area": "功能介绍区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "locate": [
+        "到期不续费项 (3)",
+        "手动续费项 (0)"
+      ],
+      "evidence": "若用户想对已设为“到期不续费”的资源进行重新续费，无法在默认的“手动续费项”列表中直接看到，必须手动切换到“到期不续费项 (3)”Tab。这种物理隔离的设计增加了用户的查找和操作成本。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #7",
+      "suggestion_before": "用户必须切换Tab才能找到并续费到期不续费资源",
+      "suggestion_after": "在“全部”或默认视图下统一展示所有包年包月资源，通过列表内的状态标签（如“已设为到期不续费”）进行区分，并直接在操作列提供“恢复续费”或“立即续费”按钮。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+    },
+    {
+      "id": "web-变更-001",
+      "section": "变更",
+      "type": "link_target",
+      "severity": "p0",
+      "title": "未找到变更入口",
+      "area": "全局",
+      "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "locate": [
+        "服务公告",
+        "升级公告"
+      ],
+      "evidence": "系统在变更阶段未能引导用户进入实际的产品配置变更或套餐升级页面，而是跳转到了无关的升级公告页面（https://www.huaweicloud.com/notice/20260717153237724.html），且DOM数据中标记 entry_not_found 为 true。",
+      "standard": "Nielsen #4 | Garrett: Structure Plane",
+      "suggestion_before": "跳转至服务公告页",
+      "suggestion_after": "应引导用户跳转至控制台的产品变更/配置升级页面，或在订阅管理中提供明确的‘变更配置/升级套餐’入口。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_6_change.png"
+    },
+    {
+      "id": "web-退订-001",
+      "section": "退订",
+      "type": "layout",
+      "severity": "p1",
+      "title": "满意度评价弹窗遮挡核心操作与信息，干扰用户提现流程",
+      "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "诚邀您对\"费用中心\"进行满意度评价",
+        "非常不满意"
+      ],
+      "evidence": "截图中右侧弹出了一个宽约300px的“诚邀您对‘费用中心’进行满意度评价”弹窗，直接遮挡了提现页面的部分内容和右侧辅助功能，干扰了用户进行提现的核心操作任务。",
+      "standard": "Nielsen #8 | Nielsen #3",
+      "suggestion_before": "页面加载后自动弹出大面积满意度评价弹窗遮挡内容",
+      "suggestion_after": "将满意度评价改为页面右侧悬浮的轻量化图标，或在用户完成提现操作后再行弹出，避免阻断用户当前核心任务。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-002",
+      "section": "退订",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "置灰的“立即提现”按钮缺少就近的禁用原因说明",
+      "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "可原路提现金额",
+        "立即提现"
+      ],
+      "evidence": "截图中“可原路提现金额”为“¥0.00”，其右侧的“立即提现”按钮处于置灰禁用状态（opacity约为0.35），但按钮就近区域未提供任何关于“为何可原路提现金额为0”或“如何开通原路提现”的解释，用户必须去顶部密密麻麻的提示中自行寻找原因。",
+      "standard": "Nielsen #5 | ISO 9241-110",
+      "suggestion_before": "按钮置灰且无就近说明",
+      "suggestion_after": "在置灰按钮旁增加问号悬浮提示，或在金额下方增加一行小字说明，如“充值已超原路退回时限，请使用银行卡提现”。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-003",
+      "section": "退订",
+      "type": "layout",
+      "severity": "p2",
+      "title": "提现规则提示信息密度过高，缺乏视觉层级与结构化呈现",
+      "area": "首屏主视觉区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "您可能想了解： 如何提现？ 提现规则？",
+        "1.提交提现申请后，什么时间到账？"
+      ],
+      "evidence": "截图中顶部的蓝色提示框内包含了6条长篇幅的提现规则，字号约为12px，行间距紧凑，且全部以纯文本列表形式堆叠，导致信息密度极高，用户极难快速抓取到“到账时间”或“限制条件”等关键信息。",
+      "standard": "Nielsen #8 | ISO 9241-110",
+      "suggestion_before": "纯文本列表堆叠6条规则",
+      "suggestion_after": "将规则进行结构化分类（如分为“到账时间”、“提现限制”、“特殊场景”），并使用折叠面板（Collapse）或表格形式呈现，减少首屏视觉超载。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+    },
+    {
+      "id": "web-退订-004",
+      "section": "退订",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "银行卡提现的关键风险提示（需上传申请函）未在操作就近处显眼提示",
+      "area": "定价/套餐区",
+      "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "locate": [
+        "可银行卡提现金额",
+        "银行卡提现原则上也要遵循原路退回"
+      ],
+      "evidence": "规则5中提到“如银行开户名与实名认证信息不一致，需上传《非原路申请函》才允许提现”，但该关键约束和不可逆风险提示仅存在于顶部的规则列表中，在下方的“可银行卡提现金额 ¥72.02 立即提现”操作区没有任何就近的风险警示，极易导致用户在点击“立即提现”并填写完资料后才发现不合规，造成流程中断。",
+      "standard": "Nielsen #5",
+      "suggestion_before": "关键限制条件仅在顶部规则中说明",
+      "suggestion_after": "在“可银行卡提现金额”操作区就近增加提示文字，如“温馨提示：若银行开户名与实名认证不一致，需前置准备《非原路申请函》”。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  },
+  "total_stages_analyzed": 7,
+  "stages_analyzed": [
+    "感知",
+    "下单",
+    "支付",
+    "使用",
+    "续费",
+    "变更",
+    "退订"
+  ],
+  "stages_missing": [],
+  "stage_analysis": {
+    "感知": {
+      "stage": "感知",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-感知-001",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "官网云搜索服务CSS产品感知页返回404错误，导致客户旅程中断",
+          "area": "首屏主视觉区",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "很抱歉，没发现您要的页面",
+            "404页面_华为云"
+          ],
+          "evidence": "用户访问云搜索服务CSS的产品官网感知页（URL: https://www.huaweicloud.com/product/css.html），页面直接返回404错误，DOM中title为'404页面_华为云'，正文显示'很抱歉，没发现您要的页面'，导致用户完全无法获取该产品的任何介绍、定价或购买入口。",
+          "standard": "Garrett: Structure Plane | Nielsen #5: Error Prevention",
+          "suggestion_before": "访问产品感知页链接返回404错误页面",
+          "suggestion_after": "修复该页面的路由配置与内容部署，确保用户访问时能正常加载云搜索服务 CSS 的产品详情、功能介绍与购买入口页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+        },
+        {
+          "id": "web-感知-002",
+          "section": "感知",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "404页面推荐项目与用户目标产品无关，且缺乏智能引导机制",
+          "area": "功能介绍区",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "您可能感兴趣的项目：",
+            "大模型即服务平台",
+            "弹性云服务器",
+            "虚拟私有云"
+          ],
+          "evidence": "在404错误页面中，'您可能感兴趣的项目' 仅推荐了 '大模型即服务平台'、'弹性云服务器'、'虚拟私有云'，未结合用户请求的URL路径（/product/css.html）进行关联推荐（如推荐云搜索服务CSS或相关大数据产品），导致用户无法快速找回目标产品。",
+          "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+          "suggestion_before": "展示固定的无关产品推荐",
+          "suggestion_after": "根据用户请求的URL关键字（如css）进行智能关联推荐，或在404页面提供明显的搜索框并自动填充用户原本寻找的关键词 'CSS'，降低用户的流失率。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+        }
+      ],
+      "suggestions": [
+        "立即排查并修复官网云搜索服务 CSS（css.html）的产品页面部署与路由分发，恢复产品感知入口。",
+        "优化全站404错误页面的导流机制，引入基于URL路径分析的智能推荐算法，避免在发生404时直接中断客户旅程。"
+      ],
+      "analysis_content": "在感知阶段，用户尝试通过官网链接访问云搜索服务 CSS 的产品页面，但该页面直接返回 404 错误，导致用户无法获取任何产品信息或购买入口，客户旅程在第一步发生严重阻断。页面提供的推荐内容也与目标产品完全无关，缺乏有效的容错与引导机制。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/css.html",
+      "title": "404页面_华为云",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+    },
+    "下单": {
+      "stage": "下单",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-下单-001",
+          "section": "下单",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到下单阶段入口（页面返回404错误）",
+          "area": "全页",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "很抱歉，没发现您要的页面",
+            "404页面_华为云"
+          ],
+          "evidence": "DOM数据中 entry_not_found 为 true，且页面URL https://www.huaweicloud.com/product/css.html 实际渲染为404错误页，页面标题为 '404页面_华为云'，正文包含 '很抱歉，没发现您要的页面'，导致用户无法进行下单购买操作。",
+          "standard": "Garrett: Structure Plane | Nielsen #5",
+          "suggestion_before": "访问下单页面返回404错误页",
+          "suggestion_after": "修复云搜索服务 CSS 的购买/下单页面链接，确保其正确跳转到控制台购买配置页（如 https://console.huaweicloud.com/css/）而非返回404页面。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_2_order.png"
+        }
+      ],
+      "suggestions": [
+        "修复云搜索服务 CSS 的下单页面路由，确保购买入口可达，避免向用户展示404错误页。"
+      ],
+      "analysis_content": "在下单阶段，系统未能加载正确的购买或配置页面，而是直接返回了404错误页面（'很抱歉，没发现您要的页面'）。这属于严重的阻断性问题（P0级），导致客户旅程在下单阶段完全中断，无法完成购买闭环。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/css.html",
+      "title": "404页面_华为云",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_2_order.png"
+    },
+    "支付": {
+      "stage": "支付",
+      "score": 1,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-支付-001",
+          "section": "支付",
+          "type": "billing_risk",
+          "severity": "p0",
+          "title": "未找到支付阶段入口（页面404）",
+          "area": "全局",
+          "page_url": "https://www.huaweicloud.com/product/css.html",
+          "locate": [
+            "很抱歉，没发现您要的页面"
+          ],
+          "evidence": "在支付阶段，系统未能加载正确的支付收银台页面，而是跳转到了404错误页面（URL: https://www.huaweicloud.com/product/css.html），页面展示'很抱歉，没发现您要的页面'。DOM数据中 entry_not_found 字段为 true，导致用户支付流程完全中断。",
+          "standard": "Nielsen #1: Visibility of System Status | Garrett: Skeleton Plane",
+          "suggestion_before": "下单后跳转至404页面 'https://www.huaweicloud.com/product/css.html'",
+          "suggestion_after": "下单后正确跳转至华为云收银台页面 'https://account.huaweicloud.com/usercenter/#/ordercenter/pay'，并展示订单金额和支付方式选择。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_3_payment.png"
+        }
+      ],
+      "suggestions": [
+        "紧急修复下单到支付阶段的重定向路由，确保支付链接的有效性，防止用户因404错误流失。"
+      ],
+      "analysis_content": "在支付阶段，系统未能正确引导用户进入支付页面，而是直接跳转到了404错误页。这属于严重的阻塞性体验问题（P0级），导致用户无法完成购买闭环。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/product/css.html",
+      "title": "404页面_华为云",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_3_payment.png"
+    },
+    "使用": {
+      "stage": "使用",
+      "score": 7,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-使用-001",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "满意度评价弹窗遮挡核心操作按钮",
+          "area": "首屏主视觉区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "诚邀您对“华为云”进行满意度评价",
+            "创建集群"
+          ],
+          "evidence": "满意度评价弹窗（宽约300px，高约150px）悬浮在页面右上角，直接遮挡了首屏右侧的“创建集群”核心CTA按钮以及“新手入门”区域的部分内容，干扰了用户正常的使用和操作。",
+          "standard": "Nielsen #8 | Nielsen #5",
+          "suggestion_before": "满意度评价弹窗直接在页面加载时悬浮弹出并遮挡核心按钮",
+          "suggestion_after": "将满意度评价改为非阻碍式的轻量化通知，或在用户完成核心任务（如成功创建集群）后再行触发，且不遮挡核心操作区域。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-002",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "集群类别卡片底部的创建按钮视觉权重过弱",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "创建集群",
+            "经济集群",
+            "普通集群",
+            "分析型集群"
+          ],
+          "evidence": "卡片底部的“创建集群”按钮采用白底黑字细边框设计，在白色卡片背景中对比度极低，视觉权重过弱，容易被用户忽略或误认为是不可点击状态。",
+          "standard": "Garrett: Surface Plane | Nielsen #8",
+          "suggestion_before": "卡片底部按钮样式为普通白底细边框",
+          "suggestion_after": "将卡片底部的“创建集群”按钮统一为高对比度的品牌色（如橙色或蓝色）填充按钮，提升其视觉引导性。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-003",
+          "section": "使用",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "新手入门步骤概念跨度大且引导单一",
+          "area": "功能介绍区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "导入数据",
+            "创建Logstash集群"
+          ],
+          "evidence": "步骤3标题为“导入数据”，但核心操作链接仅为“创建Logstash集群”，未提供其他常见的数据导入方式或说明，对不使用Logstash的用户造成引导困惑。",
+          "standard": "Nielsen #2 | ISO 9241-110",
+          "suggestion_before": "链接仅显示\"创建Logstash集群\"",
+          "suggestion_after": "将链接文案修改为\"查看数据导入指南\"，或并列提供\"创建Logstash集群\"与\"其他导入方式\"两个入口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-004",
+          "section": "使用",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "新手入门入口多处冗余且不统一",
+          "area": "顶部导航区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "新手入门"
+          ],
+          "evidence": "页面右上角工具栏和正文首屏同时存在“新手入门”入口，功能重复，且视觉样式和交互位置不统一，增加用户认知负荷。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "右上角和正文均有\"新手入门\"",
+          "suggestion_after": "保留正文中的“新手入门”作为主引导，将右上角的“新手入门”整合到“使用指南”或帮助下拉菜单中。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        },
+        {
+          "id": "web-使用-005",
+          "section": "使用",
+          "type": "copy_format",
+          "severity": "p2",
+          "title": "常见问题板块分类与命名格式不统一",
+          "area": "FAQ/常见问题区",
+          "page_url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+          "locate": [
+            "优化集群写入性能",
+            "优化集群查询性能"
+          ],
+          "evidence": "在“常见问题”板块中混入了非疑问句式的性能优化指南，与前两个标准的FAQ格式（“...如何...？”）不一致，分类不够精准。",
+          "standard": "Nielsen #2 | Nielsen #4",
+          "suggestion_before": "\"优化集群写入性能\"",
+          "suggestion_after": "统一FAQ命名格式，如“如何优化集群写入性能？”；或将其移至“最佳实践”板块。",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+        }
+      ],
+      "suggestions": [
+        "优化满意度评价弹窗的触发时机与展示方式，避免遮挡核心操作按钮。",
+        "统一页面中“创建集群”按钮的视觉层级，增强卡片内操作按钮的醒目度。",
+        "规范新手入门和常见问题板块的内容分类与文案格式，降低用户认知成本。"
+      ],
+      "analysis_content": "云搜索服务CSS控制台总览页整体布局清晰，但在细节体验上存在一些问题。最显著的问题是满意度评价弹窗遮挡了右上角的核心操作按钮，严重影响了用户的使用流程。此外，卡片内按钮的视觉权重过弱、新手入门步骤引导过于单一、多处入口冗余以及常见问题分类不规范等问题，也对用户的认知和操作便利性产生了一定影响。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+      "title": "管理控制台 - 云搜索服务",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+    },
+    "续费": {
+      "stage": "续费",
+      "score": 6,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-续费-001",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p1",
+          "title": "默认Tab无数据且缺乏切换引导",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "暂无表格数据",
+            "手动续费项 (0)",
+            "到期不续费项 (3)"
+          ],
+          "evidence": "页面默认选中“手动续费项 (0)”Tab，导致表格区域大面积空白并显示“暂无表格数据”。然而，右侧“到期不续费项 (3)”和上方筛选“30天内到期：1”均显示存在资源。系统在空状态下未提供任何引导用户切换Tab的交互提示。",
+          "standard": "Nielsen #1 | Nielsen #6",
+          "suggestion_before": "展示纯文本“暂无表格数据”",
+          "suggestion_after": "在空状态中增加引导，如“当前无手动续费资源，您有 3 个资源已设为到期不续费，[点击前往查看]”；或当默认Tab无数据而其他Tab有数据时，默认切换至有数据的Tab。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+        },
+        {
+          "id": "web-续费-002",
+          "section": "续费",
+          "type": "billing_risk",
+          "severity": "p2",
+          "title": "到期不续费资源续费操作链路冗长",
+          "area": "功能介绍区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+          "locate": [
+            "到期不续费项 (3)",
+            "手动续费项 (0)"
+          ],
+          "evidence": "若用户想对已设为“到期不续费”的资源进行重新续费，无法在默认的“手动续费项”列表中直接看到，必须手动切换到“到期不续费项 (3)”Tab。这种物理隔离的设计增加了用户的查找和操作成本。",
+          "standard": "Garrett: Skeleton Plane | Nielsen #7",
+          "suggestion_before": "用户必须切换Tab才能找到并续费到期不续费资源",
+          "suggestion_after": "在“全部”或默认视图下统一展示所有包年包月资源，通过列表内的状态标签（如“已设为到期不续费”）进行区分，并直接在操作列提供“恢复续费”或“立即续费”按钮。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+        }
+      ],
+      "suggestions": [
+        "优化续费管理页面的默认视图逻辑，当手动续费项为0且存在其他待处理资源时，智能引导或自动切换Tab。",
+        "统一资源状态视图，避免因Tab分类导致用户遗漏重要到期资源。"
+      ],
+      "analysis_content": "续费管理页面在默认状态下展示了“暂无表格数据”的空状态，但实际上用户拥有3个到期不续费的资源。默认Tab的选择逻辑和空状态引导缺失，容易让用户产生“没有资源需要续费”的错觉，且增加了重新续费的操作链路。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/userindex/renewalManagement",
+      "title": "费用中心-续费管理",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_5_renewal.png"
+    },
+    "变更": {
+      "stage": "变更",
+      "score": 2,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-变更-001",
+          "section": "变更",
+          "type": "link_target",
+          "severity": "p0",
+          "title": "未找到变更入口",
+          "area": "全局",
+          "page_url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+          "locate": [
+            "服务公告",
+            "升级公告"
+          ],
+          "evidence": "系统在变更阶段未能引导用户进入实际的产品配置变更或套餐升级页面，而是跳转到了无关的升级公告页面（https://www.huaweicloud.com/notice/20260717153237724.html），且DOM数据中标记 entry_not_found 为 true。",
+          "standard": "Nielsen #4 | Garrett: Structure Plane",
+          "suggestion_before": "跳转至服务公告页",
+          "suggestion_after": "应引导用户跳转至控制台的产品变更/配置升级页面，或在订阅管理中提供明确的‘变更配置/升级套餐’入口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_6_change.png"
+        }
+      ],
+      "suggestions": [
+        "在用户尝试进行产品变更时，应提供直接、明确的配置变更或套餐升级入口，避免引导至无关的系统升级公告页面。"
+      ],
+      "analysis_content": "在变更阶段，系统未能提供有效的产品配置变更或套餐升级入口，而是错误地跳转到了统一身份认证服务（IAM）的升级公告页面，导致用户无法完成变更操作，体验旅程中断。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+      "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_6_change.png"
+    },
+    "退订": {
+      "stage": "退订",
+      "score": 6,
+      "is_compliant": false,
+      "issues": [
+        {
+          "id": "web-退订-001",
+          "section": "退订",
+          "type": "layout",
+          "severity": "p1",
+          "title": "满意度评价弹窗遮挡核心操作与信息，干扰用户提现流程",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "诚邀您对\"费用中心\"进行满意度评价",
+            "非常不满意"
+          ],
+          "evidence": "截图中右侧弹出了一个宽约300px的“诚邀您对‘费用中心’进行满意度评价”弹窗，直接遮挡了提现页面的部分内容和右侧辅助功能，干扰了用户进行提现的核心操作任务。",
+          "standard": "Nielsen #8 | Nielsen #3",
+          "suggestion_before": "页面加载后自动弹出大面积满意度评价弹窗遮挡内容",
+          "suggestion_after": "将满意度评价改为页面右侧悬浮的轻量化图标，或在用户完成提现操作后再行弹出，避免阻断用户当前核心任务。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-002",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "置灰的“立即提现”按钮缺少就近的禁用原因说明",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可原路提现金额",
+            "立即提现"
+          ],
+          "evidence": "截图中“可原路提现金额”为“¥0.00”，其右侧的“立即提现”按钮处于置灰禁用状态（opacity约为0.35），但按钮就近区域未提供任何关于“为何可原路提现金额为0”或“如何开通原路提现”的解释，用户必须去顶部密密麻麻的提示中自行寻找原因。",
+          "standard": "Nielsen #5 | ISO 9241-110",
+          "suggestion_before": "按钮置灰且无就近说明",
+          "suggestion_after": "在置灰按钮旁增加问号悬浮提示，或在金额下方增加一行小字说明，如“充值已超原路退回时限，请使用银行卡提现”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-003",
+          "section": "退订",
+          "type": "layout",
+          "severity": "p2",
+          "title": "提现规则提示信息密度过高，缺乏视觉层级与结构化呈现",
+          "area": "首屏主视觉区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "您可能想了解： 如何提现？ 提现规则？",
+            "1.提交提现申请后，什么时间到账？"
+          ],
+          "evidence": "截图中顶部的蓝色提示框内包含了6条长篇幅的提现规则，字号约为12px，行间距紧凑，且全部以纯文本列表形式堆叠，导致信息密度极高，用户极难快速抓取到“到账时间”或“限制条件”等关键信息。",
+          "standard": "Nielsen #8 | ISO 9241-110",
+          "suggestion_before": "纯文本列表堆叠6条规则",
+          "suggestion_after": "将规则进行结构化分类（如分为“到账时间”、“提现限制”、“特殊场景”），并使用折叠面板（Collapse）或表格形式呈现，减少首屏视觉超载。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        },
+        {
+          "id": "web-退订-004",
+          "section": "退订",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "银行卡提现的关键风险提示（需上传申请函）未在操作就近处显眼提示",
+          "area": "定价/套餐区",
+          "page_url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+          "locate": [
+            "可银行卡提现金额",
+            "银行卡提现原则上也要遵循原路退回"
+          ],
+          "evidence": "规则5中提到“如银行开户名与实名认证信息不一致，需上传《非原路申请函》才允许提现”，但该关键约束和不可逆风险提示仅存在于顶部的规则列表中，在下方的“可银行卡提现金额 ¥72.02 立即提现”操作区没有任何就近的风险警示，极易导致用户在点击“立即提现”并填写完资料后才发现不合规，造成流程中断。",
+          "standard": "Nielsen #5",
+          "suggestion_before": "关键限制条件仅在顶部规则中说明",
+          "suggestion_after": "在“可银行卡提现金额”操作区就近增加提示文字，如“温馨提示：若银行开户名与实名认证不一致，需前置准备《非原路申请函》”。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+        }
+      ],
+      "suggestions": [
+        "优化满意度评价弹窗的触发时机，避免在用户刚进入提现页面时进行强阻断式弹出。",
+        "在置灰的“立即提现”按钮旁增加就近的解释说明，提升系统的自描述性。",
+        "对顶部的提现规则进行结构化和可视化改造，降低用户的信息阅读负担。",
+        "将银行卡提现的特殊资质要求（如非原路申请函）在操作就近区域进行前置高亮提示，防止用户无效操作。"
+      ],
+      "analysis_content": "退订/退款旅程的终点是资金提现。当前提现页面存在明显的强阻断式弹窗干扰，且提现规则信息密度过高、缺乏视觉层级。此外，置灰的立即提现按钮缺乏就近的禁用原因解释，银行卡提现的关键约束条件（如非原路申请函）也未在操作就近区域进行前置警示，整体自描述性和防错性有待提升。",
+      "provider": "gemini",
+      "model": "gemini-3.5-flash",
+      "model_fallback_chain": [
+        "gemini:gemini-3.5-flash",
+        "gemini:gemini-2.5-flash"
+      ],
+      "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+      "url": "https://account.huaweicloud.com/usercenter/?agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3&locale=zh-cn#/userindex/refundRecord",
+      "title": "费用中心-提现",
+      "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_7_unsubscribe.png"
+    }
+  }
+}

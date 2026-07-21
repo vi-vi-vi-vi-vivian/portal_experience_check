@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/ai/medical.html",
+  "generated_at": "2026-07-20T03:49:14.147420+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/ai/medical.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "客户案例卡片文本严重横向溢出",
+          "area": "客户案例区域",
+          "page_url": "https://www.huaweicloud.com/ai/medical.html",
+          "locate": [
+            "div.por-container > div.section-body > div.customers-tab > div.customers-tab-body > div.customers-tab-content.show.show-mb"
+          ],
+          "evidence": "该DOM元素的 clientWidth 为 159px，而 scrollWidth 达到 306px，存在严重的横向溢出。导致‘邯郸市中心医院基于华为云构建病理AI辅助诊断解决方案...’等文本内容在移动端被截断或产生不必要的局部横向滚动。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "未对移动端卡片宽度及弹性盒模型进行适配，导致容器宽度缩窄至159px而内容溢出。",
+          "suggestion_after": "对 .customers-tab-content.show-mb 样式设置 width: 100%; box-sizing: border-box; 并确保子元素 .customers-texts 的 word-break: break-all; 或 white-space: normal; 正常折行。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "copy_format",
+          "severity": "p2",
+          "title": "核心操作按钮触控热区高度不足",
+          "area": "产品推荐与体验区",
+          "page_url": "https://www.huaweicloud.com/ai/medical.html",
+          "locate": [
+            "div.por-col-24 > a.por-card.has-border > div.card-content > object.btn-group > a.por-btn.por-btn-md-small.por-btn-secondary",
+            "div.por-col-24 > a.por-card.has-border > div.card-content > object.btn-group > a.por-btn.por-btn-md-small.por-btn-secondary"
+          ],
+          "evidence": "‘公测免费体验’（index 11, 14）和‘格式体验’（index 17）等按钮的尺寸仅为 106x24px 和 82x24px。高度 24px 远低于移动端推荐的最小触控高度 48px（或至少 36px），极易导致用户误触或点击无响应。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度仅为 24px。",
+          "suggestion_after": "将 .por-btn-md-small 的最小高度设置为 36px 或 40px，并适当增加上下 padding，确保整体触控热区高度不低于 44px。",
+          "auto_fix_eligible": true,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "底部固定悬浮栏未适配安全区",
+          "area": "页面底部固定栏",
+          "page_url": "https://www.huaweicloud.com/ai/medical.html",
+          "locate": [
+            "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn"
+          ],
+          "evidence": "该固定底部栏（华为云App下载推广栏）采用 position: fixed; bottom: 0px; 布局，但 hasSafeAreaInset 属性为 false，且 paddingBottom 为 0px。在全面屏手机（如带有Home指示条的iOS设备）上会与系统手势区域重叠，造成视觉遮挡和误触。",
+          "standard": "移动端响应式规范",
+          "suggestion_before": "bottom: 0px; padding-bottom: 0px;",
+          "suggestion_after": "利用 CSS env() 函数适配安全区，设置 padding-bottom: env(safe-area-inset-bottom); 并相应调整固定栏高度，避免与系统底部操作条重合。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "智慧病理及大模型介绍区域轻微横向溢出",
+          "area": "智慧病理服务介绍区",
+          "page_url": "https://www.huaweicloud.com/ai/medical.html",
+          "locate": [
+            "div#section-3 > div.pep-scenario-experience > div.por-section.por-section-merge-spacing > div.por-container > div.por-section-body",
+            "div.por-container > div.por-section-body > div.por-tab-container > div.por-tab-wrapper > div.por-tab-content.active"
+          ],
+          "evidence": "上述两个容器的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出，会导致页面在滑动时产生轻微的左右晃动，影响浏览体验。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "容器宽度或外边距计算不精准导致 4px 溢出。",
+          "suggestion_after": "检查 .por-section-body 和 .por-tab-wrapper 的 margin/padding 属性，确保其 width: 100% 时不会因为 padding 额外撑开，或设置 overflow-x: hidden;",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面排查移动端所有按钮（尤其是带‘体验’、‘咨询’字样的CTA按钮）的尺寸，确保高度不低于36px，优先推荐44px以上。",
+        "针对客户案例（customers-tab）在移动端的响应式布局进行重构，避免使用固定宽度或限制 flex-shrink，确保文本在小屏设备上能自适应折行。",
+        "全局引入 iOS Safe Area 适配，对所有 position: fixed 处于底部的元素进行安全距离留白。"
+      ],
+      "analysis_content": "智慧医疗专区移动端页面整体结构完整，导航菜单功能正常。但响应式适配存在明显缺陷：一是客户案例卡片文本区域存在严重的横向溢出（宽度缩窄至159px而内容达306px），导致文字严重截断；二是多个核心公测体验按钮高度仅为24px，触控体验极差；三是底部固定App推广栏未适配全面屏安全区，存在系统层级误触风险。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "客户案例卡片文本严重横向溢出",
+      "area": "客户案例区域",
+      "page_url": "https://www.huaweicloud.com/ai/medical.html",
+      "locate": [
+        "div.por-container > div.section-body > div.customers-tab > div.customers-tab-body > div.customers-tab-content.show.show-mb"
+      ],
+      "evidence": "该DOM元素的 clientWidth 为 159px，而 scrollWidth 达到 306px，存在严重的横向溢出。导致‘邯郸市中心医院基于华为云构建病理AI辅助诊断解决方案...’等文本内容在移动端被截断或产生不必要的局部横向滚动。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "未对移动端卡片宽度及弹性盒模型进行适配，导致容器宽度缩窄至159px而内容溢出。",
+      "suggestion_after": "对 .customers-tab-content.show-mb 样式设置 width: 100%; box-sizing: border-box; 并确保子元素 .customers-texts 的 word-break: break-all; 或 white-space: normal; 正常折行。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "copy_format",
+      "severity": "p2",
+      "title": "核心操作按钮触控热区高度不足",
+      "area": "产品推荐与体验区",
+      "page_url": "https://www.huaweicloud.com/ai/medical.html",
+      "locate": [
+        "div.por-col-24 > a.por-card.has-border > div.card-content > object.btn-group > a.por-btn.por-btn-md-small.por-btn-secondary",
+        "div.por-col-24 > a.por-card.has-border > div.card-content > object.btn-group > a.por-btn.por-btn-md-small.por-btn-secondary"
+      ],
+      "evidence": "‘公测免费体验’（index 11, 14）和‘格式体验’（index 17）等按钮的尺寸仅为 106x24px 和 82x24px。高度 24px 远低于移动端推荐的最小触控高度 48px（或至少 36px），极易导致用户误触或点击无响应。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度仅为 24px。",
+      "suggestion_after": "将 .por-btn-md-small 的最小高度设置为 36px 或 40px，并适当增加上下 padding，确保整体触控热区高度不低于 44px。",
+      "auto_fix_eligible": true,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "底部固定悬浮栏未适配安全区",
+      "area": "页面底部固定栏",
+      "page_url": "https://www.huaweicloud.com/ai/medical.html",
+      "locate": [
+        "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn"
+      ],
+      "evidence": "该固定底部栏（华为云App下载推广栏）采用 position: fixed; bottom: 0px; 布局，但 hasSafeAreaInset 属性为 false，且 paddingBottom 为 0px。在全面屏手机（如带有Home指示条的iOS设备）上会与系统手势区域重叠，造成视觉遮挡和误触。",
+      "standard": "移动端响应式规范",
+      "suggestion_before": "bottom: 0px; padding-bottom: 0px;",
+      "suggestion_after": "利用 CSS env() 函数适配安全区，设置 padding-bottom: env(safe-area-inset-bottom); 并相应调整固定栏高度，避免与系统底部操作条重合。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "智慧病理及大模型介绍区域轻微横向溢出",
+      "area": "智慧病理服务介绍区",
+      "page_url": "https://www.huaweicloud.com/ai/medical.html",
+      "locate": [
+        "div#section-3 > div.pep-scenario-experience > div.por-section.por-section-merge-spacing > div.por-container > div.por-section-body",
+        "div.por-container > div.por-section-body > div.por-tab-container > div.por-tab-wrapper > div.por-tab-content.active"
+      ],
+      "evidence": "上述两个容器的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出，会导致页面在滑动时产生轻微的左右晃动，影响浏览体验。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "容器宽度或外边距计算不精准导致 4px 溢出。",
+      "suggestion_after": "检查 .por-section-body 和 .por-tab-wrapper 的 margin/padding 属性，确保其 width: 100% 时不会因为 padding 额外撑开，或设置 overflow-x: hidden;",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_ai_medical_html/batch-20260720-095401-18/screenshots/https_www_huaweicloud_com_ai_medical_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://developer.huaweicloud.com/aishell.html",
+  "generated_at": "2026-07-20T04:09:21.195859+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://developer.huaweicloud.com/aishell.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "首屏主CTA“立即体验”点击无响应",
+          "area": "首屏 Banner 区域",
+          "page_url": "https://developer.huaweicloud.com/aishell.html",
+          "locate": [
+            "a.por-btn.por-btn-primary.por-btn-middle",
+            "立即体验"
+          ],
+          "evidence": "点击测试结果为 no-visible-effect，控制台报错 Refused to execute script because its MIME type is not executable，页面未发生跳转（afterUrl 仍为原 URL）。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "点击主CTA按钮无跳转或视觉反馈，控制台抛出安全/MIME类型错误",
+          "suggestion_after": "修复前端脚本加载与CSP/MIME配置，确保点击后能正常跳转至目标地址。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "关键操作及导航链接触控区域过小",
+          "area": "导航菜单及页脚",
+          "page_url": "https://developer.huaweicloud.com/aishell.html",
+          "locate": [
+            "a.por-btn.por-btn-primary.por-btn-middle",
+            "个人主页",
+            "我的博客",
+            "立即体验",
+            "下载华为云APP"
+          ],
+          "evidence": "DOM数据中 smallTargets 记录了多个关键可点击元素的尺寸远低于移动端推荐的 48x48px 触控标准，例如“个人主页”宽度仅 16px，“立即体验”高度仅 32px，“下载华为云APP”高度仅 16px。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "触控目标高度/宽度低于 32px，易导致误触",
+          "suggestion_after": "为移动端触控元素增加 padding，使整体可点击区域达到至少 48x48px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "首屏Banner文本容器轻微横向溢出",
+          "area": "首屏 Banner 区域",
+          "page_url": "https://developer.huaweicloud.com/aishell.html",
+          "locate": [
+            "div.por-section-body",
+            "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验"
+          ],
+          "evidence": "DOM textRisks 字段显示，首屏 Banner 容器的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出风险。",
+          "standard": "Responsive Layout",
+          "suggestion_before": "容器宽度未完全适配视口，导致 4px 的微小横向滚动",
+          "suggestion_after": "优化 CSS 布局，设置 box-sizing: border-box 并确保 max-width: 100%，消除横向溢出。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "侧边栏“返回”按钮点击无响应",
+          "area": "侧边个人信息面板",
+          "page_url": "https://developer.huaweicloud.com/aishell.html",
+          "locate": [
+            "span.back-btn",
+            "返回"
+          ],
+          "evidence": "点击测试结果为 no-visible-effect，可能原因为 tap-center-hit-different-element（点击中心命中了其他元素），导致用户无法通过该按钮返回。",
+          "standard": "Nielsen #3",
+          "suggestion_before": "点击“返回”按钮无响应，且点击判定漂移",
+          "suggestion_after": "优化 span.back-btn 的层级（z-index）与点击热区，确保点击能准确触发返回/关闭面板事件。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "修复首屏主CTA“立即体验”的点击跳转逻辑，解决控制台中的脚本执行及安全策略（CSP）报错。",
+        "全面排查移动端页面的触控热区，将所有核心导航、按钮的点击区域优化至 48x48px 以上，避免误触。",
+        "优化首屏 Banner 容器的宽度自适应，消除 4px 的微小横向溢出，提升页面整体的精致感。"
+      ],
+      "analysis_content": "华为云 AI Shell 移动端页面整体结构清晰，但在移动端交互体验上存在较严重问题。首屏核心 CTA 按钮“立即体验”因前端脚本及安全策略报错导致点击无响应，严重阻碍了用户转化；同时，导航菜单和页脚的多个链接触控面积过小，不符合移动端触控标准；首屏容器存在轻微横向溢出，需进一步优化响应式细节。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "首屏主CTA“立即体验”点击无响应",
+      "area": "首屏 Banner 区域",
+      "page_url": "https://developer.huaweicloud.com/aishell.html",
+      "locate": [
+        "a.por-btn.por-btn-primary.por-btn-middle",
+        "立即体验"
+      ],
+      "evidence": "点击测试结果为 no-visible-effect，控制台报错 Refused to execute script because its MIME type is not executable，页面未发生跳转（afterUrl 仍为原 URL）。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "点击主CTA按钮无跳转或视觉反馈，控制台抛出安全/MIME类型错误",
+      "suggestion_after": "修复前端脚本加载与CSP/MIME配置，确保点击后能正常跳转至目标地址。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "关键操作及导航链接触控区域过小",
+      "area": "导航菜单及页脚",
+      "page_url": "https://developer.huaweicloud.com/aishell.html",
+      "locate": [
+        "a.por-btn.por-btn-primary.por-btn-middle",
+        "个人主页",
+        "我的博客",
+        "立即体验",
+        "下载华为云APP"
+      ],
+      "evidence": "DOM数据中 smallTargets 记录了多个关键可点击元素的尺寸远低于移动端推荐的 48x48px 触控标准，例如“个人主页”宽度仅 16px，“立即体验”高度仅 32px，“下载华为云APP”高度仅 16px。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "触控目标高度/宽度低于 32px，易导致误触",
+      "suggestion_after": "为移动端触控元素增加 padding，使整体可点击区域达到至少 48x48px。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "首屏Banner文本容器轻微横向溢出",
+      "area": "首屏 Banner 区域",
+      "page_url": "https://developer.huaweicloud.com/aishell.html",
+      "locate": [
+        "div.por-section-body",
+        "AI Shell，云上开发运维效率升级 大模型驱动，自然语言对话、智能排错、云端在线终端 立即体验"
+      ],
+      "evidence": "DOM textRisks 字段显示，首屏 Banner 容器的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的横向溢出风险。",
+      "standard": "Responsive Layout",
+      "suggestion_before": "容器宽度未完全适配视口，导致 4px 的微小横向滚动",
+      "suggestion_after": "优化 CSS 布局，设置 box-sizing: border-box 并确保 max-width: 100%，消除横向溢出。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "侧边栏“返回”按钮点击无响应",
+      "area": "侧边个人信息面板",
+      "page_url": "https://developer.huaweicloud.com/aishell.html",
+      "locate": [
+        "span.back-btn",
+        "返回"
+      ],
+      "evidence": "点击测试结果为 no-visible-effect，可能原因为 tap-center-hit-different-element（点击中心命中了其他元素），导致用户无法通过该按钮返回。",
+      "standard": "Nielsen #3",
+      "suggestion_before": "点击“返回”按钮无响应，且点击判定漂移",
+      "suggestion_after": "优化 span.back-btn 的层级（z-index）与点击热区，确保点击能准确触发返回/关闭面板事件。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_developer_huaweicloud_com_aishell_html/batch-20260720-095401-22/screenshots/https_developer_huaweicloud_com_aishell_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

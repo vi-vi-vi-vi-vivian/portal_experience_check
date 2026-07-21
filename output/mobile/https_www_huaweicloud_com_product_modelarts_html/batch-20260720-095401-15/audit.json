@@ -1,0 +1,200 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/product/modelarts.html",
+  "generated_at": "2026-07-20T03:35:18.341869+00:00",
+  "summary": {
+    "score": 6,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 1,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/product/modelarts.html",
+      "title": null,
+      "score": 6,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "关键操作按钮及链接触控区域过小",
+          "area": "全局 / Banner / Footer",
+          "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+          "locate": [
+            "购买",
+            "控制台",
+            "文档",
+            "立即体验",
+            "立即咨询",
+            "立即下载"
+          ],
+          "evidence": "DOM smallTargets 显示多个核心 CTA 触控面积不足：'购买' (78x32px)、'控制台' (92x32px)、'文档' (78x32px)、'立即体验' (106x32px)、'立即咨询' (80x16px)、'立即下载' (106x32px)，均低于移动端 44x44px 的标准触控热区要求。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度仅为 32px，链接高度仅为 16px",
+          "suggestion_after": "将所有主备 CTA 按钮高度提升至至少 44px，文字链接增加 padding 扩展热区至 44x44px 以上。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "底部固定下载栏未适配安全区域",
+          "area": "页面底部固定栏",
+          "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "fixedBottom 元素 'div#footer > div.tm-adv-space.light-btn' 的 hasSafeAreaInset 属性为 false，且 bottom 为 '0px'。在全面屏手机上，系统底部手势条会与该固定栏重叠，导致误触或遮挡。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "bottom: 0px 且无安全区适配",
+          "suggestion_after": "利用 CSS 'padding-bottom: env(safe-area-inset-bottom);' 动态适配底部安全区，避免与系统手势栏重合。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "部分文本及卡片区域存在微小横向溢出",
+          "area": "Banner / 产品优势",
+          "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+          "locate": [
+            "魔坊（ModelArts）模型训推平台...",
+            "智能易用的一站式数据准备工具..."
+          ],
+          "evidence": "textRisks 字段显示：'div.prodoc-banner-main' 的 clientWidth 为 342px，而 scrollWidth 为 346px（溢出 4px）；'div#section-4...por-section-body' 的 clientWidth 为 342px，而 scrollWidth 为 350px（溢出 8px）。这会导致页面在移动端产生不必要的左右微幅晃动。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "容器宽度未完全自适应，导致 scrollWidth 大于 clientWidth",
+          "suggestion_after": "检查并修正相关容器的 padding/margin 或 word-break 属性，确保 max-width: 100% 且无溢出。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p2",
+          "title": "顶部提示栏高度过大遮挡首屏内容",
+          "area": "页面顶部",
+          "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "textRisks 显示顶部提示栏 'div#header' 高度达 168px。在 844px 的视口高度中占比约 20%，严重挤压了首屏 Banner 及核心 CTA 的展示空间，降低了首屏信息密度。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "提示栏高度达 168px",
+          "suggestion_after": "优化移动端提示栏样式，缩减字号与间距，或采用可折叠/精简版文案，控制高度在 60px 以内。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面提升移动端按钮和链接的触控热区，确保核心 CTA 高度不低于 44px。",
+        "为底部固定栏（App下载栏）添加 iOS/Android 安全区域适配（safe-area-inset-bottom）。",
+        "修复 Banner 和产品优势卡片组件的微小横向溢出问题，提升滑动顺畅度。",
+        "精简顶部国际站提示栏的移动端高度，释放首屏黄金视觉空间。"
+      ],
+      "analysis_content": "华为云 ModelArts 移动端页面整体框架完整，导航菜单响应正常。但在移动端细节体验上存在明显不足：核心 CTA 按钮（如购买、立即下载）尺寸过小，不符合移动端触控标准；底部固定栏未适配安全区，在全面屏设备上存在遮挡和误触风险；部分组件存在微小的横向溢出，且顶部提示栏占用首屏空间过多。需要针对移动端进行专项的样式优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "关键操作按钮及链接触控区域过小",
+      "area": "全局 / Banner / Footer",
+      "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+      "locate": [
+        "购买",
+        "控制台",
+        "文档",
+        "立即体验",
+        "立即咨询",
+        "立即下载"
+      ],
+      "evidence": "DOM smallTargets 显示多个核心 CTA 触控面积不足：'购买' (78x32px)、'控制台' (92x32px)、'文档' (78x32px)、'立即体验' (106x32px)、'立即咨询' (80x16px)、'立即下载' (106x32px)，均低于移动端 44x44px 的标准触控热区要求。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度仅为 32px，链接高度仅为 16px",
+      "suggestion_after": "将所有主备 CTA 按钮高度提升至至少 44px，文字链接增加 padding 扩展热区至 44x44px 以上。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "底部固定下载栏未适配安全区域",
+      "area": "页面底部固定栏",
+      "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "fixedBottom 元素 'div#footer > div.tm-adv-space.light-btn' 的 hasSafeAreaInset 属性为 false，且 bottom 为 '0px'。在全面屏手机上，系统底部手势条会与该固定栏重叠，导致误触或遮挡。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "bottom: 0px 且无安全区适配",
+      "suggestion_after": "利用 CSS 'padding-bottom: env(safe-area-inset-bottom);' 动态适配底部安全区，避免与系统手势栏重合。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "部分文本及卡片区域存在微小横向溢出",
+      "area": "Banner / 产品优势",
+      "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+      "locate": [
+        "魔坊（ModelArts）模型训推平台...",
+        "智能易用的一站式数据准备工具..."
+      ],
+      "evidence": "textRisks 字段显示：'div.prodoc-banner-main' 的 clientWidth 为 342px，而 scrollWidth 为 346px（溢出 4px）；'div#section-4...por-section-body' 的 clientWidth 为 342px，而 scrollWidth 为 350px（溢出 8px）。这会导致页面在移动端产生不必要的左右微幅晃动。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "容器宽度未完全自适应，导致 scrollWidth 大于 clientWidth",
+      "suggestion_after": "检查并修正相关容器的 padding/margin 或 word-break 属性，确保 max-width: 100% 且无溢出。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p2",
+      "title": "顶部提示栏高度过大遮挡首屏内容",
+      "area": "页面顶部",
+      "page_url": "https://www.huaweicloud.com/product/modelarts.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "textRisks 显示顶部提示栏 'div#header' 高度达 168px。在 844px 的视口高度中占比约 20%，严重挤压了首屏 Banner 及核心 CTA 的展示空间，降低了首屏信息密度。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "提示栏高度达 168px",
+      "suggestion_after": "优化移动端提示栏样式，缩减字号与间距，或采用可折叠/精简版文案，控制高度在 60px 以内。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_html/batch-20260720-095401-15/screenshots/https_www_huaweicloud_com_product_modelarts_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

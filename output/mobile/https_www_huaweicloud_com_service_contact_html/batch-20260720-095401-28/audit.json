@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/service/contact.html",
+  "generated_at": "2026-07-20T04:34:25.005953+00:00",
+  "summary": {
+    "score": 4,
+    "issue_count": 2,
+    "p0": 0,
+    "p1": 1,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/service/contact.html",
+      "title": null,
+      "score": 4,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_contact_html/batch-20260720-095401-28/screenshots/https_www_huaweicloud_com_service_contact_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "大量点击区域过小，严重影响触控体验",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/service/contact.html",
+          "locate": [
+            "立即咨询 (首屏主CTA)",
+            "填写表单",
+            "查看更多",
+            "提交工单",
+            "查看详情",
+            "https://www.huaweicloud.com/intl/ (顶部国际站链接)",
+            "弹性云服务器如何收费？ (常见问题链接)",
+            "下载华为云App (底部固定栏中的按钮)",
+            "法律声明 (页脚链接)",
+            "电子营业执照 (页脚链接)",
+            "贵公网安备 52990002000093号 (页脚链接)",
+            "页脚备案图标"
+          ],
+          "evidence": "DOM数据显示，页面中存在大量可点击元素的尺寸远小于移动端推荐的44x44px触控目标大小，导致用户难以准确点击，易发生误触。具体证据如下：\n- 首屏主CTA“立即咨询” (path: `div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle`) 尺寸为 106x32px。\n- “填写表单” (path: `div.card-link.card-left > div.por-card-content > div.btn-groups > a.por-btn.por-btn-secondary.por-btn-middle`) 尺寸为 106x32px。\n- 顶部提示栏中的国际站链接“https://www.huaweicloud.com/intl/” (path: `div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a`) 尺寸为 192x14px。\n- 常见问题列表中的多个链接，例如“弹性云服务器如何收费？” (path: `div.por-collapse.show > div.doc-lists-content > div.info > p > a`) 尺寸为 132x14px。\n- 底部固定推广栏中的“立即下载”按钮 (path: `div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner`) 尺寸为 106x32px。\n- 页脚中的多个链接，例如“法律声明” (path: `ul.footer-law-mb > li > a`) 尺寸为 56x16px，“电子营业执照” (path: `div.footer-record > span > a.footer-link`) 尺寸为 72x14px。\n- 页脚中的备案图标 (path: `div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a`) 尺寸为 12x12px。",
+          "standard": "Nielsen #4 (Consistency and Standards), Mobile UX Guidelines (Touch Target Size)",
+          "suggestion_before": "",
+          "suggestion_after": "建议将所有可点击元素的触控目标区域（包括按钮、链接和图标）调整至不小于44x44px，以确保用户在移动设备上能够轻松准确地进行操作。可以通过增加内边距（padding）或调整元素最小尺寸来实现，同时保持视觉设计不变。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_contact_html/batch-20260720-095401-28/screenshots/https_www_huaweicloud_com_service_contact_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "底部固定推广栏遮挡页面内容",
+          "area": "移动端响应式布局",
+          "page_url": "https://www.huaweicloud.com/service/contact.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载 (底部固定栏)"
+          ],
+          "evidence": "DOM数据显示，页面底部存在一个固定定位的推广栏 (path: `div#footer > div.tm-adv-space.light-btn`)，其高度为66px，始终固定在屏幕底部 (bottom: 0px)。页面的总滚动高度 (scrollHeight) 为3492px，表明页面内容较长。此固定栏会持续遮挡页面底部的内容，影响用户浏览和交互，尤其是在页面底部存在重要信息或可点击元素时。",
+          "standard": "Nielsen #4 (Consistency and Standards), Mobile UX Guidelines (Fixed Elements)",
+          "suggestion_before": "",
+          "suggestion_after": "为页面主体内容底部增加足够的内边距（padding-bottom），使其高度至少等于固定底部栏的高度，以避免内容被遮挡。或者考虑在用户滚动到页面底部时隐藏该固定栏，或提供一个明显的关闭选项。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_contact_html/batch-20260720-095401-28/screenshots/https_www_huaweicloud_com_service_contact_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面审查页面所有可点击元素的触控目标尺寸，确保符合移动端最佳实践（不小于44x44px）。",
+        "调整页面主体内容的底部内边距，以防止固定底部栏遮挡内容。",
+        "检查所有图片元素的alt属性，为重要图片添加描述性文本，提升无障碍体验。"
+      ],
+      "analysis_content": "华为云“联系我们”页面在移动端布局上基本没有横向溢出问题，页面主题识别清晰，导航菜单可正常打开和关闭。然而，页面中存在大量点击区域过小的问题，包括主要行动按钮和各类链接，这严重影响了用户的触控体验和操作效率。此外，底部固定推广栏持续遮挡页面内容，也降低了页面的可用性。这些问题导致页面在移动端的整体用户体验不佳。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "大量点击区域过小，严重影响触控体验",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/service/contact.html",
+      "locate": [
+        "立即咨询 (首屏主CTA)",
+        "填写表单",
+        "查看更多",
+        "提交工单",
+        "查看详情",
+        "https://www.huaweicloud.com/intl/ (顶部国际站链接)",
+        "弹性云服务器如何收费？ (常见问题链接)",
+        "下载华为云App (底部固定栏中的按钮)",
+        "法律声明 (页脚链接)",
+        "电子营业执照 (页脚链接)",
+        "贵公网安备 52990002000093号 (页脚链接)",
+        "页脚备案图标"
+      ],
+      "evidence": "DOM数据显示，页面中存在大量可点击元素的尺寸远小于移动端推荐的44x44px触控目标大小，导致用户难以准确点击，易发生误触。具体证据如下：\n- 首屏主CTA“立即咨询” (path: `div.prodoc-banner-btnGroup > a.por-btn.por-btn-primary.por-btn-middle`) 尺寸为 106x32px。\n- “填写表单” (path: `div.card-link.card-left > div.por-card-content > div.btn-groups > a.por-btn.por-btn-secondary.por-btn-middle`) 尺寸为 106x32px。\n- 顶部提示栏中的国际站链接“https://www.huaweicloud.com/intl/” (path: `div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a`) 尺寸为 192x14px。\n- 常见问题列表中的多个链接，例如“弹性云服务器如何收费？” (path: `div.por-collapse.show > div.doc-lists-content > div.info > p > a`) 尺寸为 132x14px。\n- 底部固定推广栏中的“立即下载”按钮 (path: `div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner`) 尺寸为 106x32px。\n- 页脚中的多个链接，例如“法律声明” (path: `ul.footer-law-mb > li > a`) 尺寸为 56x16px，“电子营业执照” (path: `div.footer-record > span > a.footer-link`) 尺寸为 72x14px。\n- 页脚中的备案图标 (path: `div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a`) 尺寸为 12x12px。",
+      "standard": "Nielsen #4 (Consistency and Standards), Mobile UX Guidelines (Touch Target Size)",
+      "suggestion_before": "",
+      "suggestion_after": "建议将所有可点击元素的触控目标区域（包括按钮、链接和图标）调整至不小于44x44px，以确保用户在移动设备上能够轻松准确地进行操作。可以通过增加内边距（padding）或调整元素最小尺寸来实现，同时保持视觉设计不变。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_contact_html/batch-20260720-095401-28/screenshots/https_www_huaweicloud_com_service_contact_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "底部固定推广栏遮挡页面内容",
+      "area": "移动端响应式布局",
+      "page_url": "https://www.huaweicloud.com/service/contact.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载 (底部固定栏)"
+      ],
+      "evidence": "DOM数据显示，页面底部存在一个固定定位的推广栏 (path: `div#footer > div.tm-adv-space.light-btn`)，其高度为66px，始终固定在屏幕底部 (bottom: 0px)。页面的总滚动高度 (scrollHeight) 为3492px，表明页面内容较长。此固定栏会持续遮挡页面底部的内容，影响用户浏览和交互，尤其是在页面底部存在重要信息或可点击元素时。",
+      "standard": "Nielsen #4 (Consistency and Standards), Mobile UX Guidelines (Fixed Elements)",
+      "suggestion_before": "",
+      "suggestion_after": "为页面主体内容底部增加足够的内边距（padding-bottom），使其高度至少等于固定底部栏的高度，以避免内容被遮挡。或者考虑在用户滚动到页面底部时隐藏该固定栏，或提供一个明显的关闭选项。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_service_contact_html/batch-20260720-095401-28/screenshots/https_www_huaweicloud_com_service_contact_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-2.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

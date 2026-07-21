@@ -1,0 +1,89 @@
+{
+  "stage": "感知",
+  "score": 7,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "核心功能介绍默认折叠，增加用户获取信息成本",
+      "area": "功能介绍区",
+      "locate": [
+        "核心技术一：并行执行",
+        "核心技术二：NDP(Near Data Processing)",
+        "PK 开源 MySQL，优势明显",
+        "对比同类其他产品，性能占优"
+      ],
+      "evidence": "截图中可见功能介绍卡片默认折叠，DOM数据显示这些内容被包裹在 `<div class=\"por-collapse-container\">` 中，需要点击 `<a class=\"por-collapse-trigger\">` 才能展开，增加了用户获取详细信息的步骤。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p1",
+      "suggestion": "修改前：功能介绍卡片默认折叠 → 修改后：默认展开部分关键功能介绍，或提供更明显的“展开全部”入口，减少用户点击成本。"
+    },
+    {
+      "title": "常见问题列表仅显示标题，需跳转页面才能查看答案",
+      "area": "FAQ/常见问题区",
+      "locate": [
+        "数据库连接问题",
+        "备份恢复问题",
+        "数据库性能问题",
+        "网络安全问题",
+        "查看更多"
+      ],
+      "evidence": "截图中可见常见问题仅为标题，下方有“查看更多”链接，DOM数据显示这些问题没有直接的答案内容，点击“查看更多”会跳转到新的FAQ页面，增加了用户获取答案的路径。",
+      "standard": "Nielsen #6: Recognition Rather Than Recall | Nielsen #10: Help and Documentation",
+      "severity": "p1",
+      "suggestion": "修改前：常见问题仅显示标题并需跳转 → 修改后：在当前页面以折叠面板形式直接展示常见问题答案，减少用户跳转，提高信息可达性。"
+    },
+    {
+      "title": "底部版权年份显示未来年份",
+      "area": "底部Footer区",
+      "locate": [
+        "©2026 Huaweicloud.com"
+      ],
+      "evidence": "DOM数据中显示版权信息为 `©2026 Huaweicloud.com`，而当前年份为2024，版权年份不应为未来年份。",
+      "standard": "Nielsen #4: Consistency and Standards",
+      "severity": "p2",
+      "suggestion": "修改前：©2026 Huaweicloud.com → 修改后：©2024 Huaweicloud.com 或 ©20XX-2024 Huaweicloud.com，以反映当前实际年份。"
+    },
+    {
+      "title": "产品概览页首屏缺少直接的定价或免费试用入口",
+      "area": "首屏主视觉区",
+      "locate": [
+        "购买",
+        "控制台",
+        "文档",
+        "免费试用"
+      ],
+      "evidence": "截图中首屏主视觉区仅有“购买”、“控制台”、“文档”按钮，没有直接的定价信息或免费试用按钮。虽然页面底部有“免费试用”按钮，但位置不突出，用户在感知阶段可能无法快速找到。",
+      "standard": "Garrett: Skeleton Plane | Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p1",
+      "suggestion": "修改前：首屏无直接定价/试用入口 → 修改后：在首屏主视觉区增加“免费试用”或“查看定价”的醒目按钮，方便用户快速获取关键信息，提升转化效率。"
+    },
+    {
+      "title": "“最新动态”提示文字视觉权重不足，重要信息易被忽略",
+      "area": "首屏主视觉区",
+      "locate": [
+        "GaussDB(for MySQL)服务将于2024年11月更名为TaurusDB"
+      ],
+      "evidence": "截图中该提示文字字号较小，颜色为灰色（DOM数据显示 `font-size: 14px`, `color: rgb(89, 89, 89)`），与周围内容对比度不高，容易被用户忽略，尽管这是一条重要的产品更名通知。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design",
+      "severity": "p2",
+      "suggestion": "修改前：文字字号14px，颜色rgb(89,89,89) → 修改后：文字字号适当增大（如16px），颜色调整为更醒目的颜色（如红色或深蓝色），并可考虑加粗，以突出重要通知。"
+    }
+  ],
+  "suggestions": [
+    "优化功能介绍和常见问题区域的交互模式，减少用户获取信息的步骤，可考虑默认展开部分内容或在当前页面直接展示答案。",
+    "修正底部版权年份，确保信息准确性。",
+    "在产品概览页首屏增加更醒目的免费试用或定价入口，提升用户转化效率。",
+    "提高重要通知（如产品更名）的视觉权重，确保用户能够及时获取关键信息。"
+  ],
+  "analysis_content": "感知阶段页面整体布局清晰，核心CTA按钮明确，产品优势介绍简洁。然而，部分关键信息（如功能细节、常见问题答案）默认折叠或需跳转才能获取，增加了用户的信息获取成本。同时，版权年份显示未来年份，以及重要通知的视觉权重不足，影响了用户体验和信息准确性。建议优化信息展示方式和视觉层级，以提供更流畅、准确的感知体验。",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/product/gaussdbformysql.html",
+  "title": "云数据库 TaurusDB_云原生关系型数据库_企业级数据库-华为云",
+  "screenshot_path": "../../output/web/gaussdbformysql/batch-20260720-174406-03/screenshots/screenshot_1_awareness.png"
+}

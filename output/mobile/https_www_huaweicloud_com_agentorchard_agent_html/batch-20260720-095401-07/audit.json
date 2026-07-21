@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+  "generated_at": "2026-07-20T02:28:05.630894+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 3,
+    "p0": 0,
+    "p1": 1,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/agentorchard/agent.html",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "顶部提示栏占用过多首屏空间",
+          "area": "头部区域",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM数据中，顶部提示栏 `div.header-prompt` 高度达 120px，整体头部 `div#header` 高度达 168px。在 390x844 的移动端屏幕中，该提示栏占用了近 20% 的垂直空间，严重挤压了首屏核心产品内容的曝光。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "顶部提示栏高度 120px-168px，文案过长且无折叠",
+          "suggestion_after": "在移动端精简该提示文案，高度控制在 60px 以内，或默认折叠，提供明显的关闭按钮，避免遮挡首屏核心视觉。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "核心CTA按钮及链接触控面积过小",
+          "area": "内容与页脚区域",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+          "locate": [
+            "了解详情",
+            "云服务器",
+            "Flexus云服务"
+          ],
+          "evidence": "DOM `smallTargets` 标明多个“了解详情”按钮尺寸仅为 106x32px（如 path: `div.smart-card-content__buttons... > a`），页脚链接如“云服务器”高度仅 16px，均低于移动端推荐的 44x44px 最小触控标准，极易造成用户误触。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度 32px，文字链接高度 16px",
+          "suggestion_after": "将“了解详情”按钮高度调整为至少 40px（推荐 44px），并增大页脚文字链接的行高（line-height）和点击热区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "底部固定悬浮栏未适配安全区域",
+          "area": "页脚固定栏",
+          "page_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM `fixedBottom` 数组中，固定在底部的下载栏 `div.tm-adv-space.light-btn` 的 `hasSafeAreaInset` 属性为 `false`，在全面屏手机上会与系统底部的 Home 指示条重叠，影响点击体验。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "底部固定栏未启用安全区域适配",
+          "suggestion_after": "在 CSS 中为该固定栏添加 `padding-bottom: env(safe-area-inset-bottom);`，确保在全面屏设备上安全避让系统操作栏。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "建议在移动端对顶部国际站提示进行折叠或采用更轻量化的通知气泡形式。",
+        "优化移动端全局按钮组件的最小高度规范，确保所有主/次 CTA 按钮高度不低于 40px。",
+        "对所有固定在底部的元素（如 App 推广栏、悬浮客服等）进行全面的全面屏安全区域（Safe Area）适配测试。"
+      ],
+      "analysis_content": "智果园移动端页面整体响应式布局良好，无横向溢出问题，且导航菜单在移动端可正常展开。但首屏顶部提示栏过高，严重影响了品牌入口和首屏内容的呈现；同时，核心 CTA 按钮和底部链接的触控面积偏小，且底部固定栏缺乏安全区域适配，存在一定的触控和视觉遮挡风险。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "顶部提示栏占用过多首屏空间",
+      "area": "头部区域",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM数据中，顶部提示栏 `div.header-prompt` 高度达 120px，整体头部 `div#header` 高度达 168px。在 390x844 的移动端屏幕中，该提示栏占用了近 20% 的垂直空间，严重挤压了首屏核心产品内容的曝光。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "顶部提示栏高度 120px-168px，文案过长且无折叠",
+      "suggestion_after": "在移动端精简该提示文案，高度控制在 60px 以内，或默认折叠，提供明显的关闭按钮，避免遮挡首屏核心视觉。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "核心CTA按钮及链接触控面积过小",
+      "area": "内容与页脚区域",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+      "locate": [
+        "了解详情",
+        "云服务器",
+        "Flexus云服务"
+      ],
+      "evidence": "DOM `smallTargets` 标明多个“了解详情”按钮尺寸仅为 106x32px（如 path: `div.smart-card-content__buttons... > a`），页脚链接如“云服务器”高度仅 16px，均低于移动端推荐的 44x44px 最小触控标准，极易造成用户误触。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度 32px，文字链接高度 16px",
+      "suggestion_after": "将“了解详情”按钮高度调整为至少 40px（推荐 44px），并增大页脚文字链接的行高（line-height）和点击热区。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "底部固定悬浮栏未适配安全区域",
+      "area": "页脚固定栏",
+      "page_url": "https://www.huaweicloud.com/agentorchard/agent.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM `fixedBottom` 数组中，固定在底部的下载栏 `div.tm-adv-space.light-btn` 的 `hasSafeAreaInset` 属性为 `false`，在全面屏手机上会与系统底部的 Home 指示条重叠，影响点击体验。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "底部固定栏未启用安全区域适配",
+      "suggestion_after": "在 CSS 中为该固定栏添加 `padding-bottom: env(safe-area-inset-bottom);`，确保在全面屏设备上安全避让系统操作栏。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_agent_html/batch-20260720-095401-07/screenshots/https_www_huaweicloud_com_agentorchard_agent_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

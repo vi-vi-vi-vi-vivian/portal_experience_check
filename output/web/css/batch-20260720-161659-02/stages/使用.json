@@ -1,0 +1,84 @@
+{
+  "stage": "使用",
+  "score": 7,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "满意度评价弹窗遮挡核心操作按钮",
+      "area": "首屏主视觉区",
+      "locate": [
+        "诚邀您对“华为云”进行满意度评价",
+        "创建集群"
+      ],
+      "evidence": "满意度评价弹窗（宽约300px，高约150px）悬浮在页面右上角，直接遮挡了首屏右侧的“创建集群”核心CTA按钮以及“新手入门”区域的部分内容，干扰了用户正常的使用和操作。",
+      "standard": "Nielsen #8 | Nielsen #5",
+      "severity": "p1",
+      "suggestion": "修改前：满意度评价弹窗直接在页面加载时悬浮弹出并遮挡核心按钮 -> 修改后：将满意度评价改为非阻碍式的轻量化通知，或在用户完成核心任务（如成功创建集群）后再行触发，且不遮挡核心操作区域。"
+    },
+    {
+      "title": "集群类别卡片底部的创建按钮视觉权重过弱",
+      "area": "功能介绍区",
+      "locate": [
+        "创建集群",
+        "经济集群",
+        "普通集群",
+        "分析型集群"
+      ],
+      "evidence": "卡片底部的“创建集群”按钮采用白底黑字细边框设计，在白色卡片背景中对比度极低，视觉权重过弱，容易被用户忽略或误认为是不可点击状态。",
+      "standard": "Garrett: Surface Plane | Nielsen #8",
+      "severity": "p2",
+      "suggestion": "修改前：卡片底部按钮样式为普通白底细边框 -> 修改后：将卡片底部的“创建集群”按钮统一为高对比度的品牌色（如橙色或蓝色）填充按钮，提升其视觉引导性。"
+    },
+    {
+      "title": "新手入门步骤概念跨度大且引导单一",
+      "area": "功能介绍区",
+      "locate": [
+        "导入数据",
+        "创建Logstash集群"
+      ],
+      "evidence": "步骤3标题为“导入数据”，但核心操作链接仅为“创建Logstash集群”，未提供其他常见的数据导入方式或说明，对不使用Logstash的用户造成引导困惑。",
+      "standard": "Nielsen #2 | ISO 9241-110",
+      "severity": "p2",
+      "suggestion": "修改前：链接仅显示\"创建Logstash集群\" -> 修改后：将链接文案修改为\"查看数据导入指南\"，或并列提供\"创建Logstash集群\"与\"其他导入方式\"两个入口。"
+    },
+    {
+      "title": "新手入门入口多处冗余且不统一",
+      "area": "顶部导航区",
+      "locate": [
+        "新手入门"
+      ],
+      "evidence": "页面右上角工具栏和正文首屏同时存在“新手入门”入口，功能重复，且视觉样式和交互位置不统一，增加用户认知负荷。",
+      "standard": "Nielsen #4",
+      "severity": "p2",
+      "suggestion": "修改前：右上角和正文均有\"新手入门\" -> 修改后：保留正文中的“新手入门”作为主引导，将右上角的“新手入门”整合到“使用指南”或帮助下拉菜单中。"
+    },
+    {
+      "title": "常见问题板块分类与命名格式不统一",
+      "area": "FAQ/常见问题区",
+      "locate": [
+        "优化集群写入性能",
+        "优化集群查询性能"
+      ],
+      "evidence": "在“常见问题”板块中混入了非疑问句式的性能优化指南，与前两个标准的FAQ格式（“...如何...？”）不一致，分类不够精准。",
+      "standard": "Nielsen #2 | Nielsen #4",
+      "severity": "p2",
+      "suggestion": "修改前：\"优化集群写入性能\" -> 修改后：统一FAQ命名格式，如“如何优化集群写入性能？”；或将其移至“最佳实践”板块。"
+    }
+  ],
+  "suggestions": [
+    "优化满意度评价弹窗的触发时机与展示方式，避免遮挡核心操作按钮。",
+    "统一页面中“创建集群”按钮的视觉层级，增强卡片内操作按钮的醒目度。",
+    "规范新手入门和常见问题板块的内容分类与文案格式，降低用户认知成本。"
+  ],
+  "analysis_content": "云搜索服务CSS控制台总览页整体布局清晰，但在细节体验上存在一些问题。最显著的问题是满意度评价弹窗遮挡了右上角的核心操作按钮，严重影响了用户的使用流程。此外，卡片内按钮的视觉权重过弱、新手入门步骤引导过于单一、多处入口冗余以及常见问题分类不规范等问题，也对用户的认知和操作便利性产生了一定影响。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://console.huaweicloud.com/elasticsearch/?locale=zh-cn&agencyId=76f3fafcb39b4a358e71909c01d5f744&region=cn-east-3#/es/management/dashboard",
+  "title": "管理控制台 - 云搜索服务",
+  "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_4_usage.png"
+}

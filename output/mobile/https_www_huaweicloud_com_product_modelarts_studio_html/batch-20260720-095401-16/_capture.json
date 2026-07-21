@@ -1,0 +1,2905 @@
+{
+  "input_url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+  "audit_time": "2026-07-20T03:40:26.359040+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_top.png",
+    "scroll_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_scroll.png",
+    "full_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_full.png",
+    "menu_screenshot": "../../output/mobile/https_www_huaweicloud_com_product_modelarts_studio_html/batch-20260720-095401-16/screenshots/https_www_huaweicloud_com_product_modelarts_studio_html_menu.png"
+  },
+  "dom": {
+    "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+    "title": "MaaS_模型即服务_华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 5375
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 120,
+        "scrollHeight": 120,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "120px"
+      },
+      {
+        "path": "body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 88,
+        "scrollHeight": 88,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "88px"
+      },
+      {
+        "path": "div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 334,
+        "scrollWidth": 334,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "clientWidth": 0,
+        "scrollWidth": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "auto"
+      },
+      {
+        "path": "div.pep-model-cards > div.por-section.top-small-spacing > div.por-tab-container > div.por-tab > ul",
+        "text": "精选推荐 NEW 文本生成 代码模型 视频生成 图像理解 图片生成",
+        "clientWidth": 342,
+        "scrollWidth": 492,
+        "clientHeight": 24,
+        "scrollHeight": 24,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "24px"
+      },
+      {
+        "path": "div.por-section > div.por-container > div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item",
+        "text": "代码生成 根据需求描述或注释，自动生成准确、可运行的程序代码 • 高效提效：替代手动编写基础代码，大幅缩短开发周期与人力成本 • 精准可用：贴合需求描述与注释逻辑生成代码，输出可直接运行且降低语法错误率 • 门槛兼容：支持自然语言需求输入，降低非专业开发人员的代码实现门槛 立即咨询 openPangu-2.0-Flas",
+        "clientWidth": 167,
+        "scrollWidth": 342,
+        "clientHeight": 538,
+        "scrollHeight": 538,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "537.594px"
+      },
+      {
+        "path": "div.por-container > div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-head.white",
+        "text": "Prompt改写与优化",
+        "clientWidth": 167,
+        "scrollWidth": 173,
+        "clientHeight": 61,
+        "scrollHeight": 61,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "61px"
+      }
+    ],
+    "fixedBottom": [
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn",
+        "text": "华为云App 便捷的云服务移动管控体验 立即下载",
+        "position": "fixed",
+        "height": 66,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      }
+    ],
+    "clickableSummary": {
+      "count": 58
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "tag": "a",
+        "x": 40,
+        "y": 36,
+        "width": 192,
+        "height": 14,
+        "area": 2686.25
+      },
+      {
+        "index": 1,
+        "path": "div.header-container > div.header-wrapper > div.header-bottom > div.header-bottom-wrapper > a.header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 128,
+        "width": 108,
+        "height": 32,
+        "area": 3456
+      },
+      {
+        "index": 4,
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+        "text": "控制台",
+        "tag": "a",
+        "x": 106,
+        "y": 383,
+        "width": 92,
+        "height": 32,
+        "area": 2944
+      },
+      {
+        "index": 5,
+        "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+        "text": "文档",
+        "tag": "a",
+        "x": 206,
+        "y": 383,
+        "width": 78,
+        "height": 32,
+        "area": 2496
+      },
+      {
+        "index": 6,
+        "path": "div.por-tab-container > div.por-tab > ul > li.active > a",
+        "text": "精选推荐 NEW",
+        "tag": "a",
+        "x": 38,
+        "y": 590,
+        "width": 84,
+        "height": 24,
+        "area": 2011.5
+      },
+      {
+        "index": 7,
+        "path": "div.por-tab-container > div.por-tab > ul > li > a",
+        "text": "文本生成",
+        "tag": "a",
+        "x": 150,
+        "y": 590,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 8,
+        "path": "div.por-tab-container > div.por-tab > ul > li > a",
+        "text": "代码模型",
+        "tag": "a",
+        "x": 226,
+        "y": 590,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 9,
+        "path": "div.por-tab-container > div.por-tab > ul > li > a",
+        "text": "视频生成",
+        "tag": "a",
+        "x": 302,
+        "y": 590,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 10,
+        "path": "div.por-tab-container > div.por-tab > ul > li > a",
+        "text": "图像理解",
+        "tag": "a",
+        "x": 378,
+        "y": 590,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 11,
+        "path": "div.por-tab-container > div.por-tab > ul > li > a",
+        "text": "图片生成",
+        "tag": "a",
+        "x": 454,
+        "y": 590,
+        "width": 48,
+        "height": 24,
+        "area": 1152
+      },
+      {
+        "index": 17,
+        "path": "div#section-1 > div.pep-model-cards > div.por-section.top-small-spacing > div.more-solutions > a.por-btn.por-btn-secondary",
+        "text": "模型体验",
+        "tag": "a",
+        "x": 142,
+        "y": 1400,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 18,
+        "path": "div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-container.show.white > div.model-filter-main-btns > a.model-filter-card-btn.por-btn.por-btn-primary",
+        "text": "立即咨询",
+        "tag": "a",
+        "x": 44,
+        "y": 1935,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      },
+      {
+        "index": 25,
+        "path": "div.por-section > div.por-container > div.por-section-body.img-full-screen > div.ad-img.mb-show > a",
+        "text": "",
+        "tag": "a",
+        "x": 12,
+        "y": 3205,
+        "width": 367,
+        "height": 16,
+        "area": 5865.25
+      },
+      {
+        "index": 26,
+        "path": "div.por-row > div.por-col-12.por-col-xs-24.tab-content > div.folded-card.por-scrollbar-m > div.por-collapse-container > a.por-collapse-trigger.expended",
+        "text": "端到端加密，全链路安心",
+        "tag": "a",
+        "x": 44,
+        "y": 3376,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 27,
+        "path": "div.por-row > div.por-col-12.por-col-xs-24.tab-content > div.folded-card.por-scrollbar-m > div.por-collapse-container > a.por-collapse-trigger.expended",
+        "text": "操作全程可审计，风险全周期可控",
+        "tag": "a",
+        "x": 44,
+        "y": 3693,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 34,
+        "path": "div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more > a",
+        "text": "查看更多案例",
+        "tag": "a",
+        "x": 143,
+        "y": 4410,
+        "width": 104,
+        "height": 22,
+        "area": 2288
+      },
+      {
+        "index": 36,
+        "path": "div.por-collapse.show > div.doc-lists-content > div.info > p > a",
+        "text": "华为云 AI 知识&实训社区",
+        "tag": "a",
+        "x": 44,
+        "y": 4633,
+        "width": 135,
+        "height": 14,
+        "area": 1894.8125
+      },
+      {
+        "index": 37,
+        "path": "div.por-collapse.show > div.doc-lists-content > div.info > p > a",
+        "text": "可复用的多种Al资产",
+        "tag": "a",
+        "x": 44,
+        "y": 4667,
+        "width": 107,
+        "height": 14,
+        "area": 1500.1875
+      },
+      {
+        "index": 38,
+        "path": "div.por-collapse.show > div.doc-lists-content > div.info > p > a",
+        "text": "场景化的AI案例，助力AI赋能千行百业",
+        "tag": "a",
+        "x": 44,
+        "y": 4701,
+        "width": 203,
+        "height": 14,
+        "area": 2835.65625
+      },
+      {
+        "index": 39,
+        "path": "div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark > a.por-link.por-link-more",
+        "text": "查看全部",
+        "tag": "a",
+        "x": 44,
+        "y": 4737,
+        "width": 68,
+        "height": 24,
+        "area": 1626
+      },
+      {
+        "index": 41,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "弹性云服务器",
+        "tag": "a",
+        "x": 32,
+        "y": 4968,
+        "width": 84,
+        "height": 16,
+        "area": 1344
+      },
+      {
+        "index": 42,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "对象存储服务",
+        "tag": "a",
+        "x": 137,
+        "y": 4968,
+        "width": 84,
+        "height": 16,
+        "area": 1344
+      },
+      {
+        "index": 43,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "云数据库 GaussDB",
+        "tag": "a",
+        "x": 241,
+        "y": 4968,
+        "width": 117,
+        "height": 16,
+        "area": 1867.25
+      },
+      {
+        "index": 44,
+        "path": "div.footer-nav-content > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-download > a",
+        "text": "下载华为云App",
+        "tag": "a",
+        "x": 138,
+        "y": 5018,
+        "width": 113,
+        "height": 16,
+        "area": 1811.75
+      },
+      {
+        "index": 45,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.weixin-sh",
+        "text": "华为云微信 扫描二维码",
+        "tag": "a",
+        "x": 128,
+        "y": 5081,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 46,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.microapp-sh",
+        "text": "华为云微信小程序 华为云微信小程序",
+        "tag": "a",
+        "x": 178,
+        "y": 5081,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 47,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link",
+        "text": "华为云微博 扫描二维码",
+        "tag": "a",
+        "x": 228,
+        "y": 5081,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 49,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "法律声明",
+        "tag": "a",
+        "x": 127,
+        "y": 5217,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 50,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "隐私政策",
+        "tag": "a",
+        "x": 208,
+        "y": 5217,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 51,
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.footer-link",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 226,
+        "y": 5260,
+        "width": 104,
+        "height": 15,
+        "area": 1567.265625
+      },
+      {
+        "index": 52,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a",
+        "text": "",
+        "tag": "a",
+        "x": 44,
+        "y": 5328,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 53,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 64,
+        "y": 5327,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 54,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record2 > a",
+        "text": "",
+        "tag": "a",
+        "x": 146,
+        "y": 5328,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 55,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 166,
+        "y": 5327,
+        "width": 170,
+        "height": 14,
+        "area": 2375.40625
+      },
+      {
+        "index": 56,
+        "path": "body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > a.tm-adv-space-content__main",
+        "text": "华为云App 便捷的云服务移动管控体验",
+        "tag": "a",
+        "x": 54,
+        "y": 790,
+        "width": 184,
+        "height": 42,
+        "area": 7728
+      },
+      {
+        "index": 57,
+        "path": "div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner",
+        "text": "立即下载",
+        "tag": "a",
+        "x": 248,
+        "y": 795,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      }
+    ],
+    "closePairs": [
+      {
+        "distance": 1,
+        "a": {
+          "path": "div.doc-content > ul.doc-lists.col-doc-2 > li > div.por-collapse-container > a.por-collapse-trigger.expended",
+          "text": "AI Gallery百模千态社区",
+          "width": 342,
+          "height": 64
+        },
+        "b": {
+          "path": "div.por-collapse.show > div.doc-lists-content > div.info > p > a",
+          "text": "华为云 AI 知识&实训社区",
+          "width": 135,
+          "height": 14
+        }
+      }
+    ],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.header-wrapper > div.header-bottom > div.header-bottom-wrapper > a.header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 108,
+        "height": 32,
+        "top": 128,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-container.show.white > img.filter-collapse-main-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/mb_%E4%BB%A3%E7%A0%81.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 302,
+        "height": 120,
+        "top": 1657,
+        "belowFold": true
+      },
+      {
+        "path": "div.filter-collapse-container.show.white > div.recommend-models > div.recommend-model-lists > div.recommend-model-item > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/%E7%9B%98%E5%8F%A4%E5%A4%A7%E6%A8%A1%E5%9E%8B.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2004,
+        "belowFold": true
+      },
+      {
+        "path": "div.filter-collapse-container.show.white > div.recommend-models > div.recommend-model-lists > div.recommend-model-item > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/MaaS/%E6%99%BA%E8%B0%B1-GLM-8.png",
+        "ext": "png",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2004,
+        "belowFold": true
+      },
+      {
+        "path": "div.filter-collapse-container.show.white > div.recommend-models > div.recommend-model-lists > div.recommend-model-item > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/maas/%E5%9B%BE%E6%A0%87-Kimi.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2059,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.grey.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E9%A2%86%E5%85%88%E6%80%A7%E8%83%BD-h5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2564,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.grey.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E7%A1%AE%E4%BF%9D%E4%B8%AD%E7%AB%8B-h5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2710,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.grey.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E7%99%BE%E6%A8%A1%E5%8D%83%E6%80%81-h5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2856,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-container > div.por-section-body.img-full-screen > div.ad-img.mb-show > a > img.por-img-viewer",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E5%8A%A0%E5%B7%A5i%E7%8E%89%E5%85%942.png",
+        "ext": "png",
+        "loading": "",
+        "width": 367,
+        "height": 115,
+        "top": 3104,
+        "belowFold": true
+      },
+      {
+        "path": "div.folded-card.por-scrollbar-m > div.por-collapse-container > div.por-collapse.show > div.collapse-inner > img.radius_border_XL.hide-pc",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 180,
+        "top": 3485,
+        "belowFold": true
+      },
+      {
+        "path": "div.folded-card.por-scrollbar-m > div.por-collapse-container > div.por-collapse.show > div.collapse-inner > img.radius_border_XL.hide-pc",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 180,
+        "top": 3802,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content.show > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/huike.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4158,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/shuyun.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4158,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/zhineng.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4230,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/alk.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4230,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/ho.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4302,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/nami.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4302,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-container.show.white > img.filter-collapse-main-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/mb_%E4%BB%A3%E7%A0%81.jpg",
+        "ext": "jpg",
+        "loading": "",
+        "width": 302,
+        "height": 120,
+        "top": 1657,
+        "belowFold": true
+      },
+      {
+        "path": "div.filter-collapse-container.show.white > div.recommend-models > div.recommend-model-lists > div.recommend-model-item > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/%E7%9B%98%E5%8F%A4%E5%A4%A7%E6%A8%A1%E5%9E%8B.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2004,
+        "belowFold": true
+      },
+      {
+        "path": "div.filter-collapse-container.show.white > div.recommend-models > div.recommend-model-lists > div.recommend-model-item > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/MaaS/%E6%99%BA%E8%B0%B1-GLM-8.png",
+        "ext": "png",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2004,
+        "belowFold": true
+      },
+      {
+        "path": "div.filter-collapse-container.show.white > div.recommend-models > div.recommend-model-lists > div.recommend-model-item > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/maas/%E5%9B%BE%E6%A0%87-Kimi.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 16,
+        "height": 16,
+        "top": 2059,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.grey.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E9%A2%86%E5%85%88%E6%80%A7%E8%83%BD-h5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2564,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.grey.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E7%A1%AE%E4%BF%9D%E4%B8%AD%E7%AB%8B-h5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2710,
+        "belowFold": true
+      },
+      {
+        "path": "div.card-grid > div.card-item-container.grey.hasBg > a.card-item-link > div.item-content > img.card-img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E7%99%BE%E6%A8%A1%E5%8D%83%E6%80%81-h5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 96,
+        "height": 96,
+        "top": 2856,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-container > div.por-section-body.img-full-screen > div.ad-img.mb-show > a > img.por-img-viewer",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/%E5%8A%A0%E5%B7%A5i%E7%8E%89%E5%85%942.png",
+        "ext": "png",
+        "loading": "",
+        "width": 367,
+        "height": 115,
+        "top": 3104,
+        "belowFold": true
+      },
+      {
+        "path": "div.folded-card.por-scrollbar-m > div.por-collapse-container > div.por-collapse.show > div.collapse-inner > img.radius_border_XL.hide-pc",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 180,
+        "top": 3485,
+        "belowFold": true
+      },
+      {
+        "path": "div.folded-card.por-scrollbar-m > div.por-collapse-container > div.por-collapse.show > div.collapse-inner > img.radius_border_XL.hide-pc",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/yunying/token/0424-1/2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 180,
+        "top": 3802,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content.show > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/huike.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4158,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/shuyun.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4158,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/zhineng.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4230,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/alk.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4230,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/ho.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4302,
+        "belowFold": true
+      },
+      {
+        "path": "div.customers-tab-content > div.customers-carousel-content > div.customers-texts > a.customers-logo.customers-m-logo.hidden-pc > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/maas/%E5%AE%A2%E6%88%B7%E6%A1%88%E4%BE%8Blogo/nami.png",
+        "ext": "png",
+        "loading": "",
+        "width": 140,
+        "height": 60,
+        "top": 4302,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i { background-image: none; transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i { transform: scale(1.15); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container { opacity: 1; transform: scale(1); visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover",
+        "media": "",
+        "css": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i.float-icon-bigger",
+        "media": "",
+        "css": ".phone-icon:hover > i.float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar:hover",
+        "media": "",
+        "css": ".float-sidebar:hover { z-index: 993; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".clicked-chatIcon .float-sidebar:hover",
+        "media": "",
+        "css": ".clicked-chatIcon .float-sidebar:hover { z-index: 990; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { right: 44px; visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active i, .star-score-btns p:hover i",
+        "media": "",
+        "css": ".star-score-btns p.active i, .star-score-btns p:hover i { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active, .star-score-btns p:hover",
+        "media": "",
+        "css": ".star-score-btns p.active, .star-score-btns p:hover { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; font-size: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.por-btn-dark:hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.por-btn-dark:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback i",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback .float-icon-bigger",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback .float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: translateY(-50%) scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover label",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover label { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(201, 201, 201); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover { background-color: transparent; border-color: grey; color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-modal-close:hover .u-icon",
+        "media": "",
+        "css": "#interceptor-modal .por-modal-close:hover .u-icon { color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-primary:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-dark:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-dark:hover { border-color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-primary.hover, .cui-btn-primary:hover",
+        "media": "",
+        "css": ".cui-btn-primary.hover, .cui-btn-primary:hover { box-shadow: rgba(246, 111, 106, 0.5) 0px 8px 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover",
+        "media": "",
+        "css": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover",
+        "media": "",
+        "css": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover { border: 1px solid rgb(199, 0, 11); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover",
+        "media": "",
+        "css": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover",
+        "media": "",
+        "css": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover { box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown ::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".header-dropdown ::-webkit-scrollbar-thumb:hover { background-color: rgb(173, 176, 184); }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right-large",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right-large { margin-left: 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang-item.active > a, .header-lang-item:hover > a",
+        "media": "",
+        "css": ".header-lang-item.active > a, .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp:hover .header-icon-hwapp",
+        "media": "",
+        "css": ".header-hwapp:hover .header-icon-hwapp { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48dGl0bGU+YXBwPC90aXRsZT48ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0xMS41IDBhLjUuNSAwIDAgMSAuNS41djEzYS41LjUgMCAwIDEtLjUuNWgtOWEuNS41IDAgMCAxLS41LS41Vi41YS41LjUgMCAwIDEgLjUtLjV6TTExIDFIM3YxMmg4eiIvPjxwYXRoIGQ9Ik0xMS4yMzEgMTEuMDU4djFIMi43MDZ2LTF6TTguMDQgMi4wNTh2MUg2LjAzdi0xeiIvPjwvZz"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp .header-hwapp-link:hover",
+        "media": "",
+        "css": ".header-hwapp .header-hwapp-link:hover { color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button input:hover",
+        "media": "",
+        "css": ".header-search-button input:hover { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button i:hover",
+        "media": "",
+        "css": ".header-search-button i:hover { background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbi/mkJzntKLlpIfku708L3RpdGxlPgogICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0iZmlsdGVyLTEiPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlR3JhcGhpYyIgdHlwZT0"
+      },
+      {
+        "type": "hover",
+        "selector": ".show-search-box .header-search .header-search-button:hover input",
+        "media": "",
+        "css": ".show-search-box .header-search .header-search-button:hover input { border: 1px solid rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search.active .close-icon:hover",
+        "media": "",
+        "css": ".header-search.active .close-icon:hover { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTQgMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNC4wMDAwMDAiIGhlaWdodD0iMTQuMDAwMDAwIiBmaWxsPSJub25lIiBjdXN0b21GcmFtZT0iIzAwMDAwMCI+Cgk8cmVjdCBpZD0i55S75p2/IDE2NDA4IiB3aWR0aD0iMTQuMDAwMDAwIiBoZWlnaHQ9IjE0LjAwMDAwMCIgeD0iMC4wMDAwMDAiIHk9IjAuMDAwMDAwIiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjAiIC8+C"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-keyWordsAll a:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-keyWordsAll a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .text::after",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .text::after { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNiAxMiI+PHRpdGxlPmhkcGkv566t5aS0aG92ZXLlpIfku708L3RpdGxlPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE2djE2SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMikiPjxtYXNrIGlkPSJiIi"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block .search-tag .tag-console:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block .search-tag .tag-console:hover { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover { border-color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover::before",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover::before { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNi4wMDAwMDAiIGhlaWdodD0iMTYuMDAwMDAwIiBmaWxsPSJub25lIj4KCTxkZWZzPgoJCTxmaWx0ZXIgaWQ9InBpeHNvX2N1c3RvbV9tYXNrX3R5cGVfYWxwaGEiPgoJCQk8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAxIDAgMCAwIDAgMSAwIDAgMCAwIDEgMCAwIDAgMSAwICIgLz4KCQ"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover { font-weight: 400; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li > a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-tools .header-user:hover .header-nav-item-icon { background-size: 100% 100%; transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a",
+        "media": "",
+        "css": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-tools .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover { animation: 2s linear 0s 2 alternate none running textBg, 1s linear 0s 1 normal none running textOpacity; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before { animation: 2s linear 0s 2 normal forwards running flowState; display: inline-block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-pagenav a:hover",
+        "media": "",
+        "css": ".header-pagenav a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown-close:hover",
+        "media": "",
+        "css": ".header-dropdown-close:hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title { text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; content: \"\"; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after { content: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-common-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover input",
+        "media": "",
+        "css": ".link-searcher:hover input { border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-submit i",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-submit i { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAEFCu8CAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHKADAAQAAAABAAAAHAAAAABkvfSiAAAEPklEQVRIDbWWS0xUVxjHZ+6MhVEQQZHYxISK2KolTdSFJsY0MaZNTGlCy4KX0AHZaNMSF+2SRIMs3CgQE1LIEF6NbdqmbsqiC5rYVlE2oAk+EmOMQKNGRYQZHuPvO73neu7lghDjSe6c7/H/vv95fmcCgaVaaWnpFssEBIPBhy7D/Pz8UwUoKSnJ0UJShKqqqlwHmkgk3lde1w/pj/M9F2NZWVk5OVSoAmE47UKjABgMizEUCl"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-clear",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-clear { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAFNQDtUAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIqADAAQAAAABAAAAIgAAAAACeqFUAAAE3ElEQVRYCe2XS2zURRzH9+1ud6EPE8WmDaKGcMEEG18HNAKRxAPVy5bQpnX7phxt9WCIcK0HTRD7bk1pfDSRyEGqCUkhMWkAD5zAVAlBEq0U2i7tdpNud9fPb7vz7/+17W4CF3GS2d/M7/Gd78xvZv6zDkeu0tfXtyQ2ZNrgY1H09vYu23oawh5ZBz637MAtPLMc41lpmJXLhGDur5uB/WS9t96yHW7dbGrhvWpSOQYGBk6ILjN2a"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon { opacity: 0; visibility: hidden; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon-hover",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon-hover { opacity: 1; visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher-more:hover",
+        "media": "",
+        "css": ".link-searcher-more:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content-link a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content-link a[href]:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before",
+        "media": "",
+        "css": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before { transform: scaleX(1); width: 100%; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover",
+        "media": "",
+        "css": ".dropdown-product-item:hover { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover .dropdown-product-item-title",
+        "media": "",
+        "css": ".dropdown-product-item:hover .dropdown-product-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-column-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column .dropdown-product-link:hover",
+        "media": "",
+        "css": ".dropdown-product-column .dropdown-product-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-module.noIcon:hover",
+        "media": "",
+        "css": ".dropdown-product-module.noIcon:hover { z-index: 101; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item-more .link:hover",
+        "media": "",
+        "css": ".dropdown-product-item-more .link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-group-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab.active:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab.active:hover { border-color: rgb(89, 89, 89); font-weight: 400; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-product-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputted ~ .header-search-submit:hover",
+        "media": "",
+        "css": ".inputted ~ .header-search-submit:hover { color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search .header-search-close:hover",
+        "media": "",
+        "css": ".header-search .header-search-close:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name i",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name i { border-top-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-link:hover",
+        "media": "",
+        "css": ".footer-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon",
+        "media": "",
+        "css": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover .contact-icon-hover",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover .contact-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover",
+        "media": "",
+        "css": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover { margin-top: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover i",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover i { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".chat-assistant:hover .chat-icon",
+        "media": "",
+        "css": ".chat-assistant:hover .chat-icon { background-image: url(\"\"); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 18,
+    "testedCount": 12,
+    "issueCount": 0,
+    "candidates": [
+      {
+        "text": "查看更多案例",
+        "href": "https://www.huaweicloud.com/cases.html",
+        "tag": "a",
+        "path": "div.pep-product-customer-v3 > div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more > a",
+        "className": "",
+        "top": 4289,
+        "left": 143,
+        "width": 104,
+        "height": 22,
+        "importance": 88,
+        "ordinal": 0
+      },
+      {
+        "text": "查看更多案例",
+        "href": "",
+        "tag": "div",
+        "path": "div#section-6 > div.pep-product-customer-v3 > div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more",
+        "className": "section-more",
+        "top": 4285,
+        "left": 24,
+        "width": 342,
+        "height": 26,
+        "importance": 80,
+        "ordinal": 1
+      },
+      {
+        "text": "查看全部",
+        "href": "https://pangu.huaweicloud.com/gallery/home.html",
+        "tag": "a",
+        "path": "li > div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark > a.por-link.por-link-more",
+        "className": "por-link por-link-more",
+        "top": 4616,
+        "left": 44,
+        "width": 68,
+        "height": 24,
+        "importance": 58,
+        "ordinal": 2
+      },
+      {
+        "text": "查看全部",
+        "href": "",
+        "tag": "div",
+        "path": "ul.doc-lists.col-doc-2 > li > div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark",
+        "className": "more-detail por-text-body-t2 color_text_primary_dark",
+        "top": 4616,
+        "left": 44,
+        "width": 302,
+        "height": 24,
+        "importance": 50,
+        "ordinal": 3
+      },
+      {
+        "text": "控制台",
+        "href": "https://console.huaweicloud.com/modelarts/?locale=zh-cn&region=cn-southwest-2#/model-studio/homepage",
+        "tag": "a",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+        "className": "por-btn por-btn-secondary por-btn-middle por-btn-lg-default svelte-6737yf",
+        "top": 383,
+        "left": 106,
+        "width": 92,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 4
+      },
+      {
+        "text": "文档",
+        "href": "https://support.huaweicloud.com/maas/index.html",
+        "tag": "a",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+        "className": "por-btn por-btn-secondary por-btn-middle por-btn-lg-default svelte-6737yf",
+        "top": 383,
+        "left": 206,
+        "width": 78,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 5
+      },
+      {
+        "text": "模型体验",
+        "href": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/experience?supportMobile=true",
+        "tag": "a",
+        "path": "div#common-components-container > div#section-1 > div.pep-model-cards > div.por-section.top-small-spacing > div.more-solutions > a.por-btn.por-btn-secondary",
+        "className": "por-btn por-btn-secondary",
+        "top": 1400,
+        "left": 142,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 6
+      },
+      {
+        "text": "立即咨询",
+        "href": "https://www.huaweicloud.com/ai/contact.html",
+        "tag": "a",
+        "path": "div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-container.show.white > div.model-filter-main-btns > a.model-filter-card-btn.por-btn.por-btn-primary",
+        "className": "model-filter-card-btn por-btn por-btn-primary por-btn-default",
+        "top": 1935,
+        "left": 44,
+        "width": 106,
+        "height": 32,
+        "importance": 28,
+        "ordinal": 7
+      },
+      {
+        "text": "控制台 文档",
+        "href": "",
+        "tag": "div",
+        "path": "a.por-carousel-slide.svelte-161racf.por-carousel-slide-current > object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf",
+        "className": "banner-item__buttons svelte-6737yf",
+        "top": 383,
+        "left": 83,
+        "width": 223,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 8
+      },
+      {
+        "text": "汇聚百模千态，热门模型一键调用 精选推荐 NEW 文本生成 代码模型 视频生成 图像理解 图片生成 旗舰新品 openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-1 > div.pep-model-cards",
+        "className": "pep-model-cards",
+        "top": 518,
+        "left": 0,
+        "width": 390,
+        "height": 958,
+        "importance": 20,
+        "ordinal": 9
+      },
+      {
+        "text": "旗舰新品",
+        "href": "",
+        "tag": "div",
+        "path": "div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-mark",
+        "className": "solutions-card-mark",
+        "top": 629,
+        "left": 295,
+        "width": 72,
+        "height": 18,
+        "importance": 20,
+        "ordinal": 10
+      },
+      {
+        "text": "旗舰新品 openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度思考",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-tab-container > div.por-tab-wrapper > div.por-tab-content.active > div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload",
+        "className": "solutions-card gradient-card lazyload full-bg  active-card",
+        "top": 630,
+        "left": 24,
+        "width": 342,
+        "height": 322,
+        "importance": 20,
+        "ordinal": 11
+      },
+      {
+        "text": "华为云App 便捷的云服务移动管控体验 立即下载",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn",
+        "className": "tm-adv-space light-btn ",
+        "top": 778,
+        "left": 0,
+        "width": 390,
+        "height": 66,
+        "importance": 20,
+        "ordinal": 12
+      },
+      {
+        "text": "立即下载",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn",
+        "className": "tm-adv-space-btn",
+        "top": 795,
+        "left": 248,
+        "width": 106,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 13
+      },
+      {
+        "text": "openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度思考",
+        "href": "",
+        "tag": "div",
+        "path": "div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-content",
+        "className": "solutions-card-content",
+        "top": 802,
+        "left": 24,
+        "width": 342,
+        "height": 150,
+        "importance": 20,
+        "ordinal": 14
+      },
+      {
+        "text": "openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度思考",
+        "href": "",
+        "tag": "div",
+        "path": "div.solutions-container-inner > div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-content > div.solutions-card-wrap",
+        "className": "solutions-card-wrap",
+        "top": 822,
+        "left": 44,
+        "width": 302,
+        "height": 112,
+        "importance": 20,
+        "ordinal": 15
+      },
+      {
+        "text": "openPangu-2.0-Flash",
+        "href": "",
+        "tag": "div",
+        "path": "div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-content > div.solutions-card-wrap > div.por-text-title-t8.solutions-card-title",
+        "className": "por-text-title-t8 solutions-card-title",
+        "top": 822,
+        "left": 44,
+        "width": 302,
+        "height": 22,
+        "importance": 20,
+        "ordinal": 16
+      },
+      {
+        "text": "主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。",
+        "href": "",
+        "tag": "div",
+        "path": "div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-content > div.solutions-card-wrap > div.por-text-body-t2.solutions-card-desc",
+        "className": "por-text-body-t2 solutions-card-desc",
+        "top": 850,
+        "left": 44,
+        "width": 302,
+        "height": 54,
+        "importance": 20,
+        "ordinal": 17
+      }
+    ],
+    "results": [
+      {
+        "text": "查看更多案例",
+        "tag": "a",
+        "href": "https://www.huaweicloud.com/cases.html",
+        "path": "div.pep-product-customer-v3 > div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more > a",
+        "rect": {
+          "left": 143,
+          "top": 4289,
+          "width": 104,
+          "height": 22
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "查看更多案例",
+          "path": "div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more > a > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 3878,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "查看更多案例",
+        "tag": "div",
+        "href": "",
+        "path": "div#section-6 > div.pep-product-customer-v3 > div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more",
+        "rect": {
+          "left": 24,
+          "top": 4285,
+          "width": 342,
+          "height": 26
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "查看更多案例",
+          "path": "div.home-customers.element-entrance.element-entrance-1 > div.section > div.por-container > div.section-more > a > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://www.huaweicloud.com/cases.html"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 3876,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 74,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 56,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "查看全部",
+        "tag": "a",
+        "href": "https://pangu.huaweicloud.com/gallery/home.html",
+        "path": "li > div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark > a.por-link.por-link-more",
+        "rect": {
+          "left": 44,
+          "top": 4616,
+          "width": 68,
+          "height": 24
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "查看全部",
+          "path": "li > div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark > a.por-link.por-link-more",
+          "className": "por-link por-link-more"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://www.huaweicloud.com/cases.html"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 4206,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "查看全部",
+        "tag": "div",
+        "href": "",
+        "path": "ul.doc-lists.col-doc-2 > li > div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark",
+        "rect": {
+          "left": 44,
+          "top": 4616,
+          "width": 302,
+          "height": 24
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "查看全部",
+          "path": "ul.doc-lists.col-doc-2 > li > div.por-collapse-container > div.por-collapse.show > div.doc-lists-content > div.more-detail.por-text-body-t2.color_text_primary_dark",
+          "className": "more-detail por-text-body-t2 color_text_primary_dark"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 4206,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 20,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "控制台",
+        "tag": "a",
+        "href": "https://console.huaweicloud.com/modelarts/?locale=zh-cn&region=cn-southwest-2#/model-studio/homepage",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+        "rect": {
+          "left": 106,
+          "top": 383,
+          "width": 92,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "控制台",
+          "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 0,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "文档",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/maas/index.html",
+        "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+        "rect": {
+          "left": 206,
+          "top": 383,
+          "width": 78,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "span",
+          "text": "文档",
+          "path": "div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle > span",
+          "className": ""
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 0,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "模型体验",
+        "tag": "a",
+        "href": "https://console.huaweicloud.com/modelarts/?region=cn-southwest-2#/model-studio/experience?supportMobile=true",
+        "path": "div#common-components-container > div#section-1 > div.pep-model-cards > div.por-section.top-small-spacing > div.more-solutions > a.por-btn.por-btn-secondary",
+        "rect": {
+          "left": 142,
+          "top": 1400,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "模型体验",
+          "path": "div#common-components-container > div#section-1 > div.pep-model-cards > div.por-section.top-small-spacing > div.more-solutions > a.por-btn.por-btn-secondary",
+          "className": "por-btn por-btn-secondary"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://support.huaweicloud.com/maas/index.html",
+          "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Fregion%3Dcn-southwest-2%26cloud_route_state%3D%2Fmodel-studio%2Fexperience%3FsupportMobile%3Dtrue"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 994,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 14,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "立即咨询",
+        "tag": "a",
+        "href": "https://www.huaweicloud.com/ai/contact.html",
+        "path": "div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-container.show.white > div.model-filter-main-btns > a.model-filter-card-btn.por-btn.por-btn-primary",
+        "rect": {
+          "left": 44,
+          "top": 1935,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "立即咨询",
+          "path": "div.por-section-body.hide-pc > div.filter-collapse-lists > div.filter-collapse-item > div.filter-collapse-container.show.white > div.model-filter-main-btns > a.model-filter-card-btn.por-btn.por-btn-primary",
+          "className": "model-filter-card-btn por-btn por-btn-primary por-btn-default"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 1529,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 32,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "控制台 文档",
+        "tag": "div",
+        "href": "",
+        "path": "a.por-carousel-slide.svelte-161racf.por-carousel-slide-current > object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf",
+        "rect": {
+          "left": 83,
+          "top": 383,
+          "width": 223,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "控制台",
+          "path": "object > div.banner-item.banner-item-transBlack.svelte-6737yf > div.por-container > div.banner-item__content.banner-item__content--70--web.banner-item__content--100--mobile > div.banner-item__buttons.svelte-6737yf > a.por-btn.por-btn-secondary.por-btn-middle",
+          "className": "por-btn por-btn-secondary por-btn-middle por-btn-lg-default svelte-6737yf"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://www.huaweicloud.com/ai/contact.html",
+          "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Flocale%3Dzh-cn%26region%3Dcn-southwest-2%26cloud_route_state%3D%2Fmodel-studio%2Fhomepage"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 0,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "汇聚百模千态，热门模型一键调用 精选推荐 NEW 文本生成 代码模型 视频生成 图像理解 图片生成 旗舰新品 openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度",
+        "tag": "div",
+        "href": "",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#content > div#common-components-container > div#section-1 > div.pep-model-cards",
+        "rect": {
+          "left": 0,
+          "top": 518,
+          "width": 390,
+          "height": 958
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "旗舰新品 openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度思考 GLM-5.2 Function Call Kimi-K2.6 Function Call 深",
+          "path": "div.por-section.top-small-spacing > div.por-tab-container > div.por-tab-wrapper > div.por-tab-content.active > div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner",
+          "className": "solutions-container-inner"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Flocale%3Dzh-cn%26region%3Dcn-southwest-2%26cloud_route_state%3D%2Fmodel-studio%2Fexperience%3FversionId%3Da9c73a53-4bfb-4329-900c-f3616e196ea6%26preferredService%3Dcommercial%26supportMobile%3Dtrue"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 575,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "旗舰新品",
+        "tag": "div",
+        "href": "",
+        "path": "div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-mark",
+        "rect": {
+          "left": 295,
+          "top": 629,
+          "width": 72,
+          "height": 18
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "旗舰新品",
+          "path": "div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.solutions-card-mark",
+          "className": "solutions-card-mark"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Flocale%3Dzh-cn%26region%3Dcn-southwest-2%26cloud_route_state%3D%2Fmodel-studio%2Fexperience%3FversionId%3D733135ba-53b9-4516-87cf-80ef54ee3477%26preferredService%3Dcommercial%26supportMobile%3Dtrue"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 217,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "旗舰新品 openPangu-2.0-Flash 主打极致性价比，总参数量 92B，动态激活参数量 6B。在保留核心能力的基础上，适配轻量化部署，大幅降低落地门槛。 文本生成 深度思考",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-tab-container > div.por-tab-wrapper > div.por-tab-content.active > div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload",
+        "rect": {
+          "left": 24,
+          "top": 630,
+          "width": 342,
+          "height": 322
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "",
+          "path": "div.solutions-container.content-layout-mb.hide-pc > div.solutions-container-inner > div.solutions-card.gradient-card.lazyload > a > div.solutions-card-inner-container > div.multimedia.lazyload",
+          "className": "multimedia lazyload"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "afterUrl": "https://www.huaweicloud.com/product/modelarts/studio.html",
+        "popupUrls": [
+          "https://auth.huaweicloud.com/authui/login.html?service=https%3A%2F%2Fconsole.huaweicloud.com%2Fmodelarts%2F%3Flocale%3Dzh-cn%26region%3Dcn-southwest-2%26cloud_route_state%3D%2Fmodel-studio%2Fexperience%3FversionId%3D733135ba-53b9-4516-87cf-80ef54ee3477%26preferredService%3Dcommercial%26supportMobile%3Dtrue"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/product/modelarts/studio.html",
+          "scrollY": 369,
+          "bodyLength": 1372,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "tapActionIssues": [],
+  "after_scroll_ctas": [
+    {
+      "text": "售前咨询： 950808转1",
+      "position": "static",
+      "x": 20,
+      "y": 3789,
+      "width": 351,
+      "height": 48
+    },
+    {
+      "text": "立即下载",
+      "position": "static",
+      "x": 248,
+      "y": 795,
+      "width": 106,
+      "height": 32
+    }
+  ],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 0,
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 3,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 25,
+        "x": 270,
+        "y": 131
+      },
+      {
+        "index": 4,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 346,
+        "y": 120
+      },
+      {
+        "index": 33,
+        "text": "查看更多案例",
+        "className": "",
+        "width": 104,
+        "height": 22,
+        "x": 143,
+        "y": 4410
+      },
+      {
+        "index": 38,
+        "text": "查看全部",
+        "className": "por-link por-link-more",
+        "width": 68,
+        "height": 24,
+        "x": 44,
+        "y": 4737
+      },
+      {
+        "index": 43,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5000
+      },
+      {
+        "index": 44,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5000
+      },
+      {
+        "index": 45,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5000
+      },
+      {
+        "index": 46,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5000
+      },
+      {
+        "index": 47,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 5016
+      },
+      {
+        "index": 48,
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 5016
+      },
+      {
+        "index": 50,
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 5052
+      },
+      {
+        "index": 51,
+        "text": "",
+        "className": "footer-nav-about",
+        "width": 150,
+        "height": 66,
+        "x": 120,
+        "y": 5073
+      },
+      {
+        "index": 52,
+        "text": "华为云微信 扫描二维码",
+        "className": "footer-nav-submenus-link weixin-sh",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 5081
+      },
+      {
+        "index": 53,
+        "text": "华为云微信小程序 华为云微信小程序",
+        "className": "footer-nav-submenus-link microapp-sh",
+        "width": 34,
+        "height": 34,
+        "x": 178,
+        "y": 5081
+      },
+      {
+        "index": 54,
+        "text": "华为云微博 扫描二维码",
+        "className": "footer-nav-submenus-link ",
+        "width": 34,
+        "height": 34,
+        "x": 228,
+        "y": 5081
+      },
+      {
+        "index": 55,
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 5139
+      },
+      {
+        "index": 63,
+        "text": "联系销售 950808转1 950808转1 云宝助手 产品问题咨询，做懂您的AI助手 智能客服（已升级为云宝助手） 点击右侧，直达AI助手 建议反馈 您的每一",
+        "className": "float-bar-nav",
+        "width": 44,
+        "height": 44,
+        "x": 326,
+        "y": 710
+      }
+    ],
+    "clicked_candidate": {
+      "index": 4,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 346,
+      "y": 120
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息 智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 Agen",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言 智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-inner ",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言",
+        "className": "header-mbnav-leftmenu",
+        "position": "relative",
+        "zIndex": "10",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 活动 产品 解决方案 定价 云商店 伙伴 开发者 服务 了解华为云 语言",
+        "className": "header-mbnav-menulist",
+        "position": "relative",
+        "zIndex": "auto",
+        "width": 120,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园首页 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-collapses",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 270,
+        "height": 844,
+        "x": 120,
+        "y": 168
+      },
+      {
+        "text": "智果园首页",
+        "className": "header-mbnav-level2-content-index",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 235,
+        "height": 46,
+        "x": 140,
+        "y": 188
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5000
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 5000
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5000
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 5000
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 5016
+      },
+      {
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 5016
+      },
+      {
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 5052
+      },
+      {
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 5139
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 16,
+        "y": 87
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 358,
+        "y": 87
+      },
+      {
+        "text": "PixVerse-V6-T2V 视频生成",
+        "width": 167,
+        "height": 194,
+        "x": 199,
+        "y": 1186
+      },
+      {
+        "text": "PixVerse-V6-T2V",
+        "width": 109,
+        "height": 16,
+        "x": 219,
+        "y": 1315
+      },
+      {
+        "text": "性能支持业界超高并发 CloudMatrix最高可达主流GPU性能的四倍，弹性内存存储以存代算，时延降低90%，显存扩展，节省30%算力，吞吐提升40%",
+        "width": 342,
+        "height": 138,
+        "x": 24,
+        "y": 2544
+      },
+      {
+        "text": "端到端加密，全链路安心",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 3376
+      },
+      {
+        "text": "操作全程可审计，风险全周期可控",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 3693
+      },
+      {
+        "text": "AI Gallery百模千态社区",
+        "width": 342,
+        "height": 64,
+        "x": 24,
+        "y": 4568
+      },
+      {
+        "text": "华为云微信 扫描二维码",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 5081
+      },
+      {
+        "text": "",
+        "width": 28,
+        "height": 28,
+        "x": 360,
+        "y": 797
+      }
+    ]
+  }
+}

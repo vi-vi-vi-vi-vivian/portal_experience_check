@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/product/agentarts.html",
+  "generated_at": "2026-07-20T01:36:50.391163+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 3,
+    "p0": 0,
+    "p1": 0,
+    "p2": 3
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/product/agentarts.html",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "移动端按钮触控面积过小",
+          "area": "首屏Banner及内容卡片",
+          "page_url": "https://www.huaweicloud.com/product/agentarts.html",
+          "locate": [
+            "申请公测",
+            "免费试用",
+            "控制台",
+            "立即体验"
+          ],
+          "evidence": "DOM数据中，Banner按钮高度仅为32px（如path: 'object > div.banner-item... > a.por-btn-primary.por-btn-middle'），Swiper卡片内的'立即体验'按钮高度仅为24px（如path: 'div.swiper-wrapper > div.swiper-slide... > a.por-btn-small.por-btn-secondary'），远低于移动端推荐的44px-48px触控标准。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度为32px或24px",
+          "suggestion_after": "在移动端媒体查询下，将按钮高度调整为至少40px（推荐44px），并适当增大点击热区。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p2",
+          "title": "底部固定栏未适配安全区域",
+          "area": "页面底部固定栏",
+          "page_url": "https://www.huaweicloud.com/product/agentarts.html",
+          "locate": [
+            "华为云App 便捷的云服务移动管控体验 立即下载"
+          ],
+          "evidence": "DOM数据中，固定在底部的元素 'div.tm-adv-space.light-btn' 的 hasSafeAreaInset 属性为 false，且 paddingBottom 为 '0px'。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "padding-bottom: 0px",
+          "suggestion_after": "利用CSS env()函数，添加 padding-bottom: env(safe-area-inset-bottom); 确保在全面屏手机上不与系统导航条重叠。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p2",
+          "title": "顶部提示栏高度过大挤占首屏",
+          "area": "页面顶部",
+          "page_url": "https://www.huaweicloud.com/product/agentarts.html",
+          "locate": [
+            "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+          ],
+          "evidence": "DOM数据中，顶部提示栏 'div#header' 在移动端的高度达到 168px，占用了首屏近20%的垂直空间，导致核心Banner内容和主CTA被向下挤压。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "提示栏高度168px",
+          "suggestion_after": "在移动端精简提示文字，采用折叠或更紧凑的单行排版，将高度控制在60px以内。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "优化移动端按钮高度至44px以上以提升触控体验",
+        "为底部固定栏添加 safe-area-inset-bottom 避免遮挡",
+        "精简顶部提示栏高度，释放首屏空间给核心产品信息"
+      ],
+      "analysis_content": "页面整体响应式适配良好，但移动端触控友好度有待提升。主要问题在于多个关键CTA按钮（如Banner按钮、卡片内立即体验按钮）高度仅为24px-32px，远低于移动端44px的黄金触控标准；此外，底部固定下载栏未适配安全区域，顶部提示栏高度过大（168px）挤占了首屏核心内容的曝光空间。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "移动端按钮触控面积过小",
+      "area": "首屏Banner及内容卡片",
+      "page_url": "https://www.huaweicloud.com/product/agentarts.html",
+      "locate": [
+        "申请公测",
+        "免费试用",
+        "控制台",
+        "立即体验"
+      ],
+      "evidence": "DOM数据中，Banner按钮高度仅为32px（如path: 'object > div.banner-item... > a.por-btn-primary.por-btn-middle'），Swiper卡片内的'立即体验'按钮高度仅为24px（如path: 'div.swiper-wrapper > div.swiper-slide... > a.por-btn-small.por-btn-secondary'），远低于移动端推荐的44px-48px触控标准。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度为32px或24px",
+      "suggestion_after": "在移动端媒体查询下，将按钮高度调整为至少40px（推荐44px），并适当增大点击热区。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p2",
+      "title": "底部固定栏未适配安全区域",
+      "area": "页面底部固定栏",
+      "page_url": "https://www.huaweicloud.com/product/agentarts.html",
+      "locate": [
+        "华为云App 便捷的云服务移动管控体验 立即下载"
+      ],
+      "evidence": "DOM数据中，固定在底部的元素 'div.tm-adv-space.light-btn' 的 hasSafeAreaInset 属性为 false，且 paddingBottom 为 '0px'。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "padding-bottom: 0px",
+      "suggestion_after": "利用CSS env()函数，添加 padding-bottom: env(safe-area-inset-bottom); 确保在全面屏手机上不与系统导航条重叠。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p2",
+      "title": "顶部提示栏高度过大挤占首屏",
+      "area": "页面顶部",
+      "page_url": "https://www.huaweicloud.com/product/agentarts.html",
+      "locate": [
+        "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息"
+      ],
+      "evidence": "DOM数据中，顶部提示栏 'div#header' 在移动端的高度达到 168px，占用了首屏近20%的垂直空间，导致核心Banner内容和主CTA被向下挤压。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "提示栏高度168px",
+      "suggestion_after": "在移动端精简提示文字，采用折叠或更紧凑的单行排版，将高度控制在60px以内。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_html/trial-20260720-agentarts/screenshots/https_www_huaweicloud_com_product_agentarts_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

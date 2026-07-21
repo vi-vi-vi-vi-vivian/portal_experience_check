@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+  "generated_at": "2026-07-20T02:08:45.781809+00:00",
+  "summary": {
+    "score": 5,
+    "issue_count": 2,
+    "p0": 0,
+    "p1": 1,
+    "p2": 1
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+      "title": null,
+      "score": 5,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "页面存在严重横向溢出",
+          "area": "响应式布局",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "locate": [
+            "html.phone.phone > body.header-white > div#content",
+            "div#common-components-container",
+            "div#section-6"
+          ],
+          "evidence": "页面的 documentElementScrollWidth 和 bodyScrollWidth 达到 1090px，而 clientWidth 仅为 390px。其中 div#section-6 区域内的 Swiper 组件（div.swiper.mobile-swiper.white）scrollWidth 达 1066px，导致整页产生严重的横向滚动，破坏了移动端响应式布局。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "未对移动端容器及 Swiper 组件进行宽度限制，导致页面被撑宽至 1090px",
+          "suggestion_after": "为 #content 及 #section-6 设置 max-width: 100% 和 overflow-x: hidden;，并确保 Swiper 移动端配置为 width: 100% 且自适应视口。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "主 CTA 及社区按钮触控区域过小",
+          "area": "触控体验",
+          "page_url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+          "locate": [
+            "访问官网",
+            "加入社区",
+            "查看源码"
+          ],
+          "evidence": "Banner 区域的三个核心操作按钮（访问官网、加入社区、查看源码）尺寸仅为 106px * 32px，高度 32px 远低于移动端推荐的最小触控高度 44px/48px，极易造成用户漏触或误触。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "按钮高度仅为 32px",
+          "suggestion_after": "在移动端媒体查询中将按钮高度提升至至少 44px，或增加上下 padding 确保触控热区达标。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "修复全局横向溢出问题，确保页面在 390px 视口下无横向滚动条。",
+        "优化移动端按钮及链接的触控热区，核心 CTA 按钮高度应不低于 44px。"
+      ],
+      "analysis_content": "页面在移动端适配上存在严重缺陷，主要表现为 Swiper 组件及部分容器未做宽度自适应，导致页面整体横向溢出至 1090px。此外，首屏核心 CTA 按钮高度仅 32px，不符合移动端触控体验标准。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "页面存在严重横向溢出",
+      "area": "响应式布局",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+      "locate": [
+        "html.phone.phone > body.header-white > div#content",
+        "div#common-components-container",
+        "div#section-6"
+      ],
+      "evidence": "页面的 documentElementScrollWidth 和 bodyScrollWidth 达到 1090px，而 clientWidth 仅为 390px。其中 div#section-6 区域内的 Swiper 组件（div.swiper.mobile-swiper.white）scrollWidth 达 1066px，导致整页产生严重的横向滚动，破坏了移动端响应式布局。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "未对移动端容器及 Swiper 组件进行宽度限制，导致页面被撑宽至 1090px",
+      "suggestion_after": "为 #content 及 #section-6 设置 max-width: 100% 和 overflow-x: hidden;，并确保 Swiper 移动端配置为 width: 100% 且自适应视口。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "主 CTA 及社区按钮触控区域过小",
+      "area": "触控体验",
+      "page_url": "https://www.huaweicloud.com/product/agentarts/openJiuwen.html",
+      "locate": [
+        "访问官网",
+        "加入社区",
+        "查看源码"
+      ],
+      "evidence": "Banner 区域的三个核心操作按钮（访问官网、加入社区、查看源码）尺寸仅为 106px * 32px，高度 32px 远低于移动端推荐的最小触控高度 44px/48px，极易造成用户漏触或误触。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "按钮高度仅为 32px",
+      "suggestion_after": "在移动端媒体查询中将按钮高度提升至至少 44px，或增加上下 padding 确保触控热区达标。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_product_agentarts_openJiuwen_html/batch-20260720-095401-02/screenshots/https_www_huaweicloud_com_product_agentarts_openJiuwen_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

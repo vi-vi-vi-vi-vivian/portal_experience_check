@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+  "generated_at": "2026-07-20T02:56:56.688550+00:00",
+  "summary": {
+    "score": 7,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 2,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+      "title": null,
+      "score": 7,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "主CTA按钮高度不足",
+          "area": "首屏 Banner / 尾部 Banner",
+          "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+          "locate": [
+            "div.por-container > div.por-section-body > div.banner-content > div.btn-group > object > a.por-btn.por-btn-gradient.por-btn-middle"
+          ],
+          "evidence": "首屏和尾部Banner中的主行动点“参与邀测”按钮高度仅为 32px（尺寸为 104x32），远低于移动端推荐的最小触控高度 48px，容易导致用户难以精准点击。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "height: 32px",
+          "suggestion_after": "height: 48px，并适当增加字号与左右内边距，确保在移动端易于点击。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "layout",
+          "severity": "p1",
+          "title": "底部固定下载栏未适配安全区域",
+          "area": "页面底部固定栏",
+          "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+          "locate": [
+            "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn"
+          ],
+          "evidence": "底部固定App下载栏（“华为云App 便捷的云服务移动管控体验 立即下载”）的 hasSafeAreaInset 属性为 false，高度为 66px，bottom 为 0px。在全面屏手机上会与系统底部 Home 指示条重合，导致误触或遮挡。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "bottom: 0px",
+          "suggestion_after": "为固定栏容器增加 padding-bottom: env(safe-area-inset-bottom)，确保避开系统安全区域。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "unknown",
+          "severity": "p2",
+          "title": "底部Banner容器文本溢出风险",
+          "area": "底部 Banner 区域",
+          "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+          "locate": [
+            "div#section-5 > div.pep-product-banner-v3 > div.por-section.main-section > div.por-container > div.por-section-body"
+          ],
+          "evidence": "该容器的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的溢出。在窄屏设备上可能导致微小的横向滚动或文字贴边截断。",
+          "standard": "Nielsen #4",
+          "suggestion_before": "未限制折行或容器宽度不匹配",
+          "suggestion_after": "为容器设置 box-sizing: border-box 并微调左右 padding，确保子元素宽度不超过 clientWidth。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "页脚链接触控区域过小且密集",
+          "area": "页脚导航区",
+          "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+          "locate": [
+            "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+            "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a"
+          ],
+          "evidence": "“云服务器”、“Flexus云服务”、“法律声明”、“隐私政策”等页脚链接的高度仅为 14px-16px，且排布紧密，极易发生误触。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "height: 16px",
+          "suggestion_after": "增加链接的 line-height 至至少 24px，并为每个 <a> 标签增加 padding: 8px 0，使实际可触控高度达到 40px 以上。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+        }
+      ],
+      "suggestions": [
+        "全面排查整页所有按钮（如“立即下载”、“参与邀测”）的触控高度，统一提升至 44px-48px 之间。",
+        "针对 iOS/Android 全面屏设备，为所有 position: fixed 在底部的元素强制添加 env(safe-area-inset-bottom) 适配。",
+        "优化页脚密集链接的间距，采用弹性盒布局（Flexbox）并设置 gap 属性，防止误触。"
+      ],
+      "analysis_content": "WorkAgent文档智能体移动端页面整体响应式布局良好，侧边栏菜单可正常唤起和交互。但存在较明显的移动端触控体验缺陷，主要表现在主行动点（CTA）按钮高度仅 32px、页脚链接过小且密集，以及底部固定栏未适配全面屏安全区域，需针对触控尺寸和安全区进行专项优化。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "主CTA按钮高度不足",
+      "area": "首屏 Banner / 尾部 Banner",
+      "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+      "locate": [
+        "div.por-container > div.por-section-body > div.banner-content > div.btn-group > object > a.por-btn.por-btn-gradient.por-btn-middle"
+      ],
+      "evidence": "首屏和尾部Banner中的主行动点“参与邀测”按钮高度仅为 32px（尺寸为 104x32），远低于移动端推荐的最小触控高度 48px，容易导致用户难以精准点击。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "height: 32px",
+      "suggestion_after": "height: 48px，并适当增加字号与左右内边距，确保在移动端易于点击。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "layout",
+      "severity": "p1",
+      "title": "底部固定下载栏未适配安全区域",
+      "area": "页面底部固定栏",
+      "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+      "locate": [
+        "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn"
+      ],
+      "evidence": "底部固定App下载栏（“华为云App 便捷的云服务移动管控体验 立即下载”）的 hasSafeAreaInset 属性为 false，高度为 66px，bottom 为 0px。在全面屏手机上会与系统底部 Home 指示条重合，导致误触或遮挡。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "bottom: 0px",
+      "suggestion_after": "为固定栏容器增加 padding-bottom: env(safe-area-inset-bottom)，确保避开系统安全区域。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "unknown",
+      "severity": "p2",
+      "title": "底部Banner容器文本溢出风险",
+      "area": "底部 Banner 区域",
+      "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+      "locate": [
+        "div#section-5 > div.pep-product-banner-v3 > div.por-section.main-section > div.por-container > div.por-section-body"
+      ],
+      "evidence": "该容器的 clientWidth 为 342px，而 scrollWidth 为 346px，存在 4px 的溢出。在窄屏设备上可能导致微小的横向滚动或文字贴边截断。",
+      "standard": "Nielsen #4",
+      "suggestion_before": "未限制折行或容器宽度不匹配",
+      "suggestion_after": "为容器设置 box-sizing: border-box 并微调左右 padding，确保子元素宽度不超过 clientWidth。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "页脚链接触控区域过小且密集",
+      "area": "页脚导航区",
+      "page_url": "https://www.huaweicloud.com/agentorchard/workagent.html",
+      "locate": [
+        "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a"
+      ],
+      "evidence": "“云服务器”、“Flexus云服务”、“法律声明”、“隐私政策”等页脚链接的高度仅为 14px-16px，且排布紧密，极易发生误触。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "height: 16px",
+      "suggestion_after": "增加链接的 line-height 至至少 24px，并为每个 <a> 标签增加 padding: 8px 0，使实际可触控高度达到 40px 以上。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_workagent_html/batch-20260720-095401-11/screenshots/https_www_huaweicloud_com_agentorchard_workagent_html_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

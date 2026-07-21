@@ -1,0 +1,48 @@
+{
+  "stage": "感知",
+  "score": 1,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "官网云搜索服务CSS产品感知页返回404错误，导致客户旅程中断",
+      "area": "首屏主视觉区",
+      "locate": [
+        "很抱歉，没发现您要的页面",
+        "404页面_华为云"
+      ],
+      "evidence": "用户访问云搜索服务CSS的产品官网感知页（URL: https://www.huaweicloud.com/product/css.html），页面直接返回404错误，DOM中title为'404页面_华为云'，正文显示'很抱歉，没发现您要的页面'，导致用户完全无法获取该产品的任何介绍、定价或购买入口。",
+      "standard": "Garrett: Structure Plane | Nielsen #5: Error Prevention",
+      "severity": "p0",
+      "suggestion": "修改前：访问产品感知页链接返回404错误页面 -> 修改后：修复该页面的路由配置与内容部署，确保用户访问时能正常加载云搜索服务 CSS 的产品详情、功能介绍与购买入口页面。"
+    },
+    {
+      "title": "404页面推荐项目与用户目标产品无关，且缺乏智能引导机制",
+      "area": "功能介绍区",
+      "locate": [
+        "您可能感兴趣的项目：",
+        "大模型即服务平台",
+        "弹性云服务器",
+        "虚拟私有云"
+      ],
+      "evidence": "在404错误页面中，'您可能感兴趣的项目' 仅推荐了 '大模型即服务平台'、'弹性云服务器'、'虚拟私有云'，未结合用户请求的URL路径（/product/css.html）进行关联推荐（如推荐云搜索服务CSS或相关大数据产品），导致用户无法快速找回目标产品。",
+      "standard": "Nielsen #3: User Control and Freedom | Nielsen #6: Recognition Rather Than Recall",
+      "severity": "p1",
+      "suggestion": "修改前：展示固定的无关产品推荐 -> 修改后：根据用户请求的URL关键字（如css）进行智能关联推荐，或在404页面提供明显的搜索框并自动填充用户原本寻找的关键词 'CSS'，降低用户的流失率。"
+    }
+  ],
+  "suggestions": [
+    "立即排查并修复官网云搜索服务 CSS（css.html）的产品页面部署与路由分发，恢复产品感知入口。",
+    "优化全站404错误页面的导流机制，引入基于URL路径分析的智能推荐算法，避免在发生404时直接中断客户旅程。"
+  ],
+  "analysis_content": "在感知阶段，用户尝试通过官网链接访问云搜索服务 CSS 的产品页面，但该页面直接返回 404 错误，导致用户无法获取任何产品信息或购买入口，客户旅程在第一步发生严重阻断。页面提供的推荐内容也与目标产品完全无关，缺乏有效的容错与引导机制。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/product/css.html",
+  "title": "404页面_华为云",
+  "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_1_awareness.png"
+}

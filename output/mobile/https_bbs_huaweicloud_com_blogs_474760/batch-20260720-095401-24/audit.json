@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "source": "mobile",
+  "input_url": "https://bbs.huaweicloud.com/blogs/474760",
+  "generated_at": "2026-07-20T04:19:46.195656+00:00",
+  "summary": {
+    "score": 4,
+    "issue_count": 4,
+    "p0": 0,
+    "p1": 2,
+    "p2": 2
+  },
+  "sections": [
+    {
+      "id": "mobile-page",
+      "name": "移动端页面",
+      "url": "https://bbs.huaweicloud.com/blogs/474760",
+      "title": null,
+      "score": 4,
+      "is_compliant": false,
+      "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png",
+      "issues": [
+        {
+          "id": "mobile-mobile-page-001",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p1",
+          "title": "“返回”按钮点击失效且发生误触",
+          "area": "导航栏",
+          "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+          "locate": [
+            "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn"
+          ],
+          "evidence": "触控测试中，点击“返回”（span.back-btn，尺寸 18x66）返回 status 为 'no-visible-effect'，且实际命中了背景中的 'h1.cloud-blog-detail-title' 元素（hitInsideTarget: false），说明该返回按钮被遮挡或定位重叠。",
+          "standard": "Nielsen #3",
+          "suggestion_before": "span.back-btn 实际可点击区域过窄且与背景标题重叠",
+          "suggestion_after": "提升 span.back-btn 的 z-index 确保其在最上层，并将点击热区扩大至至少 44x44px，避免与底层内容重叠。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-002",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p1",
+          "title": "侧边栏菜单宽度过窄导致文字严重折行",
+          "area": "侧边导航栏",
+          "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+          "locate": [
+            "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu"
+          ],
+          "evidence": "DOM 数据显示 ul.my-menu 的 clientWidth 仅为 48px，而其 scrollHeight 高达 763px，内部包含“个人主页 我的开发者 我的博客...”等大量长文本。子项链接如“我的博客”等宽度仅为 14px，导致文字被迫垂直单字排列，可读性极差。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "ul.my-menu 宽度固定为 48px，导致文字单字换行",
+          "suggestion_after": "将侧边栏菜单宽度调整为自适应或至少 200px，使菜单项横向完整显示。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-003",
+          "section": "mobile-page",
+          "type": "link_target",
+          "severity": "p2",
+          "title": "页面内多个关键链接触控热区过小",
+          "area": "文章主体及作者信息区",
+          "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+          "locate": [
+            "a.author-min-head.target_self",
+            "a.sub-content-username.por-link-red",
+            "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a"
+          ],
+          "evidence": "多个可点击元素的尺寸远低于移动端推荐的 48x48px。例如作者头像仅 20x20px（面积 400），“官网”链接仅 28x16px（面积 448），极易造成用户误触或难以点中。",
+          "standard": "Nielsen #7",
+          "suggestion_before": "作者头像 20x20px，文本链接高度 16px",
+          "suggestion_after": "通过增加 padding 扩展点击热区，使这些微型按钮的实际可触控面积达到至少 44x44px。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+        },
+        {
+          "id": "mobile-mobile-page-004",
+          "section": "mobile-page",
+          "type": "interaction",
+          "severity": "p2",
+          "title": "作者及文章元信息栏横向溢出",
+          "area": "文章头部元信息",
+          "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+          "locate": [
+            "div.common-blog-icons.common-blog-icons-cloud-blog"
+          ],
+          "evidence": "该元信息栏元素的 clientWidth 为 360px，而 scrollWidth 为 372px，存在 12px 的横向溢出，可能导致右侧的“举报”按钮等元素在部分小屏设备上被截断或贴边。",
+          "standard": "Nielsen #8",
+          "suggestion_before": "元信息栏 scrollWidth (372px) 大于 clientWidth (360px)",
+          "suggestion_after": "优化元信息栏的弹性布局（Flexbox），设置 flex-wrap: wrap 或适当缩小元素间距，确保在 360px 宽度内不发生溢出。",
+          "auto_fix_eligible": false,
+          "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+        }
+      ],
+      "suggestions": [
+        "重构侧边栏菜单布局，确保菜单容器宽度足够（如占屏幕宽度的 70%-80%），避免文字单字垂直排列。",
+        "修复返回按钮的层级（z-index）与点击热区，确保在移动端能够精准且顺畅地响应用户返回操作。",
+        "全局排查文章内链及作者信息栏的点击热区，利用 CSS 伪元素或 padding 增大触控面积至 44px 以上。"
+      ],
+      "analysis_content": "本次审查发现该移动端页面存在严重的导航与布局缺陷。侧边栏菜单宽度被限制在 48px，导致菜单文本完全无法阅读；同时，关键的“返回”按钮因层级或定位问题被底层标题遮挡，导致点击失效并触发误触。此外，页面内存在多处微型触控目标和轻微的横向溢出，整体移动端适配体验亟待提升。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "mobile-mobile-page-001",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p1",
+      "title": "“返回”按钮点击失效且发生误触",
+      "area": "导航栏",
+      "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+      "locate": [
+        "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > div.user-info > div.top-tools > span.back-btn"
+      ],
+      "evidence": "触控测试中，点击“返回”（span.back-btn，尺寸 18x66）返回 status 为 'no-visible-effect'，且实际命中了背景中的 'h1.cloud-blog-detail-title' 元素（hitInsideTarget: false），说明该返回按钮被遮挡或定位重叠。",
+      "standard": "Nielsen #3",
+      "suggestion_before": "span.back-btn 实际可点击区域过窄且与背景标题重叠",
+      "suggestion_after": "提升 span.back-btn 的 z-index 确保其在最上层，并将点击热区扩大至至少 44x44px，避免与底层内容重叠。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-002",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p1",
+      "title": "侧边栏菜单宽度过窄导致文字严重折行",
+      "area": "侧边导航栏",
+      "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+      "locate": [
+        "div.header-container > div.header-wrapper > div.header-user-detail.slide-panel > ul.my-menu"
+      ],
+      "evidence": "DOM 数据显示 ul.my-menu 的 clientWidth 仅为 48px，而其 scrollHeight 高达 763px，内部包含“个人主页 我的开发者 我的博客...”等大量长文本。子项链接如“我的博客”等宽度仅为 14px，导致文字被迫垂直单字排列，可读性极差。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "ul.my-menu 宽度固定为 48px，导致文字单字换行",
+      "suggestion_after": "将侧边栏菜单宽度调整为自适应或至少 200px，使菜单项横向完整显示。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-003",
+      "section": "mobile-page",
+      "type": "link_target",
+      "severity": "p2",
+      "title": "页面内多个关键链接触控热区过小",
+      "area": "文章主体及作者信息区",
+      "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+      "locate": [
+        "a.author-min-head.target_self",
+        "a.sub-content-username.por-link-red",
+        "div.blog-content-body > div.cloud-blog-detail-content-wrap > div#blogContent.cloud-blog-detail-content.blog-content-block-0 > p > a"
+      ],
+      "evidence": "多个可点击元素的尺寸远低于移动端推荐的 48x48px。例如作者头像仅 20x20px（面积 400），“官网”链接仅 28x16px（面积 448），极易造成用户误触或难以点中。",
+      "standard": "Nielsen #7",
+      "suggestion_before": "作者头像 20x20px，文本链接高度 16px",
+      "suggestion_after": "通过增加 padding 扩展点击热区，使这些微型按钮的实际可触控面积达到至少 44x44px。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+    },
+    {
+      "id": "mobile-mobile-page-004",
+      "section": "mobile-page",
+      "type": "interaction",
+      "severity": "p2",
+      "title": "作者及文章元信息栏横向溢出",
+      "area": "文章头部元信息",
+      "page_url": "https://bbs.huaweicloud.com/blogs/474760",
+      "locate": [
+        "div.common-blog-icons.common-blog-icons-cloud-blog"
+      ],
+      "evidence": "该元信息栏元素的 clientWidth 为 360px，而 scrollWidth 为 372px，存在 12px 的横向溢出，可能导致右侧的“举报”按钮等元素在部分小屏设备上被截断或贴边。",
+      "standard": "Nielsen #8",
+      "suggestion_before": "元信息栏 scrollWidth (372px) 大于 clientWidth (360px)",
+      "suggestion_after": "优化元信息栏的弹性布局（Flexbox），设置 flex-wrap: wrap 或适当缩小元素间距，确保在 360px 宽度内不发生溢出。",
+      "auto_fix_eligible": false,
+      "screenshot": "../../output/mobile/https_bbs_huaweicloud_com_blogs_474760/batch-20260720-095401-24/screenshots/https_bbs_huaweicloud_com_blogs_474760_top.png"
+    }
+  ],
+  "model": {
+    "provider": "gemini",
+    "name": "gemini-3.5-flash",
+    "fallback_chain": [
+      "gemini:gemini-3.5-flash",
+      "gemini:gemini-2.5-flash"
+    ],
+    "config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json"
+  }
+}

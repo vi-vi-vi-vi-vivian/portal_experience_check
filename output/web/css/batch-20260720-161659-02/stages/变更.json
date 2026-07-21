@@ -1,0 +1,33 @@
+{
+  "stage": "变更",
+  "score": 2,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "未找到变更入口",
+      "area": "全局",
+      "locate": [
+        "服务公告",
+        "升级公告"
+      ],
+      "evidence": "系统在变更阶段未能引导用户进入实际的产品配置变更或套餐升级页面，而是跳转到了无关的升级公告页面（https://www.huaweicloud.com/notice/20260717153237724.html），且DOM数据中标记 entry_not_found 为 true。",
+      "standard": "Nielsen #4 | Garrett: Structure Plane",
+      "severity": "p0",
+      "suggestion": "修改前：跳转至服务公告页 -> 修改后：应引导用户跳转至控制台的产品变更/配置升级页面，或在订阅管理中提供明确的‘变更配置/升级套餐’入口。"
+    }
+  ],
+  "suggestions": [
+    "在用户尝试进行产品变更时，应提供直接、明确的配置变更或套餐升级入口，避免引导至无关的系统升级公告页面。"
+  ],
+  "analysis_content": "在变更阶段，系统未能提供有效的产品配置变更或套餐升级入口，而是错误地跳转到了统一身份认证服务（IAM）的升级公告页面，导致用户无法完成变更操作，体验旅程中断。",
+  "provider": "gemini",
+  "model": "gemini-3.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://www.huaweicloud.com/notice/20260717153237724.html",
+  "title": "华为云统一身份认证服务(IAM)计划于2026年7月26日02:00-04:00（北京时间）升级通知-华为云",
+  "screenshot_path": "../../output/web/css/batch-20260720-161659-02/screenshots/screenshot_6_change.png"
+}

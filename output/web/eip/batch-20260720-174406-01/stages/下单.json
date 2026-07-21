@@ -1,0 +1,83 @@
+{
+  "stage": "下单",
+  "score": 7,
+  "is_compliant": false,
+  "issues": [
+    {
+      "title": "计费详情信息不透明，缺少计算公式",
+      "area": "定价/套餐区",
+      "locate": [
+        "弹性公网IP保有费：免费 带宽费用：¥115.00",
+        "实际扣费以账单为准。了解计费详情"
+      ],
+      "evidence": "页面底部显示'弹性公网IP保有费：免费 带宽费用：¥115.00'，但未提供带宽费用¥115.00的具体计算公式（如带宽大小*单价*时长），且'实际扣费以账单为准'的提示可能让用户对当前价格的准确性产生疑虑。价格信息字号为12px，颜色为rgb(140, 140, 140)，与正文14px、rgb(25, 25, 25)相比不突出。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "severity": "p1",
+      "suggestion": "修改前：'弹性公网IP保有费：免费 带宽费用：¥115.00 实际扣费以账单为准。了解计费详情' → 修改后：在价格下方提供详细的计算公式，例如：'带宽费用：¥115.00 (5 Mbit/s × ¥23.00/Mbit/s/月)'，并将'实际扣费以账单为准'的提示字号和颜色调整为更醒目，如fontSize:14px, color:rgb(220,38,38)。"
+    },
+    {
+      "title": "关键约束和风险提示字号过小，易被忽略",
+      "area": "定价/套餐区",
+      "locate": [
+        "如果您需要扩大带宽大小上限，请 提交工单",
+        "公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组，在安全组的出方向和入方向中放通198.19.0.0/16网段的IP地址。",
+        "如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多"
+      ],
+      "evidence": "页面中关于带宽上限、IPv6转换配置、ICP备案等重要约束和风险提示的文字，如'如果您需要扩大带宽大小上限，请 提交工单'、'公测期间IPv6转换功能免费。 开启IPv6转换后，还需配置安全组...'、'如您使用中国大陆境内节点的云服务资源，对外提供网站服务之前，需依法完成ICP备案。 了解更多'，其字号均为12px，颜色为rgb(140, 140, 140)或rgb(89, 89, 89)，在页面中视觉权重不足，容易被用户忽略。",
+      "standard": "Garrett: Surface Plane | Nielsen #8: Aesthetic and Minimalist Design | Nielsen #5: Error Prevention",
+      "severity": "p1",
+      "suggestion": "修改前：关键约束和风险提示文字fontSize:12px, color:rgb(140,140,140) → 修改后：将这些关键提示的字号提升至14px，并使用更醒目的颜色（如橙色或红色），或通过加粗、图标等方式增强视觉强调，例如：fontSize:14px, color:rgb(230,120,0)。"
+    },
+    {
+      "title": "按需计费模式缺少明确的扣费说明",
+      "area": "定价/套餐区",
+      "locate": [
+        "按需计费"
+      ],
+      "evidence": "页面提供了'包年/包月'和'按需计费'两种计费模式选项，但对于'按需计费'模式，未在显眼位置提供具体的扣费说明（如按小时计费、按流量计费、扣费周期等），用户需要自行探索或点击'了解计费详情'才能获取，增加了理解成本。",
+      "standard": "Nielsen #2: Match Between System and Real World | Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "severity": "p1",
+      "suggestion": "修改前：仅显示'按需计费'选项 → 修改后：在'按需计费'选项下方或旁边增加简要的扣费说明，例如：'按需计费（按小时扣费）'或提供悬浮提示，点击后显示详细扣费规则。"
+    },
+    {
+      "title": "IPv6转换公测结束后收费情况未明确",
+      "area": "定价/套餐区",
+      "locate": [
+        "公测期间IPv6转换功能免费。"
+      ],
+      "evidence": "页面明确指出'公测期间IPv6转换功能免费'，但未说明公测结束后该功能是否会收费，以及如果收费，其计费标准和生效时间，可能导致用户在公测结束后产生额外费用而不知情。",
+      "standard": "Nielsen #5: Error Prevention | ISO 9241-110: 自描述性",
+      "severity": "p1",
+      "suggestion": "修改前：'公测期间IPv6转换功能免费。' → 修改后：'公测期间IPv6转换功能免费。公测结束后将按[具体计费标准]收费，详情请参考[链接]。'或明确说明公测结束后是否继续免费。"
+    },
+    {
+      "title": "免费产品缺少二次确认机制和自动续费说明",
+      "area": "定价/套餐区",
+      "locate": [
+        "弹性公网IP保有费：免费",
+        "自动续费"
+      ],
+      "evidence": "页面显示'弹性公网IP保有费：免费'，但对于免费产品，缺少明确的二次确认机制，也没有在'自动续费'区域明确说明免费产品的自动续费逻辑（例如，免费部分是否自动续费，如果续费是否会产生费用）。",
+      "standard": "Nielsen #5: Error Prevention",
+      "severity": "p2",
+      "suggestion": "修改前：免费产品无特殊提示 → 修改后：对于免费产品，在'立即购买'前增加弹窗确认，并明确说明'免费产品不涉及自动续费'或'免费部分到期后将自动失效，如需继续使用请购买付费套餐'。"
+    }
+  ],
+  "suggestions": [
+    "提升关键约束和风险提示信息的视觉权重，使用更醒目的字号和颜色。",
+    "增加计费详情的透明度，提供清晰的费用计算公式和按需计费的详细说明。",
+    "明确公测期结束后免费功能的收费政策，避免用户产生误解。",
+    "针对免费产品，增加二次确认机制，并明确其自动续费逻辑。"
+  ],
+  "analysis_content": "下单页面整体布局清晰，核心操作按钮醒目。但在计费详情、关键约束提示和免费产品说明方面存在信息透明度不足和视觉权重分配不合理的问题，可能导致用户对费用产生误解或忽略重要风险提示。特别是计费公式的缺失和公测期后收费政策的不明确，可能影响用户决策和后续使用体验。",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "model_fallback_chain": [
+    "gemini:gemini-3.5-flash",
+    "gemini:gemini-2.5-flash"
+  ],
+  "model_config_path": "/Users/vivian/Documents/Workspace/portal_experience_check/skill/shared/model_providers.json",
+  "url": "https://console.huaweicloud.com/vpc/?region=cn-north-4&locale=zh-cn#/eip/eips/create",
+  "title": "购买弹性公网IP",
+  "screenshot_path": "../../output/web/eip/batch-20260720-174406-01/screenshots/screenshot_2_order.png"
+}

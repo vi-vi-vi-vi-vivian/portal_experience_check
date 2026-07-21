@@ -1,0 +1,2588 @@
+{
+  "input_url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+  "audit_time": "2026-07-20T02:52:16.111892+00:00",
+  "artifacts": {
+    "top_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_top.png",
+    "scroll_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_scroll.png",
+    "full_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_full.png",
+    "menu_screenshot": "../../output/mobile/https_www_huaweicloud_com_agentorchard_tokenplan_html/batch-20260720-095401-10/screenshots/https_www_huaweicloud_com_agentorchard_tokenplan_html_menu.png"
+  },
+  "dom": {
+    "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+    "title": "Token Plan-智果园-华为云",
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "devicePixelRatio": 3
+    },
+    "scroll": {
+      "documentElementScrollWidth": 390,
+      "bodyScrollWidth": 390,
+      "clientWidth": 390,
+      "scrollHeight": 2690
+    },
+    "overflowElements": [],
+    "wideFixed": [],
+    "textRisks": [
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 168,
+        "scrollHeight": 168,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "168px"
+      },
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "clientHeight": 120,
+        "scrollHeight": 120,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "120px"
+      },
+      {
+        "path": "body.header-white.show-top-prompt > div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 88,
+        "scrollHeight": 88,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "88px"
+      },
+      {
+        "path": "div#header.nav-medium-padding.show-top-prompt.show-prompt-ip > div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 358,
+        "scrollWidth": 358,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-container > div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p",
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/",
+        "clientWidth": 334,
+        "scrollWidth": 334,
+        "clientHeight": 36,
+        "scrollHeight": 36,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "36px"
+      },
+      {
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "clientWidth": 0,
+        "scrollWidth": 0,
+        "clientHeight": 0,
+        "scrollHeight": 0,
+        "wordBreak": "normal",
+        "overflowWrap": "normal",
+        "height": "auto"
+      }
+    ],
+    "fixedBottom": [
+      {
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn",
+        "text": "华为云App 便捷的云服务移动管控体验 立即下载",
+        "position": "fixed",
+        "height": 66,
+        "bottom": "0px",
+        "paddingBottom": "0px",
+        "hasSafeAreaInset": false
+      }
+    ],
+    "clickableSummary": {
+      "count": 33
+    },
+    "smallTargets": [
+      {
+        "index": 0,
+        "path": "div.header-prompt > div.header-prompt-wrapper > div.header-prompt-content > p > a",
+        "text": "https://www.huaweicloud.com/intl/",
+        "tag": "a",
+        "x": 40,
+        "y": 36,
+        "width": 192,
+        "height": 14,
+        "area": 2686.25
+      },
+      {
+        "index": 1,
+        "path": "div.header-container > div.header-wrapper > div.header-bottom > div.header-bottom-wrapper.header-active-nav > a.header-logo",
+        "text": "",
+        "tag": "a",
+        "x": 16,
+        "y": 128,
+        "width": 108,
+        "height": 32,
+        "area": 3456
+      },
+      {
+        "index": 2,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-0.por-collapse-trigger.expended.svelte-pv3cxb",
+        "text": "多模型灵活接入，主流大模型全支持",
+        "tag": "a",
+        "x": 44,
+        "y": 388,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 3,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-1.por-collapse-trigger.svelte-pv3cxb",
+        "text": "全场景代码智能体矩阵，兼容海量开发工具",
+        "tag": "a",
+        "x": 44,
+        "y": 628,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 4,
+        "path": "div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > a#collapse-trigger-2.por-collapse-trigger.svelte-pv3cxb",
+        "text": "多档套餐可选，适配不同使用强度",
+        "tag": "a",
+        "x": 44,
+        "y": 677,
+        "width": 302,
+        "height": 22,
+        "area": 6644
+      },
+      {
+        "index": 5,
+        "path": "div.por-container > div.por-section-head > div.por-section-subtitle.mb > p > a.por-link",
+        "text": "查看订阅详情",
+        "tag": "a",
+        "x": 241,
+        "y": 1420,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 12,
+        "path": "div.por-container > div.por-section-body > div.collapse-wrapper > div.por-collapse-container > a.por-collapse-trigger",
+        "text": "Token Plan 有哪些使用限制？",
+        "tag": "a",
+        "x": 48,
+        "y": 1970,
+        "width": 294,
+        "height": 22,
+        "area": 6468
+      },
+      {
+        "index": 14,
+        "path": "div.por-container > div.por-section-body > div.collapse-wrapper > div.por-collapse-container > a.por-collapse-trigger",
+        "text": "订阅 Token Plan 是否支持退订？",
+        "tag": "a",
+        "x": 48,
+        "y": 2100,
+        "width": 294,
+        "height": 22,
+        "area": 6468
+      },
+      {
+        "index": 15,
+        "path": "div.por-section > div.por-container > div.por-section-body > div.show-more > a.por-link.por-link-more",
+        "text": "查看更多",
+        "tag": "a",
+        "x": 155,
+        "y": 2160,
+        "width": 80,
+        "height": 16,
+        "area": 1280
+      },
+      {
+        "index": 16,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "云服务器",
+        "tag": "a",
+        "x": 30,
+        "y": 2283,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 17,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "Flexus云服务",
+        "tag": "a",
+        "x": 106,
+        "y": 2283,
+        "width": 82,
+        "height": 16,
+        "area": 1304.25
+      },
+      {
+        "index": 18,
+        "path": "div.footer-hots-mb > div.footer-hots-mb-wrapper > ul > li > a",
+        "text": "大模型即服务平台 MaaS",
+        "tag": "a",
+        "x": 208,
+        "y": 2283,
+        "width": 152,
+        "height": 16,
+        "area": 2437.25
+      },
+      {
+        "index": 19,
+        "path": "div.footer-nav-content > div.footer-nav-submenus > div.footer-nav-submenus-inner > div.footer-nav-download > a",
+        "text": "下载华为云App",
+        "tag": "a",
+        "x": 138,
+        "y": 2333,
+        "width": 113,
+        "height": 16,
+        "area": 1811.75
+      },
+      {
+        "index": 20,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.weixin-sh",
+        "text": "华为云微信 扫描二维码",
+        "tag": "a",
+        "x": 128,
+        "y": 2396,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 21,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link.microapp-sh",
+        "text": "华为云微信小程序 华为云微信小程序",
+        "tag": "a",
+        "x": 178,
+        "y": 2396,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 22,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > dl.footer-nav-about > dd > a.footer-nav-submenus-link",
+        "text": "华为云微博 扫描二维码",
+        "tag": "a",
+        "x": 228,
+        "y": 2396,
+        "width": 34,
+        "height": 34,
+        "area": 1156
+      },
+      {
+        "index": 24,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "法律声明",
+        "tag": "a",
+        "x": 127,
+        "y": 2532,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 25,
+        "path": "div.footer-nav-submenus > div.footer-nav-submenus-inner > ul.footer-law-mb > li > a",
+        "text": "隐私政策",
+        "tag": "a",
+        "x": 208,
+        "y": 2532,
+        "width": 56,
+        "height": 16,
+        "area": 896
+      },
+      {
+        "index": 26,
+        "path": "div#footer > div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-copyright > a.footer-link",
+        "text": "黔ICP备20004760号-14",
+        "tag": "a",
+        "x": 226,
+        "y": 2575,
+        "width": 104,
+        "height": 15,
+        "area": 1567.265625
+      },
+      {
+        "index": 27,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record1 > a",
+        "text": "",
+        "tag": "a",
+        "x": 44,
+        "y": 2643,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 28,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "电子营业执照",
+        "tag": "a",
+        "x": 64,
+        "y": 2642,
+        "width": 72,
+        "height": 14,
+        "area": 1008
+      },
+      {
+        "index": 29,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > i.footer-icon-record2 > a",
+        "text": "",
+        "tag": "a",
+        "x": 146,
+        "y": 2643,
+        "width": 12,
+        "height": 12,
+        "area": 144
+      },
+      {
+        "index": 30,
+        "path": "div.footer-copyright-container > div.footer-copyright-wrapper > div.footer-record > span > a.footer-link",
+        "text": "贵公网安备 52990002000093号",
+        "tag": "a",
+        "x": 166,
+        "y": 2642,
+        "width": 170,
+        "height": 14,
+        "area": 2375.40625
+      },
+      {
+        "index": 31,
+        "path": "body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > a.tm-adv-space-content__main",
+        "text": "华为云App 便捷的云服务移动管控体验",
+        "tag": "a",
+        "x": 54,
+        "y": 790,
+        "width": 184,
+        "height": 42,
+        "area": 7728
+      },
+      {
+        "index": 32,
+        "path": "div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner",
+        "text": "立即下载",
+        "tag": "a",
+        "x": 248,
+        "y": 795,
+        "width": 106,
+        "height": 32,
+        "area": 3392
+      }
+    ],
+    "closePairs": [],
+    "forms": [],
+    "images": [
+      {
+        "path": "div.header-wrapper > div.header-bottom > div.header-bottom-wrapper.header-active-nav > a.header-logo > img",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/wangxue/header/logo.svg",
+        "ext": "svg",
+        "loading": "",
+        "width": 108,
+        "height": 32,
+        "top": 128,
+        "belowFold": false
+      },
+      {
+        "path": "div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > div#collapse-content-0.por-collapse.show.svelte-pv3cxb > div.collapse-inner.svelte-pv3cxb > img.radius_border_XL.hide-pc.svelte-pv3cxb",
+        "alt": "多模型灵活接入，主流大模型全支持",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/zhiguoyuan/tokenplan/duomoxing-mobile.png",
+        "ext": "png",
+        "loading": "",
+        "width": 302,
+        "height": 148,
+        "top": 467,
+        "belowFold": false
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/GLM5.1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1573,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/GLM-5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1573,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/logo-kimi.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1643,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/logo-DeepSeek-V4-Flash.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1643,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/logo-DeepSeek-V3.2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1713,
+        "belowFold": true
+      }
+    ],
+    "imageIssues": [
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/GLM5.1.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1573,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/GLM-5.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1573,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/logo-kimi.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1643,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/logo-DeepSeek-V4-Flash.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1643,
+        "belowFold": true
+      },
+      {
+        "path": "div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+        "alt": "",
+        "src": "https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/%E6%99%BA%E6%9E%9C%E5%9B%AD/logo-DeepSeek-V3.2.png",
+        "ext": "png",
+        "loading": "",
+        "width": 153,
+        "height": 49,
+        "top": 1713,
+        "belowFold": true
+      }
+    ],
+    "cssRules": [
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger, .float-dialog .chat-assistant:hover > i.float-icon-bigger ~ i { background-image: none; transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after",
+        "media": "",
+        "css": ".float-dialog .chat-assistant:hover > i.float-icon-bigger::after { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover, .float-dialog .chat-assistant .chat-icon:hover ~ i { transform: scale(1.15); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container",
+        "media": "",
+        "css": ".float-dialog .chat-assistant .chat-icon:hover ~ .chat-hover-container { opacity: 1; transform: scale(1); visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover",
+        "media": "",
+        "css": "#footer:not(.hide-chatTips) .float-dialog .chat-assistant.show .por-icon-close:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i",
+        "media": "",
+        "css": ".phone-icon:hover > i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".phone-icon:hover > i.float-icon-bigger",
+        "media": "",
+        "css": ".phone-icon:hover > i.float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav > .item.to-top-btn:hover .to-top",
+        "media": "",
+        "css": ".float-bar-nav > .item.to-top-btn:hover .to-top { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar",
+        "media": "",
+        "css": ".float-bar-nav .item:hover > a .icons-float-bar, .sub-inner:hover .icons-float-bar { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar:hover",
+        "media": "",
+        "css": ".float-sidebar:hover { z-index: 993; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".clicked-chatIcon .float-sidebar:hover",
+        "media": "",
+        "css": ".clicked-chatIcon .float-sidebar:hover { z-index: 990; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .item:hover .sub-nav-layer",
+        "media": "(min-width: 1024px)",
+        "css": ".float-bar-nav .item:hover .sub-nav-layer { opacity: 1; transform: scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-bar-nav .page-nav-list .item:hover",
+        "media": "",
+        "css": ".float-bar-nav .page-nav-list .item:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover",
+        "media": "",
+        "css": ".sub-inner:hover { background: rgb(250, 250, 250); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1366px)",
+        "css": ".page-nav:hover .sub-nav-layer { right: 64px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-sidebar.show .page-nav:hover .sub-nav-layer",
+        "media": "(max-width: 1023px)",
+        "css": ".float-sidebar.show .page-nav:hover .sub-nav-layer { right: 44px; visibility: visible !important; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner > a:first-child:hover .title",
+        "media": "",
+        "css": ".sub-inner > a:first-child:hover .title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".sub-inner:hover .title",
+        "media": "",
+        "css": ".sub-inner:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title",
+        "media": "",
+        "css": ".float-config-btn .float-config-smartQA .float-config-smartQA-expand:hover .title { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active i, .star-score-btns p:hover i",
+        "media": "",
+        "css": ".star-score-btns p.active i, .star-score-btns p:hover i { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-score-btns p.active, .star-score-btns p:hover",
+        "media": "",
+        "css": ".star-score-btns p.active, .star-score-btns p:hover { border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; font-size: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.btn-submit:not([disabled]):hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".star-btn-wrapper .por-btn.por-btn-dark:hover",
+        "media": "",
+        "css": ".star-btn-wrapper .por-btn.por-btn-dark:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback i",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback i { transform: scale(1.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn:hover .feedback .float-icon-bigger",
+        "media": "",
+        "css": ".float-config-btn:hover .feedback .float-icon-bigger { transform: scale(1); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom",
+        "media": "",
+        "css": ".float-config-btn .float-config-star-result.active, .float-config-btn .float-config-star.active, .float-config-btn:hover .float-config-custom { opacity: 1; transform: translateY(-50%) scale(1); visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover label",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover label { cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox-inline:hover input[type=\"checkbox\"] + span { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span",
+        "media": "",
+        "css": ".question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled + span, .question-wrapper .por-checkbox input[type=\"checkbox\"]:disabled:hover + span { border-color: rgb(201, 201, 201); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".float-config-btn .close-icon:hover",
+        "media": "",
+        "css": ".float-config-btn .close-icon:hover { background-image: url(\"https://res-static.hc-cdn.cn/cloudbu-site/china/zh-cn/homePage/1620789184054090808.svg\"); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span",
+        "media": "",
+        "css": ".screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:focus + span, .screenshots-wrapper .por-checkbox input[type=\"checkbox\"]:hover + span { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:not(.active):not(.ellipsis):not(.disabled) > a:hover { background-color: rgb(228, 31, 43); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination > li:first-child:hover > a::before, .pagination > li:last-child:hover > a::before { background-position-y: -16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-to:hover",
+        "media": "",
+        "css": ".pagination-to:hover { border-color: rgb(153, 153, 153); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".pagination-submit:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".pagination-submit:hover { border-color: rgb(228, 31, 43); color: rgb(228, 31, 43); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-secondary:hover, .Flexus-reminder-modal .por-btn.por-btn-secondary:hover, .FlexusL-reminder-detail .por-btn.por-btn-secondary:hover, .FlexusL-reminder-modal .por-btn.por-btn-secondary:hover, .common-business-reminder-modal .por-btn.por-btn-secondary:hover, .common-reminder-detail .por-btn.por-btn-secondary:hover { background-color: transparent; border-color: grey; color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover",
+        "media": "",
+        "css": ".Flexus-detail-reminder-container .por-btn.por-btn-primary:hover, .Flexus-reminder-modal .por-btn.por-btn-primary:hover, .FlexusL-reminder-detail .por-btn.por-btn-primary:hover, .FlexusL-reminder-modal .por-btn.por-btn-primary:hover, .common-business-reminder-modal .por-btn.por-btn-primary:hover, .common-reminder-detail .por-btn.por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-modal-close:hover .u-icon",
+        "media": "",
+        "css": "#interceptor-modal .por-modal-close:hover .u-icon { color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-primary:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-primary:hover { background-color: rgb(89, 89, 89); border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": "#interceptor-modal .por-btn-dark:hover",
+        "media": "",
+        "css": "#interceptor-modal .por-btn-dark:hover { border-color: grey; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-primary.hover, .cui-btn-primary:hover",
+        "media": "",
+        "css": ".cui-btn-primary.hover, .cui-btn-primary:hover { box-shadow: rgba(246, 111, 106, 0.5) 0px 8px 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover",
+        "media": "",
+        "css": ".cui-btn-outline-primary .hover, .cui-btn-outline-primary:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover",
+        "media": "",
+        "css": ".cui-btn-outline-dark .hover, .cui-btn-outline-dark:hover { border: 1px solid rgb(199, 0, 11); color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover",
+        "media": "",
+        "css": ".cui-btn-outline-light .hover, .cui-btn-outline-light:hover { background-color: rgb(199, 0, 11); border-color: rgb(199, 0, 11); color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover",
+        "media": "",
+        "css": ".cui-btn.disabled:hover, .cui-btn[disabled]:hover { box-shadow: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown ::-webkit-scrollbar-thumb:hover",
+        "media": "",
+        "css": ".header-dropdown ::-webkit-scrollbar-thumb:hover { background-color: rgb(173, 176, 184); }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": "a:hover > .header-icon-arrow-right-large",
+        "media": "",
+        "css": "a:hover > .header-icon-arrow-right-large { margin-left: 16px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down { transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-icon-arrow-down::before",
+        "media": "",
+        "css": ".header-lang:hover .header-icon-arrow-down::before { border-color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang-item.active > a, .header-lang-item:hover > a",
+        "media": "",
+        "css": ".header-lang-item.active > a, .header-lang-item:hover > a { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-current",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-current { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-lang:hover .header-lang-list",
+        "media": "",
+        "css": ".header-lang:hover .header-lang-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp:hover .header-icon-hwapp",
+        "media": "",
+        "css": ".header-hwapp:hover .header-icon-hwapp { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij48dGl0bGU+YXBwPC90aXRsZT48ZyBmaWxsPSIjZmZmIiBmaWxsLXJ1bGU9Im5vbnplcm8iPjxwYXRoIGQ9Ik0xMS41IDBhLjUuNSAwIDAgMSAuNS41djEzYS41LjUgMCAwIDEtLjUuNWgtOWEuNS41IDAgMCAxLS41LS41Vi41YS41LjUgMCAwIDEgLjUtLjV6TTExIDFIM3YxMmg4eiIvPjxwYXRoIGQ9Ik0xMS4yMzEgMTEuMDU4djFIMi43MDZ2LTF6TTguMDQgMi4wNTh2MUg2LjAzdi0xeiIvPjwvZz"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-hwapp .header-hwapp-link:hover",
+        "media": "",
+        "css": ".header-hwapp .header-hwapp-link:hover { color: rgb(255, 255, 255); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button input:hover",
+        "media": "",
+        "css": ".header-search-button input:hover { border-color: rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-button i:hover",
+        "media": "",
+        "css": ".header-search-button i:hover { background-image: url(\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+aWNvbi/mkJzntKLlpIfku708L3RpdGxlPgogICAgPGRlZnM+CiAgICAgICAgPGZpbHRlciBpZD0iZmlsdGVyLTEiPgogICAgICAgICAgICA8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlR3JhcGhpYyIgdHlwZT0"
+      },
+      {
+        "type": "hover",
+        "selector": ".show-search-box .header-search .header-search-button:hover input",
+        "media": "",
+        "css": ".show-search-box .header-search .header-search-button:hover input { border: 1px solid rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search.active .close-icon:hover",
+        "media": "",
+        "css": ".header-search.active .close-icon:hover { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTQgMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNC4wMDAwMDAiIGhlaWdodD0iMTQuMDAwMDAwIiBmaWxsPSJub25lIiBjdXN0b21GcmFtZT0iIzAwMDAwMCI+Cgk8cmVjdCBpZD0i55S75p2/IDE2NDA4IiB3aWR0aD0iMTQuMDAwMDAwIiBoZWlnaHQ9IjE0LjAwMDAwMCIgeD0iMC4wMDAwMDAiIHk9IjAuMDAwMDAwIiBmaWxsPSJyZ2IoMjU1LDI1NSwyNTUpIiBmaWxsLW9wYWNpdHk9IjAiIC8+C"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-keyWordsAll a:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-keyWordsAll a:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .search-block, .header-search-droplist .J-search-related > ul > li:hover > a, .header-search-droplist .J-search-related > ul > li > a.hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related > ul > li:hover .text::after",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related > ul > li:hover .text::after { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTYiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNiAxMiI+PHRpdGxlPmhkcGkv566t5aS0aG92ZXLlpIfku708L3RpdGxlPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMCAwaDE2djE2SDB6Ii8+PC9kZWZzPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAtMikiPjxtYXNrIGlkPSJiIi"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block .search-tag .tag-console:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block .search-tag .tag-console:hover { border-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-related .to-page a:hover, .header-search-droplist .search-block.hover a.hover, .header-search-droplist a.hover { border-color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover",
+        "media": "",
+        "css": ".header-search-droplist .search-block.hover, .header-search-droplist .search-block:hover { background-color: rgba(0, 0, 0, 0.05); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-title span:hover::before",
+        "media": "",
+        "css": ".header-search-droplist .J-search-title span:hover::before { background-image: url(\"data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMTYgMTYiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSIxNi4wMDAwMDAiIGhlaWdodD0iMTYuMDAwMDAwIiBmaWxsPSJub25lIj4KCTxkZWZzPgoJCTxmaWx0ZXIgaWQ9InBpeHNvX2N1c3RvbV9tYXNrX3R5cGVfYWxwaGEiPgoJCQk8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAxIDAgMCAwIDAgMSAwIDAgMCAwIDEgMCAwIDAgMSAwICIgLz4KCQ"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular .J-search-popular-content.quick-link-content li:hover { background-color: rgb(245, 245, 245); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover",
+        "media": "",
+        "css": ".header-search-droplist .J-search-popular a:not(.J-search-popular-quick-link):hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a i.header-tools-icon-hover, .header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-default { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon a:hover i.header-tools-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon:hover .header-tools-list { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right .header-tools-icon .header-tools-list li .tool-item a:hover { font-weight: 400; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li > a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-tools-right > li.header-register > a:hover",
+        "media": "",
+        "css": ".header-tools .header-tools-right > li.header-register > a:hover { background-color: rgb(214, 74, 82); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-tools .header-user:hover .header-nav-item-icon { background-size: 100% 100%; transform: rotateX(180deg); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a",
+        "media": "",
+        "css": ".header-tools .header-user .header-user-info-list > li:nth-child(n+3):hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-tools .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-tools .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover { animation: 2s linear 0s 2 alternate none running textBg, 1s linear 0s 1 normal none running textOpacity; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before",
+        "media": "",
+        "css": ".header-nav .header-nav-list .header-nav-colorful .header-nav-colorful-text:hover::before { animation: 2s linear 0s 2 normal forwards running flowState; display: inline-block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-pagenav a:hover",
+        "media": "",
+        "css": ".header-pagenav a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-dropdown-close:hover",
+        "media": "",
+        "css": ".header-dropdown-close:hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-common-desc a:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link:hover .dropdown-link-title { text-decoration: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-top .dropdown-link[href]:hover .dropdown-link-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module-title[href]:hover::after { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module .dropdown-common-item:hover::after { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; content: \"\"; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover .dropdown-common-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after",
+        "media": "",
+        "css": ".dropdown-common-wrapper-bottom .dropdown-common-module.simple-column .dropdown-common-item:hover::after { content: none; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-common-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-common-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-common-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover input",
+        "media": "",
+        "css": ".link-searcher:hover input { border: 1px solid rgb(89, 89, 89); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-submit i",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-submit i { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAEFCu8CAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAHKADAAQAAAABAAAAHAAAAABkvfSiAAAEPklEQVRIDbWWS0xUVxjHZ+6MhVEQQZHYxISK2KolTdSFJsY0MaZNTGlCy4KX0AHZaNMSF+2SRIMs3CgQE1LIEF6NbdqmbsqiC5rYVlE2oAk+EmOMQKNGRYQZHuPvO73neu7lghDjSe6c7/H/vv95fmcCgaVaaWnpFssEBIPBhy7D/Pz8UwUoKSnJ0UJShKqqqlwHmkgk3lde1w/pj/M9F2NZWVk5OVSoAmE47UKjABgMizEUCl"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher:hover .link-searcher-clear",
+        "media": "",
+        "css": ".link-searcher:hover .link-searcher-clear { background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAFNQDtUAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIqADAAQAAAABAAAAIgAAAAACeqFUAAAE3ElEQVRYCe2XS2zURRzH9+1ud6EPE8WmDaKGcMEEG18HNAKRxAPVy5bQpnX7phxt9WCIcK0HTRD7bk1pfDSRyEGqCUkhMWkAD5zAVAlBEq0U2i7tdpNud9fPb7vz7/+17W4CF3GS2d/M7/Gd78xvZv6zDkeu0tfXtyQ2ZNrgY1H09vYu23oawh5ZBz637MAtPLMc41lpmJXLhGDur5uB/WS9t96yHW7dbGrhvWpSOQYGBk6ILjN2a"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon { opacity: 0; visibility: hidden; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-nav-list > li:hover .header-nav-item-icon-hover",
+        "media": "",
+        "css": ".header-nav-list > li:hover .header-nav-item-icon-hover { opacity: 1; visibility: visible; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".link-searcher-more:hover",
+        "media": "",
+        "css": ".link-searcher-more:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content-link a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content-link a[href]:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before",
+        "media": "",
+        "css": ".active .dropdown-product-nav-menu .dropdown-product-nav-menu-text span::before, .dropdown-product-nav-menu:hover .dropdown-product-nav-menu-text span::before { transform: scaleX(1); width: 100%; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large",
+        "media": "",
+        "css": ".dropdown-product-content .dropdown-product-content-title a[href]:hover .header-icon-arrow-right-large { margin-left: 12px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover",
+        "media": "",
+        "css": ".dropdown-product-item:hover { box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item:hover .dropdown-product-item-title",
+        "media": "",
+        "css": ".dropdown-product-item:hover .dropdown-product-item-title { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-column-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-column .dropdown-product-link:hover",
+        "media": "",
+        "css": ".dropdown-product-column .dropdown-product-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-module.noIcon:hover",
+        "media": "",
+        "css": ".dropdown-product-module.noIcon:hover { z-index: 101; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-item-more .link:hover",
+        "media": "",
+        "css": ".dropdown-product-item-more .link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-title[href]:hover",
+        "media": "",
+        "css": ".dropdown-product-group-title[href]:hover { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab.active:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab.active:hover { border-color: rgb(89, 89, 89); font-weight: 400; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-group-tab:hover",
+        "media": "",
+        "css": ".dropdown-product-group-tab:hover { font-weight: 700; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity:hover .link-bg { transform: scale(1.08); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist:hover .link-bg",
+        "media": "",
+        "css": ".dropdown-product-activity.islist:hover .link-bg { transform: scale(1.01); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".dropdown-product-activity.islist .activity-link:hover",
+        "media": "",
+        "css": ".dropdown-product-activity.islist .activity-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-prompt-checkbox:hover",
+        "media": "",
+        "css": ".header-prompt-checkbox:hover { background-size: cover; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user-info-list-prompt .logout:hover a",
+        "media": "",
+        "css": ".header-user-info-list-prompt .logout:hover a { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".inputted ~ .header-search-submit:hover",
+        "media": "",
+        "css": ".inputted ~ .header-search-submit:hover { color: rgb(25, 25, 25); cursor: pointer; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-search .header-search-close:hover",
+        "media": "",
+        "css": ".header-search .header-search-close:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info",
+        "media": "(min-width: 769px)",
+        "css": ".header-top .header-main .header-tools .header-tools-list .header-user:hover .header-user-info, .header-user:hover .header-user-info { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-user:hover .header-user-name i",
+        "media": "(min-width: 769px)",
+        "css": ".header-user:hover .header-user-name i { border-top-color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active, .header-mbshearch-droplist a:active span, .header-mbshearch-droplist a:hover, .header-mbshearch-droplist a:hover span { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active i, .header-mbshearch-droplist a:hover i { border-color: rgb(25, 25, 25); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after",
+        "media": "",
+        "css": ".header-mbshearch-droplist a:active[href]::after, .header-mbshearch-droplist a:hover[href]::after { background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAmRJREFUSA3NVF1IU2EYfs45U8F0NUOLitIahAVC9HeRobeRpbW0DAShH5RaRCMwLwyCSAIDS0z6I2Zo1EUXXUZQFLbIjJGmZzSdtuVSNzVZa3Pb2zmnOmyyHXbCQS8ceH+f5/vO+74fQ4IghcKmEFuC/j8Jgs6vEL+kROyBGvH1Weltuo4sTBaNNTQRhSOK5ap/0dzrHkSCQSyvroKruQV8mQHhmdmEl1FNIBxXAitoa8H6W22Yff4C/TtK4B/k45JoRK9/YBAhjzduwkLnz8/DsivvRC0yNxf"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-history-content .his-btn:hover { border-color: rgb(89, 89, 89); color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover",
+        "media": "",
+        "css": ".header-mbshearch-droplist .J-mbshearch-popular .J-mbshearch-popular-content:not(.quick-link-content) li a:hover { color: rgb(25, 25, 25); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title",
+        "media": "",
+        "css": ".footer-service .footer-service-wrapper > ul > li > a:hover .footer-title { color: rgb(25, 25, 25); font-weight: 600; text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-link:hover",
+        "media": "",
+        "css": ".footer-link:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon",
+        "media": "",
+        "css": ".footer-nav-contact-phone .contact-icon-hover, .footer-nav-contact-phone > a:hover .contact-icon { opacity: 0; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover .contact-icon-hover",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover .contact-icon-hover { opacity: 1; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-phone > a:hover span",
+        "media": "",
+        "css": ".footer-nav-contact-phone > a:hover span { text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover .foot-email",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover .foot-email { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-contact-emails-item:hover > a",
+        "media": "",
+        "css": ".footer-nav-contact-emails-item:hover > a { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover",
+        "media": "",
+        "css": ".footer-hot-recommend .footer-hot-recommend-content .content-center a:hover { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-logo:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-logo:hover { color: rgb(25, 25, 25); text-decoration: underline; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover { margin-top: 0px; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover i",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover i { color: rgb(199, 0, 11); }"
+      },
+      {
+        "type": "hover",
+        "selector": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr",
+        "media": "(min-width: 1024px)",
+        "css": ".footer-nav-submenus-link:hover .footer-nav-submenus-qr { display: block; }"
+      },
+      {
+        "type": "hover",
+        "selector": ".chat-assistant:hover .chat-icon",
+        "media": "",
+        "css": ".chat-assistant:hover .chat-icon { background-image: url(\"\"); }"
+      }
+    ]
+  },
+  "tapActionAudit": {
+    "enabled": true,
+    "candidateCount": 18,
+    "testedCount": 12,
+    "issueCount": 0,
+    "candidates": [
+      {
+        "text": "查看订阅详情",
+        "href": "https://support.huaweicloud.com/price-maas/price-maas-0035.html",
+        "tag": "a",
+        "path": "div.por-section.por-section-merge-spacing.por-section-merge-spacing-bottom > div.por-container > div.por-section-head > div.por-section-subtitle.mb > p > a.por-link",
+        "className": "por-link",
+        "top": 1420,
+        "left": 241,
+        "width": 72,
+        "height": 14,
+        "importance": 108,
+        "ordinal": 0
+      },
+      {
+        "text": "查看更多",
+        "href": "https://support.huaweicloud.com/Token-plan-maas/tokenplan-maas-0005.html",
+        "tag": "a",
+        "path": "div.pep-problem-v2 > div.por-section > div.por-container > div.por-section-body > div.show-more > a.por-link.por-link-more",
+        "className": "por-link por-link-more",
+        "top": 2160,
+        "left": 155,
+        "width": 80,
+        "height": 16,
+        "importance": 108,
+        "ordinal": 1
+      },
+      {
+        "text": "查看更多",
+        "href": "",
+        "tag": "div",
+        "path": "div#section-5 > div.pep-problem-v2 > div.por-section > div.por-container > div.por-section-body > div.show-more",
+        "className": "show-more",
+        "top": 2137,
+        "left": 24,
+        "width": 342,
+        "height": 42,
+        "importance": 100,
+        "ordinal": 2
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1568,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 3
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1568,
+        "left": 201,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 4
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1638,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 5
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1638,
+        "left": 201,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 6
+      },
+      {
+        "text": "",
+        "href": "",
+        "tag": "a",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "className": "por-card radius_border_XL",
+        "top": 1708,
+        "left": 36,
+        "width": 153,
+        "height": 58,
+        "importance": 28,
+        "ordinal": 7
+      },
+      {
+        "text": "多模型灵活接入，主流大模型全支持 覆盖 GLM、Kimi、DeepSeek 系列最新旗舰大模型，可根据场景灵活切换模型使用 全场景代码智能体矩阵，兼容海量开发工具 多档套餐可选，适配不同使用强度",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-section.svelte-dff814.por-section-merge-spacing-top > div.por-container.svelte-dff814 > div.por-section-body > div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf",
+        "className": "folded-card svelte-161racf",
+        "top": 374,
+        "left": 44,
+        "width": 302,
+        "height": 338,
+        "importance": 20,
+        "ordinal": 8
+      },
+      {
+        "text": "华为云App 便捷的云服务移动管控体验 立即下载",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn",
+        "className": "tm-adv-space light-btn ",
+        "top": 778,
+        "left": 0,
+        "width": 390,
+        "height": 66,
+        "importance": 20,
+        "ordinal": 9
+      },
+      {
+        "text": "立即下载",
+        "href": "",
+        "tag": "div",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn",
+        "className": "tm-adv-space-btn",
+        "top": 795,
+        "left": 248,
+        "width": 106,
+        "height": 32,
+        "importance": 20,
+        "ordinal": 10
+      },
+      {
+        "text": "Lite 轻量入门，低负荷开发者 ¥59.00 最受欢迎 Standard 高性价比，中强度日常使用 ¥149.00 Pro 适合高强度用户生产环境使用 ¥399.00 Max 适合重度使用的专业开发者 ¥799.00",
+        "href": "",
+        "tag": "div",
+        "path": "div.pep-activity-promotion-v3 > div.por-section.por-section-merge-spacing.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.tab-content > div.tab-content-detail.active",
+        "className": "tab-content-detail active",
+        "top": 842,
+        "left": 24,
+        "width": 342,
+        "height": 576,
+        "importance": 20,
+        "ordinal": 11
+      },
+      {
+        "text": "Lite 轻量入门，低负荷开发者 ¥59.00",
+        "href": "",
+        "tag": "div",
+        "path": "div.por-container > div.por-section-body > div.tab-content > div.tab-content-detail.active > div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_0.activity-promotion-card",
+        "className": "activity-promotion-card",
+        "top": 842,
+        "left": 24,
+        "width": 342,
+        "height": 130,
+        "importance": 20,
+        "ordinal": 12
+      },
+      {
+        "text": "Lite 轻量入门，低负荷开发者 ¥59.00",
+        "href": "",
+        "tag": "div",
+        "path": "div.tab-content > div.tab-content-detail.active > div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_0.activity-promotion-card > div.activity-promotion-card-synopsis > div.activity-promotion-card-synopsis-content",
+        "className": "activity-promotion-card-synopsis-content",
+        "top": 863,
+        "left": 45,
+        "width": 300,
+        "height": 88,
+        "importance": 20,
+        "ordinal": 13
+      },
+      {
+        "text": "Lite",
+        "href": "",
+        "tag": "div",
+        "path": "div.tab-content-detail.active > div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_0.activity-promotion-card > div.activity-promotion-card-synopsis > div.activity-promotion-card-synopsis-content > div.activity-promotion-card-synopsis-title",
+        "className": "activity-promotion-card-synopsis-title",
+        "top": 863,
+        "left": 45,
+        "width": 300,
+        "height": 22,
+        "importance": 20,
+        "ordinal": 14
+      },
+      {
+        "text": "轻量入门，低负荷开发者",
+        "href": "",
+        "tag": "div",
+        "path": "div.tab-content-detail.active > div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_0.activity-promotion-card > div.activity-promotion-card-synopsis > div.activity-promotion-card-synopsis-content > div.activity-promotion-card-synopsis-subtitle",
+        "className": "activity-promotion-card-synopsis-subtitle",
+        "top": 885,
+        "left": 45,
+        "width": 300,
+        "height": 22,
+        "importance": 20,
+        "ordinal": 15
+      },
+      {
+        "text": "¥59.00",
+        "href": "",
+        "tag": "div",
+        "path": "div.tab-content-detail.active > div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_0.activity-promotion-card > div.activity-promotion-card-synopsis > div.activity-promotion-card-synopsis-content > div.activity-promotion-card-synopsis-purchase",
+        "className": "activity-promotion-card-synopsis-purchase",
+        "top": 907,
+        "left": 45,
+        "width": 300,
+        "height": 44,
+        "importance": 20,
+        "ordinal": 16
+      },
+      {
+        "text": "¥59.00",
+        "href": "",
+        "tag": "div",
+        "path": "div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_0.activity-promotion-card > div.activity-promotion-card-synopsis > div.activity-promotion-card-synopsis-content > div.activity-promotion-card-synopsis-purchase > div.activity-promotion-card-synopsis-purchase-price",
+        "className": "activity-promotion-card-synopsis-purchase-price",
+        "top": 923,
+        "left": 45,
+        "width": 61,
+        "height": 28,
+        "importance": 20,
+        "ordinal": 17
+      }
+    ],
+    "results": [
+      {
+        "text": "查看订阅详情",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/price-maas/price-maas-0035.html",
+        "path": "div.por-section.por-section-merge-spacing.por-section-merge-spacing-bottom > div.por-container > div.por-section-head > div.por-section-subtitle.mb > p > a.por-link",
+        "rect": {
+          "left": 241,
+          "top": 1420,
+          "width": 72,
+          "height": 14
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "查看订阅详情",
+          "path": "div.por-section.por-section-merge-spacing.por-section-merge-spacing-bottom > div.por-container > div.por-section-head > div.por-section-subtitle.mb > p > a.por-link",
+          "className": "por-link"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1005,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "查看更多",
+        "tag": "a",
+        "href": "https://support.huaweicloud.com/Token-plan-maas/tokenplan-maas-0005.html",
+        "path": "div.pep-problem-v2 > div.por-section > div.por-container > div.por-section-body > div.show-more > a.por-link.por-link-more",
+        "rect": {
+          "left": 155,
+          "top": 2160,
+          "width": 80,
+          "height": 16
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "查看更多",
+          "path": "div.pep-problem-v2 > div.por-section > div.por-container > div.por-section-body > div.show-more > a.por-link.por-link-more",
+          "className": "por-link por-link-more"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [
+          "https://support.huaweicloud.com/price-maas/price-maas-0035.html"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1746,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "查看更多",
+        "tag": "div",
+        "href": "",
+        "path": "div#section-5 > div.pep-problem-v2 > div.por-section > div.por-container > div.por-section-body > div.show-more",
+        "rect": {
+          "left": 24,
+          "top": 2137,
+          "width": 342,
+          "height": 42
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "查看更多",
+          "path": "div#section-5 > div.pep-problem-v2 > div.por-section > div.por-container > div.por-section-body > div.show-more",
+          "className": "show-more"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [
+          "https://support.huaweicloud.com/Token-plan-maas/tokenplan-maas-0005.html"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1736,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 36,
+          "top": 1568,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [
+          "https://support.huaweicloud.com/Token-plan-maas/tokenplan-maas-0005.html"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1175,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 201,
+          "top": 1568,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1175,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 36,
+          "top": 1638,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1245,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 201,
+          "top": 1638,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1245,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "",
+        "tag": "a",
+        "href": "",
+        "path": "div.por-section.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL",
+        "rect": {
+          "left": 36,
+          "top": 1708,
+          "width": 153,
+          "height": 58
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-section-body > div.por-row.logo-noText > div.card-item > a.por-card.radius_border_XL > div.por-card-icon > img.logo",
+          "className": "logo"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 1315,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 22,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "多模型灵活接入，主流大模型全支持 覆盖 GLM、Kimi、DeepSeek 系列最新旗舰大模型，可根据场景灵活切换模型使用 全场景代码智能体矩阵，兼容海量开发工具 多档套餐可选，适配不同使用强度",
+        "tag": "div",
+        "href": "",
+        "path": "div.por-section.svelte-dff814.por-section-merge-spacing-top > div.por-container.svelte-dff814 > div.por-section-body > div.por-row.svelte-161racf > div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf",
+        "rect": {
+          "left": 44,
+          "top": 374,
+          "width": 302,
+          "height": 338
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "img",
+          "text": "",
+          "path": "div.por-col-xs-24.tab-content.svelte-161racf > div.folded-card.svelte-161racf > div.por-collapse-container.folded-pictext-item.svelte-pv3cxb > div#collapse-content-0.por-collapse.show.svelte-pv3cxb > div.collapse-inner.svelte-pv3cxb > img.radius_border_XL.hide-pc.svelte-pv3cxb",
+          "className": "radius_border_XL hide-pc svelte-pv3cxb"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 121,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 11,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "华为云App 便捷的云服务移动管控体验 立即下载",
+        "tag": "div",
+        "href": "",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn",
+        "rect": {
+          "left": 0,
+          "top": 778,
+          "width": 390,
+          "height": 66
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "华为云App",
+          "path": "body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > a.tm-adv-space-content__main > div.tm-adv-space-content__title",
+          "className": "tm-adv-space-content__title"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 0,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "立即下载",
+        "tag": "div",
+        "href": "",
+        "path": "html.phone.phone > body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn",
+        "rect": {
+          "left": 248,
+          "top": 795,
+          "width": 106,
+          "height": 32
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "a",
+          "text": "立即下载",
+          "path": "body.header-white.show-top-prompt > div#footer > div.tm-adv-space.light-btn > div.tm-adv-space-content > div.tm-adv-space-btn > a.tm-adv-space-btn__inner",
+          "className": "tm-adv-space-btn__inner"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [
+          "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=mobileweb_float"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 0,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 13,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      },
+      {
+        "text": "Lite 轻量入门，低负荷开发者 ¥59.00 最受欢迎 Standard 高性价比，中强度日常使用 ¥149.00 Pro 适合高强度用户生产环境使用 ¥399.00 Max 适合重度使用的专业开发者 ¥799.00",
+        "tag": "div",
+        "href": "",
+        "path": "div.pep-activity-promotion-v3 > div.por-section.por-section-merge-spacing.por-section-merge-spacing-bottom > div.por-container > div.por-section-body > div.tab-content > div.tab-content-detail.active",
+        "rect": {
+          "left": 24,
+          "top": 842,
+          "width": 342,
+          "height": 576
+        },
+        "status": "effective",
+        "possibleCause": null,
+        "hit": {
+          "tag": "div",
+          "text": "Standard 高性价比，中强度日常使用 ¥149.00",
+          "path": "div.tab-content > div.tab-content-detail.active > div.tab-content-detail-card-list > div#uniqueId_634153_tab_0_card_1.activity-promotion-card > div.activity-promotion-card-synopsis > div.activity-promotion-card-synopsis-content",
+          "className": "activity-promotion-card-synopsis-content"
+        },
+        "hitInsideTarget": true,
+        "beforeUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "afterUrl": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+        "popupUrls": [
+          "https://www.huaweicloud.com/mobile_app/api_page/appv2/app_download.html?channel=mobileweb_float"
+        ],
+        "consoleErrors": [],
+        "after": {
+          "url": "https://www.huaweicloud.com/agentorchard/tokenplan.html",
+          "scrollY": 708,
+          "bodyLength": 829,
+          "overlayCount": 0,
+          "mutations": 14,
+          "urlChanged": false,
+          "scrollChanged": 0,
+          "bodyLengthDelta": 0,
+          "overlayDelta": 0
+        }
+      }
+    ],
+    "issues": []
+  },
+  "tapActionIssues": [],
+  "after_scroll_ctas": [
+    {
+      "text": "订阅 Token Plan 后时候需要再单独开通模型服务？",
+      "position": "relative",
+      "x": 48,
+      "y": 674,
+      "width": 294,
+      "height": 44
+    },
+    {
+      "text": "售前咨询： 950808转1",
+      "position": "static",
+      "x": 20,
+      "y": 1104,
+      "width": 351,
+      "height": 48
+    },
+    {
+      "text": "立即下载",
+      "position": "static",
+      "x": 248,
+      "y": 795,
+      "width": 106,
+      "height": 32
+    }
+  ],
+  "menu": {
+    "attempted": true,
+    "opened": true,
+    "candidates": [
+      {
+        "index": 0,
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "index": 2,
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂 清空最近搜索 “”的所有结果 账号中心 费用与成本 待支付订单 待续费",
+        "className": "header-bottom-wrapper header-active-nav",
+        "width": 358,
+        "height": 47,
+        "x": 16,
+        "y": 120
+      },
+      {
+        "index": 4,
+        "text": "",
+        "className": "header-menu-search-mb",
+        "width": 24,
+        "height": 25,
+        "x": 270,
+        "y": 131
+      },
+      {
+        "index": 5,
+        "text": "",
+        "className": "header-menu-mb",
+        "width": 28,
+        "height": 48,
+        "x": 346,
+        "y": 120
+      },
+      {
+        "index": 19,
+        "text": "查看更多",
+        "className": "por-link por-link-more",
+        "width": 80,
+        "height": 16,
+        "x": 155,
+        "y": 2160
+      },
+      {
+        "index": 23,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2315
+      },
+      {
+        "index": 24,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2315
+      },
+      {
+        "index": 25,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2315
+      },
+      {
+        "index": 26,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2315
+      },
+      {
+        "index": 27,
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 2331
+      },
+      {
+        "index": 28,
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 2331
+      },
+      {
+        "index": 30,
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 2367
+      },
+      {
+        "index": 31,
+        "text": "",
+        "className": "footer-nav-about",
+        "width": 150,
+        "height": 66,
+        "x": 120,
+        "y": 2388
+      },
+      {
+        "index": 32,
+        "text": "华为云微信 扫描二维码",
+        "className": "footer-nav-submenus-link weixin-sh",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 2396
+      },
+      {
+        "index": 33,
+        "text": "华为云微信小程序 华为云微信小程序",
+        "className": "footer-nav-submenus-link microapp-sh",
+        "width": 34,
+        "height": 34,
+        "x": 178,
+        "y": 2396
+      },
+      {
+        "index": 34,
+        "text": "华为云微博 扫描二维码",
+        "className": "footer-nav-submenus-link ",
+        "width": 34,
+        "height": 34,
+        "x": 228,
+        "y": 2396
+      },
+      {
+        "index": 35,
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 2454
+      },
+      {
+        "index": 43,
+        "text": "联系销售 950808转1 950808转1 云宝助手 产品问题咨询，做懂您的AI助手 智能客服（已升级为云宝助手） 点击右侧，直达AI助手 建议反馈 您的每一",
+        "className": "float-bar-nav",
+        "width": 44,
+        "height": 44,
+        "x": 326,
+        "y": 710
+      }
+    ],
+    "clicked_candidate": {
+      "index": 5,
+      "text": "",
+      "className": "header-menu-mb",
+      "width": 28,
+      "height": 48,
+      "x": 346,
+      "y": 120
+    },
+    "bodyOverflow": "visible",
+    "htmlOverflow": "visible",
+    "overlays": [
+      {
+        "text": "如需了解国际站更多云产品，请访问国际站。https://www.huaweicloud.com/intl/ 不再显示此消息 智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "nav-medium-padding show-top-prompt show-prompt-ip",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 168,
+        "x": 0,
+        "y": 0
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂 清空最近搜索 “”的所有结果 账号中心 费用与成本 待支付订单 待续费产品 未读消息 工单管理 管理控制台 注册 登录 登录 注册 购物车 admin",
+        "className": "header-bottom-wrapper header-active-nav",
+        "position": "relative",
+        "zIndex": "1",
+        "width": 358,
+        "height": 47,
+        "x": 16,
+        "y": 120
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav show",
+        "position": "absolute",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园 智能体 智果 AgentArts 百模千态 Token Plan 行业AI梦工厂",
+        "className": "header-mbnav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 844,
+        "x": 0,
+        "y": 168
+      },
+      {
+        "text": "智果园",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 168
+      },
+      {
+        "text": "智能体",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 214
+      },
+      {
+        "text": "智果 AgentArts",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 260
+      },
+      {
+        "text": "百模千态",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 306
+      },
+      {
+        "text": "Token Plan",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 352
+      },
+      {
+        "text": "行业AI梦工厂",
+        "className": "header-mbnav-item",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 358,
+        "height": 46,
+        "x": 16,
+        "y": 398
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2315
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-wrapper",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 390,
+        "height": 250,
+        "x": 0,
+        "y": 2315
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-content",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2315
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 250,
+        "x": 20,
+        "y": 2315
+      },
+      {
+        "text": "下载华为云App 关注我们 售前咨询： 950808转1 法律声明 隐私政策",
+        "className": "footer-nav-submenus-inner",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 234,
+        "x": 20,
+        "y": 2331
+      },
+      {
+        "text": "下载华为云App",
+        "className": "footer-nav-download",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 20,
+        "x": 20,
+        "y": 2331
+      },
+      {
+        "text": "关注我们",
+        "className": "footer-nav-contact-title",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 21,
+        "x": 20,
+        "y": 2367
+      },
+      {
+        "text": "售前咨询： 950808转1",
+        "className": "footer-nav-contact-icon",
+        "position": "static",
+        "zIndex": "auto",
+        "width": 351,
+        "height": 48,
+        "x": 20,
+        "y": 2454
+      }
+    ],
+    "closeTargets": [
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 16,
+        "y": 87
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 358,
+        "y": 87
+      },
+      {
+        "text": "多模型灵活接入，主流大模型全支持",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 388
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 391
+      },
+      {
+        "text": "全场景代码智能体矩阵，兼容海量开发工具",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 628
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 631
+      },
+      {
+        "text": "多档套餐可选，适配不同使用强度",
+        "width": 302,
+        "height": 22,
+        "x": 44,
+        "y": 677
+      },
+      {
+        "text": "",
+        "width": 16,
+        "height": 16,
+        "x": 330,
+        "y": 680
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1568
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 201,
+        "y": 1568
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1638
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 201,
+        "y": 1638
+      },
+      {
+        "text": "",
+        "width": 153,
+        "height": 58,
+        "x": 36,
+        "y": 1708
+      },
+      {
+        "text": "Flexus云服务",
+        "width": 82,
+        "height": 16,
+        "x": 106,
+        "y": 2283
+      },
+      {
+        "text": "华为云微信 扫描二维码",
+        "width": 34,
+        "height": 34,
+        "x": 128,
+        "y": 2396
+      },
+      {
+        "text": "",
+        "width": 28,
+        "height": 28,
+        "x": 360,
+        "y": 797
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "stage": "感知",
+  "url": "https://www.huaweicloud.com/product/metastudio.html",
+  "title": "404页面_华为云",
+  "score": 8,
+  "is_compliant": true,
+  "issues": [],
+  "suggestions": [],
+  "analysis_content": "Gemini 模型链失败后，由当前 Codex agent 基于已采集 crawl JSON 的阶段达成标记、URL、标题和页面文本生成的保守 fallback 分析。",
+  "screenshot_path": "../../output/web/metastudio/batch-20260720-174406-05/screenshots/screenshot_1_awareness.png",
+  "provider": "current-codex-agent",
+  "model": "agent-fallback",
+  "model_fallback_chain": [
+    "gemini-3.5-flash",
+    "gemini-2.5-flash",
+    "current-codex-agent"
+  ]
+}
